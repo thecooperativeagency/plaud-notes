@@ -1,0 +1,12 @@
+{
+  "revision": "PLAUD-NOTES-2026-08-24-B",
+  "verticals": [
+    {"id": "inbox", "label": "Inbox", "blurb": "Unrouted. You name a dest, or Ada files from context."},
+    {"id": "personal", "label": "Personal", "blurb": "Family, health, travel, disc, home. Not Coop."},
+    {"id": "coop-marketing", "label": "Coop Marketing", "blurb": "Dealer creative, SEO, specials, social, paid, GM packs."},
+    {"id": "coop-dev", "label": "Coop Dev", "blurb": "Agents, Hermes, Store Desk, PhotoGo, Acquire, product."},
+    {"id": "avec-tous", "label": "Avec Tous", "blurb": "Spice brand, kitchen, wholesale, ads, merch."},
+    {"id": "dealers", "label": "Dealers", "blurb": "BHBMW, ABR, BMW Jackson, Harris Porsche. Vendor-brief path."},
+    {"id": "ideas", "label": "Ideas", "blurb": "Parking lot. Not a task until you promote it."}
+  ]
+}
