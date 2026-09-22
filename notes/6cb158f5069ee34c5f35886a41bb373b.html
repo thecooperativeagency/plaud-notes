@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>09-10 Team Meeting: Recall Activation, Project Whiteboard, and Client Accounts</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500&family=IBM+Plex+Mono:wght@400;500&family=Source+Sans+3:wght@400;600;700&display=swap">
+  <style>
+:root {
+  --bg: #090908;
+  --bg-2: #11110f;
+  --bg-3: #181714;
+  --ink: #f0eadc;
+  --muted: #8d8778;
+  --faint: #5c574c;
+  --line: #26241e;
+  --accent: #c4452d;
+  --mustard: #c4a35a;
+  --blue: #6f8fbf;
+  --ok: #7d9a6d;
+  --serif: "Fraunces", "Iowan Old Style", Georgia, serif;
+  --sans: "Source Sans 3", "Source Sans Pro", -apple-system, sans-serif;
+  --mono: "IBM Plex Mono", ui-monospace, monospace;
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html, body { background: var(--bg); color: var(--ink); }
+body {
+  font-family: var(--sans);
+  min-height: 100vh;
+  text-wrap: pretty;
+}
+a { color: inherit; }
+.shell { display: grid; grid-template-columns: 260px 1fr; min-height: 100vh; }
+.rail {
+  border-right: 1px solid var(--line);
+  padding: 28px 18px 40px;
+  background: var(--bg-2);
+  position: sticky; top: 0; height: 100vh; overflow: auto;
+}
+.mark {
+  font-family: var(--serif);
+  font-weight: 500;
+  font-size: 13px;
+  letter-spacing: .18em;
+  text-transform: uppercase;
+  color: var(--accent);
+}
+.rail h1 {
+  font-family: var(--serif);
+  font-size: 28px;
+  font-weight: 460;
+  letter-spacing: -.03em;
+  margin: 10px 0 6px;
+}
+.rail .lede { color: var(--muted); font-size: 13.5px; line-height: 1.45; margin-bottom: 28px; }
+.vnav { display: flex; flex-direction: column; gap: 4px; }
+.vnav a {
+  display: flex; justify-content: space-between; align-items: baseline;
+  text-decoration: none; padding: 9px 10px; border-radius: 8px;
+  color: var(--ink); font-size: 14px;
+}
+.vnav a:hover, .vnav a.is-on { background: var(--bg-3); }
+.vnav a.is-on { box-shadow: inset 2px 0 0 var(--accent); }
+.vnav .count { color: var(--faint); font-family: var(--mono); font-size: 11px; }
+.stage { padding: 36px 40px 80px; max-width: 980px; }
+.kicker {
+  font-size: 11px; letter-spacing: .16em; text-transform: uppercase;
+  color: var(--accent); font-weight: 700; margin-bottom: 8px;
+}
+.stage > h2 {
+  font-family: var(--serif); font-weight: 460; font-size: 34px;
+  letter-spacing: -.03em; margin-bottom: 8px;
+}
+.blurb { color: var(--muted); margin-bottom: 28px; max-width: 46rem; }
+.empty {
+  border: 1px dashed var(--line); border-radius: 14px;
+  padding: 36px 28px; color: var(--muted); background: var(--bg-2);
+}
+.empty strong { color: var(--ink); font-weight: 600; }
+.cards { display: flex; flex-direction: column; gap: 10px; }
+.card {
+  display: grid; grid-template-columns: 1fr auto; gap: 12px;
+  text-decoration: none; padding: 16px 18px; border-radius: 12px;
+  background: var(--bg-2); border: 1px solid var(--line);
+}
+.card:hover { border-color: #3a372e; background: var(--bg-3); }
+.card h3 { font-size: 16px; font-weight: 600; margin-bottom: 4px; }
+.meta { color: var(--muted); font-size: 13px; display: flex; gap: 10px; flex-wrap: wrap; }
+.chip {
+  font-family: var(--mono); font-size: 10px; letter-spacing: .06em;
+  text-transform: uppercase; padding: 3px 7px; border-radius: 999px;
+  border: 1px solid var(--line); color: var(--muted); height: fit-content;
+}
+.chip.dealers { color: var(--blue); border-color: #2a3344; }
+.chip.avec-tous { color: var(--mustard); border-color: #3a3320; }
+.chip.personal { color: #c9a7a0; }
+.chip.ideas { color: var(--ok); }
+.note-top { margin-bottom: 22px; }
+.note-top h2 { font-family: var(--serif); font-size: 36px; font-weight: 460; letter-spacing: -.03em; }
+.tabs { display: flex; gap: 6px; margin: 22px 0 18px; border-bottom: 1px solid var(--line); }
+.tabs button {
+  appearance: none; background: none; border: 0; color: var(--muted);
+  font: 600 13px var(--sans); padding: 10px 12px; cursor: pointer;
+  border-bottom: 2px solid transparent; margin-bottom: -1px;
+}
+.tabs button[aria-selected="true"] { color: var(--ink); border-bottom-color: var(--accent); }
+.panel { display: none; }
+.panel.is-on { display: block; }
+.prose { font-size: 16.5px; line-height: 1.6; max-width: 42rem; }
+.prose h2, .prose h3 { font-family: var(--serif); font-weight: 500; margin: 1.3em 0 .4em; }
+.prose p { margin: 0 0 .8em; }
+.prose ul, .prose ol { margin: 0 0 1em 1.2em; }
+.prose li { margin: .25em 0; }
+.hl { border-left: 2px solid var(--accent); padding: 10px 0 10px 14px; margin: 0 0 14px; }
+.hl .t { font-family: var(--mono); font-size: 11px; color: var(--faint); }
+.hl h4 { font-size: 15px; margin: 4px 0; }
+.hl p { color: var(--muted); font-size: 14.5px; }
+.seg { display: grid; grid-template-columns: 64px 1fr; gap: 12px; padding: 8px 0; border-bottom: 1px solid var(--line); }
+.seg .ts { font-family: var(--mono); font-size: 11px; color: var(--faint); padding-top: 3px; }
+.back { color: var(--muted); text-decoration: none; font-size: 13px; display: inline-block; margin-bottom: 18px; }
+.back:hover { color: var(--ink); }
+footer { margin-top: 48px; color: var(--faint); font-size: 11px; font-family: var(--mono); }
+@media (max-width: 820px) {
+  .shell { grid-template-columns: 1fr; }
+  .rail { position: relative; height: auto; border-right: 0; border-bottom: 1px solid var(--line); }
+  .stage { padding: 24px 18px 64px; }
+  .note-top h2 { font-size: 28px; }
+}
+</style>
+</head>
+<body>
+<div class="shell">
+<aside class="rail">
+  <div class="mark">Cooperative</div>
+  <h1>Field desk</h1>
+  <p class="lede">Plaud landings. Summary, highlights, transcript — filed by life area.</p>
+  <nav class="vnav"><a href="../index.html" class="">All <span class="count">45</span></a><a class="" href="../vertical-inbox.html">Inbox <span class="count">0</span></a><a class="" href="../vertical-personal.html">Personal <span class="count">0</span></a><a class="" href="../vertical-coop-marketing.html">Coop Marketing <span class="count">2</span></a><a class="is-on" href="../vertical-coop-dev.html">Coop Dev <span class="count">8</span></a><a class="" href="../vertical-avec-tous.html">Avec Tous <span class="count">0</span></a><a class="" href="../vertical-dealers.html">Dealers <span class="count">33</span></a><a class="" href="../vertical-ideas.html">Ideas <span class="count">2</span></a></nav>
+</aside>
+<main class="stage">
+  <a class="back" href="../index.html">← Desk</a>
+  <div class="note-top">
+    <div class="kicker">coop-dev · 2026-09-10 · 5m22s</div>
+    <h2>09-10 Team Meeting: Recall Activation, Project Whiteboard, and Client Accounts</h2>
+    <div class="meta" style="margin-top:8px"><span>id 6cb158f5069ee34c5f35886a41bb373b</span><span>inferred</span></div>
+  </div>
+  <div class="tabs" role="tablist">
+    <button type="button" data-panel="sum" aria-selected="true">Summary</button>
+    <button type="button" data-panel="hl" aria-selected="false">Highlights</button>
+    <button type="button" data-panel="tx" aria-selected="false">Transcript</button>
+  </div>
+  <section id="sum" class="panel is-on prose"><h2>1. Recall Activation Discussion with Rick</h2>
+<p>Lance plans to discuss recall activation with Rick, following a recent call with J and L where one participant emphasized its strong capabilities. Despite the higher cost, Lance believes the ROI is compelling. The goal is to evaluate this investment with Rick.</p>
+<h3>Action Items</h3>
+<ul>
+<li>[ ] Discuss recall activation with Rick—cover capabilities, cost, and high ROI insights from the recent J and L call. -- *Ada* *Lance*</li>
+</ul>
+<h2>2. Project Whiteboard Website Development</h2>
+<p>A new website component (“whiteboard”) will be created to manage and visualize all ongoing projects as a mind map. It will be accessible from the top-left of the hub page. The top-left section of the whiteboard will display daily tasks, with older projects organized below.</p>
+<h3>Action Items</h3>
+<ul>
+<li>[ ] Build the digital whiteboard component to display all projects as a mind map, accessible from the top-left of the hub page. -- *Ada*</li>
+</ul>
+<h2>3. VCA Finalization</h2>
+<p>A final meeting is required to confirm VCA settings before activation. Ada will contact Gage to schedule the meeting.</p>
+<h3>Action Items</h3>
+<ul>
+<li>[ ] Email Gage to schedule a meeting on Friday, September 11, 2026, to finalize VCA settings. -- *Ada*</li>
+<li>[ ] Draft the email to Gage for Lance’s review while he is driving to Jackson on September 10, 2026. -- *Ada*</li>
+<li>[ ] Meet with Gage to finalize VCA settings. -- *Ada* *Lance* *Gage* September 11, 2026</li>
+</ul>
+<h2>4. Full Path Contract</h2>
+<p>The Full Path contract needs to be finalized and returned to their representative.</p>
+<h3>Action Items</h3>
+<ul>
+<li>[ ] Sign the Full Path contract and send it back. -- *Lance*</li>
+</ul>
+<h2>5. BMW Jackson Tasks</h2>
+<p>For BMW Jackson, update the ender brief with a note from the JNL meeting on September 9, 2026. Also, request data exports (leads and inventory) from Focus via Alexis for the GM weekly report.</p>
+<h3>Action Items</h3>
+<ul>
+<li>[ ] Finalize the BMW Jackson ender brief with the new JNL note and any other updates. -- *Lance*</li>
+<li>[ ] Email Alexis at Focus to request CSV exports for leads and inventory for BMW Jackson. -- *Ada*</li>
+</ul>
+<h2>6. Harris Porsche GM Weekly and Account Retention</h2>
+<p>Set up the GM weekly report for Harris Porsche by connecting Ada to GA4 data and obtaining the correct Vind Solutions CSVs. As part of retaining the account, focus on services other than social media and inventory photos—Adam prefers on-site handling for those. Emphasize vendor relations, Vind Solutions maintenance/training, VM weekly reports, the vendor brief, the Drivers Cut newsletter, and liaison work for BMW and Brian Harris Group (e.g., Stroll Magazine).</p>
+<h3>Action Items</h3>
+<ul>
+<li>[ ] Connect Ada to GA4 data for Harris Porsche. -- *Ada*</li>
+<li>[ ] Obtain the correct Vind Solutions CSVs for Porsche to build the GM weekly report. -- *Lance*</li>
+<li>[ ] Brainstorm additional non-social-media, non-inventory-photo services to support Harris Porsche retention. -- *Ada*</li>
+</ul>
+<p>&gt; <strong>AI Suggestions</strong> &gt; AI has identified the following unresolved items or unclear next steps; please address: &gt; 1. <strong>Cozy Spooks Project Status:</strong> The project is idle and blocked pending Lance’s bank account finalization. Define a timeline and next step to resolve this dependency. &gt; 2. <strong>November Stroll Content:</strong> After the October piece, November will feature content from each of the three brands. Specify the topics, owners, and production plan. &gt; 3. <strong>Harris Porsche Retention Strategy:</strong> Create a formal proposal outlining the revised service package and set a deadline to present it to Adam to support timely retention.</p></section>
+  <section id="hl" class="panel"><div class='empty'>No device highlights on this take.</div></section>
+  <section id="tx" class="panel"><div class="seg"><div class="ts">0:00</div><div>Right, Ada. This notes for you. I&#x27;m looking through one of the most recent morning ops briefs you sent me. It&#x27;s one from this morning. So we have some options. We can do a. We want to bring up to Rick that phone call that I just had with J and L. I think you&#x27;ve mentioned it in here, but what we want to do is talk to him about the recall.</div></div><div class="seg"><div class="ts">0:30</div><div>Activation. Talking about how much stuff it does. One of the guys on the call actually said some things about it. You should be able to find that in the notes. But that&#x27;s fairly expensive, but I think really good ROI. So we need to talk to him about that. Looking at things that are done that you don&#x27;t know that are done yet. So I did the Stroll for October. That was literally just an X five piece. But what&#x27;s next is. Actually, the November one, and that&#x27;s the one that&#x27;s going to have something from each of the three brands. So we can talk about that later. Go ahead and put that on. What we&#x27;re going to build into what is called we&#x27;re going to call it just our whiteboard. So it&#x27;s almost like if we had a team all standing in front of a whiteboard. Here&#x27;s all of our projects, and we&#x27;re going to have you build a website piece that&#x27;s like that. We&#x27;ll put it like top left of our hub.</div></div><div class="seg"><div class="ts">1:28</div><div>Page so that I can click on it and just see, kind of this mind map of all the different projects we have rolling. Like the top left section of that page of that whiteboard will be, the things that are actually day to day to be done, and then we move down into the older projects. You kind of know what that stuff looks like. VCA, we need to schedule a call, or shoot a text, over to Gage, and. Go ahead and have him meet with us tomorrow, which is Friday, the eleventh. Maybe shoot him an email today, and then you can show me a draft in a little while while I&#x27;m driving to Jackson. We just need to let him know, hey, let&#x27;s meet one more time, so that we can kind of finalize the settings and make sure that when we do turn on VCA, that it actually works. Looking through this morning ops.</div></div><div class="seg"><div class="ts">2:29</div><div>We&#x27;ve got the Cozy Spooks project sitting idle, just waiting for me to finalize some things with the bank account and that kind of thing. Full Path, I do need to go ahead and sign that contract and send that back to the Full Path guy, whatever his name was. What else?</div></div><div class="seg"><div class="ts">2:55</div><div>Finalize the ender brief for BMW Jackson so that it has the new note on it from my JNL meeting yesterday, and whatever other notes we need to have on that in that, on that of it in it of it, and then we also need to send an email over to Alexis at Focus for BMW Jackson, and in that email we need to ask her to build us. Export of a CSV file for our leads and for our inventory. Let that come out of focus, so that you can digest that, ingest that for the GM weekly for BMW Jackson. We need to knock that out. We also need to knock out all of the things necessary to get Harris Porsche GM weekly rolling. You should have, or I should have access to the GA4 data. We just need to make sure you&#x27;re wired to it.</div></div><div class="seg"><div class="ts">3:50</div><div>And then once we get that done, I can get the correct CSV files emailing out of Vind Solutions for Porsche, and we can build that out. I need Adam to see that. We need to do retention for sure to try to keep at least some income from that account and keep it so that we have all three Harris organizations, because he wants to fire us, because we weren&#x27;t doing a good job with the inventory photos or social media in his eyes. Which is fine. He really needs somebody on the ground. Once he has somebody on the ground for social media and inventory photos, he&#x27;ll still need us. Still need me for doing vendor relations, Vind Solutions maintenance, some Vind Solutions training, our VM weeklies, vendor brief, the Drivers Cut newsletter.</div></div><div class="seg"><div class="ts">4:49</div><div>And then also just liaison for all the different things that are BMW that are Brian Harris Group oriented. So like Stroll Magazine, you still have me as a resource for that. And then maybe you can let me know what else comes to mind regarding what we can do for him that&#x27;s not social media and that&#x27;s not inventory photos. I&#x27;m drawing a blank, but. We&#x27;ll talk about that later.</div></div></section>
+</main>
+</div>
+<footer>PLAUD-NOTES-2026-09-17-0600-MORNING · noindex · Plaud sources + notes</footer>
+<script>
+
+document.querySelectorAll('.tabs button').forEach(btn => {
+  btn.addEventListener('click', () => {
+    document.querySelectorAll('.tabs button').forEach(b => b.setAttribute('aria-selected', b===btn ? 'true':'false'));
+    document.querySelectorAll('.panel').forEach(p => p.classList.toggle('is-on', p.id === btn.dataset.panel));
+  });
+});
+
+</script>
+</body>
+</html>

@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>08-25 Meeting: Audi Baton Rouge Service Visit Promotional Email Campaign and Charger Giveaway</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500&family=IBM+Plex+Mono:wght@400;500&family=Source+Sans+3:wght@400;600;700&display=swap">
+  <style>
+:root {
+  --bg: #090908;
+  --bg-2: #11110f;
+  --bg-3: #181714;
+  --ink: #f0eadc;
+  --muted: #8d8778;
+  --faint: #5c574c;
+  --line: #26241e;
+  --accent: #c4452d;
+  --mustard: #c4a35a;
+  --blue: #6f8fbf;
+  --ok: #7d9a6d;
+  --serif: "Fraunces", "Iowan Old Style", Georgia, serif;
+  --sans: "Source Sans 3", "Source Sans Pro", -apple-system, sans-serif;
+  --mono: "IBM Plex Mono", ui-monospace, monospace;
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html, body { background: var(--bg); color: var(--ink); }
+body {
+  font-family: var(--sans);
+  min-height: 100vh;
+  text-wrap: pretty;
+}
+a { color: inherit; }
+.shell { display: grid; grid-template-columns: 260px 1fr; min-height: 100vh; }
+.rail {
+  border-right: 1px solid var(--line);
+  padding: 28px 18px 40px;
+  background: var(--bg-2);
+  position: sticky; top: 0; height: 100vh; overflow: auto;
+}
+.mark {
+  font-family: var(--serif);
+  font-weight: 500;
+  font-size: 13px;
+  letter-spacing: .18em;
+  text-transform: uppercase;
+  color: var(--accent);
+}
+.rail h1 {
+  font-family: var(--serif);
+  font-size: 28px;
+  font-weight: 460;
+  letter-spacing: -.03em;
+  margin: 10px 0 6px;
+}
+.rail .lede { color: var(--muted); font-size: 13.5px; line-height: 1.45; margin-bottom: 28px; }
+.vnav { display: flex; flex-direction: column; gap: 4px; }
+.vnav a {
+  display: flex; justify-content: space-between; align-items: baseline;
+  text-decoration: none; padding: 9px 10px; border-radius: 8px;
+  color: var(--ink); font-size: 14px;
+}
+.vnav a:hover, .vnav a.is-on { background: var(--bg-3); }
+.vnav a.is-on { box-shadow: inset 2px 0 0 var(--accent); }
+.vnav .count { color: var(--faint); font-family: var(--mono); font-size: 11px; }
+.stage { padding: 36px 40px 80px; max-width: 980px; }
+.kicker {
+  font-size: 11px; letter-spacing: .16em; text-transform: uppercase;
+  color: var(--accent); font-weight: 700; margin-bottom: 8px;
+}
+.stage > h2 {
+  font-family: var(--serif); font-weight: 460; font-size: 34px;
+  letter-spacing: -.03em; margin-bottom: 8px;
+}
+.blurb { color: var(--muted); margin-bottom: 28px; max-width: 46rem; }
+.empty {
+  border: 1px dashed var(--line); border-radius: 14px;
+  padding: 36px 28px; color: var(--muted); background: var(--bg-2);
+}
+.empty strong { color: var(--ink); font-weight: 600; }
+.cards { display: flex; flex-direction: column; gap: 10px; }
+.card {
+  display: grid; grid-template-columns: 1fr auto; gap: 12px;
+  text-decoration: none; padding: 16px 18px; border-radius: 12px;
+  background: var(--bg-2); border: 1px solid var(--line);
+}
+.card:hover { border-color: #3a372e; background: var(--bg-3); }
+.card h3 { font-size: 16px; font-weight: 600; margin-bottom: 4px; }
+.meta { color: var(--muted); font-size: 13px; display: flex; gap: 10px; flex-wrap: wrap; }
+.chip {
+  font-family: var(--mono); font-size: 10px; letter-spacing: .06em;
+  text-transform: uppercase; padding: 3px 7px; border-radius: 999px;
+  border: 1px solid var(--line); color: var(--muted); height: fit-content;
+}
+.chip.dealers { color: var(--blue); border-color: #2a3344; }
+.chip.avec-tous { color: var(--mustard); border-color: #3a3320; }
+.chip.personal { color: #c9a7a0; }
+.chip.ideas { color: var(--ok); }
+.note-top { margin-bottom: 22px; }
+.note-top h2 { font-family: var(--serif); font-size: 36px; font-weight: 460; letter-spacing: -.03em; }
+.tabs { display: flex; gap: 6px; margin: 22px 0 18px; border-bottom: 1px solid var(--line); }
+.tabs button {
+  appearance: none; background: none; border: 0; color: var(--muted);
+  font: 600 13px var(--sans); padding: 10px 12px; cursor: pointer;
+  border-bottom: 2px solid transparent; margin-bottom: -1px;
+}
+.tabs button[aria-selected="true"] { color: var(--ink); border-bottom-color: var(--accent); }
+.panel { display: none; }
+.panel.is-on { display: block; }
+.prose { font-size: 16.5px; line-height: 1.6; max-width: 42rem; }
+.prose h2, .prose h3 { font-family: var(--serif); font-weight: 500; margin: 1.3em 0 .4em; }
+.prose p { margin: 0 0 .8em; }
+.prose ul, .prose ol { margin: 0 0 1em 1.2em; }
+.prose li { margin: .25em 0; }
+.hl { border-left: 2px solid var(--accent); padding: 10px 0 10px 14px; margin: 0 0 14px; }
+.hl .t { font-family: var(--mono); font-size: 11px; color: var(--faint); }
+.hl h4 { font-size: 15px; margin: 4px 0; }
+.hl p { color: var(--muted); font-size: 14.5px; }
+.seg { display: grid; grid-template-columns: 64px 1fr; gap: 12px; padding: 8px 0; border-bottom: 1px solid var(--line); }
+.seg .ts { font-family: var(--mono); font-size: 11px; color: var(--faint); padding-top: 3px; }
+.back { color: var(--muted); text-decoration: none; font-size: 13px; display: inline-block; margin-bottom: 18px; }
+.back:hover { color: var(--ink); }
+footer { margin-top: 48px; color: var(--faint); font-size: 11px; font-family: var(--mono); }
+@media (max-width: 820px) {
+  .shell { grid-template-columns: 1fr; }
+  .rail { position: relative; height: auto; border-right: 0; border-bottom: 1px solid var(--line); }
+  .stage { padding: 24px 18px 64px; }
+  .note-top h2 { font-size: 28px; }
+}
+</style>
+</head>
+<body>
+<div class="shell">
+<aside class="rail">
+  <div class="mark">Cooperative</div>
+  <h1>Field desk</h1>
+  <p class="lede">Plaud landings. Summary, highlights, transcript — filed by life area.</p>
+  <nav class="vnav"><a href="../index.html" class="">All <span class="count">45</span></a><a class="" href="../vertical-inbox.html">Inbox <span class="count">0</span></a><a class="" href="../vertical-personal.html">Personal <span class="count">0</span></a><a class="" href="../vertical-coop-marketing.html">Coop Marketing <span class="count">2</span></a><a class="" href="../vertical-coop-dev.html">Coop Dev <span class="count">8</span></a><a class="" href="../vertical-avec-tous.html">Avec Tous <span class="count">0</span></a><a class="is-on" href="../vertical-dealers.html">Dealers <span class="count">33</span></a><a class="" href="../vertical-ideas.html">Ideas <span class="count">2</span></a></nav>
+</aside>
+<main class="stage">
+  <a class="back" href="../index.html">← Desk</a>
+  <div class="note-top">
+    <div class="kicker">dealers · 2026-08-25 · 2m20s</div>
+    <h2>08-25 Meeting: Audi Baton Rouge Service Visit Promotional Email Campaign and Charger Giveaway</h2>
+    <div class="meta" style="margin-top:8px"><span>id 15ced2da93e7b7c1b61f8e099e2e9f1b</span><span>inferred</span></div>
+  </div>
+  <div class="tabs" role="tablist">
+    <button type="button" data-panel="sum" aria-selected="true">Summary</button>
+    <button type="button" data-panel="hl" aria-selected="false">Highlights</button>
+    <button type="button" data-panel="tx" aria-selected="false">Transcript</button>
+  </div>
+  <section id="sum" class="panel is-on prose"><h2>ABR service charger giveaway email</h2>
+<p>Call with an Audi of Baton Rouge contact about a store-branded multi-charger (phone + Apple Watch). He had them made as promo merch — six cases at home. Not an OEM Audi part; it says Audi of Baton Rouge.</p>
+<p>Offer they agreed: every service visit gets one free. Goal is getting people in the door (he said even a tire rotation is fine). Test-drive giveaway is optional and up to Chad / the store.</p>
+<p>Lance is going to the rooftop to shoot the real unit. Spoken work order after the call: build a small campaign with the charger as the <strong>header</strong> on the classic Audi service-offers email — update the existing template rather than start from scratch. He will send the photograph for the new content shortly.</p>
+<p><strong>Dest:</strong> dealers / abr (inferred — rooftop + service email; calendar title on the raw file was a BHBMW AMP reminder and is wrong). <strong>Disposition:</strong> go — get the email ready; photo is inbound. <strong>Not sent:</strong> customer email stays unsent until Lance approves. <strong>Vendor-brief path:</strong> not taken. Informal promo/email work order, not a GM vendor/demo meeting. <code>dealership-gm-vendor-briefs</code> skill is not installed.</p></section>
+  <section id="hl" class="panel"><div class='empty'>No device highlights on this take.</div></section>
+  <section id="tx" class="panel"><div class="seg"><div class="ts">0:13</div><div>Let&#x27;s do it.</div></div><div class="seg"><div class="ts">0:14</div><div>Hey, what&#x27;s up, man? How are you?</div></div><div class="seg"><div class="ts">0:16</div><div>Hello, bro.</div></div><div class="seg"><div class="ts">0:17</div><div>So, your little charger gadget. Is that like an Audi part? Where&#x27;d you get that?</div></div><div class="seg"><div class="ts">0:25</div><div>Well, I got them made. It&#x27;s from like a, like a, Yeah, promotional shit.</div></div><div class="seg"><div class="ts">0:32</div><div>Okay, cool.</div></div><div class="seg"><div class="ts">0:33</div><div>It&#x27;s not really an Audi car, but it does say Audi of Baton Rouge. I can send you pictures of the real item if you want.</div></div><div class="seg"><div class="ts">0:38</div><div>No, I&#x27;ll come right over there. I&#x27;m just going to look and see if it was something that I could easily grab a picture from, you know, wherever.</div></div><div class="seg"><div class="ts">0:46</div><div>Oh, yeah.</div></div><div class="seg"><div class="ts">0:46</div><div>But I&#x27;m going to come by and actually shoot a picture of the real thing.</div></div><div class="seg"><div class="ts">0:51</div><div>Yeah.</div></div><div class="seg"><div class="ts">0:51</div><div>And then we&#x27;ll make a little...</div></div><div class="seg"><div class="ts">0:52</div><div>I got like 6 cases at home.</div></div><div class="seg"><div class="ts">0:55</div><div>Sweet. Yeah. That&#x27;s awesome, dude. Yeah. So we&#x27;ll run a whole... What? Every time anybody comes in for a service visit gets one free.</div></div><div class="seg"><div class="ts">1:03</div><div>Yeah. I mean, they think I&#x27;m in just to get their tires rotated. I don&#x27;t care. Just to get them in the door.</div></div><div class="seg"><div class="ts">1:08</div><div>Oh, yeah. I love it. Awesome.</div></div><div class="seg"><div class="ts">1:10</div><div>I&#x27;ll see you in a little bit. I threw it to them at the meeting. If they want to do something like somebody come in for a test drive and you give them one and we put something on there, we can do that too. But that&#x27;s up to Chad and whatever they want to do. Oh, I like it. Let me know when you take pictures. However you want to do it.</div></div><div class="seg"><div class="ts">1:27</div><div>Sweet. Thank you, man.</div></div><div class="seg"><div class="ts">1:28</div><div>All right, no problem. All right, bye.</div></div><div class="seg"><div class="ts">1:33</div><div>Yeah, so that&#x27;s basically he&#x27;s got a little multi-charger that charges your phone and I think a phone and an Apple Watch and he&#x27;s got it branded to Audi Baton Rouge. I want to make a little campaign where we do a, you know, when you come in for service, you&#x27;ll get a free charger.</div></div><div class="seg"><div class="ts">1:50</div><div>So we&#x27;re going to do a little campaign for that. And what we&#x27;ll do is we&#x27;ll do that as the header and under it, it&#x27;ll be like the classic Audi service offers e-mail. So we can just update that. We probably have one in the system that we can just add some content to the top of it. I&#x27;m going to run over to that dealership and get some pictures and then kind of go ahead and get ready once you get this note. And in just a little while, I&#x27;ll send you the photograph we need for that new content, for that new e-mail offer.</div></div></section>
+</main>
+</div>
+<footer>PLAUD-NOTES-2026-09-17-0600-MORNING · noindex · Plaud sources + notes</footer>
+<script>
+
+document.querySelectorAll('.tabs button').forEach(btn => {
+  btn.addEventListener('click', () => {
+    document.querySelectorAll('.tabs button').forEach(b => b.setAttribute('aria-selected', b===btn ? 'true':'false'));
+    document.querySelectorAll('.panel').forEach(p => p.classList.toggle('is-on', p.id === btn.dataset.panel));
+  });
+});
+
+</script>
+</body>
+</html>

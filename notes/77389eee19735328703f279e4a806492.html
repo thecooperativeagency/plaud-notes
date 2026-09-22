@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>09-02 Weekly Meeting: Audi Q5 Pricing and Lead Management</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500&family=IBM+Plex+Mono:wght@400;500&family=Source+Sans+3:wght@400;600;700&display=swap">
+  <style>
+:root {
+  --bg: #090908;
+  --bg-2: #11110f;
+  --bg-3: #181714;
+  --ink: #f0eadc;
+  --muted: #8d8778;
+  --faint: #5c574c;
+  --line: #26241e;
+  --accent: #c4452d;
+  --mustard: #c4a35a;
+  --blue: #6f8fbf;
+  --ok: #7d9a6d;
+  --serif: "Fraunces", "Iowan Old Style", Georgia, serif;
+  --sans: "Source Sans 3", "Source Sans Pro", -apple-system, sans-serif;
+  --mono: "IBM Plex Mono", ui-monospace, monospace;
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html, body { background: var(--bg); color: var(--ink); }
+body {
+  font-family: var(--sans);
+  min-height: 100vh;
+  text-wrap: pretty;
+}
+a { color: inherit; }
+.shell { display: grid; grid-template-columns: 260px 1fr; min-height: 100vh; }
+.rail {
+  border-right: 1px solid var(--line);
+  padding: 28px 18px 40px;
+  background: var(--bg-2);
+  position: sticky; top: 0; height: 100vh; overflow: auto;
+}
+.mark {
+  font-family: var(--serif);
+  font-weight: 500;
+  font-size: 13px;
+  letter-spacing: .18em;
+  text-transform: uppercase;
+  color: var(--accent);
+}
+.rail h1 {
+  font-family: var(--serif);
+  font-size: 28px;
+  font-weight: 460;
+  letter-spacing: -.03em;
+  margin: 10px 0 6px;
+}
+.rail .lede { color: var(--muted); font-size: 13.5px; line-height: 1.45; margin-bottom: 28px; }
+.vnav { display: flex; flex-direction: column; gap: 4px; }
+.vnav a {
+  display: flex; justify-content: space-between; align-items: baseline;
+  text-decoration: none; padding: 9px 10px; border-radius: 8px;
+  color: var(--ink); font-size: 14px;
+}
+.vnav a:hover, .vnav a.is-on { background: var(--bg-3); }
+.vnav a.is-on { box-shadow: inset 2px 0 0 var(--accent); }
+.vnav .count { color: var(--faint); font-family: var(--mono); font-size: 11px; }
+.stage { padding: 36px 40px 80px; max-width: 980px; }
+.kicker {
+  font-size: 11px; letter-spacing: .16em; text-transform: uppercase;
+  color: var(--accent); font-weight: 700; margin-bottom: 8px;
+}
+.stage > h2 {
+  font-family: var(--serif); font-weight: 460; font-size: 34px;
+  letter-spacing: -.03em; margin-bottom: 8px;
+}
+.blurb { color: var(--muted); margin-bottom: 28px; max-width: 46rem; }
+.empty {
+  border: 1px dashed var(--line); border-radius: 14px;
+  padding: 36px 28px; color: var(--muted); background: var(--bg-2);
+}
+.empty strong { color: var(--ink); font-weight: 600; }
+.cards { display: flex; flex-direction: column; gap: 10px; }
+.card {
+  display: grid; grid-template-columns: 1fr auto; gap: 12px;
+  text-decoration: none; padding: 16px 18px; border-radius: 12px;
+  background: var(--bg-2); border: 1px solid var(--line);
+}
+.card:hover { border-color: #3a372e; background: var(--bg-3); }
+.card h3 { font-size: 16px; font-weight: 600; margin-bottom: 4px; }
+.meta { color: var(--muted); font-size: 13px; display: flex; gap: 10px; flex-wrap: wrap; }
+.chip {
+  font-family: var(--mono); font-size: 10px; letter-spacing: .06em;
+  text-transform: uppercase; padding: 3px 7px; border-radius: 999px;
+  border: 1px solid var(--line); color: var(--muted); height: fit-content;
+}
+.chip.dealers { color: var(--blue); border-color: #2a3344; }
+.chip.avec-tous { color: var(--mustard); border-color: #3a3320; }
+.chip.personal { color: #c9a7a0; }
+.chip.ideas { color: var(--ok); }
+.note-top { margin-bottom: 22px; }
+.note-top h2 { font-family: var(--serif); font-size: 36px; font-weight: 460; letter-spacing: -.03em; }
+.tabs { display: flex; gap: 6px; margin: 22px 0 18px; border-bottom: 1px solid var(--line); }
+.tabs button {
+  appearance: none; background: none; border: 0; color: var(--muted);
+  font: 600 13px var(--sans); padding: 10px 12px; cursor: pointer;
+  border-bottom: 2px solid transparent; margin-bottom: -1px;
+}
+.tabs button[aria-selected="true"] { color: var(--ink); border-bottom-color: var(--accent); }
+.panel { display: none; }
+.panel.is-on { display: block; }
+.prose { font-size: 16.5px; line-height: 1.6; max-width: 42rem; }
+.prose h2, .prose h3 { font-family: var(--serif); font-weight: 500; margin: 1.3em 0 .4em; }
+.prose p { margin: 0 0 .8em; }
+.prose ul, .prose ol { margin: 0 0 1em 1.2em; }
+.prose li { margin: .25em 0; }
+.hl { border-left: 2px solid var(--accent); padding: 10px 0 10px 14px; margin: 0 0 14px; }
+.hl .t { font-family: var(--mono); font-size: 11px; color: var(--faint); }
+.hl h4 { font-size: 15px; margin: 4px 0; }
+.hl p { color: var(--muted); font-size: 14.5px; }
+.seg { display: grid; grid-template-columns: 64px 1fr; gap: 12px; padding: 8px 0; border-bottom: 1px solid var(--line); }
+.seg .ts { font-family: var(--mono); font-size: 11px; color: var(--faint); padding-top: 3px; }
+.back { color: var(--muted); text-decoration: none; font-size: 13px; display: inline-block; margin-bottom: 18px; }
+.back:hover { color: var(--ink); }
+footer { margin-top: 48px; color: var(--faint); font-size: 11px; font-family: var(--mono); }
+@media (max-width: 820px) {
+  .shell { grid-template-columns: 1fr; }
+  .rail { position: relative; height: auto; border-right: 0; border-bottom: 1px solid var(--line); }
+  .stage { padding: 24px 18px 64px; }
+  .note-top h2 { font-size: 28px; }
+}
+</style>
+</head>
+<body>
+<div class="shell">
+<aside class="rail">
+  <div class="mark">Cooperative</div>
+  <h1>Field desk</h1>
+  <p class="lede">Plaud landings. Summary, highlights, transcript — filed by life area.</p>
+  <nav class="vnav"><a href="../index.html" class="">All <span class="count">45</span></a><a class="" href="../vertical-inbox.html">Inbox <span class="count">0</span></a><a class="" href="../vertical-personal.html">Personal <span class="count">0</span></a><a class="" href="../vertical-coop-marketing.html">Coop Marketing <span class="count">2</span></a><a class="" href="../vertical-coop-dev.html">Coop Dev <span class="count">8</span></a><a class="" href="../vertical-avec-tous.html">Avec Tous <span class="count">0</span></a><a class="is-on" href="../vertical-dealers.html">Dealers <span class="count">33</span></a><a class="" href="../vertical-ideas.html">Ideas <span class="count">2</span></a></nav>
+</aside>
+<main class="stage">
+  <a class="back" href="../index.html">← Desk</a>
+  <div class="note-top">
+    <div class="kicker">dealers · 2026-09-02 · 2m31s</div>
+    <h2>09-02 Weekly Meeting: Audi Q5 Pricing and Lead Management</h2>
+    <div class="meta" style="margin-top:8px"><span>id 77389eee19735328703f279e4a806492</span><span>inferred</span></div>
+  </div>
+  <div class="tabs" role="tablist">
+    <button type="button" data-panel="sum" aria-selected="true">Summary</button>
+    <button type="button" data-panel="hl" aria-selected="false">Highlights</button>
+    <button type="button" data-panel="tx" aria-selected="false">Transcript</button>
+  </div>
+  <section id="sum" class="panel is-on prose"><h2>Meeting Information</h2>
+<p>&gt; Date: 2026-09-02 11:03:14 &gt; Location: [Insert Location] &gt; Participants: [Speaker 1] [Lance] [Brent]</p>
+<h2>Meeting Notes</h2>
+<ul>
+<li>Pricing update for Audi Q5 specials</li>
+<p>  - Speaker 1 proposes setting the Q5 price at 2600 (context implies a pricing figure on specials).   - Lance agrees to update the specials page and the email with the new Q5 price.   - Speaker 1 is skeptical about the impact but willing to try.   - Conclusion: Lance will update the Q5 pricing to 2600 on both the specials page and the related email.</p>
+<li>Opt-in requirements for messaging leads</li>
+<p>  - Speaker 1 raises concern that required customer opt-in may make the initiative “worthless.”   - Lance acknowledges opt-in is a barrier and suggests the first message should clearly reference the lead and ask for consent.   - Lance has had one initial talk with the onboarding rep and has a longer talk scheduled next week.   - Lance will ensure opt-in handling and “stop the clock” logic are addressed in the upcoming conversation.   - Conclusion: Lance will discuss the opt-in approach and lead timing/visibility (“stop the clock”) with the rep in the scheduled meeting next week.</p>
+<li>“Stop the clock” on lead response timing</li>
+<p>  - Lance explains the original goal was to help salespeople track activity and manage response timing.   - They intend to maintain a visibility mechanism so Speaker 1 knows status.   - Conclusion: To be refined in the upcoming rep conversation alongside opt-in.</p>
+<li>Brief team introductions and lead status</li>
+<p>  - Brent is introduced; last name confirmed as Strain.   - Speaker 1 mentions one working lead with issues (bad credit and background).   - Lance departs, asking to be informed if other numbers need changes.   - Conclusion: Acknowledge current lead challenges; potential for further pricing adjustments if needed.</p>
+</ul>
+<h2>Next Arrangements</h2>
+<ul>
+<li>[ ] Update specials page and email with Q5 pricing set to 2600</li>
+<li>[ ] Provide a visibility mechanism for sales to track lead status post-opt-in workflow</li>
+<li>[ ] Lance to meet with the onboarding rep next week to clarify opt-in messaging and “stop the clock” logic</li>
+<li>[ ] Inform Lance of any additional pricing changes needed</li>
+</ul>
+<h2>AI Suggestions</h2>
+<p>&gt; AI Suggestions &gt; AI has identified the following issues that were not concluded in the meeting or lack clear action items; please pay attention: &gt; 1. Define the exact messaging copy for the initial opt-in request to maximize response rates and compliance. &gt; 2. Establish clear metrics for “stop the clock” (e.g., when timing pauses/resumes) and how status is surfaced to sales. &gt; 3. Clarify what “2600 on Q5s” specifically refers to (price, payment, discount) to avoid miscommunication in marketing materials. &gt; 4. Create a plan to handle leads with bad credit/background, including alternative financing or qualification workflows.</p></section>
+  <section id="hl" class="panel"><div class='empty'>No device highlights on this take.</div></section>
+  <section id="tx" class="panel"><div class="seg"><div class="ts">0:00</div><div>What&#x27;s up,</div></div><div class="seg"><div class="ts">0:00</div><div>Man? What you got? What you got happening? What we want to do different?</div></div><div class="seg"><div class="ts">0:05</div><div>To that email. I don&#x27;t know. I was maybe thinking. I think I&#x27;m gonna go to 2600 on the on the Q5s.</div></div><div class="seg"><div class="ts">0:13</div><div>2600 on Q5s. All right. I can update that on the specials page and the email and shit. Yeah,</div></div><div class="seg"><div class="ts">0:19</div><div>No big deal. I just need. What else? We can sell some cars, bro. Yeah, we do. I don&#x27;t think this is gonna. Really help, but we&#x27;ll see.</div></div><div class="seg"><div class="ts">0:30</div><div>I mean, everything helps a little bit.</div></div><div class="seg"><div class="ts">0:38</div><div>Yeah. Yeah. I guess if we can just — did they say anything about that opting in shit right now?</div></div><div class="seg"><div class="ts">0:52</div><div>What you mean the opting in shit? Oh no, no, I haven&#x27;t, I haven&#x27;t talked to him yet. You talking about for the?</div></div><div class="seg"><div class="ts">0:57</div><div>I mean, it&#x27;s pretty much worthless if. If we if they have to opt in,</div></div><div class="seg"><div class="ts">1:01</div><div>Right? Yeah, that&#x27;s a that&#x27;s a little bit of a hill to climb. Yeah. So nobody. I mean. Yeah, well, it ruins the whole concept of it being a natural. Well, I guess I don&#x27;t know. People aren&#x27;t getting used to that. As long as the first message actually makes sense. Yeah. Something like, &quot; Hey, we&#x27;re trying to respond to that lead you sent in. Say yes if it&#x27;s okay.&quot; So I have to look at all the different avenues. It&#x27;s so early in that I&#x27;ve only had one talk with our rep that&#x27;s that&#x27;s helping us onboard that, and so he and I are actually scheduled this coming week for a longer talk. So I&#x27;ll make sure that ends up in that conversation, and then yeah, not only stop the clock, but make sure we&#x27;re leaving a way for you to know. I would I would love that. I mean, as far as stopped.</div></div><div class="seg"><div class="ts">1:55</div><div>Stopping the clock originally was because salespeople and you guys had a hard time telling what was. Yeah. What&#x27;s up, man? How are you? Brent. Yeah. Brent. Good to meet you. Good to meet you. What&#x27;s up, dude? Good to see you. What&#x27;s your last name? Strain. Strain. Okay.</div></div><div class="seg"><div class="ts">2:10</div><div>Yeah. Uh, not. We we did have one working. I don&#x27;t. Oh, okay. I don&#x27;t think. Yeah, bad credit. Bad background.</div></div><div class="seg"><div class="ts">2:26</div><div>All right, I&#x27;mma roll. Let me know if you want to change some other numbers.</div></div><div class="seg"><div class="ts">2:28</div><div>Yeah, for sure.</div></div></section>
+</main>
+</div>
+<footer>PLAUD-NOTES-2026-09-17-0600-MORNING · noindex · Plaud sources + notes</footer>
+<script>
+
+document.querySelectorAll('.tabs button').forEach(btn => {
+  btn.addEventListener('click', () => {
+    document.querySelectorAll('.tabs button').forEach(b => b.setAttribute('aria-selected', b===btn ? 'true':'false'));
+    document.querySelectorAll('.panel').forEach(p => p.classList.toggle('is-on', p.id === btn.dataset.panel));
+  });
+});
+
+</script>
+</body>
+</html>

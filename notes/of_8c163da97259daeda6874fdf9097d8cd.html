@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>09-21 Consultation: Lance - Kip and King Marketing</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500&family=IBM+Plex+Mono:wght@400;500&family=Source+Sans+3:wght@400;600;700&display=swap">
+  <style>
+:root {
+  --bg: #090908;
+  --bg-2: #11110f;
+  --bg-3: #181714;
+  --ink: #f0eadc;
+  --muted: #8d8778;
+  --faint: #5c574c;
+  --line: #26241e;
+  --accent: #c4452d;
+  --mustard: #c4a35a;
+  --blue: #6f8fbf;
+  --ok: #7d9a6d;
+  --serif: "Fraunces", "Iowan Old Style", Georgia, serif;
+  --sans: "Source Sans 3", "Source Sans Pro", -apple-system, sans-serif;
+  --mono: "IBM Plex Mono", ui-monospace, monospace;
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html, body { background: var(--bg); color: var(--ink); }
+body {
+  font-family: var(--sans);
+  min-height: 100vh;
+  text-wrap: pretty;
+}
+a { color: inherit; }
+.shell { display: grid; grid-template-columns: 260px 1fr; min-height: 100vh; }
+.rail {
+  border-right: 1px solid var(--line);
+  padding: 28px 18px 40px;
+  background: var(--bg-2);
+  position: sticky; top: 0; height: 100vh; overflow: auto;
+}
+.mark {
+  font-family: var(--serif);
+  font-weight: 500;
+  font-size: 13px;
+  letter-spacing: .18em;
+  text-transform: uppercase;
+  color: var(--accent);
+}
+.rail h1 {
+  font-family: var(--serif);
+  font-size: 28px;
+  font-weight: 460;
+  letter-spacing: -.03em;
+  margin: 10px 0 6px;
+}
+.rail .lede { color: var(--muted); font-size: 13.5px; line-height: 1.45; margin-bottom: 28px; }
+.vnav { display: flex; flex-direction: column; gap: 4px; }
+.vnav a {
+  display: flex; justify-content: space-between; align-items: baseline;
+  text-decoration: none; padding: 9px 10px; border-radius: 8px;
+  color: var(--ink); font-size: 14px;
+}
+.vnav a:hover, .vnav a.is-on { background: var(--bg-3); }
+.vnav a.is-on { box-shadow: inset 2px 0 0 var(--accent); }
+.vnav .count { color: var(--faint); font-family: var(--mono); font-size: 11px; }
+.stage { padding: 36px 40px 80px; max-width: 980px; }
+.kicker {
+  font-size: 11px; letter-spacing: .16em; text-transform: uppercase;
+  color: var(--accent); font-weight: 700; margin-bottom: 8px;
+}
+.stage > h2 {
+  font-family: var(--serif); font-weight: 460; font-size: 34px;
+  letter-spacing: -.03em; margin-bottom: 8px;
+}
+.blurb { color: var(--muted); margin-bottom: 28px; max-width: 46rem; }
+.empty {
+  border: 1px dashed var(--line); border-radius: 14px;
+  padding: 36px 28px; color: var(--muted); background: var(--bg-2);
+}
+.empty strong { color: var(--ink); font-weight: 600; }
+.cards { display: flex; flex-direction: column; gap: 10px; }
+.card {
+  display: grid; grid-template-columns: 1fr auto; gap: 12px;
+  text-decoration: none; padding: 16px 18px; border-radius: 12px;
+  background: var(--bg-2); border: 1px solid var(--line);
+}
+.card:hover { border-color: #3a372e; background: var(--bg-3); }
+.card h3 { font-size: 16px; font-weight: 600; margin-bottom: 4px; }
+.meta { color: var(--muted); font-size: 13px; display: flex; gap: 10px; flex-wrap: wrap; }
+.chip {
+  font-family: var(--mono); font-size: 10px; letter-spacing: .06em;
+  text-transform: uppercase; padding: 3px 7px; border-radius: 999px;
+  border: 1px solid var(--line); color: var(--muted); height: fit-content;
+}
+.chip.dealers { color: var(--blue); border-color: #2a3344; }
+.chip.avec-tous { color: var(--mustard); border-color: #3a3320; }
+.chip.personal { color: #c9a7a0; }
+.chip.ideas { color: var(--ok); }
+.note-top { margin-bottom: 22px; }
+.note-top h2 { font-family: var(--serif); font-size: 36px; font-weight: 460; letter-spacing: -.03em; }
+.tabs { display: flex; gap: 6px; margin: 22px 0 18px; border-bottom: 1px solid var(--line); }
+.tabs button {
+  appearance: none; background: none; border: 0; color: var(--muted);
+  font: 600 13px var(--sans); padding: 10px 12px; cursor: pointer;
+  border-bottom: 2px solid transparent; margin-bottom: -1px;
+}
+.tabs button[aria-selected="true"] { color: var(--ink); border-bottom-color: var(--accent); }
+.panel { display: none; }
+.panel.is-on { display: block; }
+.prose { font-size: 16.5px; line-height: 1.6; max-width: 42rem; }
+.prose h2, .prose h3 { font-family: var(--serif); font-weight: 500; margin: 1.3em 0 .4em; }
+.prose p { margin: 0 0 .8em; }
+.prose ul, .prose ol { margin: 0 0 1em 1.2em; }
+.prose li { margin: .25em 0; }
+.hl { border-left: 2px solid var(--accent); padding: 10px 0 10px 14px; margin: 0 0 14px; }
+.hl .t { font-family: var(--mono); font-size: 11px; color: var(--faint); }
+.hl h4 { font-size: 15px; margin: 4px 0; }
+.hl p { color: var(--muted); font-size: 14.5px; }
+.seg { display: grid; grid-template-columns: 64px 1fr; gap: 12px; padding: 8px 0; border-bottom: 1px solid var(--line); }
+.seg .ts { font-family: var(--mono); font-size: 11px; color: var(--faint); padding-top: 3px; }
+.back { color: var(--muted); text-decoration: none; font-size: 13px; display: inline-block; margin-bottom: 18px; }
+.back:hover { color: var(--ink); }
+footer { margin-top: 48px; color: var(--faint); font-size: 11px; font-family: var(--mono); }
+@media (max-width: 820px) {
+  .shell { grid-template-columns: 1fr; }
+  .rail { position: relative; height: auto; border-right: 0; border-bottom: 1px solid var(--line); }
+  .stage { padding: 24px 18px 64px; }
+  .note-top h2 { font-size: 28px; }
+}
+</style>
+</head>
+<body>
+<div class="shell">
+<aside class="rail">
+  <div class="mark">Cooperative</div>
+  <h1>Field desk</h1>
+  <p class="lede">Plaud landings. Summary, highlights, transcript — filed by life area.</p>
+  <nav class="vnav"><a href="../index.html" class="">All <span class="count">45</span></a><a class="" href="../vertical-inbox.html">Inbox <span class="count">0</span></a><a class="" href="../vertical-personal.html">Personal <span class="count">0</span></a><a class="is-on" href="../vertical-coop-marketing.html">Coop Marketing <span class="count">2</span></a><a class="" href="../vertical-coop-dev.html">Coop Dev <span class="count">8</span></a><a class="" href="../vertical-avec-tous.html">Avec Tous <span class="count">0</span></a><a class="" href="../vertical-dealers.html">Dealers <span class="count">33</span></a><a class="" href="../vertical-ideas.html">Ideas <span class="count">2</span></a></nav>
+</aside>
+<main class="stage">
+  <a class="back" href="../index.html">← Desk</a>
+  <div class="note-top">
+    <div class="kicker">coop-marketing · 2026-09-21 · 6m26s</div>
+    <h2>09-21 Consultation: Lance - Kip and King Marketing</h2>
+    <div class="meta" style="margin-top:8px"><span>id of_8c163da97259daeda6874fdf9097d8cd</span><span>inferred</span></div>
+  </div>
+  <div class="tabs" role="tablist">
+    <button type="button" data-panel="sum" aria-selected="true">Summary</button>
+    <button type="button" data-panel="hl" aria-selected="false">Highlights</button>
+    <button type="button" data-panel="tx" aria-selected="false">Transcript</button>
+  </div>
+  <section id="sum" class="panel is-on prose"><p>Date &amp; Time: 2026-09-21 14:07:10 Location: [Insert Location] Customer: Lance</p>
+<h2>Overview</h2>
+<p>This consultation summary covers a discussion between Lance and Maddie Savoy of Kip and King Marketing regarding social media content creation services for car dealerships. Lance is seeking high-quality, cinematic video and photography rather than &quot;goofy&quot; viral-style content. Topics included content types, pricing, and Lance’s need for content creation only—no social media management—since he already uses a syndicated posting system. The core challenge is aligning the agency’s standard package pricing with a content-only request.</p>
+<h2>Background</h2>
+<p>Lance, who manages or consults for car dealerships, is evaluating Kip and King Marketing’s services. He uses an automated system that posts to social channels via Google Drive, so he does not want full social media management. He strongly prefers cinematic-style video (e.g., Ferrari dealership examples) over trendy or “dumb” viral content. He aims to understand the value and pricing for content creation he can feed into his existing system.</p>
+<h2>Pain Points</h2>
+<p>The primary issue is the misalignment between the agency’s bundled service and Lance’s content-only needs. His syndicated posting system makes management/posting redundant. He stated, “I don’t need it posted or managed... that really is just literal content creation.” Paying $1,750 per month for unused services creates a value concern. The agency’s initial stance that pricing would remain unchanged does not address his need, pushing him toward an ill-suited package.</p>
+<h2>Expectations</h2>
+<p>Lance wants a customized, content-only pricing model. He expects a set number of high-quality photos and video reels per month delivered via Google Drive for his system to handle. He is interested in roughly 20 assets monthly, including one video reel per week (four per month), and seeks a fair price solely for asset creation—excluding management, scheduling, and posting. Success is a quote reflecting this reduced scope.</p>
+<h2>Other Information Summary</h2>
+<ul>
+<li>Kip and King Marketing has an in-house photographer and videographer who travel for shoots.</li>
+<li>The standard package is $1,750 per month per dealership.</li>
+<li>It includes one site visit per month and delivers about five posts per week, including photography, graphics, and one video reel weekly.</li>
+<li>Maddie Savoy is local to Lance’s area.</li>
+<li>Lance prefers high-quality, cinematic content over “goofy” or “dumb” viral videos, while acknowledging that style works for some dealerships (e.g., one in Texas).</li>
+</ul>
+<h2>To-Do List</h2>
+<ul>
+<li>[ ] Follow up with Maddie Savoy at Kip and King Marketing to negotiate a content-only price.</li>
+<li>[ ] Define exact deliverables (photo count vs. video count) for a custom package.</li>
+<li>[ ] Request cinematic video samples to confirm brand alignment.</li>
+<p>&gt; <strong>AI Suggestions</strong> &gt; The AI has identified the client’s main pain point as the mismatch between the bundled package and the content-only need. Potential solutions: &gt; 1. Propose an “Asset-Only” package. Itemize costs for content creation (pre-production, shooting, editing) versus management (scheduling, posting, reporting) and remove management fees to reduce price. &gt; 2. Offer a tiered content menu. Options like “10 photos + 2 reels for $X” or “15 photos + 4 reels for $Y” provide flexibility without paying for unwanted services. &gt; 3. Suggest a pilot or per-visit model. Offer a one-time content shoot at a fixed price so Lance can assess quality and workflow with his system before committing to a retainer.</p>
+</ul></section>
+  <section id="hl" class="panel"><div class='empty'>No device highlights on this take.</div></section>
+  <section id="tx" class="panel"><div class="seg"><div class="ts">0:00</div><div>Yes. There&#x27;s, there&#x27;s not the quality is any different by any means, but um, there&#x27;s two types of videos that we can do, right? There&#x27;s more of the strategic hook. We&#x27;re writing the lines for you. I&#x27;ve got um plastic surgeons that we work with, med spas, all of that. Yeah,</div></div><div class="seg"><div class="ts">0:18</div><div>That is a lot of creative work.</div></div><div class="seg"><div class="ts">0:20</div><div>Correct. That is very in depth. Yeah. Um, there&#x27;s a price tag on that. And then I have the funny, stupid video reels that go viral that I don&#x27;t necessarily think align with the brand for some dealerships.</div></div><div class="seg"><div class="ts">0:36</div><div>No, and so it&#x27;s one of the problems you run into is general managers a lot of times. I call them out because I know them well. They have this kind of — it&#x27;s almost like a — I don&#x27;t know, like an ego metric. Like my store is not showing up with any of this dumb shit like other people&#x27;s are, or. Why aren&#x27;t why why do I you know, I don&#x27;t cater to all that kind of crap. Yeah. But I do have people saying, &quot;Oh well, I wish we had more.&quot; I&#x27;m like, &quot;Then you don&#x27;t want bad content, you know?&quot; Like, I would prefer just a really good cinematic overview of a car. You know, like if you go and visit a really big Ferrari store, you&#x27;re going to see really good music, cuts to the beat, and just really good stabilized cinematic shots, right?</div></div><div class="seg"><div class="ts">1:25</div><div>Instead of a bunch of horse shit, and the funny thing is, those are actually fast. Yeah. Those don&#x27;t take that long to produce. Yeah, just that kind of stuff, right? And I would rather have that stuff than the ridiculous.</div></div><div class="seg"><div class="ts">1:41</div><div>But I&#x27;ve got, like I said, I&#x27;ve got that dealership out in Texas that wants it, and it does well for him.</div></div><div class="seg"><div class="ts">1:45</div><div>Of course. And now, look. That being said, do you know? I&#x27;m so bad at like calling this stuff right off the top of my head. There&#x27;s a store. There&#x27;s a few stores out in shit. Is it Camino Chevrolet.</div></div><div class="seg"><div class="ts">2:00</div><div>Camino Chevrolet. I mean, it&#x27;s a crazy. Yeah, and it&#x27;s our El Camino community now. Anyway, they have these women that are on this thing that are obviously that they&#x27;re models. I don&#x27;t know if these girls actually work there or if. I mean, you&#x27;d you&#x27;d know it if you saw it. It&#x27;s like really high production value, really like perfectly dressed to the nines, like sharp like Hispanic women because it&#x27;s like right where they are. They&#x27;re like I want to say they&#x27;re on the border between Texas and Mexico, like out there in Texas. Anyway, when you see this stuff, you&#x27;re like, what the hell? Like what? This is ridiculous. Like very very produced, and it&#x27;s the goofy kind. It&#x27;s the little goofy fun videos like you&#x27;re talking about. But anyway, yeah. I mean, honestly, if y&#x27;all wanna.</div></div><div class="seg"><div class="ts">2:52</div><div>I&#x27;m super open to it.</div></div><div class="seg"><div class="ts">2:53</div><div>Yeah,</div></div><div class="seg"><div class="ts">2:55</div><div>Seventeen fifty. Yeah, and it&#x27;s like how many five posts? Sorry,</div></div><div class="seg"><div class="ts">3:01</div><div>Posts that includes photography, graphics, and one video reel a week.</div></div><div class="seg"><div class="ts">3:05</div><div>So seventeen fifty. Yes. And that is. So you&#x27;re saying how many pieces of content is that? Is that is are you you calling that seventeen fifty a month or a visit? So that&#x27;s every two months. No, that&#x27;s a month. A month. Yes. And that is. One visit a month. Yes. And then five a week. Correct. So one visit a month is giving me around.</div></div><div class="seg"><div class="ts">3:30</div><div>Since you guys are open on Saturdays, we could post something for you guys too on Saturday. Yeah. Which wouldn&#x27;t be a problem.</div></div><div class="seg"><div class="ts">3:37</div><div>So. The way I would need it, honestly, is just the content created. It&#x27;s kind of like I don&#x27;t need it posted or managed. You see what I&#x27;m getting at? That&#x27;s what I&#x27;m saying. It&#x27;s completely different from what a lot of, Like this agency is clearly kind of like, hey, you walk in, you don&#x27;t have a guy like me, and you&#x27;re just, hey, let me just create your content, give me your logins, and y&#x27;all have to fuck with it. Right. Well, I&#x27;ve already got it completely like syndicated. The system handles it. You literally just drop photos and reels in a Google Drive, and it completely handles everything. We have some of the clients that are like that. You know, do y&#x27;all do? And that really is just literal content creation. Like, just create the content. Yeah.</div></div><div class="seg"><div class="ts">4:20</div><div>That&#x27;s kind of what I would be interested in. So, kind of figure out what&#x27;s the pricing for that.</div></div><div class="seg"><div class="ts">4:27</div><div>It would be the same pricing.</div></div><div class="seg"><div class="ts">4:28</div><div>Yeah. So, seventeen fifty a month per dealership. Correct. Okay. Interesting. What stores do? What is there a spot? I see your work or our. Does it have kind of a list of all the different social?</div></div><div class="seg"><div class="ts">4:46</div><div>This is like a lot of created.</div></div><div class="seg"><div class="ts">4:51</div><div>Cool. Southern. Look, let me just send you this right here.</div></div><div class="seg"><div class="ts">4:57</div><div>Do y&#x27;all like? Would y&#x27;all be hiring like a local photographer to come out and do this? Do y&#x27;all have your own?</div></div><div class="seg"><div class="ts">5:03</div><div>I have a travel. Okay. We have a we have a photographer and a videographer in house, so they do everything for us. Got it. Yeah. All right.</div></div><div class="seg"><div class="ts">5:16</div><div>Yeah. Well, it&#x27;s good to know. I&#x27;ve got your card.</div></div><div class="seg"><div class="ts">5:20</div><div>Absolutely. If I can do anything for you, let me know. I&#x27;m local. I&#x27;m in the area. I live here, so if I can do anything, it would be.</div></div><div class="seg"><div class="ts">5:29</div><div>So I&#x27;m here, and it&#x27;s around 20 pieces of content for 1, 700 bucks, estimated, and whatever mix we want for reels and photos.</div></div><div class="seg"><div class="ts">5:38</div><div>It is one video reel a week.</div></div><div class="seg"><div class="ts">5:40</div><div>One video reel a week. Yes. All right. Super cool. Yeah. Thank you.</div></div><div class="seg"><div class="ts">5:47</div><div>You&#x27;re very welcome, Lance. It was nice meeting you. Yep.</div></div><div class="seg"><div class="ts">5:50</div><div>Appreciate It. That was Madeline Savoy or Maddie, sales executive for Kip and King Marketing. Kipandkingmarketing dot com. They want seventeen fifty a month for twenty pieces of content. And only four of those are going to be videos.</div></div></section>
+</main>
+</div>
+<footer>PLAUD-NOTES-2026-09-17-0600-MORNING · noindex · Plaud sources + notes</footer>
+<script>
+
+document.querySelectorAll('.tabs button').forEach(btn => {
+  btn.addEventListener('click', () => {
+    document.querySelectorAll('.tabs button').forEach(b => b.setAttribute('aria-selected', b===btn ? 'true':'false'));
+    document.querySelectorAll('.panel').forEach(p => p.classList.toggle('is-on', p.id === btn.dataset.panel));
+  });
+});
+
+</script>
+</body>
+</html>

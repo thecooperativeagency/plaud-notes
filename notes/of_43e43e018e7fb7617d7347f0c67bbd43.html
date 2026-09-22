@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="robots" content="noindex, nofollow">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Ideas — Field desk</title>
+  <title>09-16 Note: Harris Porsche Export Files &amp; Inventory Data Fix</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500&family=IBM+Plex+Mono:wght@400;500&family=Source+Sans+3:wght@400;600;700&display=swap">
   <style>
@@ -136,29 +136,43 @@ footer { margin-top: 48px; color: var(--faint); font-size: 11px; font-family: va
   <div class="mark">Cooperative</div>
   <h1>Field desk</h1>
   <p class="lede">Plaud landings. Summary, highlights, transcript — filed by life area.</p>
-  <nav class="vnav"><a href="index.html" class="">All <span class="count">45</span></a><a class="" href="vertical-inbox.html">Inbox <span class="count">0</span></a><a class="" href="vertical-personal.html">Personal <span class="count">0</span></a><a class="" href="vertical-coop-marketing.html">Coop Marketing <span class="count">2</span></a><a class="" href="vertical-coop-dev.html">Coop Dev <span class="count">8</span></a><a class="" href="vertical-avec-tous.html">Avec Tous <span class="count">0</span></a><a class="" href="vertical-dealers.html">Dealers <span class="count">33</span></a><a class="is-on" href="vertical-ideas.html">Ideas <span class="count">2</span></a></nav>
+  <nav class="vnav"><a href="../index.html" class="">All <span class="count">45</span></a><a class="" href="../vertical-inbox.html">Inbox <span class="count">0</span></a><a class="" href="../vertical-personal.html">Personal <span class="count">0</span></a><a class="" href="../vertical-coop-marketing.html">Coop Marketing <span class="count">2</span></a><a class="" href="../vertical-coop-dev.html">Coop Dev <span class="count">8</span></a><a class="" href="../vertical-avec-tous.html">Avec Tous <span class="count">0</span></a><a class="is-on" href="../vertical-dealers.html">Dealers <span class="count">33</span></a><a class="" href="../vertical-ideas.html">Ideas <span class="count">2</span></a></nav>
 </aside>
 <main class="stage">
-  <div class="kicker">Vertical</div>
-  <h2>Ideas</h2>
-  <p class="blurb">Parking lot. Not a task until you promote it.</p>
-  <div class="cards"><a class="card" href="notes/5555062e6963496bbb1d0c842941609e.html">
-  <div>
-    <h3>09-02 Brainstorming Session: B2B Newsletter for Car Dealerships</h3>
-    <div class="meta"><span>2026-09-02</span><span>24s</span></div>
+  <a class="back" href="../index.html">← Desk</a>
+  <div class="note-top">
+    <div class="kicker">dealers · 2026-09-16 · 31s</div>
+    <h2>09-16 Note: Harris Porsche Export Files &amp; Inventory Data Fix</h2>
+    <div class="meta" style="margin-top:8px"><span>id of_43e43e018e7fb7617d7347f0c67bbd43</span><span>spoken: HP three export files + Audi/Porsche inventory mix</span></div>
   </div>
-  <span class="chip ideas">ideas</span>
-</a><a class="card" href="notes/cf363c46192f537f696731427de7968e.html">
-  <div>
-    <h3>08-24 Executable Idea Agenda: Converting Ideation Fatigue into a Focused Telegram Operating Rhythm</h3>
-    <div class="meta"><span>2026-08-24</span><span>35s</span></div>
+  <div class="tabs" role="tablist">
+    <button type="button" data-panel="sum" aria-selected="true">Summary</button>
+    <button type="button" data-panel="hl" aria-selected="false">Highlights</button>
+    <button type="button" data-panel="tx" aria-selected="false">Transcript</button>
   </div>
-  <span class="chip ideas">ideas</span>
-</a></div>
+  <section id="sum" class="panel is-on prose"><p><strong>Title:</strong> Finalizing Export Files for Harris Porsche <strong>Synopsis:</strong> The main priority is to complete the three export files for Harris Porsche, which involves resolving an inventory data issue and setting a reminder to follow up on the task. <strong>Key Takeaways:</strong></p>
+<ul>
+<li>The primary focus is finishing three export files for the Harris Porsche account.</li>
+<li>A specific data issue needs to be resolved where Audi and Porsche inventories are incorrectly combined in the export.</li>
+<p><strong>Action Items:</strong></p>
+<li><code>[ ] Finish setting up the three export files for Harris Porsche.</code></li>
+<li><code>[ ] Resolve the issue where Audi and Porsche inventories are combined in the inventory export.</code></li>
+<li><code>[ ] Set a cron job to remind me at 11 a.m. to re-engage with the export files task.</code></li>
+<p><strong>Suggested Tags:</strong> *There were no tags in the provided notes.*</p>
+</ul></section>
+  <section id="hl" class="panel"><div class='empty'>No device highlights on this take.</div></section>
+  <section id="tx" class="panel"><div class="seg"><div class="ts">0:00</div><div>And this is a note to remind me later, and you can help remind me. Set a cron job, probably. Remind me tomorrow morning, call it 11 a.m. I need to finish setting up the three export files for Harris Porsche. I got to the inventory one, and there was a problem because Audi and Porsche&#x27;s inventories are kind of fucked up and lumped in together. So anyway, that&#x27;s a challenge. I&#x27;ll figure that out tomorrow. Just set a cron so that I&#x27;ll re-engage with that problem.</div></div></section>
 </main>
 </div>
 <footer>PLAUD-NOTES-2026-09-17-0600-MORNING · noindex · Plaud sources + notes</footer>
 <script>
+
+document.querySelectorAll('.tabs button').forEach(btn => {
+  btn.addEventListener('click', () => {
+    document.querySelectorAll('.tabs button').forEach(b => b.setAttribute('aria-selected', b===btn ? 'true':'false'));
+    document.querySelectorAll('.panel').forEach(p => p.classList.toggle('is-on', p.id === btn.dataset.panel));
+  });
+});
 
 </script>
 </body>

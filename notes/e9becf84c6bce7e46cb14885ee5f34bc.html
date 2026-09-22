@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>09-10 Weekly Meeting: Recall Campaign Strategy and Website Coupon</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500&family=IBM+Plex+Mono:wght@400;500&family=Source+Sans+3:wght@400;600;700&display=swap">
+  <style>
+:root {
+  --bg: #090908;
+  --bg-2: #11110f;
+  --bg-3: #181714;
+  --ink: #f0eadc;
+  --muted: #8d8778;
+  --faint: #5c574c;
+  --line: #26241e;
+  --accent: #c4452d;
+  --mustard: #c4a35a;
+  --blue: #6f8fbf;
+  --ok: #7d9a6d;
+  --serif: "Fraunces", "Iowan Old Style", Georgia, serif;
+  --sans: "Source Sans 3", "Source Sans Pro", -apple-system, sans-serif;
+  --mono: "IBM Plex Mono", ui-monospace, monospace;
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html, body { background: var(--bg); color: var(--ink); }
+body {
+  font-family: var(--sans);
+  min-height: 100vh;
+  text-wrap: pretty;
+}
+a { color: inherit; }
+.shell { display: grid; grid-template-columns: 260px 1fr; min-height: 100vh; }
+.rail {
+  border-right: 1px solid var(--line);
+  padding: 28px 18px 40px;
+  background: var(--bg-2);
+  position: sticky; top: 0; height: 100vh; overflow: auto;
+}
+.mark {
+  font-family: var(--serif);
+  font-weight: 500;
+  font-size: 13px;
+  letter-spacing: .18em;
+  text-transform: uppercase;
+  color: var(--accent);
+}
+.rail h1 {
+  font-family: var(--serif);
+  font-size: 28px;
+  font-weight: 460;
+  letter-spacing: -.03em;
+  margin: 10px 0 6px;
+}
+.rail .lede { color: var(--muted); font-size: 13.5px; line-height: 1.45; margin-bottom: 28px; }
+.vnav { display: flex; flex-direction: column; gap: 4px; }
+.vnav a {
+  display: flex; justify-content: space-between; align-items: baseline;
+  text-decoration: none; padding: 9px 10px; border-radius: 8px;
+  color: var(--ink); font-size: 14px;
+}
+.vnav a:hover, .vnav a.is-on { background: var(--bg-3); }
+.vnav a.is-on { box-shadow: inset 2px 0 0 var(--accent); }
+.vnav .count { color: var(--faint); font-family: var(--mono); font-size: 11px; }
+.stage { padding: 36px 40px 80px; max-width: 980px; }
+.kicker {
+  font-size: 11px; letter-spacing: .16em; text-transform: uppercase;
+  color: var(--accent); font-weight: 700; margin-bottom: 8px;
+}
+.stage > h2 {
+  font-family: var(--serif); font-weight: 460; font-size: 34px;
+  letter-spacing: -.03em; margin-bottom: 8px;
+}
+.blurb { color: var(--muted); margin-bottom: 28px; max-width: 46rem; }
+.empty {
+  border: 1px dashed var(--line); border-radius: 14px;
+  padding: 36px 28px; color: var(--muted); background: var(--bg-2);
+}
+.empty strong { color: var(--ink); font-weight: 600; }
+.cards { display: flex; flex-direction: column; gap: 10px; }
+.card {
+  display: grid; grid-template-columns: 1fr auto; gap: 12px;
+  text-decoration: none; padding: 16px 18px; border-radius: 12px;
+  background: var(--bg-2); border: 1px solid var(--line);
+}
+.card:hover { border-color: #3a372e; background: var(--bg-3); }
+.card h3 { font-size: 16px; font-weight: 600; margin-bottom: 4px; }
+.meta { color: var(--muted); font-size: 13px; display: flex; gap: 10px; flex-wrap: wrap; }
+.chip {
+  font-family: var(--mono); font-size: 10px; letter-spacing: .06em;
+  text-transform: uppercase; padding: 3px 7px; border-radius: 999px;
+  border: 1px solid var(--line); color: var(--muted); height: fit-content;
+}
+.chip.dealers { color: var(--blue); border-color: #2a3344; }
+.chip.avec-tous { color: var(--mustard); border-color: #3a3320; }
+.chip.personal { color: #c9a7a0; }
+.chip.ideas { color: var(--ok); }
+.note-top { margin-bottom: 22px; }
+.note-top h2 { font-family: var(--serif); font-size: 36px; font-weight: 460; letter-spacing: -.03em; }
+.tabs { display: flex; gap: 6px; margin: 22px 0 18px; border-bottom: 1px solid var(--line); }
+.tabs button {
+  appearance: none; background: none; border: 0; color: var(--muted);
+  font: 600 13px var(--sans); padding: 10px 12px; cursor: pointer;
+  border-bottom: 2px solid transparent; margin-bottom: -1px;
+}
+.tabs button[aria-selected="true"] { color: var(--ink); border-bottom-color: var(--accent); }
+.panel { display: none; }
+.panel.is-on { display: block; }
+.prose { font-size: 16.5px; line-height: 1.6; max-width: 42rem; }
+.prose h2, .prose h3 { font-family: var(--serif); font-weight: 500; margin: 1.3em 0 .4em; }
+.prose p { margin: 0 0 .8em; }
+.prose ul, .prose ol { margin: 0 0 1em 1.2em; }
+.prose li { margin: .25em 0; }
+.hl { border-left: 2px solid var(--accent); padding: 10px 0 10px 14px; margin: 0 0 14px; }
+.hl .t { font-family: var(--mono); font-size: 11px; color: var(--faint); }
+.hl h4 { font-size: 15px; margin: 4px 0; }
+.hl p { color: var(--muted); font-size: 14.5px; }
+.seg { display: grid; grid-template-columns: 64px 1fr; gap: 12px; padding: 8px 0; border-bottom: 1px solid var(--line); }
+.seg .ts { font-family: var(--mono); font-size: 11px; color: var(--faint); padding-top: 3px; }
+.back { color: var(--muted); text-decoration: none; font-size: 13px; display: inline-block; margin-bottom: 18px; }
+.back:hover { color: var(--ink); }
+footer { margin-top: 48px; color: var(--faint); font-size: 11px; font-family: var(--mono); }
+@media (max-width: 820px) {
+  .shell { grid-template-columns: 1fr; }
+  .rail { position: relative; height: auto; border-right: 0; border-bottom: 1px solid var(--line); }
+  .stage { padding: 24px 18px 64px; }
+  .note-top h2 { font-size: 28px; }
+}
+</style>
+</head>
+<body>
+<div class="shell">
+<aside class="rail">
+  <div class="mark">Cooperative</div>
+  <h1>Field desk</h1>
+  <p class="lede">Plaud landings. Summary, highlights, transcript — filed by life area.</p>
+  <nav class="vnav"><a href="../index.html" class="">All <span class="count">45</span></a><a class="" href="../vertical-inbox.html">Inbox <span class="count">0</span></a><a class="" href="../vertical-personal.html">Personal <span class="count">0</span></a><a class="" href="../vertical-coop-marketing.html">Coop Marketing <span class="count">2</span></a><a class="" href="../vertical-coop-dev.html">Coop Dev <span class="count">8</span></a><a class="" href="../vertical-avec-tous.html">Avec Tous <span class="count">0</span></a><a class="is-on" href="../vertical-dealers.html">Dealers <span class="count">33</span></a><a class="" href="../vertical-ideas.html">Ideas <span class="count">2</span></a></nav>
+</aside>
+<main class="stage">
+  <a class="back" href="../index.html">← Desk</a>
+  <div class="note-top">
+    <div class="kicker">dealers · 2026-09-10 · 9m12s</div>
+    <h2>09-10 Weekly Meeting: Recall Campaign Strategy and Website Coupon</h2>
+    <div class="meta" style="margin-top:8px"><span>id e9becf84c6bce7e46cb14885ee5f34bc</span><span>inferred</span></div>
+  </div>
+  <div class="tabs" role="tablist">
+    <button type="button" data-panel="sum" aria-selected="true">Summary</button>
+    <button type="button" data-panel="hl" aria-selected="false">Highlights</button>
+    <button type="button" data-panel="tx" aria-selected="false">Transcript</button>
+  </div>
+  <section id="sum" class="panel is-on prose"><p>&gt; Date: 2026-09-10 &gt; Location: [Insert Location] &gt; Participants: [Speaker 1] [Speaker 2] [Lance]</p>
+<h2>Meeting Notes</h2>
+<h3>Recall Campaign Strategy for Non-DMS Customers</h3>
+<ul>
+<li>Proposal: Contact all customers not in the DMS to bring their cars in for recalls.</li>
+<li>Concern: Older models (e.g., VANOS, water pump) pose higher breakage risk during repairs.</li>
+<li>Parameters discussed: Set a hard stop by model year to mitigate risk.</li>
+<li>Decision: Limit campaign to vehicles from model year 2015 and newer.</li>
+<li>Outreach channels: Email, mail, text, and voice messages targeting ~2,700 nearby BMW owners.</li>
+<li>Service scope: Include appointment scheduling, functioning as a BDC for recall-related services.</li>
+</ul>
+<h3>Website Service Coupon Discussion</h3>
+<ul>
+<li>Goal: Implement a 10% off service coupon on the company website to attract customers.</li>
+<li>Max discount debated: $150 or $200 initially; prior Epsilon email blasts used $100 max.</li>
+<li>Competitor review: Brian Harris’s site appears to offer 10% with no stated maximum, posing potential risk.</li>
+<li>Focus: Define clear exclusions for the offer.</li>
+<li>Conclusion: Add a 10% off service coupon with a $100 maximum discount; exclusions include value service, tires, and glass.</li>
+</ul>
+<h2>Next Arrangements</h2>
+<ul>
+<li>[ ] Talk to Caleb about setting parameters for the recall campaign, specifically enforcing a hard stop for cars older than the 2015 model year.</li>
+<li>[ ] Check with Michael to confirm whether the competitor’s (Brian Harris) coupon has a maximum discount.</li>
+<li>[ ] Add the 10% off service coupon to the website with a $100 maximum discount, excluding value service, tires, and glass.</li>
+</ul>
+<h2>AI Suggestions</h2>
+<p>&gt; <strong>AI Suggestions</strong> &gt; AI has identified the following issues that were not concluded in the meeting or lack clear action items; please pay attention: &gt; 1. The decision to use a $100 maximum discount for the website coupon was based on past Epsilon campaigns. The group did not fully resolve whether this amount is competitive or if a higher value like $150 or $200 would be more effective psychologically, as Lance suggested. &gt; 2. While it was mentioned that Chris needs to get his box on September 11, 2026, and move his car, no specific action item was assigned to anyone in the meeting to ensure this is followed up on.</p></section>
+  <section id="hl" class="panel"><div class='empty'>No device highlights on this take.</div></section>
+  <section id="tx" class="panel"><div class="seg"><div class="ts">0:00</div><div>Call and reach out to all of our customers that are not in our DMS to bring their cars in for recalls. I think we might open Pandora&#x27;s box for that.</div></div><div class="seg"><div class="ts">0:13</div><div>Some of the old VANOS and some of the water pumps. The rest of the new ones are programming and and the brakes and the. Starters that we&#x27;re doing now, but we can&#x27;t only do fucking starters. We can certainly we can do so many starters.</div></div><div class="seg"><div class="ts">0:39</div><div>We can certainly give it parameters too, and I&#x27;m, I&#x27;ll talk to Caleb, and ask him because he&#x27;s the one going to be building that. He, I would ask him, hey, what&#x27;s, show me the parameters. Are we going to let&#x27;s let&#x27;s hard stop anything older than X? We can certainly do that if we wanted to. You just lower your number, you know.</div></div><div class="seg"><div class="ts">0:56</div><div>We want some of those old airbag recall cars.</div></div><div class="seg"><div class="ts">1:01</div><div>Yeah,</div></div><div class="seg"><div class="ts">1:01</div><div>That&#x27;s what you don&#x27;t want to get.</div></div><div class="seg"><div class="ts">1:04</div><div>You don&#x27;t want. Hell, I don&#x27;t like the VANOS cars anymore. Neither. Too much shit to break.</div></div><div class="seg"><div class="ts">1:11</div><div>There&#x27;s old recalls on those still.</div></div><div class="seg"><div class="ts">1:13</div><div>Yeah, I mean the recalls don&#x27;t go away. I mean you can.</div></div><div class="seg"><div class="ts">1:15</div><div>No, so there&#x27;s still cars out there that just haven&#x27;t been.</div></div><div class="seg"><div class="ts">1:18</div><div>You do a recall in the junkyard. Yeah. That somebody sitting in the junkyard, you walk out there and put a new airbag in it, and write it and send it in. It never goes away.</div></div><div class="seg"><div class="ts">1:30</div><div>I Like that. Well, I mean, you know, sounds like it sounds like revenue. Huh? Yeah, but it sounds like revenue.</div></div><div class="seg"><div class="ts">1:36</div><div>Well, people have done that before in these big junkyards.</div></div><div class="seg"><div class="ts">1:39</div><div>I don&#x27;t mean do actual junkyards. I just mean even if it&#x27;s an old car that you normally wouldn&#x27;t fool with. You worry about things going wrong while you&#x27;re repairing it.</div></div><div class="seg"><div class="ts">1:47</div><div>Yeah, breaking shit. Well, the problem with it is, is just like when it came when it came out, it was fine because it came out during the year. Now, the to point is, passenger side airbag that you&#x27;re going to replace. You&#x27;ve got to pull the dash trim off to replace it. So now you&#x27;ve got a 15 - year, 16 - year - old car that you&#x27;re going to pop the trim off, and you already know what&#x27;s going to happen. Well,</div></div><div class="seg"><div class="ts">2:10</div><div>Just run it smaller, run it. Say, hey, it&#x27;s the hard stop on nothing older than 16 or nothing older than whatever. You just end up with a smaller list, but it costs you less too. You know, you&#x27;re only going to pay according to the size of the list. But they&#x27;re going to literally do the whole bit. So they&#x27;ll email, mail, text. Phone call, leave voice messages, which is ring free voice messages, and then also are going to act as the BDC, so they&#x27;re going to schedule all the appointments.</div></div><div class="seg"><div class="ts">2:34</div><div>Well, we&#x27;re paying for that to Dialertron too to do it because.</div></div><div class="seg"><div class="ts">2:37</div><div>Is it? But is it just DMS customers, or is it just your customers?</div></div><div class="seg"><div class="ts">2:43</div><div>Yeah, they&#x27;re calling. Yeah. Well, this is raw. This is outside.</div></div><div class="seg"><div class="ts">2:46</div><div>This is going to be like, he said. Right now would probably be around twenty seven hundred people, but it&#x27;s going to be a lot of people. It&#x27;s it&#x27;s just straight up BMWs. In our general vicinity, and it&#x27;s going to activate customers that aren&#x27;t our customers right now. So it&#x27;s not just using our DMS.</div></div><div class="seg"><div class="ts">3:04</div><div>We got a lot of fucking cars in our DMS. I can tell you that.</div></div><div class="seg"><div class="ts">3:08</div><div>What do you want to do? Cut it at fifteen and back.</div></div><div class="seg"><div class="ts">3:12</div><div>I was thinking oh six oh seven. What? Go that out. Oh six oh seven. Say what? Go back that far? You don&#x27;t want to do that?</div></div><div class="seg"><div class="ts">3:20</div><div>Oh six oh seven.</div></div><div class="seg"><div class="ts">3:22</div><div>Yeah. He doesn&#x27;t fucking. Yeah. Oh, I know. I think fifteen,</div></div><div class="seg"><div class="ts">3:27</div><div>Fourteen, fifteen.</div></div><div class="seg"><div class="ts">3:28</div><div>That&#x27;s what sounds right to me.</div></div><div class="seg"><div class="ts">3:29</div><div>Fifteen sounds,</div></div><div class="seg"><div class="ts">3:30</div><div>Huh? That&#x27;s what I mean. That sounds reasonable.</div></div><div class="seg"><div class="ts">3:32</div><div>Fifteen is probably ten, eleven years old.</div></div><div class="seg"><div class="ts">3:35</div><div>Yeah. So we stop at two thousand fifteen. So don&#x27;t go any further than that.</div></div><div class="seg"><div class="ts">3:39</div><div>Stop at fifteen, and you&#x27;d say a hundred fifty bucks.</div></div><div class="seg"><div class="ts">3:42</div><div>One hundred fifty. If you do a minimum, does this one even? Does this disclaimer even say? I don&#x27;t know.</div></div><div class="seg"><div class="ts">3:50</div><div>There&#x27;s a disclaimer.</div></div><div class="seg"><div class="ts">3:52</div><div>Exclusive value service. I don&#x27;t know. A bunch percent coupon. I don&#x27;t know. Offers not apply. Other restrictions may apply. See offer for detail. Yeah. So let&#x27;s see something. Claim this offer. Shit. I don&#x27;t know if. As funny as I was talking to Michael yesterday, he said, &quot; Well, we have a limit of two hundred.&quot; I said, &quot; Yeah, but.&quot; Well, now I&#x27;m looking at this, going, I don&#x27;t see a limit. That ain&#x27;t good. Yeah, he might. He might need to fix that.</div></div><div class="seg"><div class="ts">4:18</div><div>I&#x27;d share that with him. Yeah.</div></div><div class="seg"><div class="ts">4:27</div><div>Anyway, yeah, fifteen. What? Stop at fifteen.</div></div><div class="seg"><div class="ts">4:36</div><div>I would. So the recall stop at fifteen, and then for this ten percent, you want to run it and make it a maximum discount of.</div></div><div class="seg"><div class="ts">4:45</div><div>He said one fifty. All right. I think two hundred.</div></div><div class="seg"><div class="ts">4:53</div><div>Well, one fifty sounds cheap.</div></div><div class="seg"><div class="ts">4:55</div><div>Yeah. Well,</div></div><div class="seg"><div class="ts">4:57</div><div>If I&#x27;m a customer at 150, looks like a whole lot more than 200 dollars, even though it&#x27;s only 50 bucks. Psychologically, it&#x27;s worth more than 50 dollars, is what I&#x27;m saying. Does that make sense?</div></div><div class="seg"><div class="ts">5:13</div><div>Started at 200.</div></div><div class="seg"><div class="ts">5:14</div><div>Let&#x27;s see what it looks like. Yeah, and or just put nothing. According to them, these I don&#x27;t think they have one, so I need to check with Michael. Say, Michael, I don&#x27;t think you have a fucking maximum discount. On Brian Harris&#x27;s website. That&#x27;s the case. Not a disclaimer. Not a disclaimer. That&#x27;s it.</div></div><div class="seg"><div class="ts">5:31</div><div>That&#x27;d be a bad snake walking there and go. I want my ten percent. Okay, it&#x27;s two hundred. No, it&#x27;s not two hundred.</div></div><div class="seg"><div class="ts">5:38</div><div>Yeah, seventeen.</div></div><div class="seg"><div class="ts">5:39</div><div>Show me where it says two. Show me where it says that.</div></div><div class="seg"><div class="ts">5:41</div><div>Let me get ten percent off my engine rebuild.</div></div><div class="seg"><div class="ts">5:45</div><div>We have customers that all time come in and go. No, I said ten percent off any service. I don&#x27;t get that off my tires. No, it doesn&#x27;t. You have to go out there and.</div></div><div class="seg"><div class="ts">5:53</div><div>Well, they didn&#x27;t qualify tires.</div></div><div class="seg"><div class="ts">5:55</div><div>Well, you have to.</div></div><div class="seg"><div class="ts">5:56</div><div>Do they have the tire exception in there too?</div></div><div class="seg"><div class="ts">5:59</div><div>No, they don&#x27;t have anything in there. Here, I thought you.</div></div><div class="seg"><div class="ts">6:03</div><div>Had it. Yeah, it just says some exclusions apply. It&#x27;s kind of the yeah. Look, other restrictions may apply.</div></div><div class="seg"><div class="ts">6:21</div><div>All right. What month are you gonna do it for?</div></div><div class="seg"><div class="ts">6:25</div><div>Which one? To ten percent, I would just say just put it on the website. This one just lives on there. We don&#x27;t turn it off; it just stays on there. And it&#x27;s just a it&#x27;s just a coupon. And Lord, the funny thing is, you&#x27;d be surprised how few people use the damn coupon. I know, but people don&#x27;t put that on the website. Yeah, yeah, yeah. It would be just like this.</div></div><div class="seg"><div class="ts">6:48</div><div>Excludes value service and tires.</div></div><div class="seg"><div class="ts">6:49</div><div>Yeah, excludes value service and tires, and.</div></div><div class="seg"><div class="ts">6:53</div><div>You want exclude glass.</div></div><div class="seg"><div class="ts">6:56</div><div>Glass too. You want to exclude windshields?</div></div><div class="seg"><div class="ts">7:00</div><div>That&#x27;s going to be that be directly parts, so you take two hundred dollars off of the part.</div></div><div class="seg"><div class="ts">7:04</div><div>No, that&#x27;s service. Right. That&#x27;s not doing parts. I&#x27;m just talking about like the installation of glass.</div></div><div class="seg"><div class="ts">7:13</div><div>Y&#x27;all do a lot of that here. You just sub it out.</div></div><div class="seg"><div class="ts">7:17</div><div>You can do it. It says service. I mean, so glass is not a service.</div></div><div class="seg"><div class="ts">7:25</div><div>Yeah, we can just do a richer, a deeper disclaimer though. So, not only the minimum, not only the maximum discount, but also does not include tires, does not include glass. You know.</div></div><div class="seg"><div class="ts">7:35</div><div>So we&#x27;re gonna keep the two hundred on the website for just ongoing.</div></div><div class="seg"><div class="ts">7:39</div><div>If that&#x27;s what you want to do, we can. If you don&#x27;t, we&#x27;ll put it at one fifty. You&#x27;re the service manager.</div></div><div class="seg"><div class="ts">7:47</div><div>I&#x27;ve been doing. I&#x27;ve been doing a hundred for a long time,</div></div><div class="seg"><div class="ts">7:52</div><div>So. A hundred where? It&#x27;s not on our website.</div></div><div class="seg"><div class="ts">7:56</div><div>Whose website said?</div></div><div class="seg"><div class="ts">7:59</div><div>Brian Harris. Where&#x27;s ours? It looks just like this, except it doesn&#x27;t have this. It doesn&#x27;t have that.</div></div><div class="seg"><div class="ts">8:06</div><div>It almost doesn&#x27;t have one.</div></div><div class="seg"><div class="ts">8:08</div><div>Yeah. No, Epsilon, you know, doing that the email blast. Ten percent. It&#x27;s always been a hundred dollars.</div></div><div class="seg"><div class="ts">8:26</div><div>Yeah. Do we have a lot of people using it? Yeah. I know we do. Well, if we&#x27;re using epsilon, we probably don&#x27;t. Do we need to do something else? We just put that on the website.</div></div><div class="seg"><div class="ts">8:37</div><div>Yeah. It&#x27;s not even a big.</div></div><div class="seg"><div class="ts">8:39</div><div>I know, but what are we going to put? We&#x27;ll put up to a hundred dollars. That&#x27;s what epsilon is. We&#x27;ll do the same thing. I&#x27;m just trying to help. Don&#x27;t say kick me to nuts. I&#x27;m not kicking you to nuts. I was trying to fix that number. Did Chris come get his box?</div></div><div class="seg"><div class="ts">9:02</div><div>He&#x27;s getting it tomorrow. Coming up here. Got to bring his uniforms back.</div></div><div class="seg"><div class="ts">9:07</div><div>He needs to move his car too. I told him. That will haul that.</div></div></section>
+</main>
+</div>
+<footer>PLAUD-NOTES-2026-09-17-0600-MORNING · noindex · Plaud sources + notes</footer>
+<script>
+
+document.querySelectorAll('.tabs button').forEach(btn => {
+  btn.addEventListener('click', () => {
+    document.querySelectorAll('.tabs button').forEach(b => b.setAttribute('aria-selected', b===btn ? 'true':'false'));
+    document.querySelectorAll('.panel').forEach(p => p.classList.toggle('is-on', p.id === btn.dataset.panel));
+  });
+});
+
+</script>
+</body>
+</html>

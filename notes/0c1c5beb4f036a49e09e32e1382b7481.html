@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>09-10 Meeting: BMW Car Launch Event Planning</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500&family=IBM+Plex+Mono:wght@400;500&family=Source+Sans+3:wght@400;600;700&display=swap">
+  <style>
+:root {
+  --bg: #090908;
+  --bg-2: #11110f;
+  --bg-3: #181714;
+  --ink: #f0eadc;
+  --muted: #8d8778;
+  --faint: #5c574c;
+  --line: #26241e;
+  --accent: #c4452d;
+  --mustard: #c4a35a;
+  --blue: #6f8fbf;
+  --ok: #7d9a6d;
+  --serif: "Fraunces", "Iowan Old Style", Georgia, serif;
+  --sans: "Source Sans 3", "Source Sans Pro", -apple-system, sans-serif;
+  --mono: "IBM Plex Mono", ui-monospace, monospace;
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html, body { background: var(--bg); color: var(--ink); }
+body {
+  font-family: var(--sans);
+  min-height: 100vh;
+  text-wrap: pretty;
+}
+a { color: inherit; }
+.shell { display: grid; grid-template-columns: 260px 1fr; min-height: 100vh; }
+.rail {
+  border-right: 1px solid var(--line);
+  padding: 28px 18px 40px;
+  background: var(--bg-2);
+  position: sticky; top: 0; height: 100vh; overflow: auto;
+}
+.mark {
+  font-family: var(--serif);
+  font-weight: 500;
+  font-size: 13px;
+  letter-spacing: .18em;
+  text-transform: uppercase;
+  color: var(--accent);
+}
+.rail h1 {
+  font-family: var(--serif);
+  font-size: 28px;
+  font-weight: 460;
+  letter-spacing: -.03em;
+  margin: 10px 0 6px;
+}
+.rail .lede { color: var(--muted); font-size: 13.5px; line-height: 1.45; margin-bottom: 28px; }
+.vnav { display: flex; flex-direction: column; gap: 4px; }
+.vnav a {
+  display: flex; justify-content: space-between; align-items: baseline;
+  text-decoration: none; padding: 9px 10px; border-radius: 8px;
+  color: var(--ink); font-size: 14px;
+}
+.vnav a:hover, .vnav a.is-on { background: var(--bg-3); }
+.vnav a.is-on { box-shadow: inset 2px 0 0 var(--accent); }
+.vnav .count { color: var(--faint); font-family: var(--mono); font-size: 11px; }
+.stage { padding: 36px 40px 80px; max-width: 980px; }
+.kicker {
+  font-size: 11px; letter-spacing: .16em; text-transform: uppercase;
+  color: var(--accent); font-weight: 700; margin-bottom: 8px;
+}
+.stage > h2 {
+  font-family: var(--serif); font-weight: 460; font-size: 34px;
+  letter-spacing: -.03em; margin-bottom: 8px;
+}
+.blurb { color: var(--muted); margin-bottom: 28px; max-width: 46rem; }
+.empty {
+  border: 1px dashed var(--line); border-radius: 14px;
+  padding: 36px 28px; color: var(--muted); background: var(--bg-2);
+}
+.empty strong { color: var(--ink); font-weight: 600; }
+.cards { display: flex; flex-direction: column; gap: 10px; }
+.card {
+  display: grid; grid-template-columns: 1fr auto; gap: 12px;
+  text-decoration: none; padding: 16px 18px; border-radius: 12px;
+  background: var(--bg-2); border: 1px solid var(--line);
+}
+.card:hover { border-color: #3a372e; background: var(--bg-3); }
+.card h3 { font-size: 16px; font-weight: 600; margin-bottom: 4px; }
+.meta { color: var(--muted); font-size: 13px; display: flex; gap: 10px; flex-wrap: wrap; }
+.chip {
+  font-family: var(--mono); font-size: 10px; letter-spacing: .06em;
+  text-transform: uppercase; padding: 3px 7px; border-radius: 999px;
+  border: 1px solid var(--line); color: var(--muted); height: fit-content;
+}
+.chip.dealers { color: var(--blue); border-color: #2a3344; }
+.chip.avec-tous { color: var(--mustard); border-color: #3a3320; }
+.chip.personal { color: #c9a7a0; }
+.chip.ideas { color: var(--ok); }
+.note-top { margin-bottom: 22px; }
+.note-top h2 { font-family: var(--serif); font-size: 36px; font-weight: 460; letter-spacing: -.03em; }
+.tabs { display: flex; gap: 6px; margin: 22px 0 18px; border-bottom: 1px solid var(--line); }
+.tabs button {
+  appearance: none; background: none; border: 0; color: var(--muted);
+  font: 600 13px var(--sans); padding: 10px 12px; cursor: pointer;
+  border-bottom: 2px solid transparent; margin-bottom: -1px;
+}
+.tabs button[aria-selected="true"] { color: var(--ink); border-bottom-color: var(--accent); }
+.panel { display: none; }
+.panel.is-on { display: block; }
+.prose { font-size: 16.5px; line-height: 1.6; max-width: 42rem; }
+.prose h2, .prose h3 { font-family: var(--serif); font-weight: 500; margin: 1.3em 0 .4em; }
+.prose p { margin: 0 0 .8em; }
+.prose ul, .prose ol { margin: 0 0 1em 1.2em; }
+.prose li { margin: .25em 0; }
+.hl { border-left: 2px solid var(--accent); padding: 10px 0 10px 14px; margin: 0 0 14px; }
+.hl .t { font-family: var(--mono); font-size: 11px; color: var(--faint); }
+.hl h4 { font-size: 15px; margin: 4px 0; }
+.hl p { color: var(--muted); font-size: 14.5px; }
+.seg { display: grid; grid-template-columns: 64px 1fr; gap: 12px; padding: 8px 0; border-bottom: 1px solid var(--line); }
+.seg .ts { font-family: var(--mono); font-size: 11px; color: var(--faint); padding-top: 3px; }
+.back { color: var(--muted); text-decoration: none; font-size: 13px; display: inline-block; margin-bottom: 18px; }
+.back:hover { color: var(--ink); }
+footer { margin-top: 48px; color: var(--faint); font-size: 11px; font-family: var(--mono); }
+@media (max-width: 820px) {
+  .shell { grid-template-columns: 1fr; }
+  .rail { position: relative; height: auto; border-right: 0; border-bottom: 1px solid var(--line); }
+  .stage { padding: 24px 18px 64px; }
+  .note-top h2 { font-size: 28px; }
+}
+</style>
+</head>
+<body>
+<div class="shell">
+<aside class="rail">
+  <div class="mark">Cooperative</div>
+  <h1>Field desk</h1>
+  <p class="lede">Plaud landings. Summary, highlights, transcript — filed by life area.</p>
+  <nav class="vnav"><a href="../index.html" class="">All <span class="count">45</span></a><a class="" href="../vertical-inbox.html">Inbox <span class="count">0</span></a><a class="" href="../vertical-personal.html">Personal <span class="count">0</span></a><a class="" href="../vertical-coop-marketing.html">Coop Marketing <span class="count">2</span></a><a class="" href="../vertical-coop-dev.html">Coop Dev <span class="count">8</span></a><a class="" href="../vertical-avec-tous.html">Avec Tous <span class="count">0</span></a><a class="is-on" href="../vertical-dealers.html">Dealers <span class="count">33</span></a><a class="" href="../vertical-ideas.html">Ideas <span class="count">2</span></a></nav>
+</aside>
+<main class="stage">
+  <a class="back" href="../index.html">← Desk</a>
+  <div class="note-top">
+    <div class="kicker">dealers · 2026-09-10 · 3m24s</div>
+    <h2>09-10 Meeting: BMW Car Launch Event Planning</h2>
+    <div class="meta" style="margin-top:8px"><span>id 0c1c5beb4f036a49e09e32e1382b7481</span><span>inferred</span></div>
+  </div>
+  <div class="tabs" role="tablist">
+    <button type="button" data-panel="sum" aria-selected="true">Summary</button>
+    <button type="button" data-panel="hl" aria-selected="false">Highlights</button>
+    <button type="button" data-panel="tx" aria-selected="false">Transcript</button>
+  </div>
+  <section id="sum" class="panel is-on prose"><h2>1. Planning for the Car Launch Event</h2>
+<p>The event is for the launch of new BMW models: X5, IX3, i7 (or 7 Series). The team needs to get planning done as soon as possible (ASAP) to qualify for potential co-op funding from BMW. To receive reimbursement from BMW, the event requires pre-approval before any payments are made or receipts are generated. BMW has stringent requirements, including reviewing the invitation before it is sent out. The event is scheduled for a Friday evening from 5:00 PM to 7:30 PM. It will feature catered refreshments, drinks, hors d&#x27;oeuvres, and music. The decision was made not to serve alcohol due to previous issues with drunk customers causing problems, such as public urination and disruptive behavior.</p>
+<h3>Action Items</h3>
+<ul>
+<li>[ ] Finalize the complete event plan. -- *Lance* ASAP</li>
+<li>[ ] Create and design the event invitation. -- *Lance*</li>
+<li>[ ] Submit the event plan and invitation to BMW for pre-approval to secure co-op funding (before any payments are made or receipts are generated). -- *Lance*</li>
+<li>[ ] Assign and arrange catering for refreshments, drinks, and hors d&#x27;oeuvres; select and book the caterer. -- *TBD*</li>
+<li>[ ] Decide on the music format (e.g., orchestral three-piece or other genre) and book performers. -- *TBD*</li>
+<li>[ ] Confirm the exact event date (“the twenty-third, Friday”) and specify the month. -- *Lance*</li>
+</ul>
+<p>&gt; <strong>AI Suggestions</strong> &gt; AI has identified the following issues that were not concluded in the meeting or lack clear action items; please pay attention: &gt; 1. The specific date for the event is not finalized. The conversation mentions &quot;The twenty third. You&#x27;re gonna have the party? The Friday,&quot; but it&#x27;s unclear if this date was confirmed or which month it refers to. A firm date needs to be set. &gt; 2. The executor for arranging the catering is not specified. While the decision to cater was made, it&#x27;s unclear who is responsible for selecting and booking the caterer. &gt; 3. The type of music for the event remains undecided. The transcript mentions &quot;Music&quot; and an offhand comment about &quot;Orchestral music. A little three piece,&quot; but no firm decision was made on the genre or performer. &gt; 4. The specific process and timeline for submitting the event plan to BMW for pre-approval are not detailed. It is only stated that it needs to be done &quot;ASAP&quot; before any payments are made.</p></section>
+  <section id="hl" class="panel"><div class='empty'>No device highlights on this take.</div></section>
+  <section id="tx" class="panel"><div class="seg"><div class="ts">0:01</div><div>We&#x27;ll actually have those to sell. Yes, it&#x27;ll be X five, I X three, I seven, or just seven. Seven forty-seven. Yeah, whatever time you want. The twenty third. You&#x27;re gonna have the party? Yeah, the Friday. And then the evening. Yeah, I figure that way it&#x27;s not so late that people already have something else going on, and also we are in Jackson. What&#x27;s that mean? Can&#x27;t have it too late.</div></div><div class="seg"><div class="ts">0:40</div><div>We need to get the planning done early, like ASAP, so that I can. If we can try to, if we&#x27;re gonna, if we want to try to get a little bit of money from BMW for it, I think an event like that qualifies. It does, yeah, it does. But apparently, we cannot just submit a check. Submit like. We have to get approval. We have to get it pre-approved before we even pay for anything. Before we have any receipts for anything. They&#x27;ll they&#x27;ll reimburse you. Yeah, but they&#x27;re difficult. Oh yeah. It&#x27;s they&#x27;re. The the invitation has to be right. We do like an invitation. Yeah. Send us the let us let us see it and that&#x27;s yeah. So as soon as you have it, if you want me to do the invitation or if you want to do the invitation, want me to do it? All right, good. Do you have a print house locally, or do you want me to use one? Okay, that&#x27;s fine. I just made sure because I have a print. I have a print house.</div></div><div class="seg"><div class="ts">1:38</div><div>So yeah, temptation, temptation, all that shit, so they can see it ahead of time. We&#x27;re gonna say five. You said five or six. You were kind of between. You want to say five? Seven thirty. I&#x27;ll just seven thirty. And we&#x27;re gonna tell them we have refreshments, drinks, hors d&#x27;oeuvres. Yes. Music, food truck. How we how y&#x27;all? Truck. Okay, so you&#x27;ll cater it. Okay, I just wondering for the verbiage. So we&#x27;ll say catered, drinks. You sure? People, people do like it. A lot of people I&#x27;ve noticed have had unveilings and shit, and it&#x27;s like a cocktail party. Well, that&#x27;s what we did in &#x27;22. It was blowing. We fucking walked out. But they all had drinks and stuff then. Yeah, but you don&#x27;t want to do any. You don&#x27;t want to do anything like that for this. Orchestral music.</div></div><div class="seg"><div class="ts">2:37</div><div>Yeah, a little three piece or whatever. Drinking the alcohol deal turn into a problem. Was it a problem for like staff, or you had some customers that were a problem? People fucking drunk, pissing in the parking lot and shit, doing stupid shit. Mississippi and Louisiana—that that would, those are the two states that would have that problem. Louisiana&#x27;s a madhouse when you give them too much alcohol. Can you imagine?</div></div><div class="seg"><div class="ts">3:08</div><div>Tiger Stadium for that last game. So what did they do? I mean, they had had a long, long delay. I worked forty minutes. Oh my God! You know they were so fucked up. What did they do? What? It was fucking pouring rain and fucking lightning.</div></div></section>
+</main>
+</div>
+<footer>PLAUD-NOTES-2026-09-17-0600-MORNING · noindex · Plaud sources + notes</footer>
+<script>
+
+document.querySelectorAll('.tabs button').forEach(btn => {
+  btn.addEventListener('click', () => {
+    document.querySelectorAll('.tabs button').forEach(b => b.setAttribute('aria-selected', b===btn ? 'true':'false'));
+    document.querySelectorAll('.panel').forEach(p => p.classList.toggle('is-on', p.id === btn.dataset.panel));
+  });
+});
+
+</script>
+</body>
+</html>

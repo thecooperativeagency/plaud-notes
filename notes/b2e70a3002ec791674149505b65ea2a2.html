@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="robots" content="noindex, nofollow">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Ideas — Field desk</title>
+  <title>09-14 Meeting: Improving Lead Generation and Management</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500&family=IBM+Plex+Mono:wght@400;500&family=Source+Sans+3:wght@400;600;700&display=swap">
   <style>
@@ -136,29 +136,48 @@ footer { margin-top: 48px; color: var(--faint); font-size: 11px; font-family: va
   <div class="mark">Cooperative</div>
   <h1>Field desk</h1>
   <p class="lede">Plaud landings. Summary, highlights, transcript — filed by life area.</p>
-  <nav class="vnav"><a href="index.html" class="">All <span class="count">45</span></a><a class="" href="vertical-inbox.html">Inbox <span class="count">0</span></a><a class="" href="vertical-personal.html">Personal <span class="count">0</span></a><a class="" href="vertical-coop-marketing.html">Coop Marketing <span class="count">2</span></a><a class="" href="vertical-coop-dev.html">Coop Dev <span class="count">8</span></a><a class="" href="vertical-avec-tous.html">Avec Tous <span class="count">0</span></a><a class="" href="vertical-dealers.html">Dealers <span class="count">33</span></a><a class="is-on" href="vertical-ideas.html">Ideas <span class="count">2</span></a></nav>
+  <nav class="vnav"><a href="../index.html" class="">All <span class="count">45</span></a><a class="" href="../vertical-inbox.html">Inbox <span class="count">0</span></a><a class="" href="../vertical-personal.html">Personal <span class="count">0</span></a><a class="" href="../vertical-coop-marketing.html">Coop Marketing <span class="count">2</span></a><a class="is-on" href="../vertical-coop-dev.html">Coop Dev <span class="count">8</span></a><a class="" href="../vertical-avec-tous.html">Avec Tous <span class="count">0</span></a><a class="" href="../vertical-dealers.html">Dealers <span class="count">33</span></a><a class="" href="../vertical-ideas.html">Ideas <span class="count">2</span></a></nav>
 </aside>
 <main class="stage">
-  <div class="kicker">Vertical</div>
-  <h2>Ideas</h2>
-  <p class="blurb">Parking lot. Not a task until you promote it.</p>
-  <div class="cards"><a class="card" href="notes/5555062e6963496bbb1d0c842941609e.html">
-  <div>
-    <h3>09-02 Brainstorming Session: B2B Newsletter for Car Dealerships</h3>
-    <div class="meta"><span>2026-09-02</span><span>24s</span></div>
+  <a class="back" href="../index.html">← Desk</a>
+  <div class="note-top">
+    <div class="kicker">coop-dev · 2026-09-14 · 11m11s</div>
+    <h2>09-14 Meeting: Improving Lead Generation and Management</h2>
+    <div class="meta" style="margin-top:8px"><span>id b2e70a3002ec791674149505b65ea2a2</span><span>spoken</span></div>
   </div>
-  <span class="chip ideas">ideas</span>
-</a><a class="card" href="notes/cf363c46192f537f696731427de7968e.html">
-  <div>
-    <h3>08-24 Executable Idea Agenda: Converting Ideation Fatigue into a Focused Telegram Operating Rhythm</h3>
-    <div class="meta"><span>2026-08-24</span><span>35s</span></div>
+  <div class="tabs" role="tablist">
+    <button type="button" data-panel="sum" aria-selected="true">Summary</button>
+    <button type="button" data-panel="hl" aria-selected="false">Highlights</button>
+    <button type="button" data-panel="tx" aria-selected="false">Transcript</button>
   </div>
-  <span class="chip ideas">ideas</span>
-</a></div>
+  <section id="sum" class="panel is-on prose"><h2>BHBMW — service-drive lead acquisition dashboard (GO)</h2>
+<p>Store wants one morning dashboard instead of juggling TSD / CRM / VON / AMP CSVs (40–50 service appts/day; giant list thrash).</p>
+<h3>Build (Lance + Ada · ~24h prototype promised on call)</h3>
+<ul>
+<li>Same-day service appointments with phone + assigned salesperson</li>
+<li>Prior vehicle / lease-loan-cash / outside finance / specials eligibility</li>
+<li>Multi-source hits flagged hot; AMP click signals when available</li>
+<li>PDF download per salesperson (e.g. &quot;Mila&#x27;s list&quot;)</li>
+<li>Later phase: recent appraisals / unsold trades / cold leads</li>
+</ul>
+<h3>Adjacent</h3>
+<ul>
+<li>Ask Landon about GrokBot experience (store-side AI; web version only)</li>
+<li>Ties directly to Acquire Desk / sales acquisition path</li>
+</ul></section>
+  <section id="hl" class="panel"><div class='empty'>No device highlights on this take.</div></section>
+  <section id="tx" class="panel"><div class='empty'>No transcript yet.</div></section>
 </main>
 </div>
 <footer>PLAUD-NOTES-2026-09-17-0600-MORNING · noindex · Plaud sources + notes</footer>
 <script>
+
+document.querySelectorAll('.tabs button').forEach(btn => {
+  btn.addEventListener('click', () => {
+    document.querySelectorAll('.tabs button').forEach(b => b.setAttribute('aria-selected', b===btn ? 'true':'false'));
+    document.querySelectorAll('.panel').forEach(p => p.classList.toggle('is-on', p.id === btn.dataset.panel));
+  });
+});
 
 </script>
 </body>

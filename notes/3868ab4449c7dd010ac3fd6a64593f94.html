@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>09-02 Auto Dealership&#x27;s Customer Re-engagement Stalled by Podium Platform Misuse</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500&family=IBM+Plex+Mono:wght@400;500&family=Source+Sans+3:wght@400;600;700&display=swap">
+  <style>
+:root {
+  --bg: #090908;
+  --bg-2: #11110f;
+  --bg-3: #181714;
+  --ink: #f0eadc;
+  --muted: #8d8778;
+  --faint: #5c574c;
+  --line: #26241e;
+  --accent: #c4452d;
+  --mustard: #c4a35a;
+  --blue: #6f8fbf;
+  --ok: #7d9a6d;
+  --serif: "Fraunces", "Iowan Old Style", Georgia, serif;
+  --sans: "Source Sans 3", "Source Sans Pro", -apple-system, sans-serif;
+  --mono: "IBM Plex Mono", ui-monospace, monospace;
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html, body { background: var(--bg); color: var(--ink); }
+body {
+  font-family: var(--sans);
+  min-height: 100vh;
+  text-wrap: pretty;
+}
+a { color: inherit; }
+.shell { display: grid; grid-template-columns: 260px 1fr; min-height: 100vh; }
+.rail {
+  border-right: 1px solid var(--line);
+  padding: 28px 18px 40px;
+  background: var(--bg-2);
+  position: sticky; top: 0; height: 100vh; overflow: auto;
+}
+.mark {
+  font-family: var(--serif);
+  font-weight: 500;
+  font-size: 13px;
+  letter-spacing: .18em;
+  text-transform: uppercase;
+  color: var(--accent);
+}
+.rail h1 {
+  font-family: var(--serif);
+  font-size: 28px;
+  font-weight: 460;
+  letter-spacing: -.03em;
+  margin: 10px 0 6px;
+}
+.rail .lede { color: var(--muted); font-size: 13.5px; line-height: 1.45; margin-bottom: 28px; }
+.vnav { display: flex; flex-direction: column; gap: 4px; }
+.vnav a {
+  display: flex; justify-content: space-between; align-items: baseline;
+  text-decoration: none; padding: 9px 10px; border-radius: 8px;
+  color: var(--ink); font-size: 14px;
+}
+.vnav a:hover, .vnav a.is-on { background: var(--bg-3); }
+.vnav a.is-on { box-shadow: inset 2px 0 0 var(--accent); }
+.vnav .count { color: var(--faint); font-family: var(--mono); font-size: 11px; }
+.stage { padding: 36px 40px 80px; max-width: 980px; }
+.kicker {
+  font-size: 11px; letter-spacing: .16em; text-transform: uppercase;
+  color: var(--accent); font-weight: 700; margin-bottom: 8px;
+}
+.stage > h2 {
+  font-family: var(--serif); font-weight: 460; font-size: 34px;
+  letter-spacing: -.03em; margin-bottom: 8px;
+}
+.blurb { color: var(--muted); margin-bottom: 28px; max-width: 46rem; }
+.empty {
+  border: 1px dashed var(--line); border-radius: 14px;
+  padding: 36px 28px; color: var(--muted); background: var(--bg-2);
+}
+.empty strong { color: var(--ink); font-weight: 600; }
+.cards { display: flex; flex-direction: column; gap: 10px; }
+.card {
+  display: grid; grid-template-columns: 1fr auto; gap: 12px;
+  text-decoration: none; padding: 16px 18px; border-radius: 12px;
+  background: var(--bg-2); border: 1px solid var(--line);
+}
+.card:hover { border-color: #3a372e; background: var(--bg-3); }
+.card h3 { font-size: 16px; font-weight: 600; margin-bottom: 4px; }
+.meta { color: var(--muted); font-size: 13px; display: flex; gap: 10px; flex-wrap: wrap; }
+.chip {
+  font-family: var(--mono); font-size: 10px; letter-spacing: .06em;
+  text-transform: uppercase; padding: 3px 7px; border-radius: 999px;
+  border: 1px solid var(--line); color: var(--muted); height: fit-content;
+}
+.chip.dealers { color: var(--blue); border-color: #2a3344; }
+.chip.avec-tous { color: var(--mustard); border-color: #3a3320; }
+.chip.personal { color: #c9a7a0; }
+.chip.ideas { color: var(--ok); }
+.note-top { margin-bottom: 22px; }
+.note-top h2 { font-family: var(--serif); font-size: 36px; font-weight: 460; letter-spacing: -.03em; }
+.tabs { display: flex; gap: 6px; margin: 22px 0 18px; border-bottom: 1px solid var(--line); }
+.tabs button {
+  appearance: none; background: none; border: 0; color: var(--muted);
+  font: 600 13px var(--sans); padding: 10px 12px; cursor: pointer;
+  border-bottom: 2px solid transparent; margin-bottom: -1px;
+}
+.tabs button[aria-selected="true"] { color: var(--ink); border-bottom-color: var(--accent); }
+.panel { display: none; }
+.panel.is-on { display: block; }
+.prose { font-size: 16.5px; line-height: 1.6; max-width: 42rem; }
+.prose h2, .prose h3 { font-family: var(--serif); font-weight: 500; margin: 1.3em 0 .4em; }
+.prose p { margin: 0 0 .8em; }
+.prose ul, .prose ol { margin: 0 0 1em 1.2em; }
+.prose li { margin: .25em 0; }
+.hl { border-left: 2px solid var(--accent); padding: 10px 0 10px 14px; margin: 0 0 14px; }
+.hl .t { font-family: var(--mono); font-size: 11px; color: var(--faint); }
+.hl h4 { font-size: 15px; margin: 4px 0; }
+.hl p { color: var(--muted); font-size: 14.5px; }
+.seg { display: grid; grid-template-columns: 64px 1fr; gap: 12px; padding: 8px 0; border-bottom: 1px solid var(--line); }
+.seg .ts { font-family: var(--mono); font-size: 11px; color: var(--faint); padding-top: 3px; }
+.back { color: var(--muted); text-decoration: none; font-size: 13px; display: inline-block; margin-bottom: 18px; }
+.back:hover { color: var(--ink); }
+footer { margin-top: 48px; color: var(--faint); font-size: 11px; font-family: var(--mono); }
+@media (max-width: 820px) {
+  .shell { grid-template-columns: 1fr; }
+  .rail { position: relative; height: auto; border-right: 0; border-bottom: 1px solid var(--line); }
+  .stage { padding: 24px 18px 64px; }
+  .note-top h2 { font-size: 28px; }
+}
+</style>
+</head>
+<body>
+<div class="shell">
+<aside class="rail">
+  <div class="mark">Cooperative</div>
+  <h1>Field desk</h1>
+  <p class="lede">Plaud landings. Summary, highlights, transcript — filed by life area.</p>
+  <nav class="vnav"><a href="../index.html" class="">All <span class="count">45</span></a><a class="" href="../vertical-inbox.html">Inbox <span class="count">0</span></a><a class="" href="../vertical-personal.html">Personal <span class="count">0</span></a><a class="" href="../vertical-coop-marketing.html">Coop Marketing <span class="count">2</span></a><a class="" href="../vertical-coop-dev.html">Coop Dev <span class="count">8</span></a><a class="" href="../vertical-avec-tous.html">Avec Tous <span class="count">0</span></a><a class="is-on" href="../vertical-dealers.html">Dealers <span class="count">33</span></a><a class="" href="../vertical-ideas.html">Ideas <span class="count">2</span></a></nav>
+</aside>
+<main class="stage">
+  <a class="back" href="../index.html">← Desk</a>
+  <div class="note-top">
+    <div class="kicker">dealers · 2026-09-02 · 4m01s</div>
+    <h2>09-02 Auto Dealership&#x27;s Customer Re-engagement Stalled by Podium Platform Misuse</h2>
+    <div class="meta" style="margin-top:8px"><span>id 3868ab4449c7dd010ac3fd6a64593f94</span><span>inferred</span></div>
+  </div>
+  <div class="tabs" role="tablist">
+    <button type="button" data-panel="sum" aria-selected="true">Summary</button>
+    <button type="button" data-panel="hl" aria-selected="false">Highlights</button>
+    <button type="button" data-panel="tx" aria-selected="false">Transcript</button>
+  </div>
+  <section id="sum" class="panel is-on prose"><p>![PLAUD NOTE](permanent/1440a4fbcf984caa9625e6345e38a215/mem_g5kZLYofe1/summary_poster/card_20260902154325-v2@cde26a49d69fcaf9ff0328_20260902154413_537a7f21.png)</p>
+<h2>Core Synopsis</h2>
+<p>The dealership&#x27;s customer re-engagement operation is functionally stalled because the team lacks the basic ability to extract a targeted contact list from its own messaging platform. Speaker 2 sent a &quot;Been a While&quot; loyalty template to an estimated 200–300 former Audi customers — largely legacy accounts from a salesperson named Ryan — and now needs to personally reach out to that specific cohort via personal cell phone as the dealership phases out of a product line. The operational blocker is not the outreach itself, but the inability to filter Podium&#x27;s inbox to surface that precise recipient list. Compounding this, the conversation exposed a deeper systemic failure: Podium messages are being buried without resolution — a customer had been waiting three weeks for a reply — because the team has not adopted the platform&#x27;s filtering and task tools with any discipline. Lance pointed to the &quot;Engaged&quot; filter and the task list as the correct triage mechanisms, but the team is clearly not using either consistently. We are sitting on a communication infrastructure that nobody has actually learned to operate, and customers are falling through the gaps because of it.</p>
+<p>---</p>
+<h2>The Podium Competency Gap: Buried Leads and a Broken Retrieval Workflow</h2>
+<h3>1. The Immediate Operational Need</h3>
+<p>Speaker 2 requires a filtered export of all contacts who received the <strong>&quot;Been a While&quot;</strong> template message — an estimated 200–300 recipients, predominantly former Audi owners previously handled by Ryan. The intent is to transition outreach to personal cell phone contact as the dealership exits a specific product or service line. The Podium platform holds this data, but neither Speaker 2 nor Lance immediately knew the precise export or filter path to retrieve it during the conversation.</p>
+<h3>2. The Systemic Inbox Problem</h3>
+<p>The conversation surfaced a structural failure in how Podium is being used as a daily triage tool:</p>
+<ul>
+<li><strong>Messages are going unanswered for weeks.</strong> Speaker 2 cited a customer who waited three weeks for a reply — a direct consequence of replies being buried beneath high-volume outbound blast threads.</li>
+<li><strong>The &quot;Engaged&quot; filter is the correct tool but unused.</strong> Lance identified the <strong>Engaged</strong> filter as the mechanism to surface contacts who have replied and are awaiting a response. This was apparently unknown or underutilized by the primary daily user.</li>
+<li><strong>The Task List is not being maintained.</strong> Lance referenced the Podium task list as the intended follow-up safety net. Speaker 2&#x27;s experience contradicts its effectiveness in practice — the three-week lapse suggests tasks are either not being created or not being checked.</li>
+</ul>
+<h3>3. The Opt-In Friction Point</h3>
+<p>Speaker 2 expressed reluctance to route outreach through Podium due to the opt-in confirmation message it sends to contacts. Lance clarified that the opt-in checkbox can be pre-selected before sending to suppress that prompt, and that recipients would only receive a standard opt-out notice. For a list of established repeat customers, this distinction is operationally significant and removes the stated barrier to using the platform for follow-up.</p>
+<p>---</p>
+<h2>Action Items</h2>
+<p><strong>@Lance</strong></p>
+<ul>
+<li>[ ] Pull and deliver the full recipient list for the &quot;Been a While&quot; template — names and contact numbers — for Speaker 2&#x27;s personal outreach campaign - [TBD]</li>
+</ul>
+<p><strong>@Speaker 2</strong></p>
+<ul>
+<li>[ ] Use the <strong>Engaged</strong> filter in Podium daily to identify and respond to all contacts awaiting a reply - [TBD]</li>
+<li>[ ] When sending outreach via Podium to existing customers, pre-check the opt-in box to suppress the confirmation prompt - [TBD]</li>
+</ul></section>
+  <section id="hl" class="panel"><div class='empty'>No device highlights on this take.</div></section>
+  <section id="tx" class="panel"><div class="seg"><div class="ts">0:03</div><div>Every hour or so, the radio. Yeah, the radio.</div></div><div class="seg"><div class="ts">0:06</div><div>When they say radio, do they mean radio or do they mean like car play or? I made sure it was radio because it was. They had to reset the MMI. Is it AM, FM, or Sirius? I did not ask that question. That was a good question to ask. I should have. Okay, never mind. Just tell him to come in, and we&#x27;ll figure it out. He&#x27;s in the same frame. Okay, so I said. Like hundreds of people, the same template message that were like people that had cars that they bought from us like two, three, four years ago, right? That were a lot. Most of them were Ryan&#x27;s customers. Yep. We are phasing out of this. I want to call and text all of them with my cell phone. How can I get a list of the people I sent a certain template to? I know the data is here. I don&#x27;t know how to.</div></div><div class="seg"><div class="ts">0:54</div><div>Yeah, totally. We can do that. Okay. So, what what template is it?</div></div><div class="seg"><div class="ts">0:58</div><div>Or template is been a while.</div></div><div class="seg"><div class="ts">1:01</div><div>Been a while, so you send a template. Been a while.</div></div><div class="seg"><div class="ts">1:03</div><div>Yeah, it&#x27;s got to be like at least two, three hundred people. Yeah. And then I&#x27;m just if I what about print it out?</div></div><div class="seg"><div class="ts">1:09</div><div>All of the people you&#x27;ve contacted. Do we want all of it, or we just want that, or what do we want?</div></div><div class="seg"><div class="ts">1:13</div><div>I just want this because this is specifically people who own Audi. It&#x27;s been a while. Okay. Yeah, some loyalty.</div></div><div class="seg"><div class="ts">1:18</div><div>I get it figured out because I&#x27;ve got a couple more calls. Yeah, you could get that. But for me, like starting now, you can just use just use Ven to text.</div></div><div class="seg"><div class="ts">1:28</div><div>I&#x27;m just texting from my phone.</div></div><div class="seg"><div class="ts">1:29</div><div>That&#x27;s fine, but I&#x27;m just saying like. The old just.</div></div><div class="seg"><div class="ts">1:31</div><div>When I text her, Finn doesn&#x27;t it send a message that says, &quot; Hey, check yes.&quot; So, be able to get past that. I just, I just want to get away from using the system to come here in general.</div></div><div class="seg"><div class="ts">1:46</div><div>You see, yeah, to opt in, yeah, I get that.</div></div><div class="seg"><div class="ts">1:48</div><div>You can just check that, yeah, even before you hit send, and they&#x27;ll stay opted in. And what they&#x27;ll get is they&#x27;ll just get the opt out message, just like oh,</div></div><div class="seg"><div class="ts">1:56</div><div>Yeah, oh, I get that, but yes, just check that. Also, a lot of these people are my repeat customers that have myself and others. That&#x27;s fine too.</div></div><div class="seg"><div class="ts">2:03</div><div>I&#x27;m just saying, moving forward, that thing&#x27;s going to be able to do all of our follow up, all that crap. Everything you were doing.</div></div><div class="seg"><div class="ts">2:11</div><div>And it&#x27;ll actually notify me because I talked to a lady this morning that had been waiting for a response for like three weeks. From podium. Like it, like the message will get buried, right? Well,</div></div><div class="seg"><div class="ts">2:23</div><div>And then where&#x27;s podium? Just so you know, you have. My task list, right?</div></div><div class="seg"><div class="ts">2:29</div><div>Yeah,</div></div><div class="seg"><div class="ts">2:30</div><div>I check it. Good tasks.</div></div><div class="seg"><div class="ts">2:37</div><div>How do you have no tasks? Because I do my tasks.</div></div><div class="seg"><div class="ts">2:40</div><div>Okay, so you&#x27;re telling me the task wasn&#x27;t in there? That&#x27;s what I&#x27;m saying. Like, if there was a woman that needed to be contacted, it should have been in task.</div></div><div class="seg"><div class="ts">2:47</div><div>Like, how do? Okay, where do I go for people like, let&#x27;s say, they responded to something I texted them? How do I pull up the people that had responded and are waiting for me to say something? How do I pull that up? Because otherwise, I I&#x27;ve just been scrolling and scrolling and scrolling and scroll. It doesn&#x27;t though, because I&#x27;ll scroll down and there will be a little different problem. Because you&#x27;re sending out here.</div></div><div class="seg"><div class="ts">3:08</div><div>Here&#x27;s one. Three thousand messages from the system.</div></div><div class="seg"><div class="ts">3:10</div><div>So it like you see how I just scroll down like. You got to learn how to use all the filters. Okay. Puns of which filter am I looking for?</div></div><div class="seg"><div class="ts">3:18</div><div>I don&#x27;t know. I&#x27;m not the podium expert, but you use it every day. How you not figured itself out yet? Watch. If we say, let me see, clear filters.</div></div><div class="seg"><div class="ts">3:28</div><div>This is kind of a moot point at this point. Yeah, I know. Look, so it could be has a closed conversation, has a conversation over any channel,</div></div><div class="seg"><div class="ts">3:39</div><div>Any. What the fuck does any channel mean?</div></div><div class="seg"><div class="ts">3:42</div><div>Let&#x27;s see. Assigned to you. Hot leads engaged and not engaged. Mentioned failed. I mean, these engaged should be people that have followed up with you and they&#x27;re waiting. Okay. Here&#x27;s one. Yeah.</div></div><div class="seg"><div class="ts">3:57</div><div>But like.</div></div></section>
+</main>
+</div>
+<footer>PLAUD-NOTES-2026-09-17-0600-MORNING · noindex · Plaud sources + notes</footer>
+<script>
+
+document.querySelectorAll('.tabs button').forEach(btn => {
+  btn.addEventListener('click', () => {
+    document.querySelectorAll('.tabs button').forEach(b => b.setAttribute('aria-selected', b===btn ? 'true':'false'));
+    document.querySelectorAll('.panel').forEach(p => p.classList.toggle('is-on', p.id === btn.dataset.panel));
+  });
+});
+
+</script>
+</body>
+</html>

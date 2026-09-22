@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="robots" content="noindex, nofollow">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Ideas — Field desk</title>
+  <title>Audi Baton Rouge 3</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500&family=IBM+Plex+Mono:wght@400;500&family=Source+Sans+3:wght@400;600;700&display=swap">
   <style>
@@ -136,29 +136,52 @@ footer { margin-top: 48px; color: var(--faint); font-size: 11px; font-family: va
   <div class="mark">Cooperative</div>
   <h1>Field desk</h1>
   <p class="lede">Plaud landings. Summary, highlights, transcript — filed by life area.</p>
-  <nav class="vnav"><a href="index.html" class="">All <span class="count">45</span></a><a class="" href="vertical-inbox.html">Inbox <span class="count">0</span></a><a class="" href="vertical-personal.html">Personal <span class="count">0</span></a><a class="" href="vertical-coop-marketing.html">Coop Marketing <span class="count">2</span></a><a class="" href="vertical-coop-dev.html">Coop Dev <span class="count">8</span></a><a class="" href="vertical-avec-tous.html">Avec Tous <span class="count">0</span></a><a class="" href="vertical-dealers.html">Dealers <span class="count">33</span></a><a class="is-on" href="vertical-ideas.html">Ideas <span class="count">2</span></a></nav>
+  <nav class="vnav"><a href="../index.html" class="">All <span class="count">45</span></a><a class="" href="../vertical-inbox.html">Inbox <span class="count">0</span></a><a class="" href="../vertical-personal.html">Personal <span class="count">0</span></a><a class="" href="../vertical-coop-marketing.html">Coop Marketing <span class="count">2</span></a><a class="" href="../vertical-coop-dev.html">Coop Dev <span class="count">8</span></a><a class="" href="../vertical-avec-tous.html">Avec Tous <span class="count">0</span></a><a class="is-on" href="../vertical-dealers.html">Dealers <span class="count">33</span></a><a class="" href="../vertical-ideas.html">Ideas <span class="count">2</span></a></nav>
 </aside>
 <main class="stage">
-  <div class="kicker">Vertical</div>
-  <h2>Ideas</h2>
-  <p class="blurb">Parking lot. Not a task until you promote it.</p>
-  <div class="cards"><a class="card" href="notes/5555062e6963496bbb1d0c842941609e.html">
-  <div>
-    <h3>09-02 Brainstorming Session: B2B Newsletter for Car Dealerships</h3>
-    <div class="meta"><span>2026-09-02</span><span>24s</span></div>
+  <a class="back" href="../index.html">← Desk</a>
+  <div class="note-top">
+    <div class="kicker">dealers · 2026-09-14 · 27m46s</div>
+    <h2>Audi Baton Rouge 3</h2>
+    <div class="meta" style="margin-top:8px"><span>id 8b222ed21b7672383b2721c2b814ec3d</span><span>spoken+inferred</span></div>
   </div>
-  <span class="chip ideas">ideas</span>
-</a><a class="card" href="notes/cf363c46192f537f696731427de7968e.html">
-  <div>
-    <h3>08-24 Executable Idea Agenda: Converting Ideation Fatigue into a Focused Telegram Operating Rhythm</h3>
-    <div class="meta"><span>2026-08-24</span><span>35s</span></div>
+  <div class="tabs" role="tablist">
+    <button type="button" data-panel="sum" aria-selected="true">Summary</button>
+    <button type="button" data-panel="hl" aria-selected="false">Highlights</button>
+    <button type="button" data-panel="tx" aria-selected="false">Transcript</button>
   </div>
-  <span class="chip ideas">ideas</span>
-</a></div>
+  <section id="sum" class="panel is-on prose"><h2>ABR weekly — service + Q7/Q9 launch</h2>
+<p>Service hours/RO soft (2.0 vs ~2.7–2.8); push purposeful callback on declined work + missed appts. Q5 mirror-cap quote $4k vs $700 actual — full-assembly quoting concern.</p>
+<h3>Marketing (Lance / Coop)</h3>
+<ul>
+<li>Lease-only email (change-up from discount-heavy)</li>
+<li>Two emails this week: specials + Q9 feature</li>
+<li>Q9 features page (Q3/Q5 pattern) + hub for Q7+Q9; Dec private viewing; units mid–late Nov; BYO live; Oct magazine both</li>
+<li>Chad has Q9 talking-points printout on desk</li>
+</ul>
+<h3>Systems</h3>
+<ul>
+<li>Carl Call Review meeting this week (salesperson ID training; target tomorrow AM)</li>
+<li>Audi recall program already ~$1k/mo ongoing; J&amp;L one-time activation optional (park)</li>
+<li>Plaud Note training today + Sep 15–16</li>
+</ul>
+<h3>Store ops (not Coop primary)</h3>
+<ul>
+<li>Spencer contract BoA reject/resubmit; DEQ oil storage w/ Janie; Morel windshield → charge store</li>
+</ul></section>
+  <section id="hl" class="panel"><div class='empty'>No device highlights on this take.</div></section>
+  <section id="tx" class="panel"><div class='empty'>No transcript yet.</div></section>
 </main>
 </div>
 <footer>PLAUD-NOTES-2026-09-17-0600-MORNING · noindex · Plaud sources + notes</footer>
 <script>
+
+document.querySelectorAll('.tabs button').forEach(btn => {
+  btn.addEventListener('click', () => {
+    document.querySelectorAll('.tabs button').forEach(b => b.setAttribute('aria-selected', b===btn ? 'true':'false'));
+    document.querySelectorAll('.panel').forEach(p => p.classList.toggle('is-on', p.id === btn.dataset.panel));
+  });
+});
 
 </script>
 </body>

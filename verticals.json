@@ -1,5 +1,5 @@
 {
-  "revision": "PLAUD-NOTES-2026-08-24-B",
+  "revision": "PLAUD-NOTES-2026-08-25-E",
   "verticals": [
     {"id": "inbox", "label": "Inbox", "blurb": "Unrouted. You name a dest, or Ada files from context."},
     {"id": "personal", "label": "Personal", "blurb": "Family, health, travel, disc, home. Not Coop."},

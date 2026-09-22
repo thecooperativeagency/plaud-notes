@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>09-16 Weekly Meeting: Lead and Service Appointment Reporting Workflow</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500&family=IBM+Plex+Mono:wght@400;500&family=Source+Sans+3:wght@400;600;700&display=swap">
+  <style>
+:root {
+  --bg: #090908;
+  --bg-2: #11110f;
+  --bg-3: #181714;
+  --ink: #f0eadc;
+  --muted: #8d8778;
+  --faint: #5c574c;
+  --line: #26241e;
+  --accent: #c4452d;
+  --mustard: #c4a35a;
+  --blue: #6f8fbf;
+  --ok: #7d9a6d;
+  --serif: "Fraunces", "Iowan Old Style", Georgia, serif;
+  --sans: "Source Sans 3", "Source Sans Pro", -apple-system, sans-serif;
+  --mono: "IBM Plex Mono", ui-monospace, monospace;
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html, body { background: var(--bg); color: var(--ink); }
+body {
+  font-family: var(--sans);
+  min-height: 100vh;
+  text-wrap: pretty;
+}
+a { color: inherit; }
+.shell { display: grid; grid-template-columns: 260px 1fr; min-height: 100vh; }
+.rail {
+  border-right: 1px solid var(--line);
+  padding: 28px 18px 40px;
+  background: var(--bg-2);
+  position: sticky; top: 0; height: 100vh; overflow: auto;
+}
+.mark {
+  font-family: var(--serif);
+  font-weight: 500;
+  font-size: 13px;
+  letter-spacing: .18em;
+  text-transform: uppercase;
+  color: var(--accent);
+}
+.rail h1 {
+  font-family: var(--serif);
+  font-size: 28px;
+  font-weight: 460;
+  letter-spacing: -.03em;
+  margin: 10px 0 6px;
+}
+.rail .lede { color: var(--muted); font-size: 13.5px; line-height: 1.45; margin-bottom: 28px; }
+.vnav { display: flex; flex-direction: column; gap: 4px; }
+.vnav a {
+  display: flex; justify-content: space-between; align-items: baseline;
+  text-decoration: none; padding: 9px 10px; border-radius: 8px;
+  color: var(--ink); font-size: 14px;
+}
+.vnav a:hover, .vnav a.is-on { background: var(--bg-3); }
+.vnav a.is-on { box-shadow: inset 2px 0 0 var(--accent); }
+.vnav .count { color: var(--faint); font-family: var(--mono); font-size: 11px; }
+.stage { padding: 36px 40px 80px; max-width: 980px; }
+.kicker {
+  font-size: 11px; letter-spacing: .16em; text-transform: uppercase;
+  color: var(--accent); font-weight: 700; margin-bottom: 8px;
+}
+.stage > h2 {
+  font-family: var(--serif); font-weight: 460; font-size: 34px;
+  letter-spacing: -.03em; margin-bottom: 8px;
+}
+.blurb { color: var(--muted); margin-bottom: 28px; max-width: 46rem; }
+.empty {
+  border: 1px dashed var(--line); border-radius: 14px;
+  padding: 36px 28px; color: var(--muted); background: var(--bg-2);
+}
+.empty strong { color: var(--ink); font-weight: 600; }
+.cards { display: flex; flex-direction: column; gap: 10px; }
+.card {
+  display: grid; grid-template-columns: 1fr auto; gap: 12px;
+  text-decoration: none; padding: 16px 18px; border-radius: 12px;
+  background: var(--bg-2); border: 1px solid var(--line);
+}
+.card:hover { border-color: #3a372e; background: var(--bg-3); }
+.card h3 { font-size: 16px; font-weight: 600; margin-bottom: 4px; }
+.meta { color: var(--muted); font-size: 13px; display: flex; gap: 10px; flex-wrap: wrap; }
+.chip {
+  font-family: var(--mono); font-size: 10px; letter-spacing: .06em;
+  text-transform: uppercase; padding: 3px 7px; border-radius: 999px;
+  border: 1px solid var(--line); color: var(--muted); height: fit-content;
+}
+.chip.dealers { color: var(--blue); border-color: #2a3344; }
+.chip.avec-tous { color: var(--mustard); border-color: #3a3320; }
+.chip.personal { color: #c9a7a0; }
+.chip.ideas { color: var(--ok); }
+.note-top { margin-bottom: 22px; }
+.note-top h2 { font-family: var(--serif); font-size: 36px; font-weight: 460; letter-spacing: -.03em; }
+.tabs { display: flex; gap: 6px; margin: 22px 0 18px; border-bottom: 1px solid var(--line); }
+.tabs button {
+  appearance: none; background: none; border: 0; color: var(--muted);
+  font: 600 13px var(--sans); padding: 10px 12px; cursor: pointer;
+  border-bottom: 2px solid transparent; margin-bottom: -1px;
+}
+.tabs button[aria-selected="true"] { color: var(--ink); border-bottom-color: var(--accent); }
+.panel { display: none; }
+.panel.is-on { display: block; }
+.prose { font-size: 16.5px; line-height: 1.6; max-width: 42rem; }
+.prose h2, .prose h3 { font-family: var(--serif); font-weight: 500; margin: 1.3em 0 .4em; }
+.prose p { margin: 0 0 .8em; }
+.prose ul, .prose ol { margin: 0 0 1em 1.2em; }
+.prose li { margin: .25em 0; }
+.hl { border-left: 2px solid var(--accent); padding: 10px 0 10px 14px; margin: 0 0 14px; }
+.hl .t { font-family: var(--mono); font-size: 11px; color: var(--faint); }
+.hl h4 { font-size: 15px; margin: 4px 0; }
+.hl p { color: var(--muted); font-size: 14.5px; }
+.seg { display: grid; grid-template-columns: 64px 1fr; gap: 12px; padding: 8px 0; border-bottom: 1px solid var(--line); }
+.seg .ts { font-family: var(--mono); font-size: 11px; color: var(--faint); padding-top: 3px; }
+.back { color: var(--muted); text-decoration: none; font-size: 13px; display: inline-block; margin-bottom: 18px; }
+.back:hover { color: var(--ink); }
+footer { margin-top: 48px; color: var(--faint); font-size: 11px; font-family: var(--mono); }
+@media (max-width: 820px) {
+  .shell { grid-template-columns: 1fr; }
+  .rail { position: relative; height: auto; border-right: 0; border-bottom: 1px solid var(--line); }
+  .stage { padding: 24px 18px 64px; }
+  .note-top h2 { font-size: 28px; }
+}
+</style>
+</head>
+<body>
+<div class="shell">
+<aside class="rail">
+  <div class="mark">Cooperative</div>
+  <h1>Field desk</h1>
+  <p class="lede">Plaud landings. Summary, highlights, transcript — filed by life area.</p>
+  <nav class="vnav"><a href="../index.html" class="">All <span class="count">45</span></a><a class="" href="../vertical-inbox.html">Inbox <span class="count">0</span></a><a class="" href="../vertical-personal.html">Personal <span class="count">0</span></a><a class="" href="../vertical-coop-marketing.html">Coop Marketing <span class="count">2</span></a><a class="is-on" href="../vertical-coop-dev.html">Coop Dev <span class="count">8</span></a><a class="" href="../vertical-avec-tous.html">Avec Tous <span class="count">0</span></a><a class="" href="../vertical-dealers.html">Dealers <span class="count">33</span></a><a class="" href="../vertical-ideas.html">Ideas <span class="count">2</span></a></nav>
+</aside>
+<main class="stage">
+  <a class="back" href="../index.html">← Desk</a>
+  <div class="note-top">
+    <div class="kicker">coop-dev · 2026-09-16 · 13m51s</div>
+    <h2>09-16 Weekly Meeting: Lead and Service Appointment Reporting Workflow</h2>
+    <div class="meta" style="margin-top:8px"><span>id of_0f5509819c84a12afcd06afbfb6d5c06</span><span>infer: Acquire morning lists / service+lead PDF workflow</span></div>
+  </div>
+  <div class="tabs" role="tablist">
+    <button type="button" data-panel="sum" aria-selected="true">Summary</button>
+    <button type="button" data-panel="hl" aria-selected="false">Highlights</button>
+    <button type="button" data-panel="tx" aria-selected="false">Transcript</button>
+  </div>
+  <section id="sum" class="panel is-on prose"><h2>1. Weekly Lead and Service Appointment Reporting Workflow</h2>
+<p>The team aims to streamline how salespeople receive and work lead and service appointment lists. Current pain points include fragmented sources across “so many different platforms,” duplicated or mis-categorized sold records (e.g., “Amy Lambert” vs. “Andy/Amy Lambert”), and manual printing/updating that frustrates the team. Centralizing into one customizable list mitigates inefficiency, ensures coverage of “service appointments into the future” and “old leads,” and supports targeted follow-up. Proposed solutions include a weekly Monday print and/or automated email with PDFs, configurable filters (remove solds, 90 or 180 days, “today plus future,” “all loaded days”), and tailoring to profitable trades and sweet spots (e.g., 22–24 BMWs, model search like “230/240/250”). Automation leverages existing system data and CSV report emailing via Event Solutions to agents, reducing manual overhead and increasing engagement.</p>
+<h3>Action Items</h3>
+<ul>
+<li>[ ] Set a weekly cadence to generate and distribute a consolidated list every Monday, covering service appointments for the week and active leads, with “today plus future” and “all loaded days” toggle options -- *Lance* 2026-09-21</li>
+<li>[ ] Implement a “Remove Solds” filter with configurable sold-removal windows (90 or 180 days), while allowing teams to keep certain solds when appropriate -- *Lance* 2026-09-23</li>
+<li>[ ] Configure an automated Monday morning email per salesperson with a PDF of their weekly service appointments -- *Lance* 2026-09-23</li>
+<li>[ ] Build CSV report automation in Event Solutions to email agents directly, ensuring smooth ingestion to the app -- *Lance* 2026-09-27</li>
+<li>[ ] Conduct a demo for all salespeople to drive engagement with the consolidated list and workflows -- *Lance* [Insert Name]</li>
+<li>[ ] Add search/filter presets for “sweet spots,” including trades for 23 to 24, 22 to 24 BMWs, and model-specific quick searches (e.g., 230, 240, 250) -- *Lance* 2026-09-24</li>
+</ul>
+<h2>2. Data Model Enhancements: Statuses, Showroom Activity, and Desk Logs</h2>
+<p>Accuracy and completeness of activity capture are essential to identify re-engagement targets and consolidate lists that currently live in separate “buckets.” The team wants to include showroom visits, desk logs, and “anything we made numbers for,” alongside service and web leads, to avoid printing different lists. The solution is to compile the correct statuses indicating customers came in and were worked but not sold, bringing those into the unified report. This will support rehash opportunities and ensure recent in-store interactions are actionable without manual cross-referencing.</p>
+<h3>Action Items</h3>
+<ul>
+<li>[ ] Identify and compile statuses that indicate “customer came in,” “showroom visit,” “desk,” and “worked but not sold,” and map them into the unified reporting list -- *Lance* 2026-09-25</li>
+<li>[ ] Add “Showroom visits” and “Desk” as explicit categories/filters in the app/report, ensuring they appear in the status line for list generation -- *Lance* 2026-09-26</li>
+<li>[ ] Include “anything desked” and “showroom activity” from the last 30 days in the consolidated weekly list, reducing the need to print separate bucket reports -- *Lance* 2026-09-26</li>
+</ul>
+<h2>3. Re-Engagement Window and Profitability-Focused Filters</h2>
+<p>The team targets effective re-engagement windows based on average time to close (“twenty eight”), settling on “forty-five days” as a practical lookback. Emphasis is on focusing the list on profitable trades, rehashing trade appraisals, and filtering out less valuable items. Enhancing filters to surface “lower hanging fruit” while keeping the ability to expand ensures salespeople spend time on high-impact opportunities.</p>
+<h3>Action Items</h3>
+<ul>
+<li>[ ] Configure re-engagement lookback filters to 45 days for “worked last week” and recent activity, aligning with an average 28-day close -- *Lance* 2026-09-24</li>
+<li>[ ] Add a filter to show only profitable trades and enable quick rehash workflows on those trade appraisals -- *Lance* 2026-09-24</li>
+</ul>
+<h2>4. Data Hygiene: Sold Badge Accuracy and Duplicate/Mislinked Records</h2>
+<p>Mislabeling solds across similar customer records (e.g., multiple “Lambert” entries) creates confusion and inaccurate reporting. The “sold badge” exists but does not resolve cross-record mismatches. Cleaning and rules to better detect and link correct customer entries will improve list fidelity and prevent reopening leads on customers just sold.</p>
+<h3>Action Items</h3>
+<ul>
+<li>[ ] Review and correct mislinked sold records (e.g., “Lambert” cases), ensuring the sold badge applies to the correct customer profile -- *Lance* 2026-09-23</li>
+<li>[ ] Define matching logic or checks to reduce future mislabeling across duplicate-like names, within data already in the system -- *Lance* 2026-09-27</li>
+</ul>
+<h2>5. User Experience Improvements: Quick Copy and Contact Handling</h2>
+<p>Fast access to contact details supports rapid outreach. The app includes copy buttons next to each field (email, phone) to streamline contact actions. Ensuring these utilities are present and communicated to salespeople supports adoption and reduces friction during follow-up.</p>
+<h3>Action Items</h3>
+<ul>
+<li>[ ] Verify and finalize “copy” utilities for phone numbers and emails across list rows; highlight this in the sales demo -- *Lance* 2026-09-21</li>
+<p>&gt; AI Suggestions &gt; AI has identified issues lacking clear decisions or action items; please review: &gt; 1. Ownership for the sales team demo is unclear beyond Lance; designate the organizer, attendees, and exact demo date/time to ensure adoption and training effectiveness. &gt; 2. The “Remove Solds” policy needs governance: decide when to keep solds in lists versus remove them (e.g., fresh lead resubmissions), and standardize across 90 or 180 days to avoid inconsistent practices. &gt; 3. Criteria for “profitable trades” are not defined; specify thresholds or metrics and how they are computed to ensure consistent filtering and avoid excluding viable opportunities. &gt; 4. Duplicate/mislinked customer resolution lacks a documented matching rule (e.g., name + phone/email/VIN); establish a reconciliation process to prevent reopened leads on recently sold customers. &gt; 5. The scope of weekly PDF content is broad (service appointments, leads, showroom/desk activities); finalize the exact sections, filters, and formatting to prevent overload and ensure salespeople act on the right subsets.</p>
+</ul></section>
+  <section id="hl" class="panel"><div class='empty'>No device highlights on this take.</div></section>
+  <section id="tx" class="panel"><div class="seg"><div class="ts">0:00</div><div>What if we do this? Is we are going to print a list for my guys every so often. Let&#x27;s pick that interval. Maybe once a week. Whatever. Whatever. Right. Let&#x27;s just call it once a week for now. Print that on Mondays. Here&#x27;s a list of all your people for the week.</div></div><div class="seg"><div class="ts">0:13</div><div>All your what people? Service points.</div></div><div class="seg"><div class="ts">0:15</div><div>Service. Any active leads.</div></div><div class="seg"><div class="ts">0:17</div><div>Any any. So, so that&#x27;s up to us. You can do that now. It&#x27;s already built to do that. Okay. So you can say I didn&#x27;t. What I&#x27;m going to do is I&#x27;ll give you a button that says Remove Solds. You wanted to show you whoever removed solds, ninety days or one hundred eighty days. Because at one point, if there&#x27;s a fresh lead in there, they might have submitted a new lead.</div></div><div class="seg"><div class="ts">0:42</div><div>Mine, mine saying sold. So I&#x27;m just going to leave them in. Yeah, let&#x27;s leave them.</div></div><div class="seg"><div class="ts">0:45</div><div>And I can give you the titles where you like remove them.</div></div><div class="seg"><div class="ts">0:47</div><div>Pages. Do it just in case I decide that it&#x27;s.</div></div><div class="seg"><div class="ts">0:49</div><div>Like people title will let you remove them. Okay. But right now, you could build this list that you&#x27;re talking about. Okay, so let&#x27;s pretend. Yep. Now, do do. Change that from today to today plus futures, right? You can uncheck sales leads only because we wanted to just see all those that might be in service. Okay. Do you want to do a strike for all? Who do you have for her? So, and that&#x27;s but that&#x27;s just the one person.</div></div><div class="seg"><div class="ts">1:26</div><div>Right. But so this is only. Nope,</div></div><div class="seg"><div class="ts">1:29</div><div>We just did all ops. So if we do all opportunities, it&#x27;s going to show you more opportunities. I have this. This gets to where the fun thing is: this is completely customizable by you guys. Okay. I have it only, only focusing on those leads. So it&#x27;s FSs. If it&#x27;s all trade - in requests, if they came from BMW USA or from our website,</div></div><div class="seg"><div class="ts">1:54</div><div>Can we add in solutions? So I&#x27;d like it to.</div></div><div class="seg"><div class="ts">1:56</div><div>So this is everything out of VIN. For example, I&#x27;m showing you dealer website leads, KPIs, you know the FS and trading. I&#x27;m not showing you everything because I purposely built this to just be like sort of this lower hanging fruit, more targeted approach. But I could give you more. Here&#x27;s the thing: the data is literally all in the system. Every web lead is in the system. Right. Right now, this is just what I&#x27;m giving. Can we give them the?</div></div><div class="seg"><div class="ts">2:28</div><div>Grants, Granson has been here a while.</div></div><div class="seg"><div class="ts">2:30</div><div>Who&#x27;s been here the longest? None, besides Josh.</div></div><div class="seg"><div class="ts">2:34</div><div>Let&#x27;s see if he&#x27;s got one people his name. So Josh. Right now, say where it says today plus future. Click all loaded days. And we can go back to Carrie Barry now for this too. So I&#x27;m going to show you what that just did. That just loaded in all these old leads there. Go back to Carrie. So what this is going to the top, and then click. So on the wind, we can go back and forth. So that is service appointments into the future, obviously, into the twenty - fourth. Plus, just so it&#x27;s all leads. It&#x27;s like everything that that&#x27;s in her name, but that is an important lead or a service customer. It&#x27;s a lot.</div></div><div class="seg"><div class="ts">3:15</div><div>What&#x27;s you know what I&#x27;m saying? What does lead bought mean?</div></div><div class="seg"><div class="ts">3:19</div><div>Lead bought mean we like the year of the trade, twenty - two to twenty - four. Yeah, so the very top. You can also be more selective with sweet spots, but the top sweet spots. I&#x27;m only going to show you the trades. 23 to 24, 22 to 24 BMWs.</div></div><div class="seg"><div class="ts">3:35</div><div>Do all these leaves have trades? Not all of them. Okay. I&#x27;m going to say what happens to them.</div></div><div class="seg"><div class="ts">3:40</div><div>The trade, or what they have in for service, which would be the trade, is that column. Right. Now a huge other thing. So on the very top, let&#x27;s say I&#x27;m a used car manager, and I go, you know what? I really just want to see my 230, my 240, my 250. There&#x27;s just a thing. I.</div></div><div class="seg"><div class="ts">3:57</div><div>Like that. I like that a lot.</div></div><div class="seg"><div class="ts">4:04</div><div>Okay. Yeah, the search feature works for a few. At least it&#x27;s it works for any field. It&#x27;s just a blank search. You just type any anything you type in, it&#x27;ll.</div></div><div class="seg"><div class="ts">4:12</div><div>Okay, I like that a whole lot. Okay, what else? I&#x27;m trying to think. We use this to do the print. I just wanted to highlight that that was our biggest thing. We have their so many different platforms that we have to go to to pull a list of leads that we have to print to them. Some overlap, some cross, some don&#x27;t. Somewhere, one person&#x27;s in here, one person&#x27;s in there. So I wanted it all combined to work one list with one thing for them that they can work off of. Because I think you get frustrated that we constantly go to print these different things, update it, but I want to update it and see. I like what we have.</div></div><div class="seg"><div class="ts">4:44</div><div>Do you have going very top? He&#x27;ll give us a count. He&#x27;ll say so. We have 51 things. So is what we whittled it down to. Okay. It&#x27;s all up right now. We have sorted for like actually the farthest, so it&#x27;s into the future because it&#x27;s showing service appointments into the future. We sorted the other way, which would show us the oldest web leads. I have it set at ninety days right now.</div></div><div class="seg"><div class="ts">5:06</div><div>Okay. Um. So you could. This would be like re - engaged. Okay, and then this was my question about this. Okay, so Andy Lambert, we just sold the property the other day. Yep. Where? Um. How do you find Andy Lambert and then search for it? It&#x27;s right here. Oh, it&#x27;s pretty. Yeah.</div></div><div class="seg"><div class="ts">5:24</div><div>That&#x27;s Not showing sold. I don&#x27;t know why. That&#x27;s what I&#x27;m about to ask you. Wonder why? You have them to.</div></div><div class="seg"><div class="ts">5:29</div><div>The left or the left? Literally, quick copy. I bet there&#x27;s an Amy Linford and a Brian Linford. I bet we marked it sold under the wrong. Oh yeah,</div></div><div class="seg"><div class="ts">5:40</div><div>Look. If you, yeah, I mean, you kind of got to be wise to like what might be coming up because it&#x27;s gonna definitely.</div></div><div class="seg"><div class="ts">5:52</div><div>I&#x27;m gonna mark this. I was telling not to look bad either. When you sent in that thing, it opened up a lead for her on a customer that she had just sold.</div></div><div class="seg"><div class="ts">6:09</div><div>Yeah, that&#x27;s because I didn&#x27;t know she was sold. I dealt before I built this in. Who was that customer? Do you remember? Amy Lambert. Oh, was Amy Lambert? Oh. That was that. I didn&#x27;t know it was sold. So that was a one - off,</div></div><div class="seg"><div class="ts">6:24</div><div>Just because it was a weird lead.</div></div><div class="seg"><div class="ts">6:25</div><div>Yeah, well, I have the sold badge built now, but it can&#x27;t solve for the fact that this other Lambert is what Mark sold. Right, that&#x27;s right. It can&#x27;t solve for that. Like, I might could if there&#x27;s enough. No, no, no, that&#x27;s not. Okay. Builds the mansion. You don&#x27;t think they wanted to pull all these customers that we just said? No, definitely. Nothing set automated right now. At some point, when this is more mature and we like it, okay, we got to think about also almost anything you imagine. Right. So if you said, &quot;Hey, Lance, all these service appointments,&quot; right. So there&#x27;s two different kinds of things in here, gentlemen. Two, you&#x27;re re-engaging leads or old leads, and then their service. Right. If you told me, &quot;Hey, every Monday morning, I want each of my salespeople to get an email with a PDF that&#x27;s all of their service appointments for the week.&quot; Okay, no problem. I can just do that. That&#x27;s easy. That&#x27;s awesome.</div></div><div class="seg"><div class="ts">7:22</div><div>That&#x27;s all so doable because we&#x27;re building in basically the whole like information handling and the lead handling and all of the data is there. So what I just said is literally like two prompts for me to build into this app. And to be able.</div></div><div class="seg"><div class="ts">7:39</div><div>To do the information about the people because I know it&#x27;s frustrating for me, which is why I understand.</div></div><div class="seg"><div class="ts">7:53</div><div>No, hold on. There we have. I think so. Should we start here? I would love if you&#x27;re good with it. If you could do like a demo with all of us, show it to the salespeople. Because if if there&#x27;s an automated way, we&#x27;ll just save us your time. On Mondays, they get. That&#x27;s the problem. Here&#x27;s all your points that are coming in for the week. If you can automatically send a list of these are all of your leads, also updating.</div></div><div class="seg"><div class="ts">8:18</div><div>What that is, so we&#x27;re talking about here is like this. Right, right.</div></div><div class="seg"><div class="ts">8:26</div><div>But it&#x27;s something that I don&#x27;t. It is, but they wouldn&#x27;t. But if there&#x27;s a list that they can just click on and it has all their shit in one place, then maybe they would. It&#x27;s almost. I&#x27;m trying to figure out how to get them to engage and work the shit more. In the way they come back to me with, right?</div></div><div class="seg"><div class="ts">8:43</div><div>Right. That&#x27;s why I built in like there&#x27;s a filter where you can show only profitable trades. So I don&#x27;t care about a vehicle with trades, but if I have means with trades, then I need a rehash. Let&#x27;s rehash this trade appraisal. Let&#x27;s.</div></div><div class="seg"><div class="ts">8:54</div><div>Right.</div></div><div class="seg"><div class="ts">8:55</div><div>Right. So yeah, no, what you&#x27;re saying is completely doable, and what&#x27;s that? And the data that&#x27;s there, it&#x27;s almost like, hey, okay, now let&#x27;s build this. Right. Right. Because it already has all the data. Right. Um. It would be a matter of like building out what we want in that report extent.</div></div><div class="seg"><div class="ts">9:13</div><div>Right.</div></div><div class="seg"><div class="ts">9:13</div><div>Right. Um. The way this is built. I built this so that, like, let&#x27;s say you&#x27;re in here, and you just want to figure out something real quick about this guy. I have copies next to each field, so if you want to search my phone number, you just click copy.</div></div><div class="seg"><div class="ts">9:28</div><div>What are these? Oh, that&#x27;s email and then.</div></div><div class="seg"><div class="ts">9:30</div><div>Yep. So you click copy and then paste, and then.</div></div><div class="seg"><div class="ts">10:19</div><div>But if you&#x27;re.</div></div><div class="seg"><div class="ts">10:20</div><div>Looking at that, you know. Oh, we just sold name and number. Right. So that would have helped. Right. The thing that I like a lot of, but there&#x27;s like looking as far west, you only VWFs you spot. Got little badging, but if it&#x27;s a service, it&#x27;ll say service right there. It&#x27;s stolen from InfoBond. No. Kenan. This is. That is a different thing. Do they let me execute a CSV automation? Because the way this works so smoothly now is I go into Event Solutions and build a report and automate automate a CSV email and it gets emailed into my agents.</div></div><div class="seg"><div class="ts">11:02</div><div>And so now can we also put the submit? So the work that I like to do is everything that&#x27;s available for them is all of the things that we&#x27;ve tested or have been on the showroom in the last 30 days.</div></div><div class="seg"><div class="ts">11:15</div><div>That&#x27;s that&#x27;s easily done because I have all the. So if you pull up right now, one of the rows is status, and it&#x27;ll say that you know.</div></div><div class="seg"><div class="ts">11:22</div><div>Because a lot of times, to me, those new guests, they&#x27;ve come in here, or we work not.</div></div><div class="seg"><div class="ts">11:25</div><div>Showroom, yeah, the one which is like a rehash. Let&#x27;s rehash customer. Correct, correct,</div></div><div class="seg"><div class="ts">11:29</div><div>Yes. So can we add that in there? Showroom. Anything desk?</div></div><div class="seg"><div class="ts">11:34</div><div>Statuses desk. Showroom visit. Showroom visit. Appointment. Well, that showroom visit is appointment. Okay, that&#x27;s okay. Yeah. Okay, so we can. I don&#x27;t see why not. Okay. We just have to see if that. Shows up in the status line, and I think it does.</div></div><div class="seg"><div class="ts">11:49</div><div>Okay. Okay. Let&#x27;s add. Let&#x27;s add that, and then anything else you can think of. But this is amazing. Thank you, Wes. This is one of the things that I&#x27;m thinking too.</div></div><div class="seg"><div class="ts">12:02</div><div>Is and I have a template done and filled out the process. Yeah, like user flow, all the things. But which things? Which which things first? So we just talked about adding in the reads that are. Appointment shown, in desk, but then also, I&#x27;ll also look at that email.</div></div><div class="seg"><div class="ts">12:23</div><div>Not appointment shown. Do showroom visits? Yep, showroom visits and desk like the desk,</div></div><div class="seg"><div class="ts">12:29</div><div>I guess desk.</div></div><div class="seg"><div class="ts">12:29</div><div>Log, and then their second. I guess these right like showroom activity, showroom visit log, desk log.</div></div><div class="seg"><div class="ts">12:45</div><div>Well, what it is is you have to find one the the right statuses.</div></div><div class="seg"><div class="ts">12:48</div><div>That&#x27;s what I&#x27;m saying. Yeah. Sometimes these will have some of the same, and there&#x27;ll be some added in the other bucket.</div></div><div class="seg"><div class="ts">12:54</div><div>I&#x27;ll go find the statuses that indicate that the customer came in.</div></div><div class="seg"><div class="ts">12:56</div><div>And that&#x27;s what&#x27;s annoying is they pick like you have to print the different lists that are in each bucket. No,</div></div><div class="seg"><div class="ts">13:00</div><div>What what we&#x27;ll do is we&#x27;ll probably compile a few statuses, and it&#x27;ll be any status that indicates that we worked with them, and we didn&#x27;t sell them a car.</div></div><div class="seg"><div class="ts">13:07</div><div>Anything we made numbers for? Yeah. Like your desk log. Yep.</div></div><div class="seg"><div class="ts">13:11</div><div>Yeah. That&#x27;s easy. I&#x27;ll also see if I can work on an automated email, of all of their service appointments. Okay. So it&#x27;d be like service appointments, and then it would also be like a category. It&#x27;s like, hey, this is the shit you worked last week. Where are we? Right. Right.</div></div><div class="seg"><div class="ts">13:26</div><div>Right. Yes. And I wanted to go back thirty, sixty days because if we set numbers,</div></div><div class="seg"><div class="ts">13:31</div><div>That&#x27;s what I was going to ask you. Like how far? Like forty - five days, probably.</div></div><div class="seg"><div class="ts">13:35</div><div>Yeah, definitely thirty. I usually go back about forty - five days each time. So I figured that&#x27;s like. Yeah.</div></div><div class="seg"><div class="ts">13:40</div><div>Because the average day is to close is like twenty eight, so if you go to forty five, you&#x27;re keep you&#x27;re.</div></div><div class="seg"><div class="ts">13:44</div><div>Let&#x27;s do that. I like that. All right, sweet. Okay, thank you, Lance.</div></div><div class="seg"><div class="ts">13:48</div><div>Awesome. Not a problem. Thank you.</div></div></section>
+</main>
+</div>
+<footer>PLAUD-NOTES-2026-09-17-0600-MORNING · noindex · Plaud sources + notes</footer>
+<script>
+
+document.querySelectorAll('.tabs button').forEach(btn => {
+  btn.addEventListener('click', () => {
+    document.querySelectorAll('.tabs button').forEach(b => b.setAttribute('aria-selected', b===btn ? 'true':'false'));
+    document.querySelectorAll('.panel').forEach(p => p.classList.toggle('is-on', p.id === btn.dataset.panel));
+  });
+});
+
+</script>
+</body>
+</html>

@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>09-21 Meeting: Lead Response, Follow-Up, and Acquire App</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500&family=IBM+Plex+Mono:wght@400;500&family=Source+Sans+3:wght@400;600;700&display=swap">
+  <style>
+:root {
+  --bg: #090908;
+  --bg-2: #11110f;
+  --bg-3: #181714;
+  --ink: #f0eadc;
+  --muted: #8d8778;
+  --faint: #5c574c;
+  --line: #26241e;
+  --accent: #c4452d;
+  --mustard: #c4a35a;
+  --blue: #6f8fbf;
+  --ok: #7d9a6d;
+  --serif: "Fraunces", "Iowan Old Style", Georgia, serif;
+  --sans: "Source Sans 3", "Source Sans Pro", -apple-system, sans-serif;
+  --mono: "IBM Plex Mono", ui-monospace, monospace;
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html, body { background: var(--bg); color: var(--ink); }
+body {
+  font-family: var(--sans);
+  min-height: 100vh;
+  text-wrap: pretty;
+}
+a { color: inherit; }
+.shell { display: grid; grid-template-columns: 260px 1fr; min-height: 100vh; }
+.rail {
+  border-right: 1px solid var(--line);
+  padding: 28px 18px 40px;
+  background: var(--bg-2);
+  position: sticky; top: 0; height: 100vh; overflow: auto;
+}
+.mark {
+  font-family: var(--serif);
+  font-weight: 500;
+  font-size: 13px;
+  letter-spacing: .18em;
+  text-transform: uppercase;
+  color: var(--accent);
+}
+.rail h1 {
+  font-family: var(--serif);
+  font-size: 28px;
+  font-weight: 460;
+  letter-spacing: -.03em;
+  margin: 10px 0 6px;
+}
+.rail .lede { color: var(--muted); font-size: 13.5px; line-height: 1.45; margin-bottom: 28px; }
+.vnav { display: flex; flex-direction: column; gap: 4px; }
+.vnav a {
+  display: flex; justify-content: space-between; align-items: baseline;
+  text-decoration: none; padding: 9px 10px; border-radius: 8px;
+  color: var(--ink); font-size: 14px;
+}
+.vnav a:hover, .vnav a.is-on { background: var(--bg-3); }
+.vnav a.is-on { box-shadow: inset 2px 0 0 var(--accent); }
+.vnav .count { color: var(--faint); font-family: var(--mono); font-size: 11px; }
+.stage { padding: 36px 40px 80px; max-width: 980px; }
+.kicker {
+  font-size: 11px; letter-spacing: .16em; text-transform: uppercase;
+  color: var(--accent); font-weight: 700; margin-bottom: 8px;
+}
+.stage > h2 {
+  font-family: var(--serif); font-weight: 460; font-size: 34px;
+  letter-spacing: -.03em; margin-bottom: 8px;
+}
+.blurb { color: var(--muted); margin-bottom: 28px; max-width: 46rem; }
+.empty {
+  border: 1px dashed var(--line); border-radius: 14px;
+  padding: 36px 28px; color: var(--muted); background: var(--bg-2);
+}
+.empty strong { color: var(--ink); font-weight: 600; }
+.cards { display: flex; flex-direction: column; gap: 10px; }
+.card {
+  display: grid; grid-template-columns: 1fr auto; gap: 12px;
+  text-decoration: none; padding: 16px 18px; border-radius: 12px;
+  background: var(--bg-2); border: 1px solid var(--line);
+}
+.card:hover { border-color: #3a372e; background: var(--bg-3); }
+.card h3 { font-size: 16px; font-weight: 600; margin-bottom: 4px; }
+.meta { color: var(--muted); font-size: 13px; display: flex; gap: 10px; flex-wrap: wrap; }
+.chip {
+  font-family: var(--mono); font-size: 10px; letter-spacing: .06em;
+  text-transform: uppercase; padding: 3px 7px; border-radius: 999px;
+  border: 1px solid var(--line); color: var(--muted); height: fit-content;
+}
+.chip.dealers { color: var(--blue); border-color: #2a3344; }
+.chip.avec-tous { color: var(--mustard); border-color: #3a3320; }
+.chip.personal { color: #c9a7a0; }
+.chip.ideas { color: var(--ok); }
+.note-top { margin-bottom: 22px; }
+.note-top h2 { font-family: var(--serif); font-size: 36px; font-weight: 460; letter-spacing: -.03em; }
+.tabs { display: flex; gap: 6px; margin: 22px 0 18px; border-bottom: 1px solid var(--line); }
+.tabs button {
+  appearance: none; background: none; border: 0; color: var(--muted);
+  font: 600 13px var(--sans); padding: 10px 12px; cursor: pointer;
+  border-bottom: 2px solid transparent; margin-bottom: -1px;
+}
+.tabs button[aria-selected="true"] { color: var(--ink); border-bottom-color: var(--accent); }
+.panel { display: none; }
+.panel.is-on { display: block; }
+.prose { font-size: 16.5px; line-height: 1.6; max-width: 42rem; }
+.prose h2, .prose h3 { font-family: var(--serif); font-weight: 500; margin: 1.3em 0 .4em; }
+.prose p { margin: 0 0 .8em; }
+.prose ul, .prose ol { margin: 0 0 1em 1.2em; }
+.prose li { margin: .25em 0; }
+.hl { border-left: 2px solid var(--accent); padding: 10px 0 10px 14px; margin: 0 0 14px; }
+.hl .t { font-family: var(--mono); font-size: 11px; color: var(--faint); }
+.hl h4 { font-size: 15px; margin: 4px 0; }
+.hl p { color: var(--muted); font-size: 14.5px; }
+.seg { display: grid; grid-template-columns: 64px 1fr; gap: 12px; padding: 8px 0; border-bottom: 1px solid var(--line); }
+.seg .ts { font-family: var(--mono); font-size: 11px; color: var(--faint); padding-top: 3px; }
+.back { color: var(--muted); text-decoration: none; font-size: 13px; display: inline-block; margin-bottom: 18px; }
+.back:hover { color: var(--ink); }
+footer { margin-top: 48px; color: var(--faint); font-size: 11px; font-family: var(--mono); }
+@media (max-width: 820px) {
+  .shell { grid-template-columns: 1fr; }
+  .rail { position: relative; height: auto; border-right: 0; border-bottom: 1px solid var(--line); }
+  .stage { padding: 24px 18px 64px; }
+  .note-top h2 { font-size: 28px; }
+}
+</style>
+</head>
+<body>
+<div class="shell">
+<aside class="rail">
+  <div class="mark">Cooperative</div>
+  <h1>Field desk</h1>
+  <p class="lede">Plaud landings. Summary, highlights, transcript — filed by life area.</p>
+  <nav class="vnav"><a href="../index.html" class="">All <span class="count">45</span></a><a class="" href="../vertical-inbox.html">Inbox <span class="count">0</span></a><a class="" href="../vertical-personal.html">Personal <span class="count">0</span></a><a class="" href="../vertical-coop-marketing.html">Coop Marketing <span class="count">2</span></a><a class="" href="../vertical-coop-dev.html">Coop Dev <span class="count">8</span></a><a class="" href="../vertical-avec-tous.html">Avec Tous <span class="count">0</span></a><a class="is-on" href="../vertical-dealers.html">Dealers <span class="count">33</span></a><a class="" href="../vertical-ideas.html">Ideas <span class="count">2</span></a></nav>
+</aside>
+<main class="stage">
+  <a class="back" href="../index.html">← Desk</a>
+  <div class="note-top">
+    <div class="kicker">dealers · 2026-09-21 · 16m23s</div>
+    <h2>09-21 Meeting: Lead Response, Follow-Up, and Acquire App</h2>
+    <div class="meta" style="margin-top:8px"><span>id of_62c53bc8da80f63a7c4fd5728af5bbd9</span><span>inferred</span></div>
+  </div>
+  <div class="tabs" role="tablist">
+    <button type="button" data-panel="sum" aria-selected="true">Summary</button>
+    <button type="button" data-panel="hl" aria-selected="false">Highlights</button>
+    <button type="button" data-panel="tx" aria-selected="false">Transcript</button>
+  </div>
+  <section id="sum" class="panel is-on prose"><p>&gt; <strong>Meeting Information:</strong> &gt; Date: 2026-09-21 &gt; Location: [Insert Location] &gt; Participants: [Lance] [Speaker 1] [Speaker 3] ---</p>
+<h3>Meeting Notes</h3>
+<p><strong>Improving Lead Response &amp; Follow-Up</strong></p>
+<ul>
+<li>The team discussed making lead follow-up more effective.</li>
+<li>Lance proposed setting up a direct line to &quot;Jack&quot; so calls go straight to his desk phone (a 225 number).</li>
+<li>Lance will obtain Jack&#x27;s direct line and inform him of the change.</li>
+<li>Speaker 3 noted several used-car leads arrived over the weekend, with the Honda Pilot being popular.</li>
+<li>A newly traded-in Volvo, in immaculate condition, should be processed quickly for the front lot.</li>
+</ul>
+<p><strong>Weekend Showroom Traffic</strong></p>
+<ul>
+<li>Speaker 3 reported customer traffic on Saturday.</li>
+<li>It was not overwhelming, but there were customers and a few potential deals to follow up on.</li>
+</ul>
+<p><strong>Development of the &quot;Acquire&quot; App</strong></p>
+<ul>
+<li>Lance introduced a new app, &quot;Acquire,&quot; designed to consolidate lead sources into a single view.</li>
+<li>The app integrates service appointments, AFS (Audi Financial Services) leads, dealer and web leads, and phone ups.</li>
+<li>It addresses the issue of opportunity data being spread across systems like Viano and Ven.</li>
+<li>Users can filter for the service drive, identify service appointments that already have associated web leads, and check if they are sold opportunities.</li>
+</ul>
+<p><strong>&quot;Acquire&quot; App Features and Functionality</strong></p>
+<ul>
+<li>The app highlights &quot;sweet spot&quot; vehicles (e.g., model years 2022–2024) desirable for trade-ins.</li>
+<li>Users can export service appointments directly to the CRM as new leads and assign them to a salesperson.</li>
+<li>The system can suggest the &quot;obvious next car&quot; for a customer, which Lance calls &quot;lot fit&quot;.</li>
+<li>This is similar to &quot;Mastermind&quot; but is a simpler, more focused tool the company doesn’t have to pay for.</li>
+<li>&quot;Mastermind&quot; is still used due to direct monetary incentives from the manufacturer.</li>
+</ul>
+<p><strong>Future Enhancements for the &quot;Acquire&quot; App</strong></p>
+<ul>
+<li>Speaker 3 requested adding the vehicle’s original purchase date to avoid contacting recent buyers about trades.</li>
+<li>Another suggestion was linking Carfax reports to show registration dates; Lance will investigate this.</li>
+<li>Lance will add more data awareness for cars in service to identify better opportunities.</li>
+<li>Lance mentioned a separate AI process being built for VCA to handle AFS leads, including offering pre-inspections.</li>
+<p>---</p>
+</ul>
+<h3>Next Arrangements</h3>
+<ul>
+<li>[ ] Lance will obtain Jack’s direct line (225) and set it up for incoming calls, then inform Jack of the change.</li>
+<li>[ ] Lance will text &quot;New Orleans&quot; back regarding the &quot;A&quot;.</li>
+<li>[ ] Lance will email the &quot;Acquire&quot; app link to the team.</li>
+<li>[ ] Lance will investigate adding vehicle purchase dates and/or Carfax links to the &quot;Acquire&quot; app.</li>
+<li>[ ] Turn off Podium and go live with the new VCA AI.</li>
+<p>---</p>
+</ul>
+<h3>AI Suggestions</h3>
+<p>&gt; <strong>AI Suggestions</strong> &gt; AI has identified the following issue that was not concluded in the meeting or lacks clear action items; please pay attention: &gt; 1. The team discussed the value of the &quot;Acquire&quot; app versus the &quot;Mastermind&quot; service. While &quot;Acquire&quot; offers similar functionality for free, the company cannot discontinue &quot;Mastermind&quot; because it is tied to financial rebates, creating redundant tools and costs.</p></section>
+  <section id="hl" class="panel"><div class='empty'>No device highlights on this take.</div></section>
+  <section id="tx" class="panel"><div class="seg"><div class="ts">0:00</div><div>Are you are you getting the opportunity and then not taking advantage of it.</div></div><div class="seg"><div class="ts">0:07</div><div>Yeah. So yeah, that&#x27;s up to y&#x27;all. I can build it however you want. I can literally, I can just put Jack. Instead of saying call Jack, I can just have his direct line be the number that&#x27;s in there, and it&#x27;s not even, it&#x27;s sort of you know covert. However you want to do it, I can do it like that, and that would be covert. It would just ring his phone.</div></div><div class="seg"><div class="ts">0:26</div><div>I think his phone went directly. To his cell phone, right? I&#x27;m sure.</div></div><div class="seg"><div class="ts">0:31</div><div>Yeah, he forwards it. I think when he&#x27;s not there, he&#x27;ll do that.</div></div><div class="seg"><div class="ts">0:33</div><div>I mean, look, I mean, yeah. And let&#x27;s let&#x27;s him respond. And just see if you&#x27;re getting opportunities that are actually turning into something. Yeah.</div></div><div class="seg"><div class="ts">0:43</div><div>So Q nine, Q seven featured. Well, Q nine first, but I&#x27;ll go grab his direct line when I leave here. I&#x27;ll go. So you just go straight to his two two five number. Yeah. His desk line, basically. Okay. And maybe I&#x27;ll mention it to him too.</div></div><div class="seg"><div class="ts">0:58</div><div>Yeah, make sure that he knows. I&#x27;ll.</div></div><div class="seg"><div class="ts">1:01</div><div>Four one.</div></div><div class="seg"><div class="ts">1:01</div><div>He was having four to his cell phone. Yeah,</div></div><div class="seg"><div class="ts">1:03</div><div>That&#x27;s what I&#x27;ll do. Yeah. Okay. Yep.</div></div><div class="seg"><div class="ts">1:08</div><div>There were quite a few used car leads that came in over the weekend. The Honda Pilot seems to be pretty popular, so I imagine that might be a good one. That Volvo we took in that was a nice trade. Yeah. Yeah. Very nice. So that call. All we can do is we can send it to detail and get a dirty review. Yeah, that car was like cleaner than new cars on our lot. Yeah, like it was, it was insanity too. Like they never, they had seat covers on. Yeah, perfect. What are you gonna do, turn one on that or? I don&#x27;t, I don&#x27;t understand. Look at it. Yeah, but yeah, that looked nice. That&#x27;s why we need to run through quick and get that to the front lot as fast. So, try not to make a mistake because the car is, when I say immaculate, I mean immaculate.</div></div><div class="seg"><div class="ts">1:57</div><div>It was good to see some traffic on Saturday. I really didn&#x27;t know what to expect early in the day, but we kind of, yeah, it wasn&#x27;t. We weren&#x27;t overrun by any means, but there were there were customers. So, and I think there&#x27;s a few deals to follow up with. So, you gotta get see what New Orleans wants back on that A. Okay, I&#x27;ll text back this morning, and.</div></div><div class="seg"><div class="ts">2:30</div><div>That&#x27;s all I have for service calls. So,</div></div><div class="seg"><div class="ts">2:35</div><div>Here&#x27;s our lines for one sec. The report that you&#x27;re doing for BMW, where you&#x27;re bringing all the information into Viano. Yep.</div></div><div class="seg"><div class="ts">2:45</div><div>Is that something we can do here?</div></div><div class="seg"><div class="ts">2:46</div><div>I already know that. No. Well, that&#x27;s a different thing.</div></div><div class="seg"><div class="ts">2:49</div><div>Are you not talking about GM?</div></div><div class="seg"><div class="ts">2:51</div><div>Yeah, we&#x27;re talking about a whole different piece. So, it started because last Monday, Carly and Daryl asked, &quot; Hey, man, I have all these. Like, if I go to Viano, I can see my service appointments.&quot; And then if I go to like Ven, I can see my web leads, and you&#x27;ve got kind of opportunities spread out, right? And so I built a whole new app. I call it Acquire, and it lets it lets you essentially see all of your service appointments. And I can build the parameters however you want, so I can say, let me see like starting last week into the end of last month or whatever, so you can see all your service appointments. But then the way I have it built now, I have it showing AFS leads.</div></div><div class="seg"><div class="ts">3:29</div><div>So all of the lease and loan things that pop in, all of our dealer and web leads, our phone ups, Audi partners, and you can exclude or include those if you want to see them or not. Yeah, and so what it does is it so like with with one click, I can say, here&#x27;s my service drive for this week. Let me see where it lines up and see what service appointments already have web leads in the system. So we have that; it&#x27;s already built. I can show it to you if you want to see it if you got time. Then. And then I&#x27;ll email you guys a link, so y&#x27;all can use it and see if it&#x27;s worth a shit. I have it built too to basically let you, if you just go and pull up, you can look at it just as all the service leads, right? And then I had it had a sort built to where I call it sweet spot years, so it&#x27;ll show you twenty twos and twenty fours, like cars you would want as a trade. So, right now, this BMW one. No, this this yours.</div></div><div class="seg"><div class="ts">4:28</div><div>Let&#x27;s see. So it&#x27;s completely malleable. So if you guys see something you like or don&#x27;t like or want to include or or exclude, you tell me. Right now I have it like this so I can see important leads, service drive, or all opportunities. One of my favorite views is I can see my service drive. Let&#x27;s focus on just this week. I can look at things if it. This what one looks like if it has a lead on it, right? So it&#x27;s going to have the source code, some of that. No, I mean the customer has sent in a lead on the car. This customer, basically, this one, and this kind of a good example. This one, I have it built to show us whether it&#x27;s a sold opportunity or not. So this was a sold opportunity. We sold something to them 13 days ago, but it was just a. Well, they were in for service, and we sold them a car. Not that long after that.</div></div><div class="seg"><div class="ts">5:25</div><div>Let&#x27;s see. What are they in for service? Wait, they&#x27;re in for service today. We sold them a car 13 days ago. Okay. Well,</div></div><div class="seg"><div class="ts">5:31</div><div>Why would that be a hot lead then?</div></div><div class="seg"><div class="ts">5:32</div><div>It&#x27;s it&#x27;s not. Okay. It&#x27;s a service customer, but it&#x27;s showing you where the lead. There&#x27;s a lead on it. It&#x27;s a service customer. Okay. So right here is it just a service lead? Uh huh. They had chatted into us. They&#x27;re in for service. Probably worth looking at. Looks like they&#x27;re full of shit. He might already know about it. He&#x27;s probably working. I don&#x27;t know. Um. If I uncheck this box, it&#x27;s kind of probably.</div></div><div class="seg"><div class="ts">5:58</div><div>Wait, come in. Sorry. Yeah. Click on it. All right. So how do we? So in this bucket, we obviously sold these people.</div></div><div class="seg"><div class="ts">6:05</div><div>Yeah, you sold them. It says we sold them 13 days ago, but they&#x27;re in for service today.</div></div><div class="seg"><div class="ts">6:09</div><div>Okay. So what it says. But is this supposed to be somebody we received a lead on? Now they&#x27;re in service, or is this just strictly service?</div></div><div class="seg"><div class="ts">6:16</div><div>We didn&#x27;t. We did not receive a lead on this one. Okay. So these are just all service. Employees that came in today are coming in today. Is that what it is? Yeah. If I uncheck this right now, I&#x27;m showing actually this week. So today, tomorrow, this week, or today into infinity.</div></div><div class="seg"><div class="ts">6:30</div><div>I guess. I guess what what I&#x27;m asking is, what is the difference between this screen and then if you click sales leads?</div></div><div class="seg"><div class="ts">6:35</div><div>It does mean they have a lead. So this one, I&#x27;d have to go look at it specifically, but it looks like they had a lead.</div></div><div class="seg"><div class="ts">6:40</div><div>Well, they could. Yeah, they could have had a lead. They bought a car, right? Yeah, that&#x27;s what it looks like.</div></div><div class="seg"><div class="ts">6:45</div><div>Okay. And did they trade a QX? Is what it looks like.</div></div><div class="seg"><div class="ts">6:47</div><div>Yeah, we sold.</div></div><div class="seg"><div class="ts">6:50</div><div>So the ones with a lead are pretty cool because you can kind of see, hey, they&#x27;re coming in for service. We have a lead, you know. So this,</div></div><div class="seg"><div class="ts">6:58</div><div>So this, this other one here, this next one. Which one? This one. Yeah, I got the third one. Yeah,</div></div><div class="seg"><div class="ts">7:04</div><div>That&#x27;s sold. Same. Sold it seventy - two days ago.</div></div><div class="seg"><div class="ts">7:06</div><div>Okay, she&#x27;s already back in for service again. That&#x27;s the. You remember that girl? Yeah, I know she is.</div></div><div class="seg"><div class="ts">7:11</div><div>Yeah. Yeah, it says she&#x27;s in book tomorrow. Okay.</div></div><div class="seg"><div class="ts">7:18</div><div>But again, I still have. So this one is. Do you have one where like there&#x27;s a current lead in the system right now? To me, this was kind of prime because one of the big issues with everybody faces with leases and loans is that&#x27;s probably an opportunity. It&#x27;s in a sweet spot for years, so they&#x27;re coming in for service. So they&#x27;re here, and why don&#x27;t I&#x27;m going to go talk to them? You know, that&#x27;s that&#x27;s what that the whole thing&#x27;s just built to find opportunities like that. I have it built so that your three main fields are also just quick copyable. You click copy and then you just paste it into Venn and you kind of see what&#x27;s going on. But this again, this is just I just checked the box on what has a lead in it. The other piece that I think is kind of cool is I can do all my service appointments that are the right year, so twenty two to twenty four. So every service appointment that&#x27;s coming in, let&#x27;s just look at today. It&#x27;s.</div></div><div class="seg"><div class="ts">8:14</div><div>So if we look at tomorrow, every lead that&#x27;s coming in, every service appointment that&#x27;s coming in, and these are all basically, to me, I also have it built for any of you guys. Eric, even like, you can see this and go, &quot;Shit!&quot; I kind of wouldn&#x27;t mind having that. If you click export to CRM. Now me like if I&#x27;m looking at the best approach, I&#x27;d copy this into Ven and go see if anything&#x27;s doing. But if you just took export to CRM, it&#x27;s gonna create a lead directly like instantly in the system, and the lead will be this will be the service or the tracking code. It&#x27;ll say new lead acquire service, and then you sign the salesperson to it. Yeah, then you go sign whoever you want to it, and they work it work it as a service. So you go create.</div></div><div class="seg"><div class="ts">9:11</div><div>Five, six, seven, eight, ten quick service leads in five minutes. I have it built right now. It&#x27;s doing a a lot fit, so it&#x27;s showing what car is the obvious next car for this customer, and I have it sorted by oldest first, which is just because because I think it makes good sense. If you do export, when you do export, you can choose one of the other three lot fits, or I have it set to where you can kind of just enter a side number, like if it&#x27;s somebody that you know might be interested in X car, or you can just say no vehicle.</div></div><div class="seg"><div class="ts">9:42</div><div>But it&#x27;s set to where you can run through this list real quick and just say, &quot; Yeah, export this,&quot; and and then you go pick who you want to assign it to, and you&#x27;ve created four or five service leads a day. Yeah, well, we do something extremely similar to this. Well, Mastermind does this, right? So, um, um, that&#x27;s why I say it started because they don&#x27;t have Mastermind. Okay, they have no fuel into this for you.</div></div><div class="seg"><div class="ts">10:03</div><div>Mastermind will go ahead. This is your car. This is what you&#x27;re paying now. Yeah. This is the target car. This is what the target car would be, and then you go to the customer and go, &quot; Hey.&quot; Fifty dollars more a month. Do you like to upgrade?</div></div><div class="seg"><div class="ts">10:14</div><div>It&#x27;s very similar to that. the The reason that to me, you&#x27;re paying five thousand dollars a month for it. Well, that&#x27;s my point too. Yeah, it&#x27;s and and the other thing. A lot of these, because I&#x27;ve looked at so many different demos over the course of the years, so many people build these big whiz bang crazy ass apps that they just do more shit than they need them to. Honestly, right? If you really just have kind of this highlighter that says, &quot; Hey, here&#x27;s an opportunity,&quot; that&#x27;s kind of all you need.</div></div><div class="seg"><div class="ts">10:39</div><div>Is there any way to fit in like when the time of purchase was on these cars? Do you know what I&#x27;m saying? So like,</div></div><div class="seg"><div class="ts">10:47</div><div>So you mean the cars that they&#x27;re in?</div></div><div class="seg"><div class="ts">10:48</div><div>Yeah. In other words, they didn&#x27;t buy six months ago. We&#x27;re trying to trick about it. Yeah,</div></div><div class="seg"><div class="ts">10:52</div><div>Yeah. We probably can because all this data is I&#x27;ve got right now. It&#x27;s three CSV files that are just exported out of Vend Solutions. So what you&#x27;re asking there is like that is like the right? Yeah, yeah. Data is in there. I just have to go find like what piece of what dataset to export out. Anything I feed this machine, this app that I&#x27;m building, we can get whatever data we want from it. You know, so that what you&#x27;re talking about, we&#x27;ll add that. Like, well, I&#x27;ll go see if I can dig up. It might just be a customer file because I think if there&#x27;s a customer file, it&#x27;ll have all their ownership data when they bought all that crap.</div></div><div class="seg"><div class="ts">11:27</div><div>Or like if you could link, what what would be easy too if you could link, and I don&#x27;t know if you can. Like Carfax to this report or whatever, we could just click on it and see the registration date.</div></div><div class="seg"><div class="ts">11:38</div><div>Oh, you mean Carfax, like for this car? Yeah. I bet. I bet it could. I bet. So we already have the Carfax is pulled. Yeah. Right. Um, and actually, shit. Come to think of it, there&#x27;s probably a web link tied to our website that gives us the Carfax. Yeah. I&#x27;ll see if I can figure that out. Yeah. So you can see the Carfax on the on the train. Yeah. I mean, it&#x27;s totally usable right now. Do I? Yes. Um. I&#x27;ll get it to email and look. If you, I think right now I have service appointments being ingested, like starting at the beginning of this month and then into the end of next month. It&#x27;s kind of like the time I have because with service appointments, honestly, I don&#x27;t see any purpose in seeing into the past. But you can see into the future as long as you want. But I feel like the sweet spot is probably let me just look at tomorrow, set appointments for my people. Our report this week. Yeah, I have it built where you can sort here.</div></div><div class="seg"><div class="ts">12:32</div><div>Just see starting today, and then in the rest of this week, if you see any opportunities there for training people in and out. But yeah, to me, this is the like the needle mover of what Mastermind does. All the other stuff is like yeah.</div></div><div class="seg"><div class="ts">12:46</div><div>The only reason we still have Mastermind is because, obviously, it&#x27;s the money. They tie direct incentives to Mastermind that being lost. Yeah, can&#x27;t get away from it. So they rebate to customers. Well, we can the second they get rid of that, yeah. Well.</div></div><div class="seg"><div class="ts">13:00</div><div>I think I think Mastermind knows that. Yeah, you know, they&#x27;re they&#x27;re in cahoots. They&#x27;re kind of no, it is it is you know. Somebody&#x27;s receiving a little payola, but well,</div></div><div class="seg"><div class="ts">13:10</div><div>We do we do utilize this rebates.</div></div><div class="seg"><div class="ts">13:13</div><div>No, no, you can&#x27;t can&#x27;t give it up completely. Um, but yeah, so I&#x27;ll try to I&#x27;ll see if I can add in more like awareness on this car. The like the a big piece too that I think is kind of one of those overlooked things, but if you look at these. These are all Audi. Let&#x27;s see. Let me give it a search. So these are all your AFS options, all in one spot. What do you know? What? How often? What was the frequency? It went Audi dumps those in the what? The AFS things. Do they put them in like every month? Do they put them in every few months? What is AFS? Like AFS is like it&#x27;s a non - culture initiated. Oh yeah. It&#x27;s essentially.</div></div><div class="seg"><div class="ts">14:00</div><div>I mean, constant. I would think.</div></div><div class="seg"><div class="ts">14:02</div><div>Is it just all the time?</div></div><div class="seg"><div class="ts">14:03</div><div>They might have a bank of them,</div></div><div class="seg"><div class="ts">14:04</div><div>And they release pretty much. Okay, yeah, that&#x27;s interesting. But they&#x27;re all in here. One of the things that I&#x27;m building. This is not connected to this, but for VCA for that for the AI that&#x27;s built in now, which all which goes live today, and we&#x27;ll turn off podium today. I delayed it to today so that I could have a we wouldn&#x27;t have a double bill situation. But I&#x27;m building a whole little process just for these AFS leads, essentially to kind of have AI. Help us like offer pre-inspections and offer all that kind of shit. But the AFSs that overlap with the service appointment—I mean, shit—half the trouble of getting somebody to come in for lease inspections ended up getting them here. So that&#x27;s one of the reasons I like this overlap, right? And in this case, it&#x27;s showing us—it&#x27;s showing us two right now.</div></div><div class="seg"><div class="ts">14:56</div><div>So, can sweet spot mean two different things?</div></div><div class="seg"><div class="ts">15:00</div><div>It can mean whatever you want it to. I can have it built however you want. I just did that because I know that&#x27;s kind of like where we want to trade. But I could. You just not show it. You can also not like it. Yeah, I didn&#x27;t know you changed if you want me to.</div></div><div class="seg"><div class="ts">15:12</div><div>Yeah, I didn&#x27;t know if you had sweet spot on lease vehicles too, or if it was just.</div></div><div class="seg"><div class="ts">15:17</div><div>I just did it as an idea to kind of show you like your most desirable trades.</div></div><div class="seg"><div class="ts">15:22</div><div>Yeah,</div></div><div class="seg"><div class="ts">15:22</div><div>For sure. The search thing works for some of that too. Like if you&#x27;re going, shit, let me look at all my, you know, all of my service drives forever, and then let me just look at all my Q7s as a way to go. Hey, all these people are coming for a Q7. Yeah. Let me set an appointment and then offer them a Q9 or something like that. Yeah. So you can say you. Let&#x27;s just simply search. Cool. I&#x27;ll see if I can add.</div></div><div class="seg"><div class="ts">15:53</div><div>More data on the train slash service people. Yeah, I&#x27;ll send you even though this link today, so you can start using it if you want to go. Yeah. For sure. Cool. Any questions about it? No. I mean, I&#x27;m sure people have questions about it. Oh yeah, and honestly, I&#x27;m trying to make it just real basic because so many things are just more gamed than anything. All right. You can send us the link. Yeah.</div></div></section>
+</main>
+</div>
+<footer>PLAUD-NOTES-2026-09-17-0600-MORNING · noindex · Plaud sources + notes</footer>
+<script>
+
+document.querySelectorAll('.tabs button').forEach(btn => {
+  btn.addEventListener('click', () => {
+    document.querySelectorAll('.tabs button').forEach(b => b.setAttribute('aria-selected', b===btn ? 'true':'false'));
+    document.querySelectorAll('.panel').forEach(p => p.classList.toggle('is-on', p.id === btn.dataset.panel));
+  });
+});
+
+</script>
+</body>
+</html>

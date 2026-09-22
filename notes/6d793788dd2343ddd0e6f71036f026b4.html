@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>09-09 Reasoning-Note: Action Plan for Automotive Service Revenue Turnaround Amid Leadership Scrutiny</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500&family=IBM+Plex+Mono:wght@400;500&family=Source+Sans+3:wght@400;600;700&display=swap">
+  <style>
+:root {
+  --bg: #090908;
+  --bg-2: #11110f;
+  --bg-3: #181714;
+  --ink: #f0eadc;
+  --muted: #8d8778;
+  --faint: #5c574c;
+  --line: #26241e;
+  --accent: #c4452d;
+  --mustard: #c4a35a;
+  --blue: #6f8fbf;
+  --ok: #7d9a6d;
+  --serif: "Fraunces", "Iowan Old Style", Georgia, serif;
+  --sans: "Source Sans 3", "Source Sans Pro", -apple-system, sans-serif;
+  --mono: "IBM Plex Mono", ui-monospace, monospace;
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html, body { background: var(--bg); color: var(--ink); }
+body {
+  font-family: var(--sans);
+  min-height: 100vh;
+  text-wrap: pretty;
+}
+a { color: inherit; }
+.shell { display: grid; grid-template-columns: 260px 1fr; min-height: 100vh; }
+.rail {
+  border-right: 1px solid var(--line);
+  padding: 28px 18px 40px;
+  background: var(--bg-2);
+  position: sticky; top: 0; height: 100vh; overflow: auto;
+}
+.mark {
+  font-family: var(--serif);
+  font-weight: 500;
+  font-size: 13px;
+  letter-spacing: .18em;
+  text-transform: uppercase;
+  color: var(--accent);
+}
+.rail h1 {
+  font-family: var(--serif);
+  font-size: 28px;
+  font-weight: 460;
+  letter-spacing: -.03em;
+  margin: 10px 0 6px;
+}
+.rail .lede { color: var(--muted); font-size: 13.5px; line-height: 1.45; margin-bottom: 28px; }
+.vnav { display: flex; flex-direction: column; gap: 4px; }
+.vnav a {
+  display: flex; justify-content: space-between; align-items: baseline;
+  text-decoration: none; padding: 9px 10px; border-radius: 8px;
+  color: var(--ink); font-size: 14px;
+}
+.vnav a:hover, .vnav a.is-on { background: var(--bg-3); }
+.vnav a.is-on { box-shadow: inset 2px 0 0 var(--accent); }
+.vnav .count { color: var(--faint); font-family: var(--mono); font-size: 11px; }
+.stage { padding: 36px 40px 80px; max-width: 980px; }
+.kicker {
+  font-size: 11px; letter-spacing: .16em; text-transform: uppercase;
+  color: var(--accent); font-weight: 700; margin-bottom: 8px;
+}
+.stage > h2 {
+  font-family: var(--serif); font-weight: 460; font-size: 34px;
+  letter-spacing: -.03em; margin-bottom: 8px;
+}
+.blurb { color: var(--muted); margin-bottom: 28px; max-width: 46rem; }
+.empty {
+  border: 1px dashed var(--line); border-radius: 14px;
+  padding: 36px 28px; color: var(--muted); background: var(--bg-2);
+}
+.empty strong { color: var(--ink); font-weight: 600; }
+.cards { display: flex; flex-direction: column; gap: 10px; }
+.card {
+  display: grid; grid-template-columns: 1fr auto; gap: 12px;
+  text-decoration: none; padding: 16px 18px; border-radius: 12px;
+  background: var(--bg-2); border: 1px solid var(--line);
+}
+.card:hover { border-color: #3a372e; background: var(--bg-3); }
+.card h3 { font-size: 16px; font-weight: 600; margin-bottom: 4px; }
+.meta { color: var(--muted); font-size: 13px; display: flex; gap: 10px; flex-wrap: wrap; }
+.chip {
+  font-family: var(--mono); font-size: 10px; letter-spacing: .06em;
+  text-transform: uppercase; padding: 3px 7px; border-radius: 999px;
+  border: 1px solid var(--line); color: var(--muted); height: fit-content;
+}
+.chip.dealers { color: var(--blue); border-color: #2a3344; }
+.chip.avec-tous { color: var(--mustard); border-color: #3a3320; }
+.chip.personal { color: #c9a7a0; }
+.chip.ideas { color: var(--ok); }
+.note-top { margin-bottom: 22px; }
+.note-top h2 { font-family: var(--serif); font-size: 36px; font-weight: 460; letter-spacing: -.03em; }
+.tabs { display: flex; gap: 6px; margin: 22px 0 18px; border-bottom: 1px solid var(--line); }
+.tabs button {
+  appearance: none; background: none; border: 0; color: var(--muted);
+  font: 600 13px var(--sans); padding: 10px 12px; cursor: pointer;
+  border-bottom: 2px solid transparent; margin-bottom: -1px;
+}
+.tabs button[aria-selected="true"] { color: var(--ink); border-bottom-color: var(--accent); }
+.panel { display: none; }
+.panel.is-on { display: block; }
+.prose { font-size: 16.5px; line-height: 1.6; max-width: 42rem; }
+.prose h2, .prose h3 { font-family: var(--serif); font-weight: 500; margin: 1.3em 0 .4em; }
+.prose p { margin: 0 0 .8em; }
+.prose ul, .prose ol { margin: 0 0 1em 1.2em; }
+.prose li { margin: .25em 0; }
+.hl { border-left: 2px solid var(--accent); padding: 10px 0 10px 14px; margin: 0 0 14px; }
+.hl .t { font-family: var(--mono); font-size: 11px; color: var(--faint); }
+.hl h4 { font-size: 15px; margin: 4px 0; }
+.hl p { color: var(--muted); font-size: 14.5px; }
+.seg { display: grid; grid-template-columns: 64px 1fr; gap: 12px; padding: 8px 0; border-bottom: 1px solid var(--line); }
+.seg .ts { font-family: var(--mono); font-size: 11px; color: var(--faint); padding-top: 3px; }
+.back { color: var(--muted); text-decoration: none; font-size: 13px; display: inline-block; margin-bottom: 18px; }
+.back:hover { color: var(--ink); }
+footer { margin-top: 48px; color: var(--faint); font-size: 11px; font-family: var(--mono); }
+@media (max-width: 820px) {
+  .shell { grid-template-columns: 1fr; }
+  .rail { position: relative; height: auto; border-right: 0; border-bottom: 1px solid var(--line); }
+  .stage { padding: 24px 18px 64px; }
+  .note-top h2 { font-size: 28px; }
+}
+</style>
+</head>
+<body>
+<div class="shell">
+<aside class="rail">
+  <div class="mark">Cooperative</div>
+  <h1>Field desk</h1>
+  <p class="lede">Plaud landings. Summary, highlights, transcript — filed by life area.</p>
+  <nav class="vnav"><a href="../index.html" class="">All <span class="count">45</span></a><a class="" href="../vertical-inbox.html">Inbox <span class="count">0</span></a><a class="" href="../vertical-personal.html">Personal <span class="count">0</span></a><a class="" href="../vertical-coop-marketing.html">Coop Marketing <span class="count">2</span></a><a class="" href="../vertical-coop-dev.html">Coop Dev <span class="count">8</span></a><a class="" href="../vertical-avec-tous.html">Avec Tous <span class="count">0</span></a><a class="is-on" href="../vertical-dealers.html">Dealers <span class="count">33</span></a><a class="" href="../vertical-ideas.html">Ideas <span class="count">2</span></a></nav>
+</aside>
+<main class="stage">
+  <a class="back" href="../index.html">← Desk</a>
+  <div class="note-top">
+    <div class="kicker">dealers · 2026-09-09 · 18m00s</div>
+    <h2>09-09 Reasoning-Note: Action Plan for Automotive Service Revenue Turnaround Amid Leadership Scrutiny</h2>
+    <div class="meta" style="margin-top:8px"><span>id 6d793788dd2343ddd0e6f71036f026b4</span><span>inferred</span></div>
+  </div>
+  <div class="tabs" role="tablist">
+    <button type="button" data-panel="sum" aria-selected="true">Summary</button>
+    <button type="button" data-panel="hl" aria-selected="false">Highlights</button>
+    <button type="button" data-panel="tx" aria-selected="false">Transcript</button>
+  </div>
+  <section id="sum" class="panel is-on prose"><p>![PLAUD NOTE](permanent/1440a4fbcf984caa9625e6345e38a215/mem_g5kZLYofe1/summary_poster/card_20260909135233-v2@5d98d896f6fb3033116fc1_20260909135359_c75d7407.png)</p>
+<h2>Core Synopsis</h2>
+<p>The business is under dual pressure: service revenue is missing daily targets and leadership scrutiny is about to intensify. Operationally, stores are meeting or exceeding some front-end retail metrics, but customer-pay service throughput and dollar volume are underperforming despite high labor costs and nine techs on the floor. Politically, Open Roads hired a seasoned COO (ex-Lithia M&amp;A) who will run a forensic review, while ownership has discovered absentee executive leadership, heightening the risk of top-down intervention. Evidence points to a capacity-and-culture problem in Service: an underperforming, change-resistant shop foreman, talent scarcity in Jackson, and insufficient sales/service advisor horsepower are constraining RO count and average dollars per RO. Advisory support is weak; field reps flag gaps but provide “sell more parts” guidance without process repairs. Meanwhile, the team is rationalizing spend (cut Cars.com and Automotive Mastermind), experimenting with Podium and AI call-routing to avoid adding headcount, and planning an internal newsletter to boost engagement. We are accountable for reversing service underperformance before the COO’s audit converts soft misses (−$81k YTD bonuses) into hard structural mandates; we commit to a focused reset on technician productivity, advisor effectiveness, and leadership accountability in the shop.</p>
+<h2>Service Revenue Turnaround: From Fragmented Effort to Focused System</h2>
+<ul>
+<li>The Constraints Driving the Shortfall (Diagnostic Deep-Dive)</li>
+<p>  - Phenomenon: Customer-pay workshop sales must hit ~$7.5k/day net but are missing, despite nine technicians.   - Mechanism: Low technician productivity and/or under-optimized dispatch; inadequate service advisor selling (ARO, MPIs, menuing); leadership blockage from a 30-year shop foreman resisting new process; recruiting constraints in Jackson shrink the quality talent pool.   - Root Causes:     - Process: Inconsistent RO build depth (inspections, fluid exchanges, maintenance menus) and weak parts/service coordination for same-day approvals.     - People: Advisor counts and closing skills are insufficient to lift CP ARO; shop foreman undercuts change adoption; billable hours per tech likely below target due to dispatch/load leveling gaps and comeback/hold times.     - Tools: Phone triage and routing improved with Podium AI pilot, but service scheduling, MPI photo/video usage, and follow-up may lack rigor; vendor “advice” is informational, not operational.</p>
+<li>The Near-Term Audit Reality (Challenge-Response)</li>
+<p>  - Status Quo: YTD missed bonuses of ~$81k; other stores (e.g., “battle lines” at 105%) are outperforming.   - Imminent Gap: New COO Scott Cusick will drill into CP revenue, labor efficiency, ARO, effective labor rate (ELR), parts-to-labor ratios, and advisor close rates.   - Response: Preempt the audit by installing a visible playbook—daily RO targets by advisor, hours per RO goals by tech, foreman accountability, and same-day upsell cadence—so the narrative shifts from excuses to measurable recovery.</p>
+<li>Leadership and Culture Reset in the Shop (Dialectical Analysis)</li>
+<p>  - Thesis: Long-tenured foreman stability provides tribal knowledge.   - Antithesis: “We’ve always done it this way” blocks throughput, modern MPI-driven selling, and dispatch optimization.   - Synthesis: Retain tribal knowledge but remove the veto power—reassign or replace the foreman role if KPIs slip; empower a lead willing to run load balancing, enforce MPIs, and coach techs on billed hours targets.</p>
+<li>Capacity and Mix: Advisors, Techs, and the Phone Front Door (Structural Assembly)</li>
+<p>  - Technicians: Nine techs require strong dispatching and steady feeder work. Without advisor-driven approvals, tech idle time rises and CP falls.   - Service Advisors: Add or upskill to lift ARO via rigorous MPIs, photo/video transparency, menu presentations, and same-day decisioning scripts.   - Phone and Scheduling: Podium AI call-routing trial is a cost-efficient hedge; ROI depends on reducing abandoned calls, accelerating appointment setting, and routing to the right advisor without extra headcount.</p>
+<li>Vendor and Spend Rationalization (Trade-Offs with Teeth)</li>
+<p>  - Cuts: Cars.com and Automotive Mastermind removed; ad spend normalized to ~$25k after credits; Podium added for service communications and AI phone support.   - Trade-off: Lower third-party lead spend demands higher conversion of in-house traffic; service must offset with process-driven ARO and ELR gains.</p>
+<li>Internal Communication and Morale Levers</li>
+<p>  - Newsletter/Magazine: Use “Employee of the Month” and role spotlights (e.g., new parts manager Shelley) to reinforce desired behaviors and retention amid market hiring challenges.</p>
+</ul>
+<h2>Action Items</h2>
+<p><strong>@Service Manager (Jackson)</strong></p>
+<ul>
+<li>[ ] Pull last 60 days of service KPIs: CP RO count, CP ARO, hours per RO, ELR, tech efficiency/utilization, advisor close rates, parts-to-labor ratio, comeback rate - [TBD]</li>
+<li>[ ] Implement daily CP revenue targets per advisor and hours targets per tech; publish a scoreboard at open/close of day - [TBD]</li>
+<li>[ ] Enforce 100% MPI with photo/video and a standard menu presentation on every RO; audit 10 ROs/day for compliance - [TBD]</li>
+<li>[ ] Reassign or place the shop foreman on a 30-day performance plan tied to tech billed hours/utilization and MPI compliance; prepare successor plan - [TBD]</li>
+</ul>
+<p><strong>@Parts Manager (Shelley)</strong></p>
+<ul>
+<li>[ ] Set same-day parts SLAs for common maintenance/repair menus (stock levels, bin locations, response times); report fill rate and turnaround weekly - [TBD]</li>
+</ul>
+<p><strong>@Lance</strong></p>
+<ul>
+<li>[ ] Schedule a 30-minute knowledge-share with April Bower (Brian Harris) on advisor workflows, dispatch discipline, and ARO lifts; document 5 adoptable practices - [TBD]</li>
+<li>[ ] Define Podium AI success criteria (call answer rate, time-to-appointment, transfer accuracy); review 30/60/90-day ROI to decide continue vs. hire - [TBD]</li>
+</ul>
+<p><strong>@Owner/GM (Local Store Lead)</strong></p>
+<ul>
+<li>[ ] Prepare a pre-audit brief for COO Scott Cusick: baseline service KPIs, 90-day turnaround plan, weekly cadence, and named owners - [TBD]</li>
+</ul></section>
+  <section id="hl" class="panel"><div class='empty'>No device highlights on this take.</div></section>
+  <section id="tx" class="panel"><div class="seg"><div class="ts">0:00</div><div>Man, I can&#x27;t bust too much.</div></div><div class="seg"><div class="ts">0:02</div><div>Man, it&#x27;s just been too long since I heard the ball. I thought I was sick yesterday, so I was kind of planning on that. Man, I&#x27;m sorry. I had um, no, it ain&#x27;t. You don&#x27;t even be sorry.</div></div><div class="seg"><div class="ts">0:14</div><div>It just ain&#x27;t. No, it&#x27;s been sick. Tina&#x27;s been sick. Oh no. The whole, you know, everybody was not doing well. So I hate to hear that. Trust me. Frank busted started busting my balls about eight thirty. Hey, where are you at? Oh shit! Where you at? Why aren&#x27;t you here? And I called him, and I said, &quot; I said, well, I was at the first team, so you are going to make the third one in that night.&quot;</div></div><div class="seg"><div class="ts">0:40</div><div>Yep. All right. We I just checking what&#x27;s going on. Well, you know, just work, fucking around. We got these magazine slash newsletter loaded up for us. Man,</div></div><div class="seg"><div class="ts">0:50</div><div>I love that Lance.</div></div><div class="seg"><div class="ts">0:51</div><div>That was so good. I am excited about it. Uh. From a lot of different angles, like it. I think that works better as an email. We&#x27;re gonna we&#x27;re gonna use that, and we&#x27;ve got the offers email. We can do both, but I.</div></div><div class="seg"><div class="ts">1:04</div><div>Want to put like an employee of the month in there too.</div></div><div class="seg"><div class="ts">1:07</div><div>You&#x27;re thinking exactly what I&#x27;m thinking.</div></div><div class="seg"><div class="ts">1:09</div><div>Like I got a new parts manager. I&#x27;d love to put Shelley in there. Yep. You know, she&#x27;s been with us seven, eight years. She&#x27;s now become a you know our parts manager, and you know the good stuff. Yep. We&#x27;ll all this it that makes people excited.</div></div><div class="seg"><div class="ts">1:23</div><div>We&#x27;ll put the. I want to do an employee of the month kind of thing, or just a featured, you know, introduction every month.</div></div><div class="seg"><div class="ts">1:30</div><div>Absolutely. Look,</div></div><div class="seg"><div class="ts">1:31</div><div>Whatever other sections y&#x27;all want to come up with.</div></div><div class="seg"><div class="ts">1:35</div><div>Right? We can do it. Hey, I got a. I got an issue. I need to talk about real quick. Okay. Who&#x27;s the service manager at Brian Harris.</div></div><div class="seg"><div class="ts">1:44</div><div>April. April Bower. A female. Yeah. There&#x27;s the win. That&#x27;s why he&#x27;s winning. What? What you like? Those numbers look good.</div></div><div class="seg"><div class="ts">1:56</div><div>Well, I have a I have an issue with my customer pay workshop number. Yeah, and it&#x27;s and it&#x27;s not just a metric based on how many ROs I close. Okay, but it also has a numeric value for those ROs, and you know I&#x27;ve got to do like seventy five hundred dollars a day. Okay, and and um, not gross but net. Top sales, yeah. And I&#x27;m like, you know, I&#x27;m like, I got fucking nine guys. So I wanted to reach out to her and just let her kind of let me pick her brain. Say, you know, how have you? Because I talked to Rich yesterday, and Rich said, Hey, Rick, you know, it&#x27;s not just you that&#x27;s having that problem. It&#x27;s you, Walker, Little Rock, you know. Yeah. So I said, Who&#x27;s doing it right? He said, Well, Brian Harris is doing a good job.</div></div><div class="seg"><div class="ts">2:50</div><div>I said okay. Then I&#x27;ll I&#x27;ll need to reach out to Brent and see if I can pick his brain or pick her brain. Actually, there&#x27;s the there&#x27;s the winner winner right there, man. You got female and managerial roles. You&#x27;re winning today. I believe that.</div></div><div class="seg"><div class="ts">3:03</div><div>Yeah, she&#x27;s been she&#x27;s been good.</div></div><div class="seg"><div class="ts">3:07</div><div>And she obviously knows what she&#x27;s doing. My biggest problem. I need some more technicians. You know, I need more salespeople. I heard I heard a guy a white guy. The older white guy—he&#x27;s supposed to start this week—and I hired a young black kid. That&#x27;s—I think it&#x27;s going to be good. We&#x27;re going to bring him in and start him out as a genius. Yeah. But I got—I got to have somebody come in and help me sell another ten, fifteen cars a month. Yeah. I got to have that. You know, we&#x27;re doing well. I mean, I&#x27;m a be—my, you know, how my new retail numbers over a hundred is a hundred and five percent.</div></div><div class="seg"><div class="ts">3:45</div><div>You know, even my dinner royalties up a little bit more this month. So knock on wood. I just keep seem to having. I keep seem to having problems in service, and I think it&#x27;s a number of different. I got multiple issues there. It&#x27;s not just one.</div></div><div class="seg"><div class="ts">4:01</div><div>Yeah, I think that&#x27;s a common problem, right?</div></div><div class="seg"><div class="ts">4:03</div><div>It&#x27;s like a. It&#x27;s not just we cannot afford to. We cannot hire. You know, we talked about this last week. We struggle to hire. Qualified people in Jackson, because nobody wants to fucking live here.</div></div><div class="seg"><div class="ts">4:19</div><div>Yeah, I mean, it&#x27;s a challenge, right? I mean, that is definitely one of the challenges. Is like, is you know, what market you&#x27;re in, and does it support the talent you need? I guess it makes it a challenge.</div></div><div class="seg"><div class="ts">4:33</div><div>And that&#x27;s the problem, you know. And you know, I pay my people stupid money. Yeah, I do. I really do. But you know, my, My my my shop foreman sucks. You know he&#x27;s been here thirty something. You know I figured it out. These old guys and I&#x27;m one of them. I&#x27;m I&#x27;m at least making an attempt to to roll and grow. But some of these guys just you know this the way we done it. This the way we&#x27;re gonna do it. No, that&#x27;s not fucking happening. I got a great idea. If you want to do it that way, go do it in your house in your garage. So.</div></div><div class="seg"><div class="ts">5:14</div><div>Of course, you can imagine that was you know that threw a little wrinkle in everything. So, but you either adapt or die. I believe that. One hundred. I truly believe that. Yeah.</div></div><div class="seg"><div class="ts">5:28</div><div>So. For sure, you got old. You got Bill. Gonna be there in a little while.</div></div><div class="seg"><div class="ts">5:35</div><div>I don&#x27;t know, Bill. I think Bill&#x27;s going to the hospital. Bill called me yesterday. I called Bill yesterday. And I think Bill&#x27;s gallbladder is failing. Oh no! He said he&#x27;s had issues with it for a while. I&#x27;m like, why haven&#x27;t you been to the fucking doctor?</div></div><div class="seg"><div class="ts">5:51</div><div>Yeah.</div></div><div class="seg"><div class="ts">5:52</div><div>Damn. So I I don&#x27;t know if he&#x27;s showing today or not.</div></div><div class="seg"><div class="ts">5:57</div><div>Yeah,</div></div><div class="seg"><div class="ts">5:57</div><div>He may not be. I told him go get your damn gallbladder pulled out. That&#x27;s a big deal.</div></div><div class="seg"><div class="ts">6:04</div><div>It is a big deal. You know, that&#x27;s the one thing I can tell you about me, Lance. If I don&#x27;t.</div></div><div class="seg"><div class="ts">6:10</div><div>I go to the fucking doctor. I get fucking blood work done. I go to the dentist. I am not afraid to go spend money to take care of myself. You just have to. You do. What do you want? Health is everything. Your hey, you know what the most important thing is? You have your fucking teeth. Yeah. I believe that when your teeth go bad, everything else falls apart.</div></div><div class="seg"><div class="ts">6:35</div><div>Shit, it makes it impossible to get the food you need,</div></div><div class="seg"><div class="ts">6:37</div><div>Right? That&#x27;s it. Yeah, my my life insurance policy that I one I&#x27;m that I have is about is about to lapse. So they came in Monday. Actually, you know, I came up here Monday. You know, lady met me here, did my blood work, did my blood pressure, and all that shit. And so she says, &quot;What medications you on?&quot; So I took pictures of all my bottles. And she&#x27;s like, &quot;Oh my God! If everybody did what she did, my life would be so much easier.&quot; Yep. So I gave her I gave her my three medications that I take and what my prescription level was and what&#x27;s she says. Do you take anything else? I said, Yeah, I take I take a thousand milligrams of Timuric. I take a thousand milligrams of magnesium a day. I take fifteen hundred milligrams of glucosamine a day. She&#x27;s like, Oh my God! I&#x27;m like, Give me. I&#x27;ll keep going. So she&#x27;s right now. There&#x27;s not that. She goes, That&#x27;s a lot of stuff. I said, I want to live a long fucking time.</div></div><div class="seg"><div class="ts">7:35</div><div>Yep. Same. I take a lot of stuff.</div></div><div class="seg"><div class="ts">7:37</div><div>You know, if you don&#x27;t take anything, because because our food and you know this probably better than I do, our food is not developed and built anymore for nutrition. No, I don&#x27;t believe that at all.</div></div><div class="seg"><div class="ts">7:51</div><div>No. So. Yeah, you need some supplements. That&#x27;s the right way to go.</div></div><div class="seg"><div class="ts">7:54</div><div>That&#x27;s what&#x27;s wrong. So when I do go to the doctor, because I take one drug for my bad cholesterol, so they every six weeks I go get my blood check. Of course, they check out my stuff, which is great. So I can I know if I&#x27;m low, high, fucked up. I mean, mentally fucked up, but I try to stay physically okay. You gotta be a little crazy to do this every day.</div></div><div class="seg"><div class="ts">8:18</div><div>One hundred percent. It&#x27;s a lot of work. It&#x27;s a lot of work and a lot of stress.</div></div><div class="seg"><div class="ts">8:22</div><div>Yeah. Hey, there&#x27;s the key. The stress level to this.</div></div><div class="seg"><div class="ts">8:28</div><div>You gotta know how to handle the stress, deal with the stress, and you know, for years, I I wasn&#x27;t good about being. Consistent on doing things that weren&#x27;t work, you know. But I&#x27;ve been trying to be better about doing other stuff lately.</div></div><div class="seg"><div class="ts">8:44</div><div>Well, we haven&#x27;t really had a chance to visit, so Open Roads has gone out and hired them a new COO. Okay. And his name is Scott Cusick.</div></div><div class="seg"><div class="ts">8:59</div><div>Okay.</div></div><div class="seg"><div class="ts">9:00</div><div>And he worked for Lithia for about seven or eight years. Okay. And he was part of their development team buying dealerships. So they&#x27;ve brought him on board now, which we know what that means. That means they&#x27;re fishing to go forensically through the middle of our butthole to come out our mouth. You know. So every single every single thing that we have bad, we&#x27;re fishing to get to hear about it. So that&#x27;s why I&#x27;m trying to get on top of this. Customer pay workshop before I get my debt kicked down my throat. So, &#x27;cause I know it&#x27;s coming.</div></div><div class="seg"><div class="ts">9:37</div><div>Yeah, yeah. He&#x27;s probably gonna be thorough. I guess they haven&#x27;t been thorough.</div></div><div class="seg"><div class="ts">9:41</div><div>Yeah, and hey, and I&#x27;m good. You know, I got it. Whatever we need to do, we&#x27;ll put an action plan to get. You know, it&#x27;s like I told Terry. We&#x27;re gonna fix this, no matter what we have to do. We just have to. Yep. &#x27;Cause right now. Um, year to date, I&#x27;m negative 81 grand that I&#x27;ve missed in bonuses because I&#x27;ve been in the red. Yeah. Yeah, you know, and the boys down the battle lines are 105 percent. So I want to know what they know that I don&#x27;t know because I can share this with you. I don&#x27;t think our market reps really know how to fix or do anything either.</div></div><div class="seg"><div class="ts">10:20</div><div>Yeah. They know how. They know how to tell you, hey, you&#x27;re down here. Okay, how do I fix that? Sell more parts. Oh.</div></div><div class="seg"><div class="ts">10:27</div><div>Okay. Sell more parts. I mean, that&#x27;s pretty much their answer. Yeah. You know, Bill. Bill has Bill has helped me tremendously, and you know, he works with me. But I don&#x27;t know that Rich is really that good at what he does. You know, when I press him on how this works and that works, that always turns into let me pull some stuff up and send it to you. Yeah. So.</div></div><div class="seg"><div class="ts">10:57</div><div>I don&#x27;t know. Maybe I&#x27;m. I just like somebody, you know, fucking tell me what&#x27;s on you, what we got going.</div></div><div class="seg"><div class="ts">11:03</div><div>On. Do they own Open Road BMW in New Jersey, or that&#x27;s a different entity?</div></div><div class="seg"><div class="ts">11:11</div><div>No, that&#x27;s a different entity.</div></div><div class="seg"><div class="ts">11:13</div><div>The y&#x27;all, yeah, the y&#x27;all&#x27;s owner is Open Roads with a S.</div></div><div class="seg"><div class="ts">11:17</div><div>Right.</div></div><div class="seg"><div class="ts">11:27</div><div>I&#x27;ll tell you, man. Our owner was here a couple weeks back, and I think he left in shock.</div></div><div class="seg"><div class="ts">11:37</div><div>What? What you mean? He liked it or didn&#x27;t like it? Well,</div></div><div class="seg"><div class="ts">11:44</div><div>Well, he he woke up and realized that El Presidente, who they&#x27;ve been paying a million to a year plus.</div></div><div class="seg"><div class="ts">11:54</div><div>He told me about that lunch y&#x27;all had,</div></div><div class="seg"><div class="ts">11:56</div><div>Huh? Yeah, he ain&#x27;t been here. Oh, god. So, so I get a text about every two or three days now. Have you seen your president? And I answer honestly, I have not, sir. Yeah. So, and he&#x27;s not texting right that. He&#x27;s texting right that, which makes me very uncomfortable. Hmm. Well, it is what it is. So, I&#x27;m trying to clean up my bullshit. Yep. Um. Let&#x27;s say we spent about. I got about forty nine hundred dollars back in. Let me scroll down too. While we&#x27;re together, advertising. I got forty two hundred dollars in credits this month. Yeah. Spent twenty nine thousand, so we spent about twenty five grand, which I think is you know that&#x27;s the range we need to be in.</div></div><div class="seg"><div class="ts">12:53</div><div>Yeah, that sounds like that&#x27;s in line. That&#x27;s not crazy. That&#x27;s not thirty or forty.</div></div><div class="seg"><div class="ts">12:56</div><div>Lexus is spending about twenty. Chevrolet&#x27;s spending about thirty - two thousand. Infinity&#x27;s so Infinity spent twenty - two and got sixteen thousand back in credits. Sounds to me like Infinity&#x27;s trying to help their store sell something.</div></div><div class="seg"><div class="ts">13:22</div><div>Damn. Yeah, I know. That&#x27;s a lot of help. That&#x27;s a lift. That&#x27;s a that&#x27;s a lift. Care. Well, you know,</div></div><div class="seg"><div class="ts">13:31</div><div>It ain&#x27;t gonna help. You know, and it&#x27;s it&#x27;s bad, but it&#x27;s like Audi. They could throw all the money they want at that brand right now, and it&#x27;s not gonna lift it much.</div></div><div class="seg"><div class="ts">13:42</div><div>No, we have. Well, that&#x27;s why I went out and I said, &quot; How much money do we have left for the year?&quot; Because you know we need to start dialing it back some. You know, we turned Cars dot com off. We&#x27;ve turned Automotive Mastermind off. You know, we picked up Podium. Podium&#x27;s a little more spend. Yeah, I got I got new with their service. You know, and I just heard they just have a they just came out with a new tool, like a like a AI generated you know person to answer the phone for you.</div></div><div class="seg"><div class="ts">14:21</div><div>So I signed up for that instead of hiring another person and putting them in play to see if it can help me answer phone calls and get people to the right people. And I&#x27;m gonna try it for 90 days, and if it don&#x27;t work, you know, I&#x27;ll just I&#x27;m gonna have to hire a human being, which I don&#x27;t want to do. I don&#x27;t want more people. You know, I rather spend fifteen hundred a month doing that if it remotely works versus hiring somebody and paying them insurance and making a payroll. You know the deal. I&#x27;m telling you.</div></div><div class="seg"><div class="ts">14:51</div><div>Well, I&#x27;m telling you, I talked to some of the so I talked to your Focus guy about podium alternatives. Why? Because down here, so Vin Solutions, yeah, talked to Zach, yeah, about I don&#x27;t know what they call it, but they&#x27;ve got some software that takes the place of what Podium does. But down here.</div></div><div class="seg"><div class="ts">15:21</div><div>That&#x27;s about to say.</div></div><div class="seg"><div class="ts">15:23</div><div>I don&#x27;t think it&#x27;s cost effective, but I was going to get a demo of it.</div></div><div class="seg"><div class="ts">15:26</div><div>Cost effective at all? What is the reason we didn&#x27;t switch? Yeah.</div></div><div class="seg"><div class="ts">15:31</div><div>I know. Yeah, because fricking Vint Solutions just came out with their own AI built in. So now you know you don&#x27;t have to be in a separate piece of software, and it actually went down. So the spend on that went down. So that&#x27;s what I was hoping that I could find something. What&#x27;s that?</div></div><div class="seg"><div class="ts">15:52</div><div>With Insulation, yep. Yeah, man. Reynolds is just not cost - effective at all, you know. And and you know, I just the last time they were here, Zach, Sam, all our guys, our team, I just told them, hey, you guys, you know, the biggest problem with Reynolds is they are so big. I mean, they&#x27;re massive.</div></div><div class="seg"><div class="ts">16:16</div><div>Yeah, they don&#x27;t have to carry much.</div></div><div class="seg"><div class="ts">16:19</div><div>And they have so many. We&#x27;ve been up to their facilities. They have so many fucking people there, dude. It&#x27;s crazy. So they have to support those people, but there&#x27;s just better alternatives than what we&#x27;re doing. Yeah. Yeah. You know, Linda told told us a couple weeks ago. You know, we all switch off the rooms. I&#x27;m quitting, and I said, &quot; Do you promise?&quot; Yeah.</div></div><div class="seg"><div class="ts">16:42</div><div>Yeah.</div></div><div class="seg"><div class="ts">16:43</div><div>She&#x27;s new. Yeah. I mean, go fuck yourself. Yep. Well, she got gutted the other day when the boss was here too. So, she&#x27;s been kissy kissy, you know, the last three weeks. So that&#x27;s been good.</div></div><div class="seg"><div class="ts">17:02</div><div>Are you there? Are you there tomorrow? Yeah,</div></div><div class="seg"><div class="ts">17:06</div><div>Coming. Yeah, is that that&#x27;s going with you? Come on. Yep, I&#x27;m gonna come tomorrow. All right, I&#x27;m gonna go do lunch tomorrow.</div></div><div class="seg"><div class="ts">17:14</div><div>Shit, Joe. Thinking about coming today. I wanted to catch Bill, but I don&#x27;t need to catch Bill. He&#x27;s gonna be here again. I think. You say he&#x27;s not gonna be there. It&#x27;s even better. I come tomorrow.</div></div><div class="seg"><div class="ts">17:23</div><div>Well, he was going to the hospital yesterday when I called. Yeah,</div></div><div class="seg"><div class="ts">17:26</div><div>We gonna let him take care of himself.</div></div><div class="seg"><div class="ts">17:28</div><div>Yeah, I don&#x27;t care. Him, I&#x27;d much rather him go get his gallbladder fixed. Yep.</div></div><div class="seg"><div class="ts">17:32</div><div>And then I&#x27;ll see you tomorrow. Goodbye. Yeah, yeah, we go, Rick. You remember that.</div></div></section>
+</main>
+</div>
+<footer>PLAUD-NOTES-2026-09-17-0600-MORNING · noindex · Plaud sources + notes</footer>
+<script>
+
+document.querySelectorAll('.tabs button').forEach(btn => {
+  btn.addEventListener('click', () => {
+    document.querySelectorAll('.tabs button').forEach(b => b.setAttribute('aria-selected', b===btn ? 'true':'false'));
+    document.querySelectorAll('.panel').forEach(p => p.classList.toggle('is-on', p.id === btn.dataset.panel));
+  });
+});
+
+</script>
+</body>
+</html>

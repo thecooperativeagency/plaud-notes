@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Review: Dealership Inventory Syndication and System Mapping</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500&family=IBM+Plex+Mono:wght@400;500&family=Source+Sans+3:wght@400;600;700&display=swap">
+  <style>
+:root {
+  --bg: #090908;
+  --bg-2: #11110f;
+  --bg-3: #181714;
+  --ink: #f0eadc;
+  --muted: #8d8778;
+  --faint: #5c574c;
+  --line: #26241e;
+  --accent: #c4452d;
+  --mustard: #c4a35a;
+  --blue: #6f8fbf;
+  --ok: #7d9a6d;
+  --serif: "Fraunces", "Iowan Old Style", Georgia, serif;
+  --sans: "Source Sans 3", "Source Sans Pro", -apple-system, sans-serif;
+  --mono: "IBM Plex Mono", ui-monospace, monospace;
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html, body { background: var(--bg); color: var(--ink); }
+body {
+  font-family: var(--sans);
+  min-height: 100vh;
+  text-wrap: pretty;
+}
+a { color: inherit; }
+.shell { display: grid; grid-template-columns: 260px 1fr; min-height: 100vh; }
+.rail {
+  border-right: 1px solid var(--line);
+  padding: 28px 18px 40px;
+  background: var(--bg-2);
+  position: sticky; top: 0; height: 100vh; overflow: auto;
+}
+.mark {
+  font-family: var(--serif);
+  font-weight: 500;
+  font-size: 13px;
+  letter-spacing: .18em;
+  text-transform: uppercase;
+  color: var(--accent);
+}
+.rail h1 {
+  font-family: var(--serif);
+  font-size: 28px;
+  font-weight: 460;
+  letter-spacing: -.03em;
+  margin: 10px 0 6px;
+}
+.rail .lede { color: var(--muted); font-size: 13.5px; line-height: 1.45; margin-bottom: 28px; }
+.vnav { display: flex; flex-direction: column; gap: 4px; }
+.vnav a {
+  display: flex; justify-content: space-between; align-items: baseline;
+  text-decoration: none; padding: 9px 10px; border-radius: 8px;
+  color: var(--ink); font-size: 14px;
+}
+.vnav a:hover, .vnav a.is-on { background: var(--bg-3); }
+.vnav a.is-on { box-shadow: inset 2px 0 0 var(--accent); }
+.vnav .count { color: var(--faint); font-family: var(--mono); font-size: 11px; }
+.stage { padding: 36px 40px 80px; max-width: 980px; }
+.kicker {
+  font-size: 11px; letter-spacing: .16em; text-transform: uppercase;
+  color: var(--accent); font-weight: 700; margin-bottom: 8px;
+}
+.stage > h2 {
+  font-family: var(--serif); font-weight: 460; font-size: 34px;
+  letter-spacing: -.03em; margin-bottom: 8px;
+}
+.blurb { color: var(--muted); margin-bottom: 28px; max-width: 46rem; }
+.empty {
+  border: 1px dashed var(--line); border-radius: 14px;
+  padding: 36px 28px; color: var(--muted); background: var(--bg-2);
+}
+.empty strong { color: var(--ink); font-weight: 600; }
+.cards { display: flex; flex-direction: column; gap: 10px; }
+.card {
+  display: grid; grid-template-columns: 1fr auto; gap: 12px;
+  text-decoration: none; padding: 16px 18px; border-radius: 12px;
+  background: var(--bg-2); border: 1px solid var(--line);
+}
+.card:hover { border-color: #3a372e; background: var(--bg-3); }
+.card h3 { font-size: 16px; font-weight: 600; margin-bottom: 4px; }
+.meta { color: var(--muted); font-size: 13px; display: flex; gap: 10px; flex-wrap: wrap; }
+.chip {
+  font-family: var(--mono); font-size: 10px; letter-spacing: .06em;
+  text-transform: uppercase; padding: 3px 7px; border-radius: 999px;
+  border: 1px solid var(--line); color: var(--muted); height: fit-content;
+}
+.chip.dealers { color: var(--blue); border-color: #2a3344; }
+.chip.avec-tous { color: var(--mustard); border-color: #3a3320; }
+.chip.personal { color: #c9a7a0; }
+.chip.ideas { color: var(--ok); }
+.note-top { margin-bottom: 22px; }
+.note-top h2 { font-family: var(--serif); font-size: 36px; font-weight: 460; letter-spacing: -.03em; }
+.tabs { display: flex; gap: 6px; margin: 22px 0 18px; border-bottom: 1px solid var(--line); }
+.tabs button {
+  appearance: none; background: none; border: 0; color: var(--muted);
+  font: 600 13px var(--sans); padding: 10px 12px; cursor: pointer;
+  border-bottom: 2px solid transparent; margin-bottom: -1px;
+}
+.tabs button[aria-selected="true"] { color: var(--ink); border-bottom-color: var(--accent); }
+.panel { display: none; }
+.panel.is-on { display: block; }
+.prose { font-size: 16.5px; line-height: 1.6; max-width: 42rem; }
+.prose h2, .prose h3 { font-family: var(--serif); font-weight: 500; margin: 1.3em 0 .4em; }
+.prose p { margin: 0 0 .8em; }
+.prose ul, .prose ol { margin: 0 0 1em 1.2em; }
+.prose li { margin: .25em 0; }
+.hl { border-left: 2px solid var(--accent); padding: 10px 0 10px 14px; margin: 0 0 14px; }
+.hl .t { font-family: var(--mono); font-size: 11px; color: var(--faint); }
+.hl h4 { font-size: 15px; margin: 4px 0; }
+.hl p { color: var(--muted); font-size: 14.5px; }
+.seg { display: grid; grid-template-columns: 64px 1fr; gap: 12px; padding: 8px 0; border-bottom: 1px solid var(--line); }
+.seg .ts { font-family: var(--mono); font-size: 11px; color: var(--faint); padding-top: 3px; }
+.back { color: var(--muted); text-decoration: none; font-size: 13px; display: inline-block; margin-bottom: 18px; }
+.back:hover { color: var(--ink); }
+footer { margin-top: 48px; color: var(--faint); font-size: 11px; font-family: var(--mono); }
+@media (max-width: 820px) {
+  .shell { grid-template-columns: 1fr; }
+  .rail { position: relative; height: auto; border-right: 0; border-bottom: 1px solid var(--line); }
+  .stage { padding: 24px 18px 64px; }
+  .note-top h2 { font-size: 28px; }
+}
+</style>
+</head>
+<body>
+<div class="shell">
+<aside class="rail">
+  <div class="mark">Cooperative</div>
+  <h1>Field desk</h1>
+  <p class="lede">Plaud landings. Summary, highlights, transcript — filed by life area.</p>
+  <nav class="vnav"><a href="../index.html" class="">All <span class="count">45</span></a><a class="" href="../vertical-inbox.html">Inbox <span class="count">0</span></a><a class="" href="../vertical-personal.html">Personal <span class="count">0</span></a><a class="" href="../vertical-coop-marketing.html">Coop Marketing <span class="count">2</span></a><a class="" href="../vertical-coop-dev.html">Coop Dev <span class="count">8</span></a><a class="" href="../vertical-avec-tous.html">Avec Tous <span class="count">0</span></a><a class="is-on" href="../vertical-dealers.html">Dealers <span class="count">33</span></a><a class="" href="../vertical-ideas.html">Ideas <span class="count">2</span></a></nav>
+</aside>
+<main class="stage">
+  <a class="back" href="../index.html">← Desk</a>
+  <div class="note-top">
+    <div class="kicker">dealers · 2026-09-15 · 5m33s</div>
+    <h2>Review: Dealership Inventory Syndication and System Mapping</h2>
+    <div class="meta" style="margin-top:8px"><span>id cd2a3a0228c2f675bc44722778d93e85</span><span>inferred</span></div>
+  </div>
+  <div class="tabs" role="tablist">
+    <button type="button" data-panel="sum" aria-selected="true">Summary</button>
+    <button type="button" data-panel="hl" aria-selected="false">Highlights</button>
+    <button type="button" data-panel="tx" aria-selected="false">Transcript</button>
+  </div>
+  <section id="sum" class="panel is-on prose"><h2>Dealership inventory syndication / system mapping</h2>
+<p>Porsche VinSolutions inventory shows MSRP but missing cost + photos after old ACV Max ↔ vAuto bounce. Target flow: photos → HomeNet (Porsche syndication) → vAuto (pricing/appraisals) → VinSolutions.</p>
+<h3>Today</h3>
+<ul>
+<li>Counterpart calling Vin support ~noon on cost/invoice/MSRP/photo feed origins; bring findings to 1pm VCA settings meeting</li>
+<li>Lance can pull DMS screenshots from BMW terminal if needed</li>
+</ul>
+<h3>Multi-store</h3>
+<ul>
+<li>Same MSRP/invoice mapping drift at BHBMW + ABR (Vin ↔ vAuto/DMS)</li>
+<li>ABR: new models/trims not auto-populating in vAuto — staff selecting trim manually; <strong>Lance call Royce</strong> to fix mapping</li>
+</ul></section>
+  <section id="hl" class="panel"><div class='empty'>No device highlights on this take.</div></section>
+  <section id="tx" class="panel"><div class="seg"><div class="ts">0:00</div><div>Catch up and keep up with everybody. That&#x27;s how I feel too. After all that crap, man. So I didn&#x27;t know this, but the guys at at Porsche, Porsche, have a weird issue where I say it&#x27;s weird. It&#x27;s not that weird. It just kind of apparently just have something not quite hooked up right. That store went back and forth between Max Digital, well, ACV Max, and then back to V Auto at one point, like a year or two ago, and I think this. Never got set up right, so here&#x27;s the quick goofy story about that store. So we have Vint Solutions, V Auto, and HomeNet, and the DMS, all kind of in the circle of making sure Vint Solutions has the right inventory. So when we look at it, like right now I was looking at his feed with him, just click on inventory inside of Vint. I see no photos, and then I see MSRP, but no cost. Yeah, and so.</div></div><div class="seg"><div class="ts">0:57</div><div>I don&#x27;t know why exactly. I know that like my BMW store has kind of this double like, this like, two-way loop that happens, right? So, the DMS gives the photos, gives the inventory to ViAuto, ViAuto, you know, basically we enrich it with the correct price, like markdown if it&#x27;s used cars and that kind of thing, and then photos, and then it gives that to Vinsolutions. Do do you have a way easily to tell like, What right now? Where is Vinsolutions getting the inventory feed from? Because it&#x27;s just not all inclusive.</div></div><div class="seg"><div class="ts">1:30</div><div>Like something&#x27;s up. It&#x27;s not, and so with there being so many solutions going on, I was actually trying to call support. Okay. Jump off because I was on hold, and I have a call at ten thirty. Yeah. Um, but I have time blocked out during my day every day at noon where I don&#x27;t have anything going on where I can do these types of support calls. So hopefully I&#x27;ll call them at noon and hopefully bring an answer to our one o&#x27;clock listening.</div></div><div class="seg"><div class="ts">1:55</div><div>Because what what we need to get done, it might be a two parter. Like, and you you can tell me like what I think probably we need to make sure happens is we get a feed set up from HomeNet into ViAuto because right now I don&#x27;t think ViAuto is enriched with all of our photos from HomeNet.</div></div><div class="seg"><div class="ts">2:11</div><div>I think I was looking at that with Roy too. We think that&#x27;s part. So.</div></div><div class="seg"><div class="ts">2:17</div><div>Here&#x27;s why it&#x27;s because it&#x27;s a Porsche store, and right now Porsche likes us to upload photos to HomeNet because the quality is better, right? And it&#x27;s you know, and so and also HomeNet is Porsche&#x27;s official like syndication partner. Like even if we didn&#x27;t have an account with HomeNet, we still would give our photos would still find themselves into HomeNet because that&#x27;s Porsche uses. Anyway, that&#x27;s sort of part of it. Is like, Yes, we&#x27;re always going to be uploading our photos to HomeNet, but all of the other things, appraisals and inventory and pricing and all that shit takes place in Vauto. So, and I have an email chain that&#x27;s been going on for. I just kind of abandoned it because when we realized we weren&#x27;t going to be uploading photos to HomeNet, I mean to Vauto, sorry. But I might need to chime back in on that email chain with inventory with Vauto or HomeNet. I forgot who it was. But we yeah, we just need to make the easy. I guess I guess the quick and short of it is.</div></div><div class="seg"><div class="ts">3:09</div><div>The photos need to get up or uploaded in the home net, but home net needs to feed those into Vauto, and then Vauto will have everything, and then we can map that into Vinsolutions.</div></div><div class="seg"><div class="ts">3:18</div><div>Yep. So my goal is to call support at noon when I free up again. Okay. Figure out first where they&#x27;re pulling costs from. Yeah. And then I&#x27;ll get that answer, and then the next step I&#x27;ll go to is the invoice, MSRP, and photos. Figure out who is looking to from the VIN side to pull that from. I based on what Royce and I can see and what we looked at, it just sounds like a mapping issue. Yeah, probably. So I have an example from Vauto already from him that he sent me a screenshot. The only thing I may need, depending on what they say, is a DMS example. But as of right now, I&#x27;ll just keep you in the loop.</div></div><div class="seg"><div class="ts">3:56</div><div>Let me know because I have. I mean, I still have a terminal at my BMW office that I can log into the DMS and just grab us some screenshots because that&#x27;s probably what we&#x27;ll need. And I probably need to do the same mapping. This is this damn phone turned into so many different kinds of worms, but I probably need to do the same pricing, like MSRP and invoice cost pricing, for my Audi store and my BMW store, because they&#x27;re telling me that they&#x27;re still not acting up, right? Acting correctly. So that&#x27;s one thing. That&#x27;s just a pretty simple mapping from VIN to DMS or VIN to Vauto.</div></div><div class="seg"><div class="ts">4:31</div><div>The other issue that I need to figure out actually, I&#x27;m realizing now this is probably convers. This is a V Auto conversation. This is with me and Royce. I need to call Royce because it&#x27;s specifically with the Audi store, and it&#x27;s the damn models and trims not lining up right and not auto - populating,</div></div><div class="seg"><div class="ts">4:48</div><div>Which is also.</div></div><div class="seg"><div class="ts">4:50</div><div>Yeah. Well, I think the problem is I thought it was fixed, but as it turns out, my guys are manually selecting the fricking trim in each car right now in new cars.</div></div><div class="seg"><div class="ts">5:02</div><div>Yeah, I was like, &quot; Well, we don&#x27;t need to have to do that, man. We need to get that mapping corrected.&quot; So, anyway, okay, yeah, I&#x27;ll bring I&#x27;ll bring.</div></div><div class="seg"><div class="ts">5:09</div><div>Him back between now and one o&#x27;clock when you and I meet. Okay, I know we have a lot to talk about at one o&#x27;clock, but I&#x27;ll try to bring an answer or find next steps with that one.</div></div><div class="seg"><div class="ts">5:20</div><div>Sounds good, thank you,</div></div><div class="seg"><div class="ts">5:21</div><div>Man. Cool, no problem. Yeah.</div></div></section>
+</main>
+</div>
+<footer>PLAUD-NOTES-2026-09-17-0600-MORNING · noindex · Plaud sources + notes</footer>
+<script>
+
+document.querySelectorAll('.tabs button').forEach(btn => {
+  btn.addEventListener('click', () => {
+    document.querySelectorAll('.tabs button').forEach(b => b.setAttribute('aria-selected', b===btn ? 'true':'false'));
+    document.querySelectorAll('.panel').forEach(p => p.classList.toggle('is-on', p.id === btn.dataset.panel));
+  });
+});
+
+</script>
+</body>
+</html>

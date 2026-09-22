@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>09-03 Meeting: VCA Rollout, CRM Communications, and Staff Setup</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500&family=IBM+Plex+Mono:wght@400;500&family=Source+Sans+3:wght@400;600;700&display=swap">
+  <style>
+:root {
+  --bg: #090908;
+  --bg-2: #11110f;
+  --bg-3: #181714;
+  --ink: #f0eadc;
+  --muted: #8d8778;
+  --faint: #5c574c;
+  --line: #26241e;
+  --accent: #c4452d;
+  --mustard: #c4a35a;
+  --blue: #6f8fbf;
+  --ok: #7d9a6d;
+  --serif: "Fraunces", "Iowan Old Style", Georgia, serif;
+  --sans: "Source Sans 3", "Source Sans Pro", -apple-system, sans-serif;
+  --mono: "IBM Plex Mono", ui-monospace, monospace;
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html, body { background: var(--bg); color: var(--ink); }
+body {
+  font-family: var(--sans);
+  min-height: 100vh;
+  text-wrap: pretty;
+}
+a { color: inherit; }
+.shell { display: grid; grid-template-columns: 260px 1fr; min-height: 100vh; }
+.rail {
+  border-right: 1px solid var(--line);
+  padding: 28px 18px 40px;
+  background: var(--bg-2);
+  position: sticky; top: 0; height: 100vh; overflow: auto;
+}
+.mark {
+  font-family: var(--serif);
+  font-weight: 500;
+  font-size: 13px;
+  letter-spacing: .18em;
+  text-transform: uppercase;
+  color: var(--accent);
+}
+.rail h1 {
+  font-family: var(--serif);
+  font-size: 28px;
+  font-weight: 460;
+  letter-spacing: -.03em;
+  margin: 10px 0 6px;
+}
+.rail .lede { color: var(--muted); font-size: 13.5px; line-height: 1.45; margin-bottom: 28px; }
+.vnav { display: flex; flex-direction: column; gap: 4px; }
+.vnav a {
+  display: flex; justify-content: space-between; align-items: baseline;
+  text-decoration: none; padding: 9px 10px; border-radius: 8px;
+  color: var(--ink); font-size: 14px;
+}
+.vnav a:hover, .vnav a.is-on { background: var(--bg-3); }
+.vnav a.is-on { box-shadow: inset 2px 0 0 var(--accent); }
+.vnav .count { color: var(--faint); font-family: var(--mono); font-size: 11px; }
+.stage { padding: 36px 40px 80px; max-width: 980px; }
+.kicker {
+  font-size: 11px; letter-spacing: .16em; text-transform: uppercase;
+  color: var(--accent); font-weight: 700; margin-bottom: 8px;
+}
+.stage > h2 {
+  font-family: var(--serif); font-weight: 460; font-size: 34px;
+  letter-spacing: -.03em; margin-bottom: 8px;
+}
+.blurb { color: var(--muted); margin-bottom: 28px; max-width: 46rem; }
+.empty {
+  border: 1px dashed var(--line); border-radius: 14px;
+  padding: 36px 28px; color: var(--muted); background: var(--bg-2);
+}
+.empty strong { color: var(--ink); font-weight: 600; }
+.cards { display: flex; flex-direction: column; gap: 10px; }
+.card {
+  display: grid; grid-template-columns: 1fr auto; gap: 12px;
+  text-decoration: none; padding: 16px 18px; border-radius: 12px;
+  background: var(--bg-2); border: 1px solid var(--line);
+}
+.card:hover { border-color: #3a372e; background: var(--bg-3); }
+.card h3 { font-size: 16px; font-weight: 600; margin-bottom: 4px; }
+.meta { color: var(--muted); font-size: 13px; display: flex; gap: 10px; flex-wrap: wrap; }
+.chip {
+  font-family: var(--mono); font-size: 10px; letter-spacing: .06em;
+  text-transform: uppercase; padding: 3px 7px; border-radius: 999px;
+  border: 1px solid var(--line); color: var(--muted); height: fit-content;
+}
+.chip.dealers { color: var(--blue); border-color: #2a3344; }
+.chip.avec-tous { color: var(--mustard); border-color: #3a3320; }
+.chip.personal { color: #c9a7a0; }
+.chip.ideas { color: var(--ok); }
+.note-top { margin-bottom: 22px; }
+.note-top h2 { font-family: var(--serif); font-size: 36px; font-weight: 460; letter-spacing: -.03em; }
+.tabs { display: flex; gap: 6px; margin: 22px 0 18px; border-bottom: 1px solid var(--line); }
+.tabs button {
+  appearance: none; background: none; border: 0; color: var(--muted);
+  font: 600 13px var(--sans); padding: 10px 12px; cursor: pointer;
+  border-bottom: 2px solid transparent; margin-bottom: -1px;
+}
+.tabs button[aria-selected="true"] { color: var(--ink); border-bottom-color: var(--accent); }
+.panel { display: none; }
+.panel.is-on { display: block; }
+.prose { font-size: 16.5px; line-height: 1.6; max-width: 42rem; }
+.prose h2, .prose h3 { font-family: var(--serif); font-weight: 500; margin: 1.3em 0 .4em; }
+.prose p { margin: 0 0 .8em; }
+.prose ul, .prose ol { margin: 0 0 1em 1.2em; }
+.prose li { margin: .25em 0; }
+.hl { border-left: 2px solid var(--accent); padding: 10px 0 10px 14px; margin: 0 0 14px; }
+.hl .t { font-family: var(--mono); font-size: 11px; color: var(--faint); }
+.hl h4 { font-size: 15px; margin: 4px 0; }
+.hl p { color: var(--muted); font-size: 14.5px; }
+.seg { display: grid; grid-template-columns: 64px 1fr; gap: 12px; padding: 8px 0; border-bottom: 1px solid var(--line); }
+.seg .ts { font-family: var(--mono); font-size: 11px; color: var(--faint); padding-top: 3px; }
+.back { color: var(--muted); text-decoration: none; font-size: 13px; display: inline-block; margin-bottom: 18px; }
+.back:hover { color: var(--ink); }
+footer { margin-top: 48px; color: var(--faint); font-size: 11px; font-family: var(--mono); }
+@media (max-width: 820px) {
+  .shell { grid-template-columns: 1fr; }
+  .rail { position: relative; height: auto; border-right: 0; border-bottom: 1px solid var(--line); }
+  .stage { padding: 24px 18px 64px; }
+  .note-top h2 { font-size: 28px; }
+}
+</style>
+</head>
+<body>
+<div class="shell">
+<aside class="rail">
+  <div class="mark">Cooperative</div>
+  <h1>Field desk</h1>
+  <p class="lede">Plaud landings. Summary, highlights, transcript — filed by life area.</p>
+  <nav class="vnav"><a href="../index.html" class="">All <span class="count">45</span></a><a class="" href="../vertical-inbox.html">Inbox <span class="count">0</span></a><a class="" href="../vertical-personal.html">Personal <span class="count">0</span></a><a class="" href="../vertical-coop-marketing.html">Coop Marketing <span class="count">2</span></a><a class="" href="../vertical-coop-dev.html">Coop Dev <span class="count">8</span></a><a class="" href="../vertical-avec-tous.html">Avec Tous <span class="count">0</span></a><a class="is-on" href="../vertical-dealers.html">Dealers <span class="count">33</span></a><a class="" href="../vertical-ideas.html">Ideas <span class="count">2</span></a></nav>
+</aside>
+<main class="stage">
+  <a class="back" href="../index.html">← Desk</a>
+  <div class="note-top">
+    <div class="kicker">dealers · 2026-09-03 · 12m45s</div>
+    <h2>09-03 Meeting: VCA Rollout, CRM Communications, and Staff Setup</h2>
+    <div class="meta" style="margin-top:8px"><span>id e68b837280b34b36a1005ff712902058</span><span>inferred</span></div>
+  </div>
+  <div class="tabs" role="tablist">
+    <button type="button" data-panel="sum" aria-selected="true">Summary</button>
+    <button type="button" data-panel="hl" aria-selected="false">Highlights</button>
+    <button type="button" data-panel="tx" aria-selected="false">Transcript</button>
+  </div>
+  <section id="sum" class="panel is-on prose"><h2>Meeting Information</h2>
+<p>&gt; <strong>Date:</strong> 2026-09-03 15:31:47 &gt; <strong>Location:</strong> [Insert Location] &gt; <strong>Participants:</strong> [Speaker 1] [Lance] [Speaker 3] ---</p>
+<h2>Meeting Notes</h2>
+<h3>Opt-In Text Setup for Used Car Staff</h3>
+<ul>
+<li>Lance confirmed that all used car staff are set up except <strong>Brandon</strong> and <strong>David Markenthal</strong>.</li>
+<li>Lance will have Brandon and David send the opt-in text to complete their setup.</li>
+</ul>
+<h3>VCA (Virtual Customer Assistant) Rollout Status</h3>
+<ul>
+<li>VCA is confirmed to roll out to all three stores (BMW, Infiniti/Porsche, Audi).</li>
+<li><strong>Currently, VCA is only enabled for after-hours leads</strong> — it engages with customers who contact the dealership outside of business hours.</li>
+<li>VCA is not active during normal business hours; that decision will be revisited in a Tuesday (2026-09-08) meeting.</li>
+<li>Full setup will be completed on 2026-09-08, but VCA will not be fully turned on until Podium goes dark at the end of the month.</li>
+</ul>
+<h3>Unanswered Communications Dashboard</h3>
+<ul>
+<li>Speaker 3 directed Lance to the CRM dashboard to find <strong>unanswered communications</strong> under the Key Performance Indicators section.</li>
+<li>BMW had one unanswered message from August 31, 2026 (approximately 4 days old at time of call).</li>
+<li>Porsche and Audi stores were encouraged to monitor unanswered communications more closely.</li>
+<li>Unanswered texts and emails remain in the unanswered queue until responded to by a team member.</li>
+</ul>
+<h3>Communication Log &amp; Text Visibility</h3>
+<ul>
+<li>Lance asked about a simple, unified view of all texts (inbound and outbound).</li>
+<li>Speaker 3 noted inbound and outbound texts are tracked separately by design.</li>
+<li>A <strong>Communication Log report</strong> inside the <strong>Insights</strong> section will be saved to Lance&#x27;s favorites for easy access.</li>
+<li>A new <strong>Customer Inbox</strong> feature was identified, which consolidates texts, emails, and calls for a single customer&#x27;s record.</li>
+</ul>
+<h3>VCA Overnight Lead Handoff</h3>
+<ul>
+<li>Two overnight leads (<strong>Michael Zippert</strong> and one at the Audi store — <strong>Mike</strong>) were engaged by the VCA via text.</li>
+<li>VCA reached its limit and flagged those leads for human follow-up via tasks in the CRM.</li>
+<li>Speaker 3 highlighted these as potential deals requiring immediate salesperson attention.</li>
+<p>---</p>
+</ul>
+<h2>Next Arrangements</h2>
+<ul>
+<li>[ ] Lance to contact Brandon and David Markenthal to send the opt-in text (as soon as possible)</li>
+<li>[ ] Lance to notify the used car manager to monitor VCA-handoff leads (Michael Zippert and Audi store lead)</li>
+<li>[ ] Staff at Porsche and Audi stores to monitor unanswered communications on the CRM dashboard</li>
+<li>[ ] Speaker 3 to save the Communication Log report into Lance&#x27;s CRM favorites</li>
+<li>[ ] Lance and Speaker 3 to meet on <strong>2026-09-08 (Tuesday)</strong> to review full VCA setup and configuration and revisit business-hours activation</li>
+<li>[ ] Full VCA activation to be held until Podium goes dark at end of September 2026; confirm exact shutdown date and contingency if it does not occur</li>
+<p>---</p>
+</ul>
+<h2>AI Suggestions</h2>
+<p>&gt; <strong>AI Suggestions</strong> &gt; AI has identified the following issues that were not concluded in the meeting or lack clear action items; please pay attention: &gt; 1. <strong>BMW unanswered message (Aug 31, 2026):</strong> An unanswered customer communication is now approximately 4 days old at BMW. No specific person was assigned to respond to it during this meeting. &gt; 2. <strong>Podium after-hours deactivation:</strong> Lance asked whether Podium&#x27;s after-hours feature can be turned off, but no clear answer or action was provided. This overlap between Podium and VCA after-hours coverage should be clarified before end of month. &gt; 3. <strong>VCA handoff leads at Audi store:</strong> The lead flagged for &quot;Mike&quot; at the Audi store was mentioned but no specific owner or deadline was assigned to follow up on it. &gt; 4. <strong>Tuesday meeting agenda not defined:</strong> The 2026-09-08 meeting was referenced multiple times as the key decision point, but no formal agenda or preparation tasks were assigned to either party. &gt; 5. <strong>Full VCA activation timeline unclear:</strong> The end-of-month Podium shutdown was cited as the trigger for full VCA activation, but no exact date or contingency plan was established if Podium does not go dark as expected.</p></section>
+  <section id="hl" class="panel"><div class='empty'>No device highlights on this take.</div></section>
+  <section id="tx" class="panel"><div class="seg"><div class="ts">0:00</div><div>Okay. Second chain. Same with getting them today. Second wall. Yeah. What was that again?</div></div><div class="seg"><div class="ts">0:38</div><div>So You think all the used car guys are getting it? Who said? Sorry, did I lose you for a second? Yeah, yeah, I lost you. Ah, yes, all the used car guys are good. Okay, so what the ones I need to get is just, Brandon and David Markenthal. Correct. All right, I&#x27;ll go and have them send that opt - in text, and we should be good to go. Sweet, thank you, man. That&#x27;s that. That&#x27;s that&#x27;s clear. I wish I could see that. Yeah, can you.</div></div><div class="seg"><div class="ts">1:08</div><div>Hear me now? Yeah, can you hear me? Yep, I can hear you. Okay, one quick thing before you jump. I want to. I want to check one more quick thing. Hang on. Okay. Okay. So I don&#x27;t see it. Did we? Do you know if we rolled the VCA? Was that rolling to all three stores? Yes. This is where we have. Okay, so BMW is doing okay right now. I would encourage you to have Infiniti and excuse me, Porsche and Audi.</div></div><div class="seg"><div class="ts">1:41</div><div>Porsche and Audi,</div></div><div class="seg"><div class="ts">1:43</div><div>Do what now? Check their unanswered communications. So you and I have a meeting on Tuesday. Can you give me? Okay, I&#x27;m trying to go closer outside.</div></div><div class="seg"><div class="ts">1:51</div><div>Yeah. So one of the things is I don&#x27;t, I didn&#x27;t want it turned on at all yet because I don&#x27;t want to have to be.</div></div><div class="seg"><div class="ts">2:00</div><div>Only turned on for after hours leads. Okay. So anything that comes in after your business hours in solutions is where it&#x27;s engaging. Okay. That&#x27;s it. That&#x27;s why it&#x27;s just turned on that way. It&#x27;s not in the normal day process until we talk about it on Tuesday. Okay. I&#x27;m still working on. I have a whole case up opening because I plan to go to our data podium and all that. Yeah. And even even once we go through everything on Tuesday, we don&#x27;t have to turn it on, but we&#x27;ll at least have it set up so that we can turn it on when podiumum goes dead. Correct. Yeah. Um. So the only thing that is on is after hours. So just have them watch their unanswered communications a little bit heavier on the dashboard.</div></div><div class="seg"><div class="ts">2:45</div><div>So if I click, what&#x27;s the quickest way to get to that spot that you&#x27;re talking about.</div></div><div class="seg"><div class="ts">2:48</div><div>The unanswered patient. Yeah. And uh, your new.</div></div><div class="seg"><div class="ts">2:57</div><div>Yeah, you&#x27;re. I got no. I can&#x27;t hear you at all. Can you hear? Ah, no. This is on. Hello. So if I go to, can you? Can you hear me? Yeah, just say where it is, and I&#x27;ll go find it real fast. I mean, I know the system. I just don&#x27;t use it every day,</div></div><div class="seg"><div class="ts">3:15</div><div>So I don&#x27;t know which. Yep. So CRM and on the dashboard. It&#x27;s right underneath the sales funnel. That&#x27;s in all green. It says key performance indicators, and it says unanswered communications, open visits, buying signals, pending deals.</div></div><div class="seg"><div class="ts">3:29</div><div>Got it. So, the count unanswered comms. They&#x27;ve got that. They&#x27;re they&#x27;re not watching that,</div></div><div class="seg"><div class="ts">3:34</div><div>Is what you&#x27;re saying. Yes. So it looks like, honey, it&#x27;s not bad. Like it&#x27;s not real bad at any of the stores. While BMW has one from August 31st, so we&#x27;re coming up on four days old. Oh God. But that&#x27;s just where all your live communication lives. So, like, if a customer responds and they haven&#x27;t been responded to yet, that&#x27;s where that communication lives.</div></div><div class="seg"><div class="ts">3:56</div><div>Okay, now so that&#x27;s just a good, yep. If I wanted just if I&#x27;m if I&#x27;m a salesman and I just want to go see, I want to click kind of like well I don&#x27;t know in Podium. Okay. One of the one of the things I guess one of the benefits about it being so. Separate is that it&#x27;s fucking super simple, right? So like, I go click Podium if I&#x27;m like a general manager. I go click Podium. I see literally every piece, every single communication that&#x27;s going on for the whole store, and then I can go and look at the very top, unanswered at the top, most recent at the top. But I can just go and glide through and look at every single communication, every single text that&#x27;s going in and out of the system. Is that if I go to Communications here in the top bar and then I click Text?</div></div><div class="seg"><div class="ts">4:43</div><div>Is there a way that I can just see all the texts because it&#x27;s making me choose inbound and outbound? Like, I don&#x27;t know. I guess I&#x27;m looking for like, has Ven given us a really simple view of all of our texts that are going in and out of the store?</div></div><div class="seg"><div class="ts">4:57</div><div>There is. So there&#x27;s a report. So text is always going to be separate for us inbound and outbound because I would want to at least be able to track that. Who&#x27;s texting in? Because that&#x27;s actual conversation, and who&#x27;s just trying to get a hold of customers? Right, that&#x27;s your outbound. There is a report that I can do. I&#x27;m going to make myself a note to save it into your favorites. Okay. Um. And I think we kind of maybe showed this the other day. So inside, if you go into insights, it&#x27;ll be saved right into your favorites with a little heart next to it. Yep. But it&#x27;s a report that&#x27;s called your communication log.</div></div><div class="seg"><div class="ts">5:36</div><div>And this will show all of your communication, and we can do it. You can just look at it by the day, you can look at it by the week, however you want to look at it. So it&#x27;s one extra click, I guess. You got to click insights and then click the report. But other than that, there is a way to see everything.</div></div><div class="seg"><div class="ts">5:52</div><div>So if I click, I&#x27;m seeing customer inbox now. So that might actually be.</div></div><div class="seg"><div class="ts">5:57</div><div>So this is new.</div></div><div class="seg"><div class="ts">5:58</div><div>Yeah. Well, it&#x27;s making me say, &quot; Hey, look, you have customer inbox. Do you want it or not?&quot; Yeah.</div></div><div class="seg"><div class="ts">6:03</div><div>So this is new. So this is kind of a little bit about what you were talking about. But this customer inbox is only like for the customer like that you&#x27;re on. Yeah. So it puts all the communications in for that one customer. For if you&#x27;re on their customer dashboard.</div></div><div class="seg"><div class="ts">6:20</div><div>Yeah. So I can see texts, emails, phones, all and see it all in one little panel. Okay. So you&#x27;re saying, yeah, it&#x27;s less than ideal. You&#x27;re saying, like, if I click unanswered comms, that&#x27;s one way to see all my unanswered shit.</div></div><div class="seg"><div class="ts">6:39</div><div>That&#x27;s the best way to see your unanswered stuff for sure. Unanswered texts and emails are always going to populate there until they&#x27;ve been responded to.</div></div><div class="seg"><div class="ts">6:46</div><div>Got it. Customer needs help. Virtual assistant. Customer needs help. Please help. Michael Zippert.</div></div><div class="seg"><div class="ts">6:53</div><div>Those Two are the ones that I wanted to talk about. Those were leads that came in overnight that the virtual assistant got a hold of and actually had text communication with these customers.</div></div><div class="seg"><div class="ts">7:02</div><div>Those will just show up down in the notes too, right? Like all the yeah, I&#x27;m seeing it.</div></div><div class="seg"><div class="ts">7:06</div><div>Correct. And so like Mike has all these tasks sitting here where the virtual assistant saying, hey, like I&#x27;ve taken this as far as I can. Now we need human engagement. Yep, got it. So that&#x27;s what I wanted to highlight for you, just to talk to the guys and tell the only thing that&#x27;s on is after hours. So,</div></div><div class="seg"><div class="ts">7:24</div><div>Can you turn off podium after hours real.</div></div><div class="seg"><div class="ts">7:26</div><div>Quick? Okay. Um, and that was why I wanted to talk about why I had you, just so we could clear all that up. Nothing else will be turned on. Nothing else needs to be turned on. We&#x27;ll get it all set up on Tuesday. And kind of go through some things, and then we still won&#x27;t turn it on until podium goes dark at the end of the month. Yeah. But just have them watch that, because Michael has one where VCA tried to hand it off, and Mike does too at the Audi store. Sweet. So just a little spot where there might be some carv deals and fresh leads sitting for you guys.</div></div><div class="seg"><div class="ts">8:03</div><div>Yeah, I&#x27;m gonna go. I&#x27;ve got to go shoot. I&#x27;m gonna go just call the used car manager and make sure he sees that, so he can kind of help them keep an eye on it. Cool. If you need me for anything, just let me know, bro. Will do, man. I appreciate you. Thank you. Yeah. Thanks, man.</div></div><div class="seg"><div class="ts">8:43</div><div>Your call has been forwarded to voice.</div></div></section>
+</main>
+</div>
+<footer>PLAUD-NOTES-2026-09-17-0600-MORNING · noindex · Plaud sources + notes</footer>
+<script>
+
+document.querySelectorAll('.tabs button').forEach(btn => {
+  btn.addEventListener('click', () => {
+    document.querySelectorAll('.tabs button').forEach(b => b.setAttribute('aria-selected', b===btn ? 'true':'false'));
+    document.querySelectorAll('.panel').forEach(p => p.classList.toggle('is-on', p.id === btn.dataset.panel));
+  });
+});
+
+</script>
+</body>
+</html>

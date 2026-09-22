@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>09-02 Leveraging Five GitHub Repositories to Enhance AI Agent Workflows and Operational Efficiency</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500&family=IBM+Plex+Mono:wght@400;500&family=Source+Sans+3:wght@400;600;700&display=swap">
+  <style>
+:root {
+  --bg: #090908;
+  --bg-2: #11110f;
+  --bg-3: #181714;
+  --ink: #f0eadc;
+  --muted: #8d8778;
+  --faint: #5c574c;
+  --line: #26241e;
+  --accent: #c4452d;
+  --mustard: #c4a35a;
+  --blue: #6f8fbf;
+  --ok: #7d9a6d;
+  --serif: "Fraunces", "Iowan Old Style", Georgia, serif;
+  --sans: "Source Sans 3", "Source Sans Pro", -apple-system, sans-serif;
+  --mono: "IBM Plex Mono", ui-monospace, monospace;
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html, body { background: var(--bg); color: var(--ink); }
+body {
+  font-family: var(--sans);
+  min-height: 100vh;
+  text-wrap: pretty;
+}
+a { color: inherit; }
+.shell { display: grid; grid-template-columns: 260px 1fr; min-height: 100vh; }
+.rail {
+  border-right: 1px solid var(--line);
+  padding: 28px 18px 40px;
+  background: var(--bg-2);
+  position: sticky; top: 0; height: 100vh; overflow: auto;
+}
+.mark {
+  font-family: var(--serif);
+  font-weight: 500;
+  font-size: 13px;
+  letter-spacing: .18em;
+  text-transform: uppercase;
+  color: var(--accent);
+}
+.rail h1 {
+  font-family: var(--serif);
+  font-size: 28px;
+  font-weight: 460;
+  letter-spacing: -.03em;
+  margin: 10px 0 6px;
+}
+.rail .lede { color: var(--muted); font-size: 13.5px; line-height: 1.45; margin-bottom: 28px; }
+.vnav { display: flex; flex-direction: column; gap: 4px; }
+.vnav a {
+  display: flex; justify-content: space-between; align-items: baseline;
+  text-decoration: none; padding: 9px 10px; border-radius: 8px;
+  color: var(--ink); font-size: 14px;
+}
+.vnav a:hover, .vnav a.is-on { background: var(--bg-3); }
+.vnav a.is-on { box-shadow: inset 2px 0 0 var(--accent); }
+.vnav .count { color: var(--faint); font-family: var(--mono); font-size: 11px; }
+.stage { padding: 36px 40px 80px; max-width: 980px; }
+.kicker {
+  font-size: 11px; letter-spacing: .16em; text-transform: uppercase;
+  color: var(--accent); font-weight: 700; margin-bottom: 8px;
+}
+.stage > h2 {
+  font-family: var(--serif); font-weight: 460; font-size: 34px;
+  letter-spacing: -.03em; margin-bottom: 8px;
+}
+.blurb { color: var(--muted); margin-bottom: 28px; max-width: 46rem; }
+.empty {
+  border: 1px dashed var(--line); border-radius: 14px;
+  padding: 36px 28px; color: var(--muted); background: var(--bg-2);
+}
+.empty strong { color: var(--ink); font-weight: 600; }
+.cards { display: flex; flex-direction: column; gap: 10px; }
+.card {
+  display: grid; grid-template-columns: 1fr auto; gap: 12px;
+  text-decoration: none; padding: 16px 18px; border-radius: 12px;
+  background: var(--bg-2); border: 1px solid var(--line);
+}
+.card:hover { border-color: #3a372e; background: var(--bg-3); }
+.card h3 { font-size: 16px; font-weight: 600; margin-bottom: 4px; }
+.meta { color: var(--muted); font-size: 13px; display: flex; gap: 10px; flex-wrap: wrap; }
+.chip {
+  font-family: var(--mono); font-size: 10px; letter-spacing: .06em;
+  text-transform: uppercase; padding: 3px 7px; border-radius: 999px;
+  border: 1px solid var(--line); color: var(--muted); height: fit-content;
+}
+.chip.dealers { color: var(--blue); border-color: #2a3344; }
+.chip.avec-tous { color: var(--mustard); border-color: #3a3320; }
+.chip.personal { color: #c9a7a0; }
+.chip.ideas { color: var(--ok); }
+.note-top { margin-bottom: 22px; }
+.note-top h2 { font-family: var(--serif); font-size: 36px; font-weight: 460; letter-spacing: -.03em; }
+.tabs { display: flex; gap: 6px; margin: 22px 0 18px; border-bottom: 1px solid var(--line); }
+.tabs button {
+  appearance: none; background: none; border: 0; color: var(--muted);
+  font: 600 13px var(--sans); padding: 10px 12px; cursor: pointer;
+  border-bottom: 2px solid transparent; margin-bottom: -1px;
+}
+.tabs button[aria-selected="true"] { color: var(--ink); border-bottom-color: var(--accent); }
+.panel { display: none; }
+.panel.is-on { display: block; }
+.prose { font-size: 16.5px; line-height: 1.6; max-width: 42rem; }
+.prose h2, .prose h3 { font-family: var(--serif); font-weight: 500; margin: 1.3em 0 .4em; }
+.prose p { margin: 0 0 .8em; }
+.prose ul, .prose ol { margin: 0 0 1em 1.2em; }
+.prose li { margin: .25em 0; }
+.hl { border-left: 2px solid var(--accent); padding: 10px 0 10px 14px; margin: 0 0 14px; }
+.hl .t { font-family: var(--mono); font-size: 11px; color: var(--faint); }
+.hl h4 { font-size: 15px; margin: 4px 0; }
+.hl p { color: var(--muted); font-size: 14.5px; }
+.seg { display: grid; grid-template-columns: 64px 1fr; gap: 12px; padding: 8px 0; border-bottom: 1px solid var(--line); }
+.seg .ts { font-family: var(--mono); font-size: 11px; color: var(--faint); padding-top: 3px; }
+.back { color: var(--muted); text-decoration: none; font-size: 13px; display: inline-block; margin-bottom: 18px; }
+.back:hover { color: var(--ink); }
+footer { margin-top: 48px; color: var(--faint); font-size: 11px; font-family: var(--mono); }
+@media (max-width: 820px) {
+  .shell { grid-template-columns: 1fr; }
+  .rail { position: relative; height: auto; border-right: 0; border-bottom: 1px solid var(--line); }
+  .stage { padding: 24px 18px 64px; }
+  .note-top h2 { font-size: 28px; }
+}
+</style>
+</head>
+<body>
+<div class="shell">
+<aside class="rail">
+  <div class="mark">Cooperative</div>
+  <h1>Field desk</h1>
+  <p class="lede">Plaud landings. Summary, highlights, transcript — filed by life area.</p>
+  <nav class="vnav"><a href="../index.html" class="">All <span class="count">45</span></a><a class="" href="../vertical-inbox.html">Inbox <span class="count">0</span></a><a class="" href="../vertical-personal.html">Personal <span class="count">0</span></a><a class="" href="../vertical-coop-marketing.html">Coop Marketing <span class="count">2</span></a><a class="is-on" href="../vertical-coop-dev.html">Coop Dev <span class="count">8</span></a><a class="" href="../vertical-avec-tous.html">Avec Tous <span class="count">0</span></a><a class="" href="../vertical-dealers.html">Dealers <span class="count">33</span></a><a class="" href="../vertical-ideas.html">Ideas <span class="count">2</span></a></nav>
+</aside>
+<main class="stage">
+  <a class="back" href="../index.html">← Desk</a>
+  <div class="note-top">
+    <div class="kicker">coop-dev · 2026-09-02 · 46m02s</div>
+    <h2>09-02 Leveraging Five GitHub Repositories to Enhance AI Agent Workflows and Operational Efficiency</h2>
+    <div class="meta" style="margin-top:8px"><span>id 1c85b05e93eac055dfffadb8d2b22732</span><span>inferred</span></div>
+  </div>
+  <div class="tabs" role="tablist">
+    <button type="button" data-panel="sum" aria-selected="true">Summary</button>
+    <button type="button" data-panel="hl" aria-selected="false">Highlights</button>
+    <button type="button" data-panel="tx" aria-selected="false">Transcript</button>
+  </div>
+  <section id="sum" class="panel is-on prose"><p>![PLAUD NOTE](permanent/1440a4fbcf984caa9625e6345e38a215/mem_g5kZLYofe1/summary_poster/card_20260902215140-v2@dbe2e846e6a3b3950ce372_20260902215237_496fc5bc.png)</p>
+<h2>Core Synopsis</h2>
+<p>The session spotlights five GitHub repos as practical leverage for builders operating in the “agentic” era: an anti-AI-tone editor (Peter Skill), an agent-native CRM (TryComp AI), an agent-driven video editor (VideoUse), NVIDIA’s security scanner for skills (SkillSpecter), and a phone-control harness (PhoneHarness). The throughline is blunt: current AI-generated content erodes trust, manual CRMs decay without automation, content throughput throttles growth, the expanding ecosystem of agent “skills” carries nontrivial security risk, and mobile remains an under-automated surface. The presenter positions these repos as modular upgrades to credibility, revenue capture, content velocity, security posture, and device coverage; the evidence is specific workflows (e.g., “remove AI sanding,” agent-managed follow-ups, repeatable edit formats, pre-install scans, real-device mobile QA) and concrete setup steps (Bun/Docker pipelines, OAuth, UV tool installs, ADB/mirroring). We are committing to a hybrid workflow philosophy: human-originated ideas and constraints first, then agents for repeatable, tedious execution. The stakes are clear—builders who operationalize these patterns gain compounding edge in output and trust; those who “one-shot” content, let pipelines rot, skip security, or ignore mobile interfaces will leak opportunity and credibility.</p>
+<h2>Operational System Upgrades: Five Repos, Five Leverage Points</h2>
+<h3>Eliminate “AI Slop” to Preserve Voice and Trust</h3>
+<ul>
+<li>Problem: AI-written copy “smells” formulaic—polished but generic—reducing reader trust and engagement.</li>
+<li>Solution: Peter Skill acts as an editor that detects/removes AI-pattern artifacts while preserving the author’s voice.</li>
+<li>Workflow Principle: Human-first drafting (outline and real points) → skill-driven de-sanding pass; avoid AI one-shot generation that erases differentiation.</li>
+<li>Intended Outcome: Higher believability and response rates across tweets, landing pages, cold emails, launch posts, onboarding copy, and investor updates.</li>
+</ul>
+<h3>Convert CRM from Filing Cabinet to Agent Workspace</h3>
+<ul>
+<li>Reality: Traditional CRMs decay because humans won’t maintain them; warm opportunities die in stale notes.</li>
+<li>Repo: TryComp AI’s open-source agent-native CRM; the agent researches, enriches, schedules follow-ups, and updates notes to keep relationship graphs alive.</li>
+<li>Use Cases: Sponsorship pipelines, investor update follow-through, waitlist re-engagement, small SaaS customer success, agency lead tracking.</li>
+<li>Practical Start: Create a narrow pipeline (“Warm leads I can’t afford to forget”), ingest every signal of intent (reply, booked call, “circle back” dates), let the agent maintain the cadence.</li>
+<li>Setup Snapshot: Requires Bun and Docker; steps include git clone, bun install, docker compose up -d, db deploy/seed, bun run dev; runs on localhost:3000 (API: 3001); configure Google/Microsoft OAuth for sign-in/email/calendar.</li>
+</ul>
+<h3>Codify Video Editing so Agents Can Execute at Scale</h3>
+<ul>
+<li>Bottleneck: Content throughput is a growth constraint; creators repeat predictable edit patterns but keep them implicit.</li>
+<li>Repo: VideoUse (by Browser Use) lets coding agents perform edits: remove filler words, cut dead space, add subtitles/color/overlays, render, and self-check against transcripts/timestamps.</li>
+<li>Strategy: Start with a single repeatable format (e.g., “founder Loom → 60s launch video,” or “podcast → three clips”), validate quality, then systematize and scale or productize.</li>
+<li>Payoff: Shortens cycle from raw footage to publish-ready assets; converts tacit stylistic rules into agent-readable workflows.</li>
+</ul>
+<h3>Treat Skill Installations as a Security Surface</h3>
+<ul>
+<li>Risk: Skills/MCP servers integrate code, tools, and behaviors that can access files, services, and instructions—creating prompt injection and data exfiltration exposure.</li>
+<li>Repo: NVIDIA SkillSpecter scans for malicious patterns, supply chain risks, hidden instructions, and MCP-specific issues.</li>
+<li>Usage: Install via UV (e.g., uv tool install git+&lt;repo&gt;), scan local directories or repos (with optional --no-llm for static scans and Docker option to avoid local Python).</li>
+<li>Principle: Pre-install scanning becomes mandatory as agent stacks modularize into a personal “work OS.”</li>
+</ul>
+<h3>Put Mobile into the Agent’s Reach</h3>
+<ul>
+<li>Gap: Many high-value workflows live only on phones (banking, messaging, social, delivery); APIs are absent or restricted.</li>
+<li>Repo: PhoneHarness connects agents to real iOS/Android devices via macOS iPhone mirroring and ADB—no jailbreak, no special app required.</li>
+<li>Use Cases: Real-device mobile QA (onboarding, signup, checkout), automations for app-only workflows, creator operations across TikTok/Instagram.</li>
+<li>Setup Notes: iOS requires macOS Sequoia with mirroring plus terminal accessibility/screen recording permissions; Android requires Developer Options with ADB (USB or wireless). Verify with phoneharness --doctor.</li>
+<li>Limitation: Human-in-the-loop may be needed for lock screens, Face ID, camera flows; still directionally unlocks a massive tool surface.</li>
+</ul>
+<h2>Next Move (Action Items)</h2>
+<p><strong>@Content Lead</strong></p>
+<ul>
+<li>[ ] Draft a 5-post outline set (tweet, LinkedIn, landing page hero, cold email, investor note) and run each through Peter Skill to de-sand while preserving voice; A/B test response rates vs. current baseline - [TBD]</li>
+</ul>
+<p><strong>@RevOps/Founder</strong></p>
+<ul>
+<li>[ ] Stand up TryComp AI CRM locally (Bun/Docker), configure Google/Microsoft OAuth, and create the “Warm leads I can’t afford to forget” pipeline seeded with 30 recent signals (replies, booked calls, “circle back” mentions) - [TBD]</li>
+<li>[ ] Enable agent-driven follow-ups with a 45/60/90-day cadence and measure reply/conversion lift over 30 days - [TBD]</li>
+</ul>
+<p><strong>@Video Ops</strong></p>
+<ul>
+<li>[ ] Implement VideoUse for one format: “Podcast → 3 clips” (define subtitle style, pacing, color profile), render a test batch from one episode, and compare edit time and retention vs. manual baseline - [TBD]</li>
+</ul>
+<p><strong>@Security Lead</strong></p>
+<ul>
+<li>[ ] Integrate NVIDIA SkillSpecter into the skill install pipeline; enforce mandatory scans (with --no-llm for sensitive repos) before any MCP/server/skill is added to the agent stack - [TBD]</li>
+</ul>
+<p><strong>@Mobile QA Lead</strong></p>
+<ul>
+<li>[ ] Deploy PhoneHarness on a test rig (1 iPhone with macOS Sequoia mirroring, 1 Android via ADB), and script an agent-run mobile signup/checkout QA for the primary app with screenshots and defect notes - [TBD]</li>
+</ul></section>
+  <section id="hl" class="panel"><div class='empty'>No device highlights on this take.</div></section>
+  <section id="tx" class="panel"><div class="seg"><div class="ts">0:00</div><div>No AI slop deal, and I like this one because everyone who uses AI for writing has felt this exact problem. I mean, you ask ChatGPT or Claude to help you write something—it&#x27;s a tweet, it&#x27;s a LinkedIn post—and technically the writing is fine, the grammar&#x27;s fine, the syntax is fine, but it has this like weird smell to it. Maybe it sounds like too polished or too symmetrical or formulaic. Sometimes it has like it&#x27;s not X but it&#x27;s Y. You know, or or uses the word quietly a lot. You know, I think I feel like it feels like reading a keynote from a fake SaaS conference. And once you notice it, I I feel like you can&#x27;t unsee it. You know, a lot of people are able to smell it now. So what&#x27;s really cool is Peter Skill is basically an editor that strip strips those patterns out while trying to preserve your actual voice.</div></div><div class="seg"><div class="ts">0:55</div><div>The last part is important because a lot of the writing tools make your writing cleaner, but sand off the interesting parts and make everyone sound the same. And if you&#x27;re going to sound the same, it&#x27;s hard to stand out. You know, you you actually want to do the opposite. So, what&#x27;s cool about this this repo is it hunts for the patterns that make writing feel AI generated and helps the draft feel like a real human being wrote it. Why does that matter? Like I said, if you&#x27;re building products today, you&#x27;re writing constantly, and you want to stand out. You know, I I personally am writing tweets, I&#x27;m writing landing pages, I&#x27;m writing cold emails, launch posts, product updates, onboarding copy. If you have investors, you&#x27;re writing investor updates, and you don&#x27;t want to sound like generic AI because you you know people are gonna feel it. They might not say this was written by AI, like they might not respond and say it.</div></div><div class="seg"><div class="ts">1:53</div><div>But they&#x27;ll just trust you less. They&#x27;re just going to keep scrolling. They&#x27;re not going to reply. They might even believe what you&#x27;re saying because they&#x27;re like, &quot;This is AI written.&quot; So this repo isn&#x27;t really about making writing nicer. It&#x27;s it&#x27;s really about making your communication more believable. So if you want to try this one, you can install it. You can install it as a skill. That&#x27;s what I would do. You know, you just type in npm skills. Add, and then you put the GitHub link, and I&#x27;ll include the link to the repo in the show notes, in the description, and actually all of them, so you can just go and do that. Then you can use it inside your agent workflow, wherever you have a draft of it of something, right? So the practical way I would run it would be just to you know write a rough draft first. I wouldn&#x27;t ask AI to invent the whole thing from scratch.</div></div><div class="seg"><div class="ts">2:50</div><div>Just you know, write like a an outline and get the real points down, even if they&#x27;re messy. And then you would ask the skill to remove the AI sanding patterns while keeping your voice. So that&#x27;s the workflow to think about. You have a hu a human set of ideas first, and then you have AI cleanup second, which is different than how a lot of people today are creating content. They&#x27;re just either asking AI to write everything, basically trying to one shot it. And then, and then, ask, be saying, &quot;Hey, this doesn&#x27;t look good. This doesn&#x27;t look good.&quot; But this sort of like hybrid approach with the skill here, super interesting. So there you go. That&#x27;s number one. So the second repo is the is the CRM by Try Comp AI. It&#x27;s an open source CRM built for AI agents, and that sounds a little technical and maybe boring. I&#x27;m going to try to break it down as simple as possible so you can understand how to actually get.</div></div><div class="seg"><div class="ts">3:48</div><div>Value out of this if you&#x27;re building a business, a normal CRM is a place where you store your relationships and your customers and your leads. You know, it&#x27;s basically a database with names, emails, and notes. Sometimes deal stages if people are using it for sales. The problem is almost all of them depend on you doing the work, so you have to remember to update the person. You know, remember what happened last time, what they said, who went cold, and just basically keep your, Your CRM clean, and because of that, if you&#x27;re anything like me, you&#x27;ve had a CRM and it&#x27;s just turned into these graveyards that you just sort of stop updating. It starts off really exciting, and then a few weeks, the data goes stale, and the notes get messy, and you just stop updating it. And the people who could actually make you money end up sitting in a tool that nobody wants to open.</div></div><div class="seg"><div class="ts">4:45</div><div>So what&#x27;s interesting about this particular repo is that it treats your CRM as a workspace for an agent instead of a filing cabinet for you. So the agent can look at records and research people and enrich company info. It could do scheduled follow-ups and then it could keep the notes current. All the stuff that basically you didn&#x27;t want you know to do, it&#x27;s it&#x27;s gonna it could do it for you and do those tasks. The whole idea. Of this, of this, you know, AI CRM is that it shouldn&#x27;t just store information; it should maintain the relationship graph for you. You know, it&#x27;s a big deal if you&#x27;re a founder because most businesses actually don&#x27;t fail from a lack of opportunities. A lot of times, they fail because the opportunities are just scattered everywhere. You get this like warm intro maybe like six months ago or.</div></div><div class="seg"><div class="ts">5:41</div><div>You said you know you get like feedback from a customer who says check back later, and you forget about it. And there&#x27;s real money sitting inside those in those emails. So the use case here isn&#x27;t to replace Salesforce. Not suggesting that. It&#x27;s like a smaller, useful use case. So the way I would do it is, say I I&#x27;m looking for sponsorships for my podcast. You know, I can run my sponsorship pipeline through it. You know, tracking agency leads. I can manage investor updates, or if I have investors, I can follow up with everyone who&#x27;s joined a waitlist to a something that I&#x27;ve vibe coded, or I can have it handle customer success just fully for a small SaaS. So, if I were testing this, I would actually start with one small workflow. I&#x27;d make a pipeline called something like &quot;warm leads I can&#x27;t afford to forget.&quot;</div></div><div class="seg"><div class="ts">6:40</div><div>And then I&#x27;d drop in every person who&#x27;s shown any buying intent, and they replied to any email, or booked a call, or asked about pricing, or said they&#x27;d circle back, you know, in 45 days, or after Christmas, or something. And then I&#x27;d let the agent do the hard work to keep that alive. In the past, you&#x27;d actually have, you know, you&#x27;d hire someone to do this, and now you have this agent that&#x27;s doing it for you. Who needs a follow-up? Who should I say? You know what should I say? You know what&#x27;s changed at their company since we last talked. That&#x27;s that&#x27;s why this is really cool. Okay, so how do you install this? Well, you&#x27;re going to need Bun and Docker installed. So the basic setup is you&#x27;re going to want to, you know, Git clone the repo. Again, I&#x27;ll have that repo in the in the show notes. You&#x27;re going to want to do cd CRM, cp env.</div></div><div class="seg"><div class="ts">7:33</div><div>Example.env. You&#x27;re going to want to do bun install, docker compose up-d, bun run db deploy, bun run db seed, and bun run dev. And I&#x27;ll include, uh, I&#x27;ll maybe I&#x27;ll get some notes up, and if you go in the description, I could, uh, have that, and I can also show it up, you know, on the screen here so you can see it. Then what it does is it runs locally, so you know usually it runs locally on localhost 3000. With the API on localhost three thousand one, so there&#x27;s environment variables to set. You know, especially for OAuth, so you want a Google or Microsoft OAuth client. If you want sign in and email or calendar integrations, which I assume you&#x27;re going to want, so this isn&#x27;t like a one-click, everything is set up beautiful thing. But it&#x27;s real. It&#x27;s a product-shaped repo, and I think it&#x27;s really interesting.</div></div><div class="seg"><div class="ts">8:28</div><div>I think like the bigger opportunity of something like this is that everyone has a CRM problem, and they just never really call it that, right? They they say I forgot to follow up, or I forgot who to email, or leads are a mess, or they have this feeling like, oh my God, I&#x27;m leaving money on the table. I&#x27;ve certainly felt that, and that&#x27;s a and that&#x27;s all the same pain. And this repo just like points at the fix. And like the big idea is, how do you create relationship systems that actually do work with you? Agents actually do it. I think it&#x27;s interesting, and that&#x27;s why I put on the list. So the third repo is by browser use, and it&#x27;s called Video Use, and it&#x27;s one of my favorites because you&#x27;re gonna instantly get it. It lets you edit videos with coding agents. So you drop your raw footage in a folder.</div></div><div class="seg"><div class="ts">9:21</div><div>And you can ask an agent like Claude Code or Codex to edit it. It&#x27;ll remove filler words. It&#x27;ll cut dead space. You know, it could add subtitles and color grade and build overlays. It can render the video and it can actually check the output. There already exists a bunch of AI video editing softwares out there, but I think what&#x27;s really cool about this specific repo is that the editing workflow here. Becomes something that your agent can understand and repeat. So think about this: most creators or any or people who create content have the same handful of edits over and over. They have the same like subtitle style. I mean, even if you look at my YouTube channel, you can see it&#x27;s like a very similar style every single video. It&#x27;s at same a certain pace, a certain way of cutting pauses and and opening clips and.</div></div><div class="seg"><div class="ts">10:18</div><div>Turning a long conversation into shorts and mids. So normally all that actually lives in a person&#x27;s brain and muscle memory, but with a repo like this, it becomes like way more explicit. And the agent can actually read the transcript, look at the timestamps, propose an editing strategy, render it, and check the cut points. I mean, how cool is that? Because if you&#x27;re a creator or founder. Content is going to be probably one of your biggest bottlenecks, and you know this. You can have a great product, and you&#x27;re still going to lose if no one&#x27;s going to see it. So, I think this repo is like a way to shrink the distance between raw material and the published content. If I were using this, I wouldn&#x27;t try to automate my whole YouTube channel on day one.</div></div><div class="seg"><div class="ts">11:12</div><div>I think that&#x27;s way too much, and I think when people use a repo like this on day one, and then they start and they don&#x27;t get the results, it&#x27;s because they just ask for too much. I would start with one small, repeatable format. So maybe it&#x27;s taking a founder&#x27;s loom and turning it into a sixty-second launch video, or taking a podcast recording and just being like, &quot;I need three banger clips from it.&quot; That is good. Good enough to start, and then once you have one format, then you can turn it into a system. And then once it&#x27;s a system, then you can run it yourself or sell it to other people. Startup idea right there, right? Every niche needs content, and pretty much nobody, pretty much no, the agent install it for you.</div></div><div class="seg"><div class="ts">12:11</div><div>That&#x27;s that&#x27;s an interesting one. I feel like try it, see if it works for you, and let let me know what you think. So the fourth repo is by Nvidia, and it&#x27;s called Skill Specter. This this is a no brainer one to install because people are starting to install skills and MCP servers and plugins and agent tools straight from GitHub, which is exciting. Because it gives your AI new abilities, but it creates a problem because a skill isn&#x27;t just a block of text, right? It can include instructions and scripts and dependencies, tool access, and basically behaviors that change how your agent works. And in some cases, it can actually touch files, call tools, and connect to services. So before you install random capabilities from GitHub.</div></div><div class="seg"><div class="ts">13:07</div><div>You should probably ask whether it&#x27;s safe, and that&#x27;s what Skill Specter is for. It can scan AI agent skills for security issues, things like prompt injection, data exfiltration, supply chain risk, hidden instructions, basically any malicious patterns, and MCP-related risks. Skill Specter has your back. So the way I think about it is before you hand Your AI and new tool scan the tool, right? And this matters a lot more now because AI workflows are getting more modular. So most people use one chatbot today, but builders are already assembling their own AI work environments, like a coding agent, a research skill, a design skill, maybe it&#x27;s a browser tool, a video workflow, and at some point, your setup.</div></div><div class="seg"><div class="ts">14:03</div><div>Starts to look like a little operating system for your work, and once that happens, security stops being an enterprise-only problem and becomes a normal like builder or founder problem. So I think it&#x27;s a really important one. No affiliation with NVIDIA, but if you want to try it, you know you can use UV. The quick install is UV tool install git plus, and then you just post the GitHub. A link, and then just scan a skill directory with SkillSpecter scan dot slash my dash skill, or you could just scan a GitHub repo directly with SkillSpecter scan, and then with the link. If you want a faster static scan that doesn&#x27;t send file contents to an LM provider, if you add dash dash no dash LM.</div></div><div class="seg"><div class="ts">15:03</div><div>You know, it matters if you&#x27;re scanning like sensitive files or or private files in general. There&#x27;s also a Docker option if you&#x27;d rather not install Python locally, which I think some people, you know, would want to know that. I&#x27;ve been thinking about this a bunch. Like, if teams are going to install AI skills and MCP servers, someone&#x27;s going to need to help them decide what&#x27;s safe. You know, that could be a trusted marketplace, a security scanner. An install gate for companies, or a feature inside every agent platform. I like that NVIDIA is attached to this one. That&#x27;s why I included it, because it gives the whole category credibility, and it also is just admitting that hey, like a lot of these skills, plugins, things like that, could be malicious, and you got to be careful. So had to put that in there. Had to keep it real with you all, and check it out.</div></div><div class="seg"><div class="ts">15:54</div><div>So the fifth repo is called Phone Harness, and it lets AI, it lets an AI agent actually control your phone. Most AI, most AI agent tools are built around browsers and terminals, also desktop apps. Obviously, makes sense because a lot of the work happens there. But think about it: a huge amount of work happens on phones now, and banking apps, and messaging, and social, and food delivery. All that sort of stuff. So there&#x27;s a ton of workflows that are hard to automate because the only real interface is a phone screen. So Phone Harness connects an agent like Codex or Claude Code to a real iPhone or Android. Super cool, right? For iPhone, it uses Mac iPhone mirroring, and for Android, it uses ADB. So you don&#x27;t have to like jailbreak it, which.</div></div><div class="seg"><div class="ts">16:52</div><div>You know, I was like, oh my god, I want to jailbreak anything. You don&#x27;t have to jailbreak it. You don&#x27;t, you know, no Xcode. You don&#x27;t really need that. You don&#x27;t need like a special app on on the phone either. Basically, the agent sees what&#x27;s on the screen, and it can tap, and it can type, and it can scroll, and it can open app and open apps, and then it verifies what happens. I know there&#x27;s someone, you know, thinking like, why? Why does that matter? Well, if you&#x27;re building a mobile app, think about the QA right. You can have an agent test onboarding, sign up, check out on an actual real device. If you&#x27;re building any sort of automations, it could open up mobile apps that have no API. And if you&#x27;re a creator or even an operator, it could eventually handle repetitive mobile workflows across things like TikTok and Instagram. So, if you want to try this, the first thing to do.</div></div><div class="seg"><div class="ts">17:47</div><div>Is test the mobile sign up flow. Super simple. Open up the app, create an account, tap through onboarding, try checkout, take screenshots, and tell me where it gets confusing or breaks. That&#x27;s super valuable. Every mobile team should be constantly doing that, but most don&#x27;t because it&#x27;s tedious, or they don&#x27;t want to hire that person to go and do it, or they honestly like make mistakes. So this is gonna help you there. If you want to try this one, the repo gives you a setup prompt to paste into Codex or Claude code. I&#x27;ll include it. I&#x27;ll include it. Basically, set up PhoneHarness for me, clone the GitHub, read the install.md, install install it so PhoneHarness is on my path, register it as an agent skill, and then read onboarding.md and walk me through the setup. For iPhone, you do need macOS Sequoia or later.</div></div><div class="seg"><div class="ts">18:46</div><div>With iPhone mirroring, plus accessibility, and screen recording permissions granted to your terminal. For Android, for my Android friends, turn on developer options and connect through ADB over USB, or it actually works wireless too. Then run PhoneHarness dash dash doctor to check the setup. It&#x27;s early. This one is early, and it has its limits. Some phone flows won&#x27;t work perfectly. For example, like lock phones need you, and Face ID and camera flows are pretty tricky. But the direction is obvious, right? Agents are moving from answering questions; they&#x27;re operating tools, and phones is one of the biggest tool surfaces in the world. And you know, if you figure out some of these workflows, there&#x27;s startup ideas right there, right? If you can productize mobile QA, would would someone be willing to pay?</div></div><div class="seg"><div class="ts">19:43</div><div>A hundred dollars a month, five hundred dollars a month for that. How many clients do you need to get to ten thousand dollars a month? There&#x27;s that&#x27;s in general what&#x27;s interesting about a lot of these GitHub repos is, you know, you can you can install them. Step two is have a small workflow, get it to work, add value, and step three is then should I be productizing this for other people or just continuing continuing using this in my own workflows? To be more productive, to make money and create value. So there you have it, folks. Five GitHub GitHub repos I think are really interesting. Obviously, I don&#x27;t want to be a full-time open-source analyst, but because GitHub is one of the few places you can still find genuinely useful tools before they go mainstream, you got to be spending time there. I think it&#x27;s totally worth it. And as you install some of these repos,</div></div><div class="seg"><div class="ts">20:40</div><div>Even if you&#x27;re not technical, you learn you learn things, right? You you start you start learning what works for you. What&#x27;s what&#x27;s this repo missing? How how can you make this work for your company? How can you sell this to other people? I just think it&#x27;s it&#x27;s a really interesting thing to do to just do like you know monthly finding new GitHub repos, installing them. You know you&#x27;ll be able to build faster. And it&#x27;ll just connect the dots in your head in this agentic era. That I think it&#x27;s worth it. So I don&#x27;t know if this has been fun for you, interesting for you, valuable for you. If you listen to this podcast, you know I live to serve, and all I care about is just increasing your probability of success in this era, with ideas, with tools, with frameworks. So please let me know in the comments what you thought of this. Should I be doing this every month, every two weeks, every six weeks, never again? All good.</div></div><div class="seg"><div class="ts">21:38</div><div>I appreciate you so much, and I&#x27;m rooting for you. So I&#x27;ll see you next time, and have a creative day.</div></div><div class="seg"><div class="ts">44:58</div><div>What&#x27;s up? Hey, hey, are you, sir? Right. Um,</div></div><div class="seg"><div class="ts">45:03</div><div>I hope this can get both sides. I wanted to spotlight. You know, I did. I did my spotlight.</div></div><div class="seg"><div class="ts">45:28</div><div>Oh, I&#x27;m curious. Which car is it? Which uh? Yeah.</div></div><div class="seg"><div class="ts">45:57</div><div>Yeah. Yeah, that&#x27;s one of my.</div></div></section>
+</main>
+</div>
+<footer>PLAUD-NOTES-2026-09-17-0600-MORNING · noindex · Plaud sources + notes</footer>
+<script>
+
+document.querySelectorAll('.tabs button').forEach(btn => {
+  btn.addEventListener('click', () => {
+    document.querySelectorAll('.tabs button').forEach(b => b.setAttribute('aria-selected', b===btn ? 'true':'false'));
+    document.querySelectorAll('.panel').forEach(p => p.classList.toggle('is-on', p.id === btn.dataset.panel));
+  });
+});
+
+</script>
+</body>
+</html>

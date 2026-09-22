@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>09-02 CRM Automation vs. Sales Workflow: Creating an Exception Status to Prevent Auto-Lost Leads</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500&family=IBM+Plex+Mono:wght@400;500&family=Source+Sans+3:wght@400;600;700&display=swap">
+  <style>
+:root {
+  --bg: #090908;
+  --bg-2: #11110f;
+  --bg-3: #181714;
+  --ink: #f0eadc;
+  --muted: #8d8778;
+  --faint: #5c574c;
+  --line: #26241e;
+  --accent: #c4452d;
+  --mustard: #c4a35a;
+  --blue: #6f8fbf;
+  --ok: #7d9a6d;
+  --serif: "Fraunces", "Iowan Old Style", Georgia, serif;
+  --sans: "Source Sans 3", "Source Sans Pro", -apple-system, sans-serif;
+  --mono: "IBM Plex Mono", ui-monospace, monospace;
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html, body { background: var(--bg); color: var(--ink); }
+body {
+  font-family: var(--sans);
+  min-height: 100vh;
+  text-wrap: pretty;
+}
+a { color: inherit; }
+.shell { display: grid; grid-template-columns: 260px 1fr; min-height: 100vh; }
+.rail {
+  border-right: 1px solid var(--line);
+  padding: 28px 18px 40px;
+  background: var(--bg-2);
+  position: sticky; top: 0; height: 100vh; overflow: auto;
+}
+.mark {
+  font-family: var(--serif);
+  font-weight: 500;
+  font-size: 13px;
+  letter-spacing: .18em;
+  text-transform: uppercase;
+  color: var(--accent);
+}
+.rail h1 {
+  font-family: var(--serif);
+  font-size: 28px;
+  font-weight: 460;
+  letter-spacing: -.03em;
+  margin: 10px 0 6px;
+}
+.rail .lede { color: var(--muted); font-size: 13.5px; line-height: 1.45; margin-bottom: 28px; }
+.vnav { display: flex; flex-direction: column; gap: 4px; }
+.vnav a {
+  display: flex; justify-content: space-between; align-items: baseline;
+  text-decoration: none; padding: 9px 10px; border-radius: 8px;
+  color: var(--ink); font-size: 14px;
+}
+.vnav a:hover, .vnav a.is-on { background: var(--bg-3); }
+.vnav a.is-on { box-shadow: inset 2px 0 0 var(--accent); }
+.vnav .count { color: var(--faint); font-family: var(--mono); font-size: 11px; }
+.stage { padding: 36px 40px 80px; max-width: 980px; }
+.kicker {
+  font-size: 11px; letter-spacing: .16em; text-transform: uppercase;
+  color: var(--accent); font-weight: 700; margin-bottom: 8px;
+}
+.stage > h2 {
+  font-family: var(--serif); font-weight: 460; font-size: 34px;
+  letter-spacing: -.03em; margin-bottom: 8px;
+}
+.blurb { color: var(--muted); margin-bottom: 28px; max-width: 46rem; }
+.empty {
+  border: 1px dashed var(--line); border-radius: 14px;
+  padding: 36px 28px; color: var(--muted); background: var(--bg-2);
+}
+.empty strong { color: var(--ink); font-weight: 600; }
+.cards { display: flex; flex-direction: column; gap: 10px; }
+.card {
+  display: grid; grid-template-columns: 1fr auto; gap: 12px;
+  text-decoration: none; padding: 16px 18px; border-radius: 12px;
+  background: var(--bg-2); border: 1px solid var(--line);
+}
+.card:hover { border-color: #3a372e; background: var(--bg-3); }
+.card h3 { font-size: 16px; font-weight: 600; margin-bottom: 4px; }
+.meta { color: var(--muted); font-size: 13px; display: flex; gap: 10px; flex-wrap: wrap; }
+.chip {
+  font-family: var(--mono); font-size: 10px; letter-spacing: .06em;
+  text-transform: uppercase; padding: 3px 7px; border-radius: 999px;
+  border: 1px solid var(--line); color: var(--muted); height: fit-content;
+}
+.chip.dealers { color: var(--blue); border-color: #2a3344; }
+.chip.avec-tous { color: var(--mustard); border-color: #3a3320; }
+.chip.personal { color: #c9a7a0; }
+.chip.ideas { color: var(--ok); }
+.note-top { margin-bottom: 22px; }
+.note-top h2 { font-family: var(--serif); font-size: 36px; font-weight: 460; letter-spacing: -.03em; }
+.tabs { display: flex; gap: 6px; margin: 22px 0 18px; border-bottom: 1px solid var(--line); }
+.tabs button {
+  appearance: none; background: none; border: 0; color: var(--muted);
+  font: 600 13px var(--sans); padding: 10px 12px; cursor: pointer;
+  border-bottom: 2px solid transparent; margin-bottom: -1px;
+}
+.tabs button[aria-selected="true"] { color: var(--ink); border-bottom-color: var(--accent); }
+.panel { display: none; }
+.panel.is-on { display: block; }
+.prose { font-size: 16.5px; line-height: 1.6; max-width: 42rem; }
+.prose h2, .prose h3 { font-family: var(--serif); font-weight: 500; margin: 1.3em 0 .4em; }
+.prose p { margin: 0 0 .8em; }
+.prose ul, .prose ol { margin: 0 0 1em 1.2em; }
+.prose li { margin: .25em 0; }
+.hl { border-left: 2px solid var(--accent); padding: 10px 0 10px 14px; margin: 0 0 14px; }
+.hl .t { font-family: var(--mono); font-size: 11px; color: var(--faint); }
+.hl h4 { font-size: 15px; margin: 4px 0; }
+.hl p { color: var(--muted); font-size: 14.5px; }
+.seg { display: grid; grid-template-columns: 64px 1fr; gap: 12px; padding: 8px 0; border-bottom: 1px solid var(--line); }
+.seg .ts { font-family: var(--mono); font-size: 11px; color: var(--faint); padding-top: 3px; }
+.back { color: var(--muted); text-decoration: none; font-size: 13px; display: inline-block; margin-bottom: 18px; }
+.back:hover { color: var(--ink); }
+footer { margin-top: 48px; color: var(--faint); font-size: 11px; font-family: var(--mono); }
+@media (max-width: 820px) {
+  .shell { grid-template-columns: 1fr; }
+  .rail { position: relative; height: auto; border-right: 0; border-bottom: 1px solid var(--line); }
+  .stage { padding: 24px 18px 64px; }
+  .note-top h2 { font-size: 28px; }
+}
+</style>
+</head>
+<body>
+<div class="shell">
+<aside class="rail">
+  <div class="mark">Cooperative</div>
+  <h1>Field desk</h1>
+  <p class="lede">Plaud landings. Summary, highlights, transcript — filed by life area.</p>
+  <nav class="vnav"><a href="../index.html" class="">All <span class="count">45</span></a><a class="" href="../vertical-inbox.html">Inbox <span class="count">0</span></a><a class="" href="../vertical-personal.html">Personal <span class="count">0</span></a><a class="" href="../vertical-coop-marketing.html">Coop Marketing <span class="count">2</span></a><a class="" href="../vertical-coop-dev.html">Coop Dev <span class="count">8</span></a><a class="" href="../vertical-avec-tous.html">Avec Tous <span class="count">0</span></a><a class="is-on" href="../vertical-dealers.html">Dealers <span class="count">33</span></a><a class="" href="../vertical-ideas.html">Ideas <span class="count">2</span></a></nav>
+</aside>
+<main class="stage">
+  <a class="back" href="../index.html">← Desk</a>
+  <div class="note-top">
+    <div class="kicker">dealers · 2026-09-02 · 1m30s</div>
+    <h2>09-02 CRM Automation vs. Sales Workflow: Creating an Exception Status to Prevent Auto-Lost Leads</h2>
+    <div class="meta" style="margin-top:8px"><span>id b40aa1f0e20d74619f6913092c4d3d46</span><span>inferred</span></div>
+  </div>
+  <div class="tabs" role="tablist">
+    <button type="button" data-panel="sum" aria-selected="true">Summary</button>
+    <button type="button" data-panel="hl" aria-selected="false">Highlights</button>
+    <button type="button" data-panel="tx" aria-selected="false">Transcript</button>
+  </div>
+  <section id="sum" class="panel is-on prose"><h2>Core Synopsis</h2>
+<p>A systemic conflict exists between a sales user&#x27;s workflow and the CRM&#x27;s automated data hygiene rules. The user, Speaker 1, requires a way to keep leads in an &quot;open&quot; state indefinitely, as their process involves long-term nurturing. However, the system is configured to automatically mark idle leads as &quot;Lost&quot; to prevent data clutter for the broader team. This tension reveals a classic design trade-off: a one-size-fits-all automation that benefits the system&#x27;s overall health is actively undermining the productivity of a high-performing individual. The immediate need is to find a system-compliant exception or a specific status that exempts designated leads from the automated &quot;Lost&quot; rule.</p>
+<h2>The Problem: System Rules vs. User Workflow</h2>
+<h3>The Pain Point</h3>
+<p>Speaker 1 is losing visibility on active, long-term leads because the CRM system automatically marks them as &quot;Lost&quot; after a period of inactivity. This automated action directly interferes with their daily task-based follow-up process, forcing them to combat the system instead of using it. The core request is for a state where a lead is never marked &quot;Lost&quot; unless they manually trigger that action.</p>
+<h3>The System&#x27;s Rationale</h3>
+<p>The automated &quot;Lost&quot; rule is not an error but a deliberate design choice. As explained by Lance, it exists to maintain data hygiene across the entire user base. Without it, the CRM would accumulate thousands of unmanaged, &quot;dead garbage&quot; leads, as most users do not proactively clean their pipelines. The rule serves the collective by preventing data bloat at the expense of individual edge cases.</p>
+<h3>The Proposed Workaround</h3>
+<p>Lance identifies a potential solution within the existing system. There should be a specific lead status, such as &quot;On Order,&quot; that is exempt from the automatic &quot;Lost&quot; rule. Placing a lead in this status would allow it to remain in the system indefinitely, effectively creating the exception Speaker 1 needs without requiring a fundamental change to the system-wide rule.</p>
+<h2>Next Move</h2>
+<p><strong>@Lance</strong></p>
+<ul>
+<li>[ ] Call the vendor (Gage) to confirm which lead status exempts a lead from being automatically marked &quot;Lost&quot; - [TBD]</li>
+</ul></section>
+  <section id="hl" class="panel"><div class='empty'>No device highlights on this take.</div></section>
+  <section id="tx" class="panel"><div class="seg"><div class="ts">0:00</div><div>So I make, make a task every day.</div></div><div class="seg"><div class="ts">0:02</div><div>Yeah. So now what you&#x27;re talking about is there&#x27;s probably a rule. So you&#x27;re saying, even if you haven&#x27;t marked hot, it disappears after a while. Yeah. So there&#x27;s a rule in there, and I know what the rule is. I just need to probably call my Vendor.</div></div><div class="seg"><div class="ts">0:15</div><div>Yeah. If I could just turn it off so that it never marks my leads lost unless I mark it lost, that would be.</div></div><div class="seg"><div class="ts">0:20</div><div>Well, but so yeah, there&#x27;s a rule where things do get marked lost after a while. Yeah. But there should be a. There should be a mode you can put it in, a status you can put it in where it never gets marked lost.</div></div><div class="seg"><div class="ts">0:30</div><div>Correct. That&#x27;s what I would like.</div></div><div class="seg"><div class="ts">0:31</div><div>Um, like on order or like on order is one. You know that if you put something in on order, it&#x27;ll just stay there for like almost indefinitely.</div></div><div class="seg"><div class="ts">0:37</div><div>So I should do that then.</div></div><div class="seg"><div class="ts">0:39</div><div>No, just hang on. Let me let me call Gage.</div></div><div class="seg"><div class="ts">0:41</div><div>There&#x27;s no need for them to mark anything lost unless it&#x27;s lost. I will mark it lost if it gets lost.</div></div><div class="seg"><div class="ts">0:46</div><div>Things have to. The reason those rules exist though is because you&#x27;ll have, you know, a bunch of garbage, like let&#x27;s say just random. Leads that come in, not ones you&#x27;re actually talking to. Yeah. No contact, no nothing. It&#x27;s just dead garbage. And if you don&#x27;t have it marked to go automatically lost, you&#x27;ll just end up with thousands and thousands of open and fucking yeah, all marked lost because people don&#x27;t mark them lost. I do. You&#x27;re different.</div></div><div class="seg"><div class="ts">1:11</div><div>Can I turn it off for me, and you can leave it on for everybody else?</div></div><div class="seg"><div class="ts">1:15</div><div>I don&#x27;t know. That might be a question too. Yeah. I mean, no, it&#x27;s fine. It&#x27;s fine. Trying to do what now? Log in or log in?</div></div></section>
+</main>
+</div>
+<footer>PLAUD-NOTES-2026-09-17-0600-MORNING · noindex · Plaud sources + notes</footer>
+<script>
+
+document.querySelectorAll('.tabs button').forEach(btn => {
+  btn.addEventListener('click', () => {
+    document.querySelectorAll('.tabs button').forEach(b => b.setAttribute('aria-selected', b===btn ? 'true':'false'));
+    document.querySelectorAll('.panel').forEach(p => p.classList.toggle('is-on', p.id === btn.dataset.panel));
+  });
+});
+
+</script>
+</body>
+</html>

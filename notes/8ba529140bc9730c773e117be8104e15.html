@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Planning: Dealership Website Optimization and VCA Integration Rollout</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500&family=IBM+Plex+Mono:wght@400;500&family=Source+Sans+3:wght@400;600;700&display=swap">
+  <style>
+:root {
+  --bg: #090908;
+  --bg-2: #11110f;
+  --bg-3: #181714;
+  --ink: #f0eadc;
+  --muted: #8d8778;
+  --faint: #5c574c;
+  --line: #26241e;
+  --accent: #c4452d;
+  --mustard: #c4a35a;
+  --blue: #6f8fbf;
+  --ok: #7d9a6d;
+  --serif: "Fraunces", "Iowan Old Style", Georgia, serif;
+  --sans: "Source Sans 3", "Source Sans Pro", -apple-system, sans-serif;
+  --mono: "IBM Plex Mono", ui-monospace, monospace;
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html, body { background: var(--bg); color: var(--ink); }
+body {
+  font-family: var(--sans);
+  min-height: 100vh;
+  text-wrap: pretty;
+}
+a { color: inherit; }
+.shell { display: grid; grid-template-columns: 260px 1fr; min-height: 100vh; }
+.rail {
+  border-right: 1px solid var(--line);
+  padding: 28px 18px 40px;
+  background: var(--bg-2);
+  position: sticky; top: 0; height: 100vh; overflow: auto;
+}
+.mark {
+  font-family: var(--serif);
+  font-weight: 500;
+  font-size: 13px;
+  letter-spacing: .18em;
+  text-transform: uppercase;
+  color: var(--accent);
+}
+.rail h1 {
+  font-family: var(--serif);
+  font-size: 28px;
+  font-weight: 460;
+  letter-spacing: -.03em;
+  margin: 10px 0 6px;
+}
+.rail .lede { color: var(--muted); font-size: 13.5px; line-height: 1.45; margin-bottom: 28px; }
+.vnav { display: flex; flex-direction: column; gap: 4px; }
+.vnav a {
+  display: flex; justify-content: space-between; align-items: baseline;
+  text-decoration: none; padding: 9px 10px; border-radius: 8px;
+  color: var(--ink); font-size: 14px;
+}
+.vnav a:hover, .vnav a.is-on { background: var(--bg-3); }
+.vnav a.is-on { box-shadow: inset 2px 0 0 var(--accent); }
+.vnav .count { color: var(--faint); font-family: var(--mono); font-size: 11px; }
+.stage { padding: 36px 40px 80px; max-width: 980px; }
+.kicker {
+  font-size: 11px; letter-spacing: .16em; text-transform: uppercase;
+  color: var(--accent); font-weight: 700; margin-bottom: 8px;
+}
+.stage > h2 {
+  font-family: var(--serif); font-weight: 460; font-size: 34px;
+  letter-spacing: -.03em; margin-bottom: 8px;
+}
+.blurb { color: var(--muted); margin-bottom: 28px; max-width: 46rem; }
+.empty {
+  border: 1px dashed var(--line); border-radius: 14px;
+  padding: 36px 28px; color: var(--muted); background: var(--bg-2);
+}
+.empty strong { color: var(--ink); font-weight: 600; }
+.cards { display: flex; flex-direction: column; gap: 10px; }
+.card {
+  display: grid; grid-template-columns: 1fr auto; gap: 12px;
+  text-decoration: none; padding: 16px 18px; border-radius: 12px;
+  background: var(--bg-2); border: 1px solid var(--line);
+}
+.card:hover { border-color: #3a372e; background: var(--bg-3); }
+.card h3 { font-size: 16px; font-weight: 600; margin-bottom: 4px; }
+.meta { color: var(--muted); font-size: 13px; display: flex; gap: 10px; flex-wrap: wrap; }
+.chip {
+  font-family: var(--mono); font-size: 10px; letter-spacing: .06em;
+  text-transform: uppercase; padding: 3px 7px; border-radius: 999px;
+  border: 1px solid var(--line); color: var(--muted); height: fit-content;
+}
+.chip.dealers { color: var(--blue); border-color: #2a3344; }
+.chip.avec-tous { color: var(--mustard); border-color: #3a3320; }
+.chip.personal { color: #c9a7a0; }
+.chip.ideas { color: var(--ok); }
+.note-top { margin-bottom: 22px; }
+.note-top h2 { font-family: var(--serif); font-size: 36px; font-weight: 460; letter-spacing: -.03em; }
+.tabs { display: flex; gap: 6px; margin: 22px 0 18px; border-bottom: 1px solid var(--line); }
+.tabs button {
+  appearance: none; background: none; border: 0; color: var(--muted);
+  font: 600 13px var(--sans); padding: 10px 12px; cursor: pointer;
+  border-bottom: 2px solid transparent; margin-bottom: -1px;
+}
+.tabs button[aria-selected="true"] { color: var(--ink); border-bottom-color: var(--accent); }
+.panel { display: none; }
+.panel.is-on { display: block; }
+.prose { font-size: 16.5px; line-height: 1.6; max-width: 42rem; }
+.prose h2, .prose h3 { font-family: var(--serif); font-weight: 500; margin: 1.3em 0 .4em; }
+.prose p { margin: 0 0 .8em; }
+.prose ul, .prose ol { margin: 0 0 1em 1.2em; }
+.prose li { margin: .25em 0; }
+.hl { border-left: 2px solid var(--accent); padding: 10px 0 10px 14px; margin: 0 0 14px; }
+.hl .t { font-family: var(--mono); font-size: 11px; color: var(--faint); }
+.hl h4 { font-size: 15px; margin: 4px 0; }
+.hl p { color: var(--muted); font-size: 14.5px; }
+.seg { display: grid; grid-template-columns: 64px 1fr; gap: 12px; padding: 8px 0; border-bottom: 1px solid var(--line); }
+.seg .ts { font-family: var(--mono); font-size: 11px; color: var(--faint); padding-top: 3px; }
+.back { color: var(--muted); text-decoration: none; font-size: 13px; display: inline-block; margin-bottom: 18px; }
+.back:hover { color: var(--ink); }
+footer { margin-top: 48px; color: var(--faint); font-size: 11px; font-family: var(--mono); }
+@media (max-width: 820px) {
+  .shell { grid-template-columns: 1fr; }
+  .rail { position: relative; height: auto; border-right: 0; border-bottom: 1px solid var(--line); }
+  .stage { padding: 24px 18px 64px; }
+  .note-top h2 { font-size: 28px; }
+}
+</style>
+</head>
+<body>
+<div class="shell">
+<aside class="rail">
+  <div class="mark">Cooperative</div>
+  <h1>Field desk</h1>
+  <p class="lede">Plaud landings. Summary, highlights, transcript — filed by life area.</p>
+  <nav class="vnav"><a href="../index.html" class="">All <span class="count">45</span></a><a class="" href="../vertical-inbox.html">Inbox <span class="count">0</span></a><a class="" href="../vertical-personal.html">Personal <span class="count">0</span></a><a class="" href="../vertical-coop-marketing.html">Coop Marketing <span class="count">2</span></a><a class="" href="../vertical-coop-dev.html">Coop Dev <span class="count">8</span></a><a class="" href="../vertical-avec-tous.html">Avec Tous <span class="count">0</span></a><a class="is-on" href="../vertical-dealers.html">Dealers <span class="count">33</span></a><a class="" href="../vertical-ideas.html">Ideas <span class="count">2</span></a></nav>
+</aside>
+<main class="stage">
+  <a class="back" href="../index.html">← Desk</a>
+  <div class="note-top">
+    <div class="kicker">dealers · 2026-09-08 · 49m54s</div>
+    <h2>Planning: Dealership Website Optimization and VCA Integration Rollout</h2>
+    <div class="meta" style="margin-top:8px"><span>id 8ba529140bc9730c773e117be8104e15</span><span>inferred</span></div>
+  </div>
+  <div class="tabs" role="tablist">
+    <button type="button" data-panel="sum" aria-selected="true">Summary</button>
+    <button type="button" data-panel="hl" aria-selected="false">Highlights</button>
+    <button type="button" data-panel="tx" aria-selected="false">Transcript</button>
+  </div>
+  <section id="sum" class="panel is-on prose"><p>![PLAUD NOTE](permanent/1440a4fbcf984caa9625e6345e38a215/mem_g5kZLYofe1/summary_poster/card_20260908191753-v2@dfe3c24e5bab9cf658b145_20260908191856_46707fb5.png)</p>
+<p>Lance and Speaker 1 reviewed website performance metrics to address short session durations from top-funnel traffic channels. They decided to redirect promotional traffic to a specialized model research page and reviewed updated dashboard reporting. Lance also coordinated with Michael from Event Solutions to schedule Virtual Contact (VCA) training sessions for staff at three dealership locations, timing the transition to align with their existing software contract termination.</p>
+<h2>Website Traffic and Landing Page Optimization</h2>
+<ul>
+<li><strong>Session Duration Metrics</strong>: Speaker 1 noted that the average session duration across the website was only 23 seconds. Lance stated his target for average user engagement is over three minutes, though two to three minutes is a typical benchmark. To increase session duration, the team has discussed launching a newsletter on the site and adding more vehicle photos.</li>
+<li><strong>Traffic Source Analysis</strong>: The 23-second average session duration was traced to traffic coming from Gray Media campaigns. Lance explained that Gray Media runs high-funnel awareness campaigns similar to brand-level campaigns run by Audi. This type of traffic naturally produces higher bounce rates and shorter session durations than low-funnel sources like Google Ads or retargeting campaigns, which target shoppers who are already looking for specific lease rates or vehicles.</li>
+<li><strong>Landing Page Strategy</strong>: To capture high-funnel traffic more effectively, Lance proposed changing the destination link. Instead of directing Gray Media traffic to the generic homepage, they will direct users to a long model research page that Lance previously built. This page presents multiple model options and brand entry points, which should help keep uncommitted shoppers on the site longer.</li>
+<li><strong>Traffic Volumes</strong>: Direct traffic reached 20,400 visits for the period from August 9 to September 8, 2026, matching similar trends from the previous month. Organic search continues to drive the bulk of the dealership&#x27;s business, bringing in over 10,000 visits.</li>
+<li><strong>Dashboard Reporting Integration</strong>: The traffic data is pulled directly from Google Analytics 4 (GA4). Lance upgraded the GM weekly dashboard to show granular metrics for each source and medium. The updated dashboard breaks down visits, unique visitors, average session duration, and mobile actions like phone taps. Lance is currently working to filter out programmatic traffic sources that route through intermediate platforms like FlashTalking.</li>
+</ul>
+<h2>Virtual Contact Integration and Training</h2>
+<ul>
+<li><strong>System Rollout and Contract Alignment</strong>: Lance is coordinating the Virtual Contact (VCA) setup across three locations: Harris Porsche, Audi Baton Rouge, and Brian Harris BMW. Lance worked with Jeff Elliman to schedule the technical transition for September 21, 2026. This date matches the end of their contract with Podium, preventing the dealerships from being double-billed for both platforms.</li>
+<li><strong>Training Session Coordination</strong>: Lance and Michael from Event Solutions agreed to schedule three separate one-hour training sessions on consecutive weekdays:</li>
+<p>  - <strong>Dates</strong>: Monday, September 14, Tuesday, September 15, and Wednesday, September 16, 2026.   - <strong>Time</strong>: All sessions are scheduled for 2:00 PM Central (3:00 PM Eastern). This afternoon slot avoids early morning or late afternoon sales rushes.   - <strong>Format</strong>: Each session is dedicated to one of the three stores, but the schedule will be shared across all locations. Staff members who cannot attend their store&#x27;s assigned day due to scheduling conflicts or days off may join one of the alternate sessions. Lance plans to connect his laptop in the conference rooms to attend and facilitate all three sessions.</p>
+<li><strong>Setup and Integration Workflow</strong>: Lance scheduled a meeting with an internal team member at 1:00 PM on September 8, 2026, to begin initial VCA configurations. Lance plans to review their active Podium campaigns to ensure their historical data and specialized setups are ready for integration into Ven.</li>
+<li><strong>Opt-In Messaging Compliance</strong>: Lance and Michael discussed message compliance workflows. Podium did not require prior customer opt-in and instead included a &quot;reply STOP to opt out&quot; footer in text messages. Ven&#x27;s default workflow involves sending an initial automated opt-in request text, which can feel unnatural to customers. Lance noted that Ven allows staff to manually check the opt-in box within the workflow, bypassing the automated opt-in text for established leads.</li>
+</ul>
+<h2>Tangent: Disc Golf Discussion</h2>
+<p>The mid-section of the recording contains an extended segment featuring participants discussing disc golf gameplay, course design at Red Apple Farm, and individual disc selection for their MVP disc bags.</p>
+<h2>Action Items</h2>
+<p><strong>@Lance</strong></p>
+<ul>
+<li>[ ] Email Macy to discuss redirecting Gray Media traffic from the homepage to the model research page</li>
+<li>[ ] Review active Podium campaigns to prepare for Ven integration, Deadline: 2026-09-08</li>
+<li>[ ] Connect to the conference rooms and attend the three VCA training sessions to support dealership staff, Deadline: 2026-09-16</li>
+</ul>
+<p><strong>@Michael (Event Solutions)</strong></p>
+<ul>
+<li>[ ] Conduct the three scheduled VCA training sessions for the dealerships on September 14, 15, and 16, 2026, at 2:00 PM Central, Deadline: 2026-09-16</li>
+</ul></section>
+  <section id="hl" class="panel"><div class='empty'>No device highlights on this take.</div></section>
+  <section id="tx" class="panel"><div class="seg"><div class="ts">0:00</div><div>What should be called a target? Like what&#x27;s ideal? I mean,</div></div><div class="seg"><div class="ts">0:06</div><div>I I shoot for trying to get up up over three minutes, like two to three minutes, but then over is kind of like what I&#x27;m always thinking about. It&#x27;s sort of like it&#x27;s why we kind of start trying to figure out the newsletter thing that lives on a page, like other reasons for people to stay on the page longer, but then also. Having enough photos of the car so people, you know, if they find a car that they want, they&#x27;re able to kind of learn more about it.</div></div><div class="seg"><div class="ts">0:35</div><div>Because I&#x27;m looking like our average duration, meaning 23 seconds.</div></div><div class="seg"><div class="ts">0:42</div><div>Oh, I know. Are you looking at the? Where are you looking at that on the weekly thing? Wait, what&#x27;s that? I said, where are you looking at it right.</div></div><div class="seg"><div class="ts">0:50</div><div>Now? Oh, that&#x27;s this is from the Gray Media.</div></div><div class="seg"><div class="ts">0:58</div><div>Gray media. So that, yeah. So what you&#x27;re looking at now. So if you&#x27;re looking at basically people landing on the page from the gray media stuff, yeah. It&#x27;s and that it&#x27;s going to be lower with those things because it&#x27;s higher funnel traffic. So it&#x27;s not you know if we love people that are already looking for a car. That&#x27;s why Google Ads are higher converting. You know, for example, or a retargeting piece or something like that. But your gray media.</div></div><div class="seg"><div class="ts">1:28</div><div>And you know I&#x27;m not mad at it, but what you&#x27;re getting there is people that may not even be shopping, but they see it and they go, &quot;All right, let me go check it out.&quot; You know, so they&#x27;re higher funnel people. Well, that&#x27;s they&#x27;re all just different pieces, right? So like that&#x27;s more that&#x27;s more of a piece that&#x27;s similar to like what Audi would be running, meaning you&#x27;re just trying to get people to consider the brand. So you&#x27;re you&#x27;re gonna have a higher bounce rate. Less people stay on the site as long as they would if they&#x27;re already customers or if they&#x27;re looking at a Google ad and wanting to see what lease rates are and that kind of thing. You know what we can do. You know we have we have other places we can have them land, right? So it&#x27;s like we built that model page that rolled that long model research page that I built a while back. Yeah, that might be the page to have.</div></div><div class="seg"><div class="ts">2:24</div><div>People land on from that great media piece. You know what I&#x27;m saying? Instead of just homepage that lets them see, here&#x27;s all the models, here&#x27;s all the different entry entry points into the brand. You know what I mean? You want me to send an email to Macy and talk to her about what page they&#x27;re having shit land on?</div></div><div class="seg"><div class="ts">2:43</div><div>Yeah, let&#x27;s see, Dale. Because I&#x27;m looking here. It&#x27;s a pretty good backend tool. I&#x27;m not gonna lie. Yeah, I&#x27;ve looked at it. I think it&#x27;s on social. For example, yeah. That&#x27;s a minute twenty-two seconds. That&#x27;s not really much difference. A minute twenty-three. So much. Yeah, they&#x27;re all they&#x27;re all hanging in there about a minute and twenty seconds. You know, I don&#x27;t really see any of them working any better than the other ones. You know.</div></div><div class="seg"><div class="ts">3:35</div><div>I Mean, there&#x27;s a lot of people going to, but it doesn&#x27;t look like they&#x27;re. It doesn&#x27;t look like they&#x27;re hanging out there very, very long.</div></div><div class="seg"><div class="ts">3:43</div><div>So,</div></div><div class="seg"><div class="ts">3:47</div><div>Let&#x27;s see. So. I&#x27;m gonna log into their little tool again. Yeah. So you&#x27;re saying their tool is trying to give us, it&#x27;s giving us G4 data on our whole, on all of our stuff. Is what it is, or it&#x27;s just on the stuff sourced from there, from their piece.</div></div><div class="seg"><div class="ts">4:05</div><div>I mean, you know, Google Organic. I can&#x27;t imagine they&#x27;re having any kind of success. Yeah. No. Yeah, like Google Organic is a minute twenty - two second. Right, it&#x27;s and this is over a month&#x27;s period of time, so maybe check your back end. That&#x27;s what I&#x27;m looking at right now. If you get a similar number, I mean.</div></div><div class="seg"><div class="ts">4:45</div><div>No, what actually is looking like organic search is the bulk of our bulk of our business.</div></div><div class="seg"><div class="ts">4:51</div><div>Yeah, organic is like over ten thousand. Direct is over nineteen thousand, and direct is going to include basically anybody clicking a link that goes straight into our site. So that that nineteen thousand could include people coming from the from any ads, from any of Audi&#x27;s pieces that are out there, from any you know from the gray media piece. Anybody that just types in and lands on Audi Baton Rouge. I think it&#x27;s updated on. It&#x27;s the Rolling Thirty update on the August seventh. July, July to August.</div></div><div class="seg"><div class="ts">5:28</div><div>All right. No, I&#x27;m looking at August ninth to September eighth, and the similar numbers. Like, yeah, direct is twenty thousand, twenty point four. So that&#x27;s right. I imagine it&#x27;s it&#x27;s pulling data from.</div></div><div class="seg"><div class="ts">5:40</div><div>Yeah, it&#x27;s pulling data from J four. That was the access that I gave them for Gray Media stuff. Okay. I don&#x27;t know. Last week or week before.</div></div><div class="seg"><div class="ts">5:48</div><div>So we can at least see one. I&#x27;m safe to look at this package too. Yeah,</div></div><div class="seg"><div class="ts">5:51</div><div>That seems like that&#x27;s pretty accurate. Yeah. And if you see in something there that you want want more of, let me know, and I&#x27;ll wire it into that GM weekly dashboard too. For sure. Cool. Yeah. Thank you, man. Bye, bye.</div></div><div class="seg"><div class="ts">16:05</div><div>我出来工作。</div></div><div class="seg"><div class="ts">25:43</div><div>Hey, what&#x27;s up,</div></div><div class="seg"><div class="ts">25:59</div><div>Man? Hey, man. Is there a way to calculate time on website if we remove the bounce rate? Yeah.</div></div><div class="seg"><div class="ts">26:07</div><div>So I already. If you go refresh our like GM weekly. Do you have a link to it right now? Okay. If you refresh it, I I put in time for each. Right. It&#x27;s super granular now. It&#x27;s pretty badass. So you&#x27;ve got for each source medium. What I&#x27;m doing right now is trying to source the sources, like sort the sources, because so many of them, like CDNFlashTalking.com, could be almost any platform that uses FlashTalking, which was which would be a lot of programmatic things like the OTT stuff that Gray&#x27;s running, that Audi&#x27;s running, all that kind of crap. But anyway.</div></div><div class="seg"><div class="ts">26:41</div><div>They now show visits, individual people, average time visit. It&#x27;s a full breakdown, like actual phone taps and everything per source. So I just finished doing that, which is actually super helpful. You&#x27;ll see what I mean when you get in there.</div></div><div class="seg"><div class="ts">26:56</div><div>Alright, sounds good. I&#x27;ll do it. Alright, appreciate.</div></div><div class="seg"><div class="ts">27:00</div><div>Yep, no problem. Bye bye.</div></div><div class="seg"><div class="ts">28:44</div><div>嗯。</div></div><div class="seg"><div class="ts">29:58</div><div>Like I said, with a cutting approach and those singles from the green, I&#x27;m looking for something that will go high to flip up, glide right, high to flip straight, and then something that&#x27;s on high ground that will bounce back. So let&#x27;s see what we got. We got two or three, two or three eagle, two bird, and a birdie. So also eagle for Kai being for this. Flat, little hybrid, how it turns over. Flat, and that just went straight. Okay, that&#x27;s a nice flight. Okay, that might that might be something interesting. Okay. And.</div></div><div class="seg"><div class="ts">30:46</div><div>Welcome back to the vlog. I have the special guest here with me that you may or may not have heard of for a very, very long time. I believe since. The mile marker, right? I&#x27;m watching on the channel. I get hold the bar. When were when were promoting, hold the farm design, but the car sign just off. Total flip. Well, no, that was when I was on your channel. Now we&#x27;re on my channel. If you came from signers channel on the front nine, welcome. Thank you for joining. The challenging back nine at Red Apple Farm. Front nine has been in for a while. Back nine, pretty fresh.</div></div><div class="seg"><div class="ts">31:26</div><div>Aaron Blank and I helped out design hole thirteen through sixteen. Just kind of wanted to give the course some promotion. Finally, started trying out here. I just played the full course for the first time yesterday. And how do you think of the front? Unpleasantly surprised. Really cool. Some holes stand out as like really nice, really stepped up. But overall, lots of stats. Everything was played like clean. Very, very fun little drive. All right, so that&#x27;s an hour from. 12 minutes for me, so lucky me. All right, let&#x27;s go.</div></div><div class="seg"><div class="ts">32:00</div><div>Time to keep.</div></div><div class="seg"><div class="ts">32:18</div><div>In the box. So it&#x27;s like kind of a downhill slope behind the basket, so you don&#x27;t want to go long. You see that pro so much? It&#x27;s kind of like straight in that direction. Yeah. Three thirty. Oh, it&#x27;s shorter than that. Sorry to tell you. It&#x27;s shorter than that. Uh, three thirty, I would say. I don&#x27;t know.</div></div><div class="seg"><div class="ts">32:55</div><div>We&#x27;ll see what happens. Oh, you went way more left. Every single time, I feel like I&#x27;m right. Honeycomb, nice shout out by the way. Oh, nice shot. Yeah, I was gonna do that. Oh, here we go. Random. I just got out of bed and told himself that. You know what? I&#x27;m gonna wear these socks. And then he said, &quot;You know what? I&#x27;m gonna text Casey and say, &#x27;Let&#x27;s film this launch.&#x27; And here we are. Doesn&#x27;t happen that often anymore. We live a hour apart. Sorry, not as easy as the 25 minutes. I mean, if we both played baseball more often, maybe that would be.</div></div><div class="seg"><div class="ts">34:09</div><div>We&#x27;re just gonna,</div></div><div class="seg"><div class="ts">34:11</div><div>We&#x27;re just gonna give it a shot. We&#x27;re gonna get everything we want. All right, this is in the bag, 2026, NP, take one. I&#x27;ve been wanting to make this video for a long time. However, I feel like my bag has never really been that tied down. There&#x27;s been a lot of things in and out.</div></div><div class="seg"><div class="ts">34:38</div><div>Conclusion for now of the Build a Bag series, my first MVP in the bag. In the Build a Bag series, if you guys haven&#x27;t seen that, and you&#x27;re interested to see kind of my process of going through choosing a lot of these discs, those are all in a playlist on my channel. If you want to see me go through putter, mid, fairway, distance driver, it&#x27;s all there. A lot of these holes are different than the ones in those videos. In my putting video, I said that I was putting with Adams, and I did. But now I am putting with Electron Term. The story is actually pretty funny. Basically, I lost all of my atoms at the Airbnb after round one of Junk Pro this year. I just made the biggest rookie mistake of my life and left my putters at home. Not like I have my practice guys in my car. No, I have no, no atoms. All I had left in my car was two watts that I got from a sedan video, and I thought, you think it works? So I started putting the bees, and then I just didn&#x27;t really go back after that. I really like the feel of bees and the flight.</div></div><div class="seg"><div class="ts">35:38</div><div>There&#x27;s a chance I switch over and test out some things with Bezel&#x27;s new putter. I actually haven&#x27;t ever held one, but I&#x27;m just next for throwing. In the build my bag series, I was throwing low, totally flips proxies, and then I threw it in the swamp in New Orleans. So I&#x27;m throwing this silver one. It&#x27;s a little gummy, and so I&#x27;m looking to get maybe a different one that&#x27;s a little more firm. But it&#x27;s perfect for like high flips and touch shots. It&#x27;s one of my favorite. This not in the bag, but it was today during my practice round at Flagstone. It&#x27;s multiple entities. Something about it, I don&#x27;t know. I don&#x27;t know yet. There&#x27;s maybe something different. He doesn&#x27;t. Different. Not in the bag. This like my favorite disc. My top-end putter. This was the first disc that I really played with and could just throw with no worry. I always wanted to do. It&#x27;s speed in to be a little bit more straight than entity, but overall, it&#x27;s a versatile throwing putter. Really, just doesn&#x27;t like flying that much.</div></div><div class="seg"><div class="ts">36:36</div><div>Kind of just wants to sit, and I&#x27;ve also been able to sign on this easier than any other pro disc that I&#x27;ve ever signed. Me and this one specifically, that I got from my boy Chandler, shout Chandler, thanks brother. This is like one of the first any kid to sign to die, and me and him clicked immediately. So shout Chandler. Next we go mid. In the build my battery, I did not have a deflector in my bag. Some people were like, you need one, and I thought I could get away with just one and actually beat it, and I was super wrong. Deflector has been synchronized, especially in the lane. Throw for some time. It&#x27;s perfect for that. Mostly a utility disc, I don&#x27;t throw it all the time, but it&#x27;s exactly what I need when I need it. Next, now pyro. This one of the first MVP discs I got as well. It took me a while to figure them out. I always liked the boat. I learned how to throw kind of down tempo and highers with it, and that&#x27;s one of my favorite shots to throw. Love throwing with pyro. This has been like just a dream, honestly. This like one of my favorite nids that I&#x27;ve ever thrown. Overstable, super torque resistant, but also like really.</div></div><div class="seg"><div class="ts">37:36</div><div>Next, a hex. This hex is not the one in my bag. This is the one that was in my bag for a while, but it got some flippy, and then I found this beautiful hex. It&#x27;s perfect.</div></div><div class="seg"><div class="ts">37:48</div><div>Little solar.</div></div><div class="seg"><div class="ts">38:11</div><div>Who&#x27;s Lance? Hey, Lance. This is Michael from Event Solutions. How are you doing today? I&#x27;m doing well. How are you? Doing pretty good. So I&#x27;m calling for your store, Harris Porsche, because you guys have purchased a virtual contact. Yeah. So I have. Three stores here that all signed up for VCA at the same time. So it&#x27;s Harris Porsche, Audi Baton Rouge, and Brian Harris BMW. Are you? Would you be the one doing the training for any of all of the three, or are you just? Yeah.</div></div><div class="seg"><div class="ts">39:06</div><div>Audi Baton Rouge. Yeah, I&#x27;m actually, I&#x27;m gonna pull them all up for you right now. Man, hang on one, one quick second.</div></div><div class="seg"><div class="ts">39:32</div><div>Yeah, I&#x27;m the same point of contact for all of them. They haven&#x27;t been trained. Yeah, we&#x27;re scheduling a rollout for like the twenty-first would be our technical because I have podium through that date, and I&#x27;m basically worked with well, whoever the hell sold to me, Jeff Elliman, worked with Jeff to to try and not get my guys double book double build. So let&#x27;s see, Audi is twenty-one zero zero eight.</div></div><div class="seg"><div class="ts">40:06</div><div>Brian Harris BMW, and that one is twenty one zero one zero. And I don&#x27;t know why they didn&#x27;t give us three in a series. It&#x27;s kind of funny. I know. I&#x27;ve been told by you guys a few times. You.</div></div><div class="seg"><div class="ts">40:22</div><div>Know. Exactly. Yep.</div></div><div class="seg"><div class="ts">41:11</div><div>So I have some game. Yeah.</div></div><div class="seg"><div class="ts">42:34</div><div>Yeah. Probably not.</div></div><div class="seg"><div class="ts">42:47</div><div>Yeah. It&#x27;ll probably be easier if it&#x27;s, you know, if at least three separate sessions. And what, what we can do is, we can have them be stores separated. So we can also, basically, what I&#x27;m getting at, yeah, we can allow them like, hey, I can&#x27;t do mine tomorrow. I&#x27;m going to join this one. You know what I&#x27;m saying? So like, yeah, we&#x27;ll make three of them available, and then we&#x27;ll make all three known, and then let them all join whichever one they can. And what I can do too, for my for my part, I can try to make myself available for all three, so that I can.</div></div><div class="seg"><div class="ts">43:33</div><div>Hey, I&#x27;m gonna get my my laptop plugged into conference conference room over here at BMW. Let&#x27;s knock it out, and then you know I&#x27;m saying so. We&#x27;ll make it kind of a brute.</div></div><div class="seg"><div class="ts">43:45</div><div>Thing.</div></div><div class="seg"><div class="ts">43:57</div><div>We haven&#x27;t done much. We haven&#x27;t done much setup. So I&#x27;m I&#x27;m actually.</div></div><div class="seg"><div class="ts">44:25</div><div>Perfect Yeah, we&#x27;ve got it. Yeah, he&#x27;s just today. He and I are getting together today at one.</div></div><div class="seg"><div class="ts">44:43</div><div>Man, I think let&#x27;s just put them on a book for next week. I&#x27;m supposed to be trying to go out of town at some point, but I don&#x27;t have my damn vacation scheduled. What happens when you actually don&#x27;t schedule a vacation? Well, all right. Well, let&#x27;s do that then, man. I mean.</div></div><div class="seg"><div class="ts">45:26</div><div>Yeah Yeah, I think that that that&#x27;s probably our best bet. We go Monday, Tuesday, Wednesday. That kind of gives. We need it on separate days because people&#x27;s days off. And it&#x27;s midnight, so it&#x27;s like no pressure for closeout, which is good. Starting on the fourteenth, so fourteenth, fifteenth, and sixteenth, and I&#x27;m thinking maybe. Do.</div></div><div class="seg"><div class="ts">45:57</div><div>You have an afternoon slot? What is it? What about? Where are you? Okay. Yeah. So you&#x27;re you just one hour ahead. Well, depending on where you are in Florida, I guess, but yeah, you&#x27;re one hour ahead, so yeah, cool. So, that&#x27;s perfect. Let&#x27;s do. So you have two o&#x27;clock Central then. Three your time, yep. Perfect. Let&#x27;s do that. Yep. Yep.</div></div><div class="seg"><div class="ts">46:51</div><div>Okay. Okay. Yeah.</div></div><div class="seg"><div class="ts">47:29</div><div>Yeah, we&#x27;re gonna do it today. Like I&#x27;m gonna open up Podium and kind of look through some of the campaigns and all that bullshit. You know? Yeah, we&#x27;re gonna do it today. Yeah, and make sure you know because we have some specialized things that we&#x27;ve had Podium a while, so we&#x27;ve got a lot of deep kind of shit. Yeah, yeah. It&#x27;s and it&#x27;s great. It&#x27;s just not integrated, man. Like the integration inside of Ven is gonna be helpful. I think.</div></div><div class="seg"><div class="ts">48:05</div><div>Yeah, well, yeah, exactly. Tell me this, while I have you. So one of the nice things about Podium is it never asked for an opt in. It only gave an opt out opportunity, and so basically it was a lot because of that. It&#x27;s a lot more natural conversation starter. It&#x27;s like, hey, what&#x27;s going on? You know, you submitted a lead. We&#x27;d love to help you. What can we do for you? And then in the bottom of that text, it just says, if you&#x27;d like to opt out, just say stop. But I know that Vens.</div></div><div class="seg"><div class="ts">48:35</div><div>Yeah, one of Ven&#x27;s kind of things for a long time was they would send this first message. It&#x27;s like this odd opt-in message before they even start the conversation, but it lets us go in and manually check the box. Right in Ven is the workflow, so that we don&#x27;t have to send that awkward email, awkward text out.</div></div><div class="seg"><div class="ts">49:17</div><div>So like if we manually opt in, basically if we go opt them in.</div></div><div class="seg"><div class="ts">49:47</div><div>Okay.</div></div></section>
+</main>
+</div>
+<footer>PLAUD-NOTES-2026-09-17-0600-MORNING · noindex · Plaud sources + notes</footer>
+<script>
+
+document.querySelectorAll('.tabs button').forEach(btn => {
+  btn.addEventListener('click', () => {
+    document.querySelectorAll('.tabs button').forEach(b => b.setAttribute('aria-selected', b===btn ? 'true':'false'));
+    document.querySelectorAll('.panel').forEach(p => p.classList.toggle('is-on', p.id === btn.dataset.panel));
+  });
+});
+
+</script>
+</body>
+</html>
