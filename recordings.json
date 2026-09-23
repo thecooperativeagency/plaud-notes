@@ -2,6 +2,22 @@
   "revision": "PLAUD-NOTES-2026-09-17-0600-MORNING",
   "recordings": [
     {
+      "id": "of_373fcf4b904fe93c04f72488fb4f45e2",
+      "name": "09-22 Consultation: Autogroup website + platform onboarding",
+      "start_at": "2026-09-22T19:06:18.871000",
+      "created_at": "2026-09-22T19:17:53",
+      "duration_ms": 691000,
+      "vertical": "dealers",
+      "store": null,
+      "routed_by": "infer",
+      "status": "go",
+      "work_order": "Group site: Shop-by-Brand tiles + dynamic Locations Near You (vendor ~couple days). Bayrend onboarding items from 9/21 email. Snapshot 82 active opps (due-date sort) before 60-day lookback. Opportunity-brief export too thin (6 rows) for Acquire dashboard.",
+      "highlights": [],
+      "summary_md": "Consultation on the dealer-group website and onboarding to a new platform (Plaud: Bayrend).\n\n## Site\nVendor will add Shop-by-Brand tiles (Audi/BMW/Porsche currently get lost) and replace the static map with a dynamic Locations Near You module (address/hours; storefront photos optional). Visible in a couple of days. Follow-up email/text with links for Lance approval was promised immediately after the call.\n\n## Platform onboarding\nOnboarding-items email arrived 2026-09-21. Lance has not met them since signing. Risk: 60-day lookback may peel tasks/opps when the cutover lever is pulled. Snapshot active list (82) sorted by due date before switch.\n\n## Acquire / dashboard gap\nIn-app opportunity brief has customer intel; the downloaded task-detail report is ~6 rows and unusable. Lance wants richer export or capture so service-drive visitors can be name-matched to leads/engagement.\n\n## Snapshot numbers (as spoken)\n42% engagement; 20 vehicle sales (5 delivered, 4 pre-owned); 3 sales with no prior contact; 74 indirect leads; 200 ROs / $133,846 GP; 24 appts set / 16 occurred / 11 sold; ~$54k sales GP. Orphan bucket clean. X5 new model end of Oct; X3 stays 26. \u201cService now, pay later\u201d favored.\n\n## Actions\n- Vendor: Shop-by-Brand + Locations Near You; send approval links\n- Lance: Bayrend onboarding package; export/snapshot 82 active opps; storefront photos if wanted\n- Coop: richer opportunity-brief feed into Acquire before cutover\n",
+      "transcript": [],
+      "filed_at": "2026-09-23T06:28:06"
+    },
+    {
       "id": "of_8b2352fd06377f8e3c0f83e13d05e9e2",
       "name": "09-22 HP Acquire demo \u2014 sales lead generation tool",
       "start_at": "2026-09-22T14:58:21",

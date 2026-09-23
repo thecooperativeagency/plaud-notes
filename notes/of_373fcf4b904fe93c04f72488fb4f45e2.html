@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="robots" content="noindex, nofollow">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Coop Marketing — Field desk</title>
+  <title>09-22 Consultation: Autogroup website + platform onboarding</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500&family=IBM+Plex+Mono:wght@400;500&family=Source+Sans+3:wght@400;600;700&display=swap">
   <style>
@@ -136,29 +136,48 @@ footer { margin-top: 48px; color: var(--faint); font-size: 11px; font-family: va
   <div class="mark">Cooperative</div>
   <h1>Field desk</h1>
   <p class="lede">Plaud landings. Summary, highlights, transcript — filed by life area.</p>
-  <nav class="vnav"><a href="index.html" class="">All <span class="count">46</span></a><a class="" href="vertical-inbox.html">Inbox <span class="count">0</span></a><a class="" href="vertical-personal.html">Personal <span class="count">0</span></a><a class="is-on" href="vertical-coop-marketing.html">Coop Marketing <span class="count">2</span></a><a class="" href="vertical-coop-dev.html">Coop Dev <span class="count">8</span></a><a class="" href="vertical-avec-tous.html">Avec Tous <span class="count">0</span></a><a class="" href="vertical-dealers.html">Dealers <span class="count">34</span></a><a class="" href="vertical-ideas.html">Ideas <span class="count">2</span></a></nav>
+  <nav class="vnav"><a href="../index.html" class="">All <span class="count">46</span></a><a class="" href="../vertical-inbox.html">Inbox <span class="count">0</span></a><a class="" href="../vertical-personal.html">Personal <span class="count">0</span></a><a class="" href="../vertical-coop-marketing.html">Coop Marketing <span class="count">2</span></a><a class="" href="../vertical-coop-dev.html">Coop Dev <span class="count">8</span></a><a class="" href="../vertical-avec-tous.html">Avec Tous <span class="count">0</span></a><a class="is-on" href="../vertical-dealers.html">Dealers <span class="count">34</span></a><a class="" href="../vertical-ideas.html">Ideas <span class="count">2</span></a></nav>
 </aside>
 <main class="stage">
-  <div class="kicker">Vertical</div>
-  <h2>Coop Marketing</h2>
-  <p class="blurb">Dealer creative, SEO, specials, social, paid, GM packs.</p>
-  <div class="cards"><a class="card" href="notes/of_8c163da97259daeda6874fdf9097d8cd.html">
-  <div>
-    <h3>09-21 Consultation: Lance - Kip and King Marketing</h3>
-    <div class="meta"><span>2026-09-21</span><span>6m26s</span></div>
+  <a class="back" href="../index.html">← Desk</a>
+  <div class="note-top">
+    <div class="kicker">dealers · 2026-09-22 · 11m31s</div>
+    <h2>09-22 Consultation: Autogroup website + platform onboarding</h2>
+    <div class="meta" style="margin-top:8px"><span>id of_373fcf4b904fe93c04f72488fb4f45e2</span><span>infer</span></div>
   </div>
-  <span class="chip coop-marketing">coop-marketing</span>
-</a><a class="card" href="notes/00e229b85b9775bfdde17a9a3cc30035.html">
-  <div>
-    <h3>09-09 Meeting: Stroll Magazine Production Timeline and Automotive Feature Images (Cayenne, Audi Q7/Q9, BMW X5)</h3>
-    <div class="meta"><span>2026-09-09</span><span>38s</span></div>
+  <div class="tabs" role="tablist">
+    <button type="button" data-panel="sum" aria-selected="true">Summary</button>
+    <button type="button" data-panel="hl" aria-selected="false">Highlights</button>
+    <button type="button" data-panel="tx" aria-selected="false">Transcript</button>
   </div>
-  <span class="chip coop-marketing">coop-marketing</span>
-</a></div>
+  <section id="sum" class="panel is-on prose"><p>Consultation on the dealer-group website and onboarding to a new platform (Plaud: Bayrend).</p>
+<h2>Site</h2>
+<p>Vendor will add Shop-by-Brand tiles (Audi/BMW/Porsche currently get lost) and replace the static map with a dynamic Locations Near You module (address/hours; storefront photos optional). Visible in a couple of days. Follow-up email/text with links for Lance approval was promised immediately after the call.</p>
+<h2>Platform onboarding</h2>
+<p>Onboarding-items email arrived 2026-09-21. Lance has not met them since signing. Risk: 60-day lookback may peel tasks/opps when the cutover lever is pulled. Snapshot active list (82) sorted by due date before switch.</p>
+<h2>Acquire / dashboard gap</h2>
+<p>In-app opportunity brief has customer intel; the downloaded task-detail report is ~6 rows and unusable. Lance wants richer export or capture so service-drive visitors can be name-matched to leads/engagement.</p>
+<h2>Snapshot numbers (as spoken)</h2>
+<p>42% engagement; 20 vehicle sales (5 delivered, 4 pre-owned); 3 sales with no prior contact; 74 indirect leads; 200 ROs / $133,846 GP; 24 appts set / 16 occurred / 11 sold; ~$54k sales GP. Orphan bucket clean. X5 new model end of Oct; X3 stays 26. “Service now, pay later” favored.</p>
+<h2>Actions</h2>
+<ul>
+<li>Vendor: Shop-by-Brand + Locations Near You; send approval links</li>
+<li>Lance: Bayrend onboarding package; export/snapshot 82 active opps; storefront photos if wanted</li>
+<li>Coop: richer opportunity-brief feed into Acquire before cutover</li>
+</ul></section>
+  <section id="hl" class="panel"><div class='empty'>No device highlights on this take.</div></section>
+  <section id="tx" class="panel"><div class='empty'>No transcript yet.</div></section>
 </main>
 </div>
 <footer>PLAUD-NOTES-2026-09-17-0600-MORNING · noindex · Plaud sources + notes</footer>
 <script>
+
+document.querySelectorAll('.tabs button').forEach(btn => {
+  btn.addEventListener('click', () => {
+    document.querySelectorAll('.tabs button').forEach(b => b.setAttribute('aria-selected', b===btn ? 'true':'false'));
+    document.querySelectorAll('.panel').forEach(p => p.classList.toggle('is-on', p.id === btn.dataset.panel));
+  });
+});
 
 </script>
 </body>
