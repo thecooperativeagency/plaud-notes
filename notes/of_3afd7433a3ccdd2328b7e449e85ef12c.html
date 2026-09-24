@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>09-24 Meeting: Sales Platform Modes, Filtering, and Integrations</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500&family=IBM+Plex+Mono:wght@400;500&family=Source+Sans+3:wght@400;600;700&display=swap">
+  <style>
+:root {
+  --bg: #090908;
+  --bg-2: #11110f;
+  --bg-3: #181714;
+  --ink: #f0eadc;
+  --muted: #8d8778;
+  --faint: #5c574c;
+  --line: #26241e;
+  --accent: #c4452d;
+  --mustard: #c4a35a;
+  --blue: #6f8fbf;
+  --ok: #7d9a6d;
+  --serif: "Fraunces", "Iowan Old Style", Georgia, serif;
+  --sans: "Source Sans 3", "Source Sans Pro", -apple-system, sans-serif;
+  --mono: "IBM Plex Mono", ui-monospace, monospace;
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html, body { background: var(--bg); color: var(--ink); }
+body {
+  font-family: var(--sans);
+  min-height: 100vh;
+  text-wrap: pretty;
+}
+a { color: inherit; }
+.shell { display: grid; grid-template-columns: 260px 1fr; min-height: 100vh; }
+.rail {
+  border-right: 1px solid var(--line);
+  padding: 28px 18px 40px;
+  background: var(--bg-2);
+  position: sticky; top: 0; height: 100vh; overflow: auto;
+}
+.mark {
+  font-family: var(--serif);
+  font-weight: 500;
+  font-size: 13px;
+  letter-spacing: .18em;
+  text-transform: uppercase;
+  color: var(--accent);
+}
+.rail h1 {
+  font-family: var(--serif);
+  font-size: 28px;
+  font-weight: 460;
+  letter-spacing: -.03em;
+  margin: 10px 0 6px;
+}
+.rail .lede { color: var(--muted); font-size: 13.5px; line-height: 1.45; margin-bottom: 28px; }
+.vnav { display: flex; flex-direction: column; gap: 4px; }
+.vnav a {
+  display: flex; justify-content: space-between; align-items: baseline;
+  text-decoration: none; padding: 9px 10px; border-radius: 8px;
+  color: var(--ink); font-size: 14px;
+}
+.vnav a:hover, .vnav a.is-on { background: var(--bg-3); }
+.vnav a.is-on { box-shadow: inset 2px 0 0 var(--accent); }
+.vnav .count { color: var(--faint); font-family: var(--mono); font-size: 11px; }
+.stage { padding: 36px 40px 80px; max-width: 980px; }
+.kicker {
+  font-size: 11px; letter-spacing: .16em; text-transform: uppercase;
+  color: var(--accent); font-weight: 700; margin-bottom: 8px;
+}
+.stage > h2 {
+  font-family: var(--serif); font-weight: 460; font-size: 34px;
+  letter-spacing: -.03em; margin-bottom: 8px;
+}
+.blurb { color: var(--muted); margin-bottom: 28px; max-width: 46rem; }
+.empty {
+  border: 1px dashed var(--line); border-radius: 14px;
+  padding: 36px 28px; color: var(--muted); background: var(--bg-2);
+}
+.empty strong { color: var(--ink); font-weight: 600; }
+.cards { display: flex; flex-direction: column; gap: 10px; }
+.card {
+  display: grid; grid-template-columns: 1fr auto; gap: 12px;
+  text-decoration: none; padding: 16px 18px; border-radius: 12px;
+  background: var(--bg-2); border: 1px solid var(--line);
+}
+.card:hover { border-color: #3a372e; background: var(--bg-3); }
+.card h3 { font-size: 16px; font-weight: 600; margin-bottom: 4px; }
+.meta { color: var(--muted); font-size: 13px; display: flex; gap: 10px; flex-wrap: wrap; }
+.chip {
+  font-family: var(--mono); font-size: 10px; letter-spacing: .06em;
+  text-transform: uppercase; padding: 3px 7px; border-radius: 999px;
+  border: 1px solid var(--line); color: var(--muted); height: fit-content;
+}
+.chip.dealers { color: var(--blue); border-color: #2a3344; }
+.chip.avec-tous { color: var(--mustard); border-color: #3a3320; }
+.chip.personal { color: #c9a7a0; }
+.chip.ideas { color: var(--ok); }
+.note-top { margin-bottom: 22px; }
+.note-top h2 { font-family: var(--serif); font-size: 36px; font-weight: 460; letter-spacing: -.03em; }
+.tabs { display: flex; gap: 6px; margin: 22px 0 18px; border-bottom: 1px solid var(--line); }
+.tabs button {
+  appearance: none; background: none; border: 0; color: var(--muted);
+  font: 600 13px var(--sans); padding: 10px 12px; cursor: pointer;
+  border-bottom: 2px solid transparent; margin-bottom: -1px;
+}
+.tabs button[aria-selected="true"] { color: var(--ink); border-bottom-color: var(--accent); }
+.panel { display: none; }
+.panel.is-on { display: block; }
+.prose { font-size: 16.5px; line-height: 1.6; max-width: 42rem; }
+.prose h2, .prose h3 { font-family: var(--serif); font-weight: 500; margin: 1.3em 0 .4em; }
+.prose p { margin: 0 0 .8em; }
+.prose ul, .prose ol { margin: 0 0 1em 1.2em; }
+.prose li { margin: .25em 0; }
+.hl { border-left: 2px solid var(--accent); padding: 10px 0 10px 14px; margin: 0 0 14px; }
+.hl .t { font-family: var(--mono); font-size: 11px; color: var(--faint); }
+.hl h4 { font-size: 15px; margin: 4px 0; }
+.hl p { color: var(--muted); font-size: 14.5px; }
+.seg { display: grid; grid-template-columns: 64px 1fr; gap: 12px; padding: 8px 0; border-bottom: 1px solid var(--line); }
+.seg .ts { font-family: var(--mono); font-size: 11px; color: var(--faint); padding-top: 3px; }
+.back { color: var(--muted); text-decoration: none; font-size: 13px; display: inline-block; margin-bottom: 18px; }
+.back:hover { color: var(--ink); }
+footer { margin-top: 48px; color: var(--faint); font-size: 11px; font-family: var(--mono); }
+@media (max-width: 820px) {
+  .shell { grid-template-columns: 1fr; }
+  .rail { position: relative; height: auto; border-right: 0; border-bottom: 1px solid var(--line); }
+  .stage { padding: 24px 18px 64px; }
+  .note-top h2 { font-size: 28px; }
+}
+</style>
+</head>
+<body>
+<div class="shell">
+<aside class="rail">
+  <div class="mark">Cooperative</div>
+  <h1>Field desk</h1>
+  <p class="lede">Plaud landings. Summary, highlights, transcript — filed by life area.</p>
+  <nav class="vnav"><a href="../index.html" class="">All <span class="count">49</span></a><a class="" href="../vertical-inbox.html">Inbox <span class="count">0</span></a><a class="" href="../vertical-personal.html">Personal <span class="count">0</span></a><a class="" href="../vertical-coop-marketing.html">Coop Marketing <span class="count">2</span></a><a class="" href="../vertical-coop-dev.html">Coop Dev <span class="count">10</span></a><a class="" href="../vertical-avec-tous.html">Avec Tous <span class="count">0</span></a><a class="is-on" href="../vertical-dealers.html">Dealers <span class="count">35</span></a><a class="" href="../vertical-ideas.html">Ideas <span class="count">2</span></a></nav>
+</aside>
+<main class="stage">
+  <a class="back" href="../index.html">← Desk</a>
+  <div class="note-top">
+    <div class="kicker">dealers · 2026-09-24 · 17m45s</div>
+    <h2>09-24 Meeting: Sales Platform Modes, Filtering, and Integrations</h2>
+    <div class="meta" style="margin-top:8px"><span>id of_3afd7433a3ccdd2328b7e449e85ef12c</span><span>infer</span></div>
+  </div>
+  <div class="tabs" role="tablist">
+    <button type="button" data-panel="sum" aria-selected="true">Summary</button>
+    <button type="button" data-panel="hl" aria-selected="false">Highlights</button>
+    <button type="button" data-panel="tx" aria-selected="false">Transcript</button>
+  </div>
+  <section id="sum" class="panel is-on prose"><h2>Meeting Information</h2>
+<p>&gt; Date: 2026-09-24 11:11:39 &gt; Location: [Insert Location] &gt; Participants: [Lance] [Speaker 2] [Speaker 3] [Speaker 4] [Speaker 5] [Speaker 6]</p>
+<h2>Meeting Notes</h2>
+<ul>
+<li>Topic Title: Portfolio Mode vs. Normal Lead Mode in the Sales Platform</li>
+<p>  - Portfolio mode displays historical car deals and full sold portfolio data.   - Normal mode focuses on service leads, web leads, and BMW FS/KPI leads.   - Switching to portfolio mode changes drop-downs and behavior; it broke results for “David Spikes.”   - Duplicate entries for “David Spikes” exist due to how he was entered in the system.   - Refreshing and reselecting fixed some display issues, but portfolio mode still produced anomalies.   - Conclusion: Portfolio mode is unstable for certain users; normal mode is preferred for current lead work.</p>
+<li>Topic Title: Maturity Filtering and Salesperson-Specific Views</li>
+<p>  - The system can filter maturities by 1, 3, 6, and 9 months and by individual salesperson portfolios.   - “David Spikes” appears to have no items maturing soon in portfolio data (he has not been here long enough).   - Managers want salesperson dashboards with individual logins to view only their portfolio and maturities.   - There is interest in pushing selected targets into the CRM to create new opportunities.   - Conclusion: Clear interest in salesperson-specific dashboards; feasibility not yet confirmed.</p>
+<li>Topic Title: Integrating External Lead Sources (InfoBond, KPI, Service)</li>
+<p>  - The current system lists BMW KPI leads under “all ops” with adjustable date ranges.   - KPI leads can overlap with service visits to check whether customers bought cars and to track engagement.   - InfoBond integration is missing; InfoBond does not sync events or notes and has known limitations.   - Request to explore InfoBond export to enable cross-referencing and assign portfolios in the internal system.   - Some team members believe Tara’s lists include items outside the current CRM; Lance states they are the same leads already in-system.   - Conclusion: KPI and service data are integrated; InfoBond remains a gap requiring investigation.</p>
+<li>Topic Title: Platform and AI/Tooling Updates</li>
+<p>  - Podium remains only as web chat; AI functionality is now internal within Vensolutions (Vensol).   - Conversations previously in Podium can be viewed by logging into Vensolutions.   - Managing multiple AI projects is productive but demanding.   - Conclusion: AI and chat workflows have moved to internal systems; users should access Vensolutions for conversations.</p>
+<li>Topic Title: Operational Instructions Mentioned (Document Handling)</li>
+<p>  - Instructions included opening records (e.g., “six two nine”), accessing “additional details,” printing to PDF, and naming files (e.g., “PBL 92”, “PBL 921/922”).   - Send emails with attachments to Justin and Matt, and copy all managers.   - Use the “active returns” flow before distribution.   - Conclusion: Specific document processing steps were outlined for team members to follow.</p>
+</ul>
+<h2>Next Arrangements</h2>
+<ul>
+<li>[ ] Investigate InfoBond export or automated email to enable cross-referencing and portfolio assignment in the internal system, and define ownership and initial steps.</li>
+<li>[ ] Assess feasibility and requirements for salesperson-specific dashboards, including individual credentials, access control, and limited portfolio views.</li>
+<li>[ ] Review and fix portfolio mode anomalies (duplicates, broken filtering for “David Spikes”); establish a bug triage plan and assign a responsible owner.</li>
+<li>[ ] Ensure KPI leads and service overlap views are properly configured so managers can monitor engagement and check purchase outcomes.</li>
+<li>[ ] Send emails with PBL 921 and PBL 922 attachments to Justin and Matt; copy all managers; complete the “active returns” process beforehand.</li>
+<li>[ ] Confirm team access to Vensolutions for AI/chat conversations previously viewed in Podium and communicate any login or navigation steps.</li>
+<li>[ ] Clarify whether Tara’s lists contain any truly external leads and, if discrepancies exist, define a reconciliation process.</li>
+<li>[ ] Create a checklist for the document handling workflow (PBL files, “active returns”) to ensure consistency and avoid errors.</li>
+<li>[ ] [Insert more]</li>
+</ul>
+<h2>AI Suggestions</h2>
+<p>&gt; AI Suggestions &gt; AI has identified the following issues that were not concluded in the meeting or lack clear action items; please pay attention: &gt; 1. No confirmed plan or timeline to integrate InfoBond data; ownership and steps to explore export/automation are undefined. &gt; 2. The salesperson dashboard concept lacks requirements, access control details, and a development feasibility assessment. &gt; 3. Portfolio mode instability (duplicates, broken filtering) needs a bug triage plan and a responsible owner. &gt; 4. Clarify whether Tara’s lists contain any truly external leads and define a reconciliation process if discrepancies exist. &gt; 5. The document handling workflow (PBL files, “active returns”) should be captured in a checklist to avoid errors and ensure consistency.</p></section>
+  <section id="hl" class="panel"><div class='empty'>No device highlights on this take.</div></section>
+  <section id="tx" class="panel"><div class="seg"><div class="ts">0:00</div><div>So this now lets you do that. It lets you completely go fish and say, &quot; Who&#x27;s who&#x27;s, you know, maturing in three months, in six months, in one month?&quot; You can whittle it down to just one salesperson&#x27;s portfolio if you want to. You got to be careful. Sometimes you end up with like limiting, limiting things.</div></div><div class="seg"><div class="ts">0:25</div><div>Why did you say Spice does not have any?</div></div><div class="seg"><div class="ts">0:27</div><div>Yeah, that&#x27;s a good question. Spikes doesn&#x27;t have any all loaded days. Turn off, hit the big portfolio button. Let&#x27;s turn that off. Now on today, choose like, see the drop down for today. Choose all loaded days. And now go click on the David Spikes drop down. Is there another David Spikes, or is he just once? It still didn&#x27;t update. Hit refresh on this for me, just. Control R. Yeah. Now, now that this is all like from scratch, now go choose David Spikes, choose the other David Spikes. Okay. Why is there two? That&#x27;s just the way he&#x27;s been entered into the system, I guess. Yeah. So now it&#x27;s got some David Spikes occurrences.</div></div><div class="seg"><div class="ts">1:15</div><div>Where did the? Oh, we&#x27;re not in the portfolio anymore.</div></div><div class="seg"><div class="ts">1:23</div><div>Yeah, portfolio mode is breaking David Spikes for some reason. But also, so right now when you switch to portfolio mode, it&#x27;s like a whole different function, and you saw it like completely changes even some of your drop downs.</div></div><div class="seg"><div class="ts">1:34</div><div>So what is portfolio mode versus.</div></div><div class="seg"><div class="ts">1:37</div><div>Portfolio mode is actually letting you look at your entire, all of the cars we&#x27;ve ever sold to people. Basically, it just lets you look at all your old car deals. Is what it&#x27;s doing. The mode it&#x27;s in the normal mode is like service leads and web leads and AFS. I mean, you know, BMW FS leads, and which is where I would stay. It&#x27;s what it was originally designed for. The other piece came in because Porsche asked me for.</div></div><div class="seg"><div class="ts">2:03</div><div>It. What are you doing? I need your help. Where do you go? I go to what is it called? InfoBox. Like I&#x27;m looking at one TNT. All right. Um. What? What? What? All you guys taking kratom? Who&#x27;s taking kratom? Oh, are they? Oh my God.</div></div><div class="seg"><div class="ts">2:30</div><div>We know there&#x27;s like this crazy synthetic kratom that they&#x27;re doing.</div></div><div class="seg"><div class="ts">2:37</div><div>This thing. Yeah, that might be ten times worse. Yeah, that might be it. Crazy.</div></div><div class="seg"><div class="ts">2:41</div><div>Like real six two.</div></div><div class="seg"><div class="ts">2:42</div><div>Nine. Open that one up. Is that six two nine the last of them? All right. So click that. Then when it opens up, all right. Click additional details. Right click. Print. PDF. Name it nine two two. PBL nine two two.</div></div><div class="seg"><div class="ts">3:08</div><div>Better send the link to all those.</div></div><div class="seg"><div class="ts">3:11</div><div>Okay. Those people. All right. And then, hit contact details. All right, by four thirty-three, contract residual value. Continue. I want to purchase this thirty-three because you&#x27;re gonna get a bill for the rents. No, unclick that. Oh no, that&#x27;s right, that&#x27;s right. And then continue. And God, I can&#x27;t remember who&#x27;s calling this. Say yes.</div></div><div class="seg"><div class="ts">3:48</div><div>And then continue. All right. Pay me back that. Yep. Yep. About the actual terms. And.</div></div><div class="seg"><div class="ts">4:05</div><div>Then for the next one.</div></div><div class="seg"><div class="ts">4:22</div><div>Daryl,</div></div><div class="seg"><div class="ts">4:23</div><div>You want some slaw? Roast beef slaw.</div></div><div class="seg"><div class="ts">4:25</div><div>Dude, before you roll, can you put Yon Rock on the radio? I dropped check out the radio.</div></div><div class="seg"><div class="ts">4:31</div><div>I I can&#x27;t get on. I&#x27;m in the hood. You put Bounty to the sun.</div></div><div class="seg"><div class="ts">4:39</div><div>I know we should probably give me access to the sun and certain features. Probably don&#x27;t want me to have access to that.</div></div><div class="seg"><div class="ts">4:45</div><div>Well, unless we&#x27;re careless, let me see.</div></div><div class="seg"><div class="ts">4:47</div><div>I&#x27;m just kidding. I would put it on the Yon Rock for you.</div></div><div class="seg"><div class="ts">4:52</div><div>You would have to. Would have to. It&#x27;s a requirement.</div></div><div class="seg"><div class="ts">4:55</div><div>Cause I&#x27;m not a big fan of much else.</div></div><div class="seg"><div class="ts">4:56</div><div>What about? There&#x27;s nothing else you listen to sometimes.</div></div><div class="seg"><div class="ts">5:00</div><div>I listen to some country sometimes. Oh, Brooks and Dunn.</div></div><div class="seg"><div class="ts">5:04</div><div>I like that. Like a 90s country.</div></div><div class="seg"><div class="ts">5:06</div><div>Yeah. Alright. That&#x27;s one. We&#x27;ll see the stuff. My camera is old. Alright. I like that one.</div></div><div class="seg"><div class="ts">5:13</div><div>Wait on. Don&#x27;t tell me.</div></div><div class="seg"><div class="ts">5:14</div><div>We&#x27;re doing the same thing. Yep.</div></div><div class="seg"><div class="ts">5:19</div><div>A little rare earth, a little grand funk. Or is it? Like a little bread every once in a while.</div></div><div class="seg"><div class="ts">5:29</div><div>You ever listen to bread? Okay. Naptime. What is bread? Who&#x27;s bread? Bread. B R E A D. Oh, bread. Who is that? Drop it down. Oh, first thing. It was going to be P B L nine twenty one. You&#x27;ve heard this.</div></div><div class="seg"><div class="ts">5:45</div><div>I&#x27;m about to say I probably know him. I just don&#x27;t know what I&#x27;m talking.</div></div><div class="seg"><div class="ts">5:49</div><div>Pb1920 . Like what songs? Oh, we did 922. You sure? Yeah. You probably heard this one.</div></div><div class="seg"><div class="ts">6:21</div><div>Yes . Yes, sir. Uh huh. I don&#x27;t think I did that.</div></div><div class="seg"><div class="ts">6:24</div><div>Video. You did. Oh yeah. Yeah,</div></div><div class="seg"><div class="ts">6:26</div><div>Of course. Yeah. Yes, I just didn&#x27;t know who that was.</div></div><div class="seg"><div class="ts">6:31</div><div>Yeah, that&#x27;s good stuff. So, alright. Send an email to me. Um, you know everybody, and then say this is PBL nine twenty one and nine twenty two, and then attach that. Send it to Justin. Give him anything that needed. Cause you gotta stock him in. So he could do the work. Got it. Okay. Complete the thing. Go to active returns. All right. Now we good. Now send it to Matt. Got it. And copy all your managers on it. Got it.</div></div><div class="seg"><div class="ts">7:32</div><div>So, do you remember him?</div></div><div class="seg"><div class="ts">7:39</div><div>Oh yeah, I remember all that.</div></div><div class="seg"><div class="ts">7:40</div><div>Okay, well then you&#x27;re a part of it too,</div></div><div class="seg"><div class="ts">7:42</div><div>Dude. I do. Yeah, I just didn&#x27;t know it was bread. It&#x27;s funny because there&#x27;s a lot of old music that I&#x27;ve that I&#x27;ve listened to and didn&#x27;t know. I guess didn&#x27;t even know who it was. I used to listen to records a lot because my mom was worked at LSU&#x27;s radio at ninety one point one. My mom worked there when she was in college. Old, old albums. This isn&#x27;t a lot of old stuff.</div></div><div class="seg"><div class="ts">8:42</div><div>The dude David Gates was the head singer, and he did the theme song. Hello. Hey,</div></div><div class="seg"><div class="ts">8:57</div><div>No. Oh, I think Daryl pulled for my phone. No, I think we&#x27;re good. Okay, thanks.</div></div><div class="seg"><div class="ts">9:21</div><div>Probably seven days. Yeah. Easter. Oh yeah. And then young. Yep.</div></div><div class="seg"><div class="ts">10:20</div><div>So, a salesman&#x27;s dashboard,</div></div><div class="seg"><div class="ts">10:26</div><div>Or some way that they could have their own logins where they can only see their thing, or is that the same thing? I&#x27;m totally illiterate when it.</div></div><div class="seg"><div class="ts">10:31</div><div>Comes to this.</div></div><div class="seg"><div class="ts">10:33</div><div>So that they can so say say I&#x27;m me and I&#x27;m a salesperson. I can log in with my own credentials, and it just shows me my stuff, my portfolio, my everything. So every morning, just kind of like I did in Mastermind when I was selling, I could log into this platform. See all these things. See these things maturing. Dig out which ones I think would make sense, right? So essentially, like a mastermind, right?</div></div><div class="seg"><div class="ts">10:52</div><div>Push them into the CRM to create a new opportunity, kind of thing.</div></div><div class="seg"><div class="ts">10:54</div><div>Correct. Yep. But I don&#x27;t know how doable.</div></div><div class="seg"><div class="ts">11:00</div><div>Making sure I&#x27;m recording this, I&#x27;m not going to remember all.</div></div><div class="seg"><div class="ts">11:02</div><div>Of it. That&#x27;s what I&#x27;m thinking. That would be really nice because this way, it still this is super helpful because it condenses everything. But first, let&#x27;s find the bugs. Why it&#x27;s, I didn&#x27;t.</div></div><div class="seg"><div class="ts">11:14</div><div>I just used it. It worked fine. It&#x27;s like some about the way it built on your computer. Watch. Let me show you what I mean. Sometimes if it acts like that,</div></div><div class="seg"><div class="ts">11:21</div><div>And then me as managers, well, let me just finish on that point. So then us as managers can go in and I can check each person, right, and see like, hey, are you working your stuff? And if they&#x27;re not working, their mouse or mine or whatever, then we pull them off and mouse or mine.</div></div><div class="seg"><div class="ts">11:34</div><div>Yeah. I like that. She called it mouse or mine. I don&#x27;t. I don&#x27;t know how y&#x27;all see these little baby mouse, mouses. Your little mouse is so little.</div></div><div class="seg"><div class="ts">11:44</div><div>I know, and it disappears a lot. Ridiculous.</div></div><div class="seg"><div class="ts">11:48</div><div>All right, so here&#x27;s what I did just a second. You&#x27;ll never find portfolio mode.</div></div><div class="seg"><div class="ts">11:51</div><div>Did you run DMC? Can&#x27;t see his face.</div></div><div class="seg"><div class="ts">11:56</div><div>He does look like DMC. Look, here&#x27;s all David Spikes stuff.</div></div><div class="seg"><div class="ts">12:03</div><div>Okay,</div></div><div class="seg"><div class="ts">12:05</div><div>But I was you clicked the wrong David Spikes. But I would say one of the anomalies.</div></div><div class="seg"><div class="ts">12:09</div><div>Why is it chilling that there&#x27;s no he didn&#x27;t have anything maturing?</div></div><div class="seg"><div class="ts">12:12</div><div>This is portfolio.</div></div><div class="seg"><div class="ts">12:13</div><div>Okay, so go to maturity.</div></div><div class="seg"><div class="ts">12:15</div><div>Well, he doesn&#x27;t have anything maturing in a month. He hasn&#x27;t been here long enough.</div></div><div class="seg"><div class="ts">12:18</div><div>No, go to six months.</div></div><div class="seg"><div class="ts">12:19</div><div>Probably have anything maturing in nine months.</div></div><div class="seg"><div class="ts">12:21</div><div>Daryl gave him an entire fucking portfolio. He has right,</div></div><div class="seg"><div class="ts">12:23</div><div>But this is right now. This is cars that he actually sold. Where did Daryl give him a portfolio? He didn&#x27;t give him yeah. That doesn&#x27;t.</div></div><div class="seg"><div class="ts">12:31</div><div>So this is a pulling InfoBond.</div></div><div class="seg"><div class="ts">12:33</div><div>This is our data.</div></div><div class="seg"><div class="ts">12:35</div><div>Gotcha. Okay, and there&#x27;s no way to get it to pull InfoBond stuff.</div></div><div class="seg"><div class="ts">12:38</div><div>So, I what that is like.</div></div><div class="seg"><div class="ts">12:40</div><div>That&#x27;s one of the lists that we pulled.</div></div><div class="seg"><div class="ts">12:42</div><div>I&#x27;d have to go and dig around and explore inside of InfoBond and see if InfoBond has a way for me to just, like, export our whole portfolio. And if they do, then I could cross - reference this. Like, drop that in here and tell that tell that to inform this and say, hey, we want these people to be assigned to the people that they&#x27;re assigned to in InfoBond. Because that&#x27;s a center.</div></div><div class="seg"><div class="ts">13:04</div><div>InfoBond is one of the big places that we pull from, and yeah,</div></div><div class="seg"><div class="ts">13:07</div><div>And it&#x27;s one of the real bamboozle, right? Like it&#x27;s it&#x27;s frustrating because it doesn&#x27;t let us sync the event straight from InfoBond. Like that&#x27;s a famous problem.</div></div><div class="seg"><div class="ts">13:15</div><div>Yeah.</div></div><div class="seg"><div class="ts">13:17</div><div>Does it not even sync notes? It doesn&#x27;t even sync notes anymore, huh? Nothing. Because I feel like it used to sync notes.</div></div><div class="seg"><div class="ts">13:23</div><div>Why are we going to something? Thought it did. Why are we going to something? The new program we&#x27;re going to that was going to be syncing up everything.</div></div><div class="seg"><div class="ts">13:34</div><div>You&#x27;re thinking of getting rid of Podium and it&#x27;s linked into Vensol.</div></div><div class="seg"><div class="ts">13:37</div><div>Well, Podium is gone. Like, I mean, it still exists because it&#x27;s our web chat app, but it&#x27;s not our AI. Our AI is is internal now. It&#x27;s inside of Vensol. So, if you want to see like the conversations that you were looking at in Podium,</div></div><div class="seg"><div class="ts">13:50</div><div>Yeah,</div></div><div class="seg"><div class="ts">13:50</div><div>Right, you just gotta log in to Vensolutions and you can see all there.</div></div><div class="seg"><div class="ts">13:54</div><div>And that&#x27;s gonna talk to each other. Yeah. But this is different. This is internal, which is a big. Thing that we want them to work their leads and InfoBond because that&#x27;s big with the mature all the leases maturing and warranties running out and.</div></div><div class="seg"><div class="ts">14:36</div><div>I tell you what, I get a lot more work done with my AI stuff, but also, it&#x27;ll run you ragged trying to keep up with all the different programming and all the different projects.</div></div><div class="seg"><div class="ts">14:53</div><div>So that&#x27;s kind of my idea of mine. My whole thing was it&#x27;s all of these. The stuff in in in solutions I can find that pretty easily, right? It&#x27;s the stuff that&#x27;s not in there, like the list from like Tara&#x27;s stuff.</div></div><div class="seg"><div class="ts">15:04</div><div>Tara&#x27;s lists are not unique. They&#x27;re all they are is the same leads that we already have in our system.</div></div><div class="seg"><div class="ts">15:09</div><div>They are, but it prints some of the stuff, and that&#x27;s what I was saying in the meeting. Is some of the stuff overlaps, right? But some doesn&#x27;t. Sometimes there&#x27;ll be stuff that&#x27;s not in there or not. Whatever, so we wanted a place to combine all these outside sources of leads, funnel down into like its own. Well,</div></div><div class="seg"><div class="ts">15:24</div><div>There aren&#x27;t any outside sources of leads. I mean, like here&#x27;s the thing: like all the leads that Sarah Tara is talking about are leads that came in through, like, let&#x27;s say they&#x27;re like a BMW KPI lead that came into the system. All she&#x27;s talking about is a way to use their CRM to find them. And I&#x27;m always like, well, Tara, those came to us too. Also, they&#x27;re end - to - end solution.</div></div><div class="seg"><div class="ts">15:45</div><div>They are end - to - end solution. Yeah, and they&#x27;re, They&#x27;re not like not active or not being worked or not attached to somebody.</div></div><div class="seg"><div class="ts">15:50</div><div>Oh, for sure, but that&#x27;s why. So I don&#x27;t even know what you. That is. This is completely built already. Okay, so that&#x27;s in there. Yeah, watch. I just haven&#x27;t shown it to you yet, I guess. But watch. If you go right here to all ops,</div></div><div class="seg"><div class="ts">16:04</div><div>Focus families KPI, there they are, and just say all loaded days, and there&#x27;s all of your BMW KPI leads. Okay. It&#x27;s a big list. All right, it&#x27;s it&#x27;s showing you.</div></div><div class="seg"><div class="ts">16:16</div><div>However many it&#x27;s showing you, but there they all are. I can have it show you more. We can kind of change up how we, like, you know, the date range that I drop in. But these are all of our BMW KPI leads. And then the other neat thing is, you can overlap these, which is what I like. I can say, you have to fucking mouse. I can&#x27;t see it. Okay. It&#x27;s fucking. It&#x27;s terrible. Oh no. Do uh all instead of all ops, choose service. Now. Say all loaded.</div></div><div class="seg"><div class="ts">16:47</div><div>Now, leave it up to its own. So, this is services. There are service visits from KPI lead customers. Got it. So it&#x27;s like, okay, what&#x27;s going on? Did we sell them a car or not?</div></div><div class="seg"><div class="ts">16:58</div><div>Good, love that.</div></div><div class="seg"><div class="ts">16:59</div><div>Like all the KPIs are there.</div></div><div class="seg"><div class="ts">17:01</div><div>All we&#x27;re missing is InfoBond.</div></div><div class="seg"><div class="ts">17:03</div><div>Yeah, and that&#x27;s a whole bunch of bull. Like I&#x27;ll, I&#x27;ll have to dig. I got a long Info Bond. If Info Bond had some automated email out of there, boy, that would be slick because then I could have it just drop into my system because. That&#x27;s what&#x27;s happening now.</div></div><div class="seg"><div class="ts">17:19</div><div>What you can find in that. So that, and if we can have the salespeople have their own credentials to log in to see their own dashboards to work their stuff, kind of like a Mastermind. Yeah, this is awesome. But you better use it. Oh, I&#x27;ll use it.</div></div><div class="seg"><div class="ts">17:32</div><div>I can. Listen, I can ask Ada. Is Carly using it? And she&#x27;ll tell me.</div></div><div class="seg"><div class="ts">17:37</div><div>What? Like you don&#x27;t trust me? Uh oh. What? This is a rat. We&#x27;ll take it back. Yeah.</div></div></section>
+</main>
+</div>
+<footer>PLAUD-NOTES-2026-09-24-1330-MIDDAY · noindex · Plaud sources + notes</footer>
+<script>
+
+document.querySelectorAll('.tabs button').forEach(btn => {
+  btn.addEventListener('click', () => {
+    document.querySelectorAll('.tabs button').forEach(b => b.setAttribute('aria-selected', b===btn ? 'true':'false'));
+    document.querySelectorAll('.panel').forEach(p => p.classList.toggle('is-on', p.id === btn.dataset.panel));
+  });
+});
+
+</script>
+</body>
+</html>

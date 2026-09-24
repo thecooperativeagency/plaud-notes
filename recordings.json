@@ -1,21 +1,828 @@
 {
-  "revision": "PLAUD-NOTES-2026-09-17-0600-MORNING",
+  "revision": "PLAUD-NOTES-2026-09-24-1330-MIDDAY",
   "recordings": [
     {
-      "id": "of_373fcf4b904fe93c04f72488fb4f45e2",
-      "name": "09-22 Consultation: Autogroup website + platform onboarding",
-      "start_at": "2026-09-22T19:06:18.871000",
-      "created_at": "2026-09-22T19:17:53",
-      "duration_ms": 691000,
+      "id": "of_3afd7433a3ccdd2328b7e449e85ef12c",
+      "name": "09-24 Meeting: Sales Platform Modes, Filtering, and Integrations",
+      "start_at": "2026-09-24T11:11:39",
+      "created_at": "2026-09-24T16:29:36",
+      "duration_ms": 1065000,
       "vertical": "dealers",
-      "store": null,
       "routed_by": "infer",
-      "status": "go",
-      "work_order": "Group site: Shop-by-Brand tiles + dynamic Locations Near You (vendor ~couple days). Bayrend onboarding items from 9/21 email. Snapshot 82 active opps (due-date sort) before 60-day lookback. Opportunity-brief export too thin (6 rows) for Acquire dashboard.",
+      "status": "park",
+      "work_order": "",
       "highlights": [],
-      "summary_md": "Consultation on the dealer-group website and onboarding to a new platform (Plaud: Bayrend).\n\n## Site\nVendor will add Shop-by-Brand tiles (Audi/BMW/Porsche currently get lost) and replace the static map with a dynamic Locations Near You module (address/hours; storefront photos optional). Visible in a couple of days. Follow-up email/text with links for Lance approval was promised immediately after the call.\n\n## Platform onboarding\nOnboarding-items email arrived 2026-09-21. Lance has not met them since signing. Risk: 60-day lookback may peel tasks/opps when the cutover lever is pulled. Snapshot active list (82) sorted by due date before switch.\n\n## Acquire / dashboard gap\nIn-app opportunity brief has customer intel; the downloaded task-detail report is ~6 rows and unusable. Lance wants richer export or capture so service-drive visitors can be name-matched to leads/engagement.\n\n## Snapshot numbers (as spoken)\n42% engagement; 20 vehicle sales (5 delivered, 4 pre-owned); 3 sales with no prior contact; 74 indirect leads; 200 ROs / $133,846 GP; 24 appts set / 16 occurred / 11 sold; ~$54k sales GP. Orphan bucket clean. X5 new model end of Oct; X3 stays 26. \u201cService now, pay later\u201d favored.\n\n## Actions\n- Vendor: Shop-by-Brand + Locations Near You; send approval links\n- Lance: Bayrend onboarding package; export/snapshot 82 active opps; storefront photos if wanted\n- Coop: richer opportunity-brief feed into Acquire before cutover\n",
-      "transcript": [],
-      "filed_at": "2026-09-23T06:28:06"
+      "summary_md": "## Meeting Information\n> Date: 2026-09-24 11:11:39\n> Location: [Insert Location]\n> Participants: [Lance] [Speaker 2] [Speaker 3] [Speaker 4] [Speaker 5] [Speaker 6]\n## Meeting Notes\n- Topic Title: Portfolio Mode vs. Normal Lead Mode in the Sales Platform\n  - Portfolio mode displays historical car deals and full sold portfolio data.\n  - Normal mode focuses on service leads, web leads, and BMW FS/KPI leads.\n  - Switching to portfolio mode changes drop-downs and behavior; it broke results for \u201cDavid Spikes.\u201d\n  - Duplicate entries for \u201cDavid Spikes\u201d exist due to how he was entered in the system.\n  - Refreshing and reselecting fixed some display issues, but portfolio mode still produced anomalies.\n  - Conclusion: Portfolio mode is unstable for certain users; normal mode is preferred for current lead work.\n- Topic Title: Maturity Filtering and Salesperson-Specific Views\n  - The system can filter maturities by 1, 3, 6, and 9 months and by individual salesperson portfolios.\n  - \u201cDavid Spikes\u201d appears to have no items maturing soon in portfolio data (he has not been here long enough).\n  - Managers want salesperson dashboards with individual logins to view only their portfolio and maturities.\n  - There is interest in pushing selected targets into the CRM to create new opportunities.\n  - Conclusion: Clear interest in salesperson-specific dashboards; feasibility not yet confirmed.\n- Topic Title: Integrating External Lead Sources (InfoBond, KPI, Service)\n  - The current system lists BMW KPI leads under \u201call ops\u201d with adjustable date ranges.\n  - KPI leads can overlap with service visits to check whether customers bought cars and to track engagement.\n  - InfoBond integration is missing; InfoBond does not sync events or notes and has known limitations.\n  - Request to explore InfoBond export to enable cross-referencing and assign portfolios in the internal system.\n  - Some team members believe Tara\u2019s lists include items outside the current CRM; Lance states they are the same leads already in-system.\n  - Conclusion: KPI and service data are integrated; InfoBond remains a gap requiring investigation.\n- Topic Title: Platform and AI/Tooling Updates\n  - Podium remains only as web chat; AI functionality is now internal within Vensolutions (Vensol).\n  - Conversations previously in Podium can be viewed by logging into Vensolutions.\n  - Managing multiple AI projects is productive but demanding.\n  - Conclusion: AI and chat workflows have moved to internal systems; users should access Vensolutions for conversations.\n- Topic Title: Operational Instructions Mentioned (Document Handling)\n  - Instructions included opening records (e.g., \u201csix two nine\u201d), accessing \u201cadditional details,\u201d printing to PDF, and naming files (e.g., \u201cPBL 92\u201d, \u201cPBL 921/922\u201d).\n  - Send emails with attachments to Justin and Matt, and copy all managers.\n  - Use the \u201cactive returns\u201d flow before distribution.\n  - Conclusion: Specific document processing steps were outlined for team members to follow.\n## Next Arrangements\n- [ ] Investigate InfoBond export or automated email to enable cross-referencing and portfolio assignment in the internal system, and define ownership and initial steps.\n- [ ] Assess feasibility and requirements for salesperson-specific dashboards, including individual credentials, access control, and limited portfolio views.\n- [ ] Review and fix portfolio mode anomalies (duplicates, broken filtering for \u201cDavid Spikes\u201d); establish a bug triage plan and assign a responsible owner.\n- [ ] Ensure KPI leads and service overlap views are properly configured so managers can monitor engagement and check purchase outcomes.\n- [ ] Send emails with PBL 921 and PBL 922 attachments to Justin and Matt; copy all managers; complete the \u201cactive returns\u201d process beforehand.\n- [ ] Confirm team access to Vensolutions for AI/chat conversations previously viewed in Podium and communicate any login or navigation steps.\n- [ ] Clarify whether Tara\u2019s lists contain any truly external leads and, if discrepancies exist, define a reconciliation process.\n- [ ] Create a checklist for the document handling workflow (PBL files, \u201cactive returns\u201d) to ensure consistency and avoid errors.\n- [ ] [Insert more]\n## AI Suggestions\n> AI Suggestions\n> AI has identified the following issues that were not concluded in the meeting or lack clear action items; please pay attention:\n> 1. No confirmed plan or timeline to integrate InfoBond data; ownership and steps to explore export/automation are undefined.\n> 2. The salesperson dashboard concept lacks requirements, access control details, and a development feasibility assessment.\n> 3. Portfolio mode instability (duplicates, broken filtering) needs a bug triage plan and a responsible owner.\n> 4. Clarify whether Tara\u2019s lists contain any truly external leads and define a reconciliation process if discrepancies exist.\n> 5. The document handling workflow (PBL files, \u201cactive returns\u201d) should be captured in a checklist to avoid errors and ensure consistency.",
+      "transcript": [
+        {
+          "start_time": 320,
+          "end_time": 25360,
+          "speaker": "Lance",
+          "content": "So this now lets you do that. It lets you completely go fish and say, \" Who's who's, you know, maturing in three months, in six months, in one month?\" You can whittle it down to just one salesperson's portfolio if you want to. You got to be careful. Sometimes you end up with like limiting, limiting things."
+        },
+        {
+          "start_time": 25360,
+          "end_time": 27140,
+          "speaker": "Speaker 2",
+          "content": "Why did you say Spice does not have any?"
+        },
+        {
+          "start_time": 27140,
+          "end_time": 75780,
+          "speaker": "Lance",
+          "content": "Yeah, that's a good question. Spikes doesn't have any all loaded days. Turn off, hit the big portfolio button. Let's turn that off. Now on today, choose like, see the drop down for today. Choose all loaded days. And now go click on the David Spikes drop down. Is there another David Spikes, or is he just once? It still didn't update. Hit refresh on this for me, just. Control R. Yeah. Now, now that this is all like from scratch, now go choose David Spikes, choose the other David Spikes. Okay. Why is there two? That's just the way he's been entered into the system, I guess. Yeah. So now it's got some David Spikes occurrences."
+        },
+        {
+          "start_time": 75780,
+          "end_time": 83710,
+          "speaker": "Speaker 3",
+          "content": "Where did the? Oh, we're not in the portfolio anymore."
+        },
+        {
+          "start_time": 83870,
+          "end_time": 94190,
+          "speaker": "Lance",
+          "content": "Yeah, portfolio mode is breaking David Spikes for some reason. But also, so right now when you switch to portfolio mode, it's like a whole different function, and you saw it like completely changes even some of your drop downs."
+        },
+        {
+          "start_time": 94190,
+          "end_time": 97950,
+          "speaker": "Speaker 3",
+          "content": "So what is portfolio mode versus."
+        },
+        {
+          "start_time": 97950,
+          "end_time": 123730,
+          "speaker": "Lance",
+          "content": "Portfolio mode is actually letting you look at your entire, all of the cars we've ever sold to people. Basically, it just lets you look at all your old car deals. Is what it's doing. The mode it's in the normal mode is like service leads and web leads and AFS. I mean, you know, BMW FS leads, and which is where I would stay. It's what it was originally designed for. The other piece came in because Porsche asked me for."
+        },
+        {
+          "start_time": 123730,
+          "end_time": 150110,
+          "speaker": "Speaker 4",
+          "content": "It. What are you doing? I need your help. Where do you go? I go to what is it called? InfoBox. Like I'm looking at one TNT. All right. Um. What? What? What? All you guys taking kratom? Who's taking kratom? Oh, are they? Oh my God."
+        },
+        {
+          "start_time": 150110,
+          "end_time": 157470,
+          "speaker": "Lance",
+          "content": "We know there's like this crazy synthetic kratom that they're doing."
+        },
+        {
+          "start_time": 157470,
+          "end_time": 161550,
+          "speaker": "Speaker 4",
+          "content": "This thing. Yeah, that might be ten times worse. Yeah, that might be it. Crazy."
+        },
+        {
+          "start_time": 161550,
+          "end_time": 162750,
+          "speaker": "Lance",
+          "content": "Like real six two."
+        },
+        {
+          "start_time": 162750,
+          "end_time": 188710,
+          "speaker": "Speaker 4",
+          "content": "Nine. Open that one up. Is that six two nine the last of them? All right. So click that. Then when it opens up, all right. Click additional details. Right click. Print. PDF. Name it nine two two. PBL nine two two."
+        },
+        {
+          "start_time": 188710,
+          "end_time": 191670,
+          "speaker": "Lance",
+          "content": "Better send the link to all those."
+        },
+        {
+          "start_time": 191670,
+          "end_time": 226140,
+          "speaker": "Speaker 4",
+          "content": "Okay. Those people. All right. And then, hit contact details. All right, by four thirty-three, contract residual value. Continue. I want to purchase this thirty-three because you're gonna get a bill for the rents. No, unclick that. Oh no, that's right, that's right. And then continue. And God, I can't remember who's calling this. Say yes."
+        },
+        {
+          "start_time": 228240,
+          "end_time": 245840,
+          "speaker": "Speaker 4",
+          "content": "And then continue. All right. Pay me back that. Yep. Yep. About the actual terms. And."
+        },
+        {
+          "start_time": 245840,
+          "end_time": 248390,
+          "speaker": "Speaker 5",
+          "content": "Then for the next one."
+        },
+        {
+          "start_time": 262390,
+          "end_time": 263510,
+          "speaker": "Speaker 5",
+          "content": "Daryl,"
+        },
+        {
+          "start_time": 263510,
+          "end_time": 265190,
+          "speaker": "Speaker 3",
+          "content": "You want some slaw? Roast beef slaw."
+        },
+        {
+          "start_time": 265190,
+          "end_time": 271750,
+          "speaker": "Speaker 4",
+          "content": "Dude, before you roll, can you put Yon Rock on the radio? I dropped check out the radio."
+        },
+        {
+          "start_time": 271750,
+          "end_time": 279990,
+          "speaker": "Speaker 5",
+          "content": "I I can't get on. I'm in the hood. You put Bounty to the sun."
+        },
+        {
+          "start_time": 279990,
+          "end_time": 285510,
+          "speaker": "Speaker 3",
+          "content": "I know we should probably give me access to the sun and certain features. Probably don't want me to have access to that."
+        },
+        {
+          "start_time": 285510,
+          "end_time": 287430,
+          "speaker": "Speaker 4",
+          "content": "Well, unless we're careless, let me see."
+        },
+        {
+          "start_time": 287430,
+          "end_time": 291290,
+          "speaker": "Speaker 3",
+          "content": "I'm just kidding. I would put it on the Yon Rock for you."
+        },
+        {
+          "start_time": 292190,
+          "end_time": 295230,
+          "speaker": "Speaker 4",
+          "content": "You would have to. Would have to. It's a requirement."
+        },
+        {
+          "start_time": 295230,
+          "end_time": 296750,
+          "speaker": "Speaker 5",
+          "content": "Cause I'm not a big fan of much else."
+        },
+        {
+          "start_time": 296750,
+          "end_time": 300430,
+          "speaker": "Speaker 3",
+          "content": "What about? There's nothing else you listen to sometimes."
+        },
+        {
+          "start_time": 300430,
+          "end_time": 304110,
+          "speaker": "Speaker 5",
+          "content": "I listen to some country sometimes. Oh, Brooks and Dunn."
+        },
+        {
+          "start_time": 304110,
+          "end_time": 306030,
+          "speaker": "Speaker 3",
+          "content": "I like that. Like a 90s country."
+        },
+        {
+          "start_time": 306030,
+          "end_time": 313070,
+          "speaker": "Speaker 4",
+          "content": "Yeah. Alright. That's one. We'll see the stuff. My camera is old. Alright. I like that one."
+        },
+        {
+          "start_time": 313070,
+          "end_time": 314430,
+          "speaker": "Speaker 3",
+          "content": "Wait on. Don't tell me."
+        },
+        {
+          "start_time": 314430,
+          "end_time": 317570,
+          "speaker": "Speaker 6",
+          "content": "We're doing the same thing. Yep."
+        },
+        {
+          "start_time": 319900,
+          "end_time": 329900,
+          "speaker": "Speaker 5",
+          "content": "A little rare earth, a little grand funk. Or is it? Like a little bread every once in a while."
+        },
+        {
+          "start_time": 329900,
+          "end_time": 345500,
+          "speaker": "Speaker 4",
+          "content": "You ever listen to bread? Okay. Naptime. What is bread? Who's bread? Bread. B R E A D. Oh, bread. Who is that? Drop it down. Oh, first thing. It was going to be P B L nine twenty one. You've heard this."
+        },
+        {
+          "start_time": 345500,
+          "end_time": 347800,
+          "speaker": "Lance",
+          "content": "I'm about to say I probably know him. I just don't know what I'm talking."
+        },
+        {
+          "start_time": 349120,
+          "end_time": 355280,
+          "speaker": "Speaker 4",
+          "content": "Pb1920 . Like what songs? Oh, we did 922. You sure? Yeah. You probably heard this one."
+        },
+        {
+          "start_time": 381070,
+          "end_time": 384590,
+          "speaker": "Speaker 6",
+          "content": "Yes . Yes, sir. Uh huh. I don't think I did that."
+        },
+        {
+          "start_time": 384590,
+          "end_time": 386590,
+          "speaker": "Speaker 4",
+          "content": "Video. You did. Oh yeah. Yeah,"
+        },
+        {
+          "start_time": 386590,
+          "end_time": 391710,
+          "speaker": "Lance",
+          "content": "Of course. Yeah. Yes, I just didn't know who that was."
+        },
+        {
+          "start_time": 391710,
+          "end_time": 425610,
+          "speaker": "Speaker 4",
+          "content": "Yeah, that's good stuff. So, alright. Send an email to me. Um, you know everybody, and then say this is PBL nine twenty one and nine twenty two, and then attach that. Send it to Justin. Give him anything that needed. Cause you gotta stock him in. So he could do the work. Got it. Okay. Complete the thing. Go to active returns. All right. Now we good. Now send it to Matt. Got it. And copy all your managers on it. Got it."
+        },
+        {
+          "start_time": 452920,
+          "end_time": 459240,
+          "speaker": "Speaker 5",
+          "content": "So, do you remember him?"
+        },
+        {
+          "start_time": 459240,
+          "end_time": 460520,
+          "speaker": "Lance",
+          "content": "Oh yeah, I remember all that."
+        },
+        {
+          "start_time": 460520,
+          "end_time": 462360,
+          "speaker": "Speaker 5",
+          "content": "Okay, well then you're a part of it too,"
+        },
+        {
+          "start_time": 462360,
+          "end_time": 488320,
+          "speaker": "Lance",
+          "content": "Dude. I do. Yeah, I just didn't know it was bread. It's funny because there's a lot of old music that I've that I've listened to and didn't know. I guess didn't even know who it was. I used to listen to records a lot because my mom was worked at LSU's radio at ninety one point one. My mom worked there when she was in college. Old, old albums. This isn't a lot of old stuff."
+        },
+        {
+          "start_time": 522380,
+          "end_time": 537500,
+          "speaker": "Speaker 5",
+          "content": "The dude David Gates was the head singer, and he did the theme song. Hello. Hey,"
+        },
+        {
+          "start_time": 537500,
+          "end_time": 546380,
+          "speaker": "Speaker 2",
+          "content": "No. Oh, I think Daryl pulled for my phone. No, I think we're good. Okay, thanks."
+        },
+        {
+          "start_time": 561740,
+          "end_time": 591120,
+          "speaker": "Speaker 5",
+          "content": "Probably seven days. Yeah. Easter. Oh yeah. And then young. Yep."
+        },
+        {
+          "start_time": 620150,
+          "end_time": 626230,
+          "speaker": "Lance",
+          "content": "So, a salesman's dashboard,"
+        },
+        {
+          "start_time": 626230,
+          "end_time": 631830,
+          "speaker": "Speaker 3",
+          "content": "Or some way that they could have their own logins where they can only see their thing, or is that the same thing? I'm totally illiterate when it."
+        },
+        {
+          "start_time": 631830,
+          "end_time": 633110,
+          "speaker": "Lance",
+          "content": "Comes to this."
+        },
+        {
+          "start_time": 633110,
+          "end_time": 652470,
+          "speaker": "Speaker 3",
+          "content": "So that they can so say say I'm me and I'm a salesperson. I can log in with my own credentials, and it just shows me my stuff, my portfolio, my everything. So every morning, just kind of like I did in Mastermind when I was selling, I could log into this platform. See all these things. See these things maturing. Dig out which ones I think would make sense, right? So essentially, like a mastermind, right?"
+        },
+        {
+          "start_time": 652470,
+          "end_time": 654950,
+          "speaker": "Lance",
+          "content": "Push them into the CRM to create a new opportunity, kind of thing."
+        },
+        {
+          "start_time": 654950,
+          "end_time": 660150,
+          "speaker": "Speaker 3",
+          "content": "Correct. Yep. But I don't know how doable."
+        },
+        {
+          "start_time": 660150,
+          "end_time": 662470,
+          "speaker": "Lance",
+          "content": "Making sure I'm recording this, I'm not going to remember all."
+        },
+        {
+          "start_time": 662470,
+          "end_time": 674920,
+          "speaker": "Speaker 3",
+          "content": "Of it. That's what I'm thinking. That would be really nice because this way, it still this is super helpful because it condenses everything. But first, let's find the bugs. Why it's, I didn't."
+        },
+        {
+          "start_time": 674920,
+          "end_time": 681560,
+          "speaker": "Lance",
+          "content": "I just used it. It worked fine. It's like some about the way it built on your computer. Watch. Let me show you what I mean. Sometimes if it acts like that,"
+        },
+        {
+          "start_time": 681560,
+          "end_time": 694200,
+          "speaker": "Speaker 3",
+          "content": "And then me as managers, well, let me just finish on that point. So then us as managers can go in and I can check each person, right, and see like, hey, are you working your stuff? And if they're not working, their mouse or mine or whatever, then we pull them off and mouse or mine."
+        },
+        {
+          "start_time": 694200,
+          "end_time": 704740,
+          "speaker": "Lance",
+          "content": "Yeah. I like that. She called it mouse or mine. I don't. I don't know how y'all see these little baby mouse, mouses. Your little mouse is so little."
+        },
+        {
+          "start_time": 704740,
+          "end_time": 708660,
+          "speaker": "Speaker 6",
+          "content": "I know, and it disappears a lot. Ridiculous."
+        },
+        {
+          "start_time": 708660,
+          "end_time": 711460,
+          "speaker": "Lance",
+          "content": "All right, so here's what I did just a second. You'll never find portfolio mode."
+        },
+        {
+          "start_time": 711460,
+          "end_time": 716660,
+          "speaker": "Speaker 2",
+          "content": "Did you run DMC? Can't see his face."
+        },
+        {
+          "start_time": 716660,
+          "end_time": 723060,
+          "speaker": "Lance",
+          "content": "He does look like DMC. Look, here's all David Spikes stuff."
+        },
+        {
+          "start_time": 723060,
+          "end_time": 725380,
+          "speaker": "Speaker 6",
+          "content": "Okay,"
+        },
+        {
+          "start_time": 725380,
+          "end_time": 729740,
+          "speaker": "Lance",
+          "content": "But I was you clicked the wrong David Spikes. But I would say one of the anomalies."
+        },
+        {
+          "start_time": 729740,
+          "end_time": 732940,
+          "speaker": "Speaker 6",
+          "content": "Why is it chilling that there's no he didn't have anything maturing?"
+        },
+        {
+          "start_time": 732940,
+          "end_time": 733980,
+          "speaker": "Lance",
+          "content": "This is portfolio."
+        },
+        {
+          "start_time": 733980,
+          "end_time": 735820,
+          "speaker": "Speaker 6",
+          "content": "Okay, so go to maturity."
+        },
+        {
+          "start_time": 735820,
+          "end_time": 738700,
+          "speaker": "Lance",
+          "content": "Well, he doesn't have anything maturing in a month. He hasn't been here long enough."
+        },
+        {
+          "start_time": 738700,
+          "end_time": 739580,
+          "speaker": "Speaker 6",
+          "content": "No, go to six months."
+        },
+        {
+          "start_time": 739580,
+          "end_time": 741180,
+          "speaker": "Lance",
+          "content": "Probably have anything maturing in nine months."
+        },
+        {
+          "start_time": 741180,
+          "end_time": 743580,
+          "speaker": "Speaker 6",
+          "content": "Daryl gave him an entire fucking portfolio. He has right,"
+        },
+        {
+          "start_time": 743580,
+          "end_time": 751820,
+          "speaker": "Lance",
+          "content": "But this is right now. This is cars that he actually sold. Where did Daryl give him a portfolio? He didn't give him yeah. That doesn't."
+        },
+        {
+          "start_time": 751820,
+          "end_time": 753420,
+          "speaker": "Speaker 3",
+          "content": "So this is a pulling InfoBond."
+        },
+        {
+          "start_time": 753420,
+          "end_time": 754410,
+          "speaker": "Lance",
+          "content": "This is our data."
+        },
+        {
+          "start_time": 755010,
+          "end_time": 758130,
+          "speaker": "Speaker 3",
+          "content": "Gotcha. Okay, and there's no way to get it to pull InfoBond stuff."
+        },
+        {
+          "start_time": 758130,
+          "end_time": 760770,
+          "speaker": "Lance",
+          "content": "So, I what that is like."
+        },
+        {
+          "start_time": 760770,
+          "end_time": 762050,
+          "speaker": "Speaker 3",
+          "content": "That's one of the lists that we pulled."
+        },
+        {
+          "start_time": 762050,
+          "end_time": 784870,
+          "speaker": "Lance",
+          "content": "I'd have to go and dig around and explore inside of InfoBond and see if InfoBond has a way for me to just, like, export our whole portfolio. And if they do, then I could cross - reference this. Like, drop that in here and tell that tell that to inform this and say, hey, we want these people to be assigned to the people that they're assigned to in InfoBond. Because that's a center."
+        },
+        {
+          "start_time": 784870,
+          "end_time": 787430,
+          "speaker": "Speaker 3",
+          "content": "InfoBond is one of the big places that we pull from, and yeah,"
+        },
+        {
+          "start_time": 787430,
+          "end_time": 795430,
+          "speaker": "Lance",
+          "content": "And it's one of the real bamboozle, right? Like it's it's frustrating because it doesn't let us sync the event straight from InfoBond. Like that's a famous problem."
+        },
+        {
+          "start_time": 795430,
+          "end_time": 797030,
+          "speaker": "Speaker 5",
+          "content": "Yeah."
+        },
+        {
+          "start_time": 797030,
+          "end_time": 803190,
+          "speaker": "Lance",
+          "content": "Does it not even sync notes? It doesn't even sync notes anymore, huh? Nothing. Because I feel like it used to sync notes."
+        },
+        {
+          "start_time": 803190,
+          "end_time": 812630,
+          "speaker": "Speaker 5",
+          "content": "Why are we going to something? Thought it did. Why are we going to something? The new program we're going to that was going to be syncing up everything."
+        },
+        {
+          "start_time": 814790,
+          "end_time": 817750,
+          "speaker": "Speaker 3",
+          "content": "You're thinking of getting rid of Podium and it's linked into Vensol."
+        },
+        {
+          "start_time": 817750,
+          "end_time": 830550,
+          "speaker": "Lance",
+          "content": "Well, Podium is gone. Like, I mean, it still exists because it's our web chat app, but it's not our AI. Our AI is is internal now. It's inside of Vensol. So, if you want to see like the conversations that you were looking at in Podium,"
+        },
+        {
+          "start_time": 830550,
+          "end_time": 830870,
+          "speaker": "Speaker 2",
+          "content": "Yeah,"
+        },
+        {
+          "start_time": 830870,
+          "end_time": 834230,
+          "speaker": "Lance",
+          "content": "Right, you just gotta log in to Vensolutions and you can see all there."
+        },
+        {
+          "start_time": 834230,
+          "end_time": 847280,
+          "speaker": "Speaker 2",
+          "content": "And that's gonna talk to each other. Yeah. But this is different. This is internal, which is a big. Thing that we want them to work their leads and InfoBond because that's big with the mature all the leases maturing and warranties running out and."
+        },
+        {
+          "start_time": 876170,
+          "end_time": 886420,
+          "speaker": "Lance",
+          "content": "I tell you what, I get a lot more work done with my AI stuff, but also, it'll run you ragged trying to keep up with all the different programming and all the different projects."
+        },
+        {
+          "start_time": 893860,
+          "end_time": 904020,
+          "speaker": "Speaker 3",
+          "content": "So that's kind of my idea of mine. My whole thing was it's all of these. The stuff in in in solutions I can find that pretty easily, right? It's the stuff that's not in there, like the list from like Tara's stuff."
+        },
+        {
+          "start_time": 904020,
+          "end_time": 909780,
+          "speaker": "Lance",
+          "content": "Tara's lists are not unique. They're all they are is the same leads that we already have in our system."
+        },
+        {
+          "start_time": 909780,
+          "end_time": 924630,
+          "speaker": "Speaker 3",
+          "content": "They are, but it prints some of the stuff, and that's what I was saying in the meeting. Is some of the stuff overlaps, right? But some doesn't. Sometimes there'll be stuff that's not in there or not. Whatever, so we wanted a place to combine all these outside sources of leads, funnel down into like its own. Well,"
+        },
+        {
+          "start_time": 924630,
+          "end_time": 945910,
+          "speaker": "Lance",
+          "content": "There aren't any outside sources of leads. I mean, like here's the thing: like all the leads that Sarah Tara is talking about are leads that came in through, like, let's say they're like a BMW KPI lead that came into the system. All she's talking about is a way to use their CRM to find them. And I'm always like, well, Tara, those came to us too. Also, they're end - to - end solution."
+        },
+        {
+          "start_time": 945910,
+          "end_time": 950870,
+          "speaker": "Speaker 3",
+          "content": "They are end - to - end solution. Yeah, and they're, They're not like not active or not being worked or not attached to somebody."
+        },
+        {
+          "start_time": 950870,
+          "end_time": 964950,
+          "speaker": "Lance",
+          "content": "Oh, for sure, but that's why. So I don't even know what you. That is. This is completely built already. Okay, so that's in there. Yeah, watch. I just haven't shown it to you yet, I guess. But watch. If you go right here to all ops,"
+        },
+        {
+          "start_time": 964950,
+          "end_time": 976150,
+          "speaker": "Speaker 3",
+          "content": "Focus families KPI, there they are, and just say all loaded days, and there's all of your BMW KPI leads. Okay. It's a big list. All right, it's it's showing you."
+        },
+        {
+          "start_time": 976680,
+          "end_time": 1006010,
+          "speaker": "Lance",
+          "content": "However many it's showing you, but there they all are. I can have it show you more. We can kind of change up how we, like, you know, the date range that I drop in. But these are all of our BMW KPI leads. And then the other neat thing is, you can overlap these, which is what I like. I can say, you have to fucking mouse. I can't see it. Okay. It's fucking. It's terrible. Oh no. Do uh all instead of all ops, choose service. Now. Say all loaded."
+        },
+        {
+          "start_time": 1007110,
+          "end_time": 1018710,
+          "speaker": "Lance",
+          "content": "Now, leave it up to its own. So, this is services. There are service visits from KPI lead customers. Got it. So it's like, okay, what's going on? Did we sell them a car or not?"
+        },
+        {
+          "start_time": 1018710,
+          "end_time": 1019590,
+          "speaker": "Speaker 3",
+          "content": "Good, love that."
+        },
+        {
+          "start_time": 1019590,
+          "end_time": 1021110,
+          "speaker": "Lance",
+          "content": "Like all the KPIs are there."
+        },
+        {
+          "start_time": 1021110,
+          "end_time": 1023670,
+          "speaker": "Speaker 3",
+          "content": "All we're missing is InfoBond."
+        },
+        {
+          "start_time": 1023670,
+          "end_time": 1039440,
+          "speaker": "Lance",
+          "content": "Yeah, and that's a whole bunch of bull. Like I'll, I'll have to dig. I got a long Info Bond. If Info Bond had some automated email out of there, boy, that would be slick because then I could have it just drop into my system because. That's what's happening now."
+        },
+        {
+          "start_time": 1039440,
+          "end_time": 1052560,
+          "speaker": "Speaker 3",
+          "content": "What you can find in that. So that, and if we can have the salespeople have their own credentials to log in to see their own dashboards to work their stuff, kind of like a Mastermind. Yeah, this is awesome. But you better use it. Oh, I'll use it."
+        },
+        {
+          "start_time": 1052560,
+          "end_time": 1057040,
+          "speaker": "Lance",
+          "content": "I can. Listen, I can ask Ada. Is Carly using it? And she'll tell me."
+        },
+        {
+          "start_time": 1057040,
+          "end_time": 1064440,
+          "speaker": "Speaker 3",
+          "content": "What? Like you don't trust me? Uh oh. What? This is a rat. We'll take it back. Yeah."
+        }
+      ],
+      "filed_at": "2026-09-24T13:31:23",
+      "store": "bhbmw"
+    },
+    {
+      "id": "of_f682c3beb42f8e6960542e1aff46508d",
+      "name": "09-24 Reasoning Note: Scaling a CRM Replacement Dashboard and Addressing Unbudgeted Compute Costs",
+      "start_at": "2026-09-24T11:07:05",
+      "created_at": "2026-09-24T16:11:46",
+      "duration_ms": 271000,
+      "vertical": "coop-dev",
+      "routed_by": "infer",
+      "status": "park",
+      "work_order": "",
+      "highlights": [],
+      "summary_md": "[](plaud://image?type=summaryCard&id=oc_su_f682c3beb42f8e6960542e1aff46508d_i1)\n\n## Core Synopsis\n\nThe engineering lead has successfully developed a prototype dashboard that fully replicates the core data-mining functionality of the dealership's former CRM, Mastermind. This new tool integrates the entire customer portfolio from the DMS, allowing salespeople to filter by metrics like contract maturity dates, which immediately provides a list of actionable sales leads. While the initial feedback from the sales team is overwhelmingly positive, confirming the tool could replace Mastermind and save that expense, the primary strategic bottleneck is now cost-scaling. The lead developer is concerned that expanding from a single-instance pilot to individual dashboards for every salesperson will incur significant, unbudgeted compute costs, potentially several hundred dollars per month. This transforms the project from a personal development initiative into a formal product with financial implications that need to be addressed before a full rollout.\n\n## The Pilot Program: A \"Mastermind\" Replacement\n\n### 1. The Problem Gap\n*   **Status Quo**: The dealership cancelled its subscription to the Mastermind CRM, leaving salespeople without a tool to mine the existing customer base for new opportunities (e.g., upcoming lease maturities).\n*   **The Pain**: Salespeople expressed frustration over losing this capability and requested that management bring Mastermind back.\n*   **The Critical Need**: A simple, effective way for the sales team to identify and engage high-potential customers within the dealership's portfolio without incurring the cost of a full-featured CRM.\n\n### 2. The Solution: An Integrated Dashboard\n*   **Core Functionality**: The new tool is a standalone dashboard, not a full CRM. It has ingested the entire customer portfolio from the DMS, creating a complete analog of the dealership's business history.\n*   **Key Feature**: A \"Portfolio Mode\" allows users to apply dynamic filters, such as \"maturities in the next month,\" to instantly generate lists of customers with upcoming service or purchasing needs. This directly replicates the \"mining\" function that salespeople valued in Mastermind.\n*   **Data Integrity**: The dashboard includes historical sales data, such as which salesperson originally sold the car, but it intentionally excludes new vehicle notes, as that feature was deemed low-value \"silliness\" by the developer.\n\n## The Strategic Crossroads: Scaling and Cost\n\n### 1. The Scaling Request\nThe immediate user request is to provide each salesperson with their own personalized dashboard view, pre-filtered to their specific customer list. This would allow them to see their maturing contracts and other opportunities without having to manually select their name.\n\n### 2. The Bottleneck: Unbudgeted Compute Costs\n*   **Thesis (The Pilot)**: In its current state, the tool is a low-cost personal project developed by the lead.\n*   **Antithesis (The Rollout)**: Deploying individualized dashboards for the entire sales team would dramatically increase server activity (\"compute\"). This would shift the project from a negligible expense to a significant operational cost, estimated at a potential $400-$600 per month.\n*   **Synthesis (The Decision Point)**: The developer believes creating individual dashboards is technically \"doable\" since it uses the same underlying data. However, a decision must be made on whether the business is willing to fund these new operational costs to fully replace Mastermind.",
+      "transcript": [
+        {
+          "start_time": 3770,
+          "end_time": 33520,
+          "speaker": "Lance",
+          "content": "So say this week, if you want, say today plus the future. Yeah, okay. Also, good. I think there's a lot of help. So there's a lot of people in there, and here's why. You now have our entire portfolio dumped into this file, which is really fucking cool. It's it's kind of a big deal actually. So it means this thing is a complete analog for what most people use Mastermind for now. You see, you have a giant. I click out of here. I'm going to show you another little feature. So you have a big button that says Portfolio Mode."
+        },
+        {
+          "start_time": 35100,
+          "end_time": 89020,
+          "speaker": "Lance",
+          "content": "It's probably better if you drive. Okay, here we go. You can drive. Just click it. Yep. Boop. Click it one time and just give it a second. It's like a big file; it has to build. There you go. Now you can choose maturities, pay types. You see how you have like different drop downs now? Yep. So now you can choose. This this not the report. This actually. This an acquired dashboard, so it's service business. It's all of our portfolio. It's kind of a lot. So, like, you can choose maturities. Like, here's kind of a cool thing: choose maturities and say, say, one month, next one month. Now, this everyone who's got something that's maturing in the next month, give or take. Awesome. Okay. And right now, I think it's going to be showing you like leases and cashes, and finances. You know, but you can choose one type if you want. Okay."
+        },
+        {
+          "start_time": 89020,
+          "end_time": 144380,
+          "speaker": "Lance",
+          "content": "Have questions about this with all the salespeople. Yeah. So all those people were supposed to be nuked in everything. So why is there still stuff under there? Because these are what I did. You got to imagine this giant DMS sales file. Okay. So what I did was I wanted it to give me the names that were attached to any customer, even if they don't have a lead. Okay. Even if they bought a car for most five years ago or four years ago, but they're in for service. Okay. Or they're just in our portfolio of business. Okay. So I exported that file, and so it tells us who sold them. So that's why that's there. It's just telling you who sold them a car. Got it. Okay. And then, how hard would it be? This is really awesome. How hard would this be to give a person their dashboard? It starts at one point. It starts costing me money, and I end up having to bill you guys. Because what we're doing is, this thing is, right now, it's not costing me much money."
+        },
+        {
+          "start_time": 145150,
+          "end_time": 175080,
+          "speaker": "Lance",
+          "content": "And and I'm doing it because I want to develop it into a product that I can I'll eventually sell it. But at one point it does start costing compute, and we're talking about a few you know extra like four five six hundred bucks a month it could be. So if I have it building, that building building that many dashboards, it might end up being costly. I don't know. But I honestly think it's doable. Um, because it's all the same data. It's just hey, let's parse this into."
+        },
+        {
+          "start_time": 175220,
+          "end_time": 224150,
+          "speaker": "Lance",
+          "content": "Well, you can't get into Vind Solutions. No, Vind Solutions is a CRM. It's like a whole different. This is not a CRM. Yeah, yeah, yeah. Okay, so here's what's funny: is with enough time, I could build a CRM. What I'm saying is, this will eventually be. I'm not trying to build a CRM. It's like I never set out to do that. Where you're going with it? Yeah, sort of. But this would be really nice if they could work there because then they can go in there. Say I'm a salesperson. I can go pick my name. I can see all my stuff maturing. I can see all of my. What ends up being is a replacement for Mastermind, and we don't have Mastermind anymore. Right. You know, and like Adam doesn't have Mastermind. They canned Mastermind, and the salesmen were complaining about getting it back. Which I didn't know that, but I showed him this this week, and the salesmen are like, \"Well, shit, I could just use this. We don't need to get Mastermind back.\" Correct."
+        },
+        {
+          "start_time": 224150,
+          "end_time": 270210,
+          "speaker": "Lance",
+          "content": "And I remember when I was selling, I used to use Mastermind, and I used to go in there and mine Mastermind. Yeah, and the thing about Mastermind is it does a lot more. Like it does this whole thing. Like, here's, well, I have this. This is now pulling all of the old notes, so this shows what the customer paid. All that stuff's there, right? I just don't have this working. No, I don't want this. I didn't think that I wanted this to like show you notes on the new vehicles because that's just sort of silliness, right? And I never used that out of Mastermind, right? Like I didn't need Mastermind to work with Carnot for me. Correct. I just needed to find a fish to to catch, and then I can call them and welcome and you know. Um. Welcome."
+        }
+      ],
+      "filed_at": "2026-09-24T13:31:23"
+    },
+    {
+      "id": "of_f4266244b3c0a6b085562a00c03e613e",
+      "name": "09-24 Casual Conversation: Sourcing Motivational Quotes with AI",
+      "start_at": "2026-09-24T10:45:00",
+      "created_at": "2026-09-24T15:48:14",
+      "duration_ms": 177000,
+      "vertical": "coop-dev",
+      "routed_by": "infer",
+      "status": "park",
+      "work_order": "",
+      "highlights": [],
+      "summary_md": "## Your Conversation Summary\n\n### The Vibe\nThis was a curious and collaborative discussion about the art of sourcing and using motivational quotes, particularly in a professional context.\n\n### The Dynamic\nThe sentiment was consistently curious and amused. Both speakers were highly engaged, actively sharing examples, asking questions, and building on each other's points, which indicates a strong collaborative rapport.\n\n### The Gist\nThe conversation started with a brief mention of universities before quickly focusing on the main topic: using an AI agent to find success quotes. Lance detailed how he directs his agent to pull quotes from specific authors he admires, like Bill Gates. This led to an exploration of various quotes and their meanings. The discussion then evolved toward the practical application of these quotes, with Lance mentioning a plan to create a dedicated sales log with different quote versions for salesmen and managers. Speaker 2 chimed in, recalling a former colleague who used a specific website to source quotes for his emails.\n\n### Memorable Moments\n> **Lance:** \"Success is a lousy teacher. It seduces smart people into thinking they can't lose.\"\n\n> **Speaker 2:** \"The reputation of a thousand years may be determined by the conduct of one hour. You could fuck it up real quick.\"\n\n> **Lance:** \"I mean, that's a that is a Buddhist quote that is tend your own garden, start with your own garden.\"\n\n### Things to Remember\n* Lance uses an AI agent to pull success quotes from specific authors he likes.\n* Lance plans to evolve the quote system into a sales log with different versions for salesmen and managers.\n* Speaker 2 uses ChatGPT.\n* A former colleague of Speaker 2 used a website to find quotes for his emails.\n\n### Conversation Threads\n* AI Agent Usage\n* Famous Quotes\n* Sales Management Tools\n* Sourcing Success Quotes\n* University Names",
+      "transcript": [
+        {
+          "start_time": 470,
+          "end_time": 4710,
+          "speaker": "Lance",
+          "content": "Xavier College, New Orleans? No,"
+        },
+        {
+          "start_time": 4710,
+          "end_time": 5590,
+          "speaker": "Speaker 2",
+          "content": "Xavier University."
+        },
+        {
+          "start_time": 5590,
+          "end_time": 8390,
+          "speaker": "Lance",
+          "content": "It's they're not just as a Xavier University. Yeah,"
+        },
+        {
+          "start_time": 8390,
+          "end_time": 10790,
+          "speaker": "Speaker 2",
+          "content": "Yeah, but it's there's also like a lot of Loyolas and everything."
+        },
+        {
+          "start_time": 10790,
+          "end_time": 13750,
+          "speaker": "Lance",
+          "content": "Yeah. Um, that's interesting."
+        },
+        {
+          "start_time": 13750,
+          "end_time": 19350,
+          "speaker": "Speaker 2",
+          "content": "So let's see, we almost see St. Olaf. See, you got Deans. So let's go Deans."
+        },
+        {
+          "start_time": 19350,
+          "end_time": 30870,
+          "speaker": "Lance",
+          "content": "No, what I did was I gave my agent success a bunch of. I gave it specific authors that I like. Authors that I like, books that I like, and it's pulling quotes from all that old stuff."
+        },
+        {
+          "start_time": 30870,
+          "end_time": 33190,
+          "speaker": "Speaker 2",
+          "content": "Yeah, I like your good success quotes."
+        },
+        {
+          "start_time": 33190,
+          "end_time": 36870,
+          "speaker": "Lance",
+          "content": "That's funny. I never even thought about this. A freaking college."
+        },
+        {
+          "start_time": 36870,
+          "end_time": 42150,
+          "speaker": "Speaker 2",
+          "content": "Bill Gates, Stephen Hawking, probably hilarious. Yeah, like Wayne Gretzky."
+        },
+        {
+          "start_time": 42150,
+          "end_time": 82800,
+          "speaker": "Lance",
+          "content": "Yeah. So anyway, that's what we're gonna have on the acquired desk. Yeah. So it's gonna probably evolve into like a sales log, and we can have ones for salesmen, ones for managers. So, anyway. Yeah, because I want to put. I want to put. I like that. I had my book. Which one is that? Bill Gates. Success is a lousy teacher. It seduces smart people into thinking they can't lose. Yeah, that was good. So yeah. See. Peace and power."
+        },
+        {
+          "start_time": 82800,
+          "end_time": 88440,
+          "speaker": "Speaker 2",
+          "content": "Ah, peace. There's a bunch of them in here. Do."
+        },
+        {
+          "start_time": 88440,
+          "end_time": 93240,
+          "speaker": "Lance",
+          "content": "You use any AI right now? Do you have an account with anybody?"
+        },
+        {
+          "start_time": 93240,
+          "end_time": 119990,
+          "speaker": "Speaker 2",
+          "content": "ChatGPT. The reputation of a thousand years may be determined by the conduct of one hour. Oh, you could fuck it up real quick. Yep. Not being able to govern events, I govern myself. Nice,"
+        },
+        {
+          "start_time": 119990,
+          "end_time": 133670,
+          "speaker": "Lance",
+          "content": "I like that. I mean, that's a that is a Buddhist quote that is tend your own garden, start with your own garden. There you go, leadership. Tend to other people's garden. Jesuitresource. org."
+        },
+        {
+          "start_time": 133670,
+          "end_time": 148800,
+          "speaker": "Speaker 2",
+          "content": "Come on, that's a funny. Yeah, I had a well, I had an old rep that kept throwing quotes at the end of his shit, and I was like, dude, what? How do you get these quotes? He goes. I actually get them off a website. I just come. Yeah, I was like, \" Oh no, shit!\" Is that where you get them from?"
+        },
+        {
+          "start_time": 148800,
+          "end_time": 162720,
+          "speaker": "Lance",
+          "content": "He's like, \" Yeah.\" That's so funny. Yeah, it's the modern age, man. Um, I just I I give my my agent some instruct specific instructions about places to get them."
+        },
+        {
+          "start_time": 162720,
+          "end_time": 176700,
+          "speaker": "Speaker 2",
+          "content": "A leader that delivers hope. That's awesome. How do you deliver hope? That's that's that's. I don't know where you're sourcing them, but I mean, there's a ton."
+        },
+        {
+          "start_time": 176700,
+          "end_time": 176840,
+          "speaker": "Lance",
+          "content": "Yeah."
+        }
+      ],
+      "filed_at": "2026-09-24T13:31:23"
     },
     {
       "id": "of_8b2352fd06377f8e3c0f83e13d05e9e2",
@@ -18634,6 +19441,420 @@
       ],
       "filed_at": "2026-09-17T06:10:35-05:00",
       "source_note": "morning-ops-brief 2026-09-17"
+    },
+    {
+      "id": "of_373fcf4b904fe93c04f72488fb4f45e2",
+      "name": "09-22 Consultation: Automotive Dealer Group Website and Platform Onboarding",
+      "start_at": "2026-09-22T19:17:53",
+      "created_at": "2026-09-22T19:17:53",
+      "duration_ms": 691000,
+      "vertical": "dealers",
+      "store": null,
+      "routed_by": "infer: Dealer.com group site + platform onboarding / Acquire data continuity",
+      "status": "filed",
+      "work_order": "Vendor ships Shop-by-Brand + Locations Near You (next few days). Lance: complete platform onboarding package from 9/21 email; export active tasks/opps (~82) before cutover for Acquire dashboard.",
+      "summary_md": "> Date & Time: 2026-09-22 14:06:18\n> Location: [Insert Location]\n> Customer: [Insert Customer]\n## Overview\nThe consultation centered on website improvements for an automotive dealer group and operational alignment during onboarding to a new platform (Bayrend). The customer, Lance, manages multiple premium brands (Audi, BMW, Porsche) and oversees sales and service processes. Key topics included elevating brand visibility on the group site, replacing the static map with a dynamic \u201clocations near you\u201d module, clarifying Bayrend onboarding status, and safeguarding data continuity by downloading key task and opportunity information before the platform switch. Main pain points are limited brand prominence on the site, uncertainty about onboarding progress and data retention/reporting, and difficulty exporting comprehensive opportunity brief data to power Lance\u2019s internal acquisition dashboard. Desired outcomes include enhanced UX for brand shopping and locations, clear onboarding steps, preserved access to actionable customer intelligence, and improved service-to-sales situational awareness.\n## Background\n- Lance represents a dealer group with Audi, BMW, and Porsche, operating multiple locations displayed on their group site.\n- A consultant (Speaker 3) proposed and will implement two site enhancements: \u201cShop by Brand\u201d tiles to highlight brands and a dynamic \u201clocations near you\u201d section that shows address/hours and optional storefront images.\n- The group is transitioning to Bayrend; onboarding emails requesting items were received on 2026-09-21.\n- Current dashboard shows a 42% engagement rate, 20 vehicle sales (5 delivered; 4 pre-owned), 3 sales with no prior contact, 74 indirect leads, and 200 repair orders with $133,846 gross profit. Twenty-four sales appointments were set; 16 occurred; 11 resulted in sales; reported gross profit is \u201ca little over\u201d $54,000 on sales.\n- Lance built an internal acquisition dashboard to cross-reference service and sales leads to improve situational awareness for sales staff.\n## Pain Points\nLimited brand prominence and suboptimal location UX on the group site reduce customer engagement and brand-driven navigation, leading to missed opportunities for customers to quickly find inventory by brand and locate nearby stores. Brand logos (Audi, BMW, Porsche) \u201cget a little bit lost,\u201d and the map-based location module is less dynamic. Impact: Lower click-through to brand-specific inventory and less efficient location discovery. Current situation: Static logos and a bottom-of-page map with three pins for group locations. Quantitative metrics: Not directly tied, but overall engagement rate is 42%. Examples: Customers rely on a less prominent logo section and a generic map to find locations. Context: Premium brand dealership group competing for attention; improved UI can increase conversions. Stakeholders: Marketing/website team, sales leads, customers seeking brand-specific inventory and nearest store.\nUncertainty about Bayrend onboarding status and potential data loss/availability during the platform transition creates risk of workflow disruption and lost insights. Lance has \u201cnot met with them since I signed\u201d and \u201cdoesn\u2019t have a clue\u201d where he is in the process until an email requesting onboarding items arrived on 2026-09-21. Impact: Potential loss of active tasks/opportunities due to \u201csixty-day lookback\u201d and unclear migration, risking follow-up gaps and revenue leakage. Current situation: Consultant recommends sorting by due date and downloading reports; Lance questions whether tasks \u201cwill just stay in the report.\u201d Quantitative metrics: Active opportunities list size is \u201ceighty-two,\u201d 24 appointments set, 16 transpired, 11 resulted in sales; 74 indirect leads; 200 repair orders; $133,846 service gross profit; \u201ca little over $54,000\u201d gross profit on sales. Examples: Orphan bucket is clean, but tasks may \u201cpeel off\u201d when the final lever is pulled to the other platform. Context: Transition windows often have data retention rules (e.g., 60-day lookback) causing historical items to drop. Stakeholders: Lance, sales team, RSM/demo sales, Bayrend onboarding team.\nInadequate export/reporting detail to support Lance\u2019s acquisition dashboard hampers service-to-sales situational awareness. The \u201ctask detail report\u201d only has \u201csix rows of data\u201d and \u201cdoesn\u2019t tell you anything\u201d compared to the in-app opportunity brief with customer intelligence and buying signals. Impact: Harder to identify customers in service who also have recent engagement (clicked content) and leads, reducing cross-sell opportunities and timely follow-ups. Current situation: Lance plans to \u201cgrab\u201d the basic report and have his system name-match; considers focusing on \u201conly the active ones\u201d (82 records) and sorting by date. Quantitative metrics: Six rows in the downloaded report; 82 active items for potential export. Examples: Lance wants a \u201cmore complete brief\u201d per opportunity to feed his dashboard; hyperlinks and detailed content exist in the UI but not in export. Context: Salespeople may lack situational awareness if not aggressive; Lance\u2019s dashboard is meant to bridge that gap. Stakeholders: Lance, sales team, service advisors, customers with service appointments and leads.\n## Expectations\nImplement \u201cShop by Brand\u201d and \u201cLocations Near You\u201d enhancements to improve customer navigation and brand engagement. Timeframe: \u201cnext couple days\u201d for visible site changes. Resources required: Storefront images (optional), brand inventory links, web admin access. Success metrics: Increased clicks into brand inventory, higher engagement and conversion from the location module. Stakeholders: Website/marketing team, Speaker 3 implementing changes, sales teams benefiting from improved traffic.\nClarify Bayrend onboarding steps and ensure continuity of tasks/opportunities through the platform transition. Goal: Confirm implementation requirements (logos, assets), migration approach, and data retention rules (including 60-day lookback). Timeframe: Immediate follow-up post-call; onboarding email received on 2026-09-21. Resources required: Onboarding items package, coordination with Bayrend RSM/demo sales, reporting exports. Success metrics: No loss of active tasks/opportunities; documented export of due-date-sorted items; clear onboarding timeline. Stakeholders: Lance, Bayrend onboarding team, current platform support.\nEnable a richer export or alternative data capture that preserves customer intelligence and buying signals for Lance\u2019s acquisition dashboard. Timeframe: Near-term, before final platform switch. Resources required: Report configuration or data feed/API, filters for \u201cactive\u201d items (82), date sorting, potential manual harvesting of opportunity details. Success metrics: Successful ingestion into the internal dashboard, measurable increase in service-to-sales crossovers and timely follow-ups. Stakeholders: Lance (data owner), sales and service teams, IT/data support if available.\n## Other Information Summary\n- Current engagement rate is 42%; orphan tasks bucket is clean.\n- Sales snapshot: 20 vehicle sales; 4 pre-owned; 5 marked delivered; some on order; 3 sales with no prior contact; \u201ca little over $54,000\u201d gross profit on sales.\n- Lead funnel: 24 appointments set; 16 occurred; 11 resulted in sales; 74 indirect leads that self-submitted after receiving content.\n- Service performance: 200 repair orders; $133,846 gross profit.\n- Product/marketing notes: Emphasis on BMW X5 transition at end of October to a \u201cbig whole new model\u201d; X3 remains \u201c26\u201d; \u201cService now, pay later\u201d is a favored message.\n- Lance\u2019s internal dashboard aims to match service drive visitors with lead/engagement data to prompt sales action.\n- Speaker 2 will send an email and text with links for approval immediately after the call.\n## To-Do List\n- [ ] Implement \u201cShop by Brand\u201d tiles and dynamic \u201cLocations Near You\u201d module on the group site. Deadline: within the next couple days. Stakeholder: Speaker 3, website team.\n- [ ] Send follow-up email and text with verified links for Lance\u2019s approval. Deadline: immediately post-call on 2026-09-22. Stakeholder: Speaker 2.\n- [ ] Compile and send onboarding items requested by Bayrend (logos, assets, etc.). Deadline: following the 2026-09-21 request. Stakeholder: Lance.\n- [ ] Export/snapshot task and opportunity lists sorted by due date to mitigate 60-day lookback risk. Deadline: before the platform transition lever is pulled. Stakeholder: Lance.\n- [ ] Focus export on \u201cactive\u201d items (82) and recent (last month) entries for reliability. Deadline: ASAP. Stakeholder: Lance.\n- [ ] Coordinate with Bayrend to confirm data migration/retention and access to historical opportunity briefs. Deadline: ASAP. Stakeholders: Lance, Bayrend onboarding team.\n- [ ] Provide storefront images for each location to enhance the new locations module. Deadline: when available. Stakeholder: Lance/marketing.\n## Next Arrangements\n- Immediate: Speaker 2 to send email and text with verified links for Lance\u2019s approval.\n- Next couple days: Speaker 3 to implement \u201cShop by Brand\u201d tiles and the dynamic \u201cLocations Near You\u201d module on the group site.\n- ASAP: Lance to compile and send Bayrend onboarding items; export/snapshot active tasks and opportunities sorted by due date; confirm Bayrend data migration/retention and access to historical opportunity briefs; provide storefront images when available.\n> AI Suggestions\n> The AI has identified the client's biggest pain point as uncertainty about data continuity and access to detailed opportunity intelligence during the transition to Bayrend.\n> Here are some possible solutions for your consideration:\n> 1. Establish a data continuity plan: schedule a joint session with Bayrend to confirm the 60-day lookback, historical data availability, and export formats; document retention/migration guarantees.\n> 2. Create an interim data archive: export all active items (82) and recent opportunities by due date, and capture key opportunity briefs via bulk capture or scripted browser export (if API unavailable).\n> 3. Request a structured data feed: ask Bayrend/current platform for a CSV/JSON export or API endpoint that includes customer intelligence/buying signals to feed Lance\u2019s acquisition dashboard.\n> 4. Implement a crosswalk mapping: define fields mapping from current platform to Bayrend (tasks, contacts, signals) to preserve analytical continuity in the internal dashboard.\n> 5. Prioritize high-value segments: identify opportunities tied to near-term campaigns (e.g., BMW X5 model change, \u201cService now, pay later\u201d) and ensure these records are manually verified and retained.",
+      "highlights": [],
+      "transcript": [
+        {
+          "start_time": 1670,
+          "end_time": 2070,
+          "speaker": "Lance",
+          "content": "Dealer."
+        },
+        {
+          "start_time": 2070,
+          "end_time": 7190,
+          "speaker": "Speaker 2",
+          "content": "Com. Hello,"
+        },
+        {
+          "start_time": 7190,
+          "end_time": 9830,
+          "speaker": "Lance",
+          "content": "How do you do? I'm all right."
+        },
+        {
+          "start_time": 9830,
+          "end_time": 15830,
+          "speaker": "Speaker 2",
+          "content": "How y'all doing? All right, doing okay."
+        },
+        {
+          "start_time": 15830,
+          "end_time": 31320,
+          "speaker": "Speaker 3",
+          "content": "Can't complain. You go ahead. What's up? We just wanted to see your pretty face Okay, we're good now. We can hang up. No, I'm kidding."
+        },
+        {
+          "start_time": 33520,
+          "end_time": 46720,
+          "speaker": "Speaker 3",
+          "content": "Really quick from me, Lance. I honestly just wanted to touch base. I sent over an email earlier this month. I had a couple group site enhancements. Wanted to, did you get a chance to look at them? If not, I wanted to cover them. Do you want me to make changes?"
+        },
+        {
+          "start_time": 46720,
+          "end_time": 48560,
+          "speaker": "Lance",
+          "content": "Not. We we can. That's okay."
+        },
+        {
+          "start_time": 48560,
+          "end_time": 88200,
+          "speaker": "Speaker 3",
+          "content": "Though. Yeah. Absolutely. Let me share my screen. Okay. So the first one. Um, you've got obviously you've got the Audi, BMW, and Porsche logos here. If you want. My general opinion is that they get a little bit lost in that setup. So we've got a new option that really calls attention to the brands. You can do a shop by brand. I hover over it; it has the brand name. When I click into it, it still goes into the inventory on the brand site. So no functionality changes there, but it just calls attention a little bit more than the way that they're currently structured now. Okay. So that's the first one. Yeah, like the other."
+        },
+        {
+          "start_time": 88220,
+          "end_time": 125310,
+          "speaker": "Speaker 3",
+          "content": "Okay, perfect. I'll make that change. That's not a problem. The other one is for your location. So currently, down at the bottom, we've got our map that has you know the three pins for the locations that are under your guys's group. The newest setup is actually I know it's somewhere in here doing a locations near you. So it's not a map. It's more so it takes the three locations closest to the customer, and it shows address, hours. I can even put a picture in here if you've got one of each storefront. Um, and then if Allows the customer. If I hit find my location, it'll bring up more results if you've got them. So it's a more dynamic tool than just the map function."
+        },
+        {
+          "start_time": 125310,
+          "end_time": 128270,
+          "speaker": "Lance",
+          "content": "Yeah, that's better too,"
+        },
+        {
+          "start_time": 128270,
+          "end_time": 139150,
+          "speaker": "Speaker 3",
+          "content": "For sure. Yeah. Okay. Perfect. I'll go ahead. Those were the two updates that we've got available. I think would be good on your guys' site. I'll go ahead and get the process rolling. You should see changes in the next couple days."
+        },
+        {
+          "start_time": 139150,
+          "end_time": 139630,
+          "speaker": "Lance",
+          "content": "All right."
+        },
+        {
+          "start_time": 139630,
+          "end_time": 143680,
+          "speaker": "Speaker 3",
+          "content": "Awesome. Perfect. Easy enough. That was all for me. Of course."
+        },
+        {
+          "start_time": 146830,
+          "end_time": 162670,
+          "speaker": "Speaker 2",
+          "content": "Okay, so I was just looking at we have a shared site, and I've I've found that you you have in fact signed. You had a demo with Bayrend, and you're in the onboarding process some somewhere in there. Do you have any?"
+        },
+        {
+          "start_time": 162670,
+          "end_time": 164270,
+          "speaker": "Lance",
+          "content": "I haven't met with them since I signed."
+        },
+        {
+          "start_time": 164270,
+          "end_time": 173790,
+          "speaker": "Speaker 2",
+          "content": "Okay, so I guess have they requested any info from you to do like implementation on their side, logos, et cetera?"
+        },
+        {
+          "start_time": 173790,
+          "end_time": 175860,
+          "speaker": "Lance",
+          "content": "Um."
+        },
+        {
+          "start_time": 181560,
+          "end_time": 196520,
+          "speaker": "Speaker 2",
+          "content": "I'm just trying to like gauge where we are in the process. Once we get you like set up with your your demo sales, your RSM, yeah, I kind of like it. Like I'm not on the in the loop anymore, so I don't know where you are in there. So I just thought maybe."
+        },
+        {
+          "start_time": 196520,
+          "end_time": 198600,
+          "speaker": "Lance",
+          "content": "Yeah, I don't have a clue where I am either."
+        },
+        {
+          "start_time": 198600,
+          "end_time": 202120,
+          "speaker": "Speaker 2",
+          "content": "About that. Okay, well let's just keep on going then."
+        },
+        {
+          "start_time": 202120,
+          "end_time": 209320,
+          "speaker": "Lance",
+          "content": "And look, onboarding items. Oh look, literally just yesterday I got an email requesting onboarding items."
+        },
+        {
+          "start_time": 209320,
+          "end_time": 259640,
+          "speaker": "Speaker 2",
+          "content": "Okay, there we go. So I have an email for you, an email and text I need to send over to you, and then let's go ahead and look at the old dashboard. And I'm I wonder what this will look like when you're with the other platform, or if you'll even use this at all. I don't know, but. We've got a 42% engagement rate. I've already gone through the tasks to find out if you have any stragglers that have, you know, fallen in that orphan bucket. We always look in there, and no, it's all cleaned up. Good job. Everything's all the tasks are going to people. I would say there's a lot of opportunity on the table before they pull that final lever and you go to the other platform. Like you may want to just go in here and download this so you have it."
+        },
+        {
+          "start_time": 260589,
+          "end_time": 272670,
+          "speaker": "Speaker 2",
+          "content": "Hmm. You know, um. So you have I don't know. Yeah, I'd maybe sort it by when it's due. Because some of them are."
+        },
+        {
+          "start_time": 272670,
+          "end_time": 278430,
+          "speaker": "Lance",
+          "content": "You thinking those won't be in the report? Don't won't just stay in the report? I don't. I guess we don't know."
+        },
+        {
+          "start_time": 278430,
+          "end_time": 297710,
+          "speaker": "Speaker 2",
+          "content": "They might. They may. Yeah, they may peel off because it's that whole sixty - day lookback thing. So we want to just sort it by due date, download it, and then just. You know, skim over the ones that are like from July, but I definitely hit anything in the last like month."
+        },
+        {
+          "start_time": 297710,
+          "end_time": 298670,
+          "speaker": "Lance",
+          "content": "Let me go see."
+        },
+        {
+          "start_time": 298670,
+          "end_time": 345650,
+          "speaker": "Speaker 2",
+          "content": "But just to have it for a record. Yeah, and then you have twenty vehicle sales. Four of those were pre - owned. We'll drill into the new and do the thing we always do: selling price. Several are marked one, two, three, four, five are marked delivered, so matching in there. A few on on order, so that's just fine and dandy. Three of your sales had no prior contact, so let's see here. Ooh, a twenty-seven. I bet that's fancy. Stephen received the the last."
+        },
+        {
+          "start_time": 346010,
+          "end_time": 354730,
+          "speaker": "Speaker 2",
+          "content": "Piece he received was your garage. Got that on July twenty sixth. Came in on the seventh and bought a new X seven."
+        },
+        {
+          "start_time": 354730,
+          "end_time": 358010,
+          "speaker": "Lance",
+          "content": "Super cool."
+        },
+        {
+          "start_time": 358010,
+          "end_time": 402870,
+          "speaker": "Speaker 2",
+          "content": "Yes, yes, that is nice to see. And then you've got a gross profit there of fifty four, a little over fifty four thousand dollars. Matching, you know, twenty four sales appointments set. Sixteen have transpired, and eleven of those have resulted in sales. Seventy-four indirect leads\u2014that's interesting. So, seventy-four have received content, went on their own journey, and submitted. Ended up submitting a lead themselves. Two hundred repair orders, and with a gross profit of one hundred thirty-three thousand eight hundred forty-six dollars. So, right when we get off this call, I'm sending you this email. I have."
+        },
+        {
+          "start_time": 402870,
+          "end_time": 419750,
+          "speaker": "Speaker 2",
+          "content": "I just have to double check the links, and I will send that over to your for your approval, and with a text as well. Sounds good. Sound good. Okay. Well, thank you for your time. I know you're busy. Tell us some."
+        },
+        {
+          "start_time": 419750,
+          "end_time": 424950,
+          "speaker": "Lance",
+          "content": "Tell me something about these downloading these things. So, if I go download the task detail report."
+        },
+        {
+          "start_time": 424950,
+          "end_time": 426630,
+          "speaker": "Speaker 2",
+          "content": "Mhm. Let me get there."
+        },
+        {
+          "start_time": 426630,
+          "end_time": 434320,
+          "speaker": "Lance",
+          "content": "It's not a whole lot of data in it. I don't think it's like one, two, three, four, five, six. Rows of data. Per per."
+        },
+        {
+          "start_time": 434320,
+          "end_time": 437440,
+          "speaker": "Speaker 2",
+          "content": "I see. I'm just pulling it up."
+        },
+        {
+          "start_time": 437440,
+          "end_time": 452880,
+          "speaker": "Lance",
+          "content": "I'm wondering if there's a spot that I could go and download like a more complete brief on each one of those like kind of opportunities. I guess when you use it like out of here, you get the the full brief on the opportunity."
+        },
+        {
+          "start_time": 452880,
+          "end_time": 458640,
+          "speaker": "Speaker 2",
+          "content": "Yeah. Ticket right. Oh, this doesn't tell you anything. Yeah. Really?"
+        },
+        {
+          "start_time": 458640,
+          "end_time": 461170,
+          "speaker": "Lance",
+          "content": "You just look at that report. It's kind of like okay, cool, like."
+        },
+        {
+          "start_time": 461900,
+          "end_time": 462940,
+          "speaker": "Speaker 2",
+          "content": "Matthew Vaughn raised."
+        },
+        {
+          "start_time": 462940,
+          "end_time": 466940,
+          "speaker": "Lance",
+          "content": "His hand about something, but what?"
+        },
+        {
+          "start_time": 466940,
+          "end_time": 468380,
+          "speaker": "Speaker 2",
+          "content": "Yeah."
+        },
+        {
+          "start_time": 468380,
+          "end_time": 473180,
+          "speaker": "Lance",
+          "content": "Then if I click it, then I get the full brief. I go look at the customer intelligence, buying signals,"
+        },
+        {
+          "start_time": 473180,
+          "end_time": 482700,
+          "speaker": "Speaker 2",
+          "content": "And well, you know what? To your point, I think that let's don't say. If you did, where where did you guys go? There you are."
+        },
+        {
+          "start_time": 482700,
+          "end_time": 486380,
+          "speaker": "Lance",
+          "content": "If the tasks are created, though, the tasks are just going to live. Yeah,"
+        },
+        {
+          "start_time": 486380,
+          "end_time": 506620,
+          "speaker": "Speaker 2",
+          "content": "They are there. Yeah. And I think that even if they do peel off, you can use that settings cog and set the date, you know, go back in time. Yeah. If you wanted to, because it is better this way, because you have the hyperlink and everything, and you can go see exactly what they received. That downloading the report doesn't really."
+        },
+        {
+          "start_time": 506620,
+          "end_time": 545620,
+          "speaker": "Lance",
+          "content": "I'm kind of download it because I have a whole like comprehensive, like acquisition dashboard that I built for my guys to like to really fish really deeply in the service drive. And then show like over like, kind of crossover from service drive to like leads, and so you can say, hey, this person's got a freaking lead, and they're in here today in service. So like a lot of people just don't know that they don't have that situational awareness if the person, the salesperson, is not super aggressive. Yeah. So anyway, I was just wondering if I could download some piece out of here that might say these person, these people got a piece, and they're, you know, they clicked."
+        },
+        {
+          "start_time": 547440,
+          "end_time": 559520,
+          "speaker": "Lance",
+          "content": "I might just grab this. I already downloaded it, and then I can just have my have my system kind of go look for like just name, look for a name match, and say this person's in service. They also clicked a piece. Yeah. Kind of."
+        },
+        {
+          "start_time": 559520,
+          "end_time": 570400,
+          "speaker": "Speaker 2",
+          "content": "I would definitely sort it. See if you can sort it by the date, so you get the old. You can peel the older ones off if you want to. Yeah. Yeah. Hmm. Yeah. Unfortunately, there's not."
+        },
+        {
+          "start_time": 570400,
+          "end_time": 576540,
+          "speaker": "Lance",
+          "content": "I could also just do the ones that are only the active ones, right? Like just grab that because that's a short list. That's eighty - two of them."
+        },
+        {
+          "start_time": 577430,
+          "end_time": 593670,
+          "speaker": "Speaker 2",
+          "content": "Right. Yeah. Good point. Ruby. Ruby. Oh yeah. All right then. Well, I'll send you something when we get off this call. I gotta check my links and come up with a text for you. And it's the huge, right?"
+        },
+        {
+          "start_time": 593670,
+          "end_time": 595590,
+          "speaker": "Lance",
+          "content": "Yeah. The huge."
+        },
+        {
+          "start_time": 595590,
+          "end_time": 597190,
+          "speaker": "Speaker 2",
+          "content": "X three. X five."
+        },
+        {
+          "start_time": 597190,
+          "end_time": 598870,
+          "speaker": "Lance",
+          "content": "X five. X seven."
+        },
+        {
+          "start_time": 598870,
+          "end_time": 601510,
+          "speaker": "Speaker 2",
+          "content": "And um. Red and butter."
+        },
+        {
+          "start_time": 601510,
+          "end_time": 614110,
+          "speaker": "Lance",
+          "content": "And it's kind of the X five is like a big deal going into like. I'm losing track of my like the end of October. The X5 is a big deal because we'll be out of our old ones and we'll be onto the brand new one, which is a a big whole new model thing."
+        },
+        {
+          "start_time": 614110,
+          "end_time": 622990,
+          "speaker": "Speaker 2",
+          "content": "Okay, and the X3 is still 26 as well, correct? Yep, yep. Okay, and then we've got um, service now,"
+        },
+        {
+          "start_time": 622990,
+          "end_time": 625310,
+          "speaker": "Lance",
+          "content": "Pay later. Service now, pay later."
+        },
+        {
+          "start_time": 625310,
+          "end_time": 628830,
+          "speaker": "Speaker 2",
+          "content": "We like that one. Yeah, yeah, yeah. Okay, cool."
+        },
+        {
+          "start_time": 628830,
+          "end_time": 631790,
+          "speaker": "Lance",
+          "content": "Yeah. How's how's football? How's football."
+        },
+        {
+          "start_time": 631790,
+          "end_time": 664160,
+          "speaker": "Speaker 2",
+          "content": "Oh, I'm just. We're just trying to get there, you know. We're um we're going to Athens for a few games. Um, we're going this weekend, actually, Oklahoma. Yeah. Um, and then we're just trying to like. I wish I could wrap him in bubble wrap. Like, he's on fall break right now, and he's like, I feel like I've been in a car wreck, and I'm like, Miller, you've never even been in a car wreck, and he's like, Well, everything hurts. Yeah. And I'm like, Shh, it's too early in the season for that. Yeah. Keep on going. So, just."
+        },
+        {
+          "start_time": 664160,
+          "end_time": 670720,
+          "speaker": "Speaker 2",
+          "content": "Keeping them taped up, and you know, we got to get to that point where we sign the papers,"
+        },
+        {
+          "start_time": 670720,
+          "end_time": 672960,
+          "speaker": "Lance",
+          "content": "You know. Yep. Yeah."
+        },
+        {
+          "start_time": 672960,
+          "end_time": 680720,
+          "speaker": "Speaker 2",
+          "content": "Papers. Yes, the papers. All right. Yeah, yeah. All right. Well, TTFN."
+        },
+        {
+          "start_time": 680720,
+          "end_time": 682480,
+          "speaker": "Lance",
+          "content": "Mm - hmm."
+        },
+        {
+          "start_time": 682480,
+          "end_time": 685120,
+          "speaker": "Speaker 2",
+          "content": "Y'all have a good one. All right. Bye bye."
+        },
+        {
+          "start_time": 685120,
+          "end_time": 686090,
+          "speaker": "Speaker 3",
+          "content": "Thank you. Bye bye. You guys too."
+        }
+      ],
+      "filed_at": "2026-09-23T13:33:21.944080-05:00",
+      "source_note": "midday-ops-brief 2026-09-23"
     }
   ]
 }
