@@ -1,6 +1,747 @@
 {
-  "revision": "PLAUD-NOTES-2026-09-24-1330-MIDDAY",
+  "revision": "PLAUD-NOTES-2026-09-27-0602-MORNING",
   "recordings": [
+    {
+      "id": "of_54abfda4bdbb9735505eb5329e840ec8",
+      "name": "09-26 CRM Process Gap Causes AI to Contact Sold Customers",
+      "start_at": "2026-09-26T21:53:20",
+      "created_at": "2026-09-26T22:12:50",
+      "duration_ms": 1056000,
+      "vertical": "dealers",
+      "store": "abr",
+      "routed_by": "infer",
+      "status": "park",
+      "work_order": "VCA/CRM: sold-status lag lets AI re-engage sold buyers (Louis Delia case). Fix path = request sold + desk mgr (Chad), not indefinite pause. Side: Hunter Miller email signature by Tue (Lance).",
+      "highlights": [],
+      "summary_md": "## Core Synopsis\n\nA systemic process gap in the sales CRM is causing the automated follow-up AI to contact customers who have already purchased a vehicle, creating a nuisance for both the client and the sales team. The immediate trigger is the delay between a deal being finalized and the lead being marked \"sold\" in the system, which can take up to a week. The root cause is a workflow dependency: salespeople lack the permissions to mark leads as sold themselves and must rely on a desk manager, creating a bottleneck. This operational friction is forcing salespeople to seek inefficient workarounds, like pausing notifications, which are only temporary and fail to solve the underlying data integrity problem. While the team debates the AI's behavior, the actual issue is the broken process for updating a lead's status in a timely manner.\n\n## Diagnostic Deep-Dive: AI Nuisance & CRM Workflow Failure\n\n### The Phenomenon: AI System Contacting Sold Customers\n\nThe dealership's automated AI system is re-engaging with customers who have already completed a purchase. In the specific case of a customer named \"Louis Delia,\" the system continued to treat him as an \"active lead\" even after a car was sold to him earlier in the week. This is causing confusion and requires manual intervention to stop the unwanted communication.\n\n### The Mechanism: Lead Status & System Latency\n\nThe AI's behavior is a direct result of how the CRM handles lead statuses.\n*   **The Trigger:** The system sees an \"open\" or \"active\" lead for a customer and automatically initiates or resumes communication.\n*   **The Process Gap:** A lead is not marked \"sold\" immediately after a transaction. There's a significant lag, described as up to a week, between the finance department finalizing a deal and the CRM updating to reflect the \"sold\" status.\n*   **Duplicate Leads:** The problem is compounded when a customer submits a credit application, which generates a duplicate lead. This increases the chance that one of the leads remains \"open\" while the other is being processed, ensuring the AI will continue engagement.\n\n### The Root Cause: A Bottleneck in User Permissions & Workflow\n\nThe core issue is not the AI itself, but a flawed operational workflow.\n*   **Ineffective Workarounds:** Sales staff are attempting to use the \"pause\" function to temporarily halt the AI. However, this is not a permanent solution, as the pause either expires or is overridden when the customer responds. This leads to requests for an \"indefinite pause\" feature, which treats the symptom rather than the disease.\n*   **The True Bottleneck:** Salespeople do not have the system permissions to change a lead's status to \"sold.\" They must request a desk manager (e.g., \"Chad\") to perform this action. This dependency creates the critical time lag that allows the AI to continue communicating with sold customers. The correct procedure is to \"request sold,\" have the manager approve it, and end any open visits in the system.\n\n## Next Move\n\n**@Lance**\n- [ ] Investigate how to make the \"pause\" function more indefinite for leads, as a temporary workaround - [TBD]\n- [ ] Set up the email signature for the new employee, Hunter Miller - [By Tuesday]",
+      "transcript": [
+        {
+          "start_time": 6600,
+          "end_time": 13480,
+          "speaker": "Lance",
+          "content": "Hey, what's up, man? Hey, what's up? Do you have a name of one because I want to see like who it was and what it was."
+        },
+        {
+          "start_time": 13480,
+          "end_time": 15800,
+          "speaker": "Speaker 2",
+          "content": "The last name."
+        },
+        {
+          "start_time": 15800,
+          "end_time": 33000,
+          "speaker": "Speaker 3",
+          "content": "Is I think is pronounced Delia, D - E - L - I - A. It's either like Louis or Lewis, like L O U I S."
+        },
+        {
+          "start_time": 33000,
+          "end_time": 44440,
+          "speaker": "Speaker 2",
+          "content": "Was it cash deal, Bob? Yes."
+        },
+        {
+          "start_time": 44440,
+          "end_time": 56360,
+          "speaker": "Lance",
+          "content": "Nine twenty - four. Somebody that bought a car. Let's see, active lead. Well, there's an active lead for a Louis Dilly. Louis Dilly."
+        },
+        {
+          "start_time": 61370,
+          "end_time": 66730,
+          "speaker": "Speaker 3",
+          "content": "Yeah. We sold. What did we sell? Uh, we sold them earlier this week."
+        },
+        {
+          "start_time": 66730,
+          "end_time": 72650,
+          "speaker": "Lance",
+          "content": "Uh, so you have to mark them sold, or the system just thinks it's still open,"
+        },
+        {
+          "start_time": 72650,
+          "end_time": 89050,
+          "speaker": "Speaker 3",
+          "content": "And it'll just keep responding. I thought I could get around by contacting them if I marked them hot, but now even if it's a hot lead, if I set an appointment for them, like to come on Wednesday or something, then it starts talking to them again."
+        },
+        {
+          "start_time": 89050,
+          "end_time": 99890,
+          "speaker": "Lance",
+          "content": "Hey, listen. You don't have to. Jack, Jack, you know, listen. There's no like trick to getting around. You just click the pause button. Like that's literally all you have to do."
+        },
+        {
+          "start_time": 99890,
+          "end_time": 112930,
+          "speaker": "Speaker 3",
+          "content": "And the pause doesn't last for some time. So what happened? I kind of just cut it off. I don't have it paused until I unpause it. I think he used to be able to pause the the other one until until he unpause it. It's not like that anymore."
+        },
+        {
+          "start_time": 112930,
+          "end_time": 120140,
+          "speaker": "Lance",
+          "content": "Yeah, I think the what they told me is the pause works. Like the pause pauses until they re like until they say something back to us or something like that."
+        },
+        {
+          "start_time": 122370,
+          "end_time": 129330,
+          "speaker": "Speaker 3",
+          "content": "I can. I can check. But because I remember you were having that video chat with the guy. It said it only cost for like a short period of time."
+        },
+        {
+          "start_time": 129330,
+          "end_time": 135810,
+          "speaker": "Lance",
+          "content": "It pauses until there's a response back. But what I'm seeing is there's an open lead for Louis Delia, Louis Delia."
+        },
+        {
+          "start_time": 135810,
+          "end_time": 140290,
+          "speaker": "Speaker 3",
+          "content": "Yeah. It usually takes like a week before the lead gets closed out and sold."
+        },
+        {
+          "start_time": 140290,
+          "end_time": 151200,
+          "speaker": "Lance",
+          "content": "So if you do that thing, you know you can go and request sold, and then you have a desk manager market sold. Then it'll market sold sooner, and then we won't have won't be being responded to by the AI."
+        },
+        {
+          "start_time": 152500,
+          "end_time": 186960,
+          "speaker": "Speaker 3",
+          "content": "It's not just a button I can click because, like, we know what's going on with a customer, or we have another customer I have in the notes, what they're trying to do when they're coming, and all that. So I'm done talking to them. But then the AI, because I'm not talking to them right now, will start talking to them. Like, there's no way I could just set the AI not to talk to these people. Like, the AI would be great to talk to people that I haven't talked to in 30 days, or I guess people that message overnight. Act as like a virtual BDC, but like I already can like actively mess up deals."
+        },
+        {
+          "start_time": 186960,
+          "end_time": 195040,
+          "speaker": "Lance",
+          "content": "No, I don't think a lot of you mess up a deal. You're the only one complaining about it so far. So, I'm not trying to complain."
+        },
+        {
+          "start_time": 195040,
+          "end_time": 200320,
+          "speaker": "Speaker 3",
+          "content": "I'm just looking for a lot of sort of. I'll. What I have to do is do something. Do something."
+        },
+        {
+          "start_time": 200320,
+          "end_time": 210110,
+          "speaker": "Lance",
+          "content": "I need. I need to check and see how we can make the pods like more indefinite, Mamie. But that's going to be a question with the nerds that set it up."
+        },
+        {
+          "start_time": 210110,
+          "end_time": 211070,
+          "speaker": "Speaker 2",
+          "content": "Yeah,"
+        },
+        {
+          "start_time": 211070,
+          "end_time": 227470,
+          "speaker": "Lance",
+          "content": "And so, but two things: if we mark it sold, so there's an open deal for Louis Delia. That's why it's still talking to him. So there's like, and what I'm saying is, I was like, look at it. There's multiple ones because there's a HMB ICO right now that I see."
+        },
+        {
+          "start_time": 227470,
+          "end_time": 235950,
+          "speaker": "Speaker 3",
+          "content": "Um. And also, they'll populate a duplicate lead whenever they put a credit at it. So then there's two leads, and one might be close and one might be open."
+        },
+        {
+          "start_time": 235950,
+          "end_time": 254620,
+          "speaker": "Lance",
+          "content": "Yeah, but there, well, the way that system works though is if you look at, If it's the same customer and you look at it, they'll be active, and then the other ones won't be active. There shouldn't be more than one active at a time. Okay. If there is, then it just needs one of them needs to be marked bad, duplicate."
+        },
+        {
+          "start_time": 254620,
+          "end_time": 259420,
+          "speaker": "Speaker 3",
+          "content": "You know what I mean? So we can I just mark the lead bad, and then it'll leave."
+        },
+        {
+          "start_time": 259420,
+          "end_time": 263020,
+          "speaker": "Lance",
+          "content": "Alone? Is it still a good lead."
+        },
+        {
+          "start_time": 263020,
+          "end_time": 267420,
+          "speaker": "Speaker 3",
+          "content": "It's a sold lead, but we don't need to talk to him anymore."
+        },
+        {
+          "start_time": 267420,
+          "end_time": 268380,
+          "speaker": "Lance",
+          "content": "Mark it sold."
+        },
+        {
+          "start_time": 269110,
+          "end_time": 273510,
+          "speaker": "Speaker 3",
+          "content": "I can't mark it sold, Matt. So I don't have the. I mean, can I do that?"
+        },
+        {
+          "start_time": 273510,
+          "end_time": 285910,
+          "speaker": "Lance",
+          "content": "Well, you have to have Chad or you know somebody mark it sold. Yeah. Yeah, we have to mark. If you have to end the visit, like if it was an open visit, end it and then mark it sold."
+        },
+        {
+          "start_time": 285910,
+          "end_time": 319790,
+          "speaker": "Speaker 3",
+          "content": "Okay, so either have Chad mark it sold or I will pause it. But if you can find out a way for me to just like indefinitely pause it, that would solve all the problems. Yeah. All right. Yeah, we used to be able to 100. I think Michael has a friend question for you. Yes. Yep. We got a new guy, Hunter Miller. Did you know? Yep. You know how you went into my email and you preset my name, address, and email and phone number at the bottom of every email? It's just there. Yeah,"
+        },
+        {
+          "start_time": 319790,
+          "end_time": 324550,
+          "speaker": "Lance",
+          "content": "He can do that. He can do that in his own thing, in his own settings. He can set his own signature."
+        },
+        {
+          "start_time": 325140,
+          "end_time": 325940,
+          "speaker": "Speaker 3",
+          "content": "Okay, I just."
+        },
+        {
+          "start_time": 325940,
+          "end_time": 330180,
+          "speaker": "Lance",
+          "content": "I'll set it by the time I'm back. I'll set it on Tuesday."
+        },
+        {
+          "start_time": 330180,
+          "end_time": 340500,
+          "speaker": "Speaker 3",
+          "content": "Okay, cool, cool, cool. Because I don't know if he knows how to do that. I certainly don't know how to do it. All right, get him set. Get him set up right. All right. Hi, man. Thanks. Bye, bye."
+        },
+        {
+          "start_time": 340500,
+          "end_time": 354570,
+          "speaker": "Speaker 2",
+          "content": "Hey, am I still on speaker?"
+        },
+        {
+          "start_time": 354570,
+          "end_time": 410090,
+          "speaker": "Lance",
+          "content": "Jack's Jack's just a problem, dude. He wants he's always wanting to pause everything, and I'm like, man, it's just it's really not that big a deal. So, but it is a nuisance because if we don't, you know, if we don't work it sold, then it will then it it'll just keep on talking to him. You know what I'm saying? And the way the damn if if y'all don't do it actively, the way that damn system works is it'll it's a pain in the ass because it'll wait until like. Finance finalizes it, and then DMS has it shows it finalized, and then it's like a whole another day to where it like talks back to the to the CRM. So anyway, yeah, just tell him mark the yeah, tell him request it, and then market sold. I do. Thank you, man. Bye bye. Screen on my on my face."
+        },
+        {
+          "start_time": 412720,
+          "end_time": 426720,
+          "speaker": "Lance",
+          "content": "So that one right there, he's red. Yeah, bro. Why are you drinking energy drink at five o'clock? What do you mean? Hello. I slid it, mom. I asked my question. It's a simple question. I need my K. It fixes my headache."
+        },
+        {
+          "start_time": 426720,
+          "end_time": 430160,
+          "speaker": "Speaker 4",
+          "content": "He said I slid it with mom. I did."
+        },
+        {
+          "start_time": 430160,
+          "end_time": 442700,
+          "speaker": "Lance",
+          "content": "Throw you right under the bus. I didn't. Oh, it's a lie. Yeah. Complete asshole. Complete asshole. And it's not even funny. Well,"
+        },
+        {
+          "start_time": 442700,
+          "end_time": 444300,
+          "speaker": "Speaker 5",
+          "content": "On the bright side, my headache's gone."
+        },
+        {
+          "start_time": 444300,
+          "end_time": 468300,
+          "speaker": "Speaker 2",
+          "content": "You know. Look at that, bro. Yo, Jeff. Mom, you know what I've been doing at the gym sometimes. Father, I'm on the peck deck machine, or not the machine. I'm the one in that."
+        },
+        {
+          "start_time": 468300,
+          "end_time": 469500,
+          "speaker": "Lance",
+          "content": "What is he saying?"
+        },
+        {
+          "start_time": 471010,
+          "end_time": 479890,
+          "speaker": "Lance",
+          "content": "Do you know I'm talking about? Did you take some ibuprofen, Dickhead? Hey, did you take some ibuprofen?"
+        },
+        {
+          "start_time": 479890,
+          "end_time": 480770,
+          "speaker": "Speaker 5",
+          "content": "Me, yeah."
+        },
+        {
+          "start_time": 480770,
+          "end_time": 484050,
+          "speaker": "Lance",
+          "content": "Okay. Well."
+        },
+        {
+          "start_time": 484050,
+          "end_time": 492530,
+          "speaker": "Speaker 5",
+          "content": "We can't go to this cool music outdoor place that we were gonna go."
+        },
+        {
+          "start_time": 492530,
+          "end_time": 493650,
+          "speaker": "Lance",
+          "content": "Okay, I didn't even know we were."
+        },
+        {
+          "start_time": 493650,
+          "end_time": 507370,
+          "speaker": "Speaker 5",
+          "content": "Gonna go. So when are we gonna go there? Today, tonight. Here we go. Cleaning up at like six pm. I don't know. He said it was a cool outdoor piece of place. I think it's outdoor."
+        },
+        {
+          "start_time": 507370,
+          "end_time": 510650,
+          "speaker": "Speaker 2",
+          "content": "Maybe I don't know. Live music and stuff, though."
+        },
+        {
+          "start_time": 510650,
+          "end_time": 556670,
+          "speaker": "Lance",
+          "content": "What kind of live music was it though? Was it bad live music or was it good live music? No, she told them all. She said it was cool. You hang out and listen to this bad music that people listen to all day. Baw the baw, the bang the bang. That is not beach music. I almost went over there and I wasn't gonna tell him turn it down. I was gonna be like, let me tell y'all something. Y'all music taste is terrible. This is not beach music. Y'all gotta do better. If y'all gonna let us all listen to it, you gotta do better. You gotta do better. You just gotta do better. Go to the moon."
+        },
+        {
+          "start_time": 557930,
+          "end_time": 567290,
+          "speaker": "Lance",
+          "content": "What's frustrating is if I tell my AI, do better. She knows what that means. Humans, I don't think understand. Understands."
+        },
+        {
+          "start_time": 567290,
+          "end_time": 570330,
+          "speaker": "Speaker 2",
+          "content": "They just don't. Do."
+        },
+        {
+          "start_time": 570330,
+          "end_time": 580760,
+          "speaker": "Lance",
+          "content": "You probably could use a Prime too, Cat Dick. What did you say?"
+        },
+        {
+          "start_time": 586760,
+          "end_time": 586920,
+          "speaker": "Lance",
+          "content": "My Name."
+        },
+        {
+          "start_time": 586920,
+          "end_time": 590920,
+          "speaker": "Speaker 2",
+          "content": "Is Kid. Rock, rock."
+        },
+        {
+          "start_time": 590920,
+          "end_time": 609520,
+          "speaker": "Lance",
+          "content": "Mickey, Mickey Mouse, rock the house. Mickey, Mickey Mouse, rock the house. Go Mickey, go Mickey. So let me tell y'all something. Let me ask y'all something."
+        },
+        {
+          "start_time": 618610,
+          "end_time": 619250,
+          "speaker": "Speaker 4",
+          "content": "Yeah,"
+        },
+        {
+          "start_time": 619250,
+          "end_time": 623730,
+          "speaker": "Lance",
+          "content": "Does it do any bushwhacking?"
+        },
+        {
+          "start_time": 623730,
+          "end_time": 630450,
+          "speaker": "Speaker 4",
+          "content": "Food, drinks, live music, all family friendly, and it looks really nice."
+        },
+        {
+          "start_time": 630450,
+          "end_time": 631890,
+          "speaker": "Lance",
+          "content": "I have to sit in the sun, am I?"
+        },
+        {
+          "start_time": 631890,
+          "end_time": 635330,
+          "speaker": "Speaker 4",
+          "content": "To go eat at. Come look at their website. It's even a good looking website."
+        },
+        {
+          "start_time": 635330,
+          "end_time": 640050,
+          "speaker": "Lance",
+          "content": "Come see. So many people have such bad websites."
+        },
+        {
+          "start_time": 640050,
+          "end_time": 645910,
+          "speaker": "Speaker 4",
+          "content": "Wait, if I saw a picture now, I don't know where the hell I saw that. Come hungry, stay for the sunset."
+        },
+        {
+          "start_time": 647610,
+          "end_time": 654170,
+          "speaker": "Speaker 4",
+          "content": "Bring the kids selling. I don't know where I saw pictures. Maybe I made that up. No, I swear I saw a picture somewhere."
+        },
+        {
+          "start_time": 654170,
+          "end_time": 657130,
+          "speaker": "Speaker 5",
+          "content": "Maybe you were looking at like Yelp or something, and you saw pictures."
+        },
+        {
+          "start_time": 657130,
+          "end_time": 662410,
+          "speaker": "Speaker 4",
+          "content": "Maybe. Yelp. I've been on this website, so I already. I don't know, but let's go."
+        },
+        {
+          "start_time": 662410,
+          "end_time": 663370,
+          "speaker": "Lance",
+          "content": "Where's that Facebook?"
+        },
+        {
+          "start_time": 663370,
+          "end_time": 666890,
+          "speaker": "Speaker 4",
+          "content": "I don't need to go to that. Oh wait, we can go. Yeah, it's a different place."
+        },
+        {
+          "start_time": 666890,
+          "end_time": 672790,
+          "speaker": "Speaker 2",
+          "content": "Okay, it's a different one."
+        },
+        {
+          "start_time": 676190,
+          "end_time": 683070,
+          "speaker": "Lance",
+          "content": "Oh, I get to watch this football game. Look, I don't know. Look here."
+        },
+        {
+          "start_time": 683070,
+          "end_time": 707450,
+          "speaker": "Speaker 2",
+          "content": "What? Mom's getting dressed. I'm bulletproof. Oh,"
+        },
+        {
+          "start_time": 707450,
+          "end_time": 716810,
+          "speaker": "Speaker 5",
+          "content": "Dad! I need your ear drops. I don't know that I have them. What? I hate to tell you, I wish I did have them."
+        },
+        {
+          "start_time": 746000,
+          "end_time": 752480,
+          "speaker": "Speaker 2",
+          "content": "Fucking hair treatment, probably. You don't have them?"
+        },
+        {
+          "start_time": 752480,
+          "end_time": 758960,
+          "speaker": "Lance",
+          "content": "No. Damn. Yeah, no, they're good ones too. We'll get us some new ones."
+        },
+        {
+          "start_time": 758960,
+          "end_time": 761440,
+          "speaker": "Speaker 5",
+          "content": "Amateur hour over here."
+        },
+        {
+          "start_time": 761440,
+          "end_time": 762000,
+          "speaker": "Lance",
+          "content": "Yeah,"
+        },
+        {
+          "start_time": 762000,
+          "end_time": 775980,
+          "speaker": "Speaker 2",
+          "content": "Pretty much. I mean, you know what? I love you. For what? This one. Somewhere."
+        },
+        {
+          "start_time": 777230,
+          "end_time": 784990,
+          "speaker": "Speaker 5",
+          "content": "Mom, no, I know. Do you have like some sort of lotion or something I can use? Beautiful."
+        },
+        {
+          "start_time": 784990,
+          "end_time": 802710,
+          "speaker": "Lance",
+          "content": "Bushwhackers. Max is gonna be upset. Upset about what? Not getting pizza. Getting pizza. I wanted to have pizza at Bushwhackers. No, he wants pizza."
+        },
+        {
+          "start_time": 805160,
+          "end_time": 811640,
+          "speaker": "Speaker 5",
+          "content": "Or he just doesn't eat, and we order him a pizza because he's probably not that hungry. Maybe he's hungry."
+        },
+        {
+          "start_time": 811640,
+          "end_time": 815000,
+          "speaker": "Lance",
+          "content": "I don't know. Order him a pizza later on tonight."
+        },
+        {
+          "start_time": 815000,
+          "end_time": 823320,
+          "speaker": "Speaker 2",
+          "content": "Yeah. Yeah. I mean."
+        },
+        {
+          "start_time": 823320,
+          "end_time": 830360,
+          "speaker": "Speaker 5",
+          "content": "This me just being in this pool is like me using that sea salt spray, but it's like ten million times real. This is real."
+        },
+        {
+          "start_time": 830360,
+          "end_time": 833880,
+          "speaker": "Speaker 2",
+          "content": "It's real. The other one's real, but also not real. This is real."
+        },
+        {
+          "start_time": 833880,
+          "end_time": 834630,
+          "speaker": "Lance",
+          "content": "This is real."
+        },
+        {
+          "start_time": 838800,
+          "end_time": 845520,
+          "speaker": "Lance",
+          "content": "This is also good for you. Being out in the sun, in the sea water."
+        },
+        {
+          "start_time": 845520,
+          "end_time": 865410,
+          "speaker": "Speaker 2",
+          "content": "He's pooping. Very good, love Max. Now we're ready to go, Max."
+        },
+        {
+          "start_time": 867550,
+          "end_time": 869150,
+          "speaker": "Lance",
+          "content": "We didn't know we were hauling ass already."
+        },
+        {
+          "start_time": 869150,
+          "end_time": 871150,
+          "speaker": "Speaker 5",
+          "content": "Hey, we're ready. We're we're uh."
+        },
+        {
+          "start_time": 871150,
+          "end_time": 888630,
+          "speaker": "Speaker 2",
+          "content": "I'm just in there getting changed. We're going to eat. Okay. Okay. What do you say? He's changed. He's just washing his hands. Gee."
+        },
+        {
+          "start_time": 895950,
+          "end_time": 897390,
+          "speaker": "Lance",
+          "content": "The Poor little man got water in his."
+        },
+        {
+          "start_time": 897390,
+          "end_time": 938850,
+          "speaker": "Speaker 2",
+          "content": "Ear. I got it. Got it now. Well, earlier, wait, can I come in? Earlier, I wasn't able to do my patented head shake to get the water out of my head. So yeah, my head hurts. My head hurts so bad I couldn't do it. But now my head hurts a little bit. Summer song. He's got a comb problem."
+        },
+        {
+          "start_time": 967660,
+          "end_time": 969740,
+          "speaker": "Speaker 2",
+          "content": "You know who."
+        },
+        {
+          "start_time": 969740,
+          "end_time": 983020,
+          "speaker": "Speaker 5",
+          "content": "Owns that song? That dude that walked that that darts dude that walked out too. Who's darts? He's badass."
+        },
+        {
+          "start_time": 983020,
+          "end_time": 985340,
+          "speaker": "Lance",
+          "content": "He's the darts dude. He's British."
+        },
+        {
+          "start_time": 985340,
+          "end_time": 988540,
+          "speaker": "Speaker 5",
+          "content": "Yeah. He can't be British and badass."
+        },
+        {
+          "start_time": 988540,
+          "end_time": 989820,
+          "speaker": "Lance",
+          "content": "Oh, he's pretty badass."
+        },
+        {
+          "start_time": 989820,
+          "end_time": 1004670,
+          "speaker": "Speaker 5",
+          "content": "In Holland, bro. James Bond. He's a darts man. James Bond is probably the most badass. I don't know. There's a lot pretty. There's a lot of them. No, but he's the guy. Go watch Skyfall. The shit. He is in that."
+        },
+        {
+          "start_time": 1004670,
+          "end_time": 1009790,
+          "speaker": "Lance",
+          "content": "He is fictional, so there's that. Yeah, but so your story might still be true."
+        },
+        {
+          "start_time": 1009790,
+          "end_time": 1017950,
+          "speaker": "Speaker 5",
+          "content": "He just named Spiderman. So who put my shirt right here? Hit me on the huggers. Catch."
+        },
+        {
+          "start_time": 1017950,
+          "end_time": 1025050,
+          "speaker": "Lance",
+          "content": "I don't want to throw this disc. Why not? It's too pointy. It's not a good throw disc."
+        },
+        {
+          "start_time": 1025050,
+          "end_time": 1026730,
+          "speaker": "Speaker 5",
+          "content": "I love it. It's so soft."
+        },
+        {
+          "start_time": 1026730,
+          "end_time": 1039530,
+          "speaker": "Lance",
+          "content": "It's not soft. It's hard and stupid. It's really soft. It's very soft. Aloe vera. Not on the aloe vera. It's just gonna piss me off."
+        },
+        {
+          "start_time": 1039530,
+          "end_time": 1055850,
+          "speaker": "Speaker 2",
+          "content": "I had to use it. You should use it. I don't know if it works or not. I'm bulletproof. I'm bulletproof. Bulletproof. I'm in here. Proof of the bullet. Sorry."
+        }
+      ],
+      "filed_at": "2026-09-27T11:02:00"
+    },
+    {
+      "id": "of_b344cc0290090746b5a0cb7de32aaf7f",
+      "name": "09-25 Meeting: Verbiage Update for Q5 Pre-owned Vehicle Pages",
+      "start_at": "2026-09-25T10:15:40",
+      "created_at": "2026-09-25T15:16:29",
+      "duration_ms": 41000,
+      "vertical": "coop-marketing",
+      "store": "abr",
+      "routed_by": "spoken",
+      "status": "go",
+      "work_order": "Revise ABR Q5 pre-owned slider + feature page verbiage to executive demo sale: 'Q5 executive demos. Great selection, great prices.'",
+      "highlights": [],
+      "summary_md": "## 1. Verbiage Update for Q5 Pre-owned Vehicle Pages\nThe current wording on the Q5 slider for pre-owned vehicles and the Q5 feature page is redundant and overly direct. For example, it states \"the Q5 pre-owned, and then it says Q5 Q5 Sportback, the SQ5 pre-owned and on the lot at Audi Baton Rouge.\" The objective is to refine this language to be more appealing and professional. The proposed solution is to rebrand this section as an \"executive demo sale,\" using phrases like \"Q5 executive demos\" and highlighting \"Great selection, great prices\" to attract customers more effectively.\n### Action Items\n- [ ] Revise the verbiage on the Q5 pre-owned slider and the Q5 feature page to reflect the new \"executive demo sale\" branding, using phrases like \"Q5 executive demos. Great selection, great prices.\" -- *Ada*\n- [ ] Set a clear deadline for the verbiage update to ensure timely completion. -- *Ada*\n- [ ] Define and confirm the review/approval process for the new verbiage (e.g., Lance or designated approver) before going live to maintain brand consistency. -- *Lance* or designated approver",
+      "transcript": [
+        {
+          "start_time": 240,
+          "end_time": 40150,
+          "speaker": "Lance",
+          "content": "Hey, I'm looking at the Q5 slider for pre-owned and the Q5 feature page. We got to work on this verbiage. You just said the Q5 pre-owned, and then it says Q5 Q5 Sportback, the SQ5 pre-owned and on the lot at Audi Baton Rouge. That's a little on the nose. You obviously, or maybe you did or didn't use Quill. Let's fix that verbiage. Let's call that executive demo sale. Q5 executive demos. Great selection, great prices. Let's pivot to that verbiage. Get her done, Ada. Thank you."
+        }
+      ]
+    },
+    {
+      "id": "of_ae92501d4b3019b8eb19aec51fd0a537",
+      "name": "09-25 MGMT BH BMW",
+      "start_at": "2026-09-25T10:30:16",
+      "created_at": "2026-09-25T15:30:36",
+      "duration_ms": 12000,
+      "vertical": "coop-dev",
+      "routed_by": "spoken",
+      "status": "go",
+      "work_order": "If new polar worked: check and apply any available Hermes updates (big update rumored).",
+      "highlights": [],
+      "summary_md": "Ada work order (voice prompt).\n\n> Ada, if the new polar worked, let's go and check and take care of any Hermes updates that we can do. I heard there's a big update.\n\n### Action\n- [ ] Confirm polar path, then check Hermes updates and apply what's safe -- *Ada*",
+      "transcript": [
+        {
+          "start_time": 800,
+          "end_time": 9910,
+          "speaker": "Lance",
+          "content": "Ada, if the new polar worked, let's go and check and take care of any Hermes updates that we can do. I heard there's a big update."
+        }
+      ]
+    },
+    {
+      "id": "of_3d85ee48f5536e432b0207f8021400de",
+      "name": "09-25 Casual Conversation: Practical Expenses, Purchasing Strategies, and Orthodontic Costs",
+      "start_at": "2026-09-25T12:42:03",
+      "created_at": "2026-09-25T17:50:34",
+      "duration_ms": 500000,
+      "vertical": "personal",
+      "routed_by": "infer",
+      "status": "park",
+      "work_order": "",
+      "highlights": [
+        {
+          "timestamp": 434700,
+          "title": "Bottom expander",
+          "content": "She needs a bottom retainer because the top is outgrowing the bottom and causing a bad bite, with the goal of creating more room for teeth to grow in straighter."
+        }
+      ],
+      "summary_md": "## Your Conversation Summary\n\n### The Vibe\nThis was a casual and helpful exchange of practical advice and personal anecdotes among friends.\n\n### The Gist\nConnect Hector for social/algorithm advice \u2192 car brakes/tires \u2192 Costco price-match at Discount Tire \u2192 Pay in 4 / Klarna / Affirm \u2192 kids' orthodontics (Josie expander, Max severe case).\n\n### Things to Remember\n* Text Hector's number for a call\n* Pay in 4 on PayPal for purchases over $500\n* Costco price \u2192 Discount Tire match for tires",
+      "transcript": [
+        {
+          "start_time": 1710,
+          "end_time": 31900,
+          "speaker": "Speaker 1",
+          "content": "Hey, what's going on, Reggie? Hey, dude. Question for you. Yep. I've got a kid in California that makes videos and stuff and all kind of shit. And he's got he was talking about algorithms about how to, you know, get more views for his video and all that. Well, dude, I I got a guy that's a digital guy. I could have him call you. Maybe he can give you some ideas. But yeah, I was wondering, do you have time when you could maybe. Call him if I give you Hector's number."
+        },
+        {
+          "start_time": 31900,
+          "end_time": 44300,
+          "speaker": "Speaker 2",
+          "content": "It takes me his number. I'm uh I'm wrapping up some stuff to leave town. I'll be I'll be back on like well I'll be back at work on Tuesday, but I'll call him and kind of bullshit with him and see what's up. Alright,"
+        },
+        {
+          "start_time": 392620,
+          "end_time": 414390,
+          "speaker": "Speaker 2",
+          "content": "I'm not riding on a big ass savings account yet, so it's like, yeah. The more money I give up out of just my normal account, it's like less cushion I have. Yeah, totally. You never know when something's gonna come up. Totally. Like right now, Max is. We're paying I don't know, three hundred dollars a month for his braces. Oh shit!"
+        },
+        {
+          "start_time": 416950,
+          "end_time": 432800,
+          "speaker": "Speaker 2",
+          "content": "That dude's fucking teeth are so fucking jacked up. Like the doctor said, or the doctor, the orthodontist, he said, yeah, his his case is like an eleven out of ten. And I wasn't paying attention, and then I realized, oh fuck."
+        },
+        {
+          "start_time": 434700,
+          "end_time": 443420,
+          "speaker": "Speaker 3",
+          "content": "Eleven out of ten. Yeah, Josie's got a top expander, and they told her she needs a bottom. We getting a bottom expander."
+        },
+        {
+          "start_time": 463580,
+          "end_time": 494330,
+          "speaker": "Speaker 3",
+          "content": "Yeah, yeah, yeah. And she just had her last. She wore it all like 24/7, and just took it out to eat. Yeah. And now she's got to the point where she's just wearing just the sleeve. But they're telling us she needs the bottom one because the top is outgrowing the bottom. Yeah. She's got like a bad bite kind of going on again. Yep. But the whole idea is if they can give all the teeth more room, they'll grow in a little straighter and maybe get the boy through. Well, yeah, Max."
+        }
+      ]
+    },
     {
       "id": "of_3afd7433a3ccdd2328b7e449e85ef12c",
       "name": "09-24 Meeting: Sales Platform Modes, Filtering, and Integrations",
