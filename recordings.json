@@ -1,6 +1,82 @@
 {
-  "revision": "PLAUD-NOTES-2026-09-27-0602-MORNING",
+  "revision": "PLAUD-NOTES-2026-09-29-TODAY",
   "recordings": [
+    {
+      "id": "of_89b51068364fe35143f79f64e612ecfa",
+      "name": "09-29 Meeting: Concert Photography and Yard Signs",
+      "start_at": "2026-09-29T15:59:57",
+      "created_at": "2026-09-29T16:01:12",
+      "duration_ms": 65000,
+      "vertical": "dealers",
+      "store": "abr",
+      "routed_by": "spoken",
+      "status": "go",
+      "work_order": "Ada: calendar ABR Halloween concert photography Oct 10 ~7\u20138p. Yard signs: reprint if missing.",
+      "highlights": [],
+      "summary_md": "## ABR Halloween concert photo\n\n- Date: **October 10, 2026**. Time spoken as 7 or 8 PM (not locked).\n- Ada work order: put photography on the calendar.\n- Yard signs: Speaker 2 checking downstairs; reprint if gone (may have left with car pickup).\n",
+      "transcript": [
+        {
+          "start_time": 6350,
+          "end_time": 20990,
+          "speaker": "Lance",
+          "content": "Hey, What's going on, dude? I was gonna let you know that that concert my nigga is October tenth. October tenth. Yeah, I don't know if you're available to take pictures. I should be. Yeah, October tenth. Like what, seven or eight? What time is it?"
+        },
+        {
+          "start_time": 20990,
+          "end_time": 23150,
+          "speaker": "Speaker 2",
+          "content": "Is that kind of when it goes down."
+        },
+        {
+          "start_time": 23150,
+          "end_time": 27310,
+          "speaker": "Lance",
+          "content": "Yep. Do y'all have the little yard signs and shit?"
+        },
+        {
+          "start_time": 27310,
+          "end_time": 34360,
+          "speaker": "Speaker 2",
+          "content": "As soon as I get downstairs, I'm at our. As soon as I get downstairs, I'm gonna go looking at little rolls. If I don't, I'll let you know."
+        },
+        {
+          "start_time": 34360,
+          "end_time": 64180,
+          "speaker": "Lance",
+          "content": "All right. Yeah, let me know because we can just reprint them. I don't know because I wasn't there when they picked them up. Yeah, whoever went and picked the cars up probably picked the signs up. Okay. I'll find out and always. Okay. Yeah, let me know. All right. No problem. Bye. We need to put on our calendar, Ada, October tenth. Well, you heard it in the conversation. It's the Halloween concert for Audi Baton Rouge. We need to go take some pictures. Make sure that's on our calendar."
+        }
+      ]
+    },
+    {
+      "id": "of_a1937579c6360212b645eb5749a7c51e",
+      "name": "09-29 Meeting: Fullpath Onboarding, Launch Readiness, and Configuration",
+      "start_at": "2026-09-29T15:18:06",
+      "created_at": "2026-09-29T15:58:40",
+      "duration_ms": 1425000,
+      "vertical": "dealers",
+      "store": "bhbmw",
+      "routed_by": "infer",
+      "status": "go",
+      "work_order": "BHBMW Fullpath launch pending QA + Lance PNG logo. AMP off at go-live. Service/BDC emails still needed from Lance.",
+      "highlights": [],
+      "summary_md": "## BHBMW Fullpath onboarding 2026-09-29\n\n- Suite: CDP Pro, Audience Activation, Equity, Data Enrichment.\n- 10-day domain warm-up; no custom campaigns during warm-up. AMP off at Fullpath launch.\n- Vin/DMS/inventory/website/SMS done. Pricing fields still in flight. Dealer processing fee **$436** new+used.\n- Outbound domain autostarspecials.com; reply-to darryll.franklin@brianharrisbmw.com. SMS assistant **Heidi**. Unknown SMS pref treated as opted-in (approved).\n- Lance: email PNG logo (white bg). Provide service/BDC notification emails. Weekly coffee report on Lance first.\n",
+      "transcript": []
+    },
+    {
+      "id": "of_39bfd1fe17b0def37a678a1432e6c4a1",
+      "name": "09-29 Monthly Meeting: Performance Review, Sales Challenges, and Marketing Budget",
+      "start_at": "2026-09-29T14:45:24",
+      "created_at": "2026-09-29T15:17:28",
+      "duration_ms": 1910000,
+      "vertical": "dealers",
+      "store": "bhbmw",
+      "routed_by": "infer",
+      "status": "go",
+      "work_order": "BHBMW Oct marketing cap \u2264$30k with Michael. Car show Fri 10/2 setup / Sat 10/3 main. CPO + off-brand used weak.",
+      "highlights": [],
+      "summary_md": "## BHBMW monthly 2026-09-29\n\n- Worst month in a long time: ~10 calls off; YoY \u22125 units; MS markets (Meridian / Lafayette) weak. 500-unit YE still the goal.\n- Inventory: 6 X5 orders; 2 sold iX3s stuck at port (charging adapters) \u2014 not this month. Off-brand used + CPO underperforming.\n- Marketing: do not exceed **$30,000**. Lance + Michael build October plan; track month-to-month. Keep X5 push.\n- Car show: setup Fri Oct 2; main Sat Oct 3 (~8a). Lance Fri+Sat.\n- Staffing: no mgr changes until year-end (sensitive; not Ada).\n",
+      "transcript": []
+    },
     {
       "id": "of_54abfda4bdbb9735505eb5329e840ec8",
       "name": "09-26 CRM Process Gap Causes AI to Contact Sold Customers",
@@ -20596,6 +20672,88 @@
       ],
       "filed_at": "2026-09-23T13:33:21.944080-05:00",
       "source_note": "midday-ops-brief 2026-09-23"
+    },
+    {
+      "id": "of_968089236de5fc8ada09d1611d3e9f6b",
+      "name": "09-29 Technical Support Call Reveals User Training Gaps in Customer Communication Platform",
+      "start_at": "2026-09-29T16:24:14",
+      "created_at": "2026-09-29T17:16:39",
+      "duration_ms": 786000,
+      "vertical": "dealers",
+      "store": null,
+      "routed_by": "infer: Vin text/Gen AI floor coaching (rest = disc golf leftover)",
+      "status": "park",
+      "work_order": "Lance: sit-with salesperson \u2014 Gen AI text button + opt-in green button vs new-lead workaround.",
+      "summary_md": "## Core\nVinSolutions floor coaching: salesperson wants better text templates (Podium-era) and couldn't text some customers (green button off).\n\n## Diagnosis (Lance)\n- Use **Gen AI** button in the text composer instead of weak templates.\n- Green text = opt-in status, not \u201cnew lead required.\u201d Don't open a fresh lead just to text an existing customer \u2014 start/select the person correctly.\n- Missed training on Gen AI; one-off phone fix isn't enough.\n\n## Action\n- Lance: in-person sit-with to demo texting + Gen AI workflow (TBD).\n\n## Note\nAfter ~2m the tape is disc-golf broadcast left running \u2014 ignore for ops.\n",
+      "highlights": [],
+      "transcript": [
+        {
+          "start_time": 800,
+          "end_time": 1440,
+          "speaker": "Lance",
+          "content": "Wasn't a dude."
+        },
+        {
+          "start_time": 1440,
+          "end_time": 35340,
+          "speaker": "Speaker 2",
+          "content": "So I was told a while back that we were going to put in some templates, and then so then I was told to do a text through them. And I went into a customer, and I opened up the templates. Templates really aren't that great. There was a couple really good ones. Remember with that we put in with podium. I wonder if we can add some templates like the ones that we both, you know, previous customers. Do that, but."
+        },
+        {
+          "start_time": 35340,
+          "end_time": 50300,
+          "speaker": "Lance",
+          "content": "You also when you're doing the text to the person, you can also use you can also just use the gen the gen AI button. Um, there should be a button when you're shooting a text to someone. It's gen AI, generative AI. Okay."
+        },
+        {
+          "start_time": 50300,
+          "end_time": 54060,
+          "speaker": "Speaker 2",
+          "content": "Um."
+        },
+        {
+          "start_time": 54060,
+          "end_time": 57820,
+          "speaker": "Lance",
+          "content": "No, it helps you write the message basically."
+        },
+        {
+          "start_time": 57820,
+          "end_time": 61550,
+          "speaker": "Speaker 2",
+          "content": "Mm - hmm. Training on this, but I was not around."
+        },
+        {
+          "start_time": 61550,
+          "end_time": 65870,
+          "speaker": "Speaker 3",
+          "content": "Didn't know about it. Yep."
+        },
+        {
+          "start_time": 65870,
+          "end_time": 85230,
+          "speaker": "Speaker 2",
+          "content": "Text. By the way, clicked on a couple customers, and the green little text button on the right side wasn't lit up. So I went to open. All right, new lead. I started. I'm starting to get out of vehicle. Helping you. Does that make any sense?"
+        },
+        {
+          "start_time": 86930,
+          "end_time": 91090,
+          "speaker": "Lance",
+          "content": "Are you talking about old customers? You just need to start a start a lead and picking it. Yeah."
+        },
+        {
+          "start_time": 116330,
+          "end_time": 117210,
+          "speaker": "Speaker 2",
+          "content": "You don't have to start a new."
+        },
+        {
+          "start_time": 117210,
+          "end_time": 141830,
+          "speaker": "Lance",
+          "content": "You don't have to start a new lead to text them that green is not doesn't have anything to do with whether it's a lead or not. That green just means either they've opted in or someone else has checked the box. I can't give it to. I can't give it all to you on the phone. I have to come by and sit there with you. Yep, I will. I'll come by and look at it with you for sure. All right, all right, man. No problem. All right, bye."
+        }
+      ]
     }
   ]
 }
