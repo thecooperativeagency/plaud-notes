@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="robots" content="noindex, nofollow">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Personal — Field desk</title>
+  <title>09-29 AI-Powered Roll-Up Strategy: Capitalizing on the $5 Trillion Wealth Transfer from Retiring Baby Boomers</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500&family=IBM+Plex+Mono:wght@400;500&family=Source+Sans+3:wght@400;600;700&display=swap">
   <style>
@@ -136,29 +136,40 @@ footer { margin-top: 48px; color: var(--faint); font-size: 11px; font-family: va
   <div class="mark">Cooperative</div>
   <h1>Field desk</h1>
   <p class="lede">Plaud landings. Summary, highlights, transcript — filed by life area.</p>
-  <nav class="vnav"><a href="index.html" class="">All <span class="count">63</span></a><a class="" href="vertical-inbox.html">Inbox <span class="count">0</span></a><a class="is-on" href="vertical-personal.html">Personal <span class="count">2</span></a><a class="" href="vertical-coop-marketing.html">Coop Marketing <span class="count">3</span></a><a class="" href="vertical-coop-dev.html">Coop Dev <span class="count">11</span></a><a class="" href="vertical-avec-tous.html">Avec Tous <span class="count">0</span></a><a class="" href="vertical-dealers.html">Dealers <span class="count">44</span></a><a class="" href="vertical-ideas.html">Ideas <span class="count">3</span></a></nav>
+  <nav class="vnav"><a href="../index.html" class="">All <span class="count">63</span></a><a class="" href="../vertical-inbox.html">Inbox <span class="count">0</span></a><a class="" href="../vertical-personal.html">Personal <span class="count">2</span></a><a class="" href="../vertical-coop-marketing.html">Coop Marketing <span class="count">3</span></a><a class="" href="../vertical-coop-dev.html">Coop Dev <span class="count">11</span></a><a class="" href="../vertical-avec-tous.html">Avec Tous <span class="count">0</span></a><a class="" href="../vertical-dealers.html">Dealers <span class="count">44</span></a><a class="is-on" href="../vertical-ideas.html">Ideas <span class="count">3</span></a></nav>
 </aside>
 <main class="stage">
-  <div class="kicker">Vertical</div>
-  <h2>Personal</h2>
-  <p class="blurb">Family, health, travel, disc, home. Not Coop.</p>
-  <div class="cards"><a class="card" href="notes/of_7d59aa1678bc7ae8a355c0ff4edfd055.html">
-  <div>
-    <h3>09-29 Casual Conversation: Professional Relationships and Financial Struggles</h3>
-    <div class="meta"><span>2026-09-29</span><span>2m13s</span></div>
+  <a class="back" href="../index.html">← Desk</a>
+  <div class="note-top">
+    <div class="kicker">ideas · 2026-09-29 · 18m25s</div>
+    <h2>09-29 AI-Powered Roll-Up Strategy: Capitalizing on the $5 Trillion Wealth Transfer from Retiring Baby Boomers</h2>
+    <div class="meta" style="margin-top:8px"><span>id of_d1d9d360b6260ab66de5d6780b326a88</span><span>infer</span></div>
   </div>
-  <span class="chip personal">personal</span>
-</a><a class="card" href="notes/of_3d85ee48f5536e432b0207f8021400de.html">
-  <div>
-    <h3>09-25 Casual Conversation: Practical Expenses, Purchasing Strategies, and Orthodontic Costs</h3>
-    <div class="meta"><span>2026-09-25</span><span>8m20s</span></div>
+  <div class="tabs" role="tablist">
+    <button type="button" data-panel="sum" aria-selected="true">Summary</button>
+    <button type="button" data-panel="hl" aria-selected="false">Highlights</button>
+    <button type="button" data-panel="tx" aria-selected="false">Transcript</button>
   </div>
-  <span class="chip personal">personal</span>
-</a></div>
+  <section id="sum" class="panel is-on prose"><h2>AI roll-up thesis (parked idea)</h2>
+<ul>
+<li>Boomer exit → ~$5T wealth / small service-business M&amp;A wave; AI agents can expand margins (5–10% → 30–40% thesis).</li>
+<li>Institutional playbook (Thrive / GC): platform first → acquire trusted local brands → agents in background.</li>
+<li>Indie wedge: <strong>one-person HoldCo</strong> on sub-$2M firms off institutional radar; promote local GM + shared AI back-office.</li>
+<li>Source-style notes from spoken content — <strong>not a Coop commit</strong>. Park only.</li>
+</ul></section>
+  <section id="hl" class="panel"><div class='empty'>No device highlights on this take.</div></section>
+  <section id="tx" class="panel"><div class='empty'>No transcript yet.</div></section>
 </main>
 </div>
 <footer>PLAUD-NOTES-2026-09-30-AM · noindex · Plaud sources + notes</footer>
 <script>
+
+document.querySelectorAll('.tabs button').forEach(btn => {
+  btn.addEventListener('click', () => {
+    document.querySelectorAll('.tabs button').forEach(b => b.setAttribute('aria-selected', b===btn ? 'true':'false'));
+    document.querySelectorAll('.panel').forEach(p => p.classList.toggle('is-on', p.id === btn.dataset.panel));
+  });
+});
 
 </script>
 </body>
