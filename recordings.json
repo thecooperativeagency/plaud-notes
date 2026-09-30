@@ -2,6 +2,40 @@
   "revision": "PLAUD-NOTES-2026-09-30-AM",
   "recordings": [
     {
+      "id": "of_78541318b958401b7a70f90fad013fb1",
+      "name": "09-30 Meeting: Vehicle Photography Task List",
+      "start_at": "2026-09-30T15:18:23",
+      "created_at": "2026-09-30T15:20:23",
+      "duration_ms": 114000,
+      "vertical": "dealers",
+      "store": "porsche",
+      "routed_by": "infer",
+      "status": "park",
+      "work_order": "HP lot photo punch list \u2014 20 stock #s need shoot/reshoot (zero/poor/prior-dealer images). Store executes; Ada files only.",
+      "highlights": [],
+      "summary_md": "## HP vehicle photography task list \u00b7 2026-09-30\n\nDictated punch list for Harris Porsche inventory photos.\n\n**Zero / must shoot**\n- 26P162 \u2014 no photos\n- 26P194, 26P195, 26P192, 26P193\n- PT584\n- 26P200A, 26P207, 26P206, 26P209, 26P212, 26P211\n- PPL123, PPL124, PPL127, PPL126, PPL129, PPL130\n\n**Reshoot / clean up**\n- 26P201 \u2014 weird prior-dealership images\n- PPL120 \u2014 poor; reshoot or reorganize\n\nNo owner/deadline on tape. Store lot photography \u2014 not an Ada build.\n",
+      "transcript": [
+        {
+          "start_time": 570,
+          "end_time": 26560,
+          "speaker": "Speaker 1",
+          "content": "All right, we're just going to record this. Go along and tell you what. Twenty six P one six two needs photos. Has zero. Twenty six P two zero one has some weird photos from previous dealership. Need to shoot it."
+        },
+        {
+          "start_time": 29390,
+          "end_time": 87010,
+          "speaker": "Speaker 1",
+          "content": "PPL one two zero needs to be shot or reorganized. Those photos look like shit. Twenty six P one ninety four needs to be shot. Twenty six P one ninety five needs to be shot. Twenty six P one ninety two needs to be shot. PPL one two three needs to be shot. PPL one two four. Needs to be shot. Twenty six P one ninety three needs to be shot. PT five eight four needs to be shot. PPL one two seven needs to be shot. PPL one two six needs to be shot. Twenty six P two zero zero A. As in alpha, needs to be shot."
+        },
+        {
+          "start_time": 87930,
+          "end_time": 112030,
+          "speaker": "Speaker 1",
+          "content": "26P207 needs to be shot. 26P206, 26P209, 26P212, 26P211, PPL129, and PPL130 all need to be shot."
+        }
+      ]
+    },
+    {
       "id": "of_7d59aa1678bc7ae8a355c0ff4edfd055",
       "name": "09-29 Casual Conversation: Professional Relationships and Financial Struggles",
       "start_at": "2026-09-29T23:01:44",
