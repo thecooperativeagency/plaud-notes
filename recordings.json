@@ -1,5 +1,5 @@
 {
-  "revision": "PLAUD-NOTES-2026-09-30-AM",
+  "revision": "PLAUD-NOTES-2026-10-01-PM",
   "recordings": [
     {
       "id": "of_8402e1d409bea231bdbe8d5efe7312e4",
@@ -20906,6 +20906,64 @@
           "content": "You don't have to start a new lead to text them that green is not doesn't have anything to do with whether it's a lead or not. That green just means either they've opted in or someone else has checked the box. I can't give it to. I can't give it all to you on the phone. I have to come by and sit there with you. Yep, I will. I'll come by and look at it with you for sure. All right, all right, man. No problem. All right, bye."
         }
       ]
+    },
+    {
+      "id": "of_6baee951655f044a139de0a1d6b2df5a",
+      "name": "10-01 Meeting: October Dealership Newsletters and Management Hubs Setup",
+      "start_at": "2026-10-01T13:09:59",
+      "created_at": "2026-10-01T13:11:55",
+      "duration_ms": 108000,
+      "vertical": "coop-marketing",
+      "store": null,
+      "routed_by": "spoken: Ada prompt \u00b7 newsletters + mgmt hubs",
+      "status": "go",
+      "work_order": "Ada: Oct newsletters ABR/BHBMW/BMWJ (newest model) + HP offers update; then mgmt hubs \u00d73 on HP model (Acquire + GM Weekly links). Lance: HP edits.",
+      "summary_md": "## Ada prompt \u00b7 Oct dealership newsletters + mgmt hubs\n\nLance: knock out October newsletters for ABR, BHBMW, BMWJ on the newest style/format model. HP mostly done \u2014 update offers; Lance edits/corrections on his side. Use the proper newsletter agents/bots/subs.\n\nThen (or in parallel): create dealer management hubs for ABR, BHBMW, BMWJ modeled on the Harris Porsche hub \u2014 Coop aesthetic + fonts. Hub = managers get newsletter link, change feedback, Acquire, GM Weekly.\n\nContact: Telegram. Get it done.\n\n### Action\n- Ada: HP offers update\n- Lance: HP edit/corrections\n- Ada: Oct ABR / BHBMW / BMWJ newsletters\n- Ada: mgmt hubs \u00d73 on HP model\n",
+      "highlights": [],
+      "transcript": [
+        {
+          "start_time": 1220,
+          "end_time": 59070,
+          "speaker": "Lance",
+          "content": "All right, Ada. This is going to be an Ada prompt. We need to go ahead and knock out all of our newsletter magazines for our dealerships. We have the Harris Porsche one. All it needs to be done with it is update the offers. And my on my end, I need to do some editing and just corrections. But let's take the newest model with all of the newest updates to the style and formatting. And go ahead and do the October edition for Audi Baton Rouge and Brian Harris BMW and BMW of Jackson. After you knock out those newsletters, I need you to make sure you're while you're doing those newsletters, we need to make sure you are using the proper agents and bots that we created for that. But then after you're done with that, or while they're doing that, we need to create a dealer management hub."
+        },
+        {
+          "start_time": 59080,
+          "end_time": 107990,
+          "speaker": "Lance",
+          "content": "The way we did for Harris Porsche, we need to create one for the other three stores. Unless you've already done that, I don't think you did. But let's make sure we follow that cooperative aesthetic with the right fonts and everything. The way that Harris Porsche one came out is great. Let's go ahead and use that as our model for that dealer management hub, because I want to be able to just give that link to the managers and say, \"Hey, your new newsletter is out. Go click on it. Look at it. Let me know if you have any changes. That kind of thing.\" And it's also going to be where they get to acquire and where they get to the GM weekly, all that kind of stuff. Anyway, that should be enough to keep you busy. Let me know if you have any questions. You can reach me on Telegram, but make sure you use all the right subs for all this work. And thanks a bunch. Get it done, Ada."
+        }
+      ]
+    },
+    {
+      "id": "of_9c94cbd648e5041932612b1214c9c618",
+      "name": "10-01 Gym Power Dynamics and IP Protection: Establishing a Program Lead Role, Coaching Standards, and PTO Policy",
+      "start_at": "2026-10-01T17:10:17",
+      "created_at": "2026-10-01T17:20:26",
+      "duration_ms": 600000,
+      "vertical": "personal",
+      "store": null,
+      "routed_by": "infer: personal gym / family coaching conflict",
+      "status": "park",
+      "work_order": "Personal only \u2014 Fri gym meeting prep; no Coop action.",
+      "summary_md": "## Gym \u00b7 power dynamics / IP / Program Lead (personal)\n\nMisaligned gym power dynamic: management (Gabby, Walker) treats coach as replaceable group instructor while relying on proprietary programming, standards, and presence. Shared \u201chundreds\u201d of workouts; wants to unshare. Often only coach present. Client loyalty stronger than Walker\u2019s prep (Lindsay: marathon prep \u201cwaste\u201d / Strava-level).\n\nPTO framed as \u201cdisrespect.\u201d Prep for meeting: Role Charter (Program Lead + Head Coach), IP terms, coaching standards checklist, PTO/coverage protocol. Lance/support = personal only.\n\n### Actions (personal)\n- Unshare proprietary workouts\n- Draft Role Charter + meeting brief\n- Coaching standards before anyone runs programming\n",
+      "highlights": [],
+      "transcript": []
+    },
+    {
+      "id": "of_76b1cd3cd630d2a995b0dd413e115139",
+      "name": "10-01 Navigating a Toxic Work Environment at the Gym",
+      "start_at": "2026-10-01T17:20:25",
+      "created_at": "2026-10-01T17:42:46",
+      "duration_ms": 1330000,
+      "vertical": "personal",
+      "store": null,
+      "routed_by": "infer: personal gym / Fri meeting",
+      "status": "park",
+      "work_order": "Personal only \u2014 Fri meeting; quit-or-boundary decision is Lance/family.",
+      "summary_md": "## Gym \u00b7 toxic work env / Fri meeting prep (personal)\n\nEscalating conflict after short-notice family PTO. Pattern: praise vs devalue, phone intimidation, Walker \u201chow dare you text your boss.\u201d Meeting set Fri 8:30a (requested 9:30 for client; ask to move to Thu refused).\n\nLance: be frank you have options; unshare Google Slides if quit path; don\u2019t seek ownership under current leadership. Lindsay: prepare to quit. Speaker wants to assert investment/value more than quit. Clients already asking status.\n\n### Actions (personal)\n- Short factual meeting statement (unpaid work + timeline)\n- Decide accept / boundaries / quit if punitive\n- Unshare shared digital assets if quitting\n- Document texts/calls\n",
+      "highlights": [],
+      "transcript": []
     }
   ]
 }
