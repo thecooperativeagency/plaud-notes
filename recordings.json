@@ -2,6 +2,34 @@
   "revision": "PLAUD-NOTES-2026-09-30-AM",
   "recordings": [
     {
+      "id": "of_8402e1d409bea231bdbe8d5efe7312e4",
+      "name": "09-30 Workout Planning: Deadlifts, Push/Pull, and Upper Body",
+      "start_at": "2026-09-30T19:00:09",
+      "created_at": "2026-09-30T19:02:00",
+      "duration_ms": 101000,
+      "vertical": "personal",
+      "store": null,
+      "routed_by": "infer",
+      "status": "park",
+      "work_order": "Personal gym programming \u2014 next session deadlift + push/pull/arms. Lance only.",
+      "highlights": [],
+      "summary_md": "## Next gym session programming \u00b7 2026-09-30\n\nPersonal programming note after a push/pull + air-squat day.\n\n**Done this morning:** air squats, DB bench, DB bent-over rows, curls, front/side shoulder raises, wide-grip + close-grip supinated lat pulldowns.\n\n**Next session:** deadlift primary; add vertical standing rows (name TBD), triceps, more biceps, extra push/pull + chest/back. Finalize full selection before gym.\n\nPark only \u2014 no Ada work order.\n",
+      "transcript": [
+        {
+          "start_time": 170,
+          "end_time": 56920,
+          "speaker": "Lance",
+          "content": "This morning, I did some squats, air squats, and dumbbell bench, dumbbell bent over rows, curls, shoulder raises, front shoulder raises, and side shoulder raises, and then. Wide grip lat pull downs and close grip supinated lat pull downs. So it was kind of a push pull day with the air squats. And then the next time I go to the gym, I need to do kind of the opposite of those things, and I need to do some deadlift on that day. So it'll be deadlift, and I'll make sure I get some like maybe vertical."
+        },
+        {
+          "start_time": 56920,
+          "end_time": 100420,
+          "speaker": "Lance",
+          "content": "What do you call them? Standing rows, vertical standing rows. I can't remember what the fuck it's called. And then some. I need to make sure I get some triceps done. Probably some more biceps done. And then I need to do some other pushes and pulls. And some other chest and back, and I don't know what else. I'll need to do some thinking."
+        }
+      ]
+    },
+    {
       "id": "of_78541318b958401b7a70f90fad013fb1",
       "name": "09-30 Meeting: Vehicle Photography Task List",
       "start_at": "2026-09-30T15:18:23",
