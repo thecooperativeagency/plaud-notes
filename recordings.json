@@ -1,5 +1,5 @@
 {
-  "revision": "PLAUD-NOTES-2026-10-02-MID",
+  "revision": "PLAUD-NOTES-2026-10-03-AM",
   "recordings": [
     {
       "id": "of_22440983af9d09479b92c28fd903ffa7",
@@ -23032,6 +23032,658 @@
       "summary_md": "## Gym \u00b7 toxic work env / Fri meeting prep (personal)\n\nEscalating conflict after short-notice family PTO. Pattern: praise vs devalue, phone intimidation, Walker \u201chow dare you text your boss.\u201d Meeting set Fri 8:30a (requested 9:30 for client; ask to move to Thu refused).\n\nLance: be frank you have options; unshare Google Slides if quit path; don\u2019t seek ownership under current leadership. Lindsay: prepare to quit. Speaker wants to assert investment/value more than quit. Clients already asking status.\n\n### Actions (personal)\n- Short factual meeting statement (unpaid work + timeline)\n- Decide accept / boundaries / quit if punitive\n- Unshare shared digital assets if quitting\n- Document texts/calls\n",
       "highlights": [],
       "transcript": []
+    },
+    {
+      "id": "of_731357f9f828eebec69b150c9b0fd63b",
+      "name": "10-02 Interview: Kyle and Lance - Website Landlord Model, SEO Lead Generation, Lifestyle Business Strategy",
+      "start_at": "2026-10-02T18:05:25",
+      "created_at": "2026-10-02T19:57:40",
+      "duration_ms": 2409000,
+      "vertical": "ideas",
+      "store": null,
+      "routed_by": "spoken: website landlord / build system",
+      "status": "park",
+      "work_order": "Already active: website-landlord playbook + pilot. Tape = source capture. Side: confirm Blayson killed in Vin (Darryll/Joel).",
+      "highlights": [],
+      "summary_md": "## Website landlord podcast + side notes \u00b7 2026-10-02 (~40m)\n\nLance watching **Koerner Office / Kyle \u201cWebsite Landlord\u201d** (rank-and-rent local SEO sites \u2192 rent call flow flat monthly).\n\n**Model (from episode)**\n- Build unbranded service\u00d7city sites, rank, track number, free-trial rent to operators\n- Flat monthly preferred over PPL/commission; ~$25/site overhead; lifestyle/passive once ranked\n- Stack: site builder/WP, CallRail, sheet; Ahrefs to start / Mangools later\n\n**Lance work-orders on tape**\n- Build the system: niches weak online, mini-sites, domains (already active in ideas + `~/.hermes/work/website-landlord/`)\n- Domain split question: stump vs tree hub \u2014 answered in PLAYBOOK (stump = own site; tree = hub)\n- Side: **Blayson still not killed in VinSolutions** \u2014 check Darryll/Joel reassignment\n- Side banter: Leonidas part-time at Adamant\u2019s (~15\u201320h / ~$15)\n\n**Status:** park on desk (idea already **active/warm** with playbook + South Denver pilot work). Not a new go from zero.",
+      "transcript": [
+        {
+          "start_time": 1860,
+          "end_time": 35100,
+          "speaker": "Speaker 1",
+          "content": "Six years later, he runs what he calls a website landlord business, doing about $104,000 a month with almost no overhead. And yes, he works only an hour or two a day. He uses cheap online tools to find supply and demand gaps. Then he builds basic websites within those niches. So today, of course, we're going to talk about how you can copy Kyle, what his script is for closing these deals, and what niches are still untapped. Enjoy. All right. Well, Kyle, tell me what a website landlord is."
+        },
+        {
+          "start_time": 35100,
+          "end_time": 87830,
+          "speaker": "Speaker 2",
+          "content": "So essentially, a website landlord is people who own pieces of internet real estate, and it's not domain flipping or anything like that. It's you're basically building a website for a certain niche in a certain city, and then renting out that lead flow that comes through it to an actual local business owner. So let me give you an example. If I were to build a website right now for, Junk removal services in Austin, Texas. I don't own a junk removal company. I don't have a client that has a junk removal company. Anybody can build whatever website they want, you know. So I go out and build this website that's all about junk removal services in Austin, Texas. I do what's called SEO on the website to get it ranking. It involves content and something called backlinks we can get into later. I get that website ranking to page one, and once it's on page one of Google, so that it shows up anytime somebody searches."
+        },
+        {
+          "start_time": 87830,
+          "end_time": 139410,
+          "speaker": "Speaker 2",
+          "content": "For junk removal services in Austin, Texas, obviously people are going to be clicking on it. Obviously, there are hundreds, if not thousands, of people in Austin, Texas, every day going to Google to try and find the junk removal company. So, if my website is one of those sites on page one, I'm going to get a percentage of those people searching, and once they come to my site, they're going to see the little phone number that's on my website, right? It's called a tracking phone number. I can control where all those calls flows to. It's my like dummy number. So when people call that phone number, it automatically forwards to a business owner I've partnered up with, right? But to backtrack just a hair, before I even have a business owner hooked up to them, I'm getting the site to page one. It's getting calls. At first, I'm just letting all those calls go to voicemail before I have a client working for me. It's no big deal. Nothing going to voicemail. There will be more callers next month. There's never ending."
+        },
+        {
+          "start_time": 139410,
+          "end_time": 153560,
+          "speaker": "Speaker 1",
+          "content": "And you're capturing their info. They're not as likely to convert. If you find a guy to buy your leads and he calls them later, but at least you still have the data and it's proof of concept. So you can say, \"Hey, Bob, I get three calls a day for people searching for exactly what you're selling.\""
+        },
+        {
+          "start_time": 153560,
+          "end_time": 200340,
+          "speaker": "Speaker 2",
+          "content": "\" Exactly, exactly. Well, the best part about this is that the overhead is so low in this business model. Like, if you're using the most expensive tools, like the most drag and drop, user friendly tools, you're spending no more than like twenty five dollars a month in total overhead per site. That's for the hosting. The URL and the phone number, right? So the benefit of that is that once I do have a website, it's getting like fifty to one hundred calls or so a month. I'm calling up that junk removal company in Austin, Texas, and I'm like, \"Hey, man, I got this website. It's getting like fifty calls a month of people looking for junk removal services in Austin. Can I connect them to you for a week for free? And I'm not going to take a credit card information from you. I'm not going to make you sign anything. It's literally just a free trial.\""
+        },
+        {
+          "start_time": 200740,
+          "end_time": 208820,
+          "speaker": "Speaker 2",
+          "content": "And sometimes it sounds too good to be true to them, and they're just like it sounds suspicious. But usually they're like, well, whatever. All you need is my email and phone number, so you give them the free trial."
+        },
+        {
+          "start_time": 208820,
+          "end_time": 214260,
+          "speaker": "Speaker 1",
+          "content": "And you just want them to start trusting you and to see that your leads are good, so they'll want to pay for them."
+        },
+        {
+          "start_time": 214260,
+          "end_time": 226500,
+          "speaker": "Speaker 2",
+          "content": "Exactly. So I give them the free trial, and by the end of that week, if they've made some money off my calls, that next conversation I have with them is really just about what monthly flat fee we negotiate."
+        },
+        {
+          "start_time": 226500,
+          "end_time": 243890,
+          "speaker": "Speaker 1",
+          "content": "Can I pause you because I feel like that's a big key of this. If they're making any money on my calls, how do you know that they're reporting accurately? That they're not lying. That they're following up with the leads. That they're actually answering the phone, etc. Or does there just have to be a good bit of trust involved?"
+        },
+        {
+          "start_time": 243890,
+          "end_time": 269180,
+          "speaker": "Speaker 2",
+          "content": "Well, I could see if they're answering the calls or not. Sometimes in the call tracking platform, I could see the recording stuff. But the thing is, is if they are didn't make any money off of it. Then they're probably not going to be a good client for me anyway, so I'm just going to move on to the next person. Because if they're not making money off of it, why would they pay me, right? Sure. And if they are making money off of it, they're not going to want me to turn the calls off."
+        },
+        {
+          "start_time": 269180,
+          "end_time": 270860,
+          "speaker": "Speaker 1",
+          "content": "So the incentives are aligned."
+        },
+        {
+          "start_time": 270860,
+          "end_time": 271500,
+          "speaker": "Speaker 2",
+          "content": "Exactly."
+        },
+        {
+          "start_time": 271500,
+          "end_time": 291630,
+          "speaker": "Speaker 1",
+          "content": "So can you see the the recordings or the call transcripts as well? Yes. So if they're like, sorry, yeah, I got a few calls but didn't go anywhere, and you look at the transcript and it's like, all right, seven hundred dollar invoice sent. You're like, hey, bro. Yes. But you're saying that doesn't even happen that often because they see that the calls are good, and now it's just a matter of not will you pay me, but how much will you pay me?"
+        },
+        {
+          "start_time": 291630,
+          "end_time": 336700,
+          "speaker": "Speaker 2",
+          "content": "Yeah, we come up with a flat fee, and I don't do any contracts with them. I'm just like, you know, cancel anytime because I have the leverage, because I'm sending them the calls, and if they cancel, the calls go away. So they're basically, if they cancel, they're agreeing to lose a big portion of their income, right? So they could cancel whenever they want, right? So they have that exit. So, It's a pretty easy conversation. They saw the calls; they trust me. Versus a standard marketing company who does like sells Google ads or Facebook ads or something like that. These sales calls for those people, it's it's a trust game. They're working out like, hey, can I convince this guy to pay me fifteen hundred dollars a month for the next six months, and without any guarantee of results? Right. That's a."
+        },
+        {
+          "start_time": 343170,
+          "end_time": 377390,
+          "speaker": "Lance",
+          "content": "Watch a YouTube video called \"The Most Passive $104,000 a Month Online Business You've Never Heard Of.\" It's on Chris Corner, the Corner Office Podcast. It's a guy who is a website landlord, and I love this idea. I've got a really good eye, good taste, and can build landing pages and many sites that would generate business for people. So let's look into that YouTube video. I'm watching it right now. I want you to go check it out, get a transcript. Get some ideas and let's build a system. It's."
+        },
+        {
+          "start_time": 377390,
+          "end_time": 413890,
+          "speaker": "Speaker 2",
+          "content": "Like you have to show them testimonials and be like, \" Look, I promise you, I'm really, really good at this.\" But sign this contract, and you're going to pay me for the next six months, whether I get you results or or not. With me, the whole script is flipped because I'm like, \" Hey, I already did the work of building and ranking a website.\" And it's sending you calls, and you're making money off of me before we even agree on a deal. And I'm not pressure selling. Yeah, this is more of like a a landlord and tenant relationship, not like a oh, customer, please work with me, right? Relationship."
+        },
+        {
+          "start_time": 413890,
+          "end_time": 422130,
+          "speaker": "Speaker 1",
+          "content": "This is the rent. You don't like it. I've had rental homes. It's like the rent is not negotiable because I've got 18 people applying for this house."
+        },
+        {
+          "start_time": 422130,
+          "end_time": 456840,
+          "speaker": "Speaker 2",
+          "content": "100. Right. You don't want these calls. I'm just going to call Joe down the street. And I know that sounds like aggressive and mean, but like. My service is hugely beneficial to small business owners who can't afford to to take that fifteen hundred dollar a month risk on some marketing company with no guarantee of results. These small businesses, most of the guys I work with, they they don't have fifteen hundred bucks to gamble on a marketing company. So with me, there's no gambling. Day one, they're getting leads to pay for my services. There's never a loss of money. It's."
+        },
+        {
+          "start_time": 457180,
+          "end_time": 471020,
+          "speaker": "Speaker 2",
+          "content": "I'm an instant slot machine. You put a thousand dollars into me. I'm sending you five thousand dollars back. You see what I mean? So it's really a huge benefit to these more mom and pops that can't afford to gamble in a marketing company."
+        },
+        {
+          "start_time": 471020,
+          "end_time": 492250,
+          "speaker": "Speaker 1",
+          "content": "You mentioned I don't have contracts. I don't negotiate on price. And this is a trust business, and results are the greatest form of trust there is. Contracts equal lack of trust in a relationship. I already brought you results. They were free. I called you, and I brought you results. This is the price. I don't need a contract because I got a guy waiting."
+        },
+        {
+          "start_time": 492250,
+          "end_time": 496410,
+          "speaker": "Speaker 2",
+          "content": "Exactly. I'm not afraid of you canceling. Call the next person."
+        },
+        {
+          "start_time": 496410,
+          "end_time": 528450,
+          "speaker": "Speaker 1",
+          "content": "I love like this is one of my general frameworks for life: is do the hard thing first. So like if you start a business and it is just a beast and you're beating your head against the wall and it takes months to get profitable, that means. Everything after that point is just going to be so much nicer and easier. Every business after that point, every sale after that point in the same business. You're saying, \" Listen, bro, I did the hard part. The hard part is ranking. That's my skill. You're good at junk removal. You keep doing that. I'm really good at being a website landlord. I've already done the hard part. I've proven the result."
+        },
+        {
+          "start_time": 528450,
+          "end_time": 562830,
+          "speaker": "Lance",
+          "content": "I think one of our first jobs is to find two or three things. Look for niches that aren't good at building their own presence online. We look for companies within those niches that are very bad at building their own presence online. The main companies also look for companies that may be new, and I don't care what industry they're in. It could be any industry, and we start building some mini sites and then we'll start buying domains, etc."
+        },
+        {
+          "start_time": 573790,
+          "end_time": 575390,
+          "speaker": "Speaker 1",
+          "content": "And then everything after that is gravy."
+        },
+        {
+          "start_time": 575390,
+          "end_time": 625050,
+          "speaker": "Speaker 2",
+          "content": "Exactly, exactly. It's it's just day one results, and that's that's really the benefit. The only downside for the business owner is that their brand isn't being advertised on my site, right? But they don't care, because the only reason you want to be on page one is because you want the customers that come from page one, and it's tons. It's not just any. Customers, it's high intent customers because no one is typing into Google junk removal services in Austin unless they're looking to purchase junk removal services in Austin. And plus, a lot of these people have had experience with paid ads. And paid ads, you get such low ROI because you pay thousands of dollars for them. And plus, if you're anything like me, which I think most searchers are, once you go to search on Google and you see a bunch of ads in the top section of the front page,"
+        },
+        {
+          "start_time": 625050,
+          "end_time": 651290,
+          "speaker": "Speaker 2",
+          "content": "Scroll right past them and go to the results below, which is where we are. Because people have this inclination, or what's the word, the belief that if you're in the spots below the ads, that means you're the best in town. When in reality, showing up right there has nothing to do with your quality of work. You could be the worst junk removal company in the whole state, and you'll still be on page one because you have good SEO."
+        },
+        {
+          "start_time": 651290,
+          "end_time": 654690,
+          "speaker": "Speaker 1",
+          "content": "Just like anything, if you're the best at marketing, you win."
+        },
+        {
+          "start_time": 654690,
+          "end_time": 683510,
+          "speaker": "Speaker 2",
+          "content": "And the great part about this business model, we talk about the money and everything like that, and that's awesome. But genuinely, once you get that client in the door, this becomes ninety nine percent passive. As you scale to more, because once the site is built and ranked, majority of the time your website does not need to be touched ever again because we're competing in low competition SEO spaces. Like long tail searches."
+        },
+        {
+          "start_time": 683510,
+          "end_time": 711380,
+          "speaker": "Speaker 1",
+          "content": "Not even, not even because junk removal Austin might not be a great example because I haven't done my research on actual low hanging fruit niche and city. But SEO is just a game of competition. I don't want to go into a niche where like personal injury lawyer Los Angeles, where the competing websites are funded by major marketing companies that these law firms are paying fifty thousand dollars a month to. I want to compete against Joe, Bill, and Steve in Orem, Utah."
+        },
+        {
+          "start_time": 711380,
+          "end_time": 740340,
+          "speaker": "Speaker 2",
+          "content": "With a junk removal company, where they have websites that I'm competing against, they bought those websites maybe back in two thousand and five and haven't touched them since. And so I go in there, make a half decent site, do basic SEO, and I'm knocking them out of the park really quickly. And I don't have to do ongoing SEO to maintain the site because I'm already so far ahead, and they're not even noticing that they're they're not in the number one spot anymore. And they're still getting roughly the same amount of calls because being in spot one, two, or three is roughly the same."
+        },
+        {
+          "start_time": 740340,
+          "end_time": 750430,
+          "speaker": "Speaker 1",
+          "content": "Funny because ORM Utah is actually really competitive usually. All these returned missionaries like myself. I know you just picked that seat at random, but it's super competitive there."
+        },
+        {
+          "start_time": 750430,
+          "end_time": 784300,
+          "speaker": "Speaker 2",
+          "content": "But I want to just mention the passive part one more time because it is genuinely passive. The only thing that the only time it becomes like maybe an hour or two a day of work is when you scale up to a point where I'm at where I have like over a hundred clients and maybe twenty percent of those clients every month credit cards decline and I have to go follow up payment. Right, and so I just test involves me shooting out texts and emails every day to follow up with them to collect the payment. Maybe by the end of the month, one or two of them don't pay. I have some churn, and then I'm following up, just making phone calls to find a new client to replace them."
+        },
+        {
+          "start_time": 784300,
+          "end_time": 825190,
+          "speaker": "Speaker 1",
+          "content": "Yeah. Hey, YouTube's fine, but what about when you're driving around? What about when you're mowing the lawn? You need my audio podcast, The Kerner Office. Just look up T K O Pod in Apple, Spotify, or wherever you get your podcasts. I mean, what we're talking about is basic supply and demand. You're saying. You look to the supply and demand first, not necessarily the keyword volume, but the supply and demand. There are at least a thousand home service niches out there. Oh, and I know that sounds like too much, but there's really not. More. If I say the word gutters, then it's gutter cleaning, gutter repair, gutter replacement. Like, just in the gutters, there's at least ten, right? So let's just say there's a thousand to be conservative, and then let's say there's only a thousand cities worthy of trying to rank. That's a million."
+        },
+        {
+          "start_time": 825190,
+          "end_time": 858850,
+          "speaker": "Speaker 1",
+          "content": "Supply and demand variations that we're talking about. Are you telling me that the market is so perfectly efficient that all million of those combinations are there's a there's the right amount of supply and demand in all of them? Absolutely not. In a decade from now, there still won't be. Right. So that's the level of opportunity here. And on this podcast, we only reserve the p word passive for like things that I truly believe can be. And I, I don't like that word usually, but I will use it when I feel like it applies, and it seems like this is one of those exceptions where it does apply."
+        },
+        {
+          "start_time": 858850,
+          "end_time": 862930,
+          "speaker": "Speaker 2",
+          "content": "So listen, it's not like dividends. It's not passive dividends."
+        },
+        {
+          "start_time": 862930,
+          "end_time": 866370,
+          "speaker": "Speaker 1",
+          "content": "It takes activity to get to the passive point."
+        },
+        {
+          "start_time": 866370,
+          "end_time": 892220,
+          "speaker": "Speaker 2",
+          "content": "I'll tell you right now, people like to talk about real estate like it's passive, but it's definitely not. This is a thousand times more passive than real estate because the risk is so much lower. You're not taking out a half a million dollar mortgage on some property, and your overhead is maybe twenty five dollars a month in total overhead. Plus, you cash flow way more, and the maintenance is so much lower."
+        },
+        {
+          "start_time": 892220,
+          "end_time": 932810,
+          "speaker": "Speaker 1",
+          "content": "So let me ask you about pricing. I'm going to make an assumption here because I'm kind of in this industry, and I've I've been in lead gen forever. Different types of lead gen directory sites. To me, there's a lot of overlap here with directory sites. I mean. A directory site could be a website landlord, a rent and rent site, right? Yes. So I'm going to make an assumption that you've tested a pay per lead model here, as opposed to a flat monthly price model, because you thought, man, it could be much more profitable if we charge thirty bucks per call. And thirty bucks per call is very generous because we know that his close rate is fifty percent. His average job is eight hundred dollars, so thirty bucks per call is cheap for him. You tested it, and then you saw."
+        },
+        {
+          "start_time": 932890,
+          "end_time": 945690,
+          "speaker": "Speaker 1",
+          "content": "That it just didn't work as well because these business owners want to know what their bill is going to be every month, even if they net out behind, they would rather pay you a flat fee every month because of the predictability of it. Is that accurate at all?"
+        },
+        {
+          "start_time": 945690,
+          "end_time": 961080,
+          "speaker": "Speaker 2",
+          "content": "What most of these business owners want to do is a commission based model, and they want to just pay on jobs they close. But obviously, I can't do that. That means that requires me to track all their jobs and trust them. There's no way for me to know if they actually close a job or not."
+        },
+        {
+          "start_time": 961080,
+          "end_time": 965320,
+          "speaker": "Speaker 1",
+          "content": "And if you could trust them perfectly, it'd probably be more profitable for you."
+        },
+        {
+          "start_time": 965320,
+          "end_time": 1014190,
+          "speaker": "Speaker 2",
+          "content": "I'm actually \u2014 it's funny you bring that up because for the first time ever, my contractor that I use for my house, we've become pretty good friends, and just recently I started generating concrete leads for him, and we're actually doing a ten percent commission with it, and it's turning out to be way more profitable. But that's because I totally trust him, and he's a cool guy. Yeah. Yep. But the paper call thing. Yes, it's unpredictable for the client, and I've done things in the past where they have fluctuating tiers of rates, where it's like, hey, if you get twenty-five to fifty calls, you're going to pay this much. If you get fifty to a hundred calls, you're going to pay this much. I've kind of abandoned that, not only for the client's sake but for my sake. I know I do really well. I make around thirty-five k a month, and it might be sound impressive to some people, and it is, I guess, kind of impressive. Is that profit? That's pretty much the overhead is like so low."
+        },
+        {
+          "start_time": 1014190,
+          "end_time": 1073000,
+          "speaker": "Speaker 2",
+          "content": "Wow, our company does around a hundred thousand dollars a month as a whole, and our overheads maybe less than five thousand dollars a month. Yeah, it's crazy. But the point I'm trying to make is, I am not one of those aggressive entrepreneurs with like less than five thousand dollars a month. Yeah, it's crazy. But the point I'm trying to make is, I am not one of those aggressive entrepreneurs with like SOPs and Watching motivation videos and going to the gym every morning. I am at my core a fairly lazy guy. Like I used to work in television. I worked in television for ten years, and I was working twenty to twenty-four hour days some days during show weeks. Like I worked on award shows, like the Oscars, Emmys, big shows like that. And when there's a deadline, there's no avoiding that deadline. I was grinding it out and got burnt out and started looking for business models. I guess the reason that relates to what I'm about to say is because."
+        },
+        {
+          "start_time": 1073210,
+          "end_time": 1127540,
+          "speaker": "Speaker 2",
+          "content": "I really wanted. I was chasing time freedom, and I tried finding it in things like drop shipping, day trading, other business models online. But when I found this business model, I was in it for the time freedom and the easiness of it. And so when I first started, I had this rush of motivation built out really, really big for the first few years because I was just I had my eye on the prize. But I'm in year six of doing this business model now, right? And at the level I'm making, which, Some people would assume I should probably be making more after six years, but I'm, I've kind of fallen into the comfort zone. I'm making a number that I'm really comfortable with, but the reason I have switched from the tiered pricing to the monthly flat rate pricing is because I wanted simplicity. When you have the tiered pricing, I have clients reaching out to me, being like, \"Why did my invoice pop up to fifteen hundred this month?\""
+        },
+        {
+          "start_time": 1127620,
+          "end_time": 1143780,
+          "speaker": "Speaker 2",
+          "content": "Then they want to go over every single lead with me and determine whether it was actually a legitimate lead or not. Yeah, I don't want that headache. I'd rather make less money and have this be a hundred percent passive, than squeak out an extra five to ten grand a month because I'm like over analyzing and auditing all the leads."
+        },
+        {
+          "start_time": 1143780,
+          "end_time": 1145300,
+          "speaker": "Speaker 1",
+          "content": "Auditing leads."
+        },
+        {
+          "start_time": 1145300,
+          "end_time": 1156060,
+          "speaker": "Speaker 2",
+          "content": "I don't want anything to do that. I have clients that have been with me for five years, and I haven't spoken to them or had any communication with them since, and they've been paying me every single month. That's my goal."
+        },
+        {
+          "start_time": 1156220,
+          "end_time": 1161100,
+          "speaker": "Speaker 1",
+          "content": "How long did it take you after starting this six years ago to see your first win?"
+        },
+        {
+          "start_time": 1161100,
+          "end_time": 1214990,
+          "speaker": "Speaker 2",
+          "content": "Three months. I kind of did it a backwards way. I, since I was really hungry to get money in the door, I didn't do it the classic way of building the sites first, then finding the client. What I did was I went onto my phone. I went into my Facebook, Instagram. I made a list of all the business owners I knew, right? And I came across this one friend of mine who was an attorney, a workers' comp attorney. He was a friend of mine from high school. I hadn't talked to him in ten years though, but I reached out to him. I made a screencast video where I recorded my screen and showed him how this business model works and how I could build him a site targeting Torrance. I could build him a site targeting Long Beach, Anaheim, Simi Valley, and specific cities targeting where I could generate him leads from. And he loved the idea. He wanted to try it, and he said, \"What do I have to pay to get this ball rolling?\" And so I just\u2014I had never\u2014I had never made that single dollar in my life outside of W two earnings. And so I just threw out a number because I always heard in movies and stuff."
+        },
+        {
+          "start_time": 1215230,
+          "end_time": 1216110,
+          "speaker": "Speaker 2",
+          "content": "Aim high"
+        },
+        {
+          "start_time": 1216110,
+          "end_time": 1229230,
+          "speaker": "Speaker 1",
+          "content": "And you know. In your defense, like a personal injury attorney, as an agency owner is the golden club. It was a worker. They've got budgets. You said that. So it was a little less. Attorneys are great clients. They've got cash."
+        },
+        {
+          "start_time": 1229230,
+          "end_time": 1271300,
+          "speaker": "Speaker 2",
+          "content": "Yes, exactly. I I just threw out the number. I go six thousand dollars, and within twenty minutes it was wired, and I looked at my wife. I'm like, somebody just wired me six thousand dollars. I'm like, it didn't seem real. But the good thing about that is I still at the time wasn't like. An expert at this, but what was good about that is that this was somebody I knew, and I didn't want to burn his trust and and burn a relation. Sure. And so by him sending me that money, it lit a fire to get things going. I didn't care deliver. Yeah, I didn't care if I spent every single dime of that six thousand dollars in outsourcing or ways to make it happen faster. I just needed to deliver results because I knew if I did, it would be a long term relationship, and he's still my client to this day."
+        },
+        {
+          "start_time": 1271300,
+          "end_time": 1274180,
+          "speaker": "Speaker 1",
+          "content": "Wow. What does he pay on an ongoing basis?"
+        },
+        {
+          "start_time": 1274180,
+          "end_time": 1308620,
+          "speaker": "Speaker 2",
+          "content": "Well, since he was a friend, he did have fluctuating. At first, we started out at like five thousand or so a month, and then we got once the lead flow started increasing, I got to like seventy five hundred a month and stuff. But over time, like we we've restructured deals because he is a friend. We go on hikes and stuff sometimes. He was started paying me like three hundred bucks per new client he landed, which added a little bit more incentive to me. And then he would also pay a base SEO fee of like fifteen hundred bucks. So he paid me a fifteen hundred bucks a month plus three hundred dollars per new client he signs up."
+        },
+        {
+          "start_time": 1308620,
+          "end_time": 1315020,
+          "speaker": "Speaker 1",
+          "content": "Wow. So you spent your first three months just learning. Were you building and publishing anything, or just learning tools?"
+        },
+        {
+          "start_time": 1315020,
+          "end_time": 1316380,
+          "speaker": "Speaker 2",
+          "content": "I was just building and learning."
+        },
+        {
+          "start_time": 1316380,
+          "end_time": 1322540,
+          "speaker": "Speaker 1",
+          "content": "I think it's so important that when anyone launches any agency, digital marketing, whatever, to start with your network."
+        },
+        {
+          "start_time": 1322540,
+          "end_time": 1348700,
+          "speaker": "Lance",
+          "content": "Let's talk about whether it would be best to use individual domains so that they rank higher. We have basically stump removal domains, tree removal domains, tree pruning domains, or should we use general tree work domains and then lump in removal, stump grinding and other arborist type work."
+        },
+        {
+          "start_time": 1357130,
+          "end_time": 1376570,
+          "speaker": "Speaker 1",
+          "content": "It all comes down to trust. Don't be afraid to burn your friend. Like, just let it light a fire under you to over deliver and start with your network. Because if you just start cold with people out of insecurity, which I've done that before, it's going to be so much harder to get your first yes. But if you get your first yes from a friend, now you have a case study that you can sell to all the cold leads."
+        },
+        {
+          "start_time": 1376570,
+          "end_time": 1384050,
+          "speaker": "Speaker 2",
+          "content": "Hundred percent. I always tell people. A key is digging yourself into a hole. That's what I did."
+        },
+        {
+          "start_time": 1384050,
+          "end_time": 1386450,
+          "speaker": "Speaker 1",
+          "content": "It sounds crazy, but I know exactly what you mean."
+        },
+        {
+          "start_time": 1386450,
+          "end_time": 1421830,
+          "speaker": "Speaker 2",
+          "content": "Yeah, I accepted six thousand dollars from this guy, and I'm not the type of person that feels comfortable just robbing someone. So I felt this overwhelming pressure to dig myself out of this hole. I'm like, he's expecting something very soon. I've got to get into action. It's kind of like a gym membership. You know, if you go sign up at Planet Fitness and you're paying ten dollars a month, it's very easy for you to be like, I don't feel like going this month. Big deal, ten bucks, right? But if you're spending like five hundred bucks a month on a gym membership, you're like, I better show up because I'm spending this damn money."
+        },
+        {
+          "start_time": 1421830,
+          "end_time": 1428470,
+          "speaker": "Speaker 1",
+          "content": "Didn't you tell me that you first learned how to do this from a course? I did. How much did that cost? Did that light a fire under you?"
+        },
+        {
+          "start_time": 1428470,
+          "end_time": 1430630,
+          "speaker": "Speaker 2",
+          "content": "Sixty-five hundred dollars."
+        },
+        {
+          "start_time": 1430630,
+          "end_time": 1434470,
+          "speaker": "Speaker 1",
+          "content": "Was it a course and a community, or just one course and community?"
+        },
+        {
+          "start_time": 1434470,
+          "end_time": 1470140,
+          "speaker": "Speaker 2",
+          "content": "It was. It was a good one, right? It doesn't exist anymore. That course doesn't really exist anymore, but it was. I don't care. It doesn't. I'm so glad I spent the money now. Obviously, I did not have a ton of money back then. Like my net worth was probably 20k, but I was so desperate to get out of the situation I was in in my previous career that you know I had bought 500 course in the past. Now my mindset was like, you know what? You get what you pay for. Why would I spend 500 on something that's not getting me anywhere? Wouldn't I rather spend 6,000 in something that's going to actually get me somewhere?"
+        },
+        {
+          "start_time": 1470560,
+          "end_time": 1478240,
+          "speaker": "Speaker 2",
+          "content": "Obviously, you have to vet that it's actually going to be worth the money. But like I did, and it actually was. This was there was involvement and everything."
+        },
+        {
+          "start_time": 1478240,
+          "end_time": 1489600,
+          "speaker": "Speaker 1",
+          "content": "I think that's why courses and communities get a bad rap because they don't deliver on their promises. They sell a crapload of goods. And if they do deliver on their promise, they can be life changing."
+        },
+        {
+          "start_time": 1489600,
+          "end_time": 1508290,
+          "speaker": "Speaker 2",
+          "content": "I know courses do a bad rap, and they probably some of them deserve it. But a course changed my absolute life. I've witnessed it change so many other people's lives. It's just, You're learning new skills, and what you really want to find in a horse is a community that's keeping you engaged. That's probably the most important part."
+        },
+        {
+          "start_time": 1508290,
+          "end_time": 1523490,
+          "speaker": "Speaker 1",
+          "content": "How much does your most profitable customer pay for you? So let me ask you two questions in one. One is, how much do you make from your most profitable customer? Two is, how much does your most profitable customer make for themselves from your leads? Does that make sense?"
+        },
+        {
+          "start_time": 1523490,
+          "end_time": 1527170,
+          "speaker": "Speaker 2",
+          "content": "How much are we both benefiting from all this?"
+        },
+        {
+          "start_time": 1527170,
+          "end_time": 1530340,
+          "speaker": "Speaker 1",
+          "content": "Maybe it's the same customer. Maybe it's not."
+        },
+        {
+          "start_time": 1530340,
+          "end_time": 1535620,
+          "speaker": "Speaker 2",
+          "content": "I don't really have exact insights into my customers' revenue."
+        },
+        {
+          "start_time": 1535620,
+          "end_time": 1536500,
+          "speaker": "Speaker 1",
+          "content": "Like ROI."
+        },
+        {
+          "start_time": 1536500,
+          "end_time": 1540020,
+          "speaker": "Speaker 2",
+          "content": "I don't have exact numbers of that, but my metric really is."
+        },
+        {
+          "start_time": 1540020,
+          "end_time": 1545620,
+          "speaker": "Speaker 1",
+          "content": "Anecdotally, do you know of a customer that was like, \"Dude, I'm making thirty grand a month from your leads.\""
+        },
+        {
+          "start_time": 1545620,
+          "end_time": 1582330,
+          "speaker": "Speaker 2",
+          "content": "I have been told things like that before, so I do have clients who have told me that, like, I get holiday cards from some of these guys. They're like. Telling me how grateful they are that I made their Christmas because I showed up in their lives. I have a guy who told me we just upgraded our house to a we moved to a four bedroom house instead of a two bedroom with our kids and everything, and it's all because of your leads. The best feeling ever, and it you almost feel guilty accepting that praise because you haven't really done any work for them since you built the website. It's not like I'm grinding it out for them every day, but I'm still benefiting them. But we do have some clients that pay us."
+        },
+        {
+          "start_time": 1582410,
+          "end_time": 1596090,
+          "speaker": "Speaker 2",
+          "content": "Five thousand dollars a month, and my metric for assuming why they're paying me is that they're doing really well. If they were only squeaking out an extra thousand dollars off the five thousand dollars of paying me, I don't think they'd still be paying me."
+        },
+        {
+          "start_time": 1596090,
+          "end_time": 1640660,
+          "speaker": "Speaker 1",
+          "content": "Let me ask you something. How many leads have you lost because nobody picked up the phone? An eight p. m. call comes in. You're at dinner, and you let it go to voicemail. And by the time you call back the next morning, they've already hired someone else. And that's reality. Leads come in after hours when emergencies strike. And when you miss the call, you miss the job. And it's not about quality; it's about speed. High Level built an AI employee to fix just this. It answers real phone calls, talks to leads, qualifies them, and books appointments directly on your calendar, 24/7. Also, it'll handle text, DMs, and web chat, so you can stop missing revenue just because you couldn't grab the phone. Oh, and you can also white label the entire thing."
+        },
+        {
+          "start_time": 1640820,
+          "end_time": 1658180,
+          "speaker": "Speaker 1",
+          "content": "And resell it to your clients as your software, charge them monthly, and that is recurring revenue that you didn't have yesterday. Check out gohighlevel dot com slash tko pod, and they will give you a thirty day free trial to see what I mean. How many calls is a client like that getting?"
+        },
+        {
+          "start_time": 1658180,
+          "end_time": 1699260,
+          "speaker": "Speaker 2",
+          "content": "Five thousand. Well, it depends what niche you're in, and the niches that my partners and I focus on. It's, I mean, that would be maybe like eight hundred calls a month. So sometimes they'll. I'll build out the client to. Sometimes so many clients who has like multiple cities. Like you don't really get to 800 calls a month in one city in most sure. It's usually multiple cities or multiple territories within the state. So, what you could do with some of your clients is you could grow them out if they offer services in adjacent cities or adjacent markets. So we'll start with them in let's say Dallas, and then you could build them another site in Fort Worth. You build them another site in. I think go all the way to Austin."
+        },
+        {
+          "start_time": 1699260,
+          "end_time": 1756070,
+          "speaker": "Speaker 2",
+          "content": "Build another site in San Antonio, and then all of a sudden you built up this client to something like five thousand dollars a month and getting eight hundred leads a month. You know, it's well worth it. I honestly am okay. Like there are tons of clients that I should be getting paid more from. Hundred percent, I deserve more for some of these sites. But because of the passive nature of this business model, I try not to get too greedy. Because if somebody loves my leads, and say I feel like I should be getting a thousand dollars for the site, but they're only paying me like six hundred. I'm going to be okay with that deal because I know they're going to be comfortable at that rate. They're never going to bother me, and they're going to stick with me for years and years and years. Because of the passive nature of this business model, I try not to get too greedy. Because if somebody loves my leads, and say I feel like I should be getting a thousand dollars for the site, but they're only paying me like six hundred, I'm going to be okay with that deal because I know they're going to be comfortable at that rate."
+        },
+        {
+          "start_time": 1756070,
+          "end_time": 1775430,
+          "speaker": "Speaker 2",
+          "content": "They're never going to bother me, and they're going to stick with me for years and years and years. And I'll have to hear from them, and it's easy. Versus, if I'm charging too much, then they're going to they're going to be on top of like the quality of my services and be calling me up and questioning every time there's a slow month or something. I don't want any of that. I want easy."
+        },
+        {
+          "start_time": 1775430,
+          "end_time": 1814710,
+          "speaker": "Speaker 1",
+          "content": "This is such a hard principle to learn. I'm still trying to learn it because I'm like I, I still fight a scarcity mindset, having grown up poor, but. If you think of the most profitable companies on on the planet, and the the highest value companies on the planet, Apple, four trillion dollar company, they are all companies that offer hundreds or thousands of times more value than what they're selling. Amazon, if Amazon Prime went from whatever it is, one fifty to four hundred tomorrow, I'm going to pay it, and Amazon knows I'm going to pay it, right? Because I'm buying from Amazon like every single day. If the Apple iPhone went from a thousand dollars to two thousand dollars."
+        },
+        {
+          "start_time": 1814710,
+          "end_time": 1872070,
+          "speaker": "Speaker 1",
+          "content": "I'm going to buy it, and Apple knows it. Right, right. They know that not everyone will, but their core users will. But my lifetime value with Apple is over a hundred thousand dollars. Right, because of the fact that I think that even though my MacBook was thirty-five hundred dollars, I'm going to spend thousands of hours on it and generate millions of dollars from that MacBook. It's worth hundreds and or even thousands of times more than what I paid for it, and because of that, Apple's insanely profitable, and they're a four-trillion-dollar company. Rinse and repeat with, Any mega profitable company, and so it's hard to do that. It's hard to not charge more when you know you can. But if you play the long game and you're relentlessly addicted to playing long term games with long term people, then you can do it. Like you can not raise your prices just because you can. You can keep buying more and more trust and goodwill, and then they'll tell their friends, and then they'll tell their their friends, and you will make more money while charging less all along. It's a magical thing."
+        },
+        {
+          "start_time": 1872070,
+          "end_time": 1919730,
+          "speaker": "Speaker 2",
+          "content": "Yeah, it's it's you almost want people to forget your bill even exists. That's kind of my goal. You know, I don't want people to feel it every month and get punched in the gut. Yeah, I want them to kind of forget about it because then they're just going to leave me alone. Because what we're all doing this for? I mean, some people are in entrepreneurship for the love of the game. You know, some things about doing business gets me excited, but the real thing that gets me excited is the unlimited amount of time I get to spend with my kid, my ability to travel whenever I want on my own terms. And you know, being able to max out my you know savings accounts and IRAs and everything like that, and so I just create a safe life for my kids. That's the goal. It's not to necessarily become the richest man in the world. I don't have the Jeff Bezos bug, you know. Yeah, once you hit this level, you kind of just want easy."
+        },
+        {
+          "start_time": 1919730,
+          "end_time": 1960220,
+          "speaker": "Speaker 1",
+          "content": "Whatever guru or marketer try to convince people that a lifestyle business is a pejorative, bad thing, a negative thing, I hate them because I've done both. I've raised money, venture capital. I've flown to Silicon Valley. I've like I've gone like the billion dollar exit path, and oh my gosh, like you are much more likely to fall on your face than you are to ever reach a billion dollars or anywhere close to it. Whereas, if you optimize for six figures a year or hundreds, like two, three, four, five hundred thousand dollars a year, you are more likely to get to ten million a year or five million a year than if you optimize for a billion and land at ten. Like."
+        },
+        {
+          "start_time": 1960220,
+          "end_time": 1969900,
+          "speaker": "Speaker 1",
+          "content": "If you optimize for a billion, it's boomer bust, and it's probably bust. Optimize for five hundred thousand, it's more likely to be boom, and you're able to take that five hundred thousand and scale."
+        },
+        {
+          "start_time": 1969900,
+          "end_time": 1974220,
+          "speaker": "Speaker 4",
+          "content": "Other thing was Blayson is still not killed in Vin Solutions."
+        },
+        {
+          "start_time": 1974220,
+          "end_time": 1977820,
+          "speaker": "Lance",
+          "content": "I just kill him right now. Did Joel reassign his stuff?"
+        },
+        {
+          "start_time": 1977820,
+          "end_time": 1980300,
+          "speaker": "Speaker 4",
+          "content": "I think Daryl did check and see."
+        },
+        {
+          "start_time": 1980300,
+          "end_time": 1981980,
+          "speaker": "Lance",
+          "content": "Daryl supposedly did."
+        },
+        {
+          "start_time": 1991030,
+          "end_time": 2009270,
+          "speaker": "Speaker 1",
+          "content": "Want to while still having a great lifestyle. I spend hours in the yard every day trimming my fruit trees, planting trees. I love spending time outside with my kids. Traveling, we go on five trips a year, and this is a lifestyle business, and it's freaking awesome. People should optimize for that."
+        },
+        {
+          "start_time": 2009270,
+          "end_time": 2044570,
+          "speaker": "Speaker 2",
+          "content": "I don't think people realize that you don't need a half a billion dollars to be financially free. You know, you don't even need twenty million dollars to be financially free. You just need enough money in your checking account that could keep you floating for a year or two years. If hit the fan, you just need to be able to have enough money in your bank account to be able to tell your employer to screw off if you didn't want to work there anymore. Yeah, because that's the real freedom. If you feel like you're trapped in a job and you can't leave it, that's not freedom. If you have enough money in your bank account and you could walk away from any job, then that's true freedom."
+        },
+        {
+          "start_time": 2044650,
+          "end_time": 2049530,
+          "speaker": "Speaker 1",
+          "content": "What does your tech stack look like? What tools could you not live without to do what you do?"
+        },
+        {
+          "start_time": 2049530,
+          "end_time": 2101570,
+          "speaker": "Speaker 2",
+          "content": "So, number one, you know, I started off building sites on Weebly because I didn't know how to build websites and it's super easy, drag and drop. But since I got partners who were a bit more savvy at things like WordPress, my costs went down, and we use WordPress and things move way faster. The reason I don't encourage people to start with WordPress if they don't already know it is because it takes a long time to learn it. So even though Weebly is more expensive. It's better to get started on that. So first, TechStack WordPress or website building tool. Then you got CallRail, which is the call tracking software. You could use CallRail. You could use Twilio. There are a bunch of other providers out there, but that's where I get the phone numbers from and how I could track all the phone numbers. And it also automates emails to my client with the recording of the call and the phone number of the caller, so they can keep track of any call that comes from me, and so that there's no question of whether it came from me or not."
+        },
+        {
+          "start_time": 2101570,
+          "end_time": 2140630,
+          "speaker": "Speaker 2",
+          "content": "And then it also does something called a whisper message. So whenever my client picks up the phone, the first thing they hear is a little robot voice recording that says, \"Call from Kyle's Leads,\" and boom, they're talking to the customer. So it's that all-in-one tool. So CallRail, WordPress, and honestly, an Excel sheet. I don't use any fancy CRM. I only use Go high level. Some people do, but all I need is my client's name, business name, phone number, email. That's all I really need, and obviously we have a Google Sheet page for all of our sites and all the domain names and everything. But there's no reason to get to get overly complicated with it."
+        },
+        {
+          "start_time": 2140630,
+          "end_time": 2149590,
+          "speaker": "Speaker 1",
+          "content": "For researching what city and what niche to go after, are we talking Ahrefs, Semrush, or are there other tools out there that you use?"
+        },
+        {
+          "start_time": 2149590,
+          "end_time": 2184450,
+          "speaker": "Speaker 2",
+          "content": "So. As a beginner, I would use Ahrefs because it's very detailed and it'll help you get really good, accurate information to find backlinks, do competition research, niche research, etc. But today, these days, I use something called Mangools. It's just a really clean, fun, easy interface, and I don't need extreme detail anymore because I have a lot of intuition I've built up, and so I'll use Mangools. It's really cool. They got a Chrome plugin that's really easy. And that's just what I use now. But I would recommend anybody starting out, if you're learning this game, to use a refs."
+        },
+        {
+          "start_time": 2184450,
+          "end_time": 2192610,
+          "speaker": "Speaker 1",
+          "content": "What did your first six months and twelve months in revenue look like? How long did it take you to get to ten grand a month, twenty grand a month, etc.?"
+        },
+        {
+          "start_time": 2192610,
+          "end_time": 2209600,
+          "speaker": "Speaker 2",
+          "content": "I got to ten thousand dollars a month at the end of my first year. I found this business model in August of 2019, and then obviously the pandemic hit March 2020, and everything shut down. My TV work went away, and I doubled down on this and gave my full attention during the pandemic. I was able to get the tenth out."
+        },
+        {
+          "start_time": 2209600,
+          "end_time": 2237440,
+          "speaker": "Lance",
+          "content": "Dude. Man, Leonidas was getting to the store when I had to let you go because he's got a job over there. Adamant's is like super part time. It's like fifteen to twenty hours a week, fifteen bucks an hour."
+        },
+        {
+          "start_time": 2239190,
+          "end_time": 2266320,
+          "speaker": "Lance",
+          "content": "Which is fucking wild. I was like, dude, you're gonna pay him that much money. Let's go. Dude. Oh yeah. Like I was kind of remembering the other day what I was getting paid at Auto Man. You remember that place, fucking Auto Man? Fucking incredible, dude. Incredible."
+        },
+        {
+          "start_time": 2274680,
+          "end_time": 2284920,
+          "speaker": "Lance",
+          "content": "You're just like what? This is not a job. What the fuck is this? Something else. It's not really a job. That's funny."
+        },
+        {
+          "start_time": 2284920,
+          "end_time": 2298200,
+          "speaker": "Speaker 4",
+          "content": "Huh."
+        },
+        {
+          "start_time": 2298200,
+          "end_time": 2302490,
+          "speaker": "Lance",
+          "content": "A week from today, that Saturday, a week from this weekend."
+        }
+      ]
     }
   ]
 }
