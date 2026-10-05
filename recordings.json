@@ -1,6 +1,2285 @@
 {
-  "revision": "PLAUD-NOTES-2026-10-03-AM",
+  "revision": "PLAUD-NOTES-2026-10-05-MID",
   "recordings": [
+    {
+      "id": "of_435f0809d976d02bc13667dee7cf9988",
+      "name": "10-05 Weekly Meeting: Service Performance, Warranty Issues, and Inter-Departmental Conflicts",
+      "start_at": "2026-10-05T15:01:49",
+      "created_at": "2026-10-05T16:28:44",
+      "duration_ms": 5203000,
+      "vertical": "dealers",
+      "store": "abr",
+      "routed_by": "infer: ABR weekly \u00b7 Q5/Q8 \u00b7 VCA \u00b7 service/F&I",
+      "status": "go",
+      "work_order": "File vendor meeting notes + wire ABR brief. Lance: VCA settings (today/tomorrow), newsletter/offer link, free-maint + Q8/MSRP marketing, Mastermind 3-mo eval frame, save-a-deal contact fields.",
+      "highlights": [
+        {
+          "timestamp": 0,
+          "title": "Highlight 1",
+          "content": "Service CP target 3.0 hrs/RO (now 2.69)"
+        },
+        {
+          "timestamp": 0,
+          "title": "Highlight 2",
+          "content": "F&I $2,600/copy \u00b7 64% finance \u00b7 push toward $3k"
+        },
+        {
+          "timestamp": 0,
+          "title": "Highlight 3",
+          "content": "Q5 diff warranty systemic \u2014 OEM visit Oct 27 (Sam/Mark) + Terrence"
+        },
+        {
+          "timestamp": 0,
+          "title": "Highlight 4",
+          "content": "VCA pause/re-engage still broken \u2014 Lance meetings Oct 5\u20136"
+        },
+        {
+          "timestamp": 0,
+          "title": "Highlight 5",
+          "content": "Q8 +$1k \u00b7 3yr free maint on 2026 \u00b7 MSRPs on new \u00b7 exec demos"
+        },
+        {
+          "timestamp": 0,
+          "title": "Highlight 6",
+          "content": "Mastermind ~$5k/mo \u2014 3-month eval vs Lance reports"
+        }
+      ],
+      "summary_md": "> **Date:** 2026-10-05\n> **Location:** [Insert Location]\n> **Participants:** [Speaker 1] [Speaker 2] [Speaker 3] [Speaker 5] [Speaker 6] [Speaker 7] [Speaker 8] [Speaker 9] [Lance]\n---\n## Meeting Notes\n### Improving Service Sales Performance\n- [Speaker 1] highlighted a recent new car sale that took two days and yielded only $1,500 profit, emphasizing the effort required per sale and drawing a parallel to the dedication needed from service writers.\n- From April to July, average hours per repair order (RO) was 2.44. After implementing callbacks for lost opportunities and offering discounts, the average increased to 2.69 hours per RO over the last two months.\n- New target for customer-pay work is **3.0 hours per RO**, considered achievable.\n- Writers should focus on selling necessary repairs while customers are on-site; 0% financing options should be promoted to help close service sales.\n- The dealership's warranty claims are lower than the average dealer, possibly due to being overly cautious \u2014 valid warranty work, particularly related to the differential, may be missed.\n- Service advisors need to conduct better customer interviews to identify and document vehicle issues properly, including prompting customers about specific symptoms (e.g., vibrations, rubbing sensations on turns).\n---\n### F&I Performance Review\n- Significant improvement last month: F&I reached **$2,600 per copy** with a 64% finance penetration rate.\n- Discussion held about reintroducing a \"finance fifth\" on used cars to push toward a **$3,000 per copy** target.\n---\n### Vehicle Differential Service and Warranty Issues\n- A recurring and systemic issue exists with the differential on **Q5 models**. Cars with the problem are being traded in without the issue being addressed under warranty.\n  - The repair involves a differential flush (~$600); if unsuccessful, full replacement costs ~$2,500, often absorbed by the dealership.\n  - A specific Q5 has been in service for **a year and a half** without resolution; a new module is expected but no contingency plan exists if that fails.\n- Technicians are reportedly reluctant to perform the warranty diff flush because it is time-consuming relative to compensation.\n- Manufacturer policy requires a **customer complaint** before warranty work can be initiated, creating tension with the dealership's goal of proactive customer retention.\n- The issue is a known TSB, but the manufacturer classifies it as a **\"feel\" concern** rather than a safety issue to avoid a recall.\n- Under warranty, diff and motor mount issues cannot be directly upsold; the approach is to inform customers, add complaint lines, and manage through warranty processes.\n- The team agreed this puts both the dealership and customers in a poor position and that the manufacturer should bear responsibility.\n- **Plan:** Discuss directly with manufacturer representatives (Sam and Mark) during their visit on **October 27th**, and separately schedule a meeting with representative **Terrence** to address the Q5 differential issue and broader service/warranty policies.\n---\n### Internal Costs and Inter-Departmental Trust\n- Significant conflict exists between the **used car department and service department** regarding repair costs on trade-in vehicles.\n  - Used car department feels \"jammed up\" by high service costs that erode profit margins.\n  - Example: A $500 price discrepancy for TPM sensors between their service department and an external Lincoln dealer.\n  - Used car manager stated they will send work elsewhere if it is more cost-effective.\n- There is widespread **distrust of service technician quotes** for used cars \u2014 estimates are perceived as inflated or unnecessary (e.g., $5,000\u2013$6,000 quotes on cars bought for $17,000\u2013$20,000).\n  - Specific concerns: charging diagnostic fees when the issue is already known, quoting major repairs based on poor-quality photos, and charging $189 to plug in a car to charge its battery.\n  - Technicians are perceived as possibly pressured by management to maximize revenue per job.\n- The team indicated greater trust in independent shops than their own service department.\n- No clear resolution or collaboration plan between the two departments was established.\n---\n### Diagnostic (Diag) Charges and Integration with Repair Quotes\n- Diag charges apply when work requires disassembly beyond initial inspection (e.g., door/window fault testing, dye for oil leak detection).\n- If diag requires disassembly, related repairs should **not** be charged separately \u2014 diag should be rolled into the repair cost.\n- Agreed principle: **diag charges should be credited against repair costs**; questionable cases will be reviewed on request.\n- Clear thresholds for when diag charges are applied and how they are credited have not yet been formally documented.\n---\n### UCI Inspection Scope, Timing, and Transparency\n- UCI uses a checklist with green/yellow/red statuses covering: brakes, tires (tread depth), leaks, lights, belts, fluids, A/C function, and traction control.\n- Inspection duration varies by vehicle and mileage.\n- A request was made for a fully documented, transparent checklist of all UCI items.\n- Concern raised about short inspections being billed at higher hours \u2014 no benchmarks by vehicle type have been established.\n- **Action:** Share the itemized UCI checklist with the team.\n---\n### AI Sales Assistant Issues\n- The current AI configuration is not working effectively; its benefit to sales is unclear and the verbiage is considered subpar.\n- Key problems:\n  - AI stops communicating with a customer indefinitely once a salesperson engages.\n  - AI cannot be easily re-engaged after a set period of salesperson inactivity (e.g., customer leaves without buying).\n  - The AI and sales team use **two different phone numbers** for texting, risking customer confusion \u2014 no decision was made on whether to pursue a single-number solution.\n  - Concern that the AI may be \"pestering\" customers and negatively impacting the closing ratio, though no definitive measurement method was established.\n- Team discussed needing a **\"pause\" button** that remains active until manually un-paused, and the ability to set custom statuses (e.g., hot, cold) to control AI interaction.\n- **Lance** has meetings scheduled for **October 5th and 6th, 2026** to address AI configuration issues with the provider.\n---\n### Marketing and Sales Promotions\n- Price on the **Q8** increased by an additional $1,000.\n- **Three years of free maintenance on all 2026 models** offer to be added to promotions.\n- Focus on moving executive demos: 27 used 2025 Q5s and A5s are in inventory.\n  - A dedicated webpage and ad spend have been created for pre-owned Q5s.\n  - Suggested to feature a large \"up to\" discount figure on executive demo listings to drive more action.\n- Sales team to add MSRPs to new car listings to highlight discounts.\n---\n### AI-Driven Search Behavior and SEO Strategy\n- Observed rise in consumers using AI to negotiate car deals and find answers online.\n- Existing site content (specials, new/used, CPO, Q5 pages) is being surfaced by AI tools due to comprehensive data.\n- Strategy: continuously build pages to serve AI-generated answers and include source links.\n- Discussion on **reducing SEM spend** as users increasingly stay within AI modules/carousels rather than clicking sponsored links.\n- Google (Gemini) and Meta (Muse) are pushing consumer AI, increasing AI usage on mobile devices.\n- **Lance** will analyze AI-related ad options and provide specific recommendations and data on potential SEM adjustments.\n---\n### Sales and Customer Data Reporting Tools\n- Lance produces sales performance reports showing salesperson activity and closing ratios.\n- Managers requested the reports include **customer contact information** to support follow-up and coaching, similar to a \"save-a-deal\" dashboard \u2014 Lance confirmed this is possible.\n- Lance's tool was compared to **Mastermind** (~$5,000/month); Lance's tool has similar and customizable capabilities.\n- **Decision:** Evaluate Mastermind's cost-effectiveness over the next **three months**. Specific criteria for keeping or canceling (e.g., minimum ROI thresholds, features not replicable by Lance's tool) were not defined.\n---\n### New Sales/Service Application Development\n- A new application is being developed to manage sales leads and service data.\n- Features discussed:\n  - Salesperson dashboard for leads and tasks.\n  - Manager ability to assign unassigned service leads to specific salespeople.\n  - CRM integration with round-robin lead distribution.\n  - Ability to emulate what different users see on their dashboards.\n- **Printing issues:** Current print function uses 10\u201312 pages per person; a more concise layout was requested.\n- Ultimate goal: move away from printing entirely and transition salespeople to digital dashboards with individual logins.\n- No specific timelines or responsibilities for the printing fix or lead assignment feature were defined.\n---\n## Next Arrangements\n- [ ] Lance to send the newsletter and offer email link for review.\n- [ ] Add \"three years free maintenance on all 2026 models\" offer to all marketing materials.\n- [ ] Sales team to add MSRPs to new car listings to highlight discounts.\n- [ ] Lance to investigate and fix AI settings: pause function, re-engagement protocols, and status-based interactions (meetings Oct. 5\u20136).\n- [ ] Lance to review Google AI ad spend options and share a detailed recommendation with supporting data.\n- [ ] Provide a comprehensive UCI inspection checklist (items checked and status criteria) to the team.\n- [ ] Review specific cases where diag charges may have been over-quoted and adjust as needed.\n- [ ] Monitor diff fluid inventory and resume appropriate diff-related service recommendations within warranty constraints.\n- [ ] Communicate to customers when diff or motor mount issues are documented as \"feel\" and outline next steps.\n- [ ] Discuss the differential warranty issue with manufacturer representatives Sam and Mark on **October 27th**.\n- [ ] Schedule a meeting with manufacturer representative **Terrence** to address Q5 differential issue and broader service/warranty policies.\n- [ ] Lance to investigate adding customer contact details to sales reports to create a \"save-a-deal\" dashboard.\n- [ ] Evaluate Mastermind cost-effectiveness and ROI over the next three months.\n- [ ] Investigate why service technicians are not quoting or performing differential work (root cause: compensation, time, or complexity).\n- [ ] Used car department to continue scrutinizing service costs on trade-in vehicles to manage profitability.\n- [ ] Address technician behavior and inflated quoting practices with service management.\n- [ ] Fix application print layout to be more concise; implement lead assignment feature with defined timelines.\n---\n## AI Suggestions\n> **AI Suggestions**\n> AI has identified the following issues that were not concluded in the meeting or lack clear action items; please pay attention:\n> 1. There is no definitive method established to measure whether the AI sales assistant is helping or hurting the closing ratio \u2014 this was questioned but not resolved.\n> 2. The AI and sales team using two separate phone numbers was identified as a customer confusion risk, but no decision was made on pursuing a single-number solution.\n> 3. While the goal is to increase service hours per RO to 3.0, specific daily tactics for service writers beyond general follow-ups were not detailed.\n> 4. A conflict exists between the dealership's need to proactively fix known issues (e.g., diff) for customer retention and the manufacturer's policy requiring a customer complaint before warranty work begins. No internal interim policy was established.\n> 5. The root cause of technician reluctance to perform differential warranty work (compensation, time, complexity) was not fully determined, and no internal action was assigned.\n> 6. The Q5 that has been in service for a year and a half has no contingency plan if the expected new module fails to resolve the issue.\n> 7. The significant conflict between the service and used car departments over repair costs and trust was discussed but has no clear resolution or collaboration plan.\n> 8. Specific criteria for deciding whether to keep or cancel Mastermind after the three-month evaluation (e.g., minimum ROI, features not replicable by Lance's tool) were not defined.\n> 9. Clear thresholds for when diag charges are applied and how they are credited toward repairs have not been formally documented.\n> 10. Target SEM budget adjustments based on AI search behavior data need measurement criteria and a testing timeline.\n> 11. A standardized communication script for advisors explaining diff \"feel\" issues under warranty and the complaint-line process has not been created.\n> 12. UCI inspection time versus billed time benchmarks by vehicle type have not been established.\n> 13. Specific timelines and responsibilities for fixing the application's printing issue and implementing the lead assignment feature were not defined.",
+      "transcript": [
+        {
+          "start_time": 4580,
+          "end_time": 64230,
+          "speaker": "Speaker 1",
+          "content": "Things to talk about, and I'd like everybody to interact as much as possible. First thing I want to talk about is is service sales. Let's take a quick backstory. We sold a car yesterday on Saturday, a new car. Customer came in on Friday, we worked him. He left. Went went finance left. Came back Saturday and worked him some more. Finally closed him at the end of the day. After two days of work, we made a whopping fifteen hundred bucks on the deal. So it doesn't sound like a whole lot, but."
+        },
+        {
+          "start_time": 64260,
+          "end_time": 117500,
+          "speaker": "Speaker 1",
+          "content": "But that's that's how it is in sales. What I need is I need that same level of approach coming out of the writers when it comes to selling services. I mean, every single dollar makes a deal and makes a difference. So when you think about it, that used cars will will spend two days. Working a guy over and over again to make five or six hundred bucks. Sometimes you know, sometimes it's five or six thousand, but to make five or six hundred dollars doesn't matter. It's about making the sale. The same mentality needs to be in service. It's more about making the sale. Now there has been some progress. We look from April through July. We averaged about two point four, two point four four hours per RO, and we kind of went to."
+        },
+        {
+          "start_time": 118000,
+          "end_time": 147940,
+          "speaker": "Speaker 1",
+          "content": "Calling back our customers, calling back lost opportunities, things like that, offering discounts. We've actually moved that up over the last two months to two point six nine. So we've raised it about a quarter of a quarter of an hour. But I think, you know, I think three three hours per RO when it comes to customer pay is what we need to shoot for, and that needs to be the goal that we need to set. And on any year, I mean, that needs to be the number that we're hitting. There are dealers out there."
+        },
+        {
+          "start_time": 148450,
+          "end_time": 206270,
+          "speaker": "Speaker 1",
+          "content": "Per hour on a regular basis, and charging a higher rack rate than we are, so it is very, very possible to do. So, we need to continue to work on a day-to-day basis with the writers on following up with the customers, making sure we're calling any any lost sales, but more importantly, I mean, the best time to get them is while they're here. While they're here, yeah, you know. If it's something that the writer thinks that the customer really needs, I'm not talking about a bullshit repair. You know, I don't, I don't want to sit there and harass people over bullshit repair. But if it's something that they really need, something that's really causing problems, you know, take a TO on it. Go over and explain to them, talk to them. Hey, this is what it is. You know, we can talk to them about zero percent financing on the on the repair, which we have. Of course, they can pay with a credit card, so they don't have to come out of pocket right away to do."
+        },
+        {
+          "start_time": 207030,
+          "end_time": 259779,
+          "speaker": "Speaker 1",
+          "content": "But you know, try to take advantage of the zero percent as much as possible. Try you know, and and make sure that we, what we call you know, to go into sales and it's the same it's the same thing. You know, these service tickets are sometimes way more valuable than a sales ticket. We have to keep that the mentality there that that it is important for to try to close the customer. I explain to them why support that this repair is necessary, and you know that's it needs to be taken. Like you know, we get one or two ups a day on the sales end if we're lucky. You get twenty, you know. Let's make sure we try to monopolize and capitalize every whatever we can. So, anybody got anything they want to add to that?"
+        },
+        {
+          "start_time": 259779,
+          "end_time": 267810,
+          "speaker": "Speaker 2",
+          "content": "Been working with them last week. Like as far as finding out why they're saying no. Trying to get past that,"
+        },
+        {
+          "start_time": 267810,
+          "end_time": 323670,
+          "speaker": "Speaker 1",
+          "content": "Yeah, there is progress. Like I said, we're up a quarter of a point over the last sixty days, so it's not just a one month thing. So there is, there is a difference. But you know, another another half hour per RO is it's within striking distance. It can be done. And with the way sales are, it's just so important right now that the service and parts are. Operating it as high as they possibly can. All right, F and I. Thanks, guys. Last month, big improvement over the previous month. So, twenty six hundred a copy. Eric and Brit. So, only sixty four percent finance. I know that was tough."
+        },
+        {
+          "start_time": 325110,
+          "end_time": 335350,
+          "speaker": "Speaker 1",
+          "content": "I'm wondering if we should do the finance fifth again, on used cars. What do you think? What do you think, Arya? I mean, I think we can do it."
+        },
+        {
+          "start_time": 335350,
+          "end_time": 351430,
+          "speaker": "Speaker 3",
+          "content": "Yeah, or is it just voices? I think it was new cars that didn't have any finance. It was. I don't know what the percentage of used cars. I think we're like fifty percent. I mean, you convert, we'll give it in there, work it out. I think we're fifty percent on new cars right now. Oh."
+        },
+        {
+          "start_time": 351430,
+          "end_time": 383750,
+          "speaker": "Speaker 1",
+          "content": "Yeah. We're just running so much a higher copy on on our finance round, so. Well, you know we've been around three thousand before for the month, and I think we can I think we can get back there, but certainly a big improvement over last over the last month. And so thanks, guys, for for working hard and and doing what you did. Did we get the pricing on those?"
+        },
+        {
+          "start_time": 383750,
+          "end_time": 410770,
+          "speaker": "Speaker 1",
+          "content": "No. Okay. What's up? I can I can do that. Okay. With my phone. Let me know if you need it. Yeah. Uh, one thing I want to talk about is um is uh AI. Hmm. Um. The current configuration is not really working. Okay. At all."
+        },
+        {
+          "start_time": 411450,
+          "end_time": 413050,
+          "speaker": "Lance",
+          "content": "Yeah, we went to a few things."
+        },
+        {
+          "start_time": 413050,
+          "end_time": 434490,
+          "speaker": "Speaker 1",
+          "content": "I don't see where AI is benefiting us in sales at this point in time. So, Eric, y'all, y'all can maybe. Eric, especially I know you kind of. My understanding is the verbiage of the AI. It's it's it's really subpar compared to what it was. Kind of."
+        },
+        {
+          "start_time": 434490,
+          "end_time": 442220,
+          "speaker": "Speaker 5",
+          "content": "What we were talking about. Was that Friday about where? The pause button. I don't know if we got any further with that."
+        },
+        {
+          "start_time": 442220,
+          "end_time": 446060,
+          "speaker": "Lance",
+          "content": "I'm meeting with them today. I'm meeting with them today and tomorrow. I have two meetings."
+        },
+        {
+          "start_time": 446060,
+          "end_time": 457580,
+          "speaker": "Speaker 5",
+          "content": "To see if there's like a, you know, these guys can take over. Also, the other the it's still stopping the clock on them. I don't know if that's something we can."
+        },
+        {
+          "start_time": 457580,
+          "end_time": 463420,
+          "speaker": "Lance",
+          "content": "So in with podium, I was able to go in and tell it to stop or not stop. I'll check with with them today."
+        },
+        {
+          "start_time": 463420,
+          "end_time": 468920,
+          "speaker": "Speaker 5",
+          "content": "Yeah, because it's hard for me when I try to look through all the leads and I see them all answered. I have to go."
+        },
+        {
+          "start_time": 468920,
+          "end_time": 470360,
+          "speaker": "Speaker 2",
+          "content": "Through."
+        },
+        {
+          "start_time": 470360,
+          "end_time": 494440,
+          "speaker": "Speaker 5",
+          "content": "Yeah, sometimes if I'm busy and I don't have time to go through all the leads that come through to see like whether it was stopped because I have a salesperson talking to them or if I need to harass a salesperson. Yeah. You know. So I mean, that would be helpful. I know we just changed the verbiage from virtual AI to. Well, it'll just. It's gonna just say."
+        },
+        {
+          "start_time": 494440,
+          "end_time": 496740,
+          "speaker": "Lance",
+          "content": "Yeah, it's not gonna mention it's v. It's virtual."
+        },
+        {
+          "start_time": 498260,
+          "end_time": 500020,
+          "speaker": "Speaker 5",
+          "content": "Yeah, I mean,"
+        },
+        {
+          "start_time": 500020,
+          "end_time": 510420,
+          "speaker": "Lance",
+          "content": "Look, it's running on all three stores right now, and it's definitely a, a kind of a wait and see if it's worth a shit, right? I think we're all kind of waiting to see."
+        },
+        {
+          "start_time": 510420,
+          "end_time": 531440,
+          "speaker": "Speaker 1",
+          "content": "Problem is, wait and see costs money, you know, cost deals, cost money, and you know, I, I like I like the idea of AI, and certainly it's the world we live in, but at the same time. I don't want to be a tool where it's pestering customers so much that they just get pissed off and just blocking us essentially."
+        },
+        {
+          "start_time": 531440,
+          "end_time": 532800,
+          "speaker": "Lance",
+          "content": "And it's not."
+        },
+        {
+          "start_time": 532800,
+          "end_time": 549920,
+          "speaker": "Speaker 1",
+          "content": "It becomes negative. You know, the question I have is, I don't see where it is helping our closing ratio on internet ads. So my question is, is it hurting?"
+        },
+        {
+          "start_time": 549920,
+          "end_time": 560040,
+          "speaker": "Lance",
+          "content": "I don't know that there's any definitive way to know right now. Other than if you had a month without it and a month with it, it's it's not intended to be the to be a salesperson."
+        },
+        {
+          "start_time": 560040,
+          "end_time": 561400,
+          "speaker": "Speaker 1",
+          "content": "No, I no, I understand that."
+        },
+        {
+          "start_time": 561400,
+          "end_time": 568200,
+          "speaker": "Lance",
+          "content": "They're supposed to be doing their jobs, and it's supposed to just be a ride along. But that being said, I don't have a dog."
+        },
+        {
+          "start_time": 568200,
+          "end_time": 572360,
+          "speaker": "Speaker 1",
+          "content": "Also, once a salesperson initiates contact with the customer,"
+        },
+        {
+          "start_time": 572360,
+          "end_time": 573240,
+          "speaker": "Lance",
+          "content": "It's going to turn off."
+        },
+        {
+          "start_time": 573240,
+          "end_time": 577000,
+          "speaker": "Speaker 1",
+          "content": "It needs to it needs to go away. Yeah, at that point time, let the salesperson."
+        },
+        {
+          "start_time": 577000,
+          "end_time": 578760,
+          "speaker": "Lance",
+          "content": "Yeah, we change that setting on Friday."
+        },
+        {
+          "start_time": 578760,
+          "end_time": 589690,
+          "speaker": "Speaker 1",
+          "content": "Let the salesperson decide, or let the manager decide when it's time for him to go. So now, so, well, maybe I'm maybe I'm misunderstanding."
+        },
+        {
+          "start_time": 589690,
+          "end_time": 591610,
+          "speaker": "Lance",
+          "content": "So now we change a lot of things."
+        },
+        {
+          "start_time": 591610,
+          "end_time": 594090,
+          "speaker": "Speaker 1",
+          "content": "The customer answers. I wonder when the salesperson answers it."
+        },
+        {
+          "start_time": 594090,
+          "end_time": 596250,
+          "speaker": "Lance",
+          "content": "If we chime in, it just stops."
+        },
+        {
+          "start_time": 596250,
+          "end_time": 605530,
+          "speaker": "Speaker 5",
+          "content": "Stops. Well, that's that's what we're trying. That's what we need to find out. Because right now it's indefinitely. Okay, so it cuts off indefinitely."
+        },
+        {
+          "start_time": 605530,
+          "end_time": 605690,
+          "speaker": "Lance",
+          "content": "Yeah,"
+        },
+        {
+          "start_time": 605690,
+          "end_time": 608410,
+          "speaker": "Speaker 5",
+          "content": "But that was the only option we have, right? Correct."
+        },
+        {
+          "start_time": 608410,
+          "end_time": 624880,
+          "speaker": "Lance",
+          "content": "Yeah. So right now, what? Because I think what it should do is it should stop fucking with our customer. While we're selling a car, right? So if we're engaged and we're selling a car, but but let's say if they come to the showroom, they don't buy a car, we're not engaging with them anymore. Then why not let it follow up, right?"
+        },
+        {
+          "start_time": 624880,
+          "end_time": 629280,
+          "speaker": "Speaker 1",
+          "content": "Like if you've got like a yeah, so is that is that something we have to go back in and turn back?"
+        },
+        {
+          "start_time": 629280,
+          "end_time": 670590,
+          "speaker": "Lance",
+          "content": "That's what I've got to figure out exactly. Like if we tell it stop messing with the customer when we are engaging, I want to figure out when I can like. In Podium, I know exactly how to go in and set the like the follow up parameters. In this, I'm not sure yet, and I don't even know if I have exact control. But we're gonna set it up where, after whatever duration\u2014five days, whatever\u2014a few days of us nothing, and they came and they didn't buy. You know, we don't want it to be completely silent at that point. Yeah. And then it'll also so like Eric kept getting text, right? Like it was every day. Was the cadence? It's not gonna do that if the customer is engaging, right? So it was like it was treating him like like a dead customer, basically."
+        },
+        {
+          "start_time": 671110,
+          "end_time": 680550,
+          "speaker": "Lance",
+          "content": "And then also, like if you know, if Jack starts texting the person, it's supposed to kind of go into the background, like just kind of fade into the background and not,"
+        },
+        {
+          "start_time": 680550,
+          "end_time": 683750,
+          "speaker": "Speaker 1",
+          "content": "Not fuck around. Is it in fact doing that?"
+        },
+        {
+          "start_time": 683750,
+          "end_time": 687750,
+          "speaker": "Lance",
+          "content": "Well, now it is, yeah. But we have it set on a more of a setting,"
+        },
+        {
+          "start_time": 687750,
+          "end_time": 723380,
+          "speaker": "Speaker 5",
+          "content": "But there has to be there has to be some flexibility in it. But as of right now, just to fix the problem, it now shuts off as soon as there's communication by a salesperson. Yeah. But when a salesperson starts getting busy and you wanted to reach out, like let's say three days later or whatever the parameters, it's not going to turn back on. So you either have like the ability to turn it off completely after a salesperson engages, or keep it on while the salesperson is engaging. But the problem with keeping it on is the pause button is like for."
+        },
+        {
+          "start_time": 724120,
+          "end_time": 727480,
+          "speaker": "Speaker 5",
+          "content": "We don't know. The pause button, three minutes, five minutes, something like that."
+        },
+        {
+          "start_time": 727480,
+          "end_time": 733560,
+          "speaker": "Lance",
+          "content": "The pause button should just be until we unpause it, but it's not. Yeah. So that's I've got like a few questions for the guy."
+        },
+        {
+          "start_time": 733560,
+          "end_time": 743400,
+          "speaker": "Speaker 5",
+          "content": "It would kind of know if there's like parameters to try to mark a lead hot or cold or warm, and if that will change how."
+        },
+        {
+          "start_time": 743400,
+          "end_time": 744760,
+          "speaker": "Lance",
+          "content": "Basically custom status."
+        },
+        {
+          "start_time": 744760,
+          "end_time": 755050,
+          "speaker": "Speaker 5",
+          "content": "Yeah. Like something inside of there that we can just say, look, if you don't want it to talk to your customer market as hot. If you wanted to reach out like once a day, or kind of yeah."
+        },
+        {
+          "start_time": 755050,
+          "end_time": 760650,
+          "speaker": "Speaker 1",
+          "content": "At the same time, though, when it is cold, we need the salespeople to market cold. Yeah."
+        },
+        {
+          "start_time": 760650,
+          "end_time": 805370,
+          "speaker": "Lance",
+          "content": "Sure. Yeah, because it's got you know, and before before virtual assistants shit, the all the processes have set kind of different parameters, different sets of tasks that it that it throws out, different emails. It's like if a customer, if we open a visit and they don't buy, and we close the visit. It's got a different set of shit that it does, and so we want AI to be in the same boat, right? So if we close a visit and it'll buy, let it just reengage for shit for 60 days. I mean, we don't care. You know, every three days, and if they're not hitting us back, then we keep trying. Unless the market lost, like that's the thing too. At one point, we have to market lost. You know, salesperson has to just market lost. It's they bought or yeah,"
+        },
+        {
+          "start_time": 805370,
+          "end_time": 807130,
+          "speaker": "Speaker 6",
+          "content": "Then AI through lost,"
+        },
+        {
+          "start_time": 807130,
+          "end_time": 808490,
+          "speaker": "Lance",
+          "content": "And then it'll just stop."
+        },
+        {
+          "start_time": 810420,
+          "end_time": 822500,
+          "speaker": "Lance",
+          "content": "Right now, the switch is on. It's been on since Friday. The description, their description is: if you turn this on, the virtual assistant will cease all communications once any user contacts the customer. So that's switched on right now."
+        },
+        {
+          "start_time": 822500,
+          "end_time": 824980,
+          "speaker": "Speaker 1",
+          "content": "But that's still not exactly what."
+        },
+        {
+          "start_time": 824980,
+          "end_time": 827380,
+          "speaker": "Lance",
+          "content": "Yeah, we're. I'm gonna. We'll fix it today."
+        },
+        {
+          "start_time": 827380,
+          "end_time": 829620,
+          "speaker": "Speaker 5",
+          "content": "No, that was just a temporary product."
+        },
+        {
+          "start_time": 829620,
+          "end_time": 831460,
+          "speaker": "Lance",
+          "content": "To keep it from over communicating."
+        },
+        {
+          "start_time": 831460,
+          "end_time": 844140,
+          "speaker": "Speaker 5",
+          "content": "Yeah, because we were having. I think we were having text go through to customers while we were in the process of selling a car. You know, there."
+        },
+        {
+          "start_time": 844140,
+          "end_time": 851820,
+          "speaker": "Lance",
+          "content": "Should be like a pending, like, hey, I'm, you know, this, this, I don't know, on deposit or something, some status where if it's in that status, hey,"
+        },
+        {
+          "start_time": 851820,
+          "end_time": 861660,
+          "speaker": "Speaker 5",
+          "content": "You're actually working a deal. I also want to know if they want to, if, if that's something that they're going to try to correct with the two phone numbers or yeah, that's well,"
+        },
+        {
+          "start_time": 861660,
+          "end_time": 891950,
+          "speaker": "Lance",
+          "content": "And there's pros and cons, like we discussed. Yeah. Like, so right now, what he's saying is the two phone numbers. Right now. The virtual assistant and our texting goes out from two different numbers. The theory there is, if your virtual assistant's number gets blocked, you can still text your customer, and vice versa through the CRM. So, they say that they're working on letting us have the option of letting it all just come from the same number. Back when we were using Podium, if you texted from Ven."
+        },
+        {
+          "start_time": 892290,
+          "end_time": 897890,
+          "speaker": "Lance",
+          "content": "It was a different number, and Podium was its own number. But if you texted from Podium, you were on the same number as your."
+        },
+        {
+          "start_time": 897890,
+          "end_time": 911330,
+          "speaker": "Speaker 5",
+          "content": "And I think that's also like some caution that we need to have with the sales team because if they're treating it like Podium, and they're just thinking like, because it's on the same text thread that the salesperson is built in now."
+        },
+        {
+          "start_time": 911330,
+          "end_time": 917850,
+          "speaker": "Lance",
+          "content": "Yeah. So like when they pull up the text thread, they're seeing like what AI is been communicating with the customer."
+        },
+        {
+          "start_time": 917930,
+          "end_time": 929130,
+          "speaker": "Speaker 5",
+          "content": "So if they're just ripping a text through there saying like, yeah, look, it's like this, and then they're getting some random number that's saying like nobody's even acknowledging it's coming from a different number."
+        },
+        {
+          "start_time": 929130,
+          "end_time": 943930,
+          "speaker": "Lance",
+          "content": "It's kind of make sure you introduce yourself. Hey, this is you know, this is Jack from Audi. Save this. It's my text number or whatever. But yeah, we we did a lot on Friday, but I have a lot of questions for them today. I've got a meeting today and tomorrow."
+        },
+        {
+          "start_time": 943930,
+          "end_time": 952690,
+          "speaker": "Speaker 1",
+          "content": "So. Um. I think pretty much all of the programs are virtually identical."
+        },
+        {
+          "start_time": 952690,
+          "end_time": 957490,
+          "speaker": "Lance",
+          "content": "Yeah, we met on Friday about it. I think you said just go up on the Q eight."
+        },
+        {
+          "start_time": 957490,
+          "end_time": 959250,
+          "speaker": "Speaker 5",
+          "content": "Was it like another G on the Q eight?"
+        },
+        {
+          "start_time": 959250,
+          "end_time": 960850,
+          "speaker": "Lance",
+          "content": "You said yeah. I went up another thousand."
+        },
+        {
+          "start_time": 960850,
+          "end_time": 962770,
+          "speaker": "Speaker 5",
+          "content": "Like the only change that they did. Yeah."
+        },
+        {
+          "start_time": 962770,
+          "end_time": 973970,
+          "speaker": "Speaker 3",
+          "content": "There is a few little. Do you want to go up another thousand on the Q eight? Is that what you think we should do? Yeah, it's a good thousand. How many do you have?"
+        },
+        {
+          "start_time": 973970,
+          "end_time": 986440,
+          "speaker": "Lance",
+          "content": "You got enough. Yeah, you got a few. I mean, I updated it. It's on the site, and I'll send you guys the link for the newsletter and offer email today, so y'all can review it, and then we'll send it out today too."
+        },
+        {
+          "start_time": 986440,
+          "end_time": 989960,
+          "speaker": "Speaker 7",
+          "content": "With those offers already built into."
+        },
+        {
+          "start_time": 989960,
+          "end_time": 997000,
+          "speaker": "Speaker 1",
+          "content": "It. Yeah. Uh, can we add on there too that all all 26 models come with free maintenance for three years?"
+        },
+        {
+          "start_time": 997000,
+          "end_time": 1003120,
+          "speaker": "Lance",
+          "content": "Yeah. All 26 models. Yeah. Free maintenance for three years. Three years. Got it."
+        },
+        {
+          "start_time": 1004100,
+          "end_time": 1010980,
+          "speaker": "Speaker 5",
+          "content": "Are you moving? I know we talked about moving some spend to that executive demo to get."
+        },
+        {
+          "start_time": 1010980,
+          "end_time": 1029300,
+          "speaker": "Lance",
+          "content": "Yeah. So I have. What I did was we have used Q five page built specifically just to highlight the pre - owned Q fives, all those twenty fives we have, and then we have some spend that's just for that, for the Q five, and then you also have a lot. I mean, just all the all the used executive demo stuff."
+        },
+        {
+          "start_time": 1029300,
+          "end_time": 1030260,
+          "speaker": "Speaker 5",
+          "content": "I wonder if they."
+        },
+        {
+          "start_time": 1030260,
+          "end_time": 1032950,
+          "speaker": "Lance",
+          "content": "I highlighted the Q fives because it's by far the biggest number."
+        },
+        {
+          "start_time": 1033740,
+          "end_time": 1070660,
+          "speaker": "Speaker 5",
+          "content": "I wonder if we can do like a. I'll see what the biggest discount on one is, and we can do something like a up to, like a just to try to push those because we still got a bunch of. Yeah, I mean Q fives and A fives are kind of the the main culprits that we're going to run into in the next few months, and we got to move those quickly. So they've all been priced. Super aggressive, but if we can get some more action on them,"
+        },
+        {
+          "start_time": 1070660,
+          "end_time": 1074740,
+          "speaker": "Lance",
+          "content": "Yeah, because right now we're showing."
+        },
+        {
+          "start_time": 1074740,
+          "end_time": 1077540,
+          "speaker": "Speaker 5",
+          "content": "I know I still have to put the MSRP's on a lot of the new ones."
+        },
+        {
+          "start_time": 1077540,
+          "end_time": 1117770,
+          "speaker": "Lance",
+          "content": "Put MSRP's, like it'll show us a big discount. So, yeah, I mean, showing thirty three of them right now. That's just total free on Q fives, and most of those are those cars. Yeah, there's a few that are different, you know, like different model years. But twenty seven, twenty fives, and that \u2014 that's the page that I built. The page that I built is just all Q fives, but it just happens that they're mostly that. Yeah, we put a specific little spend on that domain, like different little domain gen ads, just to try to boost them. They're also being featured in the vehicle. You know, we have our vehicle listings ads, the inventory ads, the ones that show up at the top of the Google. Those are all active now too."
+        },
+        {
+          "start_time": 1117770,
+          "end_time": 1129990,
+          "speaker": "Speaker 3",
+          "content": "There. Spend or a way. Me and Eric talked about this, and I think we might be spending money on it already. When somebody searches AI, yeah."
+        },
+        {
+          "start_time": 1129990,
+          "end_time": 1145030,
+          "speaker": "Lance",
+          "content": "So what you're, I don't have any. There's different things. So like right now, I think Google and Chat GPT are the two AIs that you can actually do like paid ads inside of. I'm not doing any of that specifically. I mean, we could, but it's, you know."
+        },
+        {
+          "start_time": 1145030,
+          "end_time": 1150150,
+          "speaker": "Speaker 3",
+          "content": "So like organic. So if our, so if somebody says, hey, who has the."
+        },
+        {
+          "start_time": 1151750,
+          "end_time": 1154390,
+          "speaker": "Speaker 3",
+          "content": "How much are people taking off new Q7s?"
+        },
+        {
+          "start_time": 1154390,
+          "end_time": 1155590,
+          "speaker": "Lance",
+          "content": "Yeah, if they're here,"
+        },
+        {
+          "start_time": 1155590,
+          "end_time": 1156870,
+          "speaker": "Speaker 3",
+          "content": "If they're okay,"
+        },
+        {
+          "start_time": 1156870,
+          "end_time": 1167910,
+          "speaker": "Lance",
+          "content": "Then it's gonna it's gonna all the pages are built like that's why I like to have multiple kind of they're like they're SEO content search engine, but it's also people call it now AI or AIO,"
+        },
+        {
+          "start_time": 1167910,
+          "end_time": 1171590,
+          "speaker": "Speaker 3",
+          "content": "Which is everything's optimized. No,"
+        },
+        {
+          "start_time": 1171590,
+          "end_time": 1181420,
+          "speaker": "Lance",
+          "content": "Because it's it's not really spend for the SEO. It's it's not spend just because I do them all. I just build them as we go as we need them, like the Q5 one. What that is."
+        },
+        {
+          "start_time": 1183340,
+          "end_time": 1198700,
+          "speaker": "Speaker 3",
+          "content": "So like this, what we've seen is we've seen a lot of people using AI to negotiate car deals. It's like super ramping up right now. Yep. The good thing is, is that when you did, or when we were searching on Saturday, we were coming up with a lot of those AI searches, which I think is very good."
+        },
+        {
+          "start_time": 1198700,
+          "end_time": 1225690,
+          "speaker": "Lance",
+          "content": "You're gonna come up because we just have a lot of good data. Yeah. So I'm not having to pay for that. Yeah. So but it is it sees our shit as good answers. Yeah. So what AI is doing is just going. Yeah, I need to find the best answer for these people, and if they're in our area, that we have a lot of stuff. Yeah. So we have the specials pages, new, used, pre - owned, CPO, Q5. The more content you have in there, the more data it can pull from to answer people's questions. Yeah, and then it'll have like source links."
+        },
+        {
+          "start_time": 1225690,
+          "end_time": 1237840,
+          "speaker": "Speaker 3",
+          "content": "Yeah, I just think it's going to be very important moving forward that like apparently people think AI is like God at this point. So like if we can just get one of their eyes, then they're going to come."
+        },
+        {
+          "start_time": 1237840,
+          "end_time": 1293420,
+          "speaker": "Lance",
+          "content": "It's a time saver for them, right? So they don't have to like. The other, the alternative is go on Google, and they have to decide which ones of these are the best sources, and if they can just ask AI, yeah, you know. So it's like the other, the other piece of that is, and I've been talking about this. Like I, I look into this myself, and also with, you know, with other stores, the the companies that I use to help us buy stuff. A big conversation is at what point do we greatly dial back. Our ad spend, because what happens is, if you're a Google, if you're on Google and you search, a lot of times you just stay in that little fucking AI spot at the top, right? Or you just use those carousel ads like that we're in now, but you don't you don't look at the actual like paid the sponsored links, you just don't look at them that much anymore. You're asking AI, you know. And the other thing is, Meta, Google, those are really pushing consumer AI, you know, with Muse and with Gemini."
+        },
+        {
+          "start_time": 1293500,
+          "end_time": 1321900,
+          "speaker": "Lance",
+          "content": "So you've got more and more people that are having more alternatives on their phone. There's like being pushed into it. So yeah, I mean it's 100% right. And at one point, I think you can spend less on SEM because people are getting their answers just by just having the information out there. So yeah, and there's also some. I'll look into it and give you more information on it. But there's also there are in Google, for example, there are like AI options for spend. Yeah. So I'll look and see if it's worth it and kind of."
+        },
+        {
+          "start_time": 1321900,
+          "end_time": 1322470,
+          "speaker": "Speaker 7",
+          "content": "Yeah."
+        },
+        {
+          "start_time": 1322710,
+          "end_time": 1343270,
+          "speaker": "Lance",
+          "content": "I'll Give you an answer. Yeah. Oh, for sure. Yeah. See you meeting today. Yeah, yeah, yeah. We're. I'll give you more data on exactly the options for AI shit. I'll see, and I kind of know what we want to do, and I'll just see if we can just do it, and I'll let you know what ends up happening."
+        },
+        {
+          "start_time": 1343270,
+          "end_time": 1359710,
+          "speaker": "Speaker 1",
+          "content": "The last thing I have before I end up in my body is, what. Exactly constitutes a diag charge when we're talking about a parking diag or UCI."
+        },
+        {
+          "start_time": 1359710,
+          "end_time": 1389030,
+          "speaker": "Speaker 2",
+          "content": "Something that takes more time than the initial inspection. Like we've got to take something apart, you know. If you got a door lock fault and we've got to pull the door down to test it, or a window fault, you got to pull the door down to test it. You know, something that's going to take more time to look at. Like if we got a really bad oil leak and, They're gonna put dye to clean everything off, and then run the car. Maybe put dye to, I'm really throwing. It's just anything like that's gonna take a lot more time."
+        },
+        {
+          "start_time": 1389030,
+          "end_time": 1398870,
+          "speaker": "Speaker 1",
+          "content": "All right. I understand things like that, but what about things that are kind of blatantly obvious that it's gonna be this specific time? I mean,"
+        },
+        {
+          "start_time": 1398870,
+          "end_time": 1400390,
+          "speaker": "Speaker 2",
+          "content": "Blatantly obvious that this. Because."
+        },
+        {
+          "start_time": 1400390,
+          "end_time": 1405750,
+          "speaker": "Speaker 1",
+          "content": "Sometimes, you know, for example."
+        },
+        {
+          "start_time": 1408700,
+          "end_time": 1424060,
+          "speaker": "Speaker 1",
+          "content": "Diag to check the the windshield washers, you know, to clean sludge out. So you get a diag to a diag to to check it and and then a quote to clean it out."
+        },
+        {
+          "start_time": 1424060,
+          "end_time": 1430060,
+          "speaker": "Speaker 2",
+          "content": "You shouldn't be charging to clean it out if they've already got diag to take it apart. Already,"
+        },
+        {
+          "start_time": 1430060,
+          "end_time": 1434380,
+          "speaker": "Speaker 1",
+          "content": "All right. Does the diag come off of anything off of the repair?"
+        },
+        {
+          "start_time": 1434380,
+          "end_time": 1452020,
+          "speaker": "Speaker 2",
+          "content": "It should come off of the repair. Should roll in the repair basically. Okay. They shouldn't charge extra. Like they should take the diag charge and then subtract that from the repair quote. That's what they should be doing. But you got a question on one that they feel like they're quoting more than they should be? Just ask me. I'll check it."
+        },
+        {
+          "start_time": 1452020,
+          "end_time": 1493780,
+          "speaker": "Speaker 5",
+          "content": "No, I mean I'm. Yeah, I mean I feel like now the diag. Like I just did one on a Q3 that had two diags on them. I said go ahead, do both diags, and it was both like fucking. Two thousand dollar jobs. That they sent me a picture of a a scan that they could have fucking just told me originally, but they probably knew it wasn't going to do the work. So like, yeah. I mean, look, we watched Nick come grab a car yesterday on the new two hundred and fifty dollar whatever. So it's like what an hour and a half is that we're charging? Yeah. And was it what twenty minutes on the truck? On the truck."
+        },
+        {
+          "start_time": 1494020,
+          "end_time": 1515780,
+          "speaker": "Speaker 5",
+          "content": "Where he went and UCI'd the truck and parked it back on our lot in 20 minutes. So if I'm paying an hour and a half, like the car should be getting fucking worked on for an hour and a half. I mean, I know that doesn't make sense for y'all. You want to get as much done in such in a short period of time and get paid the most hours. But like from my angle, what am I paying for?"
+        },
+        {
+          "start_time": 1515780,
+          "end_time": 1522660,
+          "speaker": "Speaker 8",
+          "content": "You know, like a checklist. Do you do like a like a checklist, like, and you'll do like 30 or two points or whatever checklist."
+        },
+        {
+          "start_time": 1522660,
+          "end_time": 1528130,
+          "speaker": "Speaker 2",
+          "content": "Yeah. We fill it up. I mean, it's all through my car, but yeah, let's get filled up."
+        },
+        {
+          "start_time": 1528130,
+          "end_time": 1531490,
+          "speaker": "Speaker 8",
+          "content": "But I mean, so are they inspecting brakes and everything?"
+        },
+        {
+          "start_time": 1531490,
+          "end_time": 1535170,
+          "speaker": "Speaker 2",
+          "content": "Yeah, brakes, tires. You know, they check for leaks."
+        },
+        {
+          "start_time": 1535170,
+          "end_time": 1541250,
+          "speaker": "Speaker 8",
+          "content": "So how do they? I mean, how do they do it in twenty minutes? Is if if they have it's twenty? How do they do that?"
+        },
+        {
+          "start_time": 1541250,
+          "end_time": 1548930,
+          "speaker": "Speaker 2",
+          "content": "Some take longer. Some some take less time. It just depends on the vehicle. You know, mileage. What are they going to look at? Sort of asking those."
+        },
+        {
+          "start_time": 1554390,
+          "end_time": 1564950,
+          "speaker": "Speaker 8",
+          "content": "We probably need to get a list. Can you give us like a list of all items I am checking? So they check all fluids, they check brakes, they check function of air condition, and all that stuff."
+        },
+        {
+          "start_time": 1564950,
+          "end_time": 1578870,
+          "speaker": "Speaker 1",
+          "content": "On the UCI inspection, there is a there is a checklist, and you get green, yellow, and red. It goes out of each car, and it's like you are talking about tread depth."
+        },
+        {
+          "start_time": 1578870,
+          "end_time": 1580790,
+          "speaker": "Speaker 2",
+          "content": "They check lights, belts, you know,"
+        },
+        {
+          "start_time": 1580790,
+          "end_time": 1584410,
+          "speaker": "Speaker 1",
+          "content": "Test control. In general condition,"
+        },
+        {
+          "start_time": 1584410,
+          "end_time": 1620550,
+          "speaker": "Speaker 5",
+          "content": "Things like that. The other thing I get a lot is the the diff. I know I sent one through with Ben Friday while the customer still had the car, but like, are we do do we not try to do the diff flush shit while it's under warranty? Because like I get so many of these cars that are coming out of service, and the diff is like completely fucked. And it never gets quoted is like what is the reason for it? I don't I don't understand why we wouldn't do the work if it's under warranty."
+        },
+        {
+          "start_time": 1620550,
+          "end_time": 1651030,
+          "speaker": "Speaker 2",
+          "content": "Last couple of months we haven't quoted them because we didn't have fluid. You know we don't we just had the fluid fill. You know we just start getting fluid in. But if they're really bad, you know we'll tell the customer about it and be like, hey, look, we're gonna put a line a complaint line, you know, for the differential. It's a feel, so we can't really upsell it per se if it's under warranty. But there's there are ways around it. You know, same thing with the motor mounts. You know, where we put a line, take the tie bolts or anything. You know, it's vibration. Whatever, put a plate, that you have a vibration."
+        },
+        {
+          "start_time": 1651030,
+          "end_time": 1656950,
+          "speaker": "Speaker 1",
+          "content": "So in other words, you can't you can't take the diff and go. We're recommending this under warranty and."
+        },
+        {
+          "start_time": 1656950,
+          "end_time": 1661990,
+          "speaker": "Speaker 2",
+          "content": "Right because how do you consider it a safety concern? Even TSB, they put you know just a feel,"
+        },
+        {
+          "start_time": 1661990,
+          "end_time": 1666230,
+          "speaker": "Speaker 1",
+          "content": "Not a safety issue. So you have to get the customer bring it back,"
+        },
+        {
+          "start_time": 1666230,
+          "end_time": 1671510,
+          "speaker": "Speaker 2",
+          "content": "Either bring it back or we tell them up front. Yeah. Look, we're putting a line there that you're going to have to buy."
+        },
+        {
+          "start_time": 1673320,
+          "end_time": 1676200,
+          "speaker": "Speaker 8",
+          "content": "So what does the diff feel like? And notice, I'm asking this."
+        },
+        {
+          "start_time": 1676200,
+          "end_time": 1677400,
+          "speaker": "Speaker 2",
+          "content": "I have my wife's car."
+        },
+        {
+          "start_time": 1677400,
+          "end_time": 1689160,
+          "speaker": "Speaker 8",
+          "content": "Brought it in, and thanks for the the recode and update or whatever. But dude, I noticed when I drove it, and I turn, I feel like I rub it."
+        },
+        {
+          "start_time": 1689160,
+          "end_time": 1691400,
+          "speaker": "Speaker 2",
+          "content": "That's exactly what it is."
+        },
+        {
+          "start_time": 1691400,
+          "end_time": 1694600,
+          "speaker": "Speaker 8",
+          "content": "That's it. But she's got it."
+        },
+        {
+          "start_time": 1694600,
+          "end_time": 1700120,
+          "speaker": "Speaker 2",
+          "content": "But not a one - two. So they all do it. Okay."
+        },
+        {
+          "start_time": 1700120,
+          "end_time": 1733590,
+          "speaker": "Speaker 5",
+          "content": "So the problem is when I get it on my end. And it's like that, and the car has, like this specific one that we just traded Saturday on that, that guy. So, I'm gonna now like the issue is I know the car's been serviced here. I know the problem didn't happen within the last 1,000 miles. So now I'm gonna do the diff flush. If for some reason it doesn't work, then like I'm supposed to be on the hook for. Of like a full differential, which is like twenty, three hundred, twenty five hundred dollars. So,"
+        },
+        {
+          "start_time": 1733590,
+          "end_time": 1735110,
+          "speaker": "Speaker 2",
+          "content": "Are they factory warranted?"
+        },
+        {
+          "start_time": 1735110,
+          "end_time": 1768900,
+          "speaker": "Speaker 5",
+          "content": "Well, no, that's the point. I'm saying every time I get the cars, they're out of warranty. But when cars are serviced here, like, it's it's trickling back to me, I guess, and then it becomes my problem because we didn't do the service. You know what I'm saying? So I don't know if it's. I was told. I was told that the texts don't want to do it because it's actual. Like a few hours of work, and the cars have to be driven around, and it's a pain in the ass. I don't know if that's true or not, but that's what I was told when I asked the first time. Because this has been like six or seven cars through service."
+        },
+        {
+          "start_time": 1768900,
+          "end_time": 1776100,
+          "speaker": "Speaker 6",
+          "content": "It used to be a pain to do the figure eights. To now, you just drain and fill twice. Yeah, it takes up to three hundred miles for it to take effect. They say in the TSB."
+        },
+        {
+          "start_time": 1776100,
+          "end_time": 1791640,
+          "speaker": "Speaker 5",
+          "content": "Yeah, it's a lot easier now. But it seems like, but it's warranted. So it seems like it would be free money for us to be not free money, but like it would make sense to. Quoted on people, and I know that there's a workaround, but at the same time, like people are,"
+        },
+        {
+          "start_time": 1791640,
+          "end_time": 1802360,
+          "speaker": "Speaker 1",
+          "content": "You can't, you can't, you can't upsell warranty. Don't like all. You can't open yourself up to the car. Right. So since there's so many, you have to be, you have to be smart about it."
+        },
+        {
+          "start_time": 1802360,
+          "end_time": 1808580,
+          "speaker": "Speaker 5",
+          "content": "But then you have people driving cars that aren't going to buy new cars with us because their car is fucked up and we don't say anything about."
+        },
+        {
+          "start_time": 1808580,
+          "end_time": 1815460,
+          "speaker": "Speaker 1",
+          "content": "Well, you would you would think the customer would bring it to the dealership and and say, \" Hey, I think I have a problem because of this."
+        },
+        {
+          "start_time": 1815460,
+          "end_time": 1818100,
+          "speaker": "Speaker 5",
+          "content": "\" We're telling the customer that it's a normal thing."
+        },
+        {
+          "start_time": 1818100,
+          "end_time": 1825060,
+          "speaker": "Speaker 1",
+          "content": "No, if the customer comes in and says, \" I have a problem with this,\" then we we do the diff, correct?"
+        },
+        {
+          "start_time": 1825060,
+          "end_time": 1829780,
+          "speaker": "Speaker 2",
+          "content": "Correct. Yeah, we do the fluid, and then if it remains, which nine times out of ten, the fluid fixes it."
+        },
+        {
+          "start_time": 1829780,
+          "end_time": 1836500,
+          "speaker": "Speaker 1",
+          "content": "But then the warranty will cover the diff after that. Correct. But the the customer has to complain about it."
+        },
+        {
+          "start_time": 1836500,
+          "end_time": 1893470,
+          "speaker": "Speaker 5",
+          "content": "Correct. I get it. But at the same time, when a technician is driving, when a technician is driving the car, and feels what I feel, where it's going, pop, and like I'm getting rocked back and forth, like it's coming in and out of gear, like the bad ones. How do we not tell the customer? Like, how do we just give it back and go, hey, have a nice day, and hope that they complain about it? Otherwise, they're gonna. Fucking get out of the car and go buy a BMW or some other vehicle because they know it's fucked up. And then if they're just, you know, I don't know. It's just I, I get the process, but at the same time, like, we we also need to worry about retention. And I'm not. It's not. I don't know why they don't just make that a fucking recall. I guess because they don't want to spend all the money on the. But it's, it's kind of crazy. Like I mean, some of these cars are fucked up."
+        },
+        {
+          "start_time": 1893630,
+          "end_time": 1895150,
+          "speaker": "Speaker 5",
+          "content": "Yeah, I agree."
+        },
+        {
+          "start_time": 1895150,
+          "end_time": 1901630,
+          "speaker": "Speaker 2",
+          "content": "I would love if they make a recall, but they got the TSB that it's a feel, and they even put in a customer got complained about."
+        },
+        {
+          "start_time": 1901630,
+          "end_time": 1904510,
+          "speaker": "Lance",
+          "content": "So you can't. So can you offer? We can do some,"
+        },
+        {
+          "start_time": 1904510,
+          "end_time": 1911550,
+          "speaker": "Speaker 2",
+          "content": "But we can't do all of them because then it'll be a higher ratio of us doing them, and then that's going to flag her and all that."
+        },
+        {
+          "start_time": 1911550,
+          "end_time": 1915710,
+          "speaker": "Lance",
+          "content": "I'm just asking from like the angle of sitting down."
+        },
+        {
+          "start_time": 1915710,
+          "end_time": 1920960,
+          "speaker": "Speaker 8",
+          "content": "So when's our when's our service? When's our team come back in? When's our team come back in?"
+        },
+        {
+          "start_time": 1921820,
+          "end_time": 1930700,
+          "speaker": "Speaker 1",
+          "content": "Service is not coming this month. Service coming next month. You got Sam. You got Mark coming on the twenty seventh. Yeah,"
+        },
+        {
+          "start_time": 1930700,
+          "end_time": 1979580,
+          "speaker": "Speaker 8",
+          "content": "He can't. He can't do anything with that one. Because my deal is, I mean, I I can see, dude. I think you know. I think we have to look out the customer's interest, and I understand. I understand. Volkswagen, Porsche, and Audi are trying to save pennies right now, but. I think there's still a loyalty that we have to have for our customers, and I know I know when you're talking about hey look, they're going to look at repairs per 100 cars or whatever, and if we solicit, and I'm not, I'm using the wrong word solicit, but if we notice a customer's car is not right, I think we have to do it in a way to protect the customer. You know what I'm saying? Because I mean, most manufacturers do want to kind of."
+        },
+        {
+          "start_time": 1980680,
+          "end_time": 1988440,
+          "speaker": "Speaker 8",
+          "content": "Keep them from having to pay for the repair, and have the dealership or a customer pay for the repair. But I don't think that's the right way to do it. You know what I'm saying?"
+        },
+        {
+          "start_time": 1988440,
+          "end_time": 1992200,
+          "speaker": "Speaker 2",
+          "content": "Oh, I'd agree. I mean, it's not being a dealership repair. Yeah,"
+        },
+        {
+          "start_time": 1992200,
+          "end_time": 2024620,
+          "speaker": "Speaker 8",
+          "content": "There's somewhere we got to figure out. Hey, look, you know, I don't know if we say, dude, you know what, there might be something happening. We'd like to get your car in next week, and you know, say something about the different, you know, about the about the way it is. But like I said, dude. I took my wife's car up, and when I turned, I said, \" Man, it's like a rubbed - in feeling.\" Is this that differential issue y'all talked about? And she's probably never complained. No, she doesn't know what the shit she's doing, man. She's just driving and going, but I can feel it."
+        },
+        {
+          "start_time": 2024620,
+          "end_time": 2029740,
+          "speaker": "Speaker 5",
+          "content": "But it gets and it gets worse, and when it gets really bad, it's like."
+        },
+        {
+          "start_time": 2029740,
+          "end_time": 2036140,
+          "speaker": "Speaker 8",
+          "content": "Well, I'm thinking about trading the shit in now. She goes, \" I don't know if you like paying for it.\" Is that what customers say? Yeah."
+        },
+        {
+          "start_time": 2036140,
+          "end_time": 2061630,
+          "speaker": "Speaker 5",
+          "content": "Yeah. Well, yeah, that's the. Issue, but then but then it runs into a problem too. When I'm appraising a car and I can't go, hey, well you've got this diff issue, and they tell me, which has happened multiple times, where they say, well they just looked at it, nobody said anything to me. So you're charging me, you're deducting from my trade amount because of this issue. So where does that put, you know, like it puts me in a position where I can't even fucking say anything about it."
+        },
+        {
+          "start_time": 2061630,
+          "end_time": 2095210,
+          "speaker": "Speaker 8",
+          "content": "Are you trying to sell me? But you see, and that's why one of the when when our team comes in because. This something we should be discussing with those, and saying, \"Hey, look, not only you're putting the customer in a bad situation, but you're putting your dealers in a bad situation, because we're we're supposed to be partners with you guys. You got a defective product, you don't want to fix it because you're saying it's soliciting warranty repairs, so we've got to we've got to get some kind of resolution to this. You know what I'm saying? But this something that when our reps come in, we should be discussing with them, because, like I said, it is an issue.\""
+        },
+        {
+          "start_time": 2095290,
+          "end_time": 2100170,
+          "speaker": "Speaker 8",
+          "content": "And who's going to pay for the issue? The people that created the issue should be the ones paying for it, not the customer,"
+        },
+        {
+          "start_time": 2100170,
+          "end_time": 2104970,
+          "speaker": "Speaker 5",
+          "content": "And not us. We should have one that's fucked up for them to drive."
+        },
+        {
+          "start_time": 2104970,
+          "end_time": 2108890,
+          "speaker": "Speaker 2",
+          "content": "I guarantee you, I will a lot every day."
+        },
+        {
+          "start_time": 2108890,
+          "end_time": 2130270,
+          "speaker": "Speaker 5",
+          "content": "You can say, \" Go fucking drive this one around,\" and tell me you wouldn't tell a customer that it's fucked up. I mean, how is that any different than any other problem, like a a suspension part that's failing or a a, Upper control arm or something that you feel in the car when you recommend that work, it's no different than that."
+        },
+        {
+          "start_time": 2130270,
+          "end_time": 2138430,
+          "speaker": "Speaker 2",
+          "content": "I agree. Their argument is that it's not a safety issue; it's a feel. That that's their way of runaround."
+        },
+        {
+          "start_time": 2138430,
+          "end_time": 2143710,
+          "speaker": "Speaker 8",
+          "content": "Doesn't it progress? Doesn't it progress if it has this issue now? Yeah, it it it progresses,"
+        },
+        {
+          "start_time": 2143710,
+          "end_time": 2153600,
+          "speaker": "Speaker 2",
+          "content": "But it never causes a damage or a drivability issue. That's their wording around it of not. Well,"
+        },
+        {
+          "start_time": 2153600,
+          "end_time": 2157280,
+          "speaker": "Speaker 5",
+          "content": "Yeah, it's it's from like what clutch pads?"
+        },
+        {
+          "start_time": 2157280,
+          "end_time": 2163920,
+          "speaker": "Speaker 2",
+          "content": "It's basically a clutch disc grabbing when you're turning. The all - wheel drive clutch is what it is."
+        },
+        {
+          "start_time": 2163920,
+          "end_time": 2169280,
+          "speaker": "Speaker 5",
+          "content": "So as it gets worse, it grabs more. So when you're accelerating, it's like you're jumping. Yeah,"
+        },
+        {
+          "start_time": 2169280,
+          "end_time": 2172640,
+          "speaker": "Speaker 2",
+          "content": "It gets to where it doesn't when you're not just turning. You're going straight, and it doesn't."
+        },
+        {
+          "start_time": 2172640,
+          "end_time": 2174960,
+          "speaker": "Speaker 5",
+          "content": "Yeah. You accelerating, does it?"
+        },
+        {
+          "start_time": 2174960,
+          "end_time": 2198430,
+          "speaker": "Speaker 8",
+          "content": "Yeah. Well, my car is 2022, 14, 000 miles on it. You know, like I said, I noticed it. So, but anyway, you know, there needs to be a way that we can introduce it to the customer, saying, \" Hey, next time, you know, I'd like to take a look at something.\" Yeah,"
+        },
+        {
+          "start_time": 2198430,
+          "end_time": 2217470,
+          "speaker": "Speaker 2",
+          "content": "I mean, the buyers have been pretty good about trying to catch them, you know, and tell the customer, \" Hey, look, we got this feel. We just catch it back in with a complaint, you know, or if they catch it and drive for the customer, we sort of, we note it on that on the road and do it then.\" Yeah, we do try to catch a lot of them. We haven't in the past few months because we did fluid, but now we're starting to fluid."
+        },
+        {
+          "start_time": 2217470,
+          "end_time": 2223710,
+          "speaker": "Speaker 1",
+          "content": "Again. Have we got transmission fluid?"
+        },
+        {
+          "start_time": 2223710,
+          "end_time": 2227070,
+          "speaker": "Speaker 6",
+          "content": "Yeah, transmission fluid. That's the differential fluid, which is still immaculate."
+        },
+        {
+          "start_time": 2227070,
+          "end_time": 2231790,
+          "speaker": "Speaker 8",
+          "content": "And you can't substitute any kind of differential."
+        },
+        {
+          "start_time": 2231790,
+          "end_time": 2236980,
+          "speaker": "Speaker 6",
+          "content": "Fluid for it. Nah, I mean it's already causing problems. Whatever they have, so."
+        },
+        {
+          "start_time": 2239430,
+          "end_time": 2251510,
+          "speaker": "Speaker 6",
+          "content": "And we've been pretty fortunate. I mean, the technicians had had an abundance of it, but we've been doing our eye. But I think we're about running out of the extra we had. But it's due in the next week."
+        },
+        {
+          "start_time": 2251510,
+          "end_time": 2265430,
+          "speaker": "Speaker 7",
+          "content": "Or so. Anything else."
+        },
+        {
+          "start_time": 2265430,
+          "end_time": 2266650,
+          "speaker": "Speaker 1",
+          "content": "For service?"
+        },
+        {
+          "start_time": 2281800,
+          "end_time": 2287080,
+          "speaker": "Speaker 7",
+          "content": "I Don't really have anything else. I mean."
+        },
+        {
+          "start_time": 2287080,
+          "end_time": 2312790,
+          "speaker": "Speaker 8",
+          "content": "You, Lance, the reports that you have, and I think I looked at it. You sent it to me the other day, and. It shows you all the salespeople and amount of people they spoke with on the phone or in person or whatever, and it shows you their closing ratio. And do these managers have that information? Do y'all look at that?"
+        },
+        {
+          "start_time": 2312790,
+          "end_time": 2317110,
+          "speaker": "Speaker 5",
+          "content": "Yeah. What's only been coming out for couple weeks? Yeah, yeah."
+        },
+        {
+          "start_time": 2317110,
+          "end_time": 2326250,
+          "speaker": "Speaker 8",
+          "content": "Weeks. Because and does it it does it list the customers that they spoke with with the contact information?"
+        },
+        {
+          "start_time": 2326250,
+          "end_time": 2329450,
+          "speaker": "Lance",
+          "content": "Not right now. I mean, it it could. I mean, but that's just that's just."
+        },
+        {
+          "start_time": 2329450,
+          "end_time": 2352090,
+          "speaker": "Speaker 8",
+          "content": "Because all the things I'm going to be asking that. Say say if I'm if I'm a sales manager and I'm looking at say Jack, Jack's had, you know, four emails, two telephone calls, three ups or whatever. He's closed like two ups or whatever. How do I how do I work with Jack, on the phone calls and on the the email? I mean, you know what I'm saying? How does a manager?"
+        },
+        {
+          "start_time": 2352090,
+          "end_time": 2374220,
+          "speaker": "Lance",
+          "content": "I mean, that would be something that typically you just do. Is that's being done in Ben. You know, click on all the Jacks opportunities, and that's usually where you would do that. I mean, it's something that that system has all that data. I just wasn't putting it in there. If you wanted it in there, I could put it. You know, if you kind of wanted to use it like almost like a save a deal kind of thing."
+        },
+        {
+          "start_time": 2374220,
+          "end_time": 2375340,
+          "speaker": "Speaker 8",
+          "content": "Yeah, that's what I'm saying."
+        },
+        {
+          "start_time": 2375340,
+          "end_time": 2396800,
+          "speaker": "Lance",
+          "content": "Yeah, right. Right now, to acquire does a lot of that. So acquire, which you know, when you were asking about the other day. I didn't send you that. I just sent you the GM Weekly stuff. But the Acquire has all of the leads, AFS, regular leads, service traffic, all that shit. So I mean, I don't know if that's what you wanted. I could I could do it."
+        },
+        {
+          "start_time": 2396800,
+          "end_time": 2398320,
+          "speaker": "Speaker 8",
+          "content": "Yeah, dude. If you could,"
+        },
+        {
+          "start_time": 2398320,
+          "end_time": 2418480,
+          "speaker": "Lance",
+          "content": "You know, almost make it like a like a Save a Deal dashboard. Yeah, I could add that. Might take a little bit, but I could do it. Seriously. Yeah, because Acquire right now is cool as shit, but. This store is a little bit redundant because you you know if you're using Mastermind, you've got a lot of the same data,"
+        },
+        {
+          "start_time": 2418480,
+          "end_time": 2423760,
+          "speaker": "Speaker 1",
+          "content": "But oh, we use Mastermind every day. Mastermind is use. Yeah. Mastermind is our best tool."
+        },
+        {
+          "start_time": 2423760,
+          "end_time": 2425440,
+          "speaker": "Lance",
+          "content": "Yeah, we use the hell out of it."
+        },
+        {
+          "start_time": 2425440,
+          "end_time": 2446410,
+          "speaker": "Speaker 1",
+          "content": "Our best ROI that we have. You know, his tool here, I'll be honest, does just about everything that Mastermind does. The reason you got Keith Mastermind is there is insane. Got money, money tied to it, yeah. Not a lot, but there was a little bit of money on customers tied to Mastermind. So."
+        },
+        {
+          "start_time": 2446410,
+          "end_time": 2462570,
+          "speaker": "Lance",
+          "content": "Yeah, I mean that was built because, like, BMW doesn't have Mastermind, you know, so they asked for a lot of those things specifically. But then I built it, kind of just built it out for all three stores. But yeah,"
+        },
+        {
+          "start_time": 2462570,
+          "end_time": 2475530,
+          "speaker": "Speaker 1",
+          "content": "We might want to check over the next three months and see how much money that we've cashed in on Mastermind. And see if it's worth it, because you spend five thousand dollars a month roughly from Mastermind. This does give you."
+        },
+        {
+          "start_time": 2475530,
+          "end_time": 2491290,
+          "speaker": "Lance",
+          "content": "Yeah, and this is what the funny thing too is. This is kind of the same thing, and it's also kind of in beta. So if you sat down and said, \" Shit, we're gonna we're gonna get rid of Mastermind,\" can you add this, this, and this? I could probably add it. Yeah, you know. So if that was ever on the table, just let me know."
+        },
+        {
+          "start_time": 2491290,
+          "end_time": 2505620,
+          "speaker": "Speaker 5",
+          "content": "Is I mean I know the money is trending down on Mastermind, but are they actually? I mean I know we're seeing. A lot less money, but is that what's happening? Like less and less until they just do away with money back. Oh yeah,"
+        },
+        {
+          "start_time": 2505620,
+          "end_time": 2533450,
+          "speaker": "Speaker 1",
+          "content": "Probably so. Like for example, last month, last month you did two custom, you did two custom offers last month off of Mastermind. Like so, Mastermind probably didn't pay for itself last month. The month before that, though, you did, you did quite a few. Yeah, because guys, because what you had is you had incentives that hadn't expired yet, and, Yeah, because you have ninety days, free ninety days. So, but this new batch of incentives for this quarter, there's not much."
+        },
+        {
+          "start_time": 2533450,
+          "end_time": 2538970,
+          "speaker": "Speaker 3",
+          "content": "You did have a couple people come in with mailers last month that were close to as well."
+        },
+        {
+          "start_time": 2538970,
+          "end_time": 2545610,
+          "speaker": "Lance",
+          "content": "Yeah, the mailers, I mean, to me, is valuable. You know, because the email and the mail, right? So, yeah,"
+        },
+        {
+          "start_time": 2545610,
+          "end_time": 2549370,
+          "speaker": "Speaker 1",
+          "content": "That little bit of they'll get a mailer even if they don't have a custom offer."
+        },
+        {
+          "start_time": 2549370,
+          "end_time": 2554370,
+          "speaker": "Lance",
+          "content": "Yeah. And it's kind of like an upgrade offer almost. It's like, hey, we've got this."
+        },
+        {
+          "start_time": 2554940,
+          "end_time": 2560780,
+          "speaker": "Speaker 1",
+          "content": "Yeah, Yeah. It's more along the lines of, hey, you can you can get on your card into another one for a hundred dollars more month."
+        },
+        {
+          "start_time": 2560780,
+          "end_time": 2570300,
+          "speaker": "Lance",
+          "content": "Is it engaging service, like specifically, like service customers? Yes, it does that. Yeah, yeah, because that's if if it, you know, that's something that's valuable,"
+        },
+        {
+          "start_time": 2570300,
+          "end_time": 2581820,
+          "speaker": "Speaker 1",
+          "content": "For sure. No, it's a good system. Yeah, just the custom offers has is doing a pretty good."
+        },
+        {
+          "start_time": 2586160,
+          "end_time": 2598960,
+          "speaker": "Speaker 5",
+          "content": "Cause it used to be like once people are in the sweet spot of a brand past the two - year - old car, it was like everybody's got money back. Yeah, and now it seems like it's especially with the loyalty stuff coming out."
+        },
+        {
+          "start_time": 2598960,
+          "end_time": 2601760,
+          "speaker": "Speaker 3",
+          "content": "Yeah, I mean, it's we've had them, but they're there."
+        },
+        {
+          "start_time": 2601760,
+          "end_time": 2608400,
+          "speaker": "Speaker 5",
+          "content": "It's not all of them. And maybe that's why. Maybe they're just because that's Audi that's putting that shit in, correct?"
+        },
+        {
+          "start_time": 2608400,
+          "end_time": 2610080,
+          "speaker": "Speaker 3",
+          "content": "They do. Yeah, it is."
+        },
+        {
+          "start_time": 2610080,
+          "end_time": 2617500,
+          "speaker": "Speaker 5",
+          "content": "So they maybe are just doing away with the loyal. They're doing loyalty instead of. Participating with Mastermind."
+        },
+        {
+          "start_time": 2617500,
+          "end_time": 2626060,
+          "speaker": "Speaker 1",
+          "content": "Yeah, and warranty's done really well for us, really well."
+        },
+        {
+          "start_time": 2626060,
+          "end_time": 2641260,
+          "speaker": "Speaker 3",
+          "content": "Yeah. When you talk about service, do you think we don't toe the line like other dealerships do on this warranty stuff, or do you think every? Because don't we?"
+        },
+        {
+          "start_time": 2641260,
+          "end_time": 2646930,
+          "speaker": "Speaker 1",
+          "content": "Yeah, no, no, no. I think we we. Operating too cautiously on service,"
+        },
+        {
+          "start_time": 2646930,
+          "end_time": 2650210,
+          "speaker": "Speaker 3",
+          "content": "Because that's probably why we're falling behind on warranty claims, right? Like,"
+        },
+        {
+          "start_time": 2650210,
+          "end_time": 2653330,
+          "speaker": "Speaker 1",
+          "content": "Don't our warranty claims weren't that bad this month,"
+        },
+        {
+          "start_time": 2653330,
+          "end_time": 2658130,
+          "speaker": "Speaker 3",
+          "content": "But like in general, in comparison to the average, we're a lot lower on. To the average dealer, yes,"
+        },
+        {
+          "start_time": 2658130,
+          "end_time": 2672710,
+          "speaker": "Speaker 1",
+          "content": "We're lower on warranty claims. We're the one thing that's been trending up for us has been has been hours per hour, so over the last couple of months, that's been I mean we're up a quarter. Well,"
+        },
+        {
+          "start_time": 2672710,
+          "end_time": 2677590,
+          "speaker": "Speaker 3",
+          "content": "I'm just talking about like they sit here and say they can't do it, but it seems like everybody else is doing it. Is my point?"
+        },
+        {
+          "start_time": 2677590,
+          "end_time": 2685670,
+          "speaker": "Speaker 1",
+          "content": "Well, well, they're not supposed. It's not you can't do it. You're not supposed to do it. No, I definitely think on the diff. I think we've missed about all that."
+        },
+        {
+          "start_time": 2685670,
+          "end_time": 2699270,
+          "speaker": "Speaker 5",
+          "content": "I do. I'm I'm in agreement on that. But you you need to look in further to what they're saying because I've talked to all the service riders and I've talked to a high majority of the technicians. They don't want to do that work. Like,"
+        },
+        {
+          "start_time": 2699270,
+          "end_time": 2719520,
+          "speaker": "Speaker 3",
+          "content": "Why would they have not quoted it on physical? Like he just bought us a car. Yeah. So why didn't they quote? So they're they're. I see them quote twenty thousand dollars on customer pay all the time. I'm a different customer. I know, but it should be quoted on yours. Like, hey, have you noticed this?"
+        },
+        {
+          "start_time": 2719520,
+          "end_time": 2729610,
+          "speaker": "Speaker 5",
+          "content": "Well, they said that, and this is what Ben told me. They don't want to quote the diff problem after it's out of warranty, but. Yeah,"
+        },
+        {
+          "start_time": 2729610,
+          "end_time": 2731930,
+          "speaker": "Speaker 1",
+          "content": "Because now because they've floated to me before,"
+        },
+        {
+          "start_time": 2731930,
+          "end_time": 2778770,
+          "speaker": "Speaker 5",
+          "content": "Correct? Which is exactly what the fuck they should be asking, because they're right. Because how pissed would you be if they said, \" Hey, this issue's been going on since you were in warranty. Now that you're out of warranty, it's six hundred dollars to see if we can fix it. If not, it'll be twenty - six hundred dollars.\" You'd be pissed, right? So, but I'm catching all of these, so it's becoming my issue, and I've I've definitely. I mean, I tell you every time. I think I almost made you drive one because it was that fucking bad. But I know, like, they're inside a warranty, outside a warranty, it doesn't matter. But I just feel like it's got. I mean, if I drove a car for four or five years and it felt like that, I would not buy another."
+        },
+        {
+          "start_time": 2778770,
+          "end_time": 2817900,
+          "speaker": "Speaker 8",
+          "content": "One. And you know, this is the crazy thing, is dude. This, like I said, this is something that has to be discussed with the manufacturer. Like, because they should be interested in fixing it for the customer for their loyalty. We should be interested in fixing it for the customer for our loyalty. But if you look at manufacturers, and a lot of them, I mean, they really don't look at the long term of of what it could cost. You know what I'm saying? But dude, I think I think if if I'm a dealership that sells a customer a car, and that customer has an issue on the car but hasn't complained about it."
+        },
+        {
+          "start_time": 2818640,
+          "end_time": 2839920,
+          "speaker": "Speaker 8",
+          "content": "I should be able to notify them without being reprimanded in some way. You know what I'm saying? I mean, a fucking service advisor is someone who advises a customer about the issue they have, whether it's customer pay or whether it's under warranty. And just because the customer is being complained about it when it's under warranty, but you noticed it, you should be able to take care of it for the customer."
+        },
+        {
+          "start_time": 2839920,
+          "end_time": 2840320,
+          "speaker": "Speaker 5",
+          "content": "Yeah,"
+        },
+        {
+          "start_time": 2840320,
+          "end_time": 2846220,
+          "speaker": "Speaker 8",
+          "content": "That's smart one. And that's why I think with those guys, I mean, I would love, I'll discuss it with them because, I mean."
+        },
+        {
+          "start_time": 2847860,
+          "end_time": 2858180,
+          "speaker": "Speaker 8",
+          "content": "It's an issue. I mean, it's an issue. It's an issue. It's an issue like like the motor mounts. If you're if there's a leaking motor mount because there's fluid inside, there's a defective motor."
+        },
+        {
+          "start_time": 2858180,
+          "end_time": 2859620,
+          "speaker": "Speaker 1",
+          "content": "Which used to be covered."
+        },
+        {
+          "start_time": 2859620,
+          "end_time": 2860260,
+          "speaker": "Speaker 8",
+          "content": "Yeah,"
+        },
+        {
+          "start_time": 2860260,
+          "end_time": 2863380,
+          "speaker": "Speaker 1",
+          "content": "Used to be covered."
+        },
+        {
+          "start_time": 2863380,
+          "end_time": 2896340,
+          "speaker": "Speaker 8",
+          "content": "No longer covered. So, but but our service department is being instructed by the manufacturer not to do certain things, and then if your your rate, Exceeds the other one, they throw a flag and they want to come in and look and see if you are soliciting and if you are soliciting or with a consider soliciting, they will penalize you by taking money back. But it's not the right thing to do. It's almost like it's almost like you got to call LMBC and get them involved and say, hey,"
+        },
+        {
+          "start_time": 2896340,
+          "end_time": 2906530,
+          "speaker": "Speaker 5",
+          "content": "What do you think this one? Well, I mean, I also feel like too we don't have service advisors diving deep into the customer's experience with a car."
+        },
+        {
+          "start_time": 2907000,
+          "end_time": 2908120,
+          "speaker": "Lance",
+          "content": "Yeah,"
+        },
+        {
+          "start_time": 2908120,
+          "end_time": 2955530,
+          "speaker": "Speaker 5",
+          "content": "We have a we have a customer coming in and they go, okay, okay, just maintenance. Okay, let me write it up. We're not saying like, how's the car feel when we drive. You know, I mean, like, there's probably ways to pull out this. They know it. I promise you. You go drive the Q5 that I just took in on trade. You go drive it. There's no fucking way you wouldn't come in and say, is this? Is there not something wrong with this? But like, I don't know if everything's through text or over the phone, or maybe they're not even communicating that much with the customer prior to writing up a ticket, and then they say, \" Oh, well, I don't have.\" They didn't say this. Like, did you try to drill into the issue, like how their experience is? I mean, I don't know. There's just got to be more to it,"
+        },
+        {
+          "start_time": 2955530,
+          "end_time": 2991070,
+          "speaker": "Speaker 8",
+          "content": "And it's almost \u2014 it's almost like you have to say, \" Hey, look.\" We have a special on tire balancing or some shit like that. Are you noticing any vibration? Was it on? Yeah. And once they say, you know, that might be a little vibration, then you write the shit down on the repair order, and then you know, you take it a quick run. It's not the balancing the tires, it's the differential, and now you're covered. But I mean, it's almost like you do have to say, hey, look, have you noticed anything different about your car? Any vibration? Yeah."
+        },
+        {
+          "start_time": 2993970,
+          "end_time": 3017410,
+          "speaker": "Speaker 5",
+          "content": "Make them drive with the car. Wall card, like what was that? Wall the car. And the customer says, \" Yeah, that was weird.\" You don't want to quote a customer, or else I don't want to do this. So, but that's when it gets progressively worse, and that's when they're in a situation where then they are saying, \" Like I've been doing this for a long time. I've had the conversation with customers.\" But I."
+        },
+        {
+          "start_time": 3017410,
+          "end_time": 3032970,
+          "speaker": "Speaker 3",
+          "content": "Still don't understand why we're scared to quote it out of warranty. We quote all the other shit out of warranty. Like what is it? What they're gonna say is what is it happening? I don't believe that nobody's coming in saying this shit isn't driving right. I think I believe that."
+        },
+        {
+          "start_time": 3032970,
+          "end_time": 3040010,
+          "speaker": "Speaker 1",
+          "content": "Oh, I think if a customer comes in and this is not driving right, I think they'll do it without a doubt. And how does everyone we get our hands."
+        },
+        {
+          "start_time": 3040010,
+          "end_time": 3053370,
+          "speaker": "Speaker 8",
+          "content": "On have the issue? But you know what? I mean, but I think we're more sensitive to knowing what we're talking about and thinking feeling because. This is a gradual thing, yeah. My wife, my wife, been driving cars, and she ain't complained about it."
+        },
+        {
+          "start_time": 3053370,
+          "end_time": 3062010,
+          "speaker": "Speaker 5",
+          "content": "I mean, go talk to Nick. He'll say we don't quote it because it takes three hours to do, and it only pays three hours or two and a half or whatever fuck it is."
+        },
+        {
+          "start_time": 3062010,
+          "end_time": 3071530,
+          "speaker": "Speaker 8",
+          "content": "Under warranty? Yeah. Well, that yeah. That's so they don't they don't want fuck with it because it takes a long time to do. I'm actually. And it takes up multiple times."
+        },
+        {
+          "start_time": 3071530,
+          "end_time": 3072730,
+          "speaker": "Speaker 1",
+          "content": "And Ryan says it's not the case."
+        },
+        {
+          "start_time": 3072730,
+          "end_time": 3074330,
+          "speaker": "Speaker 5",
+          "content": "I mean, you think Ryan said it?"
+        },
+        {
+          "start_time": 3074330,
+          "end_time": 3077580,
+          "speaker": "Speaker 1",
+          "content": "Ryan said it's a good paying job for what it is."
+        },
+        {
+          "start_time": 3077580,
+          "end_time": 3085020,
+          "speaker": "Speaker 5",
+          "content": "I just don't think they would be honest with you. Because all they gotta do is. Why would they tell you? Yeah, we fucking skip it because we don't want to do the work because it's too much work."
+        },
+        {
+          "start_time": 3085020,
+          "end_time": 3086860,
+          "speaker": "Speaker 8",
+          "content": "But are we just draining the shit?"
+        },
+        {
+          "start_time": 3086860,
+          "end_time": 3088140,
+          "speaker": "Speaker 5",
+          "content": "Yeah, Ryan."
+        },
+        {
+          "start_time": 3088140,
+          "end_time": 3089980,
+          "speaker": "Speaker 1",
+          "content": "Ryan says it's it's actually great work."
+        },
+        {
+          "start_time": 3089980,
+          "end_time": 3092460,
+          "speaker": "Speaker 5",
+          "content": "Then they then they'll be finding a way to do it."
+        },
+        {
+          "start_time": 3092460,
+          "end_time": 3096620,
+          "speaker": "Speaker 1",
+          "content": "Well, if they hate it so much, why do they quote it to you? They don't a lot of times."
+        },
+        {
+          "start_time": 3096620,
+          "end_time": 3100860,
+          "speaker": "Speaker 5",
+          "content": "Really? They don't. It's me fucking saying it's a problem. I can't sell it."
+        },
+        {
+          "start_time": 3100860,
+          "end_time": 3127360,
+          "speaker": "Speaker 3",
+          "content": "There's plenty of people you're saying I'm a service. So I want to price a car, right? I would get Taylor to drive it, and he'd be like, \" Yeah, this is it.\" It would go get PDI or UCI, and guess what didn't get mentioned. It felt like you were riding a bull when you turned the car. You couldn't pull it into the bay without feeling it, but it wouldn't get quoted, and then it would go back and fix once it came out not get quoted."
+        },
+        {
+          "start_time": 3127360,
+          "end_time": 3134690,
+          "speaker": "Speaker 5",
+          "content": "And then, what do you think happens the first time someone test drives it? The customer comes back and's like, there's something wrong with the transmission."
+        },
+        {
+          "start_time": 3134690,
+          "end_time": 3164140,
+          "speaker": "Speaker 3",
+          "content": "Because whenever, whenever the issue first became prominent, I would ask Taylor because I didn't know exactly how much the fix was going to be. So I knew we needed to know how much to deduct off the appraisal. It would go get UCI, come out of UCI. Nobody mentioned it. Nobody fixed it. It get put on the lot doing the same exact thing. Has been any situations? Well, I mean, probably not. Probably not. I don't know if that's in the two hundred and fifty or not, but probably not. But you couldn't drive it into the shop without feeling it."
+        },
+        {
+          "start_time": 3164140,
+          "end_time": 3165260,
+          "speaker": "Speaker 1",
+          "content": "Yeah, I mean, I mean,"
+        },
+        {
+          "start_time": 3165260,
+          "end_time": 3167740,
+          "speaker": "Speaker 3",
+          "content": "On on on particular ones, yeah."
+        },
+        {
+          "start_time": 3167740,
+          "end_time": 3180460,
+          "speaker": "Speaker 1",
+          "content": "The technician should definitely, yeah, should definitely note that. Has it been in situations where where draining hasn't fixed it, or has it pretty much always fixed it?"
+        },
+        {
+          "start_time": 3180460,
+          "end_time": 3195810,
+          "speaker": "Speaker 5",
+          "content": "No, I mean, the the text will say it never works, but I haven't had. I've had some bad ones that have been drained, and it seems I feel like it worked way better. Like I mean, maybe it's not completely removed, but the problem is,"
+        },
+        {
+          "start_time": 3195810,
+          "end_time": 3198690,
+          "speaker": "Speaker 1",
+          "content": "It takes three hundred miles before it's full effect."
+        },
+        {
+          "start_time": 3198690,
+          "end_time": 3242940,
+          "speaker": "Speaker 5",
+          "content": "Yeah, but I think almost immediately, you do get some kind of relief immediately. Yeah, but again, you don't. I mean, like I put this one through the shop Friday because I know it has to be in a customer name where they're not going to pay for it, even though it's. A thousand miles over warranty. I am not paying for that. I don't give a fuck how it, how who pays for it, but it's not coming out of that used car department because that shit should have been quoted on the warranty. Warranty should have paid for it, and if warranty's not going to pay for it because we didn't want to quote it to a customer in warranty, then they can pay for it. But that's like, it's so stupid. They should have just fucking asked the customer questions or find a way to make the shit."
+        },
+        {
+          "start_time": 3243340,
+          "end_time": 3258220,
+          "speaker": "Speaker 5",
+          "content": "And I know that that's bullshit because we can't be doing hardly any of them inside a warranty, and it wasn't because we just ran out of different. No, that's so recent, probably. Yeah, I mean, this fucking thing going on for how long? Yeah, it's just it's."
+        },
+        {
+          "start_time": 3258220,
+          "end_time": 3259020,
+          "speaker": "Speaker 8",
+          "content": "So, do they goodwill."
+        },
+        {
+          "start_time": 3259020,
+          "end_time": 3263260,
+          "speaker": "Speaker 5",
+          "content": "It or what? I guess we're gonna find out."
+        },
+        {
+          "start_time": 3263260,
+          "end_time": 3271780,
+          "speaker": "Speaker 3",
+          "content": "Oh, what's it cost? Yeah, yeah, six hundred dollars. Yeah, that's that's an easy goodwill."
+        },
+        {
+          "start_time": 3273850,
+          "end_time": 3288490,
+          "speaker": "Speaker 5",
+          "content": "But it's six hundred dollars if it doesn't work, and especially once a customer knows about it, if they still now they're more intensive to it. If it doesn't work, then it needs a fucking differential. So think about selling it on my end if it."
+        },
+        {
+          "start_time": 3288490,
+          "end_time": 3289450,
+          "speaker": "Lance",
+          "content": "The longer it goes,"
+        },
+        {
+          "start_time": 3289450,
+          "end_time": 3297690,
+          "speaker": "Speaker 5",
+          "content": "The longer you've already done it. Yeah, yeah. But it's just like these are these are fifty thousand mile Q5s."
+        },
+        {
+          "start_time": 3297690,
+          "end_time": 3308360,
+          "speaker": "Speaker 8",
+          "content": "This shit, y'all are experiencing nothing different than doesn't have it at all dealerships. All manufactured exactly the same. We just got to figure out how to be able to get them to pay for it, not us."
+        },
+        {
+          "start_time": 3308360,
+          "end_time": 3321160,
+          "speaker": "Speaker 1",
+          "content": "I will tell you, we do the little bit of internal. We do is this is nothing. You know, we did. We did eight thousand dollars last. So what is that?"
+        },
+        {
+          "start_time": 3321160,
+          "end_time": 3327600,
+          "speaker": "Speaker 3",
+          "content": "Why you? Why are you saying that? Because there's a service issue, right? Yes, I mean it's."
+        },
+        {
+          "start_time": 3330920,
+          "end_time": 3348760,
+          "speaker": "Speaker 3",
+          "content": "It's like you don't get it, dude. It's like you don't understand the frustration. No, you don't. I understand because you should have told them when they were in here that that that you that you would disagree with what they were saying. But you let them go, and then you play both sides. With what? What do I disagree with? With the whole differential thing, right? Well, you say you agree with each other."
+        },
+        {
+          "start_time": 3348760,
+          "end_time": 3353320,
+          "speaker": "Speaker 1",
+          "content": "I understand. I understand both sides because I understand you can't you can't upset a lot of warranty."
+        },
+        {
+          "start_time": 3353320,
+          "end_time": 3387540,
+          "speaker": "Speaker 5",
+          "content": "But that becomes a customer retention problem, which we have to have an issue with. Because I look at a ton of tickets that are fucking six, eight, ten thousand dollar tickets every day, saying, \"Hey, this customer doesn't want to pay this. Give me a trade-in number.\" And I just know these motherfuckers are going somewhere else and buying a car. So, I, I, it's like, it's like kicking us while we're down because we're jamming people up, hoping that they do all this lot of shit."
+        },
+        {
+          "start_time": 3388250,
+          "end_time": 3393210,
+          "speaker": "Speaker 5",
+          "content": "And we're not doing it correctly, so then the customer's just leaving with broken part."
+        },
+        {
+          "start_time": 3393210,
+          "end_time": 3442500,
+          "speaker": "Speaker 8",
+          "content": "Look, I'm not saying they have their hands completely tied, because like I think, I do think they couldn't be a little bit more interviewing. Sure, but manufacturers do not want you to solicit, and what I mean by that is that they don't want you to to do some shit the customer's really not complaining about. We have to do a better interview, and you\u2014you mentioned it. Hey, look, why don't we do this? Why don't we interview them? We do have to do that. I think it's very important when we give the manufacturers here. We tell them the frustration and and ask them how should we be handling this shift because we don't think it's our problem to be paying for this when it's your problem that you created, and it's not the customer's problem they didn't create. So it's either us paying for it or it's the customer paying for it."
+        },
+        {
+          "start_time": 3442580,
+          "end_time": 3449540,
+          "speaker": "Speaker 8",
+          "content": "Y'all need to be paying for it. So how do we go about doing this? What is your recommendation to us? You know what I'm saying?"
+        },
+        {
+          "start_time": 3449540,
+          "end_time": 3469860,
+          "speaker": "Speaker 5",
+          "content": "Well, no, I totally agree with you. But what has been done in the past to to fix these kind of? We have a fucking Q5 that's been in service for a year and a half that we still own. If I if I'm correct, like that they haven't bought back, that they have no intention of giving us money towards. That's just fucked up, and they can't fix it. They don't know how to fix it."
+        },
+        {
+          "start_time": 3469860,
+          "end_time": 3473560,
+          "speaker": "Speaker 8",
+          "content": "What's going on with it? It's just this is the Q5. There's another module."
+        },
+        {
+          "start_time": 3473560,
+          "end_time": 3497400,
+          "speaker": "Speaker 5",
+          "content": "Coming in, supposed to be here in the next week. But how are these conversations not? We kiss these people's ass when they come down for a fucking meet and greet, and everything's like hunky-dory. But we have like actual major issues that like that it should be fucking resolved, and they just push it off, and they want to come talk about numbers and shit. Let's talk about the actual."
+        },
+        {
+          "start_time": 3497400,
+          "end_time": 3519990,
+          "speaker": "Speaker 8",
+          "content": "I'm with you 100. Yeah. When they come in, do you like? I mean. I'll be here when they come in. Y'all be here when they come in. Hendrick Street. Let's talk to them about it. You know what I'm saying? Because it is a problem. That's a problem. This differential shit is a problem. There should be a recall or there should be some service bulletin that comes out and says, \" Hey, we've got this issue. We're going to take control of it."
+        },
+        {
+          "start_time": 3519990,
+          "end_time": 3523430,
+          "speaker": "Speaker 1",
+          "content": "We want to fix it.\" Bring your car in and do the yeah,"
+        },
+        {
+          "start_time": 3523430,
+          "end_time": 3558290,
+          "speaker": "Speaker 8",
+          "content": "And inspect it. And if it's got it, we fix it. But yeah, dude. I mean, it's a conversation we have to have with the manufacturer. It's but we. It's not like we can go back backwards. We got to go forward. You know what I mean? Because I mean, it's it's their it's their view that this is how they want to handle it. We got to get that view to where we got to look out for the customer and look out for the dealership, so we're not absorbing these fees. But when they come, yeah, dude, I will be happy to discuss it. I think you should be there. You should be there. Hendrick should be there, and let's talk to them."
+        },
+        {
+          "start_time": 3562230,
+          "end_time": 3574790,
+          "speaker": "Speaker 8",
+          "content": "When do they come? I mean, so we got sales coming on twenty seven, and when in sales? That's not that's not Terrence or anything. That's just sales. Just just sales. And Terrence comes when once a month,"
+        },
+        {
+          "start_time": 3574790,
+          "end_time": 3580390,
+          "speaker": "Speaker 1",
+          "content": "And so so probably I would imagine November or November."
+        },
+        {
+          "start_time": 3580390,
+          "end_time": 3618120,
+          "speaker": "Speaker 8",
+          "content": "Coming in the summer. Can we just can we email a dude and say, hey, when are you coming back? We got some we got some issues we want to discuss. When when are you coming back? You know what I'm saying? Just figure out where he's coming from. I think it's something we need to discuss. I mean, because, like I said, it's something they should be paying for, and not the customer, and not us. And we want to we want to we will we want to look we want to look at getting it resolved. So because it is a problem, and they know it's a problem, they're just going to be something some somewhere they got to fix it."
+        },
+        {
+          "start_time": 3623770,
+          "end_time": 3681610,
+          "speaker": "Speaker 5",
+          "content": "Yeah, I don't get, I don't, and Chad doesn't get paid to put cars through service and spend a lot of money. So my goal every month will be to look through every, like I'm always done. You should, and I know that in the past it hasn't been that way because you know you've got guys that are just like, yeah, do whatever it says, and it's to the detriment of the department because then it's affecting the salespeople and the sales managers because that's That's what we operate off of. It's that front gross. So, I'm not here to provide for service because I don't work for service. I will work with service, but I'm not trying to line their pockets with money on shit that doesn't need to be done. And if I think that something can be done somewhere else cheaper, I'm going to send it there, because I don't have a trust that I'm getting everything. That this, I I feel like I'm getting jammed up a lot."
+        },
+        {
+          "start_time": 3681610,
+          "end_time": 3739650,
+          "speaker": "Speaker 5",
+          "content": "With overcost on shit that, like I mean, I know we talked about the you know the TPM sensors recently. That was like a five hundred dollar difference in what we charge versus what I actually paid at a Lincoln dealer. So, and I'm not saying it's always like that, but there. Yeah, I'm. I just that's not my goal. Is not to support service. So I'm happy to work with them, and I want to get done. Because God knows I don't have fucking time to go send a car out. It's like I have to deal with all that shit. I have to communicate with the service advisors and create POs and get the car there and get it back and all that shit. It's a lot of extra work to do the same thing twice. But you know, like sometimes it's necessary. I would rather not do that, and I understand that that's not like you know, reality is we want to keep everything in house, but it needs to also."
+        },
+        {
+          "start_time": 3740670,
+          "end_time": 3748750,
+          "speaker": "Speaker 5",
+          "content": "It has to make sense. Sure, it's five hundred dollars. Is five hundred dollars. A thousand dollars is the same. It's. Well, I'm thinking."
+        },
+        {
+          "start_time": 3748750,
+          "end_time": 3750670,
+          "speaker": "Speaker 1",
+          "content": "I don't think you're spending it overabundance on."
+        },
+        {
+          "start_time": 3750670,
+          "end_time": 3788220,
+          "speaker": "Speaker 5",
+          "content": "Refund. Not from what I know, because it's we're wholesaling those cars out. Yeah, because the the money is extreme to fix some of these things. I mean, like to do tire pressure monitor sensors on on a vehicle, and it's costing me a thousand dollars is. That makes it difficult when I didn't know that that was going to be a problem, you know. Like, if I'm adjusting for this thing, for this, but when you say, \" Hey, look, you know, we got a thousand dollars for this, a thousand dollars for that,\" you know, it just adds up quickly, and then it doesn't. Does it make sense to keep a car when you have a very small profit margin."
+        },
+        {
+          "start_time": 3788220,
+          "end_time": 3794060,
+          "speaker": "Speaker 8",
+          "content": "So let me see. So a thousand dollars for for tire pressure monitors."
+        },
+        {
+          "start_time": 3794060,
+          "end_time": 3795400,
+          "speaker": "Speaker 5",
+          "content": "It seems awfully straight."
+        },
+        {
+          "start_time": 3795400,
+          "end_time": 3796440,
+          "speaker": "Speaker 8",
+          "content": "Yeah, because I mean,"
+        },
+        {
+          "start_time": 3796440,
+          "end_time": 3806680,
+          "speaker": "Speaker 5",
+          "content": "It's because they always quote me for four. If they don't know which one it is, they just quote all four. So that's why it gets outsourced to a different to that brand because."
+        },
+        {
+          "start_time": 3806680,
+          "end_time": 3810120,
+          "speaker": "Speaker 1",
+          "content": "But then most of the models tell you which which tire is coming from."
+        },
+        {
+          "start_time": 3810120,
+          "end_time": 3840320,
+          "speaker": "Speaker 5",
+          "content": "I know when the model does tell you, but like our shit doesn't tell you which one is coming from. It tells you just a tire. I mean, some of the high - end stuff has tire pressure monitors for each wheel, but. A lot of them just have that single sensor. When that single light goes off, they say they don't have the scan tools to tell you which one. Or a lot of times it's like a reprogram on the ship. Like they just need to be reprogrammed to the car. But we don't have the scan tools."
+        },
+        {
+          "start_time": 3840320,
+          "end_time": 3844400,
+          "speaker": "Speaker 8",
+          "content": "Is it is that a use tax saying that, or is that?"
+        },
+        {
+          "start_time": 3844400,
+          "end_time": 3851980,
+          "speaker": "Speaker 5",
+          "content": "Well, I mean, you've got different. I mean, you've got different texts that are dealing with cars, so. Do you have a."
+        },
+        {
+          "start_time": 3851980,
+          "end_time": 3853100,
+          "speaker": "Speaker 1",
+          "content": "Tech you trust the most."
+        },
+        {
+          "start_time": 3853100,
+          "end_time": 3908670,
+          "speaker": "Speaker 5",
+          "content": "I mean, no, because it's it's like the the tech that we have right now. I like, but he has gone to. I don't know if it's if it's tailored that coaches on this shit or yells at them for not doing this or what. You know, like there's something that goes on that becomes this negative attitude that then all of a sudden you start getting. Oh, that battery needs to be charged. I need a hundred eighty-nine dollars to plug it in overnight and charge it. Well, like, what the fuck? Like, we don't work together at all at that point. Like, you already have the car in your shop. You already have it in a bay, but you want to charge me to charge it overnight. Like, I can get a porter to plug it in, or I can go do it myself. So, that it's like this weird dynamic that happens, and I don't know if it's Taylor that starts."
+        },
+        {
+          "start_time": 3908670,
+          "end_time": 3916110,
+          "speaker": "Speaker 5",
+          "content": "Bitching at them because they're not getting enough out of me, or whatever. I don't know what it is. Like maybe you can weigh in on it."
+        },
+        {
+          "start_time": 3916110,
+          "end_time": 3963430,
+          "speaker": "Speaker 3",
+          "content": "Yeah, I think that's what it is. And I think like when you look at total amount of that we spend, we're obviously not getting a lot of trades in right now. But when you get a car that's you buy for seventeen to twenty thousand dollars, and you look at the UCI and it's eight hundred here, eleven hundred here, and by the end of it you look at five thousand. And now you're playing like what is it? Minesweeper, where you are trying to pick what you think. There's no communication. It's just like this is what it needs. It's six thousand dollars, so we can say no. We know it's a retail unit. We know it doesn't need that much work, but we have to focus on being good enough to pick the one thing that it actually does need. When you don't trust anything that just quoted, so that's the problem."
+        },
+        {
+          "start_time": 3963430,
+          "end_time": 3979150,
+          "speaker": "Speaker 1",
+          "content": "Do you think? Do you think then that? Do you think then, instead of the car going by, Tech looking at the car, Tech sending it over to Christian? Christian said, \" You think it would be better if Tech just sent the quote directly to you?\" No,"
+        },
+        {
+          "start_time": 3979150,
+          "end_time": 4023670,
+          "speaker": "Speaker 5",
+          "content": "Because that it's it it's it's the head of the snake that's the issue. Because whatever he's wants them doing and quoting, it's like as many times as we can hit our heads against the wall to say like. We want it to be roadworthy. We don't want. Understand that we can't afford to do ten thousand dollars worth of work. Like, tell me what it needs, not what you want it to be, kind of shit. Like, like let's go do a UCI on your fucking your Nissan Armada that you drive that looks like it's falling apart. It would need forty grand worth of work. But like, it's it's just a weird thing. It's like we do."
+        },
+        {
+          "start_time": 4023670,
+          "end_time": 4079160,
+          "speaker": "Speaker 5",
+          "content": "We'll do. We'll say that it'll be better for a little while, and then it starts trickling back, and then you start getting these massive estimates, or like the ones that are just now. And hopefully, this is better. Would we just up up the price of it? But you know, like you get you get four fucking diag fees, and then and then just to be cordial and like none of them were actually a diagnostic. Yeah, none of them were actually a diagnostic. To work with them, I say go ahead and do the two diags on this car, and they prompt me for four thousand dollars worth of shit because they knew I wasn't going to do it. So they're like, let's just do the diag, and then two minutes later, I get the estimate on what it is, and it's a screenshot of something they've already looked at. Yeah, no, I wouldn't do that diag. But that, but that's been happening for a massive amount of time, and it takes a massive amount of my time to go through this shit because I can't just look at it and go."
+        },
+        {
+          "start_time": 4079160,
+          "end_time": 4106640,
+          "speaker": "Speaker 5",
+          "content": "Okay, cool, do that. Okay, cool, do that. You know, like I mean, I take notes when I drive the car. I take notes and I put them in the system. So then when I get an estimate back and it's got like motor mounts, upper control arm bushings for three grand, and it's got all this other shit, I'm like, I don't feel any of this. And you show me like a half-ass, torn up picture in the dark. Like I don't know."
+        },
+        {
+          "start_time": 4109410,
+          "end_time": 4116210,
+          "speaker": "Speaker 5",
+          "content": "And I know it's I know it's like this everywhere. I'm not. I don't want to solve this because on."
+        },
+        {
+          "start_time": 4116210,
+          "end_time": 4119649,
+          "speaker": "Speaker 1",
+          "content": "I mean,"
+        },
+        {
+          "start_time": 4119649,
+          "end_time": 4137700,
+          "speaker": "Speaker 3",
+          "content": "Do you want them to quote everything they find on the car? I'll trust independent shops more than we trust our shop. We want to trust our shop the way we trust independent shops. So that's what we want. So I don't know if it's maybe the behavior of the technicians or their dishonesty. Um. That's what it seems like to me."
+        },
+        {
+          "start_time": 4137700,
+          "end_time": 4142740,
+          "speaker": "Speaker 8",
+          "content": "But who does the average tech that works? And do we have a used car tech?"
+        },
+        {
+          "start_time": 4142740,
+          "end_time": 4150580,
+          "speaker": "Speaker 1",
+          "content": "We do have a used car tech. He also does. He also does work on used cars as well. We also give some work to Nick."
+        },
+        {
+          "start_time": 4150580,
+          "end_time": 4156500,
+          "speaker": "Speaker 5",
+          "content": "And it's supposed to just be Matt and Nick, but I think occasionally, like if they're slow, they give it to others."
+        },
+        {
+          "start_time": 4156500,
+          "end_time": 4183430,
+          "speaker": "Speaker 8",
+          "content": "Yeah. Because, dude, I was wondering if you look at a technician that works for the used car part. I got a used car tech. But he's not on. He's not the guy that's. Yeah, they're still going at it."
+        },
+        {
+          "start_time": 4238770,
+          "end_time": 4239420,
+          "speaker": "Speaker 7",
+          "content": "\u554a\u3002"
+        },
+        {
+          "start_time": 4530280,
+          "end_time": 4541960,
+          "speaker": "Lance",
+          "content": "Strangers Beating down there today. What? I don't hate it. Did it? It's just comical. What they do? I love that show. Just a salesman. It's just all the man. Sales and service \u2014 they, they suck. Do they know."
+        },
+        {
+          "start_time": 4541960,
+          "end_time": 4544200,
+          "speaker": "Speaker 9",
+          "content": "They suck? I don't think so."
+        },
+        {
+          "start_time": 4544200,
+          "end_time": 4557880,
+          "speaker": "Lance",
+          "content": "No, service sucks. They don't really know it. Well, that's not true. I think Taylor knows he sucks. I mean, if we're being completely honest, he knows he doesn't work. He does not come to work to work."
+        },
+        {
+          "start_time": 4560760,
+          "end_time": 4561240,
+          "speaker": "Lance",
+          "content": "Yeah,"
+        },
+        {
+          "start_time": 4561240,
+          "end_time": 4564570,
+          "speaker": "Speaker 7",
+          "content": "He knows he sucks."
+        },
+        {
+          "start_time": 4570430,
+          "end_time": 4593420,
+          "speaker": "Speaker 7",
+          "content": "\u90a3\u4e2a\uff0c\u55ef\u3002"
+        },
+        {
+          "start_time": 4625670,
+          "end_time": 4630230,
+          "speaker": "Lance",
+          "content": "Why? I used to like that part."
+        },
+        {
+          "start_time": 4630230,
+          "end_time": 4640630,
+          "speaker": "Speaker 9",
+          "content": "I'm building them so much, but I guess I don't know enough about the new. Like, have we haven't got many new X5s? You know what I mean? So to see all the different stuff and what they're good at."
+        },
+        {
+          "start_time": 4640630,
+          "end_time": 4645910,
+          "speaker": "Lance",
+          "content": "You're not autistic, like Paul. He was autistic, by the way. That was one of his problems."
+        },
+        {
+          "start_time": 4645910,
+          "end_time": 4649350,
+          "speaker": "Speaker 9",
+          "content": "People usually O. C. D. Yeah, but he was."
+        },
+        {
+          "start_time": 4649350,
+          "end_time": 4652870,
+          "speaker": "Lance",
+          "content": "Very autistic about the knowledge of the cars. It was really funny."
+        },
+        {
+          "start_time": 4652870,
+          "end_time": 4658900,
+          "speaker": "Speaker 9",
+          "content": "Yeah, it's. It's like a mental illness. You can't tell me the paint code, then I'm not."
+        },
+        {
+          "start_time": 4658900,
+          "end_time": 4661140,
+          "speaker": "Lance",
+          "content": "Yeah, go fuck yourself. I don't need to know exactly every."
+        },
+        {
+          "start_time": 4661140,
+          "end_time": 4662420,
+          "speaker": "Speaker 9",
+          "content": "I want to know the codes."
+        },
+        {
+          "start_time": 4662420,
+          "end_time": 4664820,
+          "speaker": "Lance",
+          "content": "I used to know like the most common, like three or four,"
+        },
+        {
+          "start_time": 4664820,
+          "end_time": 4675940,
+          "speaker": "Speaker 9",
+          "content": "Because you know. Yeah. Yeah. But bro. Yeah, I I learned almost all of them when Paul was, which is actually it's actually really nice because you can start. It's so easier to decide."
+        },
+        {
+          "start_time": 4675940,
+          "end_time": 4676820,
+          "speaker": "Lance",
+          "content": "You can just shop the DAR."
+        },
+        {
+          "start_time": 4676820,
+          "end_time": 4678180,
+          "speaker": "Speaker 9",
+          "content": "You can just see."
+        },
+        {
+          "start_time": 4678180,
+          "end_time": 4682570,
+          "speaker": "Lance",
+          "content": "Yeah, no, for sure. When I was selling minis, dude, I was a savant like that for the mini options."
+        },
+        {
+          "start_time": 4682650,
+          "end_time": 4684650,
+          "speaker": "Speaker 9",
+          "content": "I was when I was selling. Yeah."
+        },
+        {
+          "start_time": 4684650,
+          "end_time": 4686090,
+          "speaker": "Speaker 7",
+          "content": "Not many games,"
+        },
+        {
+          "start_time": 4686090,
+          "end_time": 4697210,
+          "speaker": "Lance",
+          "content": "But. But also, no. I didn't used to believe in like printing the whole DAR every day. I used to think that was a comical policy of his. Yeah. It's like really, you need to just down. Let's have it sitting on your desktop. Yeah. Like I used to just always have it downloaded. Yeah."
+        },
+        {
+          "start_time": 4697210,
+          "end_time": 4710570,
+          "speaker": "Speaker 9",
+          "content": "Is Brett here today? Yes, but I think he didn't sleep last night. Oh shit. Oh. Did y'all meet? There was some no meeting. No meeting. Okay. There was some shit going down in service, so we didn't have a meeting. So he's probably still here, but he's probably going to leave."
+        },
+        {
+          "start_time": 4710570,
+          "end_time": 4711910,
+          "speaker": "Lance",
+          "content": "I might go check on him in a minute."
+        },
+        {
+          "start_time": 4712420,
+          "end_time": 4715460,
+          "speaker": "Speaker 7",
+          "content": "Yeah, baby. Are you right? Forty - eight - eight. You want to ask him what."
+        },
+        {
+          "start_time": 4715460,
+          "end_time": 4738290,
+          "speaker": "Speaker 9",
+          "content": "He did? Um. What? Whatever. I mean, I'm. So I. I guess I don't know what the customer's expecting. Are they just expecting the five hundred dollar discount? Maybe they added something to the bill and they know about it. I need to wait and find out. Cause they might be like, Oh yeah, we added this after fact, and they're good with just five hundred. Or I don't know if we're supposed to be matching anymore. Okay. Alright. Price that y'all gave them. Yeah."
+        },
+        {
+          "start_time": 4788540,
+          "end_time": 4801900,
+          "speaker": "Speaker 9",
+          "content": "Did You see them here in person? Oh, I like them. In person? Yeah. Mhm. I'd buy one. Yeah, I think it's cool as shit. I'd say once. I just loved the pictures. I didn't love the stuff I saw online in person."
+        },
+        {
+          "start_time": 4801900,
+          "end_time": 4835350,
+          "speaker": "Lance",
+          "content": "In person is gorgeous. That fucking basically entire dash having the head up is. It's sort of like magic when you sit in it and see it. You're like, \"What the fuck? How did they even do this? It's crazy. It really is, though. Especially when you like just sort of peek your head in the car and you're like, \"What the fuck? You can see that from over here, you know.\" Yeah, it's pretty well ahead of a lot of people. It's funny, but Audi just caught up to."
+        },
+        {
+          "start_time": 4835350,
+          "end_time": 4841110,
+          "speaker": "Lance",
+          "content": "The big wide wraparound screen that we've had in most, like you know, the last version that came out, all the new stuff."
+        },
+        {
+          "start_time": 4841110,
+          "end_time": 4854070,
+          "speaker": "Speaker 9",
+          "content": "Yeah. Next to or behind? They really are. But are they getting new product in? Have they? Are they starting to catch up?"
+        },
+        {
+          "start_time": 4854070,
+          "end_time": 4889160,
+          "speaker": "Lance",
+          "content": "Are they releasing? The new Q5, the new Q3, the new Q7 will be out, and the new Q9. So I think the seven and the nine will be out within like three or four months. Like you know, hopefully by the end of the year, the Q nine will be here. So I don't know. But I have your your new version of the app. I'm just like playing with it, making sure it's updated and make sure all the features that I told the robot to build are in there."
+        },
+        {
+          "start_time": 4895810,
+          "end_time": 4907810,
+          "speaker": "Speaker 9",
+          "content": "Yeah, printed them a list over the weekend of your stuff to work on. Nice. I I want them to be able to go in there and log in and."
+        },
+        {
+          "start_time": 4907810,
+          "end_time": 4916720,
+          "speaker": "Lance",
+          "content": "You use this thing to print new stuff. Mhm. And was the did the print look better?"
+        },
+        {
+          "start_time": 4916720,
+          "end_time": 4925760,
+          "speaker": "Speaker 9",
+          "content": "No, not really, because you have to print like each person is like fucking twelve pages, ten pages, even when I minimized it down to like just this week's. No, I made it really small,"
+        },
+        {
+          "start_time": 4925760,
+          "end_time": 4929040,
+          "speaker": "Lance",
+          "content": "Like the oh. Well, you should be able to just tell it, okay, just print me this week's."
+        },
+        {
+          "start_time": 4929040,
+          "end_time": 4935120,
+          "speaker": "Speaker 9",
+          "content": "You can, but then there wasn't much up there, and a lot of the stuff they already had on it. So, got you. I did the whole thing just to see because."
+        },
+        {
+          "start_time": 4935120,
+          "end_time": 4942000,
+          "speaker": "Lance",
+          "content": "I had it restructure the way it prints. I'll get in there and look and make it. I'll kind of minimize it to where it's like."
+        },
+        {
+          "start_time": 4942000,
+          "end_time": 4944710,
+          "speaker": "Speaker 9",
+          "content": "I'd rather it if it's just a dot. I don't like wasting paper."
+        },
+        {
+          "start_time": 4944710,
+          "end_time": 4987230,
+          "speaker": "Lance",
+          "content": "No, I think it's stupid to have to print them. The dashboard is what's being built. Like that's, that's actually built, and they should all have their own login. And I built it so that I can click in and like emulate everyone to kind of see what they would see. So like we could see what Jason Arsenio would see, which theoretically may not be much. I don't know. You know, he may not have a lot in his thing. Right. Funny dude. Oh yeah, I I like him, dude. I think he's great. He reminds me of my old uncles because he's from Homa. And I got a bunch. I got a bunch of old uncles from Tiverton, and they all have the same accent. Somehow the fucking Cajun accent completely missed me, and it's aggravating. I don't have it at all. Even though like every single one of my aunts and uncles has it."
+        },
+        {
+          "start_time": 4988910,
+          "end_time": 4996040,
+          "speaker": "Lance",
+          "content": "So I ended up with some kind of non - accent, you know, whatever. Fuck, I got that. But yeah, he's fucking hilarious."
+        },
+        {
+          "start_time": 5016490,
+          "end_time": 5018250,
+          "speaker": "Speaker 9",
+          "content": "If only he had more drive."
+        },
+        {
+          "start_time": 5018250,
+          "end_time": 5030090,
+          "speaker": "Lance",
+          "content": "Yeah. Yeah. Does he like have other sources of money? Like, not care that much about making more money. Like, what's his deal? It's like. Cause I think he could sell a lot of cars."
+        },
+        {
+          "start_time": 5030090,
+          "end_time": 5032330,
+          "speaker": "Speaker 7",
+          "content": "I don't care too."
+        },
+        {
+          "start_time": 5066810,
+          "end_time": 5071770,
+          "speaker": "Lance",
+          "content": "He's got that lawnmower just, just chilling right there. Yeah. Why not? Right in the driveway."
+        },
+        {
+          "start_time": 5071770,
+          "end_time": 5091860,
+          "speaker": "Speaker 7",
+          "content": "Yeah. Hmm."
+        },
+        {
+          "start_time": 5098330,
+          "end_time": 5102580,
+          "speaker": "Speaker 7",
+          "content": "Coosas is a lot."
+        },
+        {
+          "start_time": 5121870,
+          "end_time": 5178620,
+          "speaker": "Lance",
+          "content": "Yeah, I want a way for the manager that's looking at that when they click unassigned and they see all those service leads that don't have it assigned or weren't sold by, that they can basically add it to someone's desktop. So then that salesperson can see it on their desktop. That would be awesome. Yeah. I was talking to Marisol. You didn't know that. Yeah. So what it did was it let it. It was thinking that you would just click the send to CRM, which you can. Like if you see a service lead you want somebody to work, you click send to CRM. It'll pop up in there as a new lead, but I think it'll just like when it does that, it'll just I think it'll just round robin because they don't have a sold buy, you know what I mean? Okay. Which is fine. That might be what you want. Just let it round robin to a new car salesperson. Right. But I wanted a way for you to be able to stick it in it so like they can see it in their little acquired dashboard. Okay. So that's what I'm trying to. That's what we're building right now."
+        },
+        {
+          "start_time": 5181640,
+          "end_time": 5183080,
+          "speaker": "Lance",
+          "content": "Yeah, looks like looks like Brett's gone."
+        },
+        {
+          "start_time": 5183080,
+          "end_time": 5186600,
+          "speaker": "Speaker 9",
+          "content": "He might be on service. Yeah, I don't think he's left yet."
+        }
+      ]
+    },
     {
       "id": "of_22440983af9d09479b92c28fd903ffa7",
       "name": "10-02 Marketing Meeting: Q8 Pricing, Website Specials, and Lease Programs",
