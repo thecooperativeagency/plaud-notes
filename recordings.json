@@ -25963,6 +25963,195 @@
           "content": "A week from today, that Saturday, a week from this weekend."
         }
       ]
+    },
+    {
+      "id": "of_0edce870cb915f89b08200ad17bf09e0",
+      "name": "10-05 Reasoning Note: Bridging the \"Smart Pause\" Functionality Gap in AI Sales Assistant",
+      "created_at": "2026-10-05T18:56:08",
+      "start_at": "2026-10-05T18:46:16.404000",
+      "duration_ms": 587000,
+      "vertical": "dealers",
+      "store": "abr",
+      "status": "go",
+      "routed_by": "infer: Gaige VCA smart-pause / Podium parity \u00b7 deep-dive Oct 6",
+      "work_order": "File desk note. Lance: Gaige deep-dive today \u2014 lock smart pause + status triggers; confirm feedback roadmap.",
+      "summary_md": "## Core Synopsis\n\nGaige (Cox/VCA) follow-up after ABR weekly: sales needs **smart pause/resume**, not fixed 1/7-day pauses. Model after Podium \u2014 stop on human contact or status (hot / in contact / showroom scheduled); resume if cold and not sold/lost. Second gap: thumbs up/down feedback on AI replies (Gen AI has it; VCA roadmap TBD).\n\n## Decisions / next\n- Gaige investigating whether \"Disengage when a human contacts\" is indefinite or re-engages; answer before deep-dive.\n- Deep-dive call locked **Oct 6** (process + pause config).\n- Feedback loop: confirm if on VCA roadmap.\n\n## Context\nABR is the loudest rooftop on pause pain. Podium parity path for BH group VCA cutover.\n",
+      "highlights": [
+        {
+          "label": "Smart pause",
+          "text": "Fixed pause durations fail; need status/human-contact pause + cold resume unless sold/lost."
+        },
+        {
+          "label": "Disengage toggle",
+          "text": "Gaige to confirm if 'disengage when human contacts' is indefinite or re-engages."
+        },
+        {
+          "label": "Feedback",
+          "text": "Thumbs up/down on VCA replies = Podium parity lever; Gen AI already has it."
+        },
+        {
+          "label": "Deep dive",
+          "text": "Oct 6 deep-dive call locked to implement process + pause."
+        }
+      ],
+      "transcript": [
+        {
+          "start_time": 8109,
+          "end_time": 9070,
+          "content": "What's up, man? How are you.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 9070,
+          "end_time": 25190,
+          "content": "Good. Hey, I sent you a text. I'm trying to finish up a call. If it runs too long, I'll buy you some extra time here at the end. I got, I got a little bit after this. Yeah, do what you got to do. I'll be here. Give me just a second.",
+          "speaker": "Speaker 2"
+        },
+        {
+          "start_time": 195650,
+          "end_time": 197490,
+          "content": "All right, Brother. I am here.",
+          "speaker": "Speaker 2"
+        },
+        {
+          "start_time": 197490,
+          "end_time": 198530,
+          "content": "All right, how you doing,",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 198530,
+          "end_time": 202290,
+          "content": "Man? Good. How are you? What do we got going on,",
+          "speaker": "Speaker 2"
+        },
+        {
+          "start_time": 202290,
+          "end_time": 251730,
+          "content": "Man? It's nothing real crazy. It's just, and I wanted to do this little quick call just because I think there's probably some real quick solutions we can do to kind of make these people happy. Yeah. Essentially, so what are kind of the typical methods for kind of having a smarter pause, right? So it's like. The issue that my guys are having is, hey, we can hit pause, but it's these little predetermined, like you know, I don't know what it is, one day, seven days, a month, or whatever it is. But what we want to do is kind of have it be smart, so that like, so for Audi, it's the one that came up the most. For Audi, I switched it up so that, oh shit, maybe let me pull it, let me look at it because I can't remember the verbiage. But there's the extra toggle that.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 252810,
+          "end_time": 259209,
+          "content": "You can flip on that. Basically, has the AI just stop messaging if someone starts messaging?",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 259209,
+          "end_time": 261690,
+          "content": "Yep, disengage when a human contacts.",
+          "speaker": "Speaker 2"
+        },
+        {
+          "start_time": 261690,
+          "end_time": 267690,
+          "content": "Yeah. So, is that just indefinite now, or does that reengage at some point? And if so,",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 267690,
+          "end_time": 288670,
+          "content": "What's the trigger? That is a great question because that functionality has changed in recent updates. Okay. So let me because it. So it used to be indefinite. Yeah. But they were trying to find. Obviously, some type of way, you know. So many days. Let me let me get you a final answer on that.",
+          "speaker": "Speaker 2"
+        },
+        {
+          "start_time": 288670,
+          "end_time": 339030,
+          "content": "So the trigger we wanted to try to set up. I have a bunch of notes here because I've recorded my whole conversation with these cats, and they just have a lot to say sometimes. So yeah, what what it is is, and this makes sense to me because this is kind of how I had podium set up. It's hey, let this thing pause if we're in the middle of talking to them, right? And then let's say that they either we either, you know. Open a showroom visit. they visit with us. We sell work a car deal, and we don't sell them a car, right? And so tomorrow and the next day, I would like them to start getting messages again, right? If we're not messaging them and they've gone cold, then why not do follow up? Like with Podium, I had this whole separate little feature. It was just like a follow up procedure where if a person just went cold, and they hadn't been marked sold, it just kept trying to follow up because it's kind of like no harm no foul. It's like.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 339100,
+          "end_time": 394670,
+          "content": "We're not messaging them. The customer's not buying. We haven't marked it lost or bad or sold, and the customer's not saying stop. So it's like just keep trying, like every three days or every four days or whatever. That's kind of, and I kind of thought that some of that could be handled with statuses, right? So like that's what I have in my notes. Is like, can we set up a status so that when it gets like when there's a showroom visit scheduled, we stop. We stop, you know, AI stops messaging them because if we've got an appointment, you know, leave it alone or let it be manual. Let my salespeople go and stick it in a certain status, sold or hot or in contact, and then AI stops. And then when we take it out of that, then it then it kind of takes up the mantle, right, and keeps badgering the customer.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 394670,
+          "end_time": 398220,
+          "content": "I don't know. No, I get a hundred percent where you're coming from,",
+          "speaker": "Speaker 2"
+        },
+        {
+          "start_time": 398220,
+          "end_time": 411660,
+          "content": "And I'm saying a lot because there's like a lot of different ways we could do it. Yeah, it's just the general mood is like, hey, we want it to stop when it shouldn't be bothering the customer, but then also at some point it needs to resume, unless yeah,",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 411660,
+          "end_time": 440530,
+          "content": "If it's not sold or whatever, right? Right, depending on how we have it marked. Yeah, yeah, let me. We continually almost have like weekly little tweaks to this behind the scenes. We have like an open office hours every two weeks that we have to. So let me reach out to one of my VCA. I got some of your questions wrote down. What the best way for us to set it up for you guys would be? Yeah, because I just want to get it right the first time. And even if I mean I'll have an answer today.",
+          "speaker": "Speaker 2"
+        },
+        {
+          "start_time": 440530,
+          "end_time": 463700,
+          "content": "And some of it is is it just, Putting more details in the processes we already have in place, right? You know, I don't know, I don't know. I get lost in some of those things, so it'll be like you and I sit down and looking at, okay, here's the internet process. It's this long, and if it shows, you know, not sold and had a showroom visit, then start back up or whatever. I don't know,",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 463700,
+          "end_time": 487290,
+          "content": "Right? Yep. Let me. I've got a lot of that wrote down. Let me do some deep diving on that this afternoon. Okay. I got a couple calls from like two to three, but then I free up after that. So I'll get on the horn with somebody that I can talk to, and bounce it off of. Maybe even some of our group chats and just see what other people are doing because I'm sure this has come up. And let me just see what's worked and what's not worked to find the best way to set it up for you.",
+          "speaker": "Speaker 2"
+        },
+        {
+          "start_time": 487290,
+          "end_time": 525570,
+          "content": "Exactly. And I mean, look, a lot of these things are going to keep coming up, right? Because I'm sure you guys are pulling people off a podium. We're used to being able to do shit. Yeah. So it's like it's just going to keep coming up. The other thing is like to being able to thumbs up, thumbs down a response, and then actually give feedback. That's like, that's a huge lever. Like when that's enacted, and y'all have that, I think you'll be almost fully caught up with Podium. Okay. But that piece is big because then you're able to, you know, like I've got a Hermes agent that I've had, oh shit, like probably five months now. It's a completely different critter compared to like you know when I first built it. It just yeah, learning.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 526000,
+          "end_time": 537520,
+          "content": "And that's what Podium did. It just kept learning, and so a year or two ago, when we first started it, it was eh. But we've got a billion pieces of feedback in, and it's gotten better, right? So anyway, sweet.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 537520,
+          "end_time": 556660,
+          "content": "And which, yeah. And that may be on your feedback portion, may even be on the roadmap. I'll get an answer on that because we have it on the Gen AI functionality already. Yeah. Where so it. If it, you know, if we already have it on that part of it, it's got to be either in the works or what do we need to do to get it on the VCA side of it?",
+          "speaker": "Speaker 2"
+        },
+        {
+          "start_time": 556660,
+          "end_time": 563380,
+          "content": "Yeah. Okay. Well, I've got us on here again for tomorrow. Are we we still good for that?",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 563380,
+          "end_time": 574420,
+          "content": "Yeah. Tomorrow was more of our deep dive, so hopefully I'll get some answers on this, and then we can look at some of these processes and get some of this stuff in place. I'm glad we had this little short one, so I can kind of get some stuff going before tomorrow.",
+          "speaker": "Speaker 2"
+        },
+        {
+          "start_time": 574420,
+          "end_time": 576110,
+          "content": "Hell yeah! Thank you, man. I appreciate it.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 576820,
+          "end_time": 581220,
+          "content": "Yep. If you need anything, give me a holler. I got notes wrote down, and I'll tackle this this afternoon.",
+          "speaker": "Speaker 2"
+        },
+        {
+          "start_time": 581220,
+          "end_time": 581620,
+          "content": "Will do.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 581620,
+          "end_time": 583810,
+          "content": "Thanks a bunch. No problem. Thanks, Lance.",
+          "speaker": "Speaker 2"
+        }
+      ]
     }
   ]
 }

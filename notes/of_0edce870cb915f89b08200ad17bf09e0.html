@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>10-05 Reasoning Note: Bridging the &quot;Smart Pause&quot; Functionality Gap in AI Sales Assistant</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500&family=IBM+Plex+Mono:wght@400;500&family=Source+Sans+3:wght@400;600;700&display=swap">
+  <style>
+:root {
+  --bg: #090908;
+  --bg-2: #11110f;
+  --bg-3: #181714;
+  --ink: #f0eadc;
+  --muted: #8d8778;
+  --faint: #5c574c;
+  --line: #26241e;
+  --accent: #c4452d;
+  --mustard: #c4a35a;
+  --blue: #6f8fbf;
+  --ok: #7d9a6d;
+  --serif: "Fraunces", "Iowan Old Style", Georgia, serif;
+  --sans: "Source Sans 3", "Source Sans Pro", -apple-system, sans-serif;
+  --mono: "IBM Plex Mono", ui-monospace, monospace;
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html, body { background: var(--bg); color: var(--ink); }
+body {
+  font-family: var(--sans);
+  min-height: 100vh;
+  text-wrap: pretty;
+}
+a { color: inherit; }
+.shell { display: grid; grid-template-columns: 260px 1fr; min-height: 100vh; }
+.rail {
+  border-right: 1px solid var(--line);
+  padding: 28px 18px 40px;
+  background: var(--bg-2);
+  position: sticky; top: 0; height: 100vh; overflow: auto;
+}
+.mark {
+  font-family: var(--serif);
+  font-weight: 500;
+  font-size: 13px;
+  letter-spacing: .18em;
+  text-transform: uppercase;
+  color: var(--accent);
+}
+.rail h1 {
+  font-family: var(--serif);
+  font-size: 28px;
+  font-weight: 460;
+  letter-spacing: -.03em;
+  margin: 10px 0 6px;
+}
+.rail .lede { color: var(--muted); font-size: 13.5px; line-height: 1.45; margin-bottom: 28px; }
+.vnav { display: flex; flex-direction: column; gap: 4px; }
+.vnav a {
+  display: flex; justify-content: space-between; align-items: baseline;
+  text-decoration: none; padding: 9px 10px; border-radius: 8px;
+  color: var(--ink); font-size: 14px;
+}
+.vnav a:hover, .vnav a.is-on { background: var(--bg-3); }
+.vnav a.is-on { box-shadow: inset 2px 0 0 var(--accent); }
+.vnav .count { color: var(--faint); font-family: var(--mono); font-size: 11px; }
+.stage { padding: 36px 40px 80px; max-width: 980px; }
+.kicker {
+  font-size: 11px; letter-spacing: .16em; text-transform: uppercase;
+  color: var(--accent); font-weight: 700; margin-bottom: 8px;
+}
+.stage > h2 {
+  font-family: var(--serif); font-weight: 460; font-size: 34px;
+  letter-spacing: -.03em; margin-bottom: 8px;
+}
+.blurb { color: var(--muted); margin-bottom: 28px; max-width: 46rem; }
+.empty {
+  border: 1px dashed var(--line); border-radius: 14px;
+  padding: 36px 28px; color: var(--muted); background: var(--bg-2);
+}
+.empty strong { color: var(--ink); font-weight: 600; }
+.cards { display: flex; flex-direction: column; gap: 10px; }
+.card {
+  display: grid; grid-template-columns: 1fr auto; gap: 12px;
+  text-decoration: none; padding: 16px 18px; border-radius: 12px;
+  background: var(--bg-2); border: 1px solid var(--line);
+}
+.card:hover { border-color: #3a372e; background: var(--bg-3); }
+.card h3 { font-size: 16px; font-weight: 600; margin-bottom: 4px; }
+.meta { color: var(--muted); font-size: 13px; display: flex; gap: 10px; flex-wrap: wrap; }
+.chip {
+  font-family: var(--mono); font-size: 10px; letter-spacing: .06em;
+  text-transform: uppercase; padding: 3px 7px; border-radius: 999px;
+  border: 1px solid var(--line); color: var(--muted); height: fit-content;
+}
+.chip.dealers { color: var(--blue); border-color: #2a3344; }
+.chip.avec-tous { color: var(--mustard); border-color: #3a3320; }
+.chip.personal { color: #c9a7a0; }
+.chip.ideas { color: var(--ok); }
+.note-top { margin-bottom: 22px; }
+.note-top h2 { font-family: var(--serif); font-size: 36px; font-weight: 460; letter-spacing: -.03em; }
+.tabs { display: flex; gap: 6px; margin: 22px 0 18px; border-bottom: 1px solid var(--line); }
+.tabs button {
+  appearance: none; background: none; border: 0; color: var(--muted);
+  font: 600 13px var(--sans); padding: 10px 12px; cursor: pointer;
+  border-bottom: 2px solid transparent; margin-bottom: -1px;
+}
+.tabs button[aria-selected="true"] { color: var(--ink); border-bottom-color: var(--accent); }
+.panel { display: none; }
+.panel.is-on { display: block; }
+.prose { font-size: 16.5px; line-height: 1.6; max-width: 42rem; }
+.prose h2, .prose h3 { font-family: var(--serif); font-weight: 500; margin: 1.3em 0 .4em; }
+.prose p { margin: 0 0 .8em; }
+.prose ul, .prose ol { margin: 0 0 1em 1.2em; }
+.prose li { margin: .25em 0; }
+.hl { border-left: 2px solid var(--accent); padding: 10px 0 10px 14px; margin: 0 0 14px; }
+.hl .t { font-family: var(--mono); font-size: 11px; color: var(--faint); }
+.hl h4 { font-size: 15px; margin: 4px 0; }
+.hl p { color: var(--muted); font-size: 14.5px; }
+.seg { display: grid; grid-template-columns: 64px 1fr; gap: 12px; padding: 8px 0; border-bottom: 1px solid var(--line); }
+.seg .ts { font-family: var(--mono); font-size: 11px; color: var(--faint); padding-top: 3px; }
+.back { color: var(--muted); text-decoration: none; font-size: 13px; display: inline-block; margin-bottom: 18px; }
+.back:hover { color: var(--ink); }
+footer { margin-top: 48px; color: var(--faint); font-size: 11px; font-family: var(--mono); }
+@media (max-width: 820px) {
+  .shell { grid-template-columns: 1fr; }
+  .rail { position: relative; height: auto; border-right: 0; border-bottom: 1px solid var(--line); }
+  .stage { padding: 24px 18px 64px; }
+  .note-top h2 { font-size: 28px; }
+}
+</style>
+</head>
+<body>
+<div class="shell">
+<aside class="rail">
+  <div class="mark">Cooperative</div>
+  <h1>Field desk</h1>
+  <p class="lede">Plaud landings. Summary, highlights, transcript — filed by life area.</p>
+  <nav class="vnav"><a href="../index.html" class="">All <span class="count">75</span></a><a class="" href="../vertical-inbox.html">Inbox <span class="count">0</span></a><a class="" href="../vertical-personal.html">Personal <span class="count">6</span></a><a class="" href="../vertical-coop-marketing.html">Coop Marketing <span class="count">4</span></a><a class="" href="../vertical-coop-dev.html">Coop Dev <span class="count">11</span></a><a class="" href="../vertical-avec-tous.html">Avec Tous <span class="count">0</span></a><a class="is-on" href="../vertical-dealers.html">Dealers <span class="count">50</span></a><a class="" href="../vertical-ideas.html">Ideas <span class="count">4</span></a></nav>
+</aside>
+<main class="stage">
+  <a class="back" href="../index.html">← Desk</a>
+  <div class="note-top">
+    <div class="kicker">dealers · 2026-10-05 · 9m47s</div>
+    <h2>10-05 Reasoning Note: Bridging the &quot;Smart Pause&quot; Functionality Gap in AI Sales Assistant</h2>
+    <div class="meta" style="margin-top:8px"><span>id of_0edce870cb915f89b08200ad17bf09e0</span><span>infer: Gaige VCA smart-pause / Podium parity · deep-dive Oct 6</span></div>
+  </div>
+  <div class="tabs" role="tablist">
+    <button type="button" data-panel="sum" aria-selected="true">Summary</button>
+    <button type="button" data-panel="hl" aria-selected="false">Highlights</button>
+    <button type="button" data-panel="tx" aria-selected="false">Transcript</button>
+  </div>
+  <section id="sum" class="panel is-on prose"><h2>Core Synopsis</h2>
+<p>Gaige (Cox/VCA) follow-up after ABR weekly: sales needs <strong>smart pause/resume</strong>, not fixed 1/7-day pauses. Model after Podium — stop on human contact or status (hot / in contact / showroom scheduled); resume if cold and not sold/lost. Second gap: thumbs up/down feedback on AI replies (Gen AI has it; VCA roadmap TBD).</p>
+<h2>Decisions / next</h2>
+<ul>
+<li>Gaige investigating whether &quot;Disengage when a human contacts&quot; is indefinite or re-engages; answer before deep-dive.</li>
+<li>Deep-dive call locked <strong>Oct 6</strong> (process + pause config).</li>
+<li>Feedback loop: confirm if on VCA roadmap.</li>
+</ul>
+<h2>Context</h2>
+<p>ABR is the loudest rooftop on pause pain. Podium parity path for BH group VCA cutover.</p></section>
+  <section id="hl" class="panel"><div class="hl"><div class="t">0:00</div><h4>Highlight</h4><p></p></div><div class="hl"><div class="t">0:00</div><h4>Highlight</h4><p></p></div><div class="hl"><div class="t">0:00</div><h4>Highlight</h4><p></p></div><div class="hl"><div class="t">0:00</div><h4>Highlight</h4><p></p></div></section>
+  <section id="tx" class="panel"><div class="seg"><div class="ts">0:08</div><div>What&#x27;s up, man? How are you.</div></div><div class="seg"><div class="ts">0:09</div><div>Good. Hey, I sent you a text. I&#x27;m trying to finish up a call. If it runs too long, I&#x27;ll buy you some extra time here at the end. I got, I got a little bit after this. Yeah, do what you got to do. I&#x27;ll be here. Give me just a second.</div></div><div class="seg"><div class="ts">3:15</div><div>All right, Brother. I am here.</div></div><div class="seg"><div class="ts">3:17</div><div>All right, how you doing,</div></div><div class="seg"><div class="ts">3:18</div><div>Man? Good. How are you? What do we got going on,</div></div><div class="seg"><div class="ts">3:22</div><div>Man? It&#x27;s nothing real crazy. It&#x27;s just, and I wanted to do this little quick call just because I think there&#x27;s probably some real quick solutions we can do to kind of make these people happy. Yeah. Essentially, so what are kind of the typical methods for kind of having a smarter pause, right? So it&#x27;s like. The issue that my guys are having is, hey, we can hit pause, but it&#x27;s these little predetermined, like you know, I don&#x27;t know what it is, one day, seven days, a month, or whatever it is. But what we want to do is kind of have it be smart, so that like, so for Audi, it&#x27;s the one that came up the most. For Audi, I switched it up so that, oh shit, maybe let me pull it, let me look at it because I can&#x27;t remember the verbiage. But there&#x27;s the extra toggle that.</div></div><div class="seg"><div class="ts">4:12</div><div>You can flip on that. Basically, has the AI just stop messaging if someone starts messaging?</div></div><div class="seg"><div class="ts">4:19</div><div>Yep, disengage when a human contacts.</div></div><div class="seg"><div class="ts">4:21</div><div>Yeah. So, is that just indefinite now, or does that reengage at some point? And if so,</div></div><div class="seg"><div class="ts">4:27</div><div>What&#x27;s the trigger? That is a great question because that functionality has changed in recent updates. Okay. So let me because it. So it used to be indefinite. Yeah. But they were trying to find. Obviously, some type of way, you know. So many days. Let me let me get you a final answer on that.</div></div><div class="seg"><div class="ts">4:48</div><div>So the trigger we wanted to try to set up. I have a bunch of notes here because I&#x27;ve recorded my whole conversation with these cats, and they just have a lot to say sometimes. So yeah, what what it is is, and this makes sense to me because this is kind of how I had podium set up. It&#x27;s hey, let this thing pause if we&#x27;re in the middle of talking to them, right? And then let&#x27;s say that they either we either, you know. Open a showroom visit. they visit with us. We sell work a car deal, and we don&#x27;t sell them a car, right? And so tomorrow and the next day, I would like them to start getting messages again, right? If we&#x27;re not messaging them and they&#x27;ve gone cold, then why not do follow up? Like with Podium, I had this whole separate little feature. It was just like a follow up procedure where if a person just went cold, and they hadn&#x27;t been marked sold, it just kept trying to follow up because it&#x27;s kind of like no harm no foul. It&#x27;s like.</div></div><div class="seg"><div class="ts">5:39</div><div>We&#x27;re not messaging them. The customer&#x27;s not buying. We haven&#x27;t marked it lost or bad or sold, and the customer&#x27;s not saying stop. So it&#x27;s like just keep trying, like every three days or every four days or whatever. That&#x27;s kind of, and I kind of thought that some of that could be handled with statuses, right? So like that&#x27;s what I have in my notes. Is like, can we set up a status so that when it gets like when there&#x27;s a showroom visit scheduled, we stop. We stop, you know, AI stops messaging them because if we&#x27;ve got an appointment, you know, leave it alone or let it be manual. Let my salespeople go and stick it in a certain status, sold or hot or in contact, and then AI stops. And then when we take it out of that, then it then it kind of takes up the mantle, right, and keeps badgering the customer.</div></div><div class="seg"><div class="ts">6:34</div><div>I don&#x27;t know. No, I get a hundred percent where you&#x27;re coming from,</div></div><div class="seg"><div class="ts">6:38</div><div>And I&#x27;m saying a lot because there&#x27;s like a lot of different ways we could do it. Yeah, it&#x27;s just the general mood is like, hey, we want it to stop when it shouldn&#x27;t be bothering the customer, but then also at some point it needs to resume, unless yeah,</div></div><div class="seg"><div class="ts">6:51</div><div>If it&#x27;s not sold or whatever, right? Right, depending on how we have it marked. Yeah, yeah, let me. We continually almost have like weekly little tweaks to this behind the scenes. We have like an open office hours every two weeks that we have to. So let me reach out to one of my VCA. I got some of your questions wrote down. What the best way for us to set it up for you guys would be? Yeah, because I just want to get it right the first time. And even if I mean I&#x27;ll have an answer today.</div></div><div class="seg"><div class="ts">7:20</div><div>And some of it is is it just, Putting more details in the processes we already have in place, right? You know, I don&#x27;t know, I don&#x27;t know. I get lost in some of those things, so it&#x27;ll be like you and I sit down and looking at, okay, here&#x27;s the internet process. It&#x27;s this long, and if it shows, you know, not sold and had a showroom visit, then start back up or whatever. I don&#x27;t know,</div></div><div class="seg"><div class="ts">7:43</div><div>Right? Yep. Let me. I&#x27;ve got a lot of that wrote down. Let me do some deep diving on that this afternoon. Okay. I got a couple calls from like two to three, but then I free up after that. So I&#x27;ll get on the horn with somebody that I can talk to, and bounce it off of. Maybe even some of our group chats and just see what other people are doing because I&#x27;m sure this has come up. And let me just see what&#x27;s worked and what&#x27;s not worked to find the best way to set it up for you.</div></div><div class="seg"><div class="ts">8:07</div><div>Exactly. And I mean, look, a lot of these things are going to keep coming up, right? Because I&#x27;m sure you guys are pulling people off a podium. We&#x27;re used to being able to do shit. Yeah. So it&#x27;s like it&#x27;s just going to keep coming up. The other thing is like to being able to thumbs up, thumbs down a response, and then actually give feedback. That&#x27;s like, that&#x27;s a huge lever. Like when that&#x27;s enacted, and y&#x27;all have that, I think you&#x27;ll be almost fully caught up with Podium. Okay. But that piece is big because then you&#x27;re able to, you know, like I&#x27;ve got a Hermes agent that I&#x27;ve had, oh shit, like probably five months now. It&#x27;s a completely different critter compared to like you know when I first built it. It just yeah, learning.</div></div><div class="seg"><div class="ts">8:46</div><div>And that&#x27;s what Podium did. It just kept learning, and so a year or two ago, when we first started it, it was eh. But we&#x27;ve got a billion pieces of feedback in, and it&#x27;s gotten better, right? So anyway, sweet.</div></div><div class="seg"><div class="ts">8:57</div><div>And which, yeah. And that may be on your feedback portion, may even be on the roadmap. I&#x27;ll get an answer on that because we have it on the Gen AI functionality already. Yeah. Where so it. If it, you know, if we already have it on that part of it, it&#x27;s got to be either in the works or what do we need to do to get it on the VCA side of it?</div></div><div class="seg"><div class="ts">9:16</div><div>Yeah. Okay. Well, I&#x27;ve got us on here again for tomorrow. Are we we still good for that?</div></div><div class="seg"><div class="ts">9:23</div><div>Yeah. Tomorrow was more of our deep dive, so hopefully I&#x27;ll get some answers on this, and then we can look at some of these processes and get some of this stuff in place. I&#x27;m glad we had this little short one, so I can kind of get some stuff going before tomorrow.</div></div><div class="seg"><div class="ts">9:34</div><div>Hell yeah! Thank you, man. I appreciate it.</div></div><div class="seg"><div class="ts">9:36</div><div>Yep. If you need anything, give me a holler. I got notes wrote down, and I&#x27;ll tackle this this afternoon.</div></div><div class="seg"><div class="ts">9:41</div><div>Will do.</div></div><div class="seg"><div class="ts">9:41</div><div>Thanks a bunch. No problem. Thanks, Lance.</div></div></section>
+</main>
+</div>
+<footer>PLAUD-NOTES-2026-10-05-MID · noindex · Plaud sources + notes</footer>
+<script>
+
+document.querySelectorAll('.tabs button').forEach(btn => {
+  btn.addEventListener('click', () => {
+    document.querySelectorAll('.tabs button').forEach(b => b.setAttribute('aria-selected', b===btn ? 'true':'false'));
+    document.querySelectorAll('.panel').forEach(p => p.classList.toggle('is-on', p.id === btn.dataset.panel));
+  });
+});
+
+</script>
+</body>
+</html>
