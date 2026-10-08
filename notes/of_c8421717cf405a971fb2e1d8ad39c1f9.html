@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>10-07 Meeting: Lifestyle Content SEO Strategy, Gift Card Promotions, Dashboard Accuracy, and EV Market Updates</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500&family=IBM+Plex+Mono:wght@400;500&family=Source+Sans+3:wght@400;600;700&display=swap">
+  <style>
+:root {
+  --bg: #090908;
+  --bg-2: #11110f;
+  --bg-3: #181714;
+  --ink: #f0eadc;
+  --muted: #8d8778;
+  --faint: #5c574c;
+  --line: #26241e;
+  --accent: #c4452d;
+  --mustard: #c4a35a;
+  --blue: #6f8fbf;
+  --ok: #7d9a6d;
+  --serif: "Fraunces", "Iowan Old Style", Georgia, serif;
+  --sans: "Source Sans 3", "Source Sans Pro", -apple-system, sans-serif;
+  --mono: "IBM Plex Mono", ui-monospace, monospace;
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html, body { background: var(--bg); color: var(--ink); }
+body {
+  font-family: var(--sans);
+  min-height: 100vh;
+  text-wrap: pretty;
+}
+a { color: inherit; }
+.shell { display: grid; grid-template-columns: 260px 1fr; min-height: 100vh; }
+.rail {
+  border-right: 1px solid var(--line);
+  padding: 28px 18px 40px;
+  background: var(--bg-2);
+  position: sticky; top: 0; height: 100vh; overflow: auto;
+}
+.mark {
+  font-family: var(--serif);
+  font-weight: 500;
+  font-size: 13px;
+  letter-spacing: .18em;
+  text-transform: uppercase;
+  color: var(--accent);
+}
+.rail h1 {
+  font-family: var(--serif);
+  font-size: 28px;
+  font-weight: 460;
+  letter-spacing: -.03em;
+  margin: 10px 0 6px;
+}
+.rail .lede { color: var(--muted); font-size: 13.5px; line-height: 1.45; margin-bottom: 28px; }
+.vnav { display: flex; flex-direction: column; gap: 4px; }
+.vnav a {
+  display: flex; justify-content: space-between; align-items: baseline;
+  text-decoration: none; padding: 9px 10px; border-radius: 8px;
+  color: var(--ink); font-size: 14px;
+}
+.vnav a:hover, .vnav a.is-on { background: var(--bg-3); }
+.vnav a.is-on { box-shadow: inset 2px 0 0 var(--accent); }
+.vnav .count { color: var(--faint); font-family: var(--mono); font-size: 11px; }
+.stage { padding: 36px 40px 80px; max-width: 980px; }
+.kicker {
+  font-size: 11px; letter-spacing: .16em; text-transform: uppercase;
+  color: var(--accent); font-weight: 700; margin-bottom: 8px;
+}
+.stage > h2 {
+  font-family: var(--serif); font-weight: 460; font-size: 34px;
+  letter-spacing: -.03em; margin-bottom: 8px;
+}
+.blurb { color: var(--muted); margin-bottom: 28px; max-width: 46rem; }
+.empty {
+  border: 1px dashed var(--line); border-radius: 14px;
+  padding: 36px 28px; color: var(--muted); background: var(--bg-2);
+}
+.empty strong { color: var(--ink); font-weight: 600; }
+.cards { display: flex; flex-direction: column; gap: 10px; }
+.card {
+  display: grid; grid-template-columns: 1fr auto; gap: 12px;
+  text-decoration: none; padding: 16px 18px; border-radius: 12px;
+  background: var(--bg-2); border: 1px solid var(--line);
+}
+.card:hover { border-color: #3a372e; background: var(--bg-3); }
+.card h3 { font-size: 16px; font-weight: 600; margin-bottom: 4px; }
+.meta { color: var(--muted); font-size: 13px; display: flex; gap: 10px; flex-wrap: wrap; }
+.chip {
+  font-family: var(--mono); font-size: 10px; letter-spacing: .06em;
+  text-transform: uppercase; padding: 3px 7px; border-radius: 999px;
+  border: 1px solid var(--line); color: var(--muted); height: fit-content;
+}
+.chip.dealers { color: var(--blue); border-color: #2a3344; }
+.chip.avec-tous { color: var(--mustard); border-color: #3a3320; }
+.chip.personal { color: #c9a7a0; }
+.chip.ideas { color: var(--ok); }
+.note-top { margin-bottom: 22px; }
+.note-top h2 { font-family: var(--serif); font-size: 36px; font-weight: 460; letter-spacing: -.03em; }
+.tabs { display: flex; gap: 6px; margin: 22px 0 18px; border-bottom: 1px solid var(--line); }
+.tabs button {
+  appearance: none; background: none; border: 0; color: var(--muted);
+  font: 600 13px var(--sans); padding: 10px 12px; cursor: pointer;
+  border-bottom: 2px solid transparent; margin-bottom: -1px;
+}
+.tabs button[aria-selected="true"] { color: var(--ink); border-bottom-color: var(--accent); }
+.panel { display: none; }
+.panel.is-on { display: block; }
+.prose { font-size: 16.5px; line-height: 1.6; max-width: 42rem; }
+.prose h2, .prose h3 { font-family: var(--serif); font-weight: 500; margin: 1.3em 0 .4em; }
+.prose p { margin: 0 0 .8em; }
+.prose ul, .prose ol { margin: 0 0 1em 1.2em; }
+.prose li { margin: .25em 0; }
+.hl { border-left: 2px solid var(--accent); padding: 10px 0 10px 14px; margin: 0 0 14px; }
+.hl .t { font-family: var(--mono); font-size: 11px; color: var(--faint); }
+.hl h4 { font-size: 15px; margin: 4px 0; }
+.hl p { color: var(--muted); font-size: 14.5px; }
+.seg { display: grid; grid-template-columns: 64px 1fr; gap: 12px; padding: 8px 0; border-bottom: 1px solid var(--line); }
+.seg .ts { font-family: var(--mono); font-size: 11px; color: var(--faint); padding-top: 3px; }
+.back { color: var(--muted); text-decoration: none; font-size: 13px; display: inline-block; margin-bottom: 18px; }
+.back:hover { color: var(--ink); }
+footer { margin-top: 48px; color: var(--faint); font-size: 11px; font-family: var(--mono); }
+@media (max-width: 820px) {
+  .shell { grid-template-columns: 1fr; }
+  .rail { position: relative; height: auto; border-right: 0; border-bottom: 1px solid var(--line); }
+  .stage { padding: 24px 18px 64px; }
+  .note-top h2 { font-size: 28px; }
+}
+</style>
+</head>
+<body>
+<div class="shell">
+<aside class="rail">
+  <div class="mark">Cooperative</div>
+  <h1>Field desk</h1>
+  <p class="lede">Plaud landings. Summary, highlights, transcript — filed by life area.</p>
+  <nav class="vnav"><a href="../index.html" class="">All <span class="count">81</span></a><a class="" href="../vertical-inbox.html">Inbox <span class="count">0</span></a><a class="" href="../vertical-personal.html">Personal <span class="count">6</span></a><a class="" href="../vertical-coop-marketing.html">Coop Marketing <span class="count">5</span></a><a class="" href="../vertical-coop-dev.html">Coop Dev <span class="count">11</span></a><a class="" href="../vertical-avec-tous.html">Avec Tous <span class="count">0</span></a><a class="is-on" href="../vertical-dealers.html">Dealers <span class="count">55</span></a><a class="" href="../vertical-ideas.html">Ideas <span class="count">4</span></a></nav>
+</aside>
+<main class="stage">
+  <a class="back" href="../index.html">← Desk</a>
+  <div class="note-top">
+    <div class="kicker">dealers · 2026-10-07 · 13m27s</div>
+    <h2>10-07 Meeting: Lifestyle Content SEO Strategy, Gift Card Promotions, Dashboard Accuracy, and EV Market Updates</h2>
+    <div class="meta" style="margin-top:8px"><span>id of_c8421717cf405a971fb2e1d8ad39c1f9</span><span>infer: BHBMW floor · lifestyle mag SEO · Acquire/GMW · local partners</span></div>
+  </div>
+  <div class="tabs" role="tablist">
+    <button type="button" data-panel="sum" aria-selected="true">Summary</button>
+    <button type="button" data-panel="hl" aria-selected="false">Highlights</button>
+    <button type="button" data-panel="tx" aria-selected="false">Transcript</button>
+  </div>
+  <section id="sum" class="panel is-on prose"><h2>BHBMW · lifestyle content / SEO · 2026-10-07 (~13m)</h2>
+<p><strong>Takeaway:</strong> Floor walk on <strong>luxury lifestyle articles</strong> (restaurants, watches, events) living on the dealer site + email — more answers for AI search, local relevancy (Lee Michaels, staff reviews/recipes), and eventual <strong>$25 partner gift cards</strong>. Prefer promotions that create sales over pure feel-good. <strong>Acquire / GM Weekly</strong> called accurate with 1–2 day Vin/CDK lag. Tesla PMA chatter (338 YTD thru Aug; Model Y; price/APR up; ~8yr battery warranty). Lease buyout name on tape: <strong>Miss Trisha Brock</strong> (store follow-up).</p>
+<p><strong>On tape:</strong> Lance to circulate lifestyle content after internal eyes before broader email. No Ada build locked.</p></section>
+  <section id="hl" class="panel"><div class="hl"><div class="t">0:00</div><h4>Lifestyle SEO</h4><p>On-site lifestyle issues → AI citation + paid relevance; local jewelers/restaurants</p></div><div class="hl"><div class="t">0:00</div><h4>Partnerships</h4><p>$25 restaurant gift cards once traffic is real; sales-leaning coupons preferred</p></div><div class="hl"><div class="t">0:00</div><h4>Acquire/GMW</h4><p>Floor validated accuracy; 1–2 day Vin/CDK lag expected</p></div><div class="hl"><div class="t">0:00</div><h4>Store follow-up</h4><p>Trisha Brock lease buyout — sales owns</p></div></section>
+  <section id="tx" class="panel"><div class="seg"><div class="ts">0:01</div><div>Thousand dollar coupon, hit me up because we already got one. So one of their customers in a gift card that is good to purchase a new car. That is service for everybody, not just hey you know I&#x27;m I&#x27;m hoping that this local coupon I mean this local. Magazine has been created by this auto group that it worked. That coupon code that they can either use for themselves or gift, I think, is more powerful because they&#x27;re gonna have somebody say, &quot;Man, you know what? I know somebody looking for a car. Here, can I use that coupon code and give that to them?&quot; Of course you can, because these are not regular businesses like this one. It&#x27;s freaking City Pork, which if me and you sat down and had two drinks.</div></div><div class="seg"><div class="ts">1:00</div><div>It&#x27;s one hundred and eighty dollars. It&#x27;s not a cheap place. That&#x27;s all that I am saying. Give us an opportunity or a way that we can create sales, because that&#x27;s what we want. We&#x27;re not, in my opinion, the. We don&#x27;t need to do the feel good things, because the feel - good thing is the two thousand dollars we pay to the high school kid that is in the back working in parts, doing. Internship, so we got the feel - good stuff happening.</div></div><div class="seg"><div class="ts">1:33</div><div>But this is on this is on your website right here. Yeah, this is in your like blog,</div></div><div class="seg"><div class="ts">1:39</div><div>And it goes out to our emails.</div></div><div class="seg"><div class="ts">1:41</div><div>Okay, so what he&#x27;s driving with this is more clicks to the website, which makes your website more relevant,</div></div><div class="seg"><div class="ts">1:49</div><div>Which makes all the robots.</div></div><div class="seg"><div class="ts">1:50</div><div>In all the SEO more relevant, drive more eyes into what&#x27;s that SEO? Search engine optimization. So that makes your so when somebody&#x27;s searching for Baton Rouge, and then say they&#x27;re searching for bouillabaisse, as crazy as this goes on, Brian Harris can actually come up in that list of relevant, area, relevant engines because you have.</div></div><div class="seg"><div class="ts">2:18</div><div>To search our website to find the bouillabaisse. That will pull up this bouillabaisse.</div></div><div class="seg"><div class="ts">2:22</div><div>What it is is the AI, especially now, because like Google Gemini, your first result in Google is. Not even Google anymore. It&#x27;s AI. The AI is in that form, the Chat GPT and Muse. Because Muse, you gotta realize, do you know Muse is now? So Facebook&#x27;s version of AI. People that never fooled with AI are fooling with AI now, and they&#x27;re not searching shit themselves anymore. So the more answers you provide for the searches and the questions people have, the higher up and the more often you&#x27;ll show up for people.</div></div><div class="seg"><div class="ts">2:54</div><div>So what it is is the AIs will go shit. These Brian Harris motherfuckers—they got lots of answers. Yeah. Like between all of our specials pages, features pages, different model features pages, competitor features pages, and now life—like basically luxury lifestyle information—is what that is. And that&#x27;s like all bachelor&#x27;s pertinent luxury lifestyle shit. So, the watch thing right now lives as like mostly we&#x27;re looking at Hodinkee, which if you&#x27;re in the watch nerd world, Hodinkee is like one of the top top like national. Online publications for watches, but like the watch thing, I want to like, like why not let Lee Michaels pop up? Like why not let some of these local jewelers start popping up? Because then you got even more local relevancy. That&#x27;s kind of where I am going with the whole thing. Is that imagine in twelve months, you&#x27;ve got twelve issues of this thing. Now you&#x27;ve got twelve different restaurants, twelve different event venues.</div></div><div class="seg"><div class="ts">3:48</div><div>Twelve different fucking like just all the different things. It just becomes so much, and every issue is going to live on the website.</div></div><div class="seg"><div class="ts">3:55</div><div>So how much space does it take up?</div></div><div class="seg"><div class="ts">3:58</div><div>None. So now they&#x27;re actually hosted on my servers.</div></div><div class="seg"><div class="ts">4:01</div><div>So now if somebody goes to Gemini, right, which is Google&#x27;s AI, or you just go to Google, half of your stuff goes through Gemini anyway. If you go on Google and you say, and you were to say, mud and balls in Jefferson City, or in Jefferson. Right. If you had enough people going there that were getting information, it would actually say, &quot;Here is a website to check,&quot; and then under that it will say Brian Harris BMW as the source. So people would click on the source, and then it would bring them to your web page. So it&#x27;s a roundabout way to actually drive more traffic into the website, which lowers his cost.</div></div><div class="seg"><div class="ts">4:46</div><div>To drive more people into the website,</div></div><div class="seg"><div class="ts">4:47</div><div>Yeah, like the higher relevancy you have, the less it costs when your system is bidding on traffic. So when the Google system is bidding on traffic for our paid stuff, it costs less because we&#x27;re more relevant. So you get more for your money. So anyway,</div></div><div class="seg"><div class="ts">5:06</div><div>It&#x27;s a lot happening. And you know what? You need to have a Daryl&#x27;s restaurant review.</div></div><div class="seg"><div class="ts">5:14</div><div>So that&#x27;s one of the things I told Hedrick. You know, Hedrick&#x27;s always talking about restaurants. I was like, you know what y&#x27;all to do is the next time you go out to eat and it&#x27;s something you really like, take a picture of it, tell me where you went, what you ate, and we&#x27;ll put an article of you. You know, me and my wife had dinner here. We love it. Maybe we should light some holes.</div></div><div class="seg"><div class="ts">5:31</div><div>Yeah, it&#x27;s got to be in IPMA. I can&#x27;t go to Chada.</div></div><div class="seg"><div class="ts">5:36</div><div>No, it&#x27;s got to be.</div></div><div class="seg"><div class="ts">5:37</div><div>It would be here. Have you been to Chada? To where? Chada. Oh man.</div></div><div class="seg"><div class="ts">5:45</div><div>What the hell is that? It&#x27;s a restaurant. According according to my boy here, it&#x27;s gonna get the next. Where is it? In New Orleans or in Beale? How do you spell it? It&#x27;s a C H A D A. Chada.</div></div><div class="seg"><div class="ts">5:59</div><div>Chada. It&#x27;s a it&#x27;s a Thai restaurant. And if you like Thai food, I do. I love Thai. Do it is next level. Need to check it out. Flavor. We&#x27;re supposed to be going. You need to go to the next level.</div></div><div class="seg"><div class="ts">6:14</div><div>Check it out. Just good at it.</div></div><div class="seg"><div class="ts">6:15</div><div>But yeah, the other thing that I was asked about, which I&#x27;m super open to, is recipes. Like, yeah,</div></div><div class="seg"><div class="ts">6:22</div><div>Let if you get everybody somebody that goes,</div></div><div class="seg"><div class="ts">6:24</div><div>Everybody got a good recipe. Cool. Take a picture of you, one picture of you cooking it, one picture of it on a plate. Type it up roughly to me, and then we&#x27;ll write an article about it. Cool. Yeah. All that stuff. All that stuff. I haven&#x27;t sent that out before I send it. So it&#x27;s living passively on our site now, and then I&#x27;ve emailed it. But I wanted y&#x27;all to like lay eyes on it before I emailed it. I&#x27;m excited for it, for it too.</div></div><div class="seg"><div class="ts">6:53</div><div>And then what I would do is once you kind of build up eyes on this, you go to these restaurants. You&#x27;re like, &quot; Hey, we want to put this on there. Do you want to give us some $ 25 gift cards to hand out to our customers?&quot; That&#x27;s the concept. And then they go, &quot; Oh hell yeah,</div></div><div class="seg"><div class="ts">7:05</div><div>Yeah,</div></div><div class="seg"><div class="ts">7:05</div><div>Let&#x27;s do it.&quot; Because they want to drive traffic into their spot.</div></div><div class="seg"><div class="ts">7:08</div><div>Yeah. So it&#x27;s like, &quot; Hey man, this thing&#x27;s getting.&quot; X amount of eyes every month. X amount of eyes every week. This many clicks. We we love to.</div></div><div class="seg"><div class="ts">7:16</div><div>We would love to feature you next time, and then you give us gift cards, and we&#x27;ll give them out to our customers. And now we start to build some relationships.</div></div><div class="seg"><div class="ts">7:24</div><div>Feature rich too. So like the whole games section of all the like college, like all the southern games, you can click and add to your calendar. You know, you can click and look at the whole schedule for the for the the last few games, which is wild to think. But I was looking at. Let&#x27;s hope the rest of the day is LSU stuff, and there&#x27;s only three more home games.</div></div><div class="seg"><div class="ts">7:44</div><div>I know it&#x27;s a lot of road games at the end. A lot of road games. Three or four road games at the end of the year. Crazy. Yeah, and they got they got a tough.</div></div><div class="seg"><div class="ts">7:53</div><div>Sam haven&#x27;t had their bye week yet. Tough,</div></div><div class="seg"><div class="ts">7:54</div><div>Tough bye, tough schedule.</div></div><div class="seg"><div class="ts">7:56</div><div>No, but apparently old Sam needs a bye week. What the hell? He&#x27;s beat up. He&#x27;s beat. He runs too much and then doesn&#x27;t slide. Yeah,</div></div><div class="seg"><div class="ts">8:04</div><div>He&#x27;s good. He better than Jaden. Jaden Daniels. No. Not yet. Didn&#x27;t go to the same school. He took Jaden Spock when he left.</div></div><div class="seg"><div class="ts">8:14</div><div>Yeah, he went to ASU.</div></div><div class="seg"><div class="ts">8:15</div><div>And then after he left here, he came.</div></div><div class="seg"><div class="ts">8:16</div><div>Not ASU,</div></div><div class="seg"><div class="ts">8:17</div><div>But who&#x27;s the quarterback? LSU had last year.</div></div><div class="seg"><div class="ts">8:21</div><div>Nussmeyer. Nussmeyer and Putsy kid that wasn&#x27;t never going nowhere. Well, he was hurt. Yeah. He was hurt bad. I think he had. I think he had broken ribs. Oh, yeah. I mean, he was. He was not. Not a hundred. Not even close to a hundred percent.</div></div><div class="seg"><div class="ts">8:37</div><div>Also. LSU top quarterbacks need a little edge to.</div></div><div class="seg"><div class="ts">8:40</div><div>Them. Well, now they actually got a left guard, or left,</div></div><div class="seg"><div class="ts">8:46</div><div>Or a left tackle. Against what was happening against whoever we lost to Ole Miss,</div></div><div class="seg"><div class="ts">8:55</div><div>With our O line, it was it was a mess. It was. They forgot how to block. There was no blocking at all. It was almost like that they they thought they were going to roll in there and just.</div></div><div class="seg"><div class="ts">9:06</div><div>People were complaining about Sam not. Oh, he&#x27;s not staying in the pocket.</div></div><div class="seg"><div class="ts">9:09</div><div>Like there wasn&#x27;t. There wasn&#x27;t no pocket.</div></div><div class="seg"><div class="ts">9:12</div><div>There wasn&#x27;t no pocket. Collapsing at every play. Yeah. I noticed that. That was why I did when playing footballs. Either I was either defensive end, or a tackle, or offensive tackle, or I was a linebacker. If you&#x27;re not blocking for your quarterback, you got nothing.</div></div><div class="seg"><div class="ts">9:28</div><div>Yeah, it doesn&#x27;t matter how good a quarterback you are if you don&#x27;t have any time to throw. And once you start scrambling, you now cut the field in half.</div></div><div class="seg"><div class="ts">9:37</div><div>Yep. So, how come this thing suddenly has eighty - seven calls and stop? Who says that? Uh, my GM weekly. I need to be updated. Unless that&#x27;s right. Who&#x27;s your GM weekly?</div></div><div class="seg"><div class="ts">9:52</div><div>That is the other side of Acquire, the tool that I built. That&#x27;s your that&#x27;s your tool. It basically watches the it&#x27;s all of your traffic as it comes in at the very top of the funnel. So like all of your web traffic, site traffic, and then it it is the next tab is like is demand shape and leads and then people and then how they&#x27;re working the leads and then how they close.</div></div><div class="seg"><div class="ts">10:16</div><div>It&#x27;s pretty accurate. I saw two today.</div></div><div class="seg"><div class="ts">10:20</div><div>It&#x27;s within a few days.</div></div><div class="seg"><div class="ts">10:21</div><div>No, it&#x27;s pretty accurate. It is accurate to the minute because I sold two today.</div></div><div class="seg"><div class="ts">10:25</div><div>Sorry, eighty - seven. It updates itself every morning, but it&#x27;s updated itself from Bin Solutions, so I think there&#x27;s a little bit of a built - in delay. You know, because CDK&#x27;s data has to trickle into Bin.</div></div><div class="seg"><div class="ts">10:39</div><div>Oh. And I just got in two calls today.</div></div><div class="seg"><div class="ts">10:42</div><div>You might have yeah. It&#x27;s gonna be so there&#x27;s gonna be like a day or two delay.</div></div><div class="seg"><div class="ts">10:45</div><div>Interesting. It&#x27;s pretty good though. It&#x27;s not bad. You&#x27;re really good at what you do, but you know that already. Bro,</div></div><div class="seg"><div class="ts">10:53</div><div>It&#x27;s a struggle. Right,</div></div><div class="seg"><div class="ts">10:56</div><div>It has been a struggle. So we were talking about Tesla. Yeah. And I pulled up the numbers. So this year, in the PMA, through August registrations, three hundred and thirty - eight Teslas. This year to date. Just year to date. Through August. Seems like a lot. Three hundred thirty - eight. Model Y is their big one. Yeah. Model Y. Now, obviously, the payment on the Model Y is way, way less.</div></div><div class="seg"><div class="ts">11:25</div><div>Have you gone and looked at a Model Y like been a customer lately on their website? They&#x27;re cheap. Yeah, they&#x27;re cheap. And they, man, you know, what year was that that they lowered all their prices.</div></div><div class="seg"><div class="ts">11:35</div><div>Well, they&#x27;re raising them all back up.</div></div><div class="seg"><div class="ts">11:37</div><div>Well, they caught a lot of flack for lowering them.</div></div><div class="seg"><div class="ts">11:39</div><div>Yeah, now they&#x27;re raising them all back up.</div></div><div class="seg"><div class="ts">11:41</div><div>If I&#x27;m now, no one&#x27;s talking about the raising. I should be buying a used one before they raise them.</div></div><div class="seg"><div class="ts">11:47</div><div>Well, they just raised their rate. They just raised their APR.</div></div><div class="seg"><div class="ts">11:51</div><div>Rate. Yeah, if they raise their retails, then their use values are going to go up a little bit,</div></div><div class="seg"><div class="ts">11:56</div><div>Probably. Should but they&#x27;re so flooded. They&#x27;re so flooded. I don&#x27;t even think it&#x27;s going to make a difference. I don&#x27;t think it&#x27;s good. Yeah, because I mean, there&#x27;s there&#x27;s millions out there.</div></div><div class="seg"><div class="ts">12:07</div><div>It&#x27;s a really good vehicle for the money. Like if you go buy like a twenty three for thirty,</div></div><div class="seg"><div class="ts">12:13</div><div>So you got to replace the battery.</div></div><div class="seg"><div class="ts">12:17</div><div>Dude, that&#x27;s so rare. You sure about that? You sure about that? It&#x27;s also what you know. Fucking third - party warranties before.</div></div><div class="seg"><div class="ts">12:26</div><div>You tell me. Tell me how good those third - party warranties cover your battery.</div></div><div class="seg"><div class="ts">12:31</div><div>Do we have ones that cover our batteries? No. So in a BMW, you&#x27;re on your own too. Like with the battery outside of warranty. Those warranties, what, eight years?</div></div><div class="seg"><div class="ts">12:43</div><div>Well, yeah, yeah, eight years.</div></div><div class="seg"><div class="ts">12:44</div><div>Eight years. State of charge one year.</div></div><div class="seg"><div class="ts">12:47</div><div>Eight year, eighty or eight year, one hundred. Yeah, because you got the it&#x27;s the federal warranty that you go to after you get out of after you get out of factory warranty. Yes, sir.</div></div><div class="seg"><div class="ts">12:58</div><div>There&#x27;s a lady on here, Miss Trisha Brock, that wanted to buy. She wanted to buy her lease, and that&#x27;s all she wanted to do.</div></div><div class="seg"><div class="ts">13:18</div><div>She lived. She went to.</div></div></section>
+</main>
+</div>
+<footer>PLAUD-NOTES-2026-10-08-PM · noindex · Plaud sources + notes</footer>
+<script>
+
+document.querySelectorAll('.tabs button').forEach(btn => {
+  btn.addEventListener('click', () => {
+    document.querySelectorAll('.tabs button').forEach(b => b.setAttribute('aria-selected', b===btn ? 'true':'false'));
+    document.querySelectorAll('.panel').forEach(p => p.classList.toggle('is-on', p.id === btn.dataset.panel));
+  });
+});
+
+</script>
+</body>
+</html>
