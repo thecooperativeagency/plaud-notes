@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>HP · lot photo onboarding · ~15 cars @ $15 · tracker + Drive</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500&family=IBM+Plex+Mono:wght@400;500&family=Source+Sans+3:wght@400;600;700&display=swap">
+  <style>
+:root {
+  --bg: #090908;
+  --bg-2: #11110f;
+  --bg-3: #181714;
+  --ink: #f0eadc;
+  --muted: #8d8778;
+  --faint: #5c574c;
+  --line: #26241e;
+  --accent: #c4452d;
+  --mustard: #c4a35a;
+  --blue: #6f8fbf;
+  --ok: #7d9a6d;
+  --serif: "Fraunces", "Iowan Old Style", Georgia, serif;
+  --sans: "Source Sans 3", "Source Sans Pro", -apple-system, sans-serif;
+  --mono: "IBM Plex Mono", ui-monospace, monospace;
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html, body { background: var(--bg); color: var(--ink); }
+body {
+  font-family: var(--sans);
+  min-height: 100vh;
+  text-wrap: pretty;
+}
+a { color: inherit; }
+.shell { display: grid; grid-template-columns: 260px 1fr; min-height: 100vh; }
+.rail {
+  border-right: 1px solid var(--line);
+  padding: 28px 18px 40px;
+  background: var(--bg-2);
+  position: sticky; top: 0; height: 100vh; overflow: auto;
+}
+.mark {
+  font-family: var(--serif);
+  font-weight: 500;
+  font-size: 13px;
+  letter-spacing: .18em;
+  text-transform: uppercase;
+  color: var(--accent);
+}
+.rail h1 {
+  font-family: var(--serif);
+  font-size: 28px;
+  font-weight: 460;
+  letter-spacing: -.03em;
+  margin: 10px 0 6px;
+}
+.rail .lede { color: var(--muted); font-size: 13.5px; line-height: 1.45; margin-bottom: 28px; }
+.vnav { display: flex; flex-direction: column; gap: 4px; }
+.vnav a {
+  display: flex; justify-content: space-between; align-items: baseline;
+  text-decoration: none; padding: 9px 10px; border-radius: 8px;
+  color: var(--ink); font-size: 14px;
+}
+.vnav a:hover, .vnav a.is-on { background: var(--bg-3); }
+.vnav a.is-on { box-shadow: inset 2px 0 0 var(--accent); }
+.vnav .count { color: var(--faint); font-family: var(--mono); font-size: 11px; }
+.stage { padding: 36px 40px 80px; max-width: 980px; }
+.kicker {
+  font-size: 11px; letter-spacing: .16em; text-transform: uppercase;
+  color: var(--accent); font-weight: 700; margin-bottom: 8px;
+}
+.stage > h2 {
+  font-family: var(--serif); font-weight: 460; font-size: 34px;
+  letter-spacing: -.03em; margin-bottom: 8px;
+}
+.blurb { color: var(--muted); margin-bottom: 28px; max-width: 46rem; }
+.empty {
+  border: 1px dashed var(--line); border-radius: 14px;
+  padding: 36px 28px; color: var(--muted); background: var(--bg-2);
+}
+.empty strong { color: var(--ink); font-weight: 600; }
+.cards { display: flex; flex-direction: column; gap: 10px; }
+.card {
+  display: grid; grid-template-columns: 1fr auto; gap: 12px;
+  text-decoration: none; padding: 16px 18px; border-radius: 12px;
+  background: var(--bg-2); border: 1px solid var(--line);
+}
+.card:hover { border-color: #3a372e; background: var(--bg-3); }
+.card h3 { font-size: 16px; font-weight: 600; margin-bottom: 4px; }
+.meta { color: var(--muted); font-size: 13px; display: flex; gap: 10px; flex-wrap: wrap; }
+.chip {
+  font-family: var(--mono); font-size: 10px; letter-spacing: .06em;
+  text-transform: uppercase; padding: 3px 7px; border-radius: 999px;
+  border: 1px solid var(--line); color: var(--muted); height: fit-content;
+}
+.chip.dealers { color: var(--blue); border-color: #2a3344; }
+.chip.avec-tous { color: var(--mustard); border-color: #3a3320; }
+.chip.personal { color: #c9a7a0; }
+.chip.ideas { color: var(--ok); }
+.note-top { margin-bottom: 22px; }
+.note-top h2 { font-family: var(--serif); font-size: 36px; font-weight: 460; letter-spacing: -.03em; }
+.tabs { display: flex; gap: 6px; margin: 22px 0 18px; border-bottom: 1px solid var(--line); }
+.tabs button {
+  appearance: none; background: none; border: 0; color: var(--muted);
+  font: 600 13px var(--sans); padding: 10px 12px; cursor: pointer;
+  border-bottom: 2px solid transparent; margin-bottom: -1px;
+}
+.tabs button[aria-selected="true"] { color: var(--ink); border-bottom-color: var(--accent); }
+.panel { display: none; }
+.panel.is-on { display: block; }
+.prose { font-size: 16.5px; line-height: 1.6; max-width: 42rem; }
+.prose h2, .prose h3 { font-family: var(--serif); font-weight: 500; margin: 1.3em 0 .4em; }
+.prose p { margin: 0 0 .8em; }
+.prose ul, .prose ol { margin: 0 0 1em 1.2em; }
+.prose li { margin: .25em 0; }
+.hl { border-left: 2px solid var(--accent); padding: 10px 0 10px 14px; margin: 0 0 14px; }
+.hl .t { font-family: var(--mono); font-size: 11px; color: var(--faint); }
+.hl h4 { font-size: 15px; margin: 4px 0; }
+.hl p { color: var(--muted); font-size: 14.5px; }
+.seg { display: grid; grid-template-columns: 64px 1fr; gap: 12px; padding: 8px 0; border-bottom: 1px solid var(--line); }
+.seg .ts { font-family: var(--mono); font-size: 11px; color: var(--faint); padding-top: 3px; }
+.back { color: var(--muted); text-decoration: none; font-size: 13px; display: inline-block; margin-bottom: 18px; }
+.back:hover { color: var(--ink); }
+footer { margin-top: 48px; color: var(--faint); font-size: 11px; font-family: var(--mono); }
+@media (max-width: 820px) {
+  .shell { grid-template-columns: 1fr; }
+  .rail { position: relative; height: auto; border-right: 0; border-bottom: 1px solid var(--line); }
+  .stage { padding: 24px 18px 64px; }
+  .note-top h2 { font-size: 28px; }
+}
+</style>
+</head>
+<body>
+<div class="shell">
+<aside class="rail">
+  <div class="mark">Cooperative</div>
+  <h1>Field desk</h1>
+  <p class="lede">Plaud landings. Summary, highlights, transcript — filed by life area.</p>
+  <nav class="vnav"><a href="../index.html" class="">All <span class="count">86</span></a><a class="" href="../vertical-inbox.html">Inbox <span class="count">1</span></a><a class="" href="../vertical-personal.html">Personal <span class="count">7</span></a><a class="" href="../vertical-coop-marketing.html">Coop Marketing <span class="count">5</span></a><a class="" href="../vertical-coop-dev.html">Coop Dev <span class="count">11</span></a><a class="" href="../vertical-avec-tous.html">Avec Tous <span class="count">0</span></a><a class="is-on" href="../vertical-dealers.html">Dealers <span class="count">58</span></a><a class="" href="../vertical-ideas.html">Ideas <span class="count">4</span></a></nav>
+</aside>
+<main class="stage">
+  <a class="back" href="../index.html">← Desk</a>
+  <div class="note-top">
+    <div class="kicker">dealers · 2026-10-13 · 1h27m</div>
+    <h2>HP · lot photo onboarding · ~15 cars @ $15 · tracker + Drive</h2>
+    <div class="meta" style="margin-top:8px"><span>id of_3cd5148e2dde37ab5426dbe79d90396a</span><span>infer: HP inventory photo training + cash pay + Drive/portal workflow</span></div>
+  </div>
+  <div class="tabs" role="tablist">
+    <button type="button" data-panel="sum" aria-selected="true">Summary</button>
+    <button type="button" data-panel="hl" aria-selected="false">Highlights</button>
+    <button type="button" data-panel="tx" aria-selected="false">Transcript</button>
+  </div>
+  <section id="sum" class="panel is-on prose"><h2>Ada filing note</h2>
+<p>Composite Plaud (~1h27m). <strong>Real work</strong> is the opening HP lot-photo coordination call (~5m). Remainder is ambient media left on (disc golf YT, Alex Finn Mac Mini/Hermes demo, Docspot partner-AI podcast). Transcript below = real work only.</p>
+<h3>Coop takeaway</h3>
+<ul>
+<li>HP inventory photo pipeline: ~15 cars @ $15/car cash (~$225), pay-on-upload</li>
+<li>Training planned same day (~3:30 after loaners); full shoot next day</li>
+<li>Tracking app by lot age + Venmo; Drive folder <strong>Harris Porsche Inventory</strong> / stock #</li>
+<li>Open: portal upload demo + photographer initials on tracker</li>
+</ul>
+<h2>1. Car Photography Operations, Training, and Inventory Workflow</h2>
+<p>Lance coordinated vehicle inventory photography assignments and onboarding across the Porsche and BMW dealership lots. Photographer(s) are being integrated into the photography workflow to capture and upload vehicle images. Lance introduced a custom tracking application that prioritizes vehicles by lot age—focusing first on the oldest used units—and tracks completed units to facilitate payments via Venmo. Standardized framing guidelines were established using mobile devices to avoid high equipment overhead. Image storage was organized within Google Drive under the &quot;Harris Porsche Inventory&quot; folder using vehicle stock number subfolders. Immediate plans include hands-on training on initial lot vehicles, followed by portal access verification and full shooting operations.</p>
+<h3>Action Items</h3>
+<ul>
+<li>[ ] Complete cleaning the remaining loaner car and check in with Chris and the technicians — *photographer* 2026-10-13</li>
+<li>[ ] Complete computer work and text tasks at the BMW office — *Lance* 2026-10-13</li>
+<li>[ ] Text when wrapped to meet for training — *photographer* 2026-10-13 ~15:30</li>
+<li>[ ] Walk over to Porsche for vehicle photography training on prioritized lot cars — *Lance + photographer(s)* 2026-10-13</li>
+<li>[ ] Add photographer initials/tag to the tracking app — *Lance*</li>
+<li>[ ] Create stock-number subfolders in Harris Porsche Inventory Drive and upload photos — *photographer*</li>
+<li>[ ] Demonstrate website photo uploading + verify Porsche portal access — *Lance + photographer* 2026-10-14</li>
+<li>[ ] Begin full vehicle photography shooting and uploading — *photographer* 2026-10-14</li>
+<p>---</p>
+</ul>
+<h2>2–6. Ambient media (not Coop work)</h2>
+<p>Tape stayed open: disc golf YT, Alex Finn local Mac Mini / Hermes demo, Docspot partner-AI / SMB agent podcast. Not filed as strategy actions.</p></section>
+  <section id="hl" class="panel"><div class="hl"><div class="t">0:00</div><h4>Pay model</h4><p>~15 cars need shots; $15/car cash on upload (~$225 batch)</p></div><div class="hl"><div class="t">0:00</div><h4>Schedule</h4><p>Train after loaners ~3:30; full shoot next day if needed</p></div><div class="hl"><div class="t">0:00</div><h4>Ops system</h4><p>Lot-age tracker + Venmo; Drive Harris Porsche Inventory / stock# folders</p></div><div class="hl"><div class="t">0:00</div><h4>Open</h4><p>Portal upload demo + photographer initials on tracker</p></div><div class="hl"><div class="t">0:00</div><h4>Tape shape</h4><p>Composite: real call then ambient YT/podcast — not a strategy meeting</p></div></section>
+  <section id="tx" class="panel"><div class="seg"><div class="ts">0:06</div><div>Hello. What&#x27;s up, man. Lance. Hello, Mr. Lance. Man, just checking in. I&#x27;m in. I&#x27;m back in the office today. You at work today?</div></div><div class="seg"><div class="ts">0:15</div><div>Yes, sir.</div></div><div class="seg"><div class="ts">0:16</div><div>All right. I&#x27;m gonna come. I&#x27;m gonna come. Your direction around four, and I&#x27;ll be in that office over at Porsche. Is that good?</div></div><div class="seg"><div class="ts">0:25</div><div>Got time to fold it or what? Yeah, man. I was just. My lady, she calling me right now. Like, I&#x27;m supposed to pick her up. Like today, like Tuesday, Thursday, I usually pick her up from campus. But I just had to let her know. And she hung me, and she called, and she complaining right now. And that&#x27;s why. And I&#x27;m not trying to. And the thing is, though, Mr. Lance, I&#x27;m not even trying to get on you or nothing. But like, that&#x27;s why I was like a little. Cause I&#x27;m like another job right now. Money&#x27;s kind of really tight right now for me. So any little extra, little fifteen, twenty, thirty, you know what I&#x27;m saying? Like, are you trying to get another job to work towards something? That&#x27;s what I&#x27;m trying to.</div></div><div class="seg"><div class="ts">1:00</div><div>You know, cause I just I hate asking my girl for something. I also don&#x27;t have you know, just the the resources to ask people for you know, hey, can you loan me this for a quick second until I get paid or this and that? You know, I just don&#x27;t have my parents to to reach out.</div></div><div class="seg"><div class="ts">1:14</div><div>So it&#x27;s like okay, um, yes sir. So do you want to shoot tomorrow then? Cause just so you know, when you shoot when you shoot cards and you upload them, I&#x27;m just gonna be paying you cash.</div></div><div class="seg"><div class="ts">1:28</div><div>Right now, I can try to think about it like this. I got,</div></div><div class="seg"><div class="ts">1:33</div><div>We got probably 15 cards that need to be shot. So what is 15 times 15?</div></div><div class="seg"><div class="ts">1:38</div><div>15 times 15. I can do that in my head. My head. I&#x27;m in a bad quiz right now. The point is,</div></div><div class="seg"><div class="ts">1:51</div><div>That&#x27;s 200 dollars.</div></div><div class="seg"><div class="ts">1:52</div><div>Yes sir. Yes sir.</div></div><div class="seg"><div class="ts">1:53</div><div>Yes sir. So yeah, we we got. Look, if you got other jobs, are you are you are you trying to leave work early and head over there to help.</div></div><div class="seg"><div class="ts">2:05</div><div>Her? Well, I mean, she called. She was on the other line until you called, so I didn&#x27;t really. I said I&#x27;m gonna request Mr. Lance&#x27;s call because the day though, she&#x27;s she&#x27;s depending on me too, though. You know what I mean? And that&#x27;s what I feel like I&#x27;m letting her down a little bit because it&#x27;s times where I mean, rent coming up, and then I also gotta. Have to make sure, and I&#x27;m not trying to say I&#x27;m complaining. You, I&#x27;m just letting you know, like, hey, as a college student, I want to be able to provide, and you know, as a man, you feel like a little bit down on yourself when you&#x27;re not, you know, you&#x27;re not making those steps or you&#x27;re not providing, you know, and that&#x27;s why you do need that partner to come sometimes to help out. But she&#x27;s not in that position right now, so it&#x27;s like I&#x27;m putting it on myself right now, you know. That&#x27;s good. Putting it on me, you know. Well,</div></div><div class="seg"><div class="ts">2:45</div><div>Listen, if you want to work with me, dude, this is what this is what we&#x27;re doing, and this is just. That&#x27;s not. You know that&#x27;s um, that&#x27;s up to you, if you want to do it. You know what I&#x27;m saying?</div></div><div class="seg"><div class="ts">2:57</div><div>That&#x27;s all good. You think that&#x27;s gonna be 15 a car, like 15 cars like every week, or how you feel like that&#x27;s gonna go about? Cause it&#x27;s like 220, and that&#x27;s that&#x27;s like damn, like that point is point I didn&#x27;t. Yeah, and look,</div></div><div class="seg"><div class="ts">3:09</div><div>And I can do more than 15 a car, but my point is, yes, sir, is with with Porsche. It&#x27;s going to be how many cars they get in. So once we&#x27;re calling exactly, how many cars do we get in? So that&#x27;s what you&#x27;ll be making with that. And it&#x27;s just going to be one car. So you&#x27;re not going to have to be like, well, I need to put in two hours to get my thirty bucks before tax. You see what I&#x27;m saying? Exactly. So it&#x27;s once you get going with me, it&#x27;s going to be how many cars do we have? Let me go shoot them. I need my money. You know what I&#x27;m saying?</div></div><div class="seg"><div class="ts">3:48</div><div>So it&#x27;s just a matter of if you get to the end of this afternoon, or if you want to wait until tomorrow. That&#x27;s up to you. Um,</div></div><div class="seg"><div class="ts">3:54</div><div>You think we can do some training tonight? Maybe like one or two, because I don&#x27;t think I can stay too long after, and then maybe tomorrow I can get started. Would that be good? Yeah. Oh. But do you need to go first? I mean, around four, cause she&#x27;s on campus right now, and I usually grab around four. But you know, like I just also also know like like I gotta get through tonight. Like just. I&#x27;m stretching till it&#x27;s not tomorrow. Like my check hits tomorrow, and it&#x27;s like I&#x27;m to a point where, you know, I&#x27;m at that point right now, and it&#x27;s like I gotta get through today. You know what I mean? And she knows that. So it&#x27;s like if I gotta stay out there an extra hour or so just to make some grocery money tonight, then that&#x27;s what I gotta do. And she she gonna understand that, you know?</div></div><div class="seg"><div class="ts">4:33</div><div>Yeah. Well, look, let&#x27;s do this. I need like I can get started with you earlier if you want, but it&#x27;s all about making sure you take care of them. You got everything buttoned up, you know. If you can get buttoned up for like three and three thirty, you and I can knock out a couple cars early.</div></div><div class="seg"><div class="ts">4:49</div><div>Yeah, well, you know, I gotta make sure all the loaners are clean and check with the texts. But I, I just, we have all the loaners pretty much cleaned out. I gotta, I gotta do one more. All right, and then we gotta check with Chris and everybody else.</div></div><div class="seg"><div class="ts">5:02</div><div>I got one or two texts I gotta do. Some little computer work. I need to sit down. I&#x27;m in my office on BMW. I&#x27;m gonna knock these couple things out. Let me know when you&#x27;re done, and I&#x27;ll walk over there and we&#x27;ll look at some cars.</div></div><div class="seg"><div class="ts">5:14</div><div>Alright, 3: 30. I&#x27;ll shoot you a text. That sound good?</div></div><div class="seg"><div class="ts">5:17</div><div>See ya? Have a good one, dude. I&#x27;ll see you then. Alright, Mr.</div></div><div class="seg"><div class="ts">5:20</div><div>Lance. Alright, bye.</div></div></section>
+</main>
+</div>
+<footer>PLAUD-NOTES-2026-10-16-AM · noindex · Plaud sources + notes</footer>
+<script>
+
+document.querySelectorAll('.tabs button').forEach(btn => {
+  btn.addEventListener('click', () => {
+    document.querySelectorAll('.tabs button').forEach(b => b.setAttribute('aria-selected', b===btn ? 'true':'false'));
+    document.querySelectorAll('.panel').forEach(p => p.classList.toggle('is-on', p.id === btn.dataset.panel));
+  });
+});
+
+</script>
+</body>
+</html>
