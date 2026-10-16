@@ -2,6 +2,56 @@
   "revision": "PLAUD-NOTES-2026-10-16-AM",
   "recordings": [
     {
+      "id": "of_9aed78c5028dff633ca63a78f17a9614",
+      "name": "BHBMW \u00b7 X5 showroom feature plaques \u00b7 5\u00d7 8.5\u00d711",
+      "start_at": "2026-10-16T16:54:13",
+      "created_at": "2026-10-16T16:55:33",
+      "duration_ms": 70000,
+      "vertical": "dealers",
+      "store": "bhbmw",
+      "routed_by": "spoken: Richie/BHBMW X5 desk plaques + Ada layout work order",
+      "status": "go",
+      "work_order": "Ada: print-ready 8.5\u00d711 X5 feature plaque matching all-new X5 page (\u00d75). Lance/Arnie: print + place. Confirm desk count if needed.",
+      "highlights": [
+        {
+          "timestamp": 8,
+          "title": "Ask",
+          "content": "Richie: same placard style as Audi \u2014 feature page + showroom CTA"
+        },
+        {
+          "timestamp": 30,
+          "title": "Qty",
+          "content": "Five plaques; six desks with one missing"
+        },
+        {
+          "timestamp": 56,
+          "title": "Ada work order",
+          "content": "8.5\u00d711 white paper, match all-new X5 feature page fonts/design"
+        }
+      ],
+      "summary_md": "## BMW X5 showroom feature plaques\nRichie asked Lance for tabletop feature placards at BHBMW (same style as prior Audi). Goal: drive desks to the all-new X5 feature page + invite showroom look.\n\n### Spec\n- 8.5 \u00d7 11 on white paper\n- Match fonts/design of the live all-new X5 feature page\n- Qty working decision: **5** (six desks, one missing \u2014 confirm with Richie if needed)\n\n### Who\n- **Ada:** lay out print-ready 8.5\u00d711 from existing X5 feature design\n- **Lance:** print / place with Arnie after design\n- **Richie:** desk count confirm if 5 is wrong\n\n### Source\nPlaud midday call ~1m10s \u00b7 2026-10-16\n",
+      "transcript": [
+        {
+          "start_time": 0,
+          "end_time": 8160,
+          "speaker": "Speaker 1",
+          "content": "Yeah."
+        },
+        {
+          "start_time": 8160,
+          "end_time": 56860,
+          "speaker": "Lance",
+          "content": "Yeah. Yeah. I can do that. I'll do the same kind of little placard that I was doing for Audi. Yeah. Like a little feature thing, drive them to the feature page, and then also tell them to come check it out on the showroom. Yeah. Yeah. I need to. I'll make like I don't know. Was it four of them? Four desks over there? Five. Yeah, I think five. All right. I think we only got six desks, but I think one's missing. Okay, yeah, I'll get it done. I'll make five of them. Thank you, Arnie. Bye bye. Hey Aida, that was Richie. We're gonna make some feature plaques, tabletop little stands. I've done it before. They're eight and a half by eleven. They're gonna be designed for bright here's BMW. You have a lot of design work already for the new X5."
+        },
+        {
+          "start_time": 56860,
+          "end_time": 68570,
+          "speaker": "Lance",
+          "content": "So you should actually be able to lay this out for me, eight and a half by eleven, to print on white paper, but to have the same fonts and same design as our new all-new X5 feature page."
+        }
+      ]
+    },
+    {
       "id": "of_3cd5148e2dde37ab5426dbe79d90396a",
       "name": "HP \u00b7 lot photo onboarding \u00b7 ~15 cars @ $15 \u00b7 tracker + Drive",
       "start_at": "2026-10-13T19:30:27",
