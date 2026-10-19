@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>BHBMW · Vanessa VCA complaints · hours / frequency / inventory</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500&family=IBM+Plex+Mono:wght@400;500&family=Source+Sans+3:wght@400;600;700&display=swap">
+  <style>
+:root {
+  --bg: #090908;
+  --bg-2: #11110f;
+  --bg-3: #181714;
+  --ink: #f0eadc;
+  --muted: #8d8778;
+  --faint: #5c574c;
+  --line: #26241e;
+  --accent: #c4452d;
+  --mustard: #c4a35a;
+  --blue: #6f8fbf;
+  --ok: #7d9a6d;
+  --serif: "Fraunces", "Iowan Old Style", Georgia, serif;
+  --sans: "Source Sans 3", "Source Sans Pro", -apple-system, sans-serif;
+  --mono: "IBM Plex Mono", ui-monospace, monospace;
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html, body { background: var(--bg); color: var(--ink); }
+body {
+  font-family: var(--sans);
+  min-height: 100vh;
+  text-wrap: pretty;
+}
+a { color: inherit; }
+.shell { display: grid; grid-template-columns: 260px 1fr; min-height: 100vh; }
+.rail {
+  border-right: 1px solid var(--line);
+  padding: 28px 18px 40px;
+  background: var(--bg-2);
+  position: sticky; top: 0; height: 100vh; overflow: auto;
+}
+.mark {
+  font-family: var(--serif);
+  font-weight: 500;
+  font-size: 13px;
+  letter-spacing: .18em;
+  text-transform: uppercase;
+  color: var(--accent);
+}
+.rail h1 {
+  font-family: var(--serif);
+  font-size: 28px;
+  font-weight: 460;
+  letter-spacing: -.03em;
+  margin: 10px 0 6px;
+}
+.rail .lede { color: var(--muted); font-size: 13.5px; line-height: 1.45; margin-bottom: 28px; }
+.vnav { display: flex; flex-direction: column; gap: 4px; }
+.vnav a {
+  display: flex; justify-content: space-between; align-items: baseline;
+  text-decoration: none; padding: 9px 10px; border-radius: 8px;
+  color: var(--ink); font-size: 14px;
+}
+.vnav a:hover, .vnav a.is-on { background: var(--bg-3); }
+.vnav a.is-on { box-shadow: inset 2px 0 0 var(--accent); }
+.vnav .count { color: var(--faint); font-family: var(--mono); font-size: 11px; }
+.stage { padding: 36px 40px 80px; max-width: 980px; }
+.kicker {
+  font-size: 11px; letter-spacing: .16em; text-transform: uppercase;
+  color: var(--accent); font-weight: 700; margin-bottom: 8px;
+}
+.stage > h2 {
+  font-family: var(--serif); font-weight: 460; font-size: 34px;
+  letter-spacing: -.03em; margin-bottom: 8px;
+}
+.blurb { color: var(--muted); margin-bottom: 28px; max-width: 46rem; }
+.empty {
+  border: 1px dashed var(--line); border-radius: 14px;
+  padding: 36px 28px; color: var(--muted); background: var(--bg-2);
+}
+.empty strong { color: var(--ink); font-weight: 600; }
+.cards { display: flex; flex-direction: column; gap: 10px; }
+.card {
+  display: grid; grid-template-columns: 1fr auto; gap: 12px;
+  text-decoration: none; padding: 16px 18px; border-radius: 12px;
+  background: var(--bg-2); border: 1px solid var(--line);
+}
+.card:hover { border-color: #3a372e; background: var(--bg-3); }
+.card h3 { font-size: 16px; font-weight: 600; margin-bottom: 4px; }
+.meta { color: var(--muted); font-size: 13px; display: flex; gap: 10px; flex-wrap: wrap; }
+.chip {
+  font-family: var(--mono); font-size: 10px; letter-spacing: .06em;
+  text-transform: uppercase; padding: 3px 7px; border-radius: 999px;
+  border: 1px solid var(--line); color: var(--muted); height: fit-content;
+}
+.chip.dealers { color: var(--blue); border-color: #2a3344; }
+.chip.avec-tous { color: var(--mustard); border-color: #3a3320; }
+.chip.personal { color: #c9a7a0; }
+.chip.ideas { color: var(--ok); }
+.note-top { margin-bottom: 22px; }
+.note-top h2 { font-family: var(--serif); font-size: 36px; font-weight: 460; letter-spacing: -.03em; }
+.tabs { display: flex; gap: 6px; margin: 22px 0 18px; border-bottom: 1px solid var(--line); }
+.tabs button {
+  appearance: none; background: none; border: 0; color: var(--muted);
+  font: 600 13px var(--sans); padding: 10px 12px; cursor: pointer;
+  border-bottom: 2px solid transparent; margin-bottom: -1px;
+}
+.tabs button[aria-selected="true"] { color: var(--ink); border-bottom-color: var(--accent); }
+.panel { display: none; }
+.panel.is-on { display: block; }
+.prose { font-size: 16.5px; line-height: 1.6; max-width: 42rem; }
+.prose h2, .prose h3 { font-family: var(--serif); font-weight: 500; margin: 1.3em 0 .4em; }
+.prose p { margin: 0 0 .8em; }
+.prose ul, .prose ol { margin: 0 0 1em 1.2em; }
+.prose li { margin: .25em 0; }
+.hl { border-left: 2px solid var(--accent); padding: 10px 0 10px 14px; margin: 0 0 14px; }
+.hl .t { font-family: var(--mono); font-size: 11px; color: var(--faint); }
+.hl h4 { font-size: 15px; margin: 4px 0; }
+.hl p { color: var(--muted); font-size: 14.5px; }
+.seg { display: grid; grid-template-columns: 64px 1fr; gap: 12px; padding: 8px 0; border-bottom: 1px solid var(--line); }
+.seg .ts { font-family: var(--mono); font-size: 11px; color: var(--faint); padding-top: 3px; }
+.back { color: var(--muted); text-decoration: none; font-size: 13px; display: inline-block; margin-bottom: 18px; }
+.back:hover { color: var(--ink); }
+footer { margin-top: 48px; color: var(--faint); font-size: 11px; font-family: var(--mono); }
+@media (max-width: 820px) {
+  .shell { grid-template-columns: 1fr; }
+  .rail { position: relative; height: auto; border-right: 0; border-bottom: 1px solid var(--line); }
+  .stage { padding: 24px 18px 64px; }
+  .note-top h2 { font-size: 28px; }
+}
+</style>
+</head>
+<body>
+<div class="shell">
+<aside class="rail">
+  <div class="mark">Cooperative</div>
+  <h1>Field desk</h1>
+  <p class="lede">Plaud landings. Summary, highlights, transcript — filed by life area.</p>
+  <nav class="vnav"><a href="../index.html" class="">All <span class="count">90</span></a><a class="" href="../vertical-inbox.html">Inbox <span class="count">1</span></a><a class="" href="../vertical-personal.html">Personal <span class="count">7</span></a><a class="" href="../vertical-coop-marketing.html">Coop Marketing <span class="count">5</span></a><a class="" href="../vertical-coop-dev.html">Coop Dev <span class="count">11</span></a><a class="" href="../vertical-avec-tous.html">Avec Tous <span class="count">0</span></a><a class="is-on" href="../vertical-dealers.html">Dealers <span class="count">62</span></a><a class="" href="../vertical-ideas.html">Ideas <span class="count">4</span></a></nav>
+</aside>
+<main class="stage">
+  <a class="back" href="../index.html">← Desk</a>
+  <div class="note-top">
+    <div class="kicker">dealers · 2026-10-16 · 5m29s</div>
+    <h2>BHBMW · Vanessa VCA complaints · hours / frequency / inventory</h2>
+    <div class="meta" style="margin-top:8px"><span>id of_df5bf134ac9e3e507d7efc92b12fed98</span><span>spoken: Vanessa Vin AI bot customer anger; Lance settings + tech email</span></div>
+  </div>
+  <div class="tabs" role="tablist">
+    <button type="button" data-panel="sum" aria-selected="true">Summary</button>
+    <button type="button" data-panel="hl" aria-selected="false">Highlights</button>
+    <button type="button" data-panel="tx" aria-selected="false">Transcript</button>
+  </div>
+  <section id="sum" class="panel is-on prose"><h2>Vanessa (Vin VCA) — customer anger at BHBMW</h2>
+<p>Floor: multiple angry customers. Issues:</p>
+<ul>
+<li>Overnight texts (2–3am)</li>
+<li>Frequency every 10–15 minutes</li>
+<li>No memory/context (re-books after visit; duplicates)</li>
+<li>Unconfirmed appointments → no-shows</li>
+<li>Bad inventory (X5 “in stock / sellable”)</li>
+<li>Personal-phone SMS doesn’t trip auto-pause — message in Vin or 30-day pause</li>
+</ul>
+<h3>Lance / go</h3>
+<ul>
+<li>Confirm auto-pause when rep engages in Vin</li>
+<li>Hours + frequency caps</li>
+<li>Email Vin tech on context, unconfirmed appts, inventory accuracy</li>
+<li>Re-brief floor: VCA is opener; take over / pause</li>
+</ul>
+<h3>Plaud AI note</h3>
+<h2>1. Vanessa AI Bot Configuration and Issue Resolution</h2>
+<p>The team assessed multiple customer service issues caused by Vanessa, the new AI solution bot. Customers and sales staff reported that Vanessa sends text messages at inappropriate hours (e.g., 2:00 AM or 3:00 AM), messages too frequently (every 10 to 15 minutes), fails to retain conversation context, sets duplicate appointments or creates appointments without customer confirmation resulting in no-shows, and provides incorrect inventory information (such as stating X5 vehicles were in stock and available for sale on 2026-10-15 when they were not). Additionally, the AI continues messaging customers when salespeople text directly from personal phones instead of through the Vin application, bypassing the automatic engagement shut-off. Planned remedies include adjusting messaging windows, enforcing frequency limits, educating salespeople to message inside Vin or use the pause feature (up to 30 days), and escalating backend system flaws to technical support.</p>
+<h3>Action Items</h3>
+<ul>
+<li>[ ] Verify and maintain the auto-pause setting so the AI stops messaging when a salesperson engages through Vin. -- *Lance*</li>
+<li>[ ] Review and adjust system settings to enforce texting frequency limits and restrict outreach hours to prevent overnight messaging. -- *Lance*</li>
+<li>[ ] Email compiled notes and issues to technical support to resolve system behavior, improve context retention, and correct inventory accuracy. -- *Lance*</li>
+</ul>
+<p>&gt; <strong>AI Suggestions</strong> &gt; AI has identified the following issues that were not concluded in the meeting or lack clear action items; please pay attention: &gt; 1. The root cause of the AI bot booking unconfirmed appointments and providing inaccurate inventory data (such as X5 stock availability) remains unresolved and requires immediate technical investigation to prevent customer churn. &gt; 2. Sales staff continue texting customers directly from personal mobile devices rather than through the Vin application, preventing system recognition and duplicate contact suppression; clear operational guidelines and enforcement are lacking. &gt; 3. Standard operating procedures (SOPs) defining exactly when sales representatives must take over conversations from the AI or manually trigger the 30-day pause have not been formally established across dealerships.</p></section>
+  <section id="hl" class="panel"><div class="hl"><div class="t">0:00</div><h4>Hours</h4><p>VCA texting 2–3am</p></div><div class="hl"><div class="t">0:00</div><h4>Frequency</h4><p>Every 10–15 min</p></div><div class="hl"><div class="t">0:00</div><h4>Inventory</h4><p>Told customer X5 sellable/in stock when not</p></div><div class="hl"><div class="t">0:00</div><h4>Pause gap</h4><p>Personal-phone texts bypass auto-pause</p></div></section>
+  <section id="tx" class="panel"><div class="seg"><div class="ts">0:01</div><div>Just hold the Vanessa, the new, the new AI girl on solutions. We are having a lot of very angry customers, very very angry customers. Okay. I&#x27;ve looked at a couple of the things and I can kind of understand why. I&#x27;ve been seeing a lot of the stuff. So we&#x27;ve actually had three customers that I&#x27;ve personally talked to that aren&#x27;t even complaining. Like not even complaining, mad. What did they say? She&#x27;s texting at really inappropriate hours, two, three o&#x27;clock in the morning. Okay, I can fix that. Yep, no, I&#x27;m thinking about this. So I&#x27;m just going to give you everything that I&#x27;m hearing. Yep. So texting really inappropriate hours. Not it doesn&#x27;t. From what I&#x27;m hearing, she&#x27;s not remembering stuff she&#x27;s done. So like, say, she already set an appointment with a customer. She&#x27;s trying to set another appointment for a customer. Okay. Then she&#x27;s like, say, we just had a customer that came in. Kyle&#x27;s customer just came in. This is a scenario. Customer just had an appointment. Then she followed up with them, like literally immediately, asking them for an appointment, which they were just here. You know what I mean? Um. Yep. And then.</div></div><div class="seg"><div class="ts">0:57</div><div>Wrong information, texting like every ten minutes, every fifteen minutes. I guess very obnoxious is I guess the best word. Important. They&#x27;re all asking me. Yeah, doing too much. No, we need to fix it. Good things too, but yeah.</div></div><div class="seg"><div class="ts">1:10</div><div>Well, she&#x27;s set a bunch of appointments.</div></div><div class="seg"><div class="ts">1:13</div><div>Yeah, that&#x27;s what I&#x27;m saying. That&#x27;s what I told them.</div></div><div class="seg"><div class="ts">1:14</div><div>Yeah. So, God. All right, so just to review, so not remembering what she just did, inappropriate hours, and then, and then also like just doing things twice.</div></div><div class="seg"><div class="ts">1:27</div><div>Yeah, wrong information. Yeah. Yeah, really like bothering the shit out of customers way too often.</div></div><div class="seg"><div class="ts">1:33</div><div>Yeah, I need to see if there&#x27;s a setting to like to change her frequency,</div></div><div class="seg"><div class="ts">1:37</div><div>Basically. Okay, and then somebody I heard from two other people say that there&#x27;s somehow she&#x27;s setting appointments for school, but there&#x27;s no line of issues like this without even being engaged in setting appointments. All these appointments that she&#x27;s doing, not all the ones that are like this, no communication, aren&#x27;t showing up, and the customers never answer. Okay.</div></div><div class="seg"><div class="ts">1:59</div><div>Yeah, did she send? Is she setting an appointment, and the customer never said yes? That could possibly be. That&#x27;s what it sounds like, because that&#x27;s retarded.</div></div><div class="seg"><div class="ts">2:09</div><div>Yeah. If you could just kind of go through. Yeah. See, because it&#x27;s all of the. When I first started hearing it, I thought it was just one salesperson fussy, and then it&#x27;s just going on.</div></div><div class="seg"><div class="ts">2:19</div><div>Sometimes it is one salesperson being fussy, like at Audi, it&#x27;s always Jack. You know, and and I told him. I looked right in his eyes. I was like, &quot;You&#x27;re the problem, Jack. Like so often, you&#x27;re the problem. Like, for fuck&#x27;s sake, just pause it. Stop bothering me.&quot; So I told them that too. I said, &quot;Y&#x27;all would be awesome.&quot; Pause this damn thing. Like, if if you&#x27;re, so I I did turn something on. I&#x27;ll double check and make sure it stayed active. But I set a setting to where this thing&#x27;s not supposed to continue engaging if the salesperson is engaging. Here&#x27;s the problem. Jack goes, &quot;Well, I&#x27;m texting him.&quot; I was like, &quot;I know, Jack.&quot;</div></div><div class="seg"><div class="ts">2:52</div><div>But you&#x27;re texting them from your fucking phone. She&#x27;s not. It&#x27;s not omni. I&#x27;m fucking like. It&#x27;s yeah. It can&#x27;t tell. So so I did turn a setting on that if they&#x27;re engaging, she&#x27;s supposed to shut up basically. But if they&#x27;re not like completing calls and then also texting in the app, like in Vin, then it doesn&#x27;t know. Like tell. Make sure they know that because I&#x27;m pretty sure a lot of people are still just messaging from their phone.</div></div><div class="seg"><div class="ts">3:20</div><div>Sure. Oh, for sure,</div></div><div class="seg"><div class="ts">3:28</div><div>Yeah, but but just know that like it&#x27;s it&#x27;s supposed to like settle down and slow down if you&#x27;re messaging through the app, but also just use that damn that pause feature and like you can go out to thirty days. And pause.</div></div><div class="seg"><div class="ts">3:45</div><div>No, they know that. I&#x27;ve talked to them. I went through this with them. But they&#x27;re saying it&#x27;s like multiple customers that they&#x27;re not even like. That&#x27;s easy to do on one customer. That&#x27;s yeah. Bit much with yeah. But they&#x27;re saying it&#x27;s like all of their customers reaching out like Vanessa&#x27;s AI bot is too much.</div></div><div class="seg"><div class="ts">3:59</div><div>Yeah, she&#x27;s too much. Fuck. Why can&#x27;t it just be podium but built into Vin? Right, right. God.</div></div><div class="seg"><div class="ts">4:07</div><div>So I figured I would let you know if you could kind of look into it and see. Okay. Yep. I had a few giving wrong information. Like I had one customer that I had to go intervene with. I was mad because apparently Vanessa told them. That the X5 was sellable yesterday, and we had a bunch of, and we had a bunch in stock, which we don&#x27;t, and all kinds of stuff. So he could drive all the way here, I guess, from work or something. He&#x27;s mad.</div></div><div class="seg"><div class="ts">4:31</div><div>Yeah, and one problem that I have too sometimes, and I don&#x27;t know if this is happening with with with this with our store, but it happens at Audi. That AI is just doing work, and they&#x27;re never like, they&#x27;re just watching it work, and I&#x27;m like. It&#x27;s just a computer. Like you have to intervene. You have to talk to the customer. You have to take over. You have to turn it off. Like, it&#x27;s kind of just meant to like get the ball rolling, and then you turn it off. Right. You know. So it&#x27;s like just let it let it be your after hours. Let it be your early in the morning. Or hey, I was busy, so my AI messaged for me. But then just turn it off. You know. Yeah.</div></div><div class="seg"><div class="ts">5:13</div><div>But I will make all these settings. I just I took all the notes, and we&#x27;ll I&#x27;ll get an email sent over to my nerd, and and see if he can fix some of this stuff for us. Okay. Thank you. Thank you so much. Okay. Goodbye.</div></div></section>
+</main>
+</div>
+<footer>PLAUD-NOTES-2026-10-19-AM · noindex · Plaud sources + notes</footer>
+<script>
+
+document.querySelectorAll('.tabs button').forEach(btn => {
+  btn.addEventListener('click', () => {
+    document.querySelectorAll('.tabs button').forEach(b => b.setAttribute('aria-selected', b===btn ? 'true':'false'));
+    document.querySelectorAll('.panel').forEach(p => p.classList.toggle('is-on', p.id === btn.dataset.panel));
+  });
+});
+
+</script>
+</body>
+</html>
