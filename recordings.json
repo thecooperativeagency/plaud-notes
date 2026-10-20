@@ -43067,6 +43067,28 @@
       ],
       "filed_at": "2026-10-16T06:02:54-05:00",
       "source_note": "10-15 Fitness Offer Architecture and Course Preparation Strategy"
+    },
+    {
+      "id": "of_4cfbf20754c8c5416e6568d31f1f0d18",
+      "name": "ABR \u00b7 Q3/Q5 as-low-as 1.9% on specials + Google Ads",
+      "start_at": "2026-10-19T19:04:03",
+      "created_at": "2026-10-19T19:04:49",
+      "duration_ms": 35000,
+      "vertical": "dealers",
+      "store": "abr",
+      "routed_by": "spoken: Audi special offers page + Google Ads prompt",
+      "status": "go",
+      "work_order": "Ada: add \u201cas low as 1.9 available\u201d for new Q3/Q5 on ABR special offers page. Lance also said add to live Google Ads (confirm copy with him before enable if needed). Terms not on tape.",
+      "highlights": [],
+      "summary_md": "## 1. Audi Special Offers and Advertising Update\nThe dealership is updating promotional campaigns for new vehicle inventory to highlight competitive financing rates. Promotional messaging stating financing \"as low as 1.9 available\" must be integrated into ongoing advertising channels and the website to drive customer engagement for new Q3 and Q5 models.\n### Action Items\n- [ ] Add the promotional rate of \u201cas low as 1.9 available\u201d for new Q3 and Q5 models to active Google Ads campaigns \u2014 *Lance*\n- [ ] Update the Audi Special Offers page with the 1.9% financing offer for new Q3 and Q5 models \u2014 *Lance*, *Andy*\n\n> **AI Suggestions**\n> 1. Exact terms (term length, qualifiers, expiration) not specified on tape.\n> 2. No hard deadline named.\n> 3. Model years not clarified.",
+      "transcript": [
+        {
+          "start_time": 0,
+          "end_time": 32439,
+          "content": "I'll add it to the specials page. All right, and I'll yep. All right, good. I'll add those to the Google ads that are happening right now too. No, we'll just say as low as one, you know, 1.9 available. New Q3s and Q5s. Got it. Yeah, yeah. Thank you, man. Bye. Outside. Andy, we're gonna we need to go ahead and treat this as a prompt. Go ahead and add to our Audi special offers page. One point nine available on Q threes and Q fives.",
+          "speaker": "Lance"
+        }
+      ]
     }
   ]
 }
