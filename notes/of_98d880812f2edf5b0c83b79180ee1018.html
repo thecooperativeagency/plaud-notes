@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ABR · preview Audi shoot brief + shot-list contacts WO</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500&family=IBM+Plex+Mono:wght@400;500&family=Source+Sans+3:wght@400;600;700&display=swap">
+  <style>
+:root {
+  --bg: #090908;
+  --bg-2: #11110f;
+  --bg-3: #181714;
+  --ink: #f0eadc;
+  --muted: #8d8778;
+  --faint: #5c574c;
+  --line: #26241e;
+  --accent: #c4452d;
+  --mustard: #c4a35a;
+  --blue: #6f8fbf;
+  --ok: #7d9a6d;
+  --serif: "Fraunces", "Iowan Old Style", Georgia, serif;
+  --sans: "Source Sans 3", "Source Sans Pro", -apple-system, sans-serif;
+  --mono: "IBM Plex Mono", ui-monospace, monospace;
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html, body { background: var(--bg); color: var(--ink); }
+body {
+  font-family: var(--sans);
+  min-height: 100vh;
+  text-wrap: pretty;
+}
+a { color: inherit; }
+.shell { display: grid; grid-template-columns: 260px 1fr; min-height: 100vh; }
+.rail {
+  border-right: 1px solid var(--line);
+  padding: 28px 18px 40px;
+  background: var(--bg-2);
+  position: sticky; top: 0; height: 100vh; overflow: auto;
+}
+.mark {
+  font-family: var(--serif);
+  font-weight: 500;
+  font-size: 13px;
+  letter-spacing: .18em;
+  text-transform: uppercase;
+  color: var(--accent);
+}
+.rail h1 {
+  font-family: var(--serif);
+  font-size: 28px;
+  font-weight: 460;
+  letter-spacing: -.03em;
+  margin: 10px 0 6px;
+}
+.rail .lede { color: var(--muted); font-size: 13.5px; line-height: 1.45; margin-bottom: 28px; }
+.vnav { display: flex; flex-direction: column; gap: 4px; }
+.vnav a {
+  display: flex; justify-content: space-between; align-items: baseline;
+  text-decoration: none; padding: 9px 10px; border-radius: 8px;
+  color: var(--ink); font-size: 14px;
+}
+.vnav a:hover, .vnav a.is-on { background: var(--bg-3); }
+.vnav a.is-on { box-shadow: inset 2px 0 0 var(--accent); }
+.vnav .count { color: var(--faint); font-family: var(--mono); font-size: 11px; }
+.stage { padding: 36px 40px 80px; max-width: 980px; }
+.kicker {
+  font-size: 11px; letter-spacing: .16em; text-transform: uppercase;
+  color: var(--accent); font-weight: 700; margin-bottom: 8px;
+}
+.stage > h2 {
+  font-family: var(--serif); font-weight: 460; font-size: 34px;
+  letter-spacing: -.03em; margin-bottom: 8px;
+}
+.blurb { color: var(--muted); margin-bottom: 28px; max-width: 46rem; }
+.empty {
+  border: 1px dashed var(--line); border-radius: 14px;
+  padding: 36px 28px; color: var(--muted); background: var(--bg-2);
+}
+.empty strong { color: var(--ink); font-weight: 600; }
+.cards { display: flex; flex-direction: column; gap: 10px; }
+.card {
+  display: grid; grid-template-columns: 1fr auto; gap: 12px;
+  text-decoration: none; padding: 16px 18px; border-radius: 12px;
+  background: var(--bg-2); border: 1px solid var(--line);
+}
+.card:hover { border-color: #3a372e; background: var(--bg-3); }
+.card h3 { font-size: 16px; font-weight: 600; margin-bottom: 4px; }
+.meta { color: var(--muted); font-size: 13px; display: flex; gap: 10px; flex-wrap: wrap; }
+.chip {
+  font-family: var(--mono); font-size: 10px; letter-spacing: .06em;
+  text-transform: uppercase; padding: 3px 7px; border-radius: 999px;
+  border: 1px solid var(--line); color: var(--muted); height: fit-content;
+}
+.chip.dealers { color: var(--blue); border-color: #2a3344; }
+.chip.avec-tous { color: var(--mustard); border-color: #3a3320; }
+.chip.personal { color: #c9a7a0; }
+.chip.ideas { color: var(--ok); }
+.note-top { margin-bottom: 22px; }
+.note-top h2 { font-family: var(--serif); font-size: 36px; font-weight: 460; letter-spacing: -.03em; }
+.tabs { display: flex; gap: 6px; margin: 22px 0 18px; border-bottom: 1px solid var(--line); }
+.tabs button {
+  appearance: none; background: none; border: 0; color: var(--muted);
+  font: 600 13px var(--sans); padding: 10px 12px; cursor: pointer;
+  border-bottom: 2px solid transparent; margin-bottom: -1px;
+}
+.tabs button[aria-selected="true"] { color: var(--ink); border-bottom-color: var(--accent); }
+.panel { display: none; }
+.panel.is-on { display: block; }
+.prose { font-size: 16.5px; line-height: 1.6; max-width: 42rem; }
+.prose h2, .prose h3 { font-family: var(--serif); font-weight: 500; margin: 1.3em 0 .4em; }
+.prose p { margin: 0 0 .8em; }
+.prose ul, .prose ol { margin: 0 0 1em 1.2em; }
+.prose li { margin: .25em 0; }
+.hl { border-left: 2px solid var(--accent); padding: 10px 0 10px 14px; margin: 0 0 14px; }
+.hl .t { font-family: var(--mono); font-size: 11px; color: var(--faint); }
+.hl h4 { font-size: 15px; margin: 4px 0; }
+.hl p { color: var(--muted); font-size: 14.5px; }
+.seg { display: grid; grid-template-columns: 64px 1fr; gap: 12px; padding: 8px 0; border-bottom: 1px solid var(--line); }
+.seg .ts { font-family: var(--mono); font-size: 11px; color: var(--faint); padding-top: 3px; }
+.back { color: var(--muted); text-decoration: none; font-size: 13px; display: inline-block; margin-bottom: 18px; }
+.back:hover { color: var(--ink); }
+footer { margin-top: 48px; color: var(--faint); font-size: 11px; font-family: var(--mono); }
+@media (max-width: 820px) {
+  .shell { grid-template-columns: 1fr; }
+  .rail { position: relative; height: auto; border-right: 0; border-bottom: 1px solid var(--line); }
+  .stage { padding: 24px 18px 64px; }
+  .note-top h2 { font-size: 28px; }
+}
+</style>
+</head>
+<body>
+<div class="shell">
+<aside class="rail">
+  <div class="mark">Cooperative</div>
+  <h1>Field desk</h1>
+  <p class="lede">Plaud landings. Summary, highlights, transcript — filed by life area.</p>
+  <nav class="vnav"><a href="../index.html" class="">All <span class="count">97</span></a><a class="" href="../vertical-inbox.html">Inbox <span class="count">1</span></a><a class="" href="../vertical-personal.html">Personal <span class="count">7</span></a><a class="" href="../vertical-coop-marketing.html">Coop Marketing <span class="count">5</span></a><a class="" href="../vertical-coop-dev.html">Coop Dev <span class="count">11</span></a><a class="" href="../vertical-avec-tous.html">Avec Tous <span class="count">0</span></a><a class="is-on" href="../vertical-dealers.html">Dealers <span class="count">69</span></a><a class="" href="../vertical-ideas.html">Ideas <span class="count">4</span></a></nav>
+</aside>
+<main class="stage">
+  <a class="back" href="../index.html">← Desk</a>
+  <div class="note-top">
+    <div class="kicker">dealers · 2026-10-20 · 1h33m</div>
+    <h2>ABR · preview Audi shoot brief + shot-list contacts WO</h2>
+    <div class="meta" style="margin-top:8px"><span>id of_98d880812f2edf5b0c83b79180ee1018</span><span>spoken: ABR managers + shot list page + photographer</span></div>
+  </div>
+  <div class="tabs" role="tablist">
+    <button type="button" data-panel="sum" aria-selected="true">Summary</button>
+    <button type="button" data-panel="hl" aria-selected="false">Highlights</button>
+    <button type="button" data-panel="tx" aria-selected="false">Transcript</button>
+  </div>
+  <section id="sum" class="panel is-on prose"><h2>Ada filing note</h2>
+<p>~1h34m composite. <strong>Real work</strong> is the opening ABR preview-vehicle photo shoot brief (~7m) + later note that the photographer is on site with shot list (<strong>Copper</strong> coaching). Remainder = Hotel Monteleone checkout, Carousel Bar, NOLA transit / go-karts / ambient.</p>
+<h3>Coop takeaway</h3>
+<ul>
+<li>Freelance shooter on <strong>unreleased Audi preview</strong> unit at ABR (train/demo car, not on lot yet)</li>
+<li>Rate <strong>$250</strong> Apple Cash/Venmo; vertical <strong>1080p / 60fps</strong> phone reels; HP IG as style ref; <strong>minimal edit / raws OK</strong></li>
+<li>Shot-list page already linked to photographer (Drive upload on page)</li>
+<li><strong>WO:</strong> add <strong>Hedrick, Chad, Eric</strong> as on-site contacts — <strong>names + roles only</strong>; make shot checkboxes <strong>toggle + save</strong></li>
+<li>Photographer ETA ~<strong>11:30</strong>; check in with Chad/Eric/Hedrick</li>
+<li>Later on tape: shooter is live; Copper directing</li>
+</ul>
+<h3>Routing</h3>
+<p>dealers / ABR · go (shot-list page WO — Copper handled live on call; Mini could not locate page path in repos to verify)</p>
+<p>---</p>
+<p>Lance coordinates a professional photography shoot for an unreleased Audi preview vehicle and manages digital shot-list updates with his assistant, while his travel group navigates hotel checkout in New Orleans, relaxes at the Carousel Bar, and departs for go-karting at K1 Speed.</p>
+<h2>Commercial Vehicle Media Shoot Coordination and Digital Shot-List Configuration</h2>
+<p>Lance coordinates arrangements with an external photographer to capture commercial promotional content for an unreleased Audi vehicle brought to the dealership as an early preview for staff training. Compensation: $250 via Apple Cash or Venmo. Style: vertical video at 1080p / 60fps on phone; Harris Porsche Instagram as reel benchmark. Prefer minimal editing / raws OK; upload to Google Drive linked on the shot-list page.</p>
+<p>Lance directs assistant to update the shot-list portal: Hedrick, Chad, and Eric as on-site points of contact (names and roles only, no phones). Functional checkboxes on each shot so the photographer can toggle and save progress on the floor. ETA ~11:30.</p>
+<h2>Hotel / personal remainder</h2>
+<p>Hotel Monteleone checkout, Carousel Bar, NOLA transit, K1 Speed — not Coop work.</p></section>
+  <section id="hl" class="panel"><div class="hl"><div class="t">0:00</div><h4>Rate + style</h4><p>$250 Apple Cash/Venmo; vertical 1080p60 phone reels; HP IG reference; minimal edit / raws OK</p></div><div class="hl"><div class="t">0:00</div><h4>Vehicle</h4><p>Unreleased Audi preview at ABR for staff train — not on lot yet</p></div><div class="hl"><div class="t">0:00</div><h4>Contacts WO</h4><p>Hedrick, Chad, Eric — names and roles only on shot-list page</p></div><div class="hl"><div class="t">0:00</div><h4>Checkboxes WO</h4><p>Functional toggle + save so shooter can mark progress</p></div><div class="hl"><div class="t">0:00</div><h4>Copper</h4><p>Later: photographer on site with full shot list; Copper directing</p></div></section>
+  <section id="tx" class="panel"><div class="seg"><div class="ts">0:06</div><div>Hey, what&#x27;s going on, man? ... I need to start finding me some people to kind of shoot content for me. ... cinematic quick shots that become reels. ... if you can shoot me a few, dude, I shoot vertical 1080, 60 frames on a phone for my reels ... if you look at ... the Harris Porsche Instagram, there&#x27;s some reels on there.</div></div><div class="seg"><div class="ts">1:04</div><div>I texted you. You&#x27;ve got the link to my shot list page for that car today. ... catch everything that&#x27;s on there ... probably more than I need ... It&#x27;s not even on the lot yet. What you&#x27;re seeing there is a preview because they brought one to us from Audi to look at and to train on. ... Google Drive is on there, so you can upload the pictures. I like my stuff very minimally edited, so not like strong strong presets.</div></div><div class="seg"><div class="ts">2:05</div><div>you can just drop me the raws ... or you can also edit a few if you want ... Clint, for example, loves getting into the editing.</div></div><div class="seg"><div class="ts">2:24</div><div>Is 250 work for you? Okay, that&#x27;s what we&#x27;ll do ... Apple Cash or Venmo ... When you get there, you can look for the two managers that are kind of be on point.</div></div><div class="seg"><div class="ts">3:01</div><div>I&#x27;ll add them to the shot list sheet ... Chad and Hedrick, the two managers of that dealership. ... if you&#x27;re in town this week, let&#x27;s try to hook up.</div></div><div class="seg"><div class="ts">4:35</div><div>Hey, on the shot list page, add Hedrick and Chad and Eric as the points of contact. If he has any questions while he&#x27;s at the store.</div></div><div class="seg"><div class="ts">4:57</div><div>Adding Hedrick, Chad, and Eric as the contacts on the shot list page.</div></div><div class="seg"><div class="ts">5:11</div><div>It&#x27;s pulling their titles and work info from your email to go with the names. Want me to include phone numbers too, or names and roles only.</div></div><div class="seg"><div class="ts">5:18</div><div>Names and roles only is fine.</div></div><div class="seg"><div class="ts">5:20</div><div>Names and roles, it is. Same page, same link. Anything else you want tweaked on there.</div></div><div class="seg"><div class="ts">6:10</div><div>Also, are those check boxes by each shot functional check boxes?</div></div><div class="seg"><div class="ts">6:16</div><div>Functional check boxes. Making them actually toggle and save.</div></div><div class="seg"><div class="ts">6:22</div><div>That way, he can kind of keep track of what he shot.</div></div><div class="seg"><div class="ts">6:24</div><div>That&#x27;s exactly the idea.</div></div><div class="seg"><div class="ts">16:35</div><div>I&#x27;ve got a guy coming to shoot it. He&#x27;ll be there in just a few minutes. ... Who&#x27;s an actual professional photographer. ... I told him to check in with you, Chad, or Eric ... sending him like 11:30 because I figured ... when the trainer would be done.</div></div><div class="seg"><div class="ts">42:27</div><div>So right now, currently, I have a whole new photographer going shoot a call out for me. ... He has a whole shot list, and Copper&#x27;s telling him what to do. ... He&#x27;s way more chill than Clint. I said, listen, you can edit some, send me some presets, but I like things to be subtly edited.</div></div></section>
+</main>
+</div>
+<footer>PLAUD-NOTES-2026-10-20-MID · noindex · Plaud sources + notes</footer>
+<script>
+
+document.querySelectorAll('.tabs button').forEach(btn => {
+  btn.addEventListener('click', () => {
+    document.querySelectorAll('.tabs button').forEach(b => b.setAttribute('aria-selected', b===btn ? 'true':'false'));
+    document.querySelectorAll('.panel').forEach(p => p.classList.toggle('is-on', p.id === btn.dataset.panel));
+  });
+});
+
+</script>
+</body>
+</html>

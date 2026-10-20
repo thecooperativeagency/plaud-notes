@@ -1,5 +1,5 @@
 {
-  "revision": "PLAUD-NOTES-2026-10-19-MID",
+  "revision": "PLAUD-NOTES-2026-10-20-MID",
   "recordings": [
     {
       "name": "BHBMW \u00b7 4 Series missing on website",
@@ -43087,6 +43087,144 @@
           "end_time": 32439,
           "content": "I'll add it to the specials page. All right, and I'll yep. All right, good. I'll add those to the Google ads that are happening right now too. No, we'll just say as low as one, you know, 1.9 available. New Q3s and Q5s. Got it. Yeah, yeah. Thank you, man. Bye. Outside. Andy, we're gonna we need to go ahead and treat this as a prompt. Go ahead and add to our Audi special offers page. One point nine available on Q threes and Q fives.",
           "speaker": "Lance"
+        }
+      ]
+    },
+    {
+      "id": "of_98d880812f2edf5b0c83b79180ee1018",
+      "name": "ABR \u00b7 preview Audi shoot brief + shot-list contacts WO",
+      "start_at": "2026-10-20T15:58:25",
+      "created_at": "2026-10-20T17:32:41",
+      "duration_ms": 5636000,
+      "vertical": "dealers",
+      "store": "abr",
+      "routed_by": "spoken: ABR managers + shot list page + photographer",
+      "status": "go",
+      "work_order": "Shot-list page: Hedrick/Chad/Eric names+roles only; checkboxes toggle+save. Copper was live-directing shooter on tape \u2014 verify page state. $250; 1080p60 vertical; raws OK; HP IG ref.",
+      "highlights": [
+        {
+          "t": "0:00",
+          "title": "Rate + style",
+          "content": "$250 Apple Cash/Venmo; vertical 1080p60 phone reels; HP IG reference; minimal edit / raws OK"
+        },
+        {
+          "t": "0:00",
+          "title": "Vehicle",
+          "content": "Unreleased Audi preview at ABR for staff train \u2014 not on lot yet"
+        },
+        {
+          "t": "0:00",
+          "title": "Contacts WO",
+          "content": "Hedrick, Chad, Eric \u2014 names and roles only on shot-list page"
+        },
+        {
+          "t": "0:00",
+          "title": "Checkboxes WO",
+          "content": "Functional toggle + save so shooter can mark progress"
+        },
+        {
+          "t": "0:00",
+          "title": "Copper",
+          "content": "Later: photographer on site with full shot list; Copper directing"
+        }
+      ],
+      "summary_md": "## Ada filing note\n~1h34m composite. **Real work** is the opening ABR preview-vehicle photo shoot brief (~7m) + later note that the photographer is on site with shot list (**Copper** coaching). Remainder = Hotel Monteleone checkout, Carousel Bar, NOLA transit / go-karts / ambient.\n\n### Coop takeaway\n- Freelance shooter on **unreleased Audi preview** unit at ABR (train/demo car, not on lot yet)\n- Rate **$250** Apple Cash/Venmo; vertical **1080p / 60fps** phone reels; HP IG as style ref; **minimal edit / raws OK**\n- Shot-list page already linked to photographer (Drive upload on page)\n- **WO:** add **Hedrick, Chad, Eric** as on-site contacts \u2014 **names + roles only**; make shot checkboxes **toggle + save**\n- Photographer ETA ~**11:30**; check in with Chad/Eric/Hedrick\n- Later on tape: shooter is live; Copper directing\n\n### Routing\ndealers / ABR \u00b7 go (shot-list page WO \u2014 Copper handled live on call; Mini could not locate page path in repos to verify)\n\n---\n\nLance coordinates a professional photography shoot for an unreleased Audi preview vehicle and manages digital shot-list updates with his assistant, while his travel group navigates hotel checkout in New Orleans, relaxes at the Carousel Bar, and departs for go-karting at K1 Speed.\n\n## Commercial Vehicle Media Shoot Coordination and Digital Shot-List Configuration\n\nLance coordinates arrangements with an external photographer to capture commercial promotional content for an unreleased Audi vehicle brought to the dealership as an early preview for staff training. Compensation: $250 via Apple Cash or Venmo. Style: vertical video at 1080p / 60fps on phone; Harris Porsche Instagram as reel benchmark. Prefer minimal editing / raws OK; upload to Google Drive linked on the shot-list page.\n\nLance directs assistant to update the shot-list portal: Hedrick, Chad, and Eric as on-site points of contact (names and roles only, no phones). Functional checkboxes on each shot so the photographer can toggle and save progress on the floor. ETA ~11:30.\n\n## Hotel / personal remainder\nHotel Monteleone checkout, Carousel Bar, NOLA transit, K1 Speed \u2014 not Coop work.\n",
+      "transcript": [
+        {
+          "start_time": 6000,
+          "end_time": 64000,
+          "speaker": "Lance",
+          "content": "Hey, what's going on, man? ... I need to start finding me some people to kind of shoot content for me. ... cinematic quick shots that become reels. ... if you can shoot me a few, dude, I shoot vertical 1080, 60 frames on a phone for my reels ... if you look at ... the Harris Porsche Instagram, there's some reels on there."
+        },
+        {
+          "start_time": 64000,
+          "end_time": 124000,
+          "speaker": "Lance",
+          "content": "I texted you. You've got the link to my shot list page for that car today. ... catch everything that's on there ... probably more than I need ... It's not even on the lot yet. What you're seeing there is a preview because they brought one to us from Audi to look at and to train on. ... Google Drive is on there, so you can upload the pictures. I like my stuff very minimally edited, so not like strong strong presets."
+        },
+        {
+          "start_time": 125000,
+          "end_time": 139000,
+          "speaker": "Lance",
+          "content": "you can just drop me the raws ... or you can also edit a few if you want ... Clint, for example, loves getting into the editing."
+        },
+        {
+          "start_time": 144000,
+          "end_time": 181000,
+          "speaker": "Lance",
+          "content": "Is 250 work for you? Okay, that's what we'll do ... Apple Cash or Venmo ... When you get there, you can look for the two managers that are kind of be on point."
+        },
+        {
+          "start_time": 181000,
+          "end_time": 211000,
+          "speaker": "Lance",
+          "content": "I'll add them to the shot list sheet ... Chad and Hedrick, the two managers of that dealership. ... if you're in town this week, let's try to hook up."
+        },
+        {
+          "start_time": 275000,
+          "end_time": 297000,
+          "speaker": "Lance",
+          "content": "Hey, on the shot list page, add Hedrick and Chad and Eric as the points of contact. If he has any questions while he's at the store."
+        },
+        {
+          "start_time": 297000,
+          "end_time": 302000,
+          "speaker": "Speaker 4",
+          "content": "Adding Hedrick, Chad, and Eric as the contacts on the shot list page."
+        },
+        {
+          "start_time": 311000,
+          "end_time": 318000,
+          "speaker": "Speaker 4",
+          "content": "It's pulling their titles and work info from your email to go with the names. Want me to include phone numbers too, or names and roles only."
+        },
+        {
+          "start_time": 318000,
+          "end_time": 320000,
+          "speaker": "Lance",
+          "content": "Names and roles only is fine."
+        },
+        {
+          "start_time": 320000,
+          "end_time": 332000,
+          "speaker": "Speaker 4",
+          "content": "Names and roles, it is. Same page, same link. Anything else you want tweaked on there."
+        },
+        {
+          "start_time": 370000,
+          "end_time": 376000,
+          "speaker": "Lance",
+          "content": "Also, are those check boxes by each shot functional check boxes?"
+        },
+        {
+          "start_time": 376000,
+          "end_time": 382000,
+          "speaker": "Speaker 4",
+          "content": "Functional check boxes. Making them actually toggle and save."
+        },
+        {
+          "start_time": 382000,
+          "end_time": 384000,
+          "speaker": "Lance",
+          "content": "That way, he can kind of keep track of what he shot."
+        },
+        {
+          "start_time": 384000,
+          "end_time": 387000,
+          "speaker": "Speaker 4",
+          "content": "That's exactly the idea."
+        },
+        {
+          "start_time": 995000,
+          "end_time": 1041000,
+          "speaker": "Lance",
+          "content": "I've got a guy coming to shoot it. He'll be there in just a few minutes. ... Who's an actual professional photographer. ... I told him to check in with you, Chad, or Eric ... sending him like 11:30 because I figured ... when the trainer would be done."
+        },
+        {
+          "start_time": 2547000,
+          "end_time": 2584000,
+          "speaker": "Lance",
+          "content": "So right now, currently, I have a whole new photographer going shoot a call out for me. ... He has a whole shot list, and Copper's telling him what to do. ... He's way more chill than Clint. I said, listen, you can edit some, send me some presets, but I like things to be subtly edited."
         }
       ]
     }
