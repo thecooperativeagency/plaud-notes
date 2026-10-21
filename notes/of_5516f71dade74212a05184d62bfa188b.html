@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Motive · MCP access trial (Audi first; BMW Pro +$300)</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500&family=IBM+Plex+Mono:wght@400;500&family=Source+Sans+3:wght@400;600;700&display=swap">
+  <style>
+:root {
+  --bg: #090908;
+  --bg-2: #11110f;
+  --bg-3: #181714;
+  --ink: #f0eadc;
+  --muted: #8d8778;
+  --faint: #5c574c;
+  --line: #26241e;
+  --accent: #c4452d;
+  --mustard: #c4a35a;
+  --blue: #6f8fbf;
+  --ok: #7d9a6d;
+  --serif: "Fraunces", "Iowan Old Style", Georgia, serif;
+  --sans: "Source Sans 3", "Source Sans Pro", -apple-system, sans-serif;
+  --mono: "IBM Plex Mono", ui-monospace, monospace;
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html, body { background: var(--bg); color: var(--ink); }
+body {
+  font-family: var(--sans);
+  min-height: 100vh;
+  text-wrap: pretty;
+}
+a { color: inherit; }
+.shell { display: grid; grid-template-columns: 260px 1fr; min-height: 100vh; }
+.rail {
+  border-right: 1px solid var(--line);
+  padding: 28px 18px 40px;
+  background: var(--bg-2);
+  position: sticky; top: 0; height: 100vh; overflow: auto;
+}
+.mark {
+  font-family: var(--serif);
+  font-weight: 500;
+  font-size: 13px;
+  letter-spacing: .18em;
+  text-transform: uppercase;
+  color: var(--accent);
+}
+.rail h1 {
+  font-family: var(--serif);
+  font-size: 28px;
+  font-weight: 460;
+  letter-spacing: -.03em;
+  margin: 10px 0 6px;
+}
+.rail .lede { color: var(--muted); font-size: 13.5px; line-height: 1.45; margin-bottom: 28px; }
+.vnav { display: flex; flex-direction: column; gap: 4px; }
+.vnav a {
+  display: flex; justify-content: space-between; align-items: baseline;
+  text-decoration: none; padding: 9px 10px; border-radius: 8px;
+  color: var(--ink); font-size: 14px;
+}
+.vnav a:hover, .vnav a.is-on { background: var(--bg-3); }
+.vnav a.is-on { box-shadow: inset 2px 0 0 var(--accent); }
+.vnav .count { color: var(--faint); font-family: var(--mono); font-size: 11px; }
+.stage { padding: 36px 40px 80px; max-width: 980px; }
+.kicker {
+  font-size: 11px; letter-spacing: .16em; text-transform: uppercase;
+  color: var(--accent); font-weight: 700; margin-bottom: 8px;
+}
+.stage > h2 {
+  font-family: var(--serif); font-weight: 460; font-size: 34px;
+  letter-spacing: -.03em; margin-bottom: 8px;
+}
+.blurb { color: var(--muted); margin-bottom: 28px; max-width: 46rem; }
+.empty {
+  border: 1px dashed var(--line); border-radius: 14px;
+  padding: 36px 28px; color: var(--muted); background: var(--bg-2);
+}
+.empty strong { color: var(--ink); font-weight: 600; }
+.cards { display: flex; flex-direction: column; gap: 10px; }
+.card {
+  display: grid; grid-template-columns: 1fr auto; gap: 12px;
+  text-decoration: none; padding: 16px 18px; border-radius: 12px;
+  background: var(--bg-2); border: 1px solid var(--line);
+}
+.card:hover { border-color: #3a372e; background: var(--bg-3); }
+.card h3 { font-size: 16px; font-weight: 600; margin-bottom: 4px; }
+.meta { color: var(--muted); font-size: 13px; display: flex; gap: 10px; flex-wrap: wrap; }
+.chip {
+  font-family: var(--mono); font-size: 10px; letter-spacing: .06em;
+  text-transform: uppercase; padding: 3px 7px; border-radius: 999px;
+  border: 1px solid var(--line); color: var(--muted); height: fit-content;
+}
+.chip.dealers { color: var(--blue); border-color: #2a3344; }
+.chip.avec-tous { color: var(--mustard); border-color: #3a3320; }
+.chip.personal { color: #c9a7a0; }
+.chip.ideas { color: var(--ok); }
+.note-top { margin-bottom: 22px; }
+.note-top h2 { font-family: var(--serif); font-size: 36px; font-weight: 460; letter-spacing: -.03em; }
+.tabs { display: flex; gap: 6px; margin: 22px 0 18px; border-bottom: 1px solid var(--line); }
+.tabs button {
+  appearance: none; background: none; border: 0; color: var(--muted);
+  font: 600 13px var(--sans); padding: 10px 12px; cursor: pointer;
+  border-bottom: 2px solid transparent; margin-bottom: -1px;
+}
+.tabs button[aria-selected="true"] { color: var(--ink); border-bottom-color: var(--accent); }
+.panel { display: none; }
+.panel.is-on { display: block; }
+.prose { font-size: 16.5px; line-height: 1.6; max-width: 42rem; }
+.prose h2, .prose h3 { font-family: var(--serif); font-weight: 500; margin: 1.3em 0 .4em; }
+.prose p { margin: 0 0 .8em; }
+.prose ul, .prose ol { margin: 0 0 1em 1.2em; }
+.prose li { margin: .25em 0; }
+.hl { border-left: 2px solid var(--accent); padding: 10px 0 10px 14px; margin: 0 0 14px; }
+.hl .t { font-family: var(--mono); font-size: 11px; color: var(--faint); }
+.hl h4 { font-size: 15px; margin: 4px 0; }
+.hl p { color: var(--muted); font-size: 14.5px; }
+.seg { display: grid; grid-template-columns: 64px 1fr; gap: 12px; padding: 8px 0; border-bottom: 1px solid var(--line); }
+.seg .ts { font-family: var(--mono); font-size: 11px; color: var(--faint); padding-top: 3px; }
+.back { color: var(--muted); text-decoration: none; font-size: 13px; display: inline-block; margin-bottom: 18px; }
+.back:hover { color: var(--ink); }
+footer { margin-top: 48px; color: var(--faint); font-size: 11px; font-family: var(--mono); }
+@media (max-width: 820px) {
+  .shell { grid-template-columns: 1fr; }
+  .rail { position: relative; height: auto; border-right: 0; border-bottom: 1px solid var(--line); }
+  .stage { padding: 24px 18px 64px; }
+  .note-top h2 { font-size: 28px; }
+}
+</style>
+</head>
+<body>
+<div class="shell">
+<aside class="rail">
+  <div class="mark">Cooperative</div>
+  <h1>Field desk</h1>
+  <p class="lede">Plaud landings. Summary, highlights, transcript — filed by life area.</p>
+  <nav class="vnav"><a href="../index.html" class="">All <span class="count">101</span></a><a class="" href="../vertical-inbox.html">Inbox <span class="count">1</span></a><a class="" href="../vertical-personal.html">Personal <span class="count">8</span></a><a class="" href="../vertical-coop-marketing.html">Coop Marketing <span class="count">5</span></a><a class="" href="../vertical-coop-dev.html">Coop Dev <span class="count">11</span></a><a class="" href="../vertical-avec-tous.html">Avec Tous <span class="count">0</span></a><a class="is-on" href="../vertical-dealers.html">Dealers <span class="count">72</span></a><a class="" href="../vertical-ideas.html">Ideas <span class="count">4</span></a></nav>
+</aside>
+<main class="stage">
+  <a class="back" href="../index.html">← Desk</a>
+  <div class="note-top">
+    <div class="kicker">dealers · 2026-10-21 · 4m28s</div>
+    <h2>Motive · MCP access trial (Audi first; BMW Pro +$300)</h2>
+    <div class="meta" style="margin-top:8px"><span>id of_5516f71dade74212a05184d62bfa188b</span><span>follow-up to MCP demo; spend gatekeeper</span></div>
+  </div>
+  <div class="tabs" role="tablist">
+    <button type="button" data-panel="sum" aria-selected="true">Summary</button>
+    <button type="button" data-panel="hl" aria-selected="false">Highlights</button>
+    <button type="button" data-panel="tx" aria-selected="false">Transcript</button>
+  </div>
+  <section id="sum" class="panel is-on prose"><h2>MCP access economics</h2>
+<p>Follow-up call. BMW Pro package puts MCP behind ~<strong>+$300/mo</strong>. Audi has no managed program — rep will enable trial and <strong>text Lance</strong> when live (may open all three).</p>
+<p>Lance = spend gatekeeper: only recommend if MCP unlocks net-new vs current inject/deploy. Asked about <strong>flat agency pass</strong> multi-store — open, not priced.</p>
+<p>Email on file for access: BMW Jackson @ thecoopbrla.com.</p>
+<h3>Status</h3>
+<p><strong>park</strong> — wait text; trial ABR first; no Pro upgrade yet.</p></section>
+  <section id="hl" class="panel"><div class="hl"><div class="t">0:00</div><h4>+$300</h4><p>BMW MCP via Pro package ~$300/mo increase</p></div><div class="hl"><div class="t">0:00</div><h4>Audi trial</h4><p>No managed program — rep can click Audi on for test</p></div><div class="hl"><div class="t">0:00</div><h4>Agency pass</h4><p>Lance asked flat fee multi-store MCP access</p></div><div class="hl"><div class="t">0:00</div><h4>Pending</h4><p>Rep will text when access live; may hit all three</p></div></section>
+  <section id="tx" class="panel"><div class="seg"><div class="ts">0:07</div><div>You can hear me.</div></div><div class="seg"><div class="ts">0:09</div><div>Yeah, I got you. What&#x27;s up, man?</div></div><div class="seg"><div class="ts">0:10</div><div>Hey. How much? Okay. So for the BMW ones, that that program is managed by BMW. Ah. So so I&#x27;m supposed to to get you to enroll in the pro package, which has the MCP in that portal. So I just so. So I figured I&#x27;d pick up the phone and just call you and see. One, do you think that&#x27;s is that? Do you think that&#x27;s okay? Do you think it&#x27;s going to cause the issue with your store?</div></div><div class="seg"><div class="ts">0:42</div><div>I mean, how much more is it?</div></div><div class="seg"><div class="ts">0:43</div><div>I think it&#x27;s three hundred bucks a month.</div></div><div class="seg"><div class="ts">0:46</div><div>Is that what the increase is,</div></div><div class="seg"><div class="ts">0:49</div><div>Basically? Yeah, that&#x27;s the increase. It&#x27;s the MCP. They they change the packages where MCP shows on it, and it&#x27;s a. To manage program, so like they, you know, for turning on stuff and enabling stuff, it&#x27;s supposed to match. On Audi, there there&#x27;s no program, so I should be able to just click it for you.</div></div><div class="seg"><div class="ts">1:13</div><div>Okay. Yeah, I mean, and honestly, if you can just click it for Audi, let me try it, and then I might end up just adding it to my other stores. Gotcha. Is that cool?</div></div><div class="seg"><div class="ts">1:25</div><div>Yeah. Yeah, that&#x27;s cool. Yeah, so I don&#x27;t. Yeah, I&#x27;ll do that. I&#x27;ll click it on Audi, um, and then just let me like try it out, see if it, yeah, it meets and then.</div></div><div class="seg"><div class="ts">1:36</div><div>Yeah, my other question is, my other question is, do you do you think you guys are open to offering like an agency pass? You know what I&#x27;m saying? Like, if there&#x27;s an agency access where I can pay an MCP access, you know, if it&#x27;s like if it&#x27;s worth it to me, then I would like maybe pay. A flat for a few of my stores.</div></div><div class="seg"><div class="ts">1:55</div><div>You know what I mean? Yeah. Yeah. I&#x27;m sure I could do something like that. Let me do this. I just let let me click it on for Audi. All right. Just do that. See see that you can get in there. Make sure it makes sense, and then I like you&#x27;re you were an early partner for BMW and stuff. So I just I want to be a good partner.</div></div><div class="seg"><div class="ts">2:16</div><div>So yeah, for sure, right? Yeah. I mean, I&#x27;m open to it. I&#x27;m open to it, but. And look, my I play so many different roles, but like one of my pieces, one of my most important roles to my stores, the reason they love me so much is that I&#x27;m always kind of their gatekeeper for like overspending, right? And so if it&#x27;s like if it&#x27;s something we don&#x27;t need for one or two stores, then I&#x27;m then I&#x27;m not going to encourage them. But this is something that I think will help. And if it offers things that I can&#x27;t already do, then it&#x27;s well worth it.</div></div><div class="seg"><div class="ts">2:45</div><div>You know what I mean? Yeah. Well, I got you on the phone. I&#x27;m going to try. Let me see something. Just also.</div></div><div class="seg"><div class="ts">2:52</div><div>If you want to switch it over to Audi, I might like try it now.</div></div><div class="seg"><div class="ts">2:57</div><div>Yeah, it might just self destruct. We&#x27;ll see. It might just, it might, we might just do it, and because my my day is going to be absolutely crazy today. Can you hear me? Okay, okay.</div></div><div class="seg"><div class="ts">3:26</div><div>Let&#x27;s.</div></div><div class="seg"><div class="ts">3:40</div><div>Give it to a. Do you use the same email? Use the same email for all your scores.</div></div><div class="seg"><div class="ts">3:46</div><div>That&#x27;s BMW Jackson at thecoopbrla. Thecoopbrla. com.</div></div><div class="seg"><div class="ts">4:05</div><div>Yeah, okay. It&#x27;s not letting get in. I&#x27;ll send you a text when I get in there. I think it might. You might just get access to all three of them. We&#x27;ll see. We&#x27;ll just we&#x27;ll try you with counting, and then just let me know what you think, and we&#x27;ll take it from there.</div></div><div class="seg"><div class="ts">4:20</div><div>All right. Oh yeah. Sounds good, man. Thank you. Thank you, man. All right. Bye.</div></div></section>
+</main>
+</div>
+<footer>PLAUD-NOTES-2026-10-21-MID · noindex · Plaud sources + notes</footer>
+<script>
+
+document.querySelectorAll('.tabs button').forEach(btn => {
+  btn.addEventListener('click', () => {
+    document.querySelectorAll('.tabs button').forEach(b => b.setAttribute('aria-selected', b===btn ? 'true':'false'));
+    document.querySelectorAll('.panel').forEach(p => p.classList.toggle('is-on', p.id === btn.dataset.panel));
+  });
+});
+
+</script>
+</body>
+</html>

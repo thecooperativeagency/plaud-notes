@@ -1,5 +1,5 @@
 {
-  "revision": "PLAUD-NOTES-2026-10-20-MID",
+  "revision": "PLAUD-NOTES-2026-10-21-MID",
   "recordings": [
     {
       "name": "BHBMW \u00b7 4 Series missing on website",
@@ -43225,6 +43225,1112 @@
           "end_time": 2584000,
           "speaker": "Lance",
           "content": "So right now, currently, I have a whole new photographer going shoot a call out for me. ... He has a whole shot list, and Copper's telling him what to do. ... He's way more chill than Clint. I said, listen, you can edit some, send me some presets, but I like things to be subtly edited."
+        }
+      ]
+    },
+    {
+      "id": "of_7af98d8b9e3e0b1deb46488a631bef65",
+      "name": "Motive \u00b7 MCP demo + productize path (GM Weekly / Acquire / newsletters)",
+      "start_at": "2026-10-21T15:31:47.381000",
+      "created_at": "2026-10-21T16:06:22",
+      "duration_ms": 2072000,
+      "vertical": "dealers",
+      "store": null,
+      "routed_by": "Motive MCP demo + Dessrae loop; multi-store",
+      "status": "park",
+      "work_order": "Wait Motive text for ABR MCP trial + possible 3-store. BMW Pro = +$300/mo \u2014 gatekeeper until value proven. Share product visuals when ready for NE luxury referral. No spend commit.",
+      "highlights": [
+        {
+          "t": "0:00",
+          "title": "Use case",
+          "content": "95% content build/deploy; Motive widgets + injected HTML"
+        },
+        {
+          "t": "3:30",
+          "title": "Demo",
+          "content": "Read used>60d BHBMW; wrote unpublished Nov specials draft w/ map/buttons"
+        },
+        {
+          "t": "16:00",
+          "title": "Pricing",
+          "content": "Custom $500 demo discount + collection; CDK write-back idea vs Vauto Conquest"
+        },
+        {
+          "t": "27:00",
+          "title": "Howell",
+          "content": "Summit MS GMC+Nissan prospect \u2014 push Motive if engaged"
+        },
+        {
+          "t": "29:00",
+          "title": "Referrals",
+          "content": "NE luxury client possible; Motive prefers mutual help over spiffs"
+        }
+      ],
+      "summary_md": "## Motive MCP demo \u00b7 product path\n\n~34m with Motive (Dessrae setup). Live MCP read (BHBMW used >60d) + write (unpublished November specials draft with Motive widgets). Audit log / undo framed.\n\n### Takeaways\n- Lance use case ~95% content build/deploy + Motive widgets (map, calendar, buttons)\n- Path: Claude CLI / agent MCP connect \u2014 not day-to-day Claude cowork UI\n- Pricing: custom discounts/collections demoed; idea = CDK write-back so Vauto inherits (bypass Conquest bulk paywall)\n- BMW MCP may need Pro re-enroll; Audi off-program easier\n- Howell (Summit GMC/Nissan) + NE luxury referral threads open once product visuals ready\n- Motive: mutual help > referral spiffs\n\n### Status\n**park** until ABR trial access lands (see midday follow-up call).\n",
+      "transcript": [
+        {
+          "start_time": 0,
+          "end_time": 5040,
+          "speaker": "Speaker 1",
+          "content": "Have I mean? Is the use case is it building content?"
+        },
+        {
+          "start_time": 5040,
+          "end_time": 53010,
+          "speaker": "Lance",
+          "content": "So the use case is going to be ninety five percent building and deploy. So basically, we're coding everything, building it with HTML, with the right files, with the right structures, all that bullshit. And so it's essentially just it doesn't even need to be inside. Well, I guess that's not true. So one piece of content we can build just by injecting HTML, right? But then, but then it gets better and richer if we can inject HTML. But then, over in and around it, use you know actual motive widgets like be able to pop the map in the bottom of the page, be able to do some of the other things that I normally would do. And I think that I kind of have my AI's trained on doing it. But yeah, it kind of depends on what y'all's APIs are and what what it does."
+        },
+        {
+          "start_time": 53010,
+          "end_time": 58540,
+          "speaker": "Speaker 1",
+          "content": "Um, are you familiar with like MCPs? Yeah."
+        },
+        {
+          "start_time": 61390,
+          "end_time": 74030,
+          "speaker": "Speaker 1",
+          "content": "I'm gonna share my screen. Um, here's what we can do. What um, other than Grokbot, what do you do? You use like ChatGPT? Do you use Claude, Claude, Claude?"
+        },
+        {
+          "start_time": 74030,
+          "end_time": 104950,
+          "speaker": "Lance",
+          "content": "So I have custom Claude agents that I've built, and they operate with several different AIs. They operate with Claude, Gemini, you know, five, six different ones, depending on what subagent they're using for different tasks. You know, I've got a specific Gemini sub agent built just for deploying Google Ads and Meta Ads. Okay. Example. So, anyway, basically, if you've got an MCP, I can probably just drop that to either of my AIs, and it'll just figure it out."
+        },
+        {
+          "start_time": 104950,
+          "end_time": 110390,
+          "speaker": "Speaker 1",
+          "content": "Okay. When are you doing it for Brian Harris or?"
+        },
+        {
+          "start_time": 110390,
+          "end_time": 116870,
+          "speaker": "Lance",
+          "content": "It's going to be well. It'll be my two Brian Harris stores that I have with you guys, then also BMW of Jackson."
+        },
+        {
+          "start_time": 116870,
+          "end_time": 139980,
+          "speaker": "Speaker 1",
+          "content": "Okay. And okay, I think let me show you what we have. Yeah, and let me know if this is something that will solve for it. What I'll do, I'm going to share my screen, and while I'm getting it pulled up, I'm just going to do a couple quick things here. Man."
+        },
+        {
+          "start_time": 149470,
+          "end_time": 204940,
+          "speaker": "Speaker 1",
+          "content": "I don't know why that took a second, but here we go. Can you see my screen? Okay. Yep. All right. So what I'll do is, so we're inside of Claude and ChatGPT at this time. Okay. Um, with with MCP, and so right now we have. Um, it started off originally with like poll capability, but we added a ton of like write capability as well. Um, so. Uh, what we can do. Let's see. Using motive M C P, pull me a list. This is just I'm gonna just test the connection because I haven't done anything with it today. Pull me a list of used vehicles over sixty days at Brian Harris BMW."
+        },
+        {
+          "start_time": 213090,
+          "end_time": 270740,
+          "speaker": "Speaker 1",
+          "content": "And so once you once you have MCP enabled, you just have to allow the different accesses. So I have everything where it prompts me each time. I know you can just give it wide open access, but I'm I'm I like a little bit more control because these things can can move quick. So the one thing while this is all running, what's important is that what everything that you do with this, it has its own separate audit log. Because like you can create a bunch of chaos with it, so yeah. Before we started doing write capability, that we made sure we had the right stuff in in place there, so that you can undo everything, right? And so, like things that you can do, for example, like inventory is a big one. But beyond that, like I know content is really big. Sorry, wow."
+        },
+        {
+          "start_time": 271340,
+          "end_time": 327110,
+          "speaker": "Speaker 1",
+          "content": "Just get this thing rolling here. Make sure I'm not missing anything. But like with inventory, anyway. While this is running, you can do things like you can see how a price is calculated, where the calculation points come from, what the last time a feed ran. You can make an update to that feed. But like when it comes to like writing data. You can do things like you can do CMS pages, blogs, and then you can query data around there too, like like what's on the page, you know, from like a component standpoint, and you can also understand like metadata, like for like your SEO stuff. Yep. So looks like the connection's good here. So what we can do, like what's um what's an example of some content that you'd want to create inside of here? Like maybe we can test something."
+        },
+        {
+          "start_time": 327110,
+          "end_time": 337430,
+          "speaker": "Lance",
+          "content": "I mean, let's do this. Let me send you a really quick."
+        },
+        {
+          "start_time": 337430,
+          "end_time": 339430,
+          "speaker": "Speaker 1",
+          "content": "You got something?"
+        },
+        {
+          "start_time": 339430,
+          "end_time": 356170,
+          "speaker": "Lance",
+          "content": "Oh yeah, yeah. It's like it's it's chaos. The amount of shit that I've done in the past, literally like two days. Nice. Actually, let's see. Shoot, fires died."
+        },
+        {
+          "start_time": 371400,
+          "end_time": 381800,
+          "speaker": "Speaker 3",
+          "content": "Yeah,"
+        },
+        {
+          "start_time": 381800,
+          "end_time": 397700,
+          "speaker": "Lance",
+          "content": "I'm just grabbing my three links to my three main hubs. So basically, let's see. I'll shoot you this one, so y'all can look at it. Where the hell are we, chat?"
+        },
+        {
+          "start_time": 402710,
+          "end_time": 405510,
+          "speaker": "Lance",
+          "content": "So, check that link out."
+        },
+        {
+          "start_time": 405510,
+          "end_time": 428260,
+          "speaker": "Speaker 1",
+          "content": "Yeah. So, what you get, what I'm building is basically as deep and as much data as I can. It's actually good looking and usable. So basically, what we have, what this is, is a total of nine pages that is like this this crazy, crazy buying research guide. So it's buyer's guides."
+        },
+        {
+          "start_time": 428400,
+          "end_time": 458050,
+          "speaker": "Lance",
+          "content": "So, lease or finance protection. Each one of these at the top, these links across the top are all a separate page. As you come down, it says, \"What do you want to figure out? Lease versus finance? Protect your investment.\" Each one of these is a separate page, and each one of these kind of just gives an FAQ about certified, about whatever you could imagine, right? All the different little kind of specialty programs. We're like, what you're looking at is kind of the beta version of it. I just, it's not even linked. It's not fully like."
+        },
+        {
+          "start_time": 459130,
+          "end_time": 484250,
+          "speaker": "Lance",
+          "content": "You know, a user is not going to stumble upon this right now. Yeah. Essentially, what I'm building out is this stuff was deployed. But so we we've been writing the the content for a long time. So like, if you go to just any one of my motive sites and just go to special offers, that page is all you know AI built. All of my feature pages are all AI built separately and just injected with with HTML."
+        },
+        {
+          "start_time": 484250,
+          "end_time": 493070,
+          "speaker": "Speaker 1",
+          "content": "This looks great, by the way. Somebody was wanting to look at BMW sites yesterday, and I came across this, and they they thought this was really awesome."
+        },
+        {
+          "start_time": 493070,
+          "end_time": 544550,
+          "speaker": "Lance",
+          "content": "Yeah. So at at one point, as an aside, I'm about to productize everything. So I've got like probably four different separate offerings that I'm doing. I'm about to productize everything and start selling. Like I haven't started selling yet at all. And at one point, when I do sell, like my my auto trader rep was like, \" Let me know when you want to start spiffing people for referrals to sell this shit for you, right?\" So. I'm almost there. So if if you're open to it, either of you is open to it. I'm about to start pushing this shit out because one of the unique things about what I'm doing too is if I bill my customer like four, five, six grand, whatever it is, I bill them. Half of it's co-opable through BMW, for example, and easily co-opable and already precedent set for co-opable. So like half of my entire fee for doing all these pages, all the social media, like I do a lot for my stores."
+        },
+        {
+          "start_time": 544660,
+          "end_time": 576840,
+          "speaker": "Lance",
+          "content": "Completely co-opable, but each one of these pages, man. Once you're locked in with like BMW's format, it's literally a five-minute chat. And I've got my bots now trained. Hey, I need this new page. Go check. Go check the BMW reps' newest email. All right, cool. Go roll it. Now, once you're done rolling it, send an email to JNL, who's who's the ad buyer. So literally everything happens and and is completely automatable. But this page was built by one of my agents. And then deployed on your site by my other agent."
+        },
+        {
+          "start_time": 576840,
+          "end_time": 603720,
+          "speaker": "Speaker 1",
+          "content": "I'm going to try something different. I haven't tried this before, so let's see if this works. Take a look at and build a similar page for November. I don't know. I'm gonna try it."
+        },
+        {
+          "start_time": 603720,
+          "end_time": 605480,
+          "speaker": "Lance",
+          "content": "It should be able to do it."
+        },
+        {
+          "start_time": 605480,
+          "end_time": 622280,
+          "speaker": "Speaker 1",
+          "content": "Yeah, I I've been impressed so far. I mean, we've done so many cool things, and being able to like pull stuff, pull information out, and then like use your other tools inside of there is helpful. But also just being able to like write, you know, write capability and. Well,"
+        },
+        {
+          "start_time": 622280,
+          "end_time": 657590,
+          "speaker": "Lance",
+          "content": "One of the pieces that's important is like is just the teaching it. So like the first version might not be great, right? And so it's like. You know, iterating, revising until you like it, until it looks good, until it's consistent, so you don't have to like go into a deep prompt every time. Because at one point you should be able to say, \"All right, the new shits in your email inbox. Let's go build the new one.\" You know. So another thing that's really neat that I'm building for each of my stores that is another kind of thing that'll be productized soon is."
+        },
+        {
+          "start_time": 657830,
+          "end_time": 660710,
+          "speaker": "Lance",
+          "content": "These newsletters. So, have you seen any of my newsletters."
+        },
+        {
+          "start_time": 660710,
+          "end_time": 664150,
+          "speaker": "Speaker 1",
+          "content": "Oh no, I have not."
+        },
+        {
+          "start_time": 664150,
+          "end_time": 702230,
+          "speaker": "Lance",
+          "content": "Let me send you one real quick. They're also navigable. You can just if you go to the about section on my web on my Brian Harris BMW site. It's it's called the Ultimate Driver. There's there's two issues out now. You can click on issue two, and it'll it'll go. It says whole newsletter. So basically, it's a luxury lifestyle newsletter, complete with all of my offers, but then also like. Articles about watches and restaurants and cat and concerts and football games and everything and it's localized. That's also something that my AIs are iterating on each month. So each month I say, \" Here's the new offers."
+        },
+        {
+          "start_time": 702230,
+          "end_time": 715270,
+          "speaker": "Speaker 1",
+          "content": "\" Let's see. That's not right. Just so you know, I told it to make a draft, not to overwrite the existing page because it did ask. I told it these placeholders instead of pulling."
+        },
+        {
+          "start_time": 715270,
+          "end_time": 723560,
+          "speaker": "Lance",
+          "content": "You know what? Fun is. That that page you're looking at is sitting on my Git repo, so it's like, if something did happen to it, I could just go redeploy it."
+        },
+        {
+          "start_time": 723560,
+          "end_time": 731160,
+          "speaker": "Speaker 1",
+          "content": "You'd be able to just do it again, and I do believe because there's an audit log. I think I could just say, hey, put it back."
+        },
+        {
+          "start_time": 731160,
+          "end_time": 752220,
+          "speaker": "Lance",
+          "content": "Yeah, put it back, please fix it. Yeah, I can't tell you how many times I break some shit and then, here you can just click that link. I'll break some stuff and then have to go. You know, spend an hour backing up and fixing, and."
+        },
+        {
+          "start_time": 752220,
+          "end_time": 752220,
+          "speaker": "Speaker 3",
+          "content": "Yes,"
+        },
+        {
+          "start_time": 752220,
+          "end_time": 770380,
+          "speaker": "Lance",
+          "content": "There it is. Yeah, so this this thing is real, real rich. It's got a lot and several different sections in it. We go into offers, but that's kind of not the point. Like it's the point is I'm wanting to give something to people. So this goes out in email and also lives on my website as SEO AIO content."
+        },
+        {
+          "start_time": 770380,
+          "end_time": 800310,
+          "speaker": "Speaker 1",
+          "content": "Dude, I already have the client for you when you do this. Yeah. I got a, I have a luxury top of stores in the Northeast. I won't out them because you know it is people don't want to be contacted, but they literally, they're they're canceling. You know they're doing the whole thing switching from DI and the managed services from these different people, and they're looking for standalone stuff. And literally, their word track is I don't know if I want a big agency. We usually do better when we find somebody that's like boots on the ground that like curates stuff. So yeah,"
+        },
+        {
+          "start_time": 800310,
+          "end_time": 831740,
+          "speaker": "Lance",
+          "content": "That's what's been fun, man. Is like, I've been building and iterating based on needs, so various custom needs to different my different stores. Like my Brian Harris BMW store. Several weeks ago, said, \"Hey, man, we have leads that come in that are KPIs. We have leads that are, you know, like service customers that are here. We want to be able to talk to them. We have all these different like places that are coming in. I built an app, and it ends up being it's essentially fricking Mastermind, but custom to a BMW store. Nice. So we built that app like in I don't know two three weeks.\""
+        },
+        {
+          "start_time": 831740,
+          "end_time": 869430,
+          "speaker": "Lance",
+          "content": "It still kind of it works. Of course, it needs debugging, but it's deployed and they're using it, right? So, like, they're using it to sell service customers already. Because one thing that's neat is, like, with this thing, you can click. You can say, okay, here's all my service appointments from you know now until like thirty-five, forty days, however long they're booked out, and then you can say, okay, cool. Which one of those service appointments that's coming is a KPI lead? Which one is a BMW Financial Services lead? And so you really quickly see, oh shit, this guy's going to be in service tomorrow. We didn't even realize it, and he's got a a loaner, you know, or a lease that's maturing in three months. While he's here,"
+        },
+        {
+          "start_time": 869430,
+          "end_time": 879190,
+          "speaker": "Speaker 1",
+          "content": "Why not talk to him? That's that's exactly the use case. So everyone tries to like use like a like a untailored."
+        },
+        {
+          "start_time": 879190,
+          "end_time": 897040,
+          "speaker": "Lance",
+          "content": "Yeah, and mastermind gets complicated. It's like it's going to figure out all the fucking notes and all of this and all that. And just start the conversation. Just go talk with the guy. Just, Just the knowledge that he's got a lease that's maturing and he's in service tomorrow. So is this is it's building building a page in here?"
+        },
+        {
+          "start_time": 897040,
+          "end_time": 913680,
+          "speaker": "Speaker 1",
+          "content": "Yeah. So so it actually built. So just a you can still see my screen, right? Yep, I'm watching. I built a copy of the November specials page. It's saved as an unpublished draft. Cool. The October page is unchanged. So like you can hop in there and probably see it too. I was just trying to hop in so we could see."
+        },
+        {
+          "start_time": 913680,
+          "end_time": 914800,
+          "speaker": "Lance",
+          "content": "Yeah, pull it up. Yeah, see it there,"
+        },
+        {
+          "start_time": 914800,
+          "end_time": 974530,
+          "speaker": "Speaker 1",
+          "content": "November. So. Yeah, so there it is, right there, and so it says AI generated. Yeah, and oh, I didn't. It's not live yet, so we have to click into it to actually preview it. Um, so right now with the write capability, I know some of the functionality that they're looking at adding is like what you see is what you get kind of functionality, where like you can preview the stuff without having to hop into admin. Yeah. They are doing a whole bunch of digging outside my house, so I think my, my uh, my Wi-Fi super slow. But yeah, looks like yeah, looks like that's all in there. So that's that block. Then it's got BMW finance offers. Looks like he's got some placeholder, and then it's even using the elements. It's got your map. It's got those buttons there. Yep."
+        },
+        {
+          "start_time": 975160,
+          "end_time": 975720,
+          "speaker": "Speaker 1",
+          "content": "Not bad."
+        },
+        {
+          "start_time": 975720,
+          "end_time": 980280,
+          "speaker": "Lance",
+          "content": "How's it look? Let's see. It's just a copy."
+        },
+        {
+          "start_time": 980280,
+          "end_time": 985480,
+          "speaker": "Speaker 1",
+          "content": "It's perfect. That's a lot better than starting from scratch."
+        },
+        {
+          "start_time": 985480,
+          "end_time": 990040,
+          "speaker": "Lance",
+          "content": "Yeah, I mean, look. Okay,"
+        },
+        {
+          "start_time": 990040,
+          "end_time": 997080,
+          "speaker": "Speaker 1",
+          "content": "I can check this off the box of things that I haven't done that that I know work. That's pretty awesome."
+        },
+        {
+          "start_time": 997080,
+          "end_time": 1032819,
+          "speaker": "Lance",
+          "content": "What's cool, man, is what I what I've found. Like MCP and API kind of operate in the same ballpark, right? They're like, But once you give an AI that, it's essentially you just handed them the custom tools for that piece of software, and and it can fucking work wonders. That's why I was asking because like when I'm building these things, I love my injected HTML, but I would love to be able to like just have it like drop the map on the bottom, or you know, drop some like y'all's custom widgets or whatever the hell. You know, the things that it can't write for, like it can't quite yet just code. It can't just put those into code. Like some of those are custom to you guys, like."
+        },
+        {
+          "start_time": 1033109,
+          "end_time": 1037829,
+          "speaker": "Lance",
+          "content": "Being able to use the little widget that automatically pops up the calendar for scheduling an appointment, you know,"
+        },
+        {
+          "start_time": 1037829,
+          "end_time": 1054390,
+          "speaker": "Speaker 1",
+          "content": "Shit like that. Yeah. Um, so this is um, it's it's really powerful, right? So you can do that, and then um, I don't know, like, do you ever mess with like the pricing or inventory stuff, or is it more like content in the store?"
+        },
+        {
+          "start_time": 1054390,
+          "end_time": 1090030,
+          "speaker": "Lance",
+          "content": "Yeah, pricing gets deep. So with my BMW store and and well, the two BMW stores, you can't you can't fool pricing anyway. And used car pricing is set through Vauto, but with Audi, I can fool with the new car pricing, and I do. And normally, what I'll do is I kind of help them out. Of course, they can go into Vauto and change their own new car prices if they want. But a lot of times, I'll just do it for them. So, but Vauto, so yeah, Vauto hides bulk pricing, meaning go and reassign. You know, mark all of my 2026 Q5s down two grand. They hold that behind a paywall called Conquest."
+        },
+        {
+          "start_time": 1091050,
+          "end_time": 1091690,
+          "speaker": "Lance",
+          "content": "It's yeah,"
+        },
+        {
+          "start_time": 1091690,
+          "end_time": 1095850,
+          "speaker": "Speaker 1",
+          "content": "I know, I know, I'm familiar. Yeah, you see, it's conquest, and then you have provision for use."
+        },
+        {
+          "start_time": 1095850,
+          "end_time": 1101290,
+          "speaker": "Lance",
+          "content": "Yeah, so it's like yeah, so provision, and then you need the whole little extra piece and new car, whatever you call it."
+        },
+        {
+          "start_time": 1101290,
+          "end_time": 1103210,
+          "speaker": "Speaker 1",
+          "content": "So you're not paying for conquest."
+        },
+        {
+          "start_time": 1103210,
+          "end_time": 1121960,
+          "speaker": "Lance",
+          "content": "No, so I'm manually pricing them. But one at one point, I was like, well, shit, I can set up pricing rules through through y'all's backend. What I ran into was the problem of getting the auto. No shit. Getting motive to syndicate those prices out to Vauto so that then all my downstreams would have the right pricing."
+        },
+        {
+          "start_time": 1121960,
+          "end_time": 1127640,
+          "speaker": "Speaker 1",
+          "content": "Because Vauto doesn't allow write back for pricing. That's where they lock it."
+        },
+        {
+          "start_time": 1127640,
+          "end_time": 1138360,
+          "speaker": "Lance",
+          "content": "Yeah, it's almost like we could write now. Maybe y'all could write back the prices to the DMS. That might work. I just thought about. I just realized."
+        },
+        {
+          "start_time": 1138360,
+          "end_time": 1139640,
+          "speaker": "Speaker 1",
+          "content": "Yeah, just go around them."
+        },
+        {
+          "start_time": 1139640,
+          "end_time": 1144200,
+          "speaker": "Lance",
+          "content": "Yeah, because if you write back to the DMS, then they're going to pull from the DMS and end up with the right price."
+        },
+        {
+          "start_time": 1144200,
+          "end_time": 1151230,
+          "speaker": "Speaker 1",
+          "content": "Yeah. That would be interesting. Yeah, if we could push there. Who is for your DMS?"
+        },
+        {
+          "start_time": 1151230,
+          "end_time": 1152750,
+          "speaker": "Lance",
+          "content": "It's CDK."
+        },
+        {
+          "start_time": 1152750,
+          "end_time": 1152990,
+          "speaker": "Speaker 1",
+          "content": "Okay."
+        },
+        {
+          "start_time": 1152990,
+          "end_time": 1157230,
+          "speaker": "Lance",
+          "content": "Like you, you guys are already connected to CDK. Like you're already pulling."
+        },
+        {
+          "start_time": 1157230,
+          "end_time": 1180540,
+          "speaker": "Speaker 1",
+          "content": "I know we pull. Yeah, I think we pull. I think there's an intermediary. CDK has like an intermediary for inventory that we pull from. Yeah. You know. So yeah, that's a good idea. That's something that I haven't thought of. I'm not involved with that aspect, but I've I've heard that right back to the auto because they. They like to treat themselves as like the pricing thing. They don't want to receive."
+        },
+        {
+          "start_time": 1180540,
+          "end_time": 1187420,
+          "speaker": "Lance",
+          "content": "They're wanting, you know, they're wanting me to buy it. If I, if I don't, if if I can go around the buying of that, then it fucks them up."
+        },
+        {
+          "start_time": 1187420,
+          "end_time": 1219440,
+          "speaker": "Speaker 1",
+          "content": "But um, you can do pricing. You can do like custom discounts pricing. You can apply it to collections, all that stuff inside of here. And um, you know, we now have like dynamic pricing too. So like inside of these things, like if we go to, we'll go to Audi. We go Audi Baton Rouge, and I'm not building a page. So if we go over to the pricing stack section, this just all got modified again. So like, oh, looks like you've been you've already been playing with this."
+        },
+        {
+          "start_time": 1219440,
+          "end_time": 1231520,
+          "speaker": "Lance",
+          "content": "Well, we've had to, and I think Jack's probably done it for me. Okay. We had some real goofy, you know, we you know about it, like with the dealer handling thing having to be shown, and it it created some problems. It was a nuisance."
+        },
+        {
+          "start_time": 1231520,
+          "end_time": 1291110,
+          "speaker": "Speaker 1",
+          "content": "Yeah. So. These different stacks, you can have different ones for new, use. You can choose if you want to, you know, adjust, you know, how you display dealer fees. If you want conditional incentives to show underneath a net price line, it's all modular, just like everything else inside of here. But the other things that you can do, like you can do OEM incentives, custom incentives. You can adjust your fees. You can have start and end dates for those custom incentives. So like. All that stuff that you see in here, you can also, you know, do cool stuff inside of here. So, like, if I say, I don't want to make anything live, so maybe I'll do it on a demo site. So it's like, or BMW demo site, promote a BMW demo, create a custom five hundred dollar discount."
+        },
+        {
+          "start_time": 1292220,
+          "end_time": 1299580,
+          "speaker": "Speaker 1",
+          "content": "On all twenty twenty six. What's the current model right now? Like a three? I don't know. Three series."
+        },
+        {
+          "start_time": 1299580,
+          "end_time": 1301660,
+          "speaker": "Lance",
+          "content": "Oh, for BMW. Yeah, you could you could say three series."
+        },
+        {
+          "start_time": 1301660,
+          "end_time": 1306380,
+          "speaker": "Speaker 1",
+          "content": "Is twenty twenty six going to be current? There'll probably be something to stop."
+        },
+        {
+          "start_time": 1306380,
+          "end_time": 1309900,
+          "speaker": "Lance",
+          "content": "Yeah, I might have twenty seven starting to land, but there's twenty twenty sixes."
+        },
+        {
+          "start_time": 1309900,
+          "end_time": 1349460,
+          "speaker": "Speaker 1",
+          "content": "Three series, and create a collection for all twenty twenty six BMW. Three series, and label it Ryan Harris offer. That's a pretty simple one, but I'll go through the steps there. And if it finds if encounters anything, I mean you you use AI probably more than I do, so you know how this works."
+        },
+        {
+          "start_time": 1349590,
+          "end_time": 1398630,
+          "speaker": "Speaker 1",
+          "content": "But it goes through and it connects it, and then you can just jump in and actually see that it's live. But yeah, it's it's. I wish I had this when I was on the other side. Like I had four monitors. I had Vauto one monitor. I had my DMS one monitor. I had Google Analytics and GA four one, and then you know like a website dashboard on another. Just Trying to marry everything, right? Like, what's getting clicks? What's underpriced? What is, you know, been in service too long? Yep. Like, yeah, this is acting a little bit slower than what I'm used to. But does, you know, with with this kind of like write capability, will that help eliminate some of the like copy and paste that you're doing?"
+        },
+        {
+          "start_time": 1398630,
+          "end_time": 1432210,
+          "speaker": "Lance",
+          "content": "Or did you kind of have so the copy paste is gone at this point? It's just me looking for kind of more. Sanctioned access, so it's like if it's more official and it it already kind of knows, then it eliminate it should eliminate some some error. You know, like I'm at the beginning of it building its own API, and so it's kind of like I know really I know that the copy paste works well. I know that it can go build new pages, fix the names, have them all correct. I'm about to have it go and add things to the navigation, so that's going to be a little bit of a test, right? Like, so right now those things are published."
+        },
+        {
+          "start_time": 1432210,
+          "end_time": 1441570,
+          "speaker": "Lance",
+          "content": "People can see them and they'll land on them, but they're not written and they're not in the actual navigation menu yet. So, yeah."
+        },
+        {
+          "start_time": 1441570,
+          "end_time": 1446850,
+          "speaker": "Speaker 1",
+          "content": "Anyway, yeah, I believe like menu navigation, like you can still edit even."
+        },
+        {
+          "start_time": 1446850,
+          "end_time": 1449090,
+          "speaker": "Lance",
+          "content": "Should be able to do all that stuff too, right?"
+        },
+        {
+          "start_time": 1449090,
+          "end_time": 1477870,
+          "speaker": "Speaker 1",
+          "content": "Yeah. So instead of just having to hop in and go in admin and jump on all your different sites, you can just yeah do this. Again, I think my internet's just. Being really slow, but to to to access this, I believe you just need to have a co - worker for your Claude. If if Claude is the one that you use the most, we're inside of ChatGPT too."
+        },
+        {
+          "start_time": 1477870,
+          "end_time": 1488830,
+          "speaker": "Lance",
+          "content": "So basically, I guess on my end, I just need to get it to go and use one of my probably Claude CLI, and then tell it to go find that that MCP."
+        },
+        {
+          "start_time": 1488830,
+          "end_time": 1508710,
+          "speaker": "Speaker 1",
+          "content": "Yeah. Yep. Set up for so there's five hundred dollars not reflecting. So twenty of the twenty two three series, we named it Brian Harris offer. We now have a Brian Harris offer collection. Two of the cars are in the collection, but didn't get the five hundred. So that's pretty cool."
+        },
+        {
+          "start_time": 1508710,
+          "end_time": 1510790,
+          "speaker": "Lance",
+          "content": "So we can just doing work."
+        },
+        {
+          "start_time": 1510790,
+          "end_time": 1513270,
+          "speaker": "Speaker 1",
+          "content": "Yeah, let's see. Did I break it?"
+        },
+        {
+          "start_time": 1516750,
+          "end_time": 1546330,
+          "speaker": "Speaker 1",
+          "content": "This when we're in demo sites, we get all types of warnings because we test a bunch of different stuff in here. So first thing we'll do, we'll go to our collections. So boom, so it's an automated collection, which is good. Yeah. And then we can go to pricing. We'll go to our incentives. We'll go to custom discount. And so there it is. And so it didn't set a start or end date, but that's that's pretty dang cool. So, dude."
+        },
+        {
+          "start_time": 1547170,
+          "end_time": 1564370,
+          "speaker": "Speaker 1",
+          "content": "I think I need to pull up a different browser. So go. If I \u2014 that's right. I forgot pricing usually takes a second to reflect. So oh,"
+        },
+        {
+          "start_time": 1564370,
+          "end_time": 1565970,
+          "speaker": "Lance",
+          "content": "Look there it is. Savings."
+        },
+        {
+          "start_time": 1565970,
+          "end_time": 1574130,
+          "speaker": "Speaker 1",
+          "content": "Yep. Cool. Yeah. So. Boom."
+        },
+        {
+          "start_time": 1579690,
+          "end_time": 1601050,
+          "speaker": "Speaker 1",
+          "content": "Is That not the Wild West or or what? That's it's just wild. So, let's delete that and let's delete that. And cool, hell yeah. So, does something like this seem like that would unblock you?"
+        },
+        {
+          "start_time": 1601050,
+          "end_time": 1633280,
+          "speaker": "Lance",
+          "content": "I mean, yeah, I think that'll give me a few new a few new capabilities for sure. I'll start. I'll go and figure out a way to get into it, just because I don't. I don't use actual Claude work, but my agents use Claude, and I don't remember if I'm using it. You know, if I've got a Claude CLI installed anywhere, but that's all I should. That's all I should need is go install a Claude CLI on one of my agents' computers and then have them use that MCP, and that would give us more abilities."
+        },
+        {
+          "start_time": 1633280,
+          "end_time": 1642430,
+          "speaker": "Speaker 1",
+          "content": "Yeah. Yeah, and then so you'd be doing it for your BMW for both of the BMWs and for Audi, and then also for Audi."
+        },
+        {
+          "start_time": 1642430,
+          "end_time": 1652350,
+          "speaker": "Lance",
+          "content": "Okay, yeah. Yeah, I guess right now it sort of gets into you to you know where y'all are. I got a new question for you. Do you guys have Nissan and GMC."
+        },
+        {
+          "start_time": 1652350,
+          "end_time": 1654670,
+          "speaker": "Speaker 1",
+          "content": "We have Nissan."
+        },
+        {
+          "start_time": 1654670,
+          "end_time": 1693390,
+          "speaker": "Lance",
+          "content": "You do have Nissan. Okay, cool. Because I've got a little tiny small group in Summit, Mississippi, which is. Shit! It's like it's only about an hour away from me. It's close. I'm going to talk to them this week, probably. They're small. Like I think both stores, GMC and Nissan, they might have a total of like 45 new cars. Okay. Which is hilarious, right? Like how how are you a GMC and Nissan, and that's all you have? Yeah. So I got a referral for them a few weeks ago because he he asked his Auto Trader rep, \"Hey man, can you look at this SEO report? I think I'm getting ripped off.\""
+        },
+        {
+          "start_time": 1693750,
+          "end_time": 1731260,
+          "speaker": "Lance",
+          "content": "You know, so he's paying somebody that like GMC told him to talk to, for SEO and for for like you know ad buying and shit. And I'm sure they're charging him, whatever they're charging him plus twenty two percent. And it's probably he's probably getting hosed. So yeah, I know that if if that's a we'll I start off with these guys where I'm like literally just let me come sit with you for free for a day and look at what you're doing, give you some feedback, and then if it develops into a relationship where I sell them. I'm gonna be. I'm always gonna push to switch it as many stores as I can to Motive, so that's why I always ask. Like, yeah, you know, you guys save them."
+        },
+        {
+          "start_time": 1731260,
+          "end_time": 1734140,
+          "speaker": "Speaker 1",
+          "content": "Listen, check us out."
+        },
+        {
+          "start_time": 1734140,
+          "end_time": 1735820,
+          "speaker": "Lance",
+          "content": "I guess GM's got to be coming soon,"
+        },
+        {
+          "start_time": 1735820,
+          "end_time": 1759230,
+          "speaker": "Speaker 1",
+          "content": "Right? Yeah, we we we've been talking to everybody. So we just announced Hyundai like two weeks ago. Yeah, a few weeks before that, we did Stellantis. We announced Honda and Acura. A month before that, Kia was the same time as Stellantis, Subaru, you know, or BMW, Mini, Lexus, and so it's they're all coming together."
+        },
+        {
+          "start_time": 1759230,
+          "end_time": 1760670,
+          "speaker": "Lance",
+          "content": "Yeah,"
+        },
+        {
+          "start_time": 1760670,
+          "end_time": 1784110,
+          "speaker": "Speaker 1",
+          "content": "That's cool. Yeah, so your your advocacy would would be really helpful because honestly, to actually to turn on that that MCP stuff, I'm supposed to get you to enroll to re - enroll your your BMW stores. But I know you also have Audi with us, and you're off program. So, yeah, I want to be a good partner to you guys."
+        },
+        {
+          "start_time": 1784110,
+          "end_time": 1821870,
+          "speaker": "Lance",
+          "content": "That's awesome. I'll try it. I mean, honestly, we'll try it. And also, look, if y'all ever wanted me to bullshit with somebody over there about the stuff that I'm doing, because a lot of the, I think about it all the time. I'm like, man, you know, honestly, if Motif wanted to, they could literally just do all this stuff. But I remember when y'all first ramped up, and whenever we were meeting, it was we just build websites. Right, don't ask me to do other bullshit. Well, I'm all that other bullshit, so it's like, yeah, it works out great. What I'm building and what you guys are building at one point, there needs to be some kind of partnership where we kind of help each other build."
+        },
+        {
+          "start_time": 1821870,
+          "end_time": 1833820,
+          "speaker": "Speaker 1",
+          "content": "Yeah, yeah, we we don't chase managed services for that reason because you're specialized in that, and it frees up our support team to be great and quick and turnaround. Like when you need something, if it's something that you can't figure out, that's you know."
+        },
+        {
+          "start_time": 1834240,
+          "end_time": 1859040,
+          "speaker": "Lance",
+          "content": "Yeah, this MCP thing that you guys have it. I mean, honestly, it makes it to where guys like me have to call you guys less. I mean, because fuck, if I've got if I you know if in a year I've got fifteen stores and I'm able to kind of be my own I T for all of them, then you guys are you know think about the makes you guys way cleaner. You know, if I can bug you less and do more of this shit myself."
+        },
+        {
+          "start_time": 1859040,
+          "end_time": 1881510,
+          "speaker": "Speaker 1",
+          "content": "Yeah, man. So. So one thing I can do for you probably that that group that's looking, they'll probably want a referral about somebody because I believe they also have Audi. So I can also, like two birds one stone it and let them know that you also sounds like you you may have some SEO type offerings too. Yeah, for sure."
+        },
+        {
+          "start_time": 1881510,
+          "end_time": 1917310,
+          "speaker": "Lance",
+          "content": "Well, my thing, man, I'll tell you what I'll do is I'm I'm in the middle of doing it right right now. My website exists, but it's real bare bones. It's, It's like a quick deck. It's like almost like a quick sales deck, from top to bottom, one long page. I've got an FAQ page, but I haven't all these new things like my acquired dashboard, which is basically a fucking mastermind replacement, and then my newsletters, the emails that go with the newsletters, and then I have another piece called GM Weeklies, and the GM Weekly is essentially a top-down funnel view of like where all of your traffic comes from. As it comes in, it creates leads, and as the leads get created, you've got."
+        },
+        {
+          "start_time": 1917310,
+          "end_time": 1946730,
+          "speaker": "Lance",
+          "content": "You can start looking at demand shape, like what's the shape of your demand, what's the shape of your trade requests, what is the shape of, and then also you go into okay now lead handling. So the way GM Weeklies work is it's updated once or twice a week, depending on what you want. And if you're GM, you log in, you look at this one giant dashboard that's got that's bringing in all of GA4 data, all of your inventory data, all of your trade data, all of your Google Ads data, and so they can look at it and go from from these leads suck."
+        },
+        {
+          "start_time": 1947570,
+          "end_time": 1950290,
+          "speaker": "Lance",
+          "content": "Over two, yeah, I'm closing. Here's where I'm closing."
+        },
+        {
+          "start_time": 1950290,
+          "end_time": 1952210,
+          "speaker": "Speaker 1",
+          "content": "It's just noise in my CRM. I'm never."
+        },
+        {
+          "start_time": 1952210,
+          "end_time": 2002260,
+          "speaker": "Lance",
+          "content": "It's also like these four salespeople are killing, are just being awesome, and these two suck. Like all that's in one dashboard, whereas like so many of my stores that are with Vin, for example, man, that's a nightmare trying to get into Vin Solutions, build those insights dashboards, and like, oh my god, I don't even try. It's easier for me to export all that data into one of my machines and then have it. Computed and have it digested and look good. So, really quickly, I'll get all of my like pieces productized and stuck and say, \"This this, this this.\" I'm inclined to just offer people everything once the AI systems are built. Iterating is simple and not that costly, honestly. Like, dude, my entire machine, everything that I do, is still running on just like the three hundred dollar Groq account."
+        },
+        {
+          "start_time": 2002720,
+          "end_time": 2026880,
+          "speaker": "Lance",
+          "content": "You know, and so and then I might run into a couple hundred bucks or 150 bucks a month in all my little pieces that my subagents use for like Gemini and Claude and all that crap, but it's not much. So it's all done efficiently. Nice. All that bullshit to say. Once I get it all kind of nailed down and I have a visual for you that you can send in this group, I'll shoot it over. Yeah,"
+        },
+        {
+          "start_time": 2026880,
+          "end_time": 2037100,
+          "speaker": "Speaker 1",
+          "content": "Yeah, just shoot it over to me, and then I. You know, I always tell when those conversations come, I just say, \" I'll connect you guys.\" If it works, it works. If it don't, it don't. You know."
+        },
+        {
+          "start_time": 2037100,
+          "end_time": 2045820,
+          "speaker": "Lance",
+          "content": "Well, look, when we when we start doing that, man, I'm gonna I'll come up with the numbers, but I'm gonna have some some spiffs involved in it for you guys, some referral referral bonuses."
+        },
+        {
+          "start_time": 2045820,
+          "end_time": 2059760,
+          "speaker": "Speaker 1",
+          "content": "No, we just help each other. We don't worry about that stuff. Yeah, yeah, we just worry about. I appreciate it. You've been a good partner to us, and so. Hell yeah. Well. Alrighty."
+        },
+        {
+          "start_time": 2059760,
+          "end_time": 2062960,
+          "speaker": "Lance",
+          "content": "Well, I'm gonna see if I can play with this, and then I'll update you."
+        },
+        {
+          "start_time": 2062960,
+          "end_time": 2070389,
+          "speaker": "Speaker 1",
+          "content": "Yeah. Yeah. Let me know. Hell yeah. Thank you. Awesome. Hey, thank you, Desrick, for setting us up. How's it going? You're welcome. Bye, y'all."
+        }
+      ]
+    },
+    {
+      "id": "of_11dffe7ef994c65c6c9f55d40e14f14f",
+      "name": "ABR \u00b7 Buyer\u2019s Guide edit pass (evergreen cleanup)",
+      "start_at": "2026-10-21T16:07:42",
+      "created_at": "2026-10-21T16:21:58",
+      "duration_ms": 847000,
+      "vertical": "dealers",
+      "store": "abr",
+      "routed_by": "spoken review session \u00b7 Ada named on tape",
+      "status": "go",
+      "work_order": "Ada: full ABR Buyer\u2019s Guide edit pass \u2014 warranty/maint blocks, humanize awkward AI lines, kill AFS \u201cdoesn\u2019t refinance\u201d + 1.99% featured offer on specials page, CPO shop button + benefits + feature link, fix Value my trade button size, PHEV image not charger giveaway, detail college/military/first-time programs.",
+      "highlights": [
+        {
+          "t": "0:00",
+          "title": "Home top",
+          "content": "Consistent warranty + provided maint; headline Baton Rouge, LA; cities block bottom; What questions do you have?"
+        },
+        {
+          "t": "2:00",
+          "title": "Lease/finance",
+          "content": "4yr/50k; up to 15k miles; drop awkward AI stats; 3yr/36k lease maint"
+        },
+        {
+          "t": "5:00",
+          "title": "Protection",
+          "content": "Help pick protection; flood to fine print; kill Triple I"
+        },
+        {
+          "t": "7:00",
+          "title": "Lease-end",
+          "content": "Never say AFS doesn\u2019t refinance; ABR helps explore options"
+        },
+        {
+          "t": "9:00",
+          "title": "Warranty/CPO",
+          "content": "4/50 + 3/30 blocks; Shop CPO button; link CPO feature page"
+        },
+        {
+          "t": "13:00",
+          "title": "Specials",
+          "content": "Remove 1.99% from evergreen special programs; detail OEM programs"
+        }
+      ],
+      "summary_md": "## ABR Buyer\u2019s Guide \u2014 edit pass (Ada go)\n\nLance did a top-to-bottom review. Evergreen guide only \u2014 no time-bound specials.\n\n### Ada work\n- Home: warranty + provided maintenance in top four; headline \u201c\u2026in Baton Rouge, Louisiana\u201d; service-cities block at bottom; \u201cWhat questions do you have?\u201d\n- Lease/finance: four-year/50k warranty; up to 15k lease miles; humanize awkward AI stats; typical 3yr/36k lease maint context; drop VW Credit insurance boilerplate\n- Protection: \u201cLet us help you choose the protection you need\u201d; flood \u2192 fine print; kill \u201cTriple I\u201d and \u201cnothing required to get financed\u201d\n- Lease-end / trade-buyout: **never** \u201cAudi Financial Services doesn\u2019t refinance\u201d; ABR helps explore refinance/buyout with multiple FIs; payoff via myAudi or call store\n- Warranty/maint: 4yr/50k + 3yr/30k blocks; verify rust/roadside mileage; link internal maint; replace charger-giveaway image under PHEV with Q5 TFSI e\n- CPO: Shop CPO / certified inventory button (not shop new); add Audi CPO quals/benefits; link live CPO feature page on AudiBatonRouge.com\n- Tax/plates: fix \u201cValue my trade\u201d button size mismatch\n- Special programs: remove 1.99% featured offer; research and detail college / military / first-time buyer programs\n\n### Status\n**go** \u2014 Ada executes edits.\n",
+      "transcript": [
+        {
+          "start_time": 140,
+          "end_time": 57910,
+          "speaker": "Lance",
+          "content": "I'm doing a review session for Audi Baton Rouge Buyers Guide. We're going to do it from the top, so we can just get all of these edits out of the way as quickly as possible. All right, starting with the home page for the Buyers Guide for Audi Baton Rouge. I want it very clearly. We have a four-piece up here. It says four-year, fifty, fifteen K-tip lease, lease tax on payments, twelve seventy-two. That's weird. It needs to be consistent across all of our stores. One of the pieces needs to be warranty, and the other piece needs to be provided maintenance. I want that to be a block in this top piece too. And then as we go down, should I lease, finance, or buy an Audi in Louisiana and in Baton Rouge? That should just say in Baton Rouge, Louisiana, right? Our extra cities we're going to cover down in the bottom of this with a block about all the different cities that we service, right?"
+        },
+        {
+          "start_time": 57910,
+          "end_time": 114030,
+          "speaker": "Lance",
+          "content": "So in this top piece, should I lease, finance, or buy an Audi? It needs to say, should I lease, finance, or buy an Audi in Baton Rouge, Louisiana? Lease if you like driving it newer. Okay, I like this maintenance piece. Your lease comes with its maintenance covered. It's a little awkward the verbiage. It should, you know, we can probably steal some verbiage from Audi about the maintenance. So don't try to reinvent this, but your lease comes with its maintenance covered, you know, through the duration of your lease. You know, Audi's taking it care care. I don't know, we might need to talk about that, but your lease comes with its maintenance covered. I like that. What do you want to figure out? I'm not care. I like this verbiage. What do you want to figure out? Maybe it's what questions do you have? I like that more. What questions do you have?"
+        },
+        {
+          "start_time": 115160,
+          "end_time": 170090,
+          "speaker": "Lance",
+          "content": "All right, we're going to go into each section now. Let's go into lease or finance. Lease or finance, your Audi. There's no wrong answer, just the one that fits how you drive. Here's how to tell which is right for you. Four-year factory warranty. That should say the four-year fifty thousand. I don't know why you would leave that out. Fifteen thousand typical lease miles. That can say. As much as fifteen thousand miles allowed in a lease, and then this lease taxed on payments. Does it need more detail? Maybe you have that down below. I'm about to go look. Seventeen months longest listed finance term. That's a weird fucking. That's awkward. Seventeen months longest listed finance term. That's essentially like an AI seeing that stat and just writing it. There's no human humanizing there at all."
+        },
+        {
+          "start_time": 170260,
+          "end_time": 196360,
+          "speaker": "Lance",
+          "content": "Lease if you like a newer Audi every few years. Finance if you want to make it yours. A typical lease stays inside the four-year, fifty warranty, included scheduled maintenance. Yeah, so typical lease is three-year, thirty-six thousand. So the chances are almost every maintenance trip will be covered, except maybe one or two. So that might need to be pieced in there somewhere."
+        },
+        {
+          "start_time": 201870,
+          "end_time": 229070,
+          "speaker": "Lance",
+          "content": "Okay, lease if you like a newer Audi for a set time and miles. You pay for the years you drive, not the whole car. I like that verbiage. Finance if you your like your name on the title. So you said this is kind of not a complete lease. If you lease if you like a newer, so it should say lease if you like lease if you like a newer Audi."
+        },
+        {
+          "start_time": 230610,
+          "end_time": 285750,
+          "speaker": "Lance",
+          "content": "Every few years, that's what it should say. Lease if you like lease if you like a newer lease if you like a newer Audi every few years. Finance if you like to make it yours. Finance if you see what I'm getting at. I don't. This is finance if your name on the title. That's awkward. We need to fix that. You own it. No extra wear or mile bills at the end. Terms from total and purchase loans. I don't know how leasing and financing compare. Your policy names VW Credit Leasing as additional insured and loss payee. That I don't know if we need to say that insurance paperwork bullshit. That's a weird difference. That's kind of not necessary."
+        },
+        {
+          "start_time": 295960,
+          "end_time": 351820,
+          "speaker": "Lance",
+          "content": "Okay, I'm going to move to the next page, which is protection. Protect your investment. Every one of these is optional. We'll help you figure out which one fits how you drive, and which ones you may be able to skip. Let's change that verbiage so it says, \"And which ones you may be able to skip.\" This is awkward. Your call. Nothing here is required to get financed. We don't need to put that. At all, that's a common. That we don't need to say. Nothing here is required to get financed. Your call. Let us help you pick what fits your style better, or help. Let us help you pick your driving style. Your. Let us help you pick the protection that you need most. Let us help you pick the protection you need."
+        },
+        {
+          "start_time": 353000,
+          "end_time": 406480,
+          "speaker": "Lance",
+          "content": "We'll put every price in writing. If you change your mind, you can cancel unused coverage if your contract allows it. And flood damage is a question for your car insurance, not something we sell. This and flood damage is that's not front facing. That should be fine print. That should be a disclaimer at the bottom. Good to know. Audi Signature Care covers scheduled maintenance for three years. Na na. That's maintenance. Let's make sure we call that what it is. Audi's Signature care covers scheduled maintenance. All right, that makes sense. I like it. How you drive, lease or finance changes the list. If you are leasing, tire and wheel protection and key replacement usually fit. If you are financing, we would suggest a vehicle service contract, extra repair and coverage after the factory warranty, because year five is on you. Example: Whether floods fall under your comprehensive insurance."
+        },
+        {
+          "start_time": 406480,
+          "end_time": 420200,
+          "speaker": "Lance",
+          "content": "If a finance car is totaled in a flood, gap coverage picks up what your insurance doesn't. I don't know what the hell \"Triple I\" means, but we need to get rid of it. A quick guide to start the conversation."
+        },
+        {
+          "start_time": 444090,
+          "end_time": 499330,
+          "speaker": "Lance",
+          "content": "Okay, let's go on to the next section. When the lease ends, when your lease ends, you've got options. A little prep goes a long way. We'll help you get ready for the inspection, so there are no surprises. Trade up, extend, buy it, or return it. If you return the car, Audi sends it in. If you buy the car, you skip the turn-in fee. It won't be billed for extra wear or extra miles. The key stays yours. Buy it instead. Ask for a payoff in the My Audi app. Audi Financial Services doesn't refinance. Is that true? That seems weird. We don't need to say Audi Financial Services doesn't refinance because we don't give a shit about Audi Financial Services in this case. We'll refinance. It can be asked for a payoff in the My Audi app. Call us if you've got questions. We love to help you explore all of your options. That's more like what that should say."
+        },
+        {
+          "start_time": 513289,
+          "end_time": 568700,
+          "speaker": "Lance",
+          "content": "An Audi Turn-in Guide. Let's see what that looks like. Assess your vehicle. Okay, I can deal with that. Next section is warranty, warranty and maintenance. Your Audi is covered. No, no. Four-year new car warranty, twelve-year rust-through, four-year roadside assistance, three-year thirty included service. So your little four block it needs to say four years or fifty thousand miles new warranty. This twelve years is there a mileage limit? This four year roadside is there a mileage limit on the roadside assistance? And then three thirty make that say three years or thirty thousand miles included service. Yeah, so we're saying usually a lease usually fits inside the factory warranty. A long loan doesn't."
+        },
+        {
+          "start_time": 568700,
+          "end_time": 628230,
+          "speaker": "Lance",
+          "content": "We can put in there a link over to our maintenance stuff. Got it. This is funny. You grabbed a charger. Looks like Ada grabbed a charger picture that a charger giveaway we were doing. As the battery has its own warranty, so we're down in here. It says plug-in hybrids. The battery has its own warranty, eight years or one hundred thousand miles. Blah blah. We need a different picture of that. Just find a picture of like a Q5 electric hybrid plug-in. Or something, and put that in there. You might need to search the web for that. What's included and what you can add? Okay, Audi warranty, Audi Care. Let's look at certified pre-owned. Certified pre-owned looked a little thin earlier. I would like in here to be able to click shop certified pre-owned inventory as a button. Right now, it just says certified pre-owned, get pre-qualified, shop new inventory. That makes no sense."
+        },
+        {
+          "start_time": 628230,
+          "end_time": 685620,
+          "speaker": "Lance",
+          "content": "If we're on certified pre-owned, it should say get pre-qualified, and it should say shop CPO or shop certified inventory. Should I buy a certified pre-owned instead of leasing new? You get one extra year or twenty thousand miles of coverage. Na na. It's still a big purchase, so take your time. Buy with confidence. Yeah, we can put in there. We need to put in there all the benefits of a certified pre-owned vehicle. So, like, if you look up all of the requirements that Audi gives us when we do a certified pre-owned, we can put those in there. Why buy certified pre-owned? Then we have like a whole page of like we do this, we do this, we do this. I've also got a certified pre-owned feature page, I believe, on AudiBatonRouge.com, so you can find that and link to that as well. All right, tax and plates, Louisiana tax, title and plates, leasing or buying. Here's how tax works in Louisiana and why a lease can mean."
+        },
+        {
+          "start_time": 686010,
+          "end_time": 743110,
+          "speaker": "Lance",
+          "content": "Less tax up front. Yeah, lease. You only pay tax on your monthly payment. Buy your trade-in lowers your tax. Title and plates. We handle all of it for you. No surprises. We'll walk you through the exact numbers on your deal. When you lease, you only tax on what you use. Okay, I love that explanation. Titles, plates, and paperwork already handled. Nobody buys an Audi because they love paperwork. When you lease or buy, we'll take care of everything. I like that that word track. Let's look at your numbers together. Every deal, na. Value my trade. So right here, I'm looking at some buttons you guys have, and there's get prequalified, shop new inventory, and value my trade. Value my trade is like a different dimension button. It looks goofy. Let's look for that flaw anywhere it might be present in our buyer's guide. FAQ. Do I pay less tax when I lease a car in Louisiana? Often yes. When you lease in Louisiana and in Baton Rouge, taxes apply to your monthly payments rather than a full. Okay, I like that."
+        },
+        {
+          "start_time": 745010,
+          "end_time": 804640,
+          "speaker": "Lance",
+          "content": "All right, next section: trade in or buy out. You can buy the car at any time. Audi Financial Services doesn't refinance. That's you're fucking saying that again. Audi Financial Services doesn't refinance. We don't ever say that. We're not reliant on just Audi Financial Services. We are Audi Baton Rouge, and we can help the customer explore all of their different buyout options. Right. So if someone wants to buy their lease, we would help them do that, and we would use any one of a number of different. Financial institutions. Does that make sense? Pay it off, trade it in, or return it. So, we need to fix what I just was talking about all over the place. Get your payoff quote in the My Audi app, or give us a call, and we'll take care of it for you. Makes sense. Then, special programs: college, military, first time, just graduated, returning to see their buying first car."
+        },
+        {
+          "start_time": 804900,
+          "end_time": 843470,
+          "speaker": "Lance",
+          "content": "Featured offer. I don't know how featured offer bled into this page. These pages are meant to be evergreen, so I think this got conflated. In the last couple of days, you and Ada added a featured offer to one of our buyer's guide pages. So I'm in special programs on the buyer's guide, and I've got a 1.99 annual percentage that doesn't belong here at all. So under special programs, we need to look up. Audi's college, military, and first-time buyer programs, and have those detailed in here. All right. So don't just say they exist. I want them detailed. You should be able to do that. Let me know when you have that ready too."
+        }
+      ]
+    },
+    {
+      "id": "of_5516f71dade74212a05184d62bfa188b",
+      "name": "Motive \u00b7 MCP access trial (Audi first; BMW Pro +$300)",
+      "start_at": "2026-10-21T17:00:44",
+      "created_at": "2026-10-21T17:05:25",
+      "duration_ms": 268000,
+      "vertical": "dealers",
+      "store": "abr",
+      "routed_by": "follow-up to MCP demo; spend gatekeeper",
+      "status": "park",
+      "work_order": "Motive to text when ABR MCP is on. Trial ABR first. BMW Pro package +$300/mo \u2014 do not enable until trial proves net-new. Explore flat agency pass. Email on file: BMW Jackson @ thecoopbrla.com.",
+      "highlights": [
+        {
+          "t": "0:40",
+          "title": "+$300",
+          "content": "BMW MCP via Pro package ~$300/mo increase"
+        },
+        {
+          "t": "1:10",
+          "title": "Audi trial",
+          "content": "No managed program \u2014 rep can click Audi on for test"
+        },
+        {
+          "t": "1:30",
+          "title": "Agency pass",
+          "content": "Lance asked flat fee multi-store MCP access"
+        },
+        {
+          "t": "4:00",
+          "title": "Pending",
+          "content": "Rep will text when access live; may hit all three"
+        }
+      ],
+      "summary_md": "## MCP access economics\n\nFollow-up call. BMW Pro package puts MCP behind ~**+$300/mo**. Audi has no managed program \u2014 rep will enable trial and **text Lance** when live (may open all three).\n\nLance = spend gatekeeper: only recommend if MCP unlocks net-new vs current inject/deploy. Asked about **flat agency pass** multi-store \u2014 open, not priced.\n\nEmail on file for access: BMW Jackson @ thecoopbrla.com.\n\n### Status\n**park** \u2014 wait text; trial ABR first; no Pro upgrade yet.\n",
+      "transcript": [
+        {
+          "start_time": 7640,
+          "end_time": 9240,
+          "speaker": "Speaker 1",
+          "content": "You can hear me."
+        },
+        {
+          "start_time": 9240,
+          "end_time": 10920,
+          "speaker": "Lance",
+          "content": "Yeah, I got you. What's up, man?"
+        },
+        {
+          "start_time": 10920,
+          "end_time": 42090,
+          "speaker": "Speaker 3",
+          "content": "Hey. How much? Okay. So for the BMW ones, that that program is managed by BMW. Ah. So so I'm supposed to to get you to enroll in the pro package, which has the MCP in that portal. So I just so. So I figured I'd pick up the phone and just call you and see. One, do you think that's is that? Do you think that's okay? Do you think it's going to cause the issue with your store?"
+        },
+        {
+          "start_time": 42090,
+          "end_time": 43130,
+          "speaker": "Lance",
+          "content": "I mean, how much more is it?"
+        },
+        {
+          "start_time": 43130,
+          "end_time": 46410,
+          "speaker": "Speaker 3",
+          "content": "I think it's three hundred bucks a month."
+        },
+        {
+          "start_time": 46410,
+          "end_time": 49530,
+          "speaker": "Lance",
+          "content": "Is that what the increase is,"
+        },
+        {
+          "start_time": 49530,
+          "end_time": 73730,
+          "speaker": "Speaker 3",
+          "content": "Basically? Yeah, that's the increase. It's the MCP. They they change the packages where MCP shows on it, and it's a. To manage program, so like they, you know, for turning on stuff and enabling stuff, it's supposed to match. On Audi, there there's no program, so I should be able to just click it for you."
+        },
+        {
+          "start_time": 73730,
+          "end_time": 85810,
+          "speaker": "Lance",
+          "content": "Okay. Yeah, I mean, and honestly, if you can just click it for Audi, let me try it, and then I might end up just adding it to my other stores. Gotcha. Is that cool?"
+        },
+        {
+          "start_time": 85810,
+          "end_time": 96740,
+          "speaker": "Speaker 3",
+          "content": "Yeah. Yeah, that's cool. Yeah, so I don't. Yeah, I'll do that. I'll click it on Audi, um, and then just let me like try it out, see if it, yeah, it meets and then."
+        },
+        {
+          "start_time": 96740,
+          "end_time": 115920,
+          "speaker": "Lance",
+          "content": "Yeah, my other question is, my other question is, do you do you think you guys are open to offering like an agency pass? You know what I'm saying? Like, if there's an agency access where I can pay an MCP access, you know, if it's like if it's worth it to me, then I would like maybe pay. A flat for a few of my stores."
+        },
+        {
+          "start_time": 115920,
+          "end_time": 136080,
+          "speaker": "Speaker 3",
+          "content": "You know what I mean? Yeah. Yeah. I'm sure I could do something like that. Let me do this. I just let let me click it on for Audi. All right. Just do that. See see that you can get in there. Make sure it makes sense, and then I like you're you were an early partner for BMW and stuff. So I just I want to be a good partner."
+        },
+        {
+          "start_time": 136080,
+          "end_time": 165080,
+          "speaker": "Lance",
+          "content": "So yeah, for sure, right? Yeah. I mean, I'm open to it. I'm open to it, but. And look, my I play so many different roles, but like one of my pieces, one of my most important roles to my stores, the reason they love me so much is that I'm always kind of their gatekeeper for like overspending, right? And so if it's like if it's something we don't need for one or two stores, then I'm then I'm not going to encourage them. But this is something that I think will help. And if it offers things that I can't already do, then it's well worth it."
+        },
+        {
+          "start_time": 165080,
+          "end_time": 171640,
+          "speaker": "Speaker 3",
+          "content": "You know what I mean? Yeah. Well, I got you on the phone. I'm going to try. Let me see something. Just also."
+        },
+        {
+          "start_time": 172940,
+          "end_time": 177740,
+          "speaker": "Lance",
+          "content": "If you want to switch it over to Audi, I might like try it now."
+        },
+        {
+          "start_time": 177740,
+          "end_time": 198140,
+          "speaker": "Speaker 3",
+          "content": "Yeah, it might just self destruct. We'll see. It might just, it might, we might just do it, and because my my day is going to be absolutely crazy today. Can you hear me? Okay, okay."
+        },
+        {
+          "start_time": 206600,
+          "end_time": 220920,
+          "speaker": "Speaker 1",
+          "content": "Let's."
+        },
+        {
+          "start_time": 220920,
+          "end_time": 226920,
+          "speaker": "Speaker 3",
+          "content": "Give it to a. Do you use the same email? Use the same email for all your scores."
+        },
+        {
+          "start_time": 226920,
+          "end_time": 235720,
+          "speaker": "Lance",
+          "content": "That's BMW Jackson at thecoopbrla. Thecoopbrla. com."
+        },
+        {
+          "start_time": 245240,
+          "end_time": 260040,
+          "speaker": "Speaker 3",
+          "content": "Yeah, okay. It's not letting get in. I'll send you a text when I get in there. I think it might. You might just get access to all three of them. We'll see. We'll just we'll try you with counting, and then just let me know what you think, and we'll take it from there."
+        },
+        {
+          "start_time": 260040,
+          "end_time": 264150,
+          "speaker": "Lance",
+          "content": "All right. Oh yeah. Sounds good, man. Thank you. Thank you, man. All right. Bye."
+        }
+      ]
+    },
+    {
+      "id": "of_1bc101df5b23f86c0491d14dcb42ae4d",
+      "name": "Hiring lean \u00b7 long-term AI/marketing operator + camera share",
+      "start_at": "2026-10-21T17:37:33",
+      "created_at": "2026-10-21T17:39:11",
+      "duration_ms": 92000,
+      "vertical": "personal",
+      "store": null,
+      "routed_by": "casual; hiring philosophy",
+      "status": "park",
+      "work_order": "",
+      "highlights": [
+        {
+          "t": "0:00",
+          "title": "Earnings spread",
+          "content": "$5\u20136k vs $15\u201320k/mo by store"
+        },
+        {
+          "t": "0:40",
+          "title": "Hire lean",
+          "content": "Prefer long-term person who learns Lance AI/marketing systems"
+        },
+        {
+          "t": "1:20",
+          "title": "Camera",
+          "content": "Leave camera accessible; Speaker2 will talk to Adam"
+        }
+      ],
+      "summary_md": "## Hiring lean (short)\n\nSales earnings vary hard by store ($5\u20136k vs $15\u201320k). Lance prefers long-term hire who will learn his AI/marketing systems over churn. Other party offered wash/upload help; will talk to Adam; keep camera shared.\n\n### Status\n**park** \u2014 personal/ops color only.\n",
+      "transcript": [
+        {
+          "start_time": 600,
+          "end_time": 27240,
+          "speaker": "Lance",
+          "content": "Hourly, yeah. It all depends, man. Look, going down the salesman route is a whole different deal, and is more of a career. Exactly. And and it depends on where you're at, what kind of store you're at, but you could make shit. You could be making five or six thousand a month, or fifteen or twenty thousand a month, depending on what store you're at. Like it's a big variance. So, I."
+        },
+        {
+          "start_time": 27240,
+          "end_time": 42100,
+          "speaker": "Speaker 2",
+          "content": "Was just thinking about that, man. But I just wanted to. Let me know if you do need some help, you know, with anything, you know. If I need to wash out the cars, or if you can shoot them and I can upload them or something. I don't know if that's. I don't know, man. At that point, you probably do it by yourself, you know."
+        },
+        {
+          "start_time": 42100,
+          "end_time": 82090,
+          "speaker": "Lance",
+          "content": "But yeah, I mean, I want to end up. Yeah. And look, my thing too is I'm. Every single. Let's see, back up. It costs more in time and money, to bring in a new person than it does to keep a new person. And so, if you're bringing in a new person. And want to acclimate them to all of your systems, everything that you're doing. You want it to be something that's like somebody that's like long term for you, and it's in your industry. So I'm probably going that direction, finding somebody that kind of wants to fuck with all my stuff, learn all my AI systems, and all that shit. That's in marketing. So yeah, I think that's what I'm gonna do."
+        },
+        {
+          "start_time": 82090,
+          "end_time": 86930,
+          "speaker": "Speaker 2",
+          "content": "That sounds. And I'll talk to Adam. But if you like the camera and all that shit, you can just leave it."
+        },
+        {
+          "start_time": 86930,
+          "end_time": 92090,
+          "speaker": "Lance",
+          "content": "We we keep it all just right there, and then whoever needs it can use it. Thank you, man. Appreciate."
         }
       ]
     }
