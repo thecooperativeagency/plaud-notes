@@ -1,6 +1,429 @@
 {
-  "revision": "PLAUD-NOTES-2026-10-22-AM",
+  "revision": "PLAUD-NOTES-2026-10-22-PM",
   "recordings": [
+    {
+      "id": "of_410de4e91ae20a024c3e9afebc51b063",
+      "name": "BMWJ \u00b7 event photo + Buyer's Guide review path",
+      "start_at": "2026-10-22T17:22:53",
+      "created_at": "2026-10-22T17:31:18",
+      "duration_ms": 484000,
+      "vertical": "dealers",
+      "store": "bmwj",
+      "routed_by": "BMWJ event logistics + buyer's guide proof with Rick/store",
+      "status": "park",
+      "work_order": "Lance owns: event photo first hour, email BG link to store+Rick, music/DJ confirm. Ada: hold unless asked to draft the BG review email.",
+      "highlights": [
+        {
+          "t": "0:00",
+          "title": "Event",
+          "content": "Lance attends first hour w/ real camera; no store photo cost"
+        },
+        {
+          "t": "2:30",
+          "title": "Music",
+          "content": "Invite says live music \u2014 lean DJ setup"
+        },
+        {
+          "t": "5:00",
+          "title": "Buyer's Guide",
+          "content": "9-page AI-friendly guide live but not in nav; needs Rick/store proof on protections packaging"
+        }
+      ],
+      "summary_md": "## BMWJ \u00b7 event photo + Buyer's Guide\n\n~8m Lance \u2194 store. Event this week: Lance covers first-hour photo/video himself (Jackson photog lead didn't fit car-enthusiast bar). Invite \"live music\" \u2192 DJ-style ok, not locked.\n\n### Buyer's Guide\n- 9-page AI-friendly guide live on Motive, **not in nav yet**\n- Lance will email link to Speaker 2 + Rick for proof \u2014 especially F&I protections packaging congruence\n- Prefer in-person recorded feedback session if email is thin\n\n### Personal (not Coop WO)\n- EV curiosity iX/iX3 vs Model Y / FSD \u2014 Lance may TD at BHBMW or on trip\n\n### Status\n**park** for Ada. Lance email + event attendance.\n",
+      "transcript": [
+        {
+          "start_time": 2230,
+          "end_time": 60680,
+          "speaker": "Lance",
+          "content": "Yeah, I was actually debating what time to come tomorrow because I want to come. I want to come this week to visit in general, but also, I'll probably just. What time is the event? I mean, I mean, I know I've been seeing it in the invites. Because what I might do is I might come, like in the afternoon, and stay like and just be there for like the first hour of the event at least, because I want to get some pictures and some video of it happening, obviously. You know what I mean? So, yeah, I think that that's what I'm going to do. I haven't even told my family yet, but they're just going to have to deal with it. Um, what uh, what else do you what else do you need from? How have the RSVPs been? Yeah, well, that's good."
+        },
+        {
+          "start_time": 62620,
+          "end_time": 74700,
+          "speaker": "Lance",
+          "content": "Yep, I will bring my real camera and I will take some photos and do a whole. I'll be there for that for sure. Yep, yep, I'm excited."
+        },
+        {
+          "start_time": 74700,
+          "end_time": 78060,
+          "speaker": "Speaker 2",
+          "content": "Yeah. Well, I."
+        },
+        {
+          "start_time": 78060,
+          "end_time": 119110,
+          "speaker": "Lance",
+          "content": "It's. What's her name? Is it the person that Rick that Rick might have even given to me? Yeah, I think that might be it. Cause I I've been talking about hiring a photographer. Cause I I have one or two that I've used in Baton Rouge. Like if I need something and I can't go. Like honestly, if I had somebody good in Jackson, I could just hire them and have them come shoot for y'all. Like I would do that. But I just don't have anybody. Then the one per that person that he sent me, I looked at her stuff and I was like, I don't even know if she's."
+        },
+        {
+          "start_time": 119540,
+          "end_time": 142260,
+          "speaker": "Lance",
+          "content": "The kind of person that we want, like it's gonna be like a car photographer. You want kind of a car nerd, car enthusiast type of person. Um. So, but anyway, but no, I'm gonna do it. No, I. That's part of what I do, and I don't expect you to incur any extra expense for that kind of shit. Okay. Yeah. Yep."
+        },
+        {
+          "start_time": 156690,
+          "end_time": 184550,
+          "speaker": "Lance",
+          "content": "Okay . Do do you know anybody? So on the fucking invites it says live music, which is not a look. It's not that big of a deal, but um. Well, yeah, you might just have to have yeah, just music. If you just set up a nice, you know, kind of like having a DJ situation,"
+        },
+        {
+          "start_time": 184550,
+          "end_time": 192870,
+          "speaker": "Speaker 2",
+          "content": "You know."
+        },
+        {
+          "start_time": 192870,
+          "end_time": 205860,
+          "speaker": "Lance",
+          "content": "Yeah. Don't recommend anything over there. Hey, your car fussing at you. What you? So, are you going to switch to an IX3?"
+        },
+        {
+          "start_time": 210250,
+          "end_time": 213850,
+          "speaker": "Speaker 2",
+          "content": "Are."
+        },
+        {
+          "start_time": 213850,
+          "end_time": 233690,
+          "speaker": "Lance",
+          "content": "You? Yeah. Yes. Yeah. Yeah. There's worse vehicles to be locked into. Yes, for sure. I love it."
+        },
+        {
+          "start_time": 233690,
+          "end_time": 238900,
+          "speaker": "Speaker 2",
+          "content": "The IX three. If I did not know about."
+        },
+        {
+          "start_time": 243940,
+          "end_time": 248980,
+          "speaker": "Speaker 2",
+          "content": "IX three is great, yeah. But the IX, I'm driving a hundred."
+        },
+        {
+          "start_time": 248980,
+          "end_time": 259620,
+          "speaker": "Lance",
+          "content": "Thousand mile car for less than twice the IX three. Yeah, for sure. Wonder if there's going to be any IXs leaseable here in the next year that are still hanging around."
+        },
+        {
+          "start_time": 259620,
+          "end_time": 264740,
+          "speaker": "Speaker 2",
+          "content": "You know what I mean? Um, shipping IXs."
+        },
+        {
+          "start_time": 264740,
+          "end_time": 269730,
+          "speaker": "Lance",
+          "content": "I know, but there's still I know that there's still some cars out there."
+        },
+        {
+          "start_time": 278190,
+          "end_time": 299950,
+          "speaker": "Lance",
+          "content": "Yeah Oh yeah, yeah. I probably missed my boat on kind of get one of those deals because I've been looking at leasing a Model Y in the next six months to a year, and then I'm like, well, I like BMW's new batteries technology, the longer range, all that shit, but I like FSD, and so it's like, I'm truly torn because I'm such a BMW guy, like truly, but."
+        },
+        {
+          "start_time": 302820,
+          "end_time": 360280,
+          "speaker": "Lance",
+          "content": "Yeah, I need to try one. I need to try one while I'm there with you guys, or or go grab one here at Brian Harris and just try one, because there's been one or two hanging around. So, hey, I just finished building you guys. I haven't told you about it yet, but I just finished building like a fucking nine-page buyer's guide that's going to live on our website. And the way it's designed, and another piece of, I've got a lot to tell you all, but what I've been working on, but it's all geared towards the fact that everybody's using Meta and Gemini. And ChatGPT to research cars now, and just to research fucking everything, and so you have a few things you've got to do right on your website in order to basically make it like this really welcoming, wonderful place for the AIs to find the answers. Right, that's the that's the motivation, and so obviously the website itself has to be the right structure. There's actually text documents that you need to live on your site that I've built and I'm going to have deployed."
+        },
+        {
+          "start_time": 360660,
+          "end_time": 416900,
+          "speaker": "Lance",
+          "content": "But also, you just need answers, right? You just need like a lot of information. And so the nice thing is, if you build it right, the AIs can use it to answer questions that customers have about cars or how to buy a car or how to lease a car or what happens at the end of the lease, all those things. But then they can also use it to just find cars, right? So hey, I found these cars. So we've got that. Our site is very, very welcome to AI. Motiv, Motiv is good at that. But long story short, I built this thing. It's nine pages. It's kind of big and it's a lot, but it's so it's like it lives on our site now, but it's not linked to, so you wouldn't see it and no one can get to it really. But I want to send it to you and Rick obviously. I want y'all to look at it and like pick you know do a proof read. Not not so just a proof read, but like for example, there's an area that discusses all the great protections that you should buy when you lease or purchase your car and why you should get them."
+        },
+        {
+          "start_time": 416900,
+          "end_time": 461870,
+          "speaker": "Lance",
+          "content": "Right, but I need that to be congruent with what you guys actually like to sell and how you like to package. So, anyway, I'm gonna send you guys the link in an email. Look through it, and then whenever you have time. If you don't have time now, that's fine. We can do it in person. It might be easiest to like do it in person, and I'll record the whole meeting, and then we can just use that as the feedback for the site because it's so much stuff. You know what I mean? But I'm gonna send it to you so you can check it out because it's out there. It's like it's on line, but it's just kind of not pushed and not. It's not in the navigation yet, you know. So customers won't really be finding it. But anywho, all right. Hell yeah! Don't worry about the photography. That'll be me. I'll be there."
+        },
+        {
+          "start_time": 461870,
+          "end_time": 467350,
+          "speaker": "Speaker 2",
+          "content": "Look forward to seeing you. Bye."
+        }
+      ]
+    },
+    {
+      "id": "of_6221ba710fe13dfe963f6456776f5bf4",
+      "name": "Coop \u00b7 Now Hiring page copy revisions",
+      "start_at": "2026-10-22T16:40:32",
+      "created_at": "2026-10-22T16:43:36",
+      "duration_ms": 176000,
+      "vertical": "coop-marketing",
+      "store": null,
+      "routed_by": "Explicit hiring-page feedback WO for website",
+      "status": "go",
+      "work_order": "Ada: revise Now Hiring page \u2014 headline/needle positioning, LA team + dealers+verticals + AI systems/custom apps, edit The Work + Who We Want (don't nuke), How to Apply = portfolio via site/social + job-app contact form (not raw email), wire new phone + chat.",
+      "highlights": [
+        {
+          "t": "0:00",
+          "title": "Headline",
+          "content": "Join a team that actually moves the needle (not 'ships')"
+        },
+        {
+          "t": "0:30",
+          "title": "Positioning",
+          "content": "LA team; marketing+sales engine for dealers and more"
+        },
+        {
+          "t": "1:00",
+          "title": "AI + craft",
+          "content": "Deep in AI systems/custom apps; photo + social + portfolio required"
+        },
+        {
+          "t": "2:00",
+          "title": "Apply",
+          "content": "Job-application contact form; phone + chat; portfolio links"
+        }
+      ],
+      "summary_md": "## Coop \u00b7 Now Hiring page revisions\n\n~3m Lance dictation \u2014 **clear Ada go**.\n\n### Copy direction\n- Headline \u2192 **Join a team that actually moves the needle**\n- Sub: Cooperative Agency = Louisiana team serving LA + surrounding; full marketing + sales engine for car dealerships **and other verticals**\n- Call out deep AI systems + custom apps/software for self + clients\n- Hire profile: excited about AI, willing to shoot inventory photo, strong social content, **body of work**\n- Edit **The Work** + **Who We Want** \u2014 don't fully replace; fold the above in\n- **How to Apply**: portfolio via personal site and/or social samples; prefer existing contact channels molded into a **job application form** (can still ring normal endpoints); include new phone + chat button\n\n### Status\n**go** \u2014 Ada works the page.\n",
+      "transcript": [
+        {
+          "start_time": 1360,
+          "end_time": 30990,
+          "speaker": "Lance",
+          "content": "All right, this is feedback and revisions for our now hiring page that we're going to bring into our website. Right now, starting at the top, it reads: \"Make content that actually ships. Let's say, join a team that actually moves the needle.\""
+        },
+        {
+          "start_time": 33120,
+          "end_time": 61540,
+          "speaker": "Lance",
+          "content": "And then below it, it's going to say the cooperative is a battery shop that runs the whole marketing engine for car dealerships. That general message needs to be more like the cooperative agency is a team in Louisiana, is a team that services Louisiana and the surrounding area. We run the whole marketing and sales engine for car dealerships and more."
+        },
+        {
+          "start_time": 64280,
+          "end_time": 118640,
+          "speaker": "Lance",
+          "content": "Something like that, mentioning that we are handling other verticals. We need to mention that we also are deep, deep, deep in the world of building AI systems for ourselves and for our clients. We custom build apps and software as we need it and as our client needs it. The person that we're hiring, we want them to be excited about that. We want them to be willing to shoot some inventory photography. We also want them to be willing to do social media content creation and be very good at it. And they should also have a body of work for that. So some of what I just said should belong probably in that section that's titled the work, and in the section that is that reads who we want. So I'm not suggesting you fully replace these two sections. I'm just suggesting that you take what I said."
+        },
+        {
+          "start_time": 118650,
+          "end_time": 173300,
+          "speaker": "Lance",
+          "content": "Into consideration and edit those two sections. It's really brief, so this is nice. So then down in the bottom, how to apply? I like the send us your basically portfolio by either giving us your website and or show us some of what you've been working on on social media. We can have my email address in there, but what I would prefer is for this to just use the contact methods that we're already using. So use that contact form. But mold that contact form to be more of a job application form, but it can be, it can basically ring us at our normal places. But it want we want it to be a job application form, and then we also need to use you know our our new phone number, our new chat button, all that kinds of bullshit. Does that make sense? Let me know if you have any questions."
+        }
+      ]
+    },
+    {
+      "id": "of_b2ff3b9239958aee21da854782b1158d",
+      "name": "HP \u00b7 social faces + Tuesday short-form routine (Evan Lee)",
+      "start_at": "2026-10-22T15:58:06",
+      "created_at": "2026-10-22T16:43:55",
+      "duration_ms": 1273000,
+      "vertical": "dealers",
+      "store": "porsche",
+      "routed_by": "Dealer social strategy w/ Evan Lee; faces > stock pics; Tue production cadence",
+      "status": "park",
+      "work_order": "Park ops notes. Optional Ada later: 6\u20138 general short-form outline scripts when Lance wants them. Store owns Tue shoot + IG multi-links + $20\u201325/post incentive decision.",
+      "highlights": [
+        {
+          "t": "3:00",
+          "title": "Faces",
+          "content": "Salespeople on camera beat product-only posts; Seth already good"
+        },
+        {
+          "t": "6:00",
+          "title": "Format",
+          "content": "Phone/tripod + mic; exhaust + feature; no cringe TikTok skits"
+        },
+        {
+          "t": "8:00",
+          "title": "Cadence",
+          "content": "Every Tuesday produce one piece; copy a reference video"
+        },
+        {
+          "t": "18:00",
+          "title": "Scripts",
+          "content": "Lance can spit 6\u20138 general AI outlines"
+        },
+        {
+          "t": "19:00",
+          "title": "Partner slide",
+          "content": "Premier deals / service changes next year \u2014 not distributed yet"
+        }
+      ],
+      "summary_md": "## HP \u00b7 social faces + Tuesday short-form\n\n~21m with Evan Lee (Garrett present). Complimented HP social; path is **faces of sales staff**, low-prod feature/exhaust clips \u2014 not stock-pic only and not cringe skits.\n\n### Locked on call\n- Multi-links on IG profile (watches + inventory) \u2014 easiest now that IG supports multiple\n- Tuesday: pick a car, film one piece (Lance helps film); show a reference and copy it\n- Cover/thumbnail should be a person + car\n- Avoid specific stock numbers that go stale; keep general (model/feature)\n\n### Open / store\n- $20\u201325 per post sales-rep incentive \u2014 suggested, not policy\n- Roster beyond Seth for on-camera\n- Partner premier deals / service-dept changes slide \u2014 not kicked out yet\n\n### Ada\nOptional later: 6\u20138 general short-form outline scripts. **No build this afternoon unless Lance says go.**\n",
+      "transcript": [
+        {
+          "start_time": 3640,
+          "end_time": 33400,
+          "speaker": "Speaker 1",
+          "content": "Okay, nice to meet you. What is it? Evan Lee. Evan, good to meet you. So, don't worry about his style. Garrett's here. So, I was looking to check something out with you. Got compliments on your on your social media. Apparently, I didn't know you set me up for cotton and sandwich."
+        },
+        {
+          "start_time": 34740,
+          "end_time": 59280,
+          "speaker": "Speaker 1",
+          "content": "What's up? Right, please. Yeah, I can't do none of that. Okay. What's the sandwich part? Is the link to my network? What's the link to that?"
+        },
+        {
+          "start_time": 67390,
+          "end_time": 126310,
+          "speaker": "Speaker 1",
+          "content": "Damn. Right. No, I was expecting to do that too. You might be going. I know this point. Yeah. So what I have to do, I'll go build. I got some old ones. I got some old ones. Some of those are old ones sold. No, what we'll do is I'll build a little. The maple tree thing. Well, I guess the maple tree is probably over there, can't be. Okay. I could actually. What I normally do, the portrait is kind of hard to model it. Because this site is not as customizable as Gettr's, yep, it's annoying. But what I could, so what a lot of people, what I'll do is like some other stores are on Moto, and I have like a custom landing page built that takes it everywhere. It's like my own industry, basically. Yeah, I've definitely seen. What do you like? I have flow pages, so I can build a flow page. I'm sure you're familiar with those. Yeah, I can also just do it on our site. Well, just through Instagram, then."
+        },
+        {
+          "start_time": 126310,
+          "end_time": 184220,
+          "speaker": "Speaker 1",
+          "content": "We do multiple links. Multiple links. Yeah, because then like that's that's true. Instagram now has multiple. Yeah, so that would probably be easiest because then now that Instagram, their entire thing has things that they distribute. And then, and those guys, and their, they get after it for sure. Yeah, I can't imagine having their budget. They uh, they have quite a budget. What has that? Mustangs. They have quite a position. No, let me go. I'm gonna do this right now. While I'm a little in the middle waiting on photos, I'm gonna go through some more things. So they can start off. Because in here we've got our pages to our watches and and all of that. Well, you've seen the page on the website. Yeah, because it's it's good that you guys have some of this boutique stuff. Yeah. And they seem to get to it better. I would well or get to it all. Yeah. Yeah. That'd be perfect. Yes."
+        },
+        {
+          "start_time": 184670,
+          "end_time": 213600,
+          "speaker": "Speaker 1",
+          "content": "And the only other thing I would say to bother you is the difference between a good and great social media presence for a dealer, our spaces. This is my favorite thing that I say: people's spaces on there. You want to separate yourself. Your code is great, pause, great. By the way, prior of course, I lived in media world also."
+        },
+        {
+          "start_time": 214710,
+          "end_time": 272530,
+          "speaker": "Speaker 1",
+          "content": "Especially now, like everybody can put put that same picture up on their Instagram. What what makes you guys different? And it's faces. Yeah, and my favorite thing to see on social media is something that I can't do. It's just sales representation. We have one who does a really good job, Seth, but someone Seth's busy. You know, that's what makes money. But like, does sales people just being on there having their faces? Yeah, that's that's what makes them money. And it helps them, and you go a step further and almost encourage them to, yeah, basically build their own brand. Yeah, and you, have you dug through and Salsbo settled up a little bit? Yeah, yeah, he's been doing a good job with it. But but why not? Why can't he add you guys to the club? He does. That's what we're collabing on a bunch of them. Well, I guess so. I'm scrolling this. You might it might have been a while. A cover image, like is this guy right? Yeah."
+        },
+        {
+          "start_time": 272790,
+          "end_time": 331580,
+          "speaker": "Speaker 1",
+          "content": "Those are all the best. Don't want to forget. It's just weak, just sloppy. However, and I'm not asking you to go do stupid skits like a lot of dealers. That's that can get a little cringe. I'm not a fan of the TikTok crap. Yeah, I mean, there are some of the things that do a good job of maybe showing that you are, in the behind that behind that screen, 100%. But then there's some of this. In my previous region, we had one that OKC, that just borderline of professional, borderline where it's just dumb. I've seen. So that's, but like Porsche Atlanta perimeter or St. Hennessey, one of those two. We're kind of one of the first to really do that well. Yeah. And so whenever I'm in these conversations, I was asking."
+        },
+        {
+          "start_time": 331580,
+          "end_time": 389220,
+          "speaker": "Speaker 1",
+          "content": "Bringing that up is Howard, Hasman, even Circus. Just and all it is is like if you look at in in the B O W world, and that was Galvez of B O W. You know those guys a little bit. There's a piece, there's there's a store that's in marketing, selling everyone. Oh, he's got his team with them selling marks. Okay, a big piece of it was because they were doing some nefarious things. The guy that can slap, but what they do well that I. They just\u2014they actually force resellers to be involved. They have a policy. If I were, I would um, enforcing is tough because then you you don't get like the instead of forcing. I'm not a spitter, is what I always call my dealers. It's like hey man, just offer them offer them 25 bucks a post, 20 bucks a post. It's not going to change your world much in the budgetary sense, but to them it's like shit I need for lunch. And you guys."
+        },
+        {
+          "start_time": 389220,
+          "end_time": 418590,
+          "speaker": "Speaker 1",
+          "content": "You guys have little mics and all that, yeah. Like as long as you have, to me especially, as long as the microphone is fine, it's cheap and easy, and it doesn't have to be something stupid. The only thing to be careful on is like specific stock numbers because then if it's not for sale anymore. No, it needs to be general terms. 911 was exhausting. One of my favorite supporters of Sam."
+        },
+        {
+          "start_time": 419720,
+          "end_time": 449580,
+          "speaker": "Speaker 1",
+          "content": "And what's fun about it is, it's very low production value. Not doing a bunch of crazy stuff. It's a camera on a tripod or phone on a tripod and a mic. Exhaust sounds, the car moving into the frame. Yes, that's it. And it's a you know probably a minute to produce it. So we'll do some of those things for sure. I think that's a good idea to try. I guarantee, I guarantee you get more engagement. Oh yeah, well I see it because when I post any video with a person in it, it's."
+        },
+        {
+          "start_time": 449860,
+          "end_time": 478820,
+          "speaker": "Speaker 1",
+          "content": "And that cover image needs to be a person. Yeah, yeah. And a person standing in front of a car, obviously, but because people do buy from people. And if I'm in the local area, let's see, your competitor, I know your competitor down the street doesn't do a good job of this, because I had to get on about something that I saw folks posted that I was like, hey, why do I spend so much time doing? Do you mean like in the picture?"
+        },
+        {
+          "start_time": 480010,
+          "end_time": 533040,
+          "speaker": "Speaker 1",
+          "content": "In the thumbnail, even their feet. I was like, if you don't get that off right now, that's fun. Yeah, that's so that's a little different. What if we What if we made a rule every Tuesday, produce one little one something? Right. You know, I'll be the one that help help film it. At one point, I would love to be like, I instructed these cats, and they can just sort of take the ball and run with it. Also, yeah. But every Tuesday, let's produce one piece. I don't. I don't really see a downside doing that. As long as, as long as you keep going back to the practice, I think they just run. Like that guy, that kid that they have doing it, he just runs. Well, what you end up with if you get action."
+        },
+        {
+          "start_time": 535080,
+          "end_time": 562820,
+          "speaker": "Speaker 1",
+          "content": "This guy, yeah. So he's their social media guy, and they just do whatever they want to. Well, they do whatever is trending on TikTok, right? Yeah, and okay. And some of it's okay, but then some of it is just too much. I just don't love it. Now, what's interesting is they grow a little bit, so they'll get heard. Okay, I did that because that would make somebody click."
+        },
+        {
+          "start_time": 564700,
+          "end_time": 624190,
+          "speaker": "Speaker 1",
+          "content": "It's good. You want to make sure captions are on screen, all that stuff. Well, the thing is, I've got systems built where if we just produce stuff, so we should put stuff in the studio. Sorry. What day is this? This video right here. You follow Evan Ross's music at all? Come into that chat. Yeah, I've known. So I like some of his style. Yeah. And we can start doing that. Yeah, but you know what? Your stuff looks better. No, that's not. But it's baby steps, and not everybody is born for that. Well, that's a big part. You know, it's like what I hear through the grapevine is galleries actually hires for it. Well, have you seen? Okay, I know that. Like, there's a lot of people like this that are more like influencer style people to become."
+        },
+        {
+          "start_time": 624410,
+          "end_time": 682260,
+          "speaker": "Speaker 1",
+          "content": "All Camaro Chevy. Yes. All Camaro. Oh yes. But do you know who those girls are? I met one. Yes. Is it an outside? They found the team. No, we know that. But is it an outside vendor? So here. So I met them. Okay. So I was at Classic Restoration Challenge in Minneapolis, and this is a funny story. So I'm sitting there, I see the girl, and I'm like, Where have I seen her? And I hate to say where my My head went first. Yeah. Obviously. And I'm like, so, and I see him walking around, walking around, and finally get it. I'm like, no, she lives around with Chevy and Marie. Yep. Same stuff. Yep. And she was the little one. Yep. Okay. And three, right? It's three, three, it's three of them. But she's like the little spunky one. Yeah."
+        },
+        {
+          "start_time": 683960,
+          "end_time": 713890,
+          "speaker": "Speaker 1",
+          "content": "And I walked up to to them, and the guy, Horsesha, P.C.A. was paying him to cover the event, and he brought his girlfriend, his girlfriend, just to get some exposure to check it out, and he was doing some little videos with her. Right. She's a worker. She's an actor. Right. And and she's a good job, and they all see the quality. Like like that's."
+        },
+        {
+          "start_time": 714160,
+          "end_time": 770250,
+          "speaker": "Speaker 1",
+          "content": "That's about the high production you get. They don't. They don't have little B.S. little DJI mics. They have. They probably have boom mics. DJI, but you gotta run a lab and hire a lab. Yeah. Bro, timeout. Do you know what's happening down there? Basically. One day I got a call. Hey, can you go sign so and so into our TikTok so she can make posts? So that's what's going on TikTok. Did you ever TikTok? I don't look at TikTok. I can't even TikTok. My work phone has one. Yeah, yeah. Yeah. So yeah, what's the reality? There is who does it."
+        },
+        {
+          "start_time": 772620,
+          "end_time": 802290,
+          "speaker": "Speaker 1",
+          "content": "These are just the types of things. And now I'm not saying that you do that stuff, obviously. Well, but they they do a good job. Do you also know what some of this costs? Oh, well this this the this the high one. It's eight grand. Yeah, we're probably where it gets started. Yeah. I mean, and you, you know what? That's that's the extreme. Like we said earlier, phone, mic."
+        },
+        {
+          "start_time": 803040,
+          "end_time": 859310,
+          "speaker": "Speaker 1",
+          "content": "Actual people that are selling the cars. Portia Samuels just doing foam in a mic. Yes. That's all you need. And he's a one-man production. I don't think he's got a. Then it's. Oh yeah. Yep. Yep. That's um. What's her name? I think he's strong here. Military service commission for those deployments. And then this guy hears yes. Yep. He's on his own TikTok production. That's absolute rage. Yeah. Well, he's been having a little rage. That's cool. That may be."
+        },
+        {
+          "start_time": 859610,
+          "end_time": 918960,
+          "speaker": "Speaker 1",
+          "content": "I had no idea how long the video went on. Really, this is another part of it is that when someone comes to contact, and you don't, you don't say too much, but that's that will. It will clearly upend. So, but anyway, man, fire. Yeah, you know what? No, I don't know the story because I don't dig. Actually, Eric might even told me. I'll let him. Um, he was yeah. Heard tell me, I just haven't asked. I just really wasn't there anymore. Oh, it was uh, gave me a signed paper contract. Turn around, do a digital contract. We're different. We're different brothers. For real? Yeah."
+        },
+        {
+          "start_time": 918960,
+          "end_time": 948850,
+          "speaker": "Speaker 1",
+          "content": "That's like before he really came crashing. Oh, sorry, right before he\u2014that's like he did it. He doesn't even quit. He's tearing up. He said, \"I'm saying, theory. Yeah. If I take you, you sign your contract, but your payments, a thousand dollars a month. God, mark you.\""
+        },
+        {
+          "start_time": 953150,
+          "end_time": 1011790,
+          "speaker": "Speaker 1",
+          "content": "Bring it back down to one. The retirement deal. There's nothing else on there. Cash out their account. It's highly illegal. Highly immoral. Let me get wrong. But you're instead of getting a bill at the end of the day, you're getting a bill from whatever that bank for that price. Yep. You're otherwise did that. Same rules, but the contracts were different. Name. So the customer got a bill from a. He was expecting a bill from this. Yeah. This is advertising. Who? Anyway, didn't say a comment from a guy who pretended to. Oh yeah, sure. Every guy drove around and signed them up. Okay. Not to everything. Sometimes it's not necessarily based off that far away from truth."
+        },
+        {
+          "start_time": 1012620,
+          "end_time": 1065420,
+          "speaker": "Speaker 1",
+          "content": "That's your old. That's that's uh that that's poor judge judgment. That was stoney shit right there. So look, but listen, do you realize how fringe this stuff is? Some of it's cool, but some of it's yeah. So you know you don't go too far over. Can't chase every train. No, I think you do more like what poor Sam was doing, and you do more of the this feature, this feature. Yeah, just make it cool. I mean, these kids are cool, and have a little bit enthusiasm about it. And I mean, every once in a while, I'll see a trend that it works because it's showing the human side of the service department or whatever. But most of it is, so cool. Yeah, let's do that. Yeah. Good."
+        },
+        {
+          "start_time": 1069660,
+          "end_time": 1127120,
+          "speaker": "Speaker 1",
+          "content": "Yeah, I'm gonna do uh. Like, I'm not all general brass, but all right. Yeah, cool. That's me, sir. Yeah, we're gonna be uh, we'll talk. Good. We'll make a couple changes right now, and then on Tuesday we'll start. Hey, let's pick a pick a car and let's let's produce one. Yeah, and just even we do one at a time, and just show that person somebody else's video and say just copy it. Yes, like I'm not asking you to do anything. Yes, you don't even need a computer. Like literally, you can say the same words. Yeah, it doesn't matter. Well, but nowadays I've got I've got shit built that we can we can easily I can easily spit out six or eight quick scripts easy that are general outlines. You know, all my AI's for example have all of our."
+        },
+        {
+          "start_time": 1127120,
+          "end_time": 1152550,
+          "speaker": "Speaker 1",
+          "content": "So we're talking about that. I like it. And then we're going to do a video about this. Cool. So we're talking about that."
+        },
+        {
+          "start_time": 1156570,
+          "end_time": 1212540,
+          "speaker": "Speaker 1",
+          "content": "Because I'm already doing my kind of just general like cinematic reels, but if we mix in the faces, it's gonna be. Yeah. Did you read about? What's your? Because I was a gentleman and didn't actually take pictures during that meeting. Actually. Oh, the the. Did you? The the the slide with the um, premiere deals for partners next year. Not yet. Oh, we will have. We'll have to buy maybe further changes. Changes for? Yeah. What areas? Yeah, yeah. Nothing dramatic outside of the service. Right, right, right. But just. But you know, you saw there were a lot of changes, but at the same time, haven't tried. Yeah, different. It's not fully big. That's probably why I haven't kicked it out yet. I didn't know if you haven't had them. I don't. Although those."
+        },
+        {
+          "start_time": 1212540,
+          "end_time": 1237600,
+          "speaker": "Speaker 1",
+          "content": "Slide that didn't say not a confidentiality box or something. Yeah, I Briggs might have pictures. If I did, I would absolutely show it to you. But then, but yeah, they they didn't even we had another internal presentation too, and they you know I probably could have just screenshot it that one, but it wasn't anything particular. But one other thing I was thinking about as I was driving in here."
+        },
+        {
+          "start_time": 1240780,
+          "end_time": 1263590,
+          "speaker": "Speaker 1",
+          "content": "First thing you see when you drive in today is a Mercedes and grass. So just still playing in the fair. Yeah, can meet you there. Yeah, don't do it."
+        }
+      ]
+    },
     {
       "id": "of_cf9bb92f44fb83075337c4bd3b0f31ed",
       "name": "Dealer Playbook \u00b7 Wade Kerzie \u00b7 LLMs.txt for dealership inventory",

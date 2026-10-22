@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>BMWJ · event photo + Buyer&#x27;s Guide review path</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500&family=IBM+Plex+Mono:wght@400;500&family=Source+Sans+3:wght@400;600;700&display=swap">
+  <style>
+:root {
+  --bg: #090908;
+  --bg-2: #11110f;
+  --bg-3: #181714;
+  --ink: #f0eadc;
+  --muted: #8d8778;
+  --faint: #5c574c;
+  --line: #26241e;
+  --accent: #c4452d;
+  --mustard: #c4a35a;
+  --blue: #6f8fbf;
+  --ok: #7d9a6d;
+  --serif: "Fraunces", "Iowan Old Style", Georgia, serif;
+  --sans: "Source Sans 3", "Source Sans Pro", -apple-system, sans-serif;
+  --mono: "IBM Plex Mono", ui-monospace, monospace;
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html, body { background: var(--bg); color: var(--ink); }
+body {
+  font-family: var(--sans);
+  min-height: 100vh;
+  text-wrap: pretty;
+}
+a { color: inherit; }
+.shell { display: grid; grid-template-columns: 260px 1fr; min-height: 100vh; }
+.rail {
+  border-right: 1px solid var(--line);
+  padding: 28px 18px 40px;
+  background: var(--bg-2);
+  position: sticky; top: 0; height: 100vh; overflow: auto;
+}
+.mark {
+  font-family: var(--serif);
+  font-weight: 500;
+  font-size: 13px;
+  letter-spacing: .18em;
+  text-transform: uppercase;
+  color: var(--accent);
+}
+.rail h1 {
+  font-family: var(--serif);
+  font-size: 28px;
+  font-weight: 460;
+  letter-spacing: -.03em;
+  margin: 10px 0 6px;
+}
+.rail .lede { color: var(--muted); font-size: 13.5px; line-height: 1.45; margin-bottom: 28px; }
+.vnav { display: flex; flex-direction: column; gap: 4px; }
+.vnav a {
+  display: flex; justify-content: space-between; align-items: baseline;
+  text-decoration: none; padding: 9px 10px; border-radius: 8px;
+  color: var(--ink); font-size: 14px;
+}
+.vnav a:hover, .vnav a.is-on { background: var(--bg-3); }
+.vnav a.is-on { box-shadow: inset 2px 0 0 var(--accent); }
+.vnav .count { color: var(--faint); font-family: var(--mono); font-size: 11px; }
+.stage { padding: 36px 40px 80px; max-width: 980px; }
+.kicker {
+  font-size: 11px; letter-spacing: .16em; text-transform: uppercase;
+  color: var(--accent); font-weight: 700; margin-bottom: 8px;
+}
+.stage > h2 {
+  font-family: var(--serif); font-weight: 460; font-size: 34px;
+  letter-spacing: -.03em; margin-bottom: 8px;
+}
+.blurb { color: var(--muted); margin-bottom: 28px; max-width: 46rem; }
+.empty {
+  border: 1px dashed var(--line); border-radius: 14px;
+  padding: 36px 28px; color: var(--muted); background: var(--bg-2);
+}
+.empty strong { color: var(--ink); font-weight: 600; }
+.cards { display: flex; flex-direction: column; gap: 10px; }
+.card {
+  display: grid; grid-template-columns: 1fr auto; gap: 12px;
+  text-decoration: none; padding: 16px 18px; border-radius: 12px;
+  background: var(--bg-2); border: 1px solid var(--line);
+}
+.card:hover { border-color: #3a372e; background: var(--bg-3); }
+.card h3 { font-size: 16px; font-weight: 600; margin-bottom: 4px; }
+.meta { color: var(--muted); font-size: 13px; display: flex; gap: 10px; flex-wrap: wrap; }
+.chip {
+  font-family: var(--mono); font-size: 10px; letter-spacing: .06em;
+  text-transform: uppercase; padding: 3px 7px; border-radius: 999px;
+  border: 1px solid var(--line); color: var(--muted); height: fit-content;
+}
+.chip.dealers { color: var(--blue); border-color: #2a3344; }
+.chip.avec-tous { color: var(--mustard); border-color: #3a3320; }
+.chip.personal { color: #c9a7a0; }
+.chip.ideas { color: var(--ok); }
+.note-top { margin-bottom: 22px; }
+.note-top h2 { font-family: var(--serif); font-size: 36px; font-weight: 460; letter-spacing: -.03em; }
+.tabs { display: flex; gap: 6px; margin: 22px 0 18px; border-bottom: 1px solid var(--line); }
+.tabs button {
+  appearance: none; background: none; border: 0; color: var(--muted);
+  font: 600 13px var(--sans); padding: 10px 12px; cursor: pointer;
+  border-bottom: 2px solid transparent; margin-bottom: -1px;
+}
+.tabs button[aria-selected="true"] { color: var(--ink); border-bottom-color: var(--accent); }
+.panel { display: none; }
+.panel.is-on { display: block; }
+.prose { font-size: 16.5px; line-height: 1.6; max-width: 42rem; }
+.prose h2, .prose h3 { font-family: var(--serif); font-weight: 500; margin: 1.3em 0 .4em; }
+.prose p { margin: 0 0 .8em; }
+.prose ul, .prose ol { margin: 0 0 1em 1.2em; }
+.prose li { margin: .25em 0; }
+.hl { border-left: 2px solid var(--accent); padding: 10px 0 10px 14px; margin: 0 0 14px; }
+.hl .t { font-family: var(--mono); font-size: 11px; color: var(--faint); }
+.hl h4 { font-size: 15px; margin: 4px 0; }
+.hl p { color: var(--muted); font-size: 14.5px; }
+.seg { display: grid; grid-template-columns: 64px 1fr; gap: 12px; padding: 8px 0; border-bottom: 1px solid var(--line); }
+.seg .ts { font-family: var(--mono); font-size: 11px; color: var(--faint); padding-top: 3px; }
+.back { color: var(--muted); text-decoration: none; font-size: 13px; display: inline-block; margin-bottom: 18px; }
+.back:hover { color: var(--ink); }
+footer { margin-top: 48px; color: var(--faint); font-size: 11px; font-family: var(--mono); }
+@media (max-width: 820px) {
+  .shell { grid-template-columns: 1fr; }
+  .rail { position: relative; height: auto; border-right: 0; border-bottom: 1px solid var(--line); }
+  .stage { padding: 24px 18px 64px; }
+  .note-top h2 { font-size: 28px; }
+}
+</style>
+</head>
+<body>
+<div class="shell">
+<aside class="rail">
+  <div class="mark">Cooperative</div>
+  <h1>Field desk</h1>
+  <p class="lede">Plaud landings. Summary, highlights, transcript — filed by life area.</p>
+  <nav class="vnav"><a href="../index.html" class="">All <span class="count">105</span></a><a class="" href="../vertical-inbox.html">Inbox <span class="count">1</span></a><a class="" href="../vertical-personal.html">Personal <span class="count">8</span></a><a class="" href="../vertical-coop-marketing.html">Coop Marketing <span class="count">6</span></a><a class="" href="../vertical-coop-dev.html">Coop Dev <span class="count">11</span></a><a class="" href="../vertical-avec-tous.html">Avec Tous <span class="count">0</span></a><a class="is-on" href="../vertical-dealers.html">Dealers <span class="count">74</span></a><a class="" href="../vertical-ideas.html">Ideas <span class="count">5</span></a></nav>
+</aside>
+<main class="stage">
+  <a class="back" href="../index.html">← Desk</a>
+  <div class="note-top">
+    <div class="kicker">dealers · 2026-10-22 · 8m04s</div>
+    <h2>BMWJ · event photo + Buyer&#x27;s Guide review path</h2>
+    <div class="meta" style="margin-top:8px"><span>id of_410de4e91ae20a024c3e9afebc51b063</span><span>BMWJ event logistics + buyer&#x27;s guide proof with Rick/store</span></div>
+  </div>
+  <div class="tabs" role="tablist">
+    <button type="button" data-panel="sum" aria-selected="true">Summary</button>
+    <button type="button" data-panel="hl" aria-selected="false">Highlights</button>
+    <button type="button" data-panel="tx" aria-selected="false">Transcript</button>
+  </div>
+  <section id="sum" class="panel is-on prose"><h2>BMWJ · event photo + Buyer&#x27;s Guide</h2>
+<p>~8m Lance ↔ store. Event this week: Lance covers first-hour photo/video himself (Jackson photog lead didn&#x27;t fit car-enthusiast bar). Invite &quot;live music&quot; → DJ-style ok, not locked.</p>
+<h3>Buyer&#x27;s Guide</h3>
+<ul>
+<li>9-page AI-friendly guide live on Motive, <strong>not in nav yet</strong></li>
+<li>Lance will email link to Speaker 2 + Rick for proof — especially F&amp;I protections packaging congruence</li>
+<li>Prefer in-person recorded feedback session if email is thin</li>
+</ul>
+<h3>Personal (not Coop WO)</h3>
+<ul>
+<li>EV curiosity iX/iX3 vs Model Y / FSD — Lance may TD at BHBMW or on trip</li>
+</ul>
+<h3>Status</h3>
+<p><strong>park</strong> for Ada. Lance email + event attendance.</p></section>
+  <section id="hl" class="panel"><div class="hl"><div class="t">0:00</div><h4>Event</h4><p>Lance attends first hour w/ real camera; no store photo cost</p></div><div class="hl"><div class="t">0:00</div><h4>Music</h4><p>Invite says live music — lean DJ setup</p></div><div class="hl"><div class="t">0:00</div><h4>Buyer&#x27;s Guide</h4><p>9-page AI-friendly guide live but not in nav; needs Rick/store proof on protections packaging</p></div></section>
+  <section id="tx" class="panel"><div class="seg"><div class="ts">0:02</div><div>Yeah, I was actually debating what time to come tomorrow because I want to come. I want to come this week to visit in general, but also, I&#x27;ll probably just. What time is the event? I mean, I mean, I know I&#x27;ve been seeing it in the invites. Because what I might do is I might come, like in the afternoon, and stay like and just be there for like the first hour of the event at least, because I want to get some pictures and some video of it happening, obviously. You know what I mean? So, yeah, I think that that&#x27;s what I&#x27;m going to do. I haven&#x27;t even told my family yet, but they&#x27;re just going to have to deal with it. Um, what uh, what else do you what else do you need from? How have the RSVPs been? Yeah, well, that&#x27;s good.</div></div><div class="seg"><div class="ts">1:02</div><div>Yep, I will bring my real camera and I will take some photos and do a whole. I&#x27;ll be there for that for sure. Yep, yep, I&#x27;m excited.</div></div><div class="seg"><div class="ts">1:14</div><div>Yeah. Well, I.</div></div><div class="seg"><div class="ts">1:18</div><div>It&#x27;s. What&#x27;s her name? Is it the person that Rick that Rick might have even given to me? Yeah, I think that might be it. Cause I I&#x27;ve been talking about hiring a photographer. Cause I I have one or two that I&#x27;ve used in Baton Rouge. Like if I need something and I can&#x27;t go. Like honestly, if I had somebody good in Jackson, I could just hire them and have them come shoot for y&#x27;all. Like I would do that. But I just don&#x27;t have anybody. Then the one per that person that he sent me, I looked at her stuff and I was like, I don&#x27;t even know if she&#x27;s.</div></div><div class="seg"><div class="ts">1:59</div><div>The kind of person that we want, like it&#x27;s gonna be like a car photographer. You want kind of a car nerd, car enthusiast type of person. Um. So, but anyway, but no, I&#x27;m gonna do it. No, I. That&#x27;s part of what I do, and I don&#x27;t expect you to incur any extra expense for that kind of shit. Okay. Yeah. Yep.</div></div><div class="seg"><div class="ts">2:36</div><div>Okay . Do do you know anybody? So on the fucking invites it says live music, which is not a look. It&#x27;s not that big of a deal, but um. Well, yeah, you might just have to have yeah, just music. If you just set up a nice, you know, kind of like having a DJ situation,</div></div><div class="seg"><div class="ts">3:04</div><div>You know.</div></div><div class="seg"><div class="ts">3:12</div><div>Yeah. Don&#x27;t recommend anything over there. Hey, your car fussing at you. What you? So, are you going to switch to an IX3?</div></div><div class="seg"><div class="ts">3:30</div><div>Are.</div></div><div class="seg"><div class="ts">3:33</div><div>You? Yeah. Yes. Yeah. Yeah. There&#x27;s worse vehicles to be locked into. Yes, for sure. I love it.</div></div><div class="seg"><div class="ts">3:53</div><div>The IX three. If I did not know about.</div></div><div class="seg"><div class="ts">4:03</div><div>IX three is great, yeah. But the IX, I&#x27;m driving a hundred.</div></div><div class="seg"><div class="ts">4:08</div><div>Thousand mile car for less than twice the IX three. Yeah, for sure. Wonder if there&#x27;s going to be any IXs leaseable here in the next year that are still hanging around.</div></div><div class="seg"><div class="ts">4:19</div><div>You know what I mean? Um, shipping IXs.</div></div><div class="seg"><div class="ts">4:24</div><div>I know, but there&#x27;s still I know that there&#x27;s still some cars out there.</div></div><div class="seg"><div class="ts">4:38</div><div>Yeah Oh yeah, yeah. I probably missed my boat on kind of get one of those deals because I&#x27;ve been looking at leasing a Model Y in the next six months to a year, and then I&#x27;m like, well, I like BMW&#x27;s new batteries technology, the longer range, all that shit, but I like FSD, and so it&#x27;s like, I&#x27;m truly torn because I&#x27;m such a BMW guy, like truly, but.</div></div><div class="seg"><div class="ts">5:02</div><div>Yeah, I need to try one. I need to try one while I&#x27;m there with you guys, or or go grab one here at Brian Harris and just try one, because there&#x27;s been one or two hanging around. So, hey, I just finished building you guys. I haven&#x27;t told you about it yet, but I just finished building like a fucking nine-page buyer&#x27;s guide that&#x27;s going to live on our website. And the way it&#x27;s designed, and another piece of, I&#x27;ve got a lot to tell you all, but what I&#x27;ve been working on, but it&#x27;s all geared towards the fact that everybody&#x27;s using Meta and Gemini. And ChatGPT to research cars now, and just to research fucking everything, and so you have a few things you&#x27;ve got to do right on your website in order to basically make it like this really welcoming, wonderful place for the AIs to find the answers. Right, that&#x27;s the that&#x27;s the motivation, and so obviously the website itself has to be the right structure. There&#x27;s actually text documents that you need to live on your site that I&#x27;ve built and I&#x27;m going to have deployed.</div></div><div class="seg"><div class="ts">6:00</div><div>But also, you just need answers, right? You just need like a lot of information. And so the nice thing is, if you build it right, the AIs can use it to answer questions that customers have about cars or how to buy a car or how to lease a car or what happens at the end of the lease, all those things. But then they can also use it to just find cars, right? So hey, I found these cars. So we&#x27;ve got that. Our site is very, very welcome to AI. Motiv, Motiv is good at that. But long story short, I built this thing. It&#x27;s nine pages. It&#x27;s kind of big and it&#x27;s a lot, but it&#x27;s so it&#x27;s like it lives on our site now, but it&#x27;s not linked to, so you wouldn&#x27;t see it and no one can get to it really. But I want to send it to you and Rick obviously. I want y&#x27;all to look at it and like pick you know do a proof read. Not not so just a proof read, but like for example, there&#x27;s an area that discusses all the great protections that you should buy when you lease or purchase your car and why you should get them.</div></div><div class="seg"><div class="ts">6:56</div><div>Right, but I need that to be congruent with what you guys actually like to sell and how you like to package. So, anyway, I&#x27;m gonna send you guys the link in an email. Look through it, and then whenever you have time. If you don&#x27;t have time now, that&#x27;s fine. We can do it in person. It might be easiest to like do it in person, and I&#x27;ll record the whole meeting, and then we can just use that as the feedback for the site because it&#x27;s so much stuff. You know what I mean? But I&#x27;m gonna send it to you so you can check it out because it&#x27;s out there. It&#x27;s like it&#x27;s on line, but it&#x27;s just kind of not pushed and not. It&#x27;s not in the navigation yet, you know. So customers won&#x27;t really be finding it. But anywho, all right. Hell yeah! Don&#x27;t worry about the photography. That&#x27;ll be me. I&#x27;ll be there.</div></div><div class="seg"><div class="ts">7:41</div><div>Look forward to seeing you. Bye.</div></div></section>
+</main>
+</div>
+<footer>PLAUD-NOTES-2026-10-22-PM · noindex · Plaud sources + notes</footer>
+<script>
+
+document.querySelectorAll('.tabs button').forEach(btn => {
+  btn.addEventListener('click', () => {
+    document.querySelectorAll('.tabs button').forEach(b => b.setAttribute('aria-selected', b===btn ? 'true':'false'));
+    document.querySelectorAll('.panel').forEach(p => p.classList.toggle('is-on', p.id === btn.dataset.panel));
+  });
+});
+
+</script>
+</body>
+</html>

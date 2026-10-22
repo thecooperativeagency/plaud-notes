@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>HP · social faces + Tuesday short-form routine (Evan Lee)</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500&family=IBM+Plex+Mono:wght@400;500&family=Source+Sans+3:wght@400;600;700&display=swap">
+  <style>
+:root {
+  --bg: #090908;
+  --bg-2: #11110f;
+  --bg-3: #181714;
+  --ink: #f0eadc;
+  --muted: #8d8778;
+  --faint: #5c574c;
+  --line: #26241e;
+  --accent: #c4452d;
+  --mustard: #c4a35a;
+  --blue: #6f8fbf;
+  --ok: #7d9a6d;
+  --serif: "Fraunces", "Iowan Old Style", Georgia, serif;
+  --sans: "Source Sans 3", "Source Sans Pro", -apple-system, sans-serif;
+  --mono: "IBM Plex Mono", ui-monospace, monospace;
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html, body { background: var(--bg); color: var(--ink); }
+body {
+  font-family: var(--sans);
+  min-height: 100vh;
+  text-wrap: pretty;
+}
+a { color: inherit; }
+.shell { display: grid; grid-template-columns: 260px 1fr; min-height: 100vh; }
+.rail {
+  border-right: 1px solid var(--line);
+  padding: 28px 18px 40px;
+  background: var(--bg-2);
+  position: sticky; top: 0; height: 100vh; overflow: auto;
+}
+.mark {
+  font-family: var(--serif);
+  font-weight: 500;
+  font-size: 13px;
+  letter-spacing: .18em;
+  text-transform: uppercase;
+  color: var(--accent);
+}
+.rail h1 {
+  font-family: var(--serif);
+  font-size: 28px;
+  font-weight: 460;
+  letter-spacing: -.03em;
+  margin: 10px 0 6px;
+}
+.rail .lede { color: var(--muted); font-size: 13.5px; line-height: 1.45; margin-bottom: 28px; }
+.vnav { display: flex; flex-direction: column; gap: 4px; }
+.vnav a {
+  display: flex; justify-content: space-between; align-items: baseline;
+  text-decoration: none; padding: 9px 10px; border-radius: 8px;
+  color: var(--ink); font-size: 14px;
+}
+.vnav a:hover, .vnav a.is-on { background: var(--bg-3); }
+.vnav a.is-on { box-shadow: inset 2px 0 0 var(--accent); }
+.vnav .count { color: var(--faint); font-family: var(--mono); font-size: 11px; }
+.stage { padding: 36px 40px 80px; max-width: 980px; }
+.kicker {
+  font-size: 11px; letter-spacing: .16em; text-transform: uppercase;
+  color: var(--accent); font-weight: 700; margin-bottom: 8px;
+}
+.stage > h2 {
+  font-family: var(--serif); font-weight: 460; font-size: 34px;
+  letter-spacing: -.03em; margin-bottom: 8px;
+}
+.blurb { color: var(--muted); margin-bottom: 28px; max-width: 46rem; }
+.empty {
+  border: 1px dashed var(--line); border-radius: 14px;
+  padding: 36px 28px; color: var(--muted); background: var(--bg-2);
+}
+.empty strong { color: var(--ink); font-weight: 600; }
+.cards { display: flex; flex-direction: column; gap: 10px; }
+.card {
+  display: grid; grid-template-columns: 1fr auto; gap: 12px;
+  text-decoration: none; padding: 16px 18px; border-radius: 12px;
+  background: var(--bg-2); border: 1px solid var(--line);
+}
+.card:hover { border-color: #3a372e; background: var(--bg-3); }
+.card h3 { font-size: 16px; font-weight: 600; margin-bottom: 4px; }
+.meta { color: var(--muted); font-size: 13px; display: flex; gap: 10px; flex-wrap: wrap; }
+.chip {
+  font-family: var(--mono); font-size: 10px; letter-spacing: .06em;
+  text-transform: uppercase; padding: 3px 7px; border-radius: 999px;
+  border: 1px solid var(--line); color: var(--muted); height: fit-content;
+}
+.chip.dealers { color: var(--blue); border-color: #2a3344; }
+.chip.avec-tous { color: var(--mustard); border-color: #3a3320; }
+.chip.personal { color: #c9a7a0; }
+.chip.ideas { color: var(--ok); }
+.note-top { margin-bottom: 22px; }
+.note-top h2 { font-family: var(--serif); font-size: 36px; font-weight: 460; letter-spacing: -.03em; }
+.tabs { display: flex; gap: 6px; margin: 22px 0 18px; border-bottom: 1px solid var(--line); }
+.tabs button {
+  appearance: none; background: none; border: 0; color: var(--muted);
+  font: 600 13px var(--sans); padding: 10px 12px; cursor: pointer;
+  border-bottom: 2px solid transparent; margin-bottom: -1px;
+}
+.tabs button[aria-selected="true"] { color: var(--ink); border-bottom-color: var(--accent); }
+.panel { display: none; }
+.panel.is-on { display: block; }
+.prose { font-size: 16.5px; line-height: 1.6; max-width: 42rem; }
+.prose h2, .prose h3 { font-family: var(--serif); font-weight: 500; margin: 1.3em 0 .4em; }
+.prose p { margin: 0 0 .8em; }
+.prose ul, .prose ol { margin: 0 0 1em 1.2em; }
+.prose li { margin: .25em 0; }
+.hl { border-left: 2px solid var(--accent); padding: 10px 0 10px 14px; margin: 0 0 14px; }
+.hl .t { font-family: var(--mono); font-size: 11px; color: var(--faint); }
+.hl h4 { font-size: 15px; margin: 4px 0; }
+.hl p { color: var(--muted); font-size: 14.5px; }
+.seg { display: grid; grid-template-columns: 64px 1fr; gap: 12px; padding: 8px 0; border-bottom: 1px solid var(--line); }
+.seg .ts { font-family: var(--mono); font-size: 11px; color: var(--faint); padding-top: 3px; }
+.back { color: var(--muted); text-decoration: none; font-size: 13px; display: inline-block; margin-bottom: 18px; }
+.back:hover { color: var(--ink); }
+footer { margin-top: 48px; color: var(--faint); font-size: 11px; font-family: var(--mono); }
+@media (max-width: 820px) {
+  .shell { grid-template-columns: 1fr; }
+  .rail { position: relative; height: auto; border-right: 0; border-bottom: 1px solid var(--line); }
+  .stage { padding: 24px 18px 64px; }
+  .note-top h2 { font-size: 28px; }
+}
+</style>
+</head>
+<body>
+<div class="shell">
+<aside class="rail">
+  <div class="mark">Cooperative</div>
+  <h1>Field desk</h1>
+  <p class="lede">Plaud landings. Summary, highlights, transcript — filed by life area.</p>
+  <nav class="vnav"><a href="../index.html" class="">All <span class="count">105</span></a><a class="" href="../vertical-inbox.html">Inbox <span class="count">1</span></a><a class="" href="../vertical-personal.html">Personal <span class="count">8</span></a><a class="" href="../vertical-coop-marketing.html">Coop Marketing <span class="count">6</span></a><a class="" href="../vertical-coop-dev.html">Coop Dev <span class="count">11</span></a><a class="" href="../vertical-avec-tous.html">Avec Tous <span class="count">0</span></a><a class="is-on" href="../vertical-dealers.html">Dealers <span class="count">74</span></a><a class="" href="../vertical-ideas.html">Ideas <span class="count">5</span></a></nav>
+</aside>
+<main class="stage">
+  <a class="back" href="../index.html">← Desk</a>
+  <div class="note-top">
+    <div class="kicker">dealers · 2026-10-22 · 21m13s</div>
+    <h2>HP · social faces + Tuesday short-form routine (Evan Lee)</h2>
+    <div class="meta" style="margin-top:8px"><span>id of_b2ff3b9239958aee21da854782b1158d</span><span>Dealer social strategy w/ Evan Lee; faces &gt; stock pics; Tue production cadence</span></div>
+  </div>
+  <div class="tabs" role="tablist">
+    <button type="button" data-panel="sum" aria-selected="true">Summary</button>
+    <button type="button" data-panel="hl" aria-selected="false">Highlights</button>
+    <button type="button" data-panel="tx" aria-selected="false">Transcript</button>
+  </div>
+  <section id="sum" class="panel is-on prose"><h2>HP · social faces + Tuesday short-form</h2>
+<p>~21m with Evan Lee (Garrett present). Complimented HP social; path is <strong>faces of sales staff</strong>, low-prod feature/exhaust clips — not stock-pic only and not cringe skits.</p>
+<h3>Locked on call</h3>
+<ul>
+<li>Multi-links on IG profile (watches + inventory) — easiest now that IG supports multiple</li>
+<li>Tuesday: pick a car, film one piece (Lance helps film); show a reference and copy it</li>
+<li>Cover/thumbnail should be a person + car</li>
+<li>Avoid specific stock numbers that go stale; keep general (model/feature)</li>
+</ul>
+<h3>Open / store</h3>
+<ul>
+<li>$20–25 per post sales-rep incentive — suggested, not policy</li>
+<li>Roster beyond Seth for on-camera</li>
+<li>Partner premier deals / service-dept changes slide — not kicked out yet</li>
+</ul>
+<h3>Ada</h3>
+<p>Optional later: 6–8 general short-form outline scripts. <strong>No build this afternoon unless Lance says go.</strong></p></section>
+  <section id="hl" class="panel"><div class="hl"><div class="t">0:00</div><h4>Faces</h4><p>Salespeople on camera beat product-only posts; Seth already good</p></div><div class="hl"><div class="t">0:00</div><h4>Format</h4><p>Phone/tripod + mic; exhaust + feature; no cringe TikTok skits</p></div><div class="hl"><div class="t">0:00</div><h4>Cadence</h4><p>Every Tuesday produce one piece; copy a reference video</p></div><div class="hl"><div class="t">0:00</div><h4>Scripts</h4><p>Lance can spit 6–8 general AI outlines</p></div><div class="hl"><div class="t">0:00</div><h4>Partner slide</h4><p>Premier deals / service changes next year — not distributed yet</p></div></section>
+  <section id="tx" class="panel"><div class="seg"><div class="ts">0:03</div><div>Okay, nice to meet you. What is it? Evan Lee. Evan, good to meet you. So, don&#x27;t worry about his style. Garrett&#x27;s here. So, I was looking to check something out with you. Got compliments on your on your social media. Apparently, I didn&#x27;t know you set me up for cotton and sandwich.</div></div><div class="seg"><div class="ts">0:34</div><div>What&#x27;s up? Right, please. Yeah, I can&#x27;t do none of that. Okay. What&#x27;s the sandwich part? Is the link to my network? What&#x27;s the link to that?</div></div><div class="seg"><div class="ts">1:07</div><div>Damn. Right. No, I was expecting to do that too. You might be going. I know this point. Yeah. So what I have to do, I&#x27;ll go build. I got some old ones. I got some old ones. Some of those are old ones sold. No, what we&#x27;ll do is I&#x27;ll build a little. The maple tree thing. Well, I guess the maple tree is probably over there, can&#x27;t be. Okay. I could actually. What I normally do, the portrait is kind of hard to model it. Because this site is not as customizable as Gettr&#x27;s, yep, it&#x27;s annoying. But what I could, so what a lot of people, what I&#x27;ll do is like some other stores are on Moto, and I have like a custom landing page built that takes it everywhere. It&#x27;s like my own industry, basically. Yeah, I&#x27;ve definitely seen. What do you like? I have flow pages, so I can build a flow page. I&#x27;m sure you&#x27;re familiar with those. Yeah, I can also just do it on our site. Well, just through Instagram, then.</div></div><div class="seg"><div class="ts">2:06</div><div>We do multiple links. Multiple links. Yeah, because then like that&#x27;s that&#x27;s true. Instagram now has multiple. Yeah, so that would probably be easiest because then now that Instagram, their entire thing has things that they distribute. And then, and those guys, and their, they get after it for sure. Yeah, I can&#x27;t imagine having their budget. They uh, they have quite a budget. What has that? Mustangs. They have quite a position. No, let me go. I&#x27;m gonna do this right now. While I&#x27;m a little in the middle waiting on photos, I&#x27;m gonna go through some more things. So they can start off. Because in here we&#x27;ve got our pages to our watches and and all of that. Well, you&#x27;ve seen the page on the website. Yeah, because it&#x27;s it&#x27;s good that you guys have some of this boutique stuff. Yeah. And they seem to get to it better. I would well or get to it all. Yeah. Yeah. That&#x27;d be perfect. Yes.</div></div><div class="seg"><div class="ts">3:04</div><div>And the only other thing I would say to bother you is the difference between a good and great social media presence for a dealer, our spaces. This is my favorite thing that I say: people&#x27;s spaces on there. You want to separate yourself. Your code is great, pause, great. By the way, prior of course, I lived in media world also.</div></div><div class="seg"><div class="ts">3:34</div><div>Especially now, like everybody can put put that same picture up on their Instagram. What what makes you guys different? And it&#x27;s faces. Yeah, and my favorite thing to see on social media is something that I can&#x27;t do. It&#x27;s just sales representation. We have one who does a really good job, Seth, but someone Seth&#x27;s busy. You know, that&#x27;s what makes money. But like, does sales people just being on there having their faces? Yeah, that&#x27;s that&#x27;s what makes them money. And it helps them, and you go a step further and almost encourage them to, yeah, basically build their own brand. Yeah, and you, have you dug through and Salsbo settled up a little bit? Yeah, yeah, he&#x27;s been doing a good job with it. But but why not? Why can&#x27;t he add you guys to the club? He does. That&#x27;s what we&#x27;re collabing on a bunch of them. Well, I guess so. I&#x27;m scrolling this. You might it might have been a while. A cover image, like is this guy right? Yeah.</div></div><div class="seg"><div class="ts">4:32</div><div>Those are all the best. Don&#x27;t want to forget. It&#x27;s just weak, just sloppy. However, and I&#x27;m not asking you to go do stupid skits like a lot of dealers. That&#x27;s that can get a little cringe. I&#x27;m not a fan of the TikTok crap. Yeah, I mean, there are some of the things that do a good job of maybe showing that you are, in the behind that behind that screen, 100%. But then there&#x27;s some of this. In my previous region, we had one that OKC, that just borderline of professional, borderline where it&#x27;s just dumb. I&#x27;ve seen. So that&#x27;s, but like Porsche Atlanta perimeter or St. Hennessey, one of those two. We&#x27;re kind of one of the first to really do that well. Yeah. And so whenever I&#x27;m in these conversations, I was asking.</div></div><div class="seg"><div class="ts">5:31</div><div>Bringing that up is Howard, Hasman, even Circus. Just and all it is is like if you look at in in the B O W world, and that was Galvez of B O W. You know those guys a little bit. There&#x27;s a piece, there&#x27;s there&#x27;s a store that&#x27;s in marketing, selling everyone. Oh, he&#x27;s got his team with them selling marks. Okay, a big piece of it was because they were doing some nefarious things. The guy that can slap, but what they do well that I. They just—they actually force resellers to be involved. They have a policy. If I were, I would um, enforcing is tough because then you you don&#x27;t get like the instead of forcing. I&#x27;m not a spitter, is what I always call my dealers. It&#x27;s like hey man, just offer them offer them 25 bucks a post, 20 bucks a post. It&#x27;s not going to change your world much in the budgetary sense, but to them it&#x27;s like shit I need for lunch. And you guys.</div></div><div class="seg"><div class="ts">6:29</div><div>You guys have little mics and all that, yeah. Like as long as you have, to me especially, as long as the microphone is fine, it&#x27;s cheap and easy, and it doesn&#x27;t have to be something stupid. The only thing to be careful on is like specific stock numbers because then if it&#x27;s not for sale anymore. No, it needs to be general terms. 911 was exhausting. One of my favorite supporters of Sam.</div></div><div class="seg"><div class="ts">6:59</div><div>And what&#x27;s fun about it is, it&#x27;s very low production value. Not doing a bunch of crazy stuff. It&#x27;s a camera on a tripod or phone on a tripod and a mic. Exhaust sounds, the car moving into the frame. Yes, that&#x27;s it. And it&#x27;s a you know probably a minute to produce it. So we&#x27;ll do some of those things for sure. I think that&#x27;s a good idea to try. I guarantee, I guarantee you get more engagement. Oh yeah, well I see it because when I post any video with a person in it, it&#x27;s.</div></div><div class="seg"><div class="ts">7:29</div><div>And that cover image needs to be a person. Yeah, yeah. And a person standing in front of a car, obviously, but because people do buy from people. And if I&#x27;m in the local area, let&#x27;s see, your competitor, I know your competitor down the street doesn&#x27;t do a good job of this, because I had to get on about something that I saw folks posted that I was like, hey, why do I spend so much time doing? Do you mean like in the picture?</div></div><div class="seg"><div class="ts">8:00</div><div>In the thumbnail, even their feet. I was like, if you don&#x27;t get that off right now, that&#x27;s fun. Yeah, that&#x27;s so that&#x27;s a little different. What if we What if we made a rule every Tuesday, produce one little one something? Right. You know, I&#x27;ll be the one that help help film it. At one point, I would love to be like, I instructed these cats, and they can just sort of take the ball and run with it. Also, yeah. But every Tuesday, let&#x27;s produce one piece. I don&#x27;t. I don&#x27;t really see a downside doing that. As long as, as long as you keep going back to the practice, I think they just run. Like that guy, that kid that they have doing it, he just runs. Well, what you end up with if you get action.</div></div><div class="seg"><div class="ts">8:55</div><div>This guy, yeah. So he&#x27;s their social media guy, and they just do whatever they want to. Well, they do whatever is trending on TikTok, right? Yeah, and okay. And some of it&#x27;s okay, but then some of it is just too much. I just don&#x27;t love it. Now, what&#x27;s interesting is they grow a little bit, so they&#x27;ll get heard. Okay, I did that because that would make somebody click.</div></div><div class="seg"><div class="ts">9:24</div><div>It&#x27;s good. You want to make sure captions are on screen, all that stuff. Well, the thing is, I&#x27;ve got systems built where if we just produce stuff, so we should put stuff in the studio. Sorry. What day is this? This video right here. You follow Evan Ross&#x27;s music at all? Come into that chat. Yeah, I&#x27;ve known. So I like some of his style. Yeah. And we can start doing that. Yeah, but you know what? Your stuff looks better. No, that&#x27;s not. But it&#x27;s baby steps, and not everybody is born for that. Well, that&#x27;s a big part. You know, it&#x27;s like what I hear through the grapevine is galleries actually hires for it. Well, have you seen? Okay, I know that. Like, there&#x27;s a lot of people like this that are more like influencer style people to become.</div></div><div class="seg"><div class="ts">10:24</div><div>All Camaro Chevy. Yes. All Camaro. Oh yes. But do you know who those girls are? I met one. Yes. Is it an outside? They found the team. No, we know that. But is it an outside vendor? So here. So I met them. Okay. So I was at Classic Restoration Challenge in Minneapolis, and this is a funny story. So I&#x27;m sitting there, I see the girl, and I&#x27;m like, Where have I seen her? And I hate to say where my My head went first. Yeah. Obviously. And I&#x27;m like, so, and I see him walking around, walking around, and finally get it. I&#x27;m like, no, she lives around with Chevy and Marie. Yep. Same stuff. Yep. And she was the little one. Yep. Okay. And three, right? It&#x27;s three, three, it&#x27;s three of them. But she&#x27;s like the little spunky one. Yeah.</div></div><div class="seg"><div class="ts">11:23</div><div>And I walked up to to them, and the guy, Horsesha, P.C.A. was paying him to cover the event, and he brought his girlfriend, his girlfriend, just to get some exposure to check it out, and he was doing some little videos with her. Right. She&#x27;s a worker. She&#x27;s an actor. Right. And and she&#x27;s a good job, and they all see the quality. Like like that&#x27;s.</div></div><div class="seg"><div class="ts">11:54</div><div>That&#x27;s about the high production you get. They don&#x27;t. They don&#x27;t have little B.S. little DJI mics. They have. They probably have boom mics. DJI, but you gotta run a lab and hire a lab. Yeah. Bro, timeout. Do you know what&#x27;s happening down there? Basically. One day I got a call. Hey, can you go sign so and so into our TikTok so she can make posts? So that&#x27;s what&#x27;s going on TikTok. Did you ever TikTok? I don&#x27;t look at TikTok. I can&#x27;t even TikTok. My work phone has one. Yeah, yeah. Yeah. So yeah, what&#x27;s the reality? There is who does it.</div></div><div class="seg"><div class="ts">12:52</div><div>These are just the types of things. And now I&#x27;m not saying that you do that stuff, obviously. Well, but they they do a good job. Do you also know what some of this costs? Oh, well this this the this the high one. It&#x27;s eight grand. Yeah, we&#x27;re probably where it gets started. Yeah. I mean, and you, you know what? That&#x27;s that&#x27;s the extreme. Like we said earlier, phone, mic.</div></div><div class="seg"><div class="ts">13:23</div><div>Actual people that are selling the cars. Portia Samuels just doing foam in a mic. Yes. That&#x27;s all you need. And he&#x27;s a one-man production. I don&#x27;t think he&#x27;s got a. Then it&#x27;s. Oh yeah. Yep. Yep. That&#x27;s um. What&#x27;s her name? I think he&#x27;s strong here. Military service commission for those deployments. And then this guy hears yes. Yep. He&#x27;s on his own TikTok production. That&#x27;s absolute rage. Yeah. Well, he&#x27;s been having a little rage. That&#x27;s cool. That may be.</div></div><div class="seg"><div class="ts">14:19</div><div>I had no idea how long the video went on. Really, this is another part of it is that when someone comes to contact, and you don&#x27;t, you don&#x27;t say too much, but that&#x27;s that will. It will clearly upend. So, but anyway, man, fire. Yeah, you know what? No, I don&#x27;t know the story because I don&#x27;t dig. Actually, Eric might even told me. I&#x27;ll let him. Um, he was yeah. Heard tell me, I just haven&#x27;t asked. I just really wasn&#x27;t there anymore. Oh, it was uh, gave me a signed paper contract. Turn around, do a digital contract. We&#x27;re different. We&#x27;re different brothers. For real? Yeah.</div></div><div class="seg"><div class="ts">15:18</div><div>That&#x27;s like before he really came crashing. Oh, sorry, right before he—that&#x27;s like he did it. He doesn&#x27;t even quit. He&#x27;s tearing up. He said, &quot;I&#x27;m saying, theory. Yeah. If I take you, you sign your contract, but your payments, a thousand dollars a month. God, mark you.&quot;</div></div><div class="seg"><div class="ts">15:53</div><div>Bring it back down to one. The retirement deal. There&#x27;s nothing else on there. Cash out their account. It&#x27;s highly illegal. Highly immoral. Let me get wrong. But you&#x27;re instead of getting a bill at the end of the day, you&#x27;re getting a bill from whatever that bank for that price. Yep. You&#x27;re otherwise did that. Same rules, but the contracts were different. Name. So the customer got a bill from a. He was expecting a bill from this. Yeah. This is advertising. Who? Anyway, didn&#x27;t say a comment from a guy who pretended to. Oh yeah, sure. Every guy drove around and signed them up. Okay. Not to everything. Sometimes it&#x27;s not necessarily based off that far away from truth.</div></div><div class="seg"><div class="ts">16:52</div><div>That&#x27;s your old. That&#x27;s that&#x27;s uh that that&#x27;s poor judge judgment. That was stoney shit right there. So look, but listen, do you realize how fringe this stuff is? Some of it&#x27;s cool, but some of it&#x27;s yeah. So you know you don&#x27;t go too far over. Can&#x27;t chase every train. No, I think you do more like what poor Sam was doing, and you do more of the this feature, this feature. Yeah, just make it cool. I mean, these kids are cool, and have a little bit enthusiasm about it. And I mean, every once in a while, I&#x27;ll see a trend that it works because it&#x27;s showing the human side of the service department or whatever. But most of it is, so cool. Yeah, let&#x27;s do that. Yeah. Good.</div></div><div class="seg"><div class="ts">17:49</div><div>Yeah, I&#x27;m gonna do uh. Like, I&#x27;m not all general brass, but all right. Yeah, cool. That&#x27;s me, sir. Yeah, we&#x27;re gonna be uh, we&#x27;ll talk. Good. We&#x27;ll make a couple changes right now, and then on Tuesday we&#x27;ll start. Hey, let&#x27;s pick a pick a car and let&#x27;s let&#x27;s produce one. Yeah, and just even we do one at a time, and just show that person somebody else&#x27;s video and say just copy it. Yes, like I&#x27;m not asking you to do anything. Yes, you don&#x27;t even need a computer. Like literally, you can say the same words. Yeah, it doesn&#x27;t matter. Well, but nowadays I&#x27;ve got I&#x27;ve got shit built that we can we can easily I can easily spit out six or eight quick scripts easy that are general outlines. You know, all my AI&#x27;s for example have all of our.</div></div><div class="seg"><div class="ts">18:47</div><div>So we&#x27;re talking about that. I like it. And then we&#x27;re going to do a video about this. Cool. So we&#x27;re talking about that.</div></div><div class="seg"><div class="ts">19:16</div><div>Because I&#x27;m already doing my kind of just general like cinematic reels, but if we mix in the faces, it&#x27;s gonna be. Yeah. Did you read about? What&#x27;s your? Because I was a gentleman and didn&#x27;t actually take pictures during that meeting. Actually. Oh, the the. Did you? The the the slide with the um, premiere deals for partners next year. Not yet. Oh, we will have. We&#x27;ll have to buy maybe further changes. Changes for? Yeah. What areas? Yeah, yeah. Nothing dramatic outside of the service. Right, right, right. But just. But you know, you saw there were a lot of changes, but at the same time, haven&#x27;t tried. Yeah, different. It&#x27;s not fully big. That&#x27;s probably why I haven&#x27;t kicked it out yet. I didn&#x27;t know if you haven&#x27;t had them. I don&#x27;t. Although those.</div></div><div class="seg"><div class="ts">20:12</div><div>Slide that didn&#x27;t say not a confidentiality box or something. Yeah, I Briggs might have pictures. If I did, I would absolutely show it to you. But then, but yeah, they they didn&#x27;t even we had another internal presentation too, and they you know I probably could have just screenshot it that one, but it wasn&#x27;t anything particular. But one other thing I was thinking about as I was driving in here.</div></div><div class="seg"><div class="ts">20:40</div><div>First thing you see when you drive in today is a Mercedes and grass. So just still playing in the fair. Yeah, can meet you there. Yeah, don&#x27;t do it.</div></div></section>
+</main>
+</div>
+<footer>PLAUD-NOTES-2026-10-22-PM · noindex · Plaud sources + notes</footer>
+<script>
+
+document.querySelectorAll('.tabs button').forEach(btn => {
+  btn.addEventListener('click', () => {
+    document.querySelectorAll('.tabs button').forEach(b => b.setAttribute('aria-selected', b===btn ? 'true':'false'));
+    document.querySelectorAll('.panel').forEach(p => p.classList.toggle('is-on', p.id === btn.dataset.panel));
+  });
+});
+
+</script>
+</body>
+</html>
