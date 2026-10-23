@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>BMWJ · ad-spend review + event photo today</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500&family=IBM+Plex+Mono:wght@400;500&family=Source+Sans+3:wght@400;600;700&display=swap">
+  <style>
+:root {
+  --bg: #090908;
+  --bg-2: #11110f;
+  --bg-3: #181714;
+  --ink: #f0eadc;
+  --muted: #8d8778;
+  --faint: #5c574c;
+  --line: #26241e;
+  --accent: #c4452d;
+  --mustard: #c4a35a;
+  --blue: #6f8fbf;
+  --ok: #7d9a6d;
+  --serif: "Fraunces", "Iowan Old Style", Georgia, serif;
+  --sans: "Source Sans 3", "Source Sans Pro", -apple-system, sans-serif;
+  --mono: "IBM Plex Mono", ui-monospace, monospace;
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html, body { background: var(--bg); color: var(--ink); }
+body {
+  font-family: var(--sans);
+  min-height: 100vh;
+  text-wrap: pretty;
+}
+a { color: inherit; }
+.shell { display: grid; grid-template-columns: 260px 1fr; min-height: 100vh; }
+.rail {
+  border-right: 1px solid var(--line);
+  padding: 28px 18px 40px;
+  background: var(--bg-2);
+  position: sticky; top: 0; height: 100vh; overflow: auto;
+}
+.mark {
+  font-family: var(--serif);
+  font-weight: 500;
+  font-size: 13px;
+  letter-spacing: .18em;
+  text-transform: uppercase;
+  color: var(--accent);
+}
+.rail h1 {
+  font-family: var(--serif);
+  font-size: 28px;
+  font-weight: 460;
+  letter-spacing: -.03em;
+  margin: 10px 0 6px;
+}
+.rail .lede { color: var(--muted); font-size: 13.5px; line-height: 1.45; margin-bottom: 28px; }
+.vnav { display: flex; flex-direction: column; gap: 4px; }
+.vnav a {
+  display: flex; justify-content: space-between; align-items: baseline;
+  text-decoration: none; padding: 9px 10px; border-radius: 8px;
+  color: var(--ink); font-size: 14px;
+}
+.vnav a:hover, .vnav a.is-on { background: var(--bg-3); }
+.vnav a.is-on { box-shadow: inset 2px 0 0 var(--accent); }
+.vnav .count { color: var(--faint); font-family: var(--mono); font-size: 11px; }
+.stage { padding: 36px 40px 80px; max-width: 980px; }
+.kicker {
+  font-size: 11px; letter-spacing: .16em; text-transform: uppercase;
+  color: var(--accent); font-weight: 700; margin-bottom: 8px;
+}
+.stage > h2 {
+  font-family: var(--serif); font-weight: 460; font-size: 34px;
+  letter-spacing: -.03em; margin-bottom: 8px;
+}
+.blurb { color: var(--muted); margin-bottom: 28px; max-width: 46rem; }
+.empty {
+  border: 1px dashed var(--line); border-radius: 14px;
+  padding: 36px 28px; color: var(--muted); background: var(--bg-2);
+}
+.empty strong { color: var(--ink); font-weight: 600; }
+.cards { display: flex; flex-direction: column; gap: 10px; }
+.card {
+  display: grid; grid-template-columns: 1fr auto; gap: 12px;
+  text-decoration: none; padding: 16px 18px; border-radius: 12px;
+  background: var(--bg-2); border: 1px solid var(--line);
+}
+.card:hover { border-color: #3a372e; background: var(--bg-3); }
+.card h3 { font-size: 16px; font-weight: 600; margin-bottom: 4px; }
+.meta { color: var(--muted); font-size: 13px; display: flex; gap: 10px; flex-wrap: wrap; }
+.chip {
+  font-family: var(--mono); font-size: 10px; letter-spacing: .06em;
+  text-transform: uppercase; padding: 3px 7px; border-radius: 999px;
+  border: 1px solid var(--line); color: var(--muted); height: fit-content;
+}
+.chip.dealers { color: var(--blue); border-color: #2a3344; }
+.chip.avec-tous { color: var(--mustard); border-color: #3a3320; }
+.chip.personal { color: #c9a7a0; }
+.chip.ideas { color: var(--ok); }
+.note-top { margin-bottom: 22px; }
+.note-top h2 { font-family: var(--serif); font-size: 36px; font-weight: 460; letter-spacing: -.03em; }
+.tabs { display: flex; gap: 6px; margin: 22px 0 18px; border-bottom: 1px solid var(--line); }
+.tabs button {
+  appearance: none; background: none; border: 0; color: var(--muted);
+  font: 600 13px var(--sans); padding: 10px 12px; cursor: pointer;
+  border-bottom: 2px solid transparent; margin-bottom: -1px;
+}
+.tabs button[aria-selected="true"] { color: var(--ink); border-bottom-color: var(--accent); }
+.panel { display: none; }
+.panel.is-on { display: block; }
+.prose { font-size: 16.5px; line-height: 1.6; max-width: 42rem; }
+.prose h2, .prose h3 { font-family: var(--serif); font-weight: 500; margin: 1.3em 0 .4em; }
+.prose p { margin: 0 0 .8em; }
+.prose ul, .prose ol { margin: 0 0 1em 1.2em; }
+.prose li { margin: .25em 0; }
+.hl { border-left: 2px solid var(--accent); padding: 10px 0 10px 14px; margin: 0 0 14px; }
+.hl .t { font-family: var(--mono); font-size: 11px; color: var(--faint); }
+.hl h4 { font-size: 15px; margin: 4px 0; }
+.hl p { color: var(--muted); font-size: 14.5px; }
+.seg { display: grid; grid-template-columns: 64px 1fr; gap: 12px; padding: 8px 0; border-bottom: 1px solid var(--line); }
+.seg .ts { font-family: var(--mono); font-size: 11px; color: var(--faint); padding-top: 3px; }
+.back { color: var(--muted); text-decoration: none; font-size: 13px; display: inline-block; margin-bottom: 18px; }
+.back:hover { color: var(--ink); }
+footer { margin-top: 48px; color: var(--faint); font-size: 11px; font-family: var(--mono); }
+@media (max-width: 820px) {
+  .shell { grid-template-columns: 1fr; }
+  .rail { position: relative; height: auto; border-right: 0; border-bottom: 1px solid var(--line); }
+  .stage { padding: 24px 18px 64px; }
+  .note-top h2 { font-size: 28px; }
+}
+</style>
+</head>
+<body>
+<div class="shell">
+<aside class="rail">
+  <div class="mark">Cooperative</div>
+  <h1>Field desk</h1>
+  <p class="lede">Plaud landings. Summary, highlights, transcript — filed by life area.</p>
+  <nav class="vnav"><a href="../index.html" class="">All <span class="count">107</span></a><a class="" href="../vertical-inbox.html">Inbox <span class="count">1</span></a><a class="" href="../vertical-personal.html">Personal <span class="count">9</span></a><a class="" href="../vertical-coop-marketing.html">Coop Marketing <span class="count">6</span></a><a class="" href="../vertical-coop-dev.html">Coop Dev <span class="count">11</span></a><a class="" href="../vertical-avec-tous.html">Avec Tous <span class="count">0</span></a><a class="is-on" href="../vertical-dealers.html">Dealers <span class="count">75</span></a><a class="" href="../vertical-ideas.html">Ideas <span class="count">5</span></a></nav>
+</aside>
+<main class="stage">
+  <a class="back" href="../index.html">← Desk</a>
+  <div class="note-top">
+    <div class="kicker">dealers · 2026-10-22 · 3m03s</div>
+    <h2>BMWJ · ad-spend review + event photo today</h2>
+    <div class="meta" style="margin-top:8px"><span>id of_320dca0d15f5237c77ee30ed36c1810e</span><span>Rick/store ad budget categorization + Lance photo for event</span></div>
+  </div>
+  <div class="tabs" role="tablist">
+    <button type="button" data-panel="sum" aria-selected="true">Summary</button>
+    <button type="button" data-panel="hl" aria-selected="false">Highlights</button>
+    <button type="button" data-panel="tx" aria-selected="false">Transcript</button>
+  </div>
+  <section id="sum" class="panel is-on prose"><h2>BMWJ · ad-spend review + event photo</h2>
+<p>~3m Lance ↔ store (Rick lane).</p>
+<h3>Numbers on the table</h3>
+<ul>
+<li>YTD advertising called at <strong>~$255,062</strong> (after credits; ~$311k − ~$51k)</li>
+<li>Lexus line <strong>$183,367</strong>; Shannon <strong>$109k credit</strong> / <strong>$68,352</strong> spent</li>
+<li>Implied ~<strong>$28k/mo</strong> over 9 months — store wants closer to <strong>$20k/mo</strong> if the figure is real</li>
+</ul>
+<h3>Category problem</h3>
+<ul>
+<li>Lance flags: is <strong>website</strong> rolled into advertising?</li>
+<li>Frame: website = infrastructure (rent/utilities), not channel spend</li>
+<li>True ads = AutoTrader / J&amp;L / similar — need a clean breakdown</li>
+</ul>
+<h3>Locked next</h3>
+<ul>
+<li>Store pulls <strong>last month expense breakdown</strong></li>
+<li>Sit down and categorize line-by-line</li>
+<li><strong>Lance on-site today (Fri Oct 23) ~2–3p</strong> as event photographer</li>
+</ul>
+<h3>Status</h3>
+<p><strong>park</strong> — no Ada build. Ops note only.</p></section>
+  <section id="hl" class="panel"><div class="hl"><div class="t">0:00</div><h4>Spend totals</h4><p>~$255k YTD ads; Lexus $183k; Shannon credit $109k / spent $68k</p></div><div class="hl"><div class="t">0:00</div><h4>Category question</h4><p>Is website in advertising? Lance: website = infrastructure</p></div><div class="hl"><div class="t">0:00</div><h4>Next</h4><p>Breakdown of last month + in-person drag-through</p></div><div class="hl"><div class="t">0:00</div><h4>Today</h4><p>Lance on-site afternoon as event photographer</p></div></section>
+  <section id="tx" class="panel"><div class="seg"><div class="ts">0:00</div><div>Like interest? Is this like IT and marketing, or what is that? This is advertising budget. Advertising. It&#x27;s a one ninety.</div></div><div class="seg"><div class="ts">0:07</div><div>We&#x27;ve spent two fifty five oh sixty two. Yeah. In Lexus, has spent one eighty three sixty seven.</div></div><div class="seg"><div class="ts">0:31</div><div>And Shannon has spent. Oh my God, Shannon! Shannon has got, Shannon&#x27;s got back a hundred nine thousand dollars in advertising credit. You don&#x27;t think Infiniti started helping boost the cars?</div></div><div class="seg"><div class="ts">0:45</div><div>They&#x27;re trying, but it don&#x27;t do any good. No, it&#x27;s like it don&#x27;t matter how much this Audi store over here spends, and I will sell that many more cars. And I think that&#x27;s the same. The same goes for Infiniti.</div></div><div class="seg"><div class="ts">0:58</div><div>Shannon has spent sixty. Eight thousand three hundred fifty - two dollars. That&#x27;s so weird. I said a quarter of a million.</div></div><div class="seg"><div class="ts">1:05</div><div>Yeah, I wonder if that&#x27;s all. That&#x27;s not even accurate. Huh? I wonder if that&#x27;s all. Even like, is that actually advertising? For example, are y&#x27;all putting website in advertising? Good question. I wouldn&#x27;t put. I mean, website is infrastructure. You know, that&#x27;s like the rent, the light, and the heat, and a fucking website.</div></div><div class="seg"><div class="ts">1:27</div><div>Hey, the next time. You&#x27;re here. We&#x27;ll sit down and we&#x27;ll drag it and go through the whole thing, you know. So, but my problem is that 255. 06.</div></div><div class="seg"><div class="ts">1:38</div><div>Is that showing what you&#x27;ve gotten back.</div></div><div class="seg"><div class="ts">1:39</div><div>Yeah, that&#x27;s after I&#x27;m at 311 minus 51. Okay, so at 256 divided by nine equals. I&#x27;m spending twenty - eight thousand dollars a month, which is way too much money.</div></div><div class="seg"><div class="ts">1:55</div><div>Well,</div></div><div class="seg"><div class="ts">1:56</div><div>We need to look at the numbers.</div></div><div class="seg"><div class="ts">1:57</div><div>We&#x27;ll look at them again because I need to be spending twenty grand, and that might not be real. But I mean, it&#x27;s just. Well,</div></div><div class="seg"><div class="ts">2:06</div><div>I mean, look, that&#x27;s like, and that&#x27;s why I ask. You know, are you counting website and advertising? Yep. You know, so or are we just counting like Auto Trader and J and L?</div></div><div class="seg"><div class="ts">2:19</div><div>Yeah, that&#x27;s what normally. I&#x27;m. I&#x27;ll get her to send me a breakdown of last month. Yeah, and that way we can see everything in it.</div></div><div class="seg"><div class="ts">2:27</div><div>Oh yeah, sounds good. Hey buddy, have a great day. I don&#x27;t know if you talked to Landon. I&#x27;m gonna be. I&#x27;ll see you tomorrow afternoon. I&#x27;m gonna be up there. I&#x27;m gonna come be your photographer for that event. I&#x27;m gonna come hang out and shoot some shoot some stuff.</div></div><div class="seg"><div class="ts">2:40</div><div>Okay. All right. All right. You over here tomorrow night then. I take it.</div></div><div class="seg"><div class="ts">2:47</div><div>Yep. I&#x27;m probably coming like tomorrow afternoon. Like I don&#x27;t know. Two or three or something, and and be there for the event. All right, we&#x27;ll see when you get here. Oh yeah, see you then. All right,</div></div><div class="seg"><div class="ts">3:00</div><div>Bye bye.</div></div></section>
+</main>
+</div>
+<footer>PLAUD-NOTES-2026-10-23-AM · noindex · Plaud sources + notes</footer>
+<script>
+
+document.querySelectorAll('.tabs button').forEach(btn => {
+  btn.addEventListener('click', () => {
+    document.querySelectorAll('.tabs button').forEach(b => b.setAttribute('aria-selected', b===btn ? 'true':'false'));
+    document.querySelectorAll('.panel').forEach(p => p.classList.toggle('is-on', p.id === btn.dataset.panel));
+  });
+});
+
+</script>
+</body>
+</html>

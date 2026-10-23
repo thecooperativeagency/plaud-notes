@@ -1,5 +1,5 @@
 {
-  "revision": "PLAUD-NOTES-2026-10-22-PM",
+  "revision": "PLAUD-NOTES-2026-10-23-AM",
   "recordings": [
     {
       "id": "of_410de4e91ae20a024c3e9afebc51b063",
@@ -45078,6 +45078,1671 @@
           "end_time": 92090,
           "speaker": "Lance",
           "content": "We we keep it all just right there, and then whoever needs it can use it. Thank you, man. Appreciate."
+        }
+      ]
+    },
+    {
+      "id": "of_320dca0d15f5237c77ee30ed36c1810e",
+      "name": "BMWJ \u00b7 ad-spend review + event photo today",
+      "start_at": "2026-10-22T18:57:34",
+      "created_at": "2026-10-22T19:00:47",
+      "duration_ms": 183000,
+      "vertical": "dealers",
+      "store": "bmwj",
+      "routed_by": "Rick/store ad budget categorization + Lance photo for event",
+      "status": "park",
+      "work_order": "Park. Lance: event photographer ~2\u20133p today. Store sends last-month ad breakdown; sit-down to split website/infra vs true ads (AutoTrader/J&L). Target ~$20k/mo pending real categories.",
+      "highlights": [
+        {
+          "t": "0:00",
+          "title": "Spend totals",
+          "content": "~$255k YTD ads; Lexus $183k; Shannon credit $109k / spent $68k"
+        },
+        {
+          "t": "1:00",
+          "title": "Category question",
+          "content": "Is website in advertising? Lance: website = infrastructure"
+        },
+        {
+          "t": "2:00",
+          "title": "Next",
+          "content": "Breakdown of last month + in-person drag-through"
+        },
+        {
+          "t": "2:30",
+          "title": "Today",
+          "content": "Lance on-site afternoon as event photographer"
+        }
+      ],
+      "summary_md": "## BMWJ \u00b7 ad-spend review + event photo\n\n~3m Lance \u2194 store (Rick lane).\n\n### Numbers on the table\n- YTD advertising called at **~$255,062** (after credits; ~$311k \u2212 ~$51k)\n- Lexus line **$183,367**; Shannon **$109k credit** / **$68,352** spent\n- Implied ~**$28k/mo** over 9 months \u2014 store wants closer to **$20k/mo** if the figure is real\n\n### Category problem\n- Lance flags: is **website** rolled into advertising?\n- Frame: website = infrastructure (rent/utilities), not channel spend\n- True ads = AutoTrader / J&L / similar \u2014 need a clean breakdown\n\n### Locked next\n- Store pulls **last month expense breakdown**\n- Sit down and categorize line-by-line\n- **Lance on-site today (Fri Oct 23) ~2\u20133p** as event photographer\n\n### Status\n**park** \u2014 no Ada build. Ops note only.\n",
+      "transcript": [
+        {
+          "start_time": 0,
+          "end_time": 7840,
+          "speaker": "Lance",
+          "content": "Like interest? Is this like IT and marketing, or what is that? This is advertising budget. Advertising. It's a one ninety."
+        },
+        {
+          "start_time": 7840,
+          "end_time": 25540,
+          "speaker": "Speaker 2",
+          "content": "We've spent two fifty five oh sixty two. Yeah. In Lexus, has spent one eighty three sixty seven."
+        },
+        {
+          "start_time": 31400,
+          "end_time": 45640,
+          "speaker": "Speaker 2",
+          "content": "And Shannon has spent. Oh my God, Shannon! Shannon has got, Shannon's got back a hundred nine thousand dollars in advertising credit. You don't think Infiniti started helping boost the cars?"
+        },
+        {
+          "start_time": 45640,
+          "end_time": 58120,
+          "speaker": "Lance",
+          "content": "They're trying, but it don't do any good. No, it's like it don't matter how much this Audi store over here spends, and I will sell that many more cars. And I think that's the same. The same goes for Infiniti."
+        },
+        {
+          "start_time": 58120,
+          "end_time": 65060,
+          "speaker": "Speaker 2",
+          "content": "Shannon has spent sixty. Eight thousand three hundred fifty - two dollars. That's so weird. I said a quarter of a million."
+        },
+        {
+          "start_time": 65060,
+          "end_time": 87780,
+          "speaker": "Lance",
+          "content": "Yeah, I wonder if that's all. That's not even accurate. Huh? I wonder if that's all. Even like, is that actually advertising? For example, are y'all putting website in advertising? Good question. I wouldn't put. I mean, website is infrastructure. You know, that's like the rent, the light, and the heat, and a fucking website."
+        },
+        {
+          "start_time": 87780,
+          "end_time": 98360,
+          "speaker": "Speaker 2",
+          "content": "Hey, the next time. You're here. We'll sit down and we'll drag it and go through the whole thing, you know. So, but my problem is that 255. 06."
+        },
+        {
+          "start_time": 98360,
+          "end_time": 99880,
+          "speaker": "Lance",
+          "content": "Is that showing what you've gotten back."
+        },
+        {
+          "start_time": 99880,
+          "end_time": 114000,
+          "speaker": "Speaker 2",
+          "content": "Yeah, that's after I'm at 311 minus 51. Okay, so at 256 divided by nine equals. I'm spending twenty - eight thousand dollars a month, which is way too much money."
+        },
+        {
+          "start_time": 115560,
+          "end_time": 116280,
+          "speaker": "Speaker 2",
+          "content": "Well,"
+        },
+        {
+          "start_time": 116280,
+          "end_time": 117720,
+          "speaker": "Lance",
+          "content": "We need to look at the numbers."
+        },
+        {
+          "start_time": 117720,
+          "end_time": 126840,
+          "speaker": "Speaker 2",
+          "content": "We'll look at them again because I need to be spending twenty grand, and that might not be real. But I mean, it's just. Well,"
+        },
+        {
+          "start_time": 126840,
+          "end_time": 139560,
+          "speaker": "Lance",
+          "content": "I mean, look, that's like, and that's why I ask. You know, are you counting website and advertising? Yep. You know, so or are we just counting like Auto Trader and J and L?"
+        },
+        {
+          "start_time": 139560,
+          "end_time": 147320,
+          "speaker": "Speaker 2",
+          "content": "Yeah, that's what normally. I'm. I'll get her to send me a breakdown of last month. Yeah, and that way we can see everything in it."
+        },
+        {
+          "start_time": 147320,
+          "end_time": 160760,
+          "speaker": "Lance",
+          "content": "Oh yeah, sounds good. Hey buddy, have a great day. I don't know if you talked to Landon. I'm gonna be. I'll see you tomorrow afternoon. I'm gonna be up there. I'm gonna come be your photographer for that event. I'm gonna come hang out and shoot some shoot some stuff."
+        },
+        {
+          "start_time": 160760,
+          "end_time": 167320,
+          "speaker": "Speaker 2",
+          "content": "Okay. All right. All right. You over here tomorrow night then. I take it."
+        },
+        {
+          "start_time": 167320,
+          "end_time": 180190,
+          "speaker": "Lance",
+          "content": "Yep. I'm probably coming like tomorrow afternoon. Like I don't know. Two or three or something, and and be there for the event. All right, we'll see when you get here. Oh yeah, see you then. All right,"
+        },
+        {
+          "start_time": 180190,
+          "end_time": 182630,
+          "speaker": "Speaker 2",
+          "content": "Bye bye."
+        }
+      ]
+    },
+    {
+      "id": "of_b182299905ecabed1f0a5bf690bf74a7",
+      "name": "Visitor itinerary \u00b7 Brett/Adam Tue 10 + personal evening",
+      "start_at": "2026-10-22T22:26:02",
+      "created_at": "2026-10-23T00:25:11",
+      "duration_ms": 6719000,
+      "vertical": "personal",
+      "store": null,
+      "routed_by": "Mixed: short dealer-visit schedule then long personal/home tape",
+      "status": "park",
+      "work_order": "Park. Colleague owns calendar blocks Tue 10th (BMW Brett + Porsche Adam 11/11:30\u201312) + Jackson Wed + flight. No Ada WO on the personal remainder.",
+      "highlights": [
+        {
+          "t": "0:00",
+          "title": "Tue 10th",
+          "content": "~11a local; Brett BMW + Adam Porsche calendar blocks"
+        },
+        {
+          "t": "1:30",
+          "title": "Jackson Wed",
+          "content": "Colleague drives BR\u2192Jackson (~2h20); possible Ford stop"
+        },
+        {
+          "t": "2:00",
+          "title": "Personal",
+          "content": "Home fiber install, bass/gear, errands \u2014 no Coop action"
+        }
+      ],
+      "summary_md": "## Visitor itinerary + personal evening\n\n~1h52m multi-part tape.\n\n### Business head (~first 2m)\n- Colleague in town **Tuesday the 10th ~11:00a**\n- Lance: put sequential calendar blocks \u2014 **BMW/Brett** and **Porsche/Adam** (11 + 11:30/12); shared calendar = talking point\n- **Wednesday**: Jackson; BR\u2192Jackson drive **~2h20**; possible Ford stop; colleague books flight\n\n### Rest of tape\n- Home fiber install progress, household, slap-bass/gear talk, motorcycle/i8 chat, retail POS friction\n- **No Coop work order** in the body\n\n### Status\n**park** \u00b7 personal (schedule note retained for visibility)\n",
+      "transcript": [
+        {
+          "start_time": 1640,
+          "end_time": 2840,
+          "speaker": "Speaker 1",
+          "content": "Probably 11 a. m."
+        },
+        {
+          "start_time": 2840,
+          "end_time": 9080,
+          "speaker": "Lance",
+          "content": "Local. Yeah. So, yeah, Tuesday the 10th around 11 a. m. That's fine."
+        },
+        {
+          "start_time": 9080,
+          "end_time": 29440,
+          "speaker": "Speaker 1",
+          "content": "Yeah. I mean, we could hang out if you want to meet with Porsche and then also BMW. Um, that time probably works pretty well. We'll just have to be planning my ear about like catching Brett. He's pretty transient sometimes. Okay. I'll put it. What we do though, like put it."
+        },
+        {
+          "start_time": 29440,
+          "end_time": 58210,
+          "speaker": "Lance",
+          "content": "When we hang up, like put the put it on the calendar, and you you can pick. Frankly, you can just say, you know, whichever one you want at 11, and whichever one you want at 12 or 11:30. However, you want to work your time blocks, but like put it on our calendar so it'll show on my calendar, and then also you'll have a BMW time that'll show up on Brett's, and then one for Adam for Porsche. Is that cool? That way, everybody will see it on their calendar, and it'll be a talking point for me. I'll be able to tell them, Hey man, you're gonna be in town. I had to put it on your calendar."
+        },
+        {
+          "start_time": 59300,
+          "end_time": 94050,
+          "speaker": "Speaker 1",
+          "content": "Sweet, I'm putting it on there now. All right, awesome. And then we'll do Jackson on Wednesday. Yeah. All right, perfect. Sweet. Well, uh, yeah. All right, awesome, dude. I will. We'll do. We'll make all that happen. I'll probably see if I can't meet with like a Ford store or something in Jackson. Yeah. And then, what is that drive? Two hours and forty - five minutes. Okay, that's pretty good."
+        },
+        {
+          "start_time": 94050,
+          "end_time": 96850,
+          "speaker": "Lance",
+          "content": "Well, from Baton Rouge to Jackson is two twenty."
+        },
+        {
+          "start_time": 96850,
+          "end_time": 98930,
+          "speaker": "Speaker 1",
+          "content": "Two twenty. Okay."
+        },
+        {
+          "start_time": 98930,
+          "end_time": 105250,
+          "speaker": "Lance",
+          "content": "I do it all the time. I do it a lot. Two twenty should have you up there pretty quick."
+        },
+        {
+          "start_time": 105250,
+          "end_time": 112210,
+          "speaker": "Speaker 1",
+          "content": "All right. Awesome. Awesome. Sweet. I'm gonna go ahead and book my flight, and then more to come."
+        },
+        {
+          "start_time": 112210,
+          "end_time": 113570,
+          "speaker": "Lance",
+          "content": "Okay. Perfect, man."
+        },
+        {
+          "start_time": 113570,
+          "end_time": 117520,
+          "speaker": "Speaker 1",
+          "content": "Look forward to seeing you. All right. Looking forward to it. Thanks, Lance. Bye, bud. Bye."
+        },
+        {
+          "start_time": 118460,
+          "end_time": 144780,
+          "speaker": "Speaker 3",
+          "content": "How did this thing wake back up? This makes."
+        },
+        {
+          "start_time": 144780,
+          "end_time": 146090,
+          "speaker": "Speaker 4",
+          "content": "No fucking sense."
+        },
+        {
+          "start_time": 149100,
+          "end_time": 154960,
+          "speaker": "Speaker 4",
+          "content": "I didn't."
+        },
+        {
+          "start_time": 154960,
+          "end_time": 171580,
+          "speaker": "Speaker 3",
+          "content": "Do it."
+        },
+        {
+          "start_time": 171580,
+          "end_time": 173740,
+          "speaker": "Lance",
+          "content": "I know you didn't do it. Where's mom?"
+        },
+        {
+          "start_time": 173740,
+          "end_time": 175700,
+          "speaker": "Speaker 4",
+          "content": "What's she doing? How would I know?"
+        },
+        {
+          "start_time": 178780,
+          "end_time": 183740,
+          "speaker": "Speaker 4",
+          "content": "Yeah. Yeah, we're good."
+        },
+        {
+          "start_time": 183740,
+          "end_time": 193820,
+          "speaker": "Speaker 5",
+          "content": "Been working. Who's that? That mini cat. Who loves that mini cat?"
+        },
+        {
+          "start_time": 193820,
+          "end_time": 201100,
+          "speaker": "Lance",
+          "content": "We call her mini cat. Kristy got her from a friend or somebody."
+        },
+        {
+          "start_time": 201100,
+          "end_time": 207630,
+          "speaker": "Speaker 4",
+          "content": "She's very sweet. Oh, thank you."
+        },
+        {
+          "start_time": 210810,
+          "end_time": 223530,
+          "speaker": "Speaker 4",
+          "content": "Pepsi or Pepsi? Give me a Pepsi. Hey. Hello."
+        },
+        {
+          "start_time": 223530,
+          "end_time": 239490,
+          "speaker": "Speaker 3",
+          "content": "A light? No. You learned."
+        },
+        {
+          "start_time": 241520,
+          "end_time": 243580,
+          "speaker": "Speaker 3",
+          "content": "Yeah."
+        },
+        {
+          "start_time": 279210,
+          "end_time": 288750,
+          "speaker": "Speaker 3",
+          "content": "You leaving? Yep."
+        },
+        {
+          "start_time": 559570,
+          "end_time": 570690,
+          "speaker": "Speaker 3",
+          "content": "This is one little fucker. You some people. Jesus. You like idiots."
+        },
+        {
+          "start_time": 570690,
+          "end_time": 577250,
+          "speaker": "Speaker 6",
+          "content": "Cheers. Put that in the fucking recycle for me, dude. Why you throwing it at me?"
+        },
+        {
+          "start_time": 577250,
+          "end_time": 583330,
+          "speaker": "Speaker 3",
+          "content": "I'm throwing at you."
+        },
+        {
+          "start_time": 583330,
+          "end_time": 589880,
+          "speaker": "Speaker 7",
+          "content": "Throwing like that just to mess with. Like flaming globes, Cigman. Like flaming globes. Yeah, why won't this turn on?"
+        },
+        {
+          "start_time": 589880,
+          "end_time": 597240,
+          "speaker": "Speaker 6",
+          "content": "It was plugged. It was plugged weird. What are you looking at? I'm showing you. I'm about to be finished doing the system."
+        },
+        {
+          "start_time": 597240,
+          "end_time": 612440,
+          "speaker": "Speaker 3",
+          "content": "Okay. I."
+        },
+        {
+          "start_time": 612440,
+          "end_time": 615500,
+          "speaker": "Speaker 6",
+          "content": "Want you to see it though, so you see how badass this whole thing is."
+        },
+        {
+          "start_time": 621520,
+          "end_time": 622400,
+          "speaker": "Speaker 7",
+          "content": "Twenty - two minutes."
+        },
+        {
+          "start_time": 648160,
+          "end_time": 649190,
+          "speaker": "Speaker 7",
+          "content": "Twenty - three minutes."
+        },
+        {
+          "start_time": 652200,
+          "end_time": 652920,
+          "speaker": "Speaker 7",
+          "content": "If we leave right now."
+        },
+        {
+          "start_time": 652920,
+          "end_time": 674920,
+          "speaker": "Speaker 3",
+          "content": "Hey,"
+        },
+        {
+          "start_time": 674920,
+          "end_time": 689670,
+          "speaker": "Speaker 7",
+          "content": "The camera is in the way. You ain't wasting the girl Yeah, but I just need. She just needs to scooch. She can scooch, can't she? Nope. I."
+        },
+        {
+          "start_time": 689670,
+          "end_time": 699350,
+          "speaker": "Speaker 3",
+          "content": "Think."
+        },
+        {
+          "start_time": 699350,
+          "end_time": 702980,
+          "speaker": "Speaker 7",
+          "content": "It sounds even better on the bass. It's like heavier."
+        },
+        {
+          "start_time": 901830,
+          "end_time": 926150,
+          "speaker": "Speaker 3",
+          "content": "What the."
+        },
+        {
+          "start_time": 926150,
+          "end_time": 928090,
+          "speaker": "Lance",
+          "content": "Fuck?"
+        },
+        {
+          "start_time": 930460,
+          "end_time": 936220,
+          "speaker": "Lance",
+          "content": "Using authenticator app. So."
+        },
+        {
+          "start_time": 936220,
+          "end_time": 939260,
+          "speaker": "Speaker 4",
+          "content": "What do I need to do? I don't. We don't need a ton of stuff."
+        },
+        {
+          "start_time": 939260,
+          "end_time": 950940,
+          "speaker": "Lance",
+          "content": "What do you need? Do you want me and Max to go? Max is trying to get me to go to. Oh, y'all are going."
+        },
+        {
+          "start_time": 1200100,
+          "end_time": 1209380,
+          "speaker": "Speaker 6",
+          "content": "You don't like."
+        },
+        {
+          "start_time": 1211300,
+          "end_time": 1219602,
+          "speaker": "Speaker 8",
+          "content": "It? You need a Kool-Aid. mom, I'm making Kool-Aid. No, no,"
+        },
+        {
+          "start_time": 1219602,
+          "end_time": 1220820,
+          "speaker": "Speaker 4",
+          "content": "I don't think it goes."
+        },
+        {
+          "start_time": 1220820,
+          "end_time": 1224740,
+          "speaker": "Speaker 3",
+          "content": "Like that."
+        },
+        {
+          "start_time": 1224740,
+          "end_time": 1227350,
+          "speaker": "Speaker 6",
+          "content": "I'm going back to school aid."
+        },
+        {
+          "start_time": 1229100,
+          "end_time": 1251900,
+          "speaker": "Speaker 3",
+          "content": "That."
+        },
+        {
+          "start_time": 1251900,
+          "end_time": 1255020,
+          "speaker": "Speaker 7",
+          "content": "Sounds like it to me. Yep."
+        },
+        {
+          "start_time": 1255020,
+          "end_time": 1256380,
+          "speaker": "Lance",
+          "content": "So what are you doing? Stop, Bubbe."
+        },
+        {
+          "start_time": 1256380,
+          "end_time": 1258290,
+          "speaker": "Speaker 7",
+          "content": "Sorry. Uh, where am I going to be?"
+        },
+        {
+          "start_time": 1264860,
+          "end_time": 1270540,
+          "speaker": "Lance",
+          "content": "Okay . You sure you want to do all that, or you want to stay here? Because we'll do it while we're out."
+        },
+        {
+          "start_time": 1270540,
+          "end_time": 1274860,
+          "speaker": "Speaker 4",
+          "content": "Get out. Okay."
+        },
+        {
+          "start_time": 1274860,
+          "end_time": 1285820,
+          "speaker": "Lance",
+          "content": "All right. When you come back, I'll show you how to use them dumbbells. You can get your dumbbell workout anytime now. Dumbbells for dumbbells."
+        },
+        {
+          "start_time": 1288890,
+          "end_time": 1292680,
+          "speaker": "Speaker 3",
+          "content": "I mean."
+        },
+        {
+          "start_time": 1377430,
+          "end_time": 1385270,
+          "speaker": "Speaker 3",
+          "content": "Buckaroo, come on, Buck! Come on, my man. So,"
+        },
+        {
+          "start_time": 1385270,
+          "end_time": 1396550,
+          "speaker": "Speaker 4",
+          "content": "You're just a buckaroo. You're a buckaroo, aren't you? Oh, you're the bestest buckaroo."
+        },
+        {
+          "start_time": 1396550,
+          "end_time": 1398090,
+          "speaker": "Speaker 7",
+          "content": "You're the bestest big old buckaroo."
+        },
+        {
+          "start_time": 1676000,
+          "end_time": 1678140,
+          "speaker": "Speaker 7",
+          "content": "The chorus pedal is cool on bass."
+        },
+        {
+          "start_time": 1758130,
+          "end_time": 1777550,
+          "speaker": "Speaker 3",
+          "content": "I I I."
+        },
+        {
+          "start_time": 1950110,
+          "end_time": 1953710,
+          "speaker": "Lance",
+          "content": "Well now it's a bit late. Well, now we're about to go."
+        },
+        {
+          "start_time": 1953710,
+          "end_time": 1957720,
+          "speaker": "Speaker 3",
+          "content": "Hang on."
+        },
+        {
+          "start_time": 2080090,
+          "end_time": 2087347,
+          "speaker": "Speaker 3",
+          "content": "Mini cat is."
+        },
+        {
+          "start_time": 2087347,
+          "end_time": 2106710,
+          "speaker": "Speaker 8",
+          "content": "Fooling, yeah, mama, she is fooling. Mini cat is fooling, back to schooling. She's a mini cat, oh, she's a mini cat."
+        },
+        {
+          "start_time": 2114530,
+          "end_time": 2170440,
+          "speaker": "Speaker 6",
+          "content": "Be bop, be bop. Come on, let me go, catnip. Get closer to the shooter, out of here. How's the boat? Let's go. Come on, potato head. Cute old potato head. Let's get mini cat out of here too. How you getting yourself? Come on, little sweetie. Come on, let's go with that. What you talking about, Nino? Some random stuff with those things. You're really soft. Five potato heads. Oh, we need to put Pissy, Pissy Face, and Pissy Girl. Come on, candle up. Let's go, candle up, boss and Jesus."
+        },
+        {
+          "start_time": 2174030,
+          "end_time": 2184350,
+          "speaker": "Speaker 6",
+          "content": "I don't know where your brother is. With black and brown titty things. There, come on, get in there. Get in there, blackie. Who? Okay. Stay."
+        },
+        {
+          "start_time": 2184350,
+          "end_time": 2200590,
+          "speaker": "Speaker 8",
+          "content": "In this good one. He's a guard dog. Love you, Joslow. He's not that boy. Yes."
+        },
+        {
+          "start_time": 2200590,
+          "end_time": 2203300,
+          "speaker": "Speaker 6",
+          "content": "He's that boy. Keep you a little bit."
+        },
+        {
+          "start_time": 2230440,
+          "end_time": 2233560,
+          "speaker": "Speaker 3",
+          "content": "So Is our fiber done? Almost. It's gonna be done tomorrow."
+        },
+        {
+          "start_time": 2234300,
+          "end_time": 2235260,
+          "speaker": "Speaker 7",
+          "content": "Has to take more than one day."
+        },
+        {
+          "start_time": 2235260,
+          "end_time": 2249900,
+          "speaker": "Lance",
+          "content": "Well, they today came in, ran the wire across the yard, and then put attached a box to the back of the house."
+        },
+        {
+          "start_time": 2249900,
+          "end_time": 2253740,
+          "speaker": "Speaker 7",
+          "content": "I'm also maybe."
+        },
+        {
+          "start_time": 2255340,
+          "end_time": 2256380,
+          "speaker": "Lance",
+          "content": "Also maybe."
+        },
+        {
+          "start_time": 2256380,
+          "end_time": 2263710,
+          "speaker": "Speaker 7",
+          "content": "Have you ever tried to buy anything? They make really cool colored nylon bass strings. I'll get some of."
+        },
+        {
+          "start_time": 2263710,
+          "end_time": 2267870,
+          "speaker": "Lance",
+          "content": "Those. You're a pussy for Shiser."
+        },
+        {
+          "start_time": 2267870,
+          "end_time": 2284990,
+          "speaker": "Speaker 7",
+          "content": "I'll show you. I mean, I think you. I think you know what I mean. Robert Plant. It's fine because Led Zeppelin is also like, and a lot of blues songs. A lot of harmonica. Blues and rock is kind of."
+        },
+        {
+          "start_time": 2284990,
+          "end_time": 2286270,
+          "speaker": "Speaker 9",
+          "content": "All the same genre."
+        },
+        {
+          "start_time": 2286270,
+          "end_time": 2320090,
+          "speaker": "Speaker 7",
+          "content": "Yeah. Did you hear? I saw Billy Strings in an interview with this other. Guitar person, and Billy Strings was saying there's a lot of similarities and like similar sounds and playing style is similar from like metal and bluegrass. Okay. It's just funny because it's you can't tell the difference. One has fucked kind of distortion. You notice those people are putting up Christmas lights? No. Well, they are."
+        },
+        {
+          "start_time": 2321850,
+          "end_time": 2328890,
+          "speaker": "Speaker 7",
+          "content": "I didn't see. Why are you all the way in that lane? Like, what if there is a car coming."
+        },
+        {
+          "start_time": 2330570,
+          "end_time": 2335530,
+          "speaker": "Speaker 7",
+          "content": "No, that's a move. No, that's not how that works. Because then they move into this lane, and then you're trying to move into this lane, and then you crash anyway."
+        },
+        {
+          "start_time": 2335530,
+          "end_time": 2338970,
+          "speaker": "Speaker 5",
+          "content": "Crash your face? How about that?"
+        },
+        {
+          "start_time": 2338970,
+          "end_time": 2348780,
+          "speaker": "Speaker 7",
+          "content": "I'm just telling you. One day, a car is going to come around that bend, and you don't have the reaction time to move. Hell, Max Verstappen doesn't have that reaction time."
+        },
+        {
+          "start_time": 2350360,
+          "end_time": 2358040,
+          "speaker": "Speaker 7",
+          "content": "We're both going going twenty five miles an hour, minimum, probably faster."
+        },
+        {
+          "start_time": 2358040,
+          "end_time": 2365720,
+          "speaker": "Speaker 6",
+          "content": "Jezebel."
+        },
+        {
+          "start_time": 2365720,
+          "end_time": 2376270,
+          "speaker": "Speaker 3",
+          "content": "No. This is eleven."
+        },
+        {
+          "start_time": 2381100,
+          "end_time": 2407520,
+          "speaker": "Speaker 7",
+          "content": "And they're nylon. Disappointing that. They're colored, and they're nylon coated, so they're easier on your fingers. Alright. And they come on, man. They definitely look. They look like that. What? That's more like you support them so. Oh, they're genuinely easier on your fingers. On your fingers. Get out."
+        },
+        {
+          "start_time": 2409800,
+          "end_time": 2417400,
+          "speaker": "Speaker 7",
+          "content": "Usually, is a steel core wrapped in a nylon thing, wrap, non-wrap, whatever."
+        },
+        {
+          "start_time": 2417400,
+          "end_time": 2428520,
+          "speaker": "Speaker 6",
+          "content": "Let's go look at Maverick."
+        },
+        {
+          "start_time": 2428520,
+          "end_time": 2432920,
+          "speaker": "Speaker 7",
+          "content": "That dude, the red one. The Maverick, yeah. Yeah."
+        },
+        {
+          "start_time": 2432920,
+          "end_time": 2437340,
+          "speaker": "Lance",
+          "content": "I like that Acura. Can't get to the fucking place from here, buddy."
+        },
+        {
+          "start_time": 2437420,
+          "end_time": 2464780,
+          "speaker": "Speaker 7",
+          "content": "Is it weird that a lot of Acura? I like a lot of Acuras. Are they old lady cars? I think that's really cool looking. That one up there. Oh, that old one. Yeah, that's legit. That's like two thousands. That's cool. I like those more. Van, new ones. Those. Well, who doesn't? That's obviously cooler looking. It reminds me of a of a S15 Silvia."
+        },
+        {
+          "start_time": 2464780,
+          "end_time": 2465500,
+          "speaker": "Speaker 9",
+          "content": "Whoops."
+        },
+        {
+          "start_time": 2468920,
+          "end_time": 2479420,
+          "speaker": "Speaker 7",
+          "content": "Who do all? Who puts this air blasting up their upward the nostrils and eyeballs? Into, into the nostrils."
+        },
+        {
+          "start_time": 2512180,
+          "end_time": 2521620,
+          "speaker": "Speaker 7",
+          "content": "This is telling you to do a U-turn for some reason. Where? Right here. There's no good way to get here."
+        },
+        {
+          "start_time": 2521620,
+          "end_time": 2541740,
+          "speaker": "Lance",
+          "content": "You probably shouldn't even try to go, but we're going to go. I told you that. It's your fault. You can get there. My fault. I've been working. I know. All day I worked. Yeah. I didn't even sit down for lunch. Did you know that? I came home, scarf down some food, and then left again. I saw. While standing up."
+        },
+        {
+          "start_time": 2548630,
+          "end_time": 2568470,
+          "speaker": "Speaker 9",
+          "content": "But still. But still, yourself, dude. Well, I mean, but still. But still, yourself. They have a closing time. But still, yourself. The act book doesn't have a closing time. Huh? Yeah, I don't want to have to work late. I don't have to come back."
+        },
+        {
+          "start_time": 2568470,
+          "end_time": 2577840,
+          "speaker": "Speaker 3",
+          "content": "What? It says twelve minutes to get there. We'll have time."
+        },
+        {
+          "start_time": 2600370,
+          "end_time": 2605330,
+          "speaker": "Lance",
+          "content": "Is that some kind of a Harley?"
+        },
+        {
+          "start_time": 2605330,
+          "end_time": 2608280,
+          "speaker": "Speaker 7",
+          "content": "I have absolutely no clue. It's not a Harley."
+        },
+        {
+          "start_time": 2610570,
+          "end_time": 2612650,
+          "speaker": "Lance",
+          "content": "They both look like little sportsters or something."
+        },
+        {
+          "start_time": 2612650,
+          "end_time": 2625690,
+          "speaker": "Speaker 7",
+          "content": "A sportster - ish. The one closest to us is definitely not. Well, what is it then? I don't know. No, it could be. It just feels. It seems like a short wheelbase to be a Harley."
+        },
+        {
+          "start_time": 2625690,
+          "end_time": 2628650,
+          "speaker": "Lance",
+          "content": "Well, the little sportster is a sport. It's a short wheelbase."
+        },
+        {
+          "start_time": 2628650,
+          "end_time": 2635340,
+          "speaker": "Speaker 7",
+          "content": "Yeah, but it's not. Does it? Is it that short? Look at that. That looks like a. Seen them all. It's a sportster. It's one model."
+        },
+        {
+          "start_time": 2636130,
+          "end_time": 2641170,
+          "speaker": "Lance",
+          "content": "How long's it been out? No, there was not just one model. There was a small Sportster. Is the model?"
+        },
+        {
+          "start_time": 2641170,
+          "end_time": 2643570,
+          "speaker": "Speaker 7",
+          "content": "Yeah, but that's just engine size. That doesn't change the wheelbase."
+        },
+        {
+          "start_time": 2643570,
+          "end_time": 2661010,
+          "speaker": "Lance",
+          "content": "It does, of course, it does. You're too much of a know - it - all. You're fucking annoying. There's no way you know everything. I don't. I'm not saying I know everything. I'm forty - eight. I'm not saying I'm not saying I know everything. Stop acting like no, you just did. You just acted like you knew everything there was to know about a Sportster."
+        },
+        {
+          "start_time": 2661010,
+          "end_time": 2663830,
+          "speaker": "Speaker 7",
+          "content": "No, I didn't. I said, I said."
+        },
+        {
+          "start_time": 2665870,
+          "end_time": 2672270,
+          "speaker": "Lance",
+          "content": "One hundred percent. You you were one hundred percent sure that wasn't a Sportster. It's not a Sportster."
+        },
+        {
+          "start_time": 2672270,
+          "end_time": 2680430,
+          "speaker": "Speaker 7",
+          "content": "I said I don't think it actually. You don't listen. The last thing I said is I don't think it's a Sportster. Right. Right. Meaning meaning it could be."
+        },
+        {
+          "start_time": 2680430,
+          "end_time": 2686210,
+          "speaker": "Lance",
+          "content": "You were beating me up hard about it's not a Sportster. No, I didn't. I said I don't think it is."
+        },
+        {
+          "start_time": 2694510,
+          "end_time": 2715470,
+          "speaker": "Lance",
+          "content": "There's a twelve hundred and eight eighty three. There have been one, two. Oh my God! What? What the fuck? It's because of the color. He couldn't go. He could have gone somewhere. No. No."
+        },
+        {
+          "start_time": 2715470,
+          "end_time": 2721990,
+          "speaker": "Speaker 7",
+          "content": "He's making a big point of it. He peeled out. I heard him, but I also was watching. He couldn't have gone."
+        },
+        {
+          "start_time": 2725550,
+          "end_time": 2728110,
+          "speaker": "Speaker 7",
+          "content": "That trailer was was like longer than normal."
+        },
+        {
+          "start_time": 2728110,
+          "end_time": 2741150,
+          "speaker": "Lance",
+          "content": "Three generations, four generations. So there's been four generations of Sportster, which is craziness. Only four generations since 1952."
+        },
+        {
+          "start_time": 2741150,
+          "end_time": 2748430,
+          "speaker": "Speaker 6",
+          "content": "So that means that every average. But look at the generations. It's not very often."
+        },
+        {
+          "start_time": 2748430,
+          "end_time": 2762450,
+          "speaker": "Speaker 7",
+          "content": "Camry. Okay. Wait. Nineteen seventy - eight. Bro."
+        },
+        {
+          "start_time": 2775330,
+          "end_time": 2795070,
+          "speaker": "Lance",
+          "content": "They didn't get rubber - mounted engines until oh. So that means prior to that, a stupid fucking Harley was just hard - mounted to the metal frame. Yeah, there's no rubber mounting for the motor, so it just sat there and vibrated its whole ass off. That means it was uncomfortable."
+        },
+        {
+          "start_time": 2795070,
+          "end_time": 2797790,
+          "speaker": "Speaker 7",
+          "content": "As fuck to ride. Yeah, because your hands."
+        },
+        {
+          "start_time": 2797790,
+          "end_time": 2799310,
+          "speaker": "Lance",
+          "content": "Not to mention, it beats itself up."
+        },
+        {
+          "start_time": 2799310,
+          "end_time": 2806350,
+          "speaker": "Speaker 7",
+          "content": "And just like that, those women look identically dumb."
+        },
+        {
+          "start_time": 2806350,
+          "end_time": 2811830,
+          "speaker": "Lance",
+          "content": "Look over here. He's got a few things in his little organizer, huh?"
+        },
+        {
+          "start_time": 2814220,
+          "end_time": 2818780,
+          "speaker": "Lance",
+          "content": "It's not organized. By the way, that's the passageway you use to look at the screen."
+        },
+        {
+          "start_time": 2818780,
+          "end_time": 2828540,
+          "speaker": "Speaker 3",
+          "content": "Oh."
+        },
+        {
+          "start_time": 2828540,
+          "end_time": 2840410,
+          "speaker": "Speaker 7",
+          "content": "That's cool! They made a cafe racer looking one. I would get that and do um."
+        },
+        {
+          "start_time": 2845360,
+          "end_time": 2851120,
+          "speaker": "Speaker 7",
+          "content": "Clip-ons. You say you don't like sports suits, but that's cool looking."
+        },
+        {
+          "start_time": 2851120,
+          "end_time": 2854480,
+          "speaker": "Lance",
+          "content": "Yeah, that's a cool sports suit. Not a typical sports suit, though."
+        },
+        {
+          "start_time": 2854480,
+          "end_time": 2863680,
+          "speaker": "Speaker 7",
+          "content": "No, it's a cafe racer. It's called an XLCR. Yeah. I would do the clip - ons, which is like it makes it to where this is put lower."
+        },
+        {
+          "start_time": 2863680,
+          "end_time": 2869120,
+          "speaker": "Lance",
+          "content": "I want you to know you fucking skipped Jiu-Jitsu again today."
+        },
+        {
+          "start_time": 2869120,
+          "end_time": 2870610,
+          "speaker": "Speaker 7",
+          "content": "Mhm. Why are you saying that now?"
+        },
+        {
+          "start_time": 2872720,
+          "end_time": 2875680,
+          "speaker": "Lance",
+          "content": "Do you not have a phone? It knows how to remind you of everything."
+        },
+        {
+          "start_time": 2875680,
+          "end_time": 2876640,
+          "speaker": "Speaker 7",
+          "content": "No. Well,"
+        },
+        {
+          "start_time": 2876640,
+          "end_time": 2877760,
+          "speaker": "Lance",
+          "content": "Set it the fuck up."
+        },
+        {
+          "start_time": 2877760,
+          "end_time": 2888640,
+          "speaker": "Speaker 7",
+          "content": "I keep thinking it's set up because sometimes it'll. I feel like it's messed up."
+        },
+        {
+          "start_time": 2888640,
+          "end_time": 2892400,
+          "speaker": "Speaker 9",
+          "content": "Fuck. What? I need gas."
+        },
+        {
+          "start_time": 2892400,
+          "end_time": 2897200,
+          "speaker": "Lance",
+          "content": "Two miles empty."
+        },
+        {
+          "start_time": 2897200,
+          "end_time": 2898060,
+          "speaker": "Speaker 4",
+          "content": "Oh my god."
+        },
+        {
+          "start_time": 2905160,
+          "end_time": 2916120,
+          "speaker": "Speaker 7",
+          "content": "I can see it right there. Well, try, try to signal. Can we get over? Get over in a second."
+        },
+        {
+          "start_time": 2916120,
+          "end_time": 2917960,
+          "speaker": "Lance",
+          "content": "I'm not going to the Murphy. I'm going to go to the Beekwitt."
+        },
+        {
+          "start_time": 2917960,
+          "end_time": 2930120,
+          "speaker": "Speaker 7",
+          "content": "It's way better. There's a little RC or RC three hundred and fifty. I can't tell. There's like a light shining."
+        },
+        {
+          "start_time": 2936130,
+          "end_time": 2938530,
+          "speaker": "Speaker 7",
+          "content": "It has it has gas after that anyway."
+        },
+        {
+          "start_time": 2938530,
+          "end_time": 2944290,
+          "speaker": "Lance",
+          "content": "You think I don't know who Google is?"
+        },
+        {
+          "start_time": 2944290,
+          "end_time": 2950370,
+          "speaker": "Speaker 7",
+          "content": "I'm just saying. Now that I think about it, I'm not too worried. It could probably go like 15 miles after it says zero."
+        },
+        {
+          "start_time": 2950370,
+          "end_time": 2951250,
+          "speaker": "Lance",
+          "content": "Maybe not 15,"
+        },
+        {
+          "start_time": 2951250,
+          "end_time": 2964790,
+          "speaker": "Speaker 7",
+          "content": "But it'll go. Well, there's there's there's like a minimum amount that the law says it has to have. Oh, engineers build it that way. Yeah, there's like a minimum amount that they put."
+        },
+        {
+          "start_time": 2978200,
+          "end_time": 2983560,
+          "speaker": "Lance",
+          "content": "This little thing is just getting worse and worse. Let me just let me buy one for you."
+        },
+        {
+          "start_time": 2983560,
+          "end_time": 2985880,
+          "speaker": "Speaker 7",
+          "content": "You're gonna buy me one? Yeah,"
+        },
+        {
+          "start_time": 2985880,
+          "end_time": 3002280,
+          "speaker": "Speaker 3",
+          "content": "'Cause it annoys me."
+        },
+        {
+          "start_time": 3002280,
+          "end_time": 3012290,
+          "speaker": "Speaker 10",
+          "content": "What are you doing? If you enjoy tuning in, please subscribe, share. You can also join us and the VPD community on social media. Check back next week for."
+        },
+        {
+          "start_time": 3012290,
+          "end_time": 3030850,
+          "speaker": "Speaker 3",
+          "content": "More. Thanks so much for joining. Breaks."
+        },
+        {
+          "start_time": 3030850,
+          "end_time": 3032290,
+          "speaker": "Speaker 6",
+          "content": "Come out at night. Breaks come."
+        },
+        {
+          "start_time": 3032290,
+          "end_time": 3039570,
+          "speaker": "Speaker 9",
+          "content": "Out at night. Breaks come out. Good speed, Ron."
+        },
+        {
+          "start_time": 3098650,
+          "end_time": 3102810,
+          "speaker": "Speaker 7",
+          "content": "Good beginner base for slapping."
+        },
+        {
+          "start_time": 3127870,
+          "end_time": 3177470,
+          "speaker": "Speaker 11",
+          "content": "Get that sound. The action needs to be low enough to make that happen. Okay, so make sure that your action isn't crazy high. Secondly, make sure that you've got newish strings on as well. And finally, when it comes to tone, make sure that the EQ on your amp has the bass at twelve o'clock. If not, a little bit, you know, maybe one or two o'clock. For me, you can actually. Dip it back a bit, okay? So reduce it, and then the treble. I like to actually just keep in the set. And when it comes to the pickups as well, if you've got two pickups on your bass, I would recommend initially just to have both of them on. Okay, so I've got both pickups on now. Both volumes are up."
+        },
+        {
+          "start_time": 3177470,
+          "end_time": 3201930,
+          "speaker": "Speaker 12",
+          "content": "Give me a cool slap sound. One day of playing bass. One week of playing bass. One year of playing bass. Ten years."
+        },
+        {
+          "start_time": 3201930,
+          "end_time": 3211760,
+          "speaker": "Speaker 3",
+          "content": "Of playing bass. One thousand years of playing bass."
+        },
+        {
+          "start_time": 3221150,
+          "end_time": 3224350,
+          "speaker": "Speaker 7",
+          "content": "That doesn't even make sense."
+        },
+        {
+          "start_time": 3224350,
+          "end_time": 3244750,
+          "speaker": "Speaker 3",
+          "content": "You loud - ass bracket. No. We're going."
+        },
+        {
+          "start_time": 3244750,
+          "end_time": 3248010,
+          "speaker": "Speaker 4",
+          "content": "Somewhere. Push down."
+        },
+        {
+          "start_time": 3249950,
+          "end_time": 3259630,
+          "speaker": "Lance",
+          "content": "That's me confused with Dutchtown. They go into Dutchtown. Oh yeah,"
+        },
+        {
+          "start_time": 3259630,
+          "end_time": 3270990,
+          "speaker": "Speaker 13",
+          "content": "The freaks."
+        },
+        {
+          "start_time": 3270990,
+          "end_time": 3294800,
+          "speaker": "Speaker 5",
+          "content": "Come out at night. Oh e e oh ah ah e ah ah ah ooh ah. Look at this dumbass. Oh, that's some funny shit. Yeah. This one, fa fa fi fi fa. Kakadu du, kakadu du. Poop poop and that wig. All of these dumb songs."
+        },
+        {
+          "start_time": 3294800,
+          "end_time": 3309080,
+          "speaker": "Speaker 13",
+          "content": "We're eating. We're eating. They like to wear leather jackets,"
+        },
+        {
+          "start_time": 3309080,
+          "end_time": 3334380,
+          "speaker": "Speaker 14",
+          "content": "Matching spikes, to wear ribbons and zips all in their shirts. Real tight pants, pressed, fitted skirts, green perfume."
+        },
+        {
+          "start_time": 3334560,
+          "end_time": 3362120,
+          "speaker": "Speaker 13",
+          "content": "The freaks come out at night. Now the party's jumping, and the freaks get back when the crowd's light. The freaks come out, the freaks come out at night. The freaks, the freaks come out at night. The freaks, yeah. The freaks come in all shapes, sizes, and colors, but what I like about them most."
+        },
+        {
+          "start_time": 3362120,
+          "end_time": 3368280,
+          "speaker": "Speaker 10",
+          "content": "This kind of old music was so cheap."
+        },
+        {
+          "start_time": 3397070,
+          "end_time": 3410910,
+          "speaker": "Lance",
+          "content": "I know the Yardbirds. Let's see where this goes. Let's have a hard time. Let's see."
+        },
+        {
+          "start_time": 3410910,
+          "end_time": 3421230,
+          "speaker": "Speaker 7",
+          "content": "What else we got? A lot of really good. This it's a good song. I mean, I know this song."
+        },
+        {
+          "start_time": 3421230,
+          "end_time": 3427180,
+          "speaker": "Lance",
+          "content": "I just the other day I was like, \" Hey, freaks come out at night.\" That's a funny song. I said, make a radio station out of it. So I thought it would be interesting."
+        },
+        {
+          "start_time": 3427180,
+          "end_time": 3428300,
+          "speaker": "Speaker 7",
+          "content": "This session, this song."
+        },
+        {
+          "start_time": 3428300,
+          "end_time": 3442680,
+          "speaker": "Speaker 9",
+          "content": "I love this song. Ah, the better."
+        },
+        {
+          "start_time": 3455590,
+          "end_time": 3463990,
+          "speaker": "Speaker 13",
+          "content": "It's like a charm sometimes. It makes me wonder how it keeps on going. It's like a charm sometimes. It makes me wonder how it keeps on going."
+        },
+        {
+          "start_time": 3463990,
+          "end_time": 3472032,
+          "speaker": "Lance",
+          "content": "It's like a charm sometimes. It's like a."
+        },
+        {
+          "start_time": 3472032,
+          "end_time": 3514770,
+          "speaker": "Speaker 10",
+          "content": "Charm sometimes. Sunglass everywhere. People kissing on the stage. You know they just don't care. I can't take this now. Can't take it. I'm pissed on the stage. Too bad I guess I got no charm. It's in the front. I try to get away, but I can't get far 'cause I'm near when I touch her, she possess my car. So close, because I'm close to the edge. I'm trying not to lose my head. Like a drunk, sometimes it makes me wonder how I keep from going under. Standing on the front stoop, hanging out the window, watching all the people by the door as they go. Crazy lady living in a bag."
+        },
+        {
+          "start_time": 3514770,
+          "end_time": 3543190,
+          "speaker": "Speaker 10",
+          "content": "Some wild ass lyrics."
+        },
+        {
+          "start_time": 3546040,
+          "end_time": 3550520,
+          "speaker": "Speaker 9",
+          "content": "Fucking Toyota. That's what that is."
+        },
+        {
+          "start_time": 3550520,
+          "end_time": 3563640,
+          "speaker": "Speaker 7",
+          "content": "They made this car and then said, how How can we make this dumb as possible."
+        },
+        {
+          "start_time": 3582890,
+          "end_time": 3596570,
+          "speaker": "Speaker 13",
+          "content": "That Was like kind of like a muskrat. He's a muskrat, yeah. Why is his car flashing at me? Look behind us. How funny. Nope. Look over. Look over this way."
+        },
+        {
+          "start_time": 3596570,
+          "end_time": 3604630,
+          "speaker": "Speaker 7",
+          "content": "Oh, what the hell? Just see their turn signals. Where I was like, that's just turn."
+        },
+        {
+          "start_time": 3611030,
+          "end_time": 3640350,
+          "speaker": "Speaker 7",
+          "content": "And you learn the the can't stop. What is this genre? What? This isn't funkadelic. Funkadelic."
+        },
+        {
+          "start_time": 3640350,
+          "end_time": 3667500,
+          "speaker": "Lance",
+          "content": "Funkadelic, Funkadelic. See if you can figure out where the car is. Let's go find it. There goes. Can't figure it out now. You're not looking at it. Where are you going? It's the quicker way to go. Where it goes. I can't chase the cat. I'm gonna chase that cat. Run, run."
+        },
+        {
+          "start_time": 3669590,
+          "end_time": 3674950,
+          "speaker": "Speaker 13",
+          "content": "Okay. No. Look at him."
+        },
+        {
+          "start_time": 3674950,
+          "end_time": 3684870,
+          "speaker": "Speaker 14",
+          "content": "What? Chase the cat. I'm gonna chase that cat 'cause I'm a dog. Oh, that was fast. Why do I go that way every time?"
+        },
+        {
+          "start_time": 3684870,
+          "end_time": 3694710,
+          "speaker": "Speaker 13",
+          "content": "Wow, wow, wow, we, we, we, wow. Wow, wow, wow, we, we, we, wow. Wow, wow, wow, we, we, we."
+        },
+        {
+          "start_time": 3694710,
+          "end_time": 3698920,
+          "speaker": "Speaker 7",
+          "content": "This way would have taken like extra two minutes. Get your ass in."
+        },
+        {
+          "start_time": 3698920,
+          "end_time": 3707560,
+          "speaker": "Speaker 6",
+          "content": "Here, bro! Get out within thirty minutes."
+        },
+        {
+          "start_time": 6056330,
+          "end_time": 6068730,
+          "speaker": "Speaker 7",
+          "content": "The Difference, I'm sure, but if I can't feel it, it's so subtle that it can't really even matter. I agree. Can I move it in a second? Just put it down."
+        },
+        {
+          "start_time": 6068730,
+          "end_time": 6072810,
+          "speaker": "Lance",
+          "content": "Yeah, just like that. All right, big dog. That's a pretty."
+        },
+        {
+          "start_time": 6072810,
+          "end_time": 6079130,
+          "speaker": "Speaker 7",
+          "content": "It's pretty, isn't it? The the color, the fretboard. They call these fingernail markers."
+        },
+        {
+          "start_time": 6079130,
+          "end_time": 6081820,
+          "speaker": "Lance",
+          "content": "Yeah. Yeah, they look like figurehead workers."
+        },
+        {
+          "start_time": 6081820,
+          "end_time": 6091980,
+          "speaker": "Speaker 7",
+          "content": "Right, and then the the the red compared with like the gold bridge and pots."
+        },
+        {
+          "start_time": 6091980,
+          "end_time": 6098620,
+          "speaker": "Lance",
+          "content": "It's nice. I'm happy. Instead, you got a bass amp at the house."
+        },
+        {
+          "start_time": 6098620,
+          "end_time": 6109980,
+          "speaker": "Speaker 7",
+          "content": "I do. What's funny is every time I play my bass and then play the guitar, I can tell it sounds like it's made for the bass. Every time I play the guitar, I always lower the bass on the."
+        },
+        {
+          "start_time": 6109980,
+          "end_time": 6115500,
+          "speaker": "Lance",
+          "content": "I might shoot myself. I have to keep listening to this. Every time I open my phone."
+        },
+        {
+          "start_time": 6115500,
+          "end_time": 6129020,
+          "speaker": "Speaker 7",
+          "content": "Every time I play the guitar on it, I lower the bass a little because it always sounds bassy. Your guitar. Yeah. It always sounds like low, and kind of muted."
+        },
+        {
+          "start_time": 6129020,
+          "end_time": 6134860,
+          "speaker": "Lance",
+          "content": "Well, at one point you're gonna have to get a guitar amp."
+        },
+        {
+          "start_time": 6134860,
+          "end_time": 6141270,
+          "speaker": "Speaker 7",
+          "content": "Yeah. But that's a lot of money away from what I'm at right now. That's not like not even soon."
+        },
+        {
+          "start_time": 6141270,
+          "end_time": 6161030,
+          "speaker": "Lance",
+          "content": "You got a good one. Like honestly, you should see if Alex is trying to sell his still. Four or five hundred bucks for what that is is fucking amazing. Oh, his Mesa Boogie thing. That thing is like amazing. Like you would shit yourself at how loud it would get."
+        },
+        {
+          "start_time": 6161030,
+          "end_time": 6166140,
+          "speaker": "Speaker 7",
+          "content": "That thing feels good, dude. I'm gonna put those strings on it. It's gonna look good."
+        },
+        {
+          "start_time": 6170650,
+          "end_time": 6172490,
+          "speaker": "Lance",
+          "content": "You're on my shit."
+        },
+        {
+          "start_time": 6172490,
+          "end_time": 6175930,
+          "speaker": "Speaker 9",
+          "content": "I'm sorry. You just can't have it on my fucking steering wheel."
+        },
+        {
+          "start_time": 6175930,
+          "end_time": 6177290,
+          "speaker": "Speaker 7",
+          "content": "I didn't know it was on the steering wheel."
+        },
+        {
+          "start_time": 6177290,
+          "end_time": 6187690,
+          "speaker": "Speaker 3",
+          "content": "I can't feel it. Yeah."
+        },
+        {
+          "start_time": 6187690,
+          "end_time": 6226680,
+          "speaker": "Speaker 7",
+          "content": "Nylon coated strings. Yep. There's a YouTuber fellow. I can't remember. Is Charles Berthoud? I don't know really how to say. I don't know if it's Berth or Berth Berthoud. Probably. It's B E R T H E N D or Berthend. Something. I don't got it close. But he is like crazy good at the slapping and the popping."
+        },
+        {
+          "start_time": 6228390,
+          "end_time": 6250870,
+          "speaker": "Speaker 7",
+          "content": "You know he plays like flea and stuff like, and he uses those nylons. Says they're softer on the fingers. They look cooler. They look cooler, and they sound a little different. Less attack. It's like softer, softer sound. Like a nylon acoustic compared to a classical."
+        },
+        {
+          "start_time": 6250870,
+          "end_time": 6253190,
+          "speaker": "Lance",
+          "content": "Yeah, but they're just nylon coated metal."
+        },
+        {
+          "start_time": 6253190,
+          "end_time": 6253790,
+          "speaker": "Speaker 7",
+          "content": "Right."
+        },
+        {
+          "start_time": 6257820,
+          "end_time": 6265260,
+          "speaker": "Speaker 7",
+          "content": "Are that an i8? Yeah, that's. They're pretty awesome. Pretty unmistakable."
+        },
+        {
+          "start_time": 6265260,
+          "end_time": 6267740,
+          "speaker": "Lance",
+          "content": "They are oddly narrow tires."
+        },
+        {
+          "start_time": 6267740,
+          "end_time": 6269580,
+          "speaker": "Speaker 7",
+          "content": "They are right. I was like, isn't it?"
+        },
+        {
+          "start_time": 6269580,
+          "end_time": 6277740,
+          "speaker": "Lance",
+          "content": "Fucking sports tires. Well, a lot of people that do freaky stuff to them, like put badass wheels and tires on them, and they look so much better."
+        },
+        {
+          "start_time": 6277740,
+          "end_time": 6285930,
+          "speaker": "Speaker 7",
+          "content": "I um, what about like a wide - bodied, track build, i8."
+        },
+        {
+          "start_time": 6286770,
+          "end_time": 6307410,
+          "speaker": "Lance",
+          "content": "If you swap out a little, I think it's a three cylinder. Look, it is a three cylinder. Or like a B48, which is like the B. The three cylinder. Oh, with like two hundred and fifty horsepower. Yeah, like more power, and then. Dick with the. I mean, I don't know. You can make that thing have nine hundred horsepower, probably pretty easy. If you know how to fuck with electric motors and shit."
+        },
+        {
+          "start_time": 6307410,
+          "end_time": 6318490,
+          "speaker": "Speaker 7",
+          "content": "Well, you just bigger batteries usually when they upgrade motors. So, like, if you can't grade upgrade the battery, the motor size because it won't fit. They make the battery just enormous."
+        },
+        {
+          "start_time": 6318490,
+          "end_time": 6331050,
+          "speaker": "Lance",
+          "content": "Dude, I'll bet there's a newer electric motor in BMWs. Stable electric motors. That's just. Just thinking that, yeah. Either way, those are cool. That's a really cool car. Damn it!"
+        },
+        {
+          "start_time": 6331050,
+          "end_time": 6342620,
+          "speaker": "Speaker 7",
+          "content": "What is that dude? What's that dude's name? No shit."
+        },
+        {
+          "start_time": 6346210,
+          "end_time": 6358930,
+          "speaker": "Speaker 3",
+          "content": "That's."
+        },
+        {
+          "start_time": 6358930,
+          "end_time": 6373820,
+          "speaker": "Lance",
+          "content": "Cool looking. Doesn't it look good? And the doors do like this. Yeah. That's a fucking cool car. It's great. Also, it's quick as shit. It's like not fast compared to supercars. No, but it's in sports cars. It's quick. Yeah, it's very fun."
+        },
+        {
+          "start_time": 6376030,
+          "end_time": 6378670,
+          "speaker": "Speaker 4",
+          "content": "Isn't it all - wheel drive?"
+        },
+        {
+          "start_time": 6378670,
+          "end_time": 6400590,
+          "speaker": "Speaker 7",
+          "content": "Yeah. Yeah. It's like 300 horsepower, maybe or two something. What was that? I tell you, it's underwhelming when you get in it. It looks \u2014 you're like, holy shit! It looks like a Lamborghini, and you get in, and it's like a little faster than a BRZ."
+        },
+        {
+          "start_time": 6400590,
+          "end_time": 6411930,
+          "speaker": "Lance",
+          "content": "Yeah. I don't know what is it \u2014 four seconds. No, it's in the fours. I don't even think it's in the. I'm sure it's in the fours. Like even if it's fouring."
+        },
+        {
+          "start_time": 6411930,
+          "end_time": 6416410,
+          "speaker": "Speaker 7",
+          "content": "Yeah, maybe so. All - wheel drive, something, something."
+        },
+        {
+          "start_time": 6416410,
+          "end_time": 6424410,
+          "speaker": "Speaker 3",
+          "content": "That was very gay of you. African man."
+        },
+        {
+          "start_time": 6424410,
+          "end_time": 6434450,
+          "speaker": "Speaker 14",
+          "content": "African man. Okay, high threes to some mid fours. Okay, so you you'd be like, okay, it's fast."
+        },
+        {
+          "start_time": 6435100,
+          "end_time": 6444060,
+          "speaker": "Speaker 7",
+          "content": "But past that, it wouldn't be as fast. After the zero to sixty, of course,"
+        },
+        {
+          "start_time": 6444060,
+          "end_time": 6458060,
+          "speaker": "Lance",
+          "content": "It keeps going. No, it would. It goes to one fifty - five. Look it up. WRX stops at the one thirty - seven."
+        },
+        {
+          "start_time": 6458060,
+          "end_time": 6463250,
+          "speaker": "Speaker 3",
+          "content": "Limit."
+        },
+        {
+          "start_time": 6466590,
+          "end_time": 6489950,
+          "speaker": "Speaker 7",
+          "content": "Around 360 horsepower, 1. 4 liter, four five 1. 5 liter turbo three cylinder, and electric motor to the front wheels. Yep. Yeah, 155. Yeah."
+        },
+        {
+          "start_time": 6489950,
+          "end_time": 6507100,
+          "speaker": "Lance",
+          "content": "But think about it, that muffler is doing a lot with 360 horsepower. It is. It's like they built it to be like the picture of efficiency. It's all carbon fiber. Fucking things, all carbon fiber. All carbon fiber on a car. Like, that's a lot."
+        },
+        {
+          "start_time": 6507100,
+          "end_time": 6520300,
+          "speaker": "Speaker 7",
+          "content": "That thing's superior to most cars. It was ahead of its time. Is the main thing. Maybe now it's not so big with McLarens at all. They're like all carbon fiber and shit."
+        },
+        {
+          "start_time": 6520300,
+          "end_time": 6530170,
+          "speaker": "Lance",
+          "content": "Not for that much money. That's the other thing. It's for the price. But for the price, what you got was like retarded. What is it?"
+        },
+        {
+          "start_time": 6530170,
+          "end_time": 6536810,
+          "speaker": "Speaker 7",
+          "content": "Thirty - five hundred pounds. Yeah, that's pretty much. No, it's not. Yeah, it's a two - door sports car."
+        },
+        {
+          "start_time": 6536810,
+          "end_time": 6540410,
+          "speaker": "Lance",
+          "content": "Hybrid electric hybrid."
+        },
+        {
+          "start_time": 6540410,
+          "end_time": 6560920,
+          "speaker": "Speaker 7",
+          "content": "Yeah, but still, ends with the carbon fiber. I don't even know how they made it weigh that much. It feels like you have to add the weight. I mean, that shit. Look, a C6 Corvette. Without all the carbon fiber shit, zero carbon fiber, weighs three thousand pounds. How does this thing weigh this much?"
+        },
+        {
+          "start_time": 6560920,
+          "end_time": 6569240,
+          "speaker": "Lance",
+          "content": "A bit. It got no electric components. I know. Batteries, electric motors, or or all - wheel drive."
+        },
+        {
+          "start_time": 6569240,
+          "end_time": 6579700,
+          "speaker": "Speaker 7",
+          "content": "Yeah. Remember that too. So I guess that is a big piece of the picture. Battery motors, different drivetrain, completely."
+        },
+        {
+          "start_time": 6581890,
+          "end_time": 6585090,
+          "speaker": "Lance",
+          "content": "The Corvette's hallmark is the simplicity of it, honestly."
+        },
+        {
+          "start_time": 6585090,
+          "end_time": 6588050,
+          "speaker": "Speaker 7",
+          "content": "Yeah, I was just comparing it to your,"
+        },
+        {
+          "start_time": 6588050,
+          "end_time": 6599090,
+          "speaker": "Lance",
+          "content": "You know, new one. It's like rear wheel drive, transaxle, like probably a lot of aluminum in the in the body, aluminum and steel, you know. Yeah."
+        },
+        {
+          "start_time": 6612560,
+          "end_time": 6620720,
+          "speaker": "Lance",
+          "content": "Sorry, don't know why that's me. Oh, because I swept up. Who's the killer? That's me."
+        },
+        {
+          "start_time": 6620720,
+          "end_time": 6641790,
+          "speaker": "Speaker 3",
+          "content": "I got a gun."
+        },
+        {
+          "start_time": 6666300,
+          "end_time": 6668240,
+          "speaker": "Speaker 7",
+          "content": "That's So weird that the thing doesn't cap."
+        },
+        {
+          "start_time": 6670000,
+          "end_time": 6672880,
+          "speaker": "Lance",
+          "content": "Yeah, he's there. It's been like that."
+        },
+        {
+          "start_time": 6672880,
+          "end_time": 6684000,
+          "speaker": "Speaker 7",
+          "content": "That that whole store is outdated. Yeah, that screen isn't a normal system. It's like you're writing in in fucking the Matrix. You seen it? And then the little thing doesn't tap."
+        },
+        {
+          "start_time": 6684000,
+          "end_time": 6689600,
+          "speaker": "Speaker 13",
+          "content": "No, no, no."
+        },
+        {
+          "start_time": 6689600,
+          "end_time": 6694320,
+          "speaker": "Speaker 7",
+          "content": "And if it doesn't tap, couldn't you just get one of those machines? Now they got everybody using their phones."
+        },
+        {
+          "start_time": 6694320,
+          "end_time": 6718960,
+          "speaker": "Lance",
+          "content": "They have a machine where you use the phone, the store phone. Has a tap, yeah, but he has to like go in and key in the number. I don't know. They're retarded. That's because that dude's fault. I'm just. Oh, definitely not that dude. It's like whoever manages that store. Whoever manages that store, retarded. Of course, who manages?"
         }
       ]
     }
