@@ -1,5 +1,5 @@
 {
-  "revision": "PLAUD-NOTES-2026-10-23-AM",
+  "revision": "PLAUD-NOTES-2026-10-23-1333-MD",
   "recordings": [
     {
       "id": "of_410de4e91ae20a024c3e9afebc51b063",
@@ -46743,6 +46743,1035 @@
           "end_time": 6718960,
           "speaker": "Lance",
           "content": "They have a machine where you use the phone, the store phone. Has a tap, yeah, but he has to like go in and key in the number. I don't know. They're retarded. That's because that dude's fault. I'm just. Oh, definitely not that dude. It's like whoever manages that store. Whoever manages that store, retarded. Of course, who manages?"
+        }
+      ]
+    },
+    {
+      "id": "of_c659882e7c6b987379c98f88ce026955",
+      "name": "ABR \u00b7 sales meeting \u00b7 month-end push + Chloe / RouteOne",
+      "start_at": "2026-10-23T14:59:35",
+      "created_at": "2026-10-23T15:32:43",
+      "duration_ms": 1978000,
+      "vertical": "dealers",
+      "store": "abr",
+      "routed_by": "ABR sales meeting; Chloe VCA + RouteOne + month-end",
+      "status": "park",
+      "work_order": "Park. Floor SOP + Chloe pause/sold/lost hygiene. Optional later: refresh ABR loyalty supplemental pages; RouteOne dup investigation with store.",
+      "highlights": [
+        {
+          "t": "",
+          "title": "Among Mercedes, BMW, and Audi, the brand balances luxury and performance right in the middle to do everything well.",
+          "content": "Speaker 6 explained that compared to Mercedes and BMW, Audi checks every box by delivering great performance without riding harshly or overemphasizing pure luxury. The strategy was advised specifically for cross-shopping scenarios to highlight Audi's balance, engineering, and safety against competing major brands."
+        },
+        {
+          "t": "",
+          "title": "To stop customer messages, salesmen can end the showroom visit and mark the car as sold.",
+          "content": "Lance explained that ending a showroom visit and marking the car as sold immediately stops the system from messaging a customer who already bought a vehicle. When Speaker 7 asked if salesmen have the permissions to perform this action, Lance stated that salespeople cannot technically mark a vehicle as sold."
+        }
+      ],
+      "summary_md": "## ABR \u00b7 Sales meeting \u00b7 month-end + Chloe controls\n\n~33m floor meeting **2026-10-23 ~10a**. Store sales push into last third of month (8 working days + 2 weekends). Cash & Fist weekend.\n\n### Takeaways\n- **Demo drive SOP:** salesperson drives first (Quattro / free maint / service), then customer drives \u2014 stay quiet.\n- **Value talk:** Audi as executive middle vs MB/BMW \u2014 balance luxury + performance; safety/engineering (pillars, AWD, Pre Sense).\n- **Q7/Q9:** inbound interest real; offsite launches (Food & Wine St. Francisville) in play; **onsite launch party not planned yet**.\n- **Chloe (VCA):** pause up to 30d during active deals; text **inside Vin** so auto-pause fires; mark **lost** for dead deals; end visit + mark **sold** to stop post-sale (sales often can\u2019t mark sold \u2014 process gap).\n- **RouteOne dups:** finance push occasionally spawns new lead \u2192 Chloe re-engages sold customers; merge fast; possible ignore RouteOne source (risks legit finance leads); call RouteOne if pattern continues.\n- **Programs:** loyalty pages stale (Q7 still showing $2k); Q5 $1k / Q3 $750 loyalty; Q3 customer credit $1,500; lock program 7.59% needs forms/clarification; Mastermind $ vs Q3 exclusion anomaly.\n\n### Status\n**Park** \u2014 no Ada build WO. Floor ops + VCA hygiene. Loyalty sheet update is store/Lance ops if they want it written.\n",
+      "transcript": [
+        {
+          "start_time": 34870,
+          "end_time": 46870,
+          "speaker": "Speaker 1",
+          "content": "I was."
+        },
+        {
+          "start_time": 46870,
+          "end_time": 63100,
+          "speaker": "Speaker 2",
+          "content": "Going anywhere. All right. All right. Captain's case that we did yesterday is still in place today and tomorrow, so it should be dropped off to Chad here. To Chad."
+        },
+        {
+          "start_time": 63610,
+          "end_time": 90010,
+          "speaker": "Speaker 3",
+          "content": "This afternoon, I know we got all hundred to Craig, Sliprian, and Will. So that's in place weekend. So make sure you take advantage of that. All right. Next thing, something I've been I've been seeing on the new car side, and I don't know if this is a how this will be used for our side, but on the new car side."
+        },
+        {
+          "start_time": 97040,
+          "end_time": 123200,
+          "speaker": "Speaker 3",
+          "content": "Separate yourself from dealership and on the street, and separate our dealership from the dealership and on the street. So, tell me a couple things. Tell me something that separates Audi. What makes Audi different than everybody else? Our culture, our guy, is one of the best. And why would that be?"
+        },
+        {
+          "start_time": 123200,
+          "end_time": 127870,
+          "speaker": "Lance",
+          "content": "Because we've optimized it. Point on it."
+        },
+        {
+          "start_time": 127870,
+          "end_time": 130750,
+          "speaker": "Speaker 2",
+          "content": "Nature's the best."
+        },
+        {
+          "start_time": 130750,
+          "end_time": 155840,
+          "speaker": "Speaker 5",
+          "content": "Yeah. I mean, yeah. I mean, that's the number one thing I'd say. We outperform pretty much everything else that we compete with in inclement weather. We're safer, and we have a unique brand in that we're sporty without being childish, and we are luxury without being ostentatious."
+        },
+        {
+          "start_time": 158240,
+          "end_time": 160560,
+          "speaker": "Speaker 5",
+          "content": "Exactly. I feel like we're the executive brand."
+        },
+        {
+          "start_time": 160560,
+          "end_time": 168480,
+          "speaker": "Speaker 3",
+          "content": "That works for me."
+        },
+        {
+          "start_time": 168480,
+          "end_time": 186890,
+          "speaker": "Speaker 1",
+          "content": "What's some of our disadvantages? Cars six-speed on leather, but we are a premium brand. But yes, that is a disadvantage. Believe it or not, but it's some people's head, man. I mean, you say what you want. That's why when I do show a A3, I open up the hatch right away and say, hey, you know, you can buy a regular leather."
+        },
+        {
+          "start_time": 187910,
+          "end_time": 244550,
+          "speaker": "Speaker 3",
+          "content": "So often I see on the new car side, I'll go out there, I'll look out there, and I'll watch, and I'll see. We'll go grab a car, we'll grab it, grab the key, pull the car up. The first thing we do is walk up to the passenger seat, sit in the passenger seat, have a test, we sit in the driver's seat and take off driving. Okay, it's a big no-no. All right, part of the demonstration is just that\u2014it's a demonstration. That's time when when they're driving. When they're driving, they're not listening to you. We should always drive first when we're taking off the car. All right, grab the customer, sit them in the passenger seat, buckle them up, sit in there, talk a little about the car. Good time to bring up Quattro. It's a good time to bring up free maintenance. It's a good time to bring up times of your service, things like that. Find some items that are important to the customer. Start talking about those."
+        },
+        {
+          "start_time": 244550,
+          "end_time": 274460,
+          "speaker": "Speaker 3",
+          "content": "While we're driving, start demonstrating some of those options. Okay, lots of turnbacks with the driver. At that point in time, move over to the passenger seat, and then what do you do? Keep your mouth shut. Shut. Absolutely, keep your mouth shut. Let the customer experience the car. You know, that's where you're listening for the customer to start asking you questions. You know, other than that, keep your mouth shut. Let the customer drive the car. Let the customer experience the car."
+        },
+        {
+          "start_time": 274690,
+          "end_time": 332780,
+          "speaker": "Speaker 3",
+          "content": "But the customer follows up. That's the purpose of the demo drive. Seems a lot of times we we have a demo drive, but we have it without purpose. There is a purpose in the demo. It's to get to the, it's to generate excitement for the customer. You know, you can't do that if we shorten, if we if we shortcut that. We talked last week about processes. Each process in place. That's one of the more important ones. When was the last time you took a car out? You you. Practice your demonstration drive. It means you go, you and someone else, or you by yourself, drive your demo route, and you practice saying out loud the things that you want to say. Don't say them in your head. Say them out loud. It's muscle memory. Voice is no different. Practice what you want to say out loud. Practice what you want to demonstrate. Want a Q5? Want a Q7? So that when you do get in front of a real customer, you've got that routine now."
+        },
+        {
+          "start_time": 332780,
+          "end_time": 390030,
+          "speaker": "Speaker 3",
+          "content": "Practice is part of part of selling. So, make sure that when we have a demonstration, we do it with purpose. We generate excitement. We talk about the things that make us unique. You know what separates you from the dealership down the street. If they've got, if they go to Mercedes and someone just sits in a car with them and drives with them, doesn't really say nothing or talks and they forget what they're talking about, they're not remembering that. Make sure that when a customer leaves here. That we are memorable in some way, whether it's our car, whether it's our facility, and most importantly, you. Make sure that they remember you. Make sure that they remember the experience and why our experience is different. Stop half-assing it. Every part of the of the steps of the sale has a purpose. Make sure that we we create a purpose for each one of those. So."
+        },
+        {
+          "start_time": 392130,
+          "end_time": 399890,
+          "speaker": "Speaker 3",
+          "content": "Ask anything suggestions. I know this stuff. You guys know these. You know these guys don't necessarily know this. They haven't heard this much."
+        },
+        {
+          "start_time": 399890,
+          "end_time": 449370,
+          "speaker": "Speaker 6",
+          "content": "But I would say on the lines of like what you were saying about Quattro and like what sets us apart. And you've probably heard me say this a million times. But what I always say, just looking at the three premium brand, three major brands, Mercedes, BMW, and Audi, that. We don't fall too far into luxury. We don't fall too far into performance like BMW. We sit right in the middle, and we check off all the boxes. I feel like our car does everything well. It doesn't. It doesn't ride like a rock and just perform like crazy, but it performs great. So, I used to always say that, especially when people are cross shopping and talking about other brands that."
+        },
+        {
+          "start_time": 449750,
+          "end_time": 465750,
+          "speaker": "Speaker 6",
+          "content": "We check off all the boxes, and I think that's, in my opinion, what Audi is really good at. So, you know, use that and kind of finagle it how you want, but that's what I always think is a good way to describe the car."
+        },
+        {
+          "start_time": 465750,
+          "end_time": 498360,
+          "speaker": "Speaker 7",
+          "content": "With Audi, I always hit on the engineering and safety. Things that people don't think about or talk about is, I show them the thickness of the A pillar and B pillar, the drop and breakaway engine, the all - wheel drive, which is great. In the rain here, which is standard, and then you've got the pre-sense forward and back 50 miles or less. This car auto brakes. So I always hit on the engineering and safety, and then we're up to date on the technology. In '16, they had ashtrays and cigarette lights. That's right. Now you got wireless Wi - Fi and touch screen."
+        },
+        {
+          "start_time": 498360,
+          "end_time": 538250,
+          "speaker": "Speaker 3",
+          "content": "That's right. Yeah, and people kind of dismiss auto driving. Oh, I say it never snows around here. More accidents are caused by the rain than than snow. It certainly may not slow snow here, but it does sleet, and there's nothing slicker than that. We've got really good products coming out. We've got two new products that are coming out that are first of a kind for us, and they're they're new they're new cars that are going to bring in competitors from other other brands. Make sure we're up to date on what those cars are, what they have, what they have, and and that we have the ability to generate excitement into those cars."
+        },
+        {
+          "start_time": 538650,
+          "end_time": 566650,
+          "speaker": "Speaker 3",
+          "content": "When a customer comes and sees that Q7 for the first time, or the Q9, they need to leave excited. Think about it when you went in the drive with the with the trainer. Everybody came in, everybody was excited after the drive. Everybody loved that car. That's the way your customers need to feel when they leave here. Make sure we're conveying those items. That so when when we're in front of them, we're on stage, and we're we're giving the best presentation we can possibly give."
+        },
+        {
+          "start_time": 566650,
+          "end_time": 568130,
+          "speaker": "Speaker 7",
+          "content": "If you're excited, they're going to get excited."
+        },
+        {
+          "start_time": 568130,
+          "end_time": 572530,
+          "speaker": "Speaker 3",
+          "content": "Absolutely, but it does start with practice. Do you have the practice? Yes. Quick question:"
+        },
+        {
+          "start_time": 572530,
+          "end_time": 575570,
+          "speaker": "Speaker 7",
+          "content": "Are we doing any type of launch or advertising?"
+        },
+        {
+          "start_time": 575570,
+          "end_time": 590210,
+          "speaker": "Speaker 3",
+          "content": "We there is there is advertising, and we're we're trying to do some launch events, but they're going to be offsite at different things. There's a Food & Wine festival at the St. Francisville. We're going to probably get in, and there's a couple other things like that."
+        },
+        {
+          "start_time": 590210,
+          "end_time": 592130,
+          "speaker": "Speaker 7",
+          "content": "How about like a launch party here?"
+        },
+        {
+          "start_time": 592130,
+          "end_time": 593490,
+          "speaker": "Speaker 3",
+          "content": "It hasn't been discussed yet,"
+        },
+        {
+          "start_time": 593490,
+          "end_time": 606170,
+          "speaker": "Speaker 7",
+          "content": "So. And one other thing, and I'm nobody. But if we don't let people know that they're new and they're exciting, they're going to come in. They're not going to come in. We have to give them away. If they're excited, they come. They all come in. We're going to make money. Well, it's going to pay for the advertising."
+        },
+        {
+          "start_time": 606170,
+          "end_time": 623130,
+          "speaker": "Speaker 3",
+          "content": "I can tell you, the word is out by the number of phone calls that are being generated on Q7 to Q9. The word is out there somehow. So people are aware of this product. It's very rare that I mention that I work at Audi and someone doesn't mention the Q9. So I'm not opposed to much of it."
+        },
+        {
+          "start_time": 623130,
+          "end_time": 624330,
+          "speaker": "Speaker 7",
+          "content": "Spend a little money. No,"
+        },
+        {
+          "start_time": 624330,
+          "end_time": 635890,
+          "speaker": "Speaker 3",
+          "content": "I'm not opposed to spending money. So. Yeah, I'm not opposed to a launch, but it just hasn't been discussed or planned yet. That's a good idea. Do you have anything you want to mention we talked about? No,"
+        },
+        {
+          "start_time": 635890,
+          "end_time": 673770,
+          "speaker": "Speaker 8",
+          "content": "Guys. I mean, we have a little bit more momentum, especially on the new side this month. We have what eight working days left, two full weekends. You know, we're kind of coming down to that last third of the month. Um, I think the effort has been good. I think the, Customers have been more. Just finish it out. You know, we got a lot of time left if you really look at the days and good days left. So, finish it out. Keep keep pushing and make your month. You know, everybody's got a chance. Yep. Let's uh, let's finish it out and let's be proud of this month."
+        },
+        {
+          "start_time": 673770,
+          "end_time": 710180,
+          "speaker": "Speaker 3",
+          "content": "Well, had a great weekend last weekend. We need to have a great weekend this weekend. No different. I mean, every person that walks in. On the lot, every person that calls, every person that signs and leaves, an opportunity. Let's maximize every opportunity we get. So we got a good month going. We haven't we haven't been in this position in a while. Going into the the last the last third of a month, like Chad said. I mean, it'd be a shame to waste it. So anybody else got anything they want to talk about, mention? All right."
+        },
+        {
+          "start_time": 710180,
+          "end_time": 754650,
+          "speaker": "Speaker 3",
+          "content": "Cash and Fist this weekend, all right. Let me hear what we got working for the weekend, Hunter. Hunter, get you on the board this weekend or what? I'm trying, sir. What you got? Nothing. Great, you can't get one of these bugs, but I mean, come on, man. That's what we brought you. Mike C, what about you, man? What we got? I got a couple working. I got, I got one. I'm hoping this guy still comes with this Q5. All right. Normal little cash and fist gets Mike excited. Yeah, Brandon. I'm working with Mister Leje right now, trying to get his title worked out with his Toyota. That's on the S3. Yeah, they already told me they can happen. So,"
+        },
+        {
+          "start_time": 754650,
+          "end_time": 768470,
+          "speaker": "Speaker 5",
+          "content": "Jack. I've got this A5 going out today in three Finance. Okay. Three. Bose. Okay. Like finance, like me, Finance. Yeah."
+        },
+        {
+          "start_time": 769550,
+          "end_time": 783870,
+          "speaker": "Speaker 3",
+          "content": "Alex, I've got an A5 that I was working on in service early this week, trying to get her and her husband back tomorrow. All right. Shane, I knew this was coming. I knew it was coming too."
+        },
+        {
+          "start_time": 783870,
+          "end_time": 793070,
+          "speaker": "Speaker 1",
+          "content": "Well, I'm not going to mention the ones that didn't show up, but I'm going to call them again. Okay. And the one yesterday late in the afternoon, I had that says he's coming back today."
+        },
+        {
+          "start_time": 793070,
+          "end_time": 807700,
+          "speaker": "Speaker 3",
+          "content": "By the time you've been talking today, so don't tell me nothing. Nothing to put on the board. Just playing with a few. I don't play son. Those fucking Jersey Italians. I mean, you know, they're they're they're they're assholes."
+        },
+        {
+          "start_time": 807700,
+          "end_time": 814580,
+          "speaker": "Speaker 7",
+          "content": "They're breeding their own. At least I know what I'm asking. I come from a long line of it. There you go. At least you know what you get. Hundred percent."
+        },
+        {
+          "start_time": 814580,
+          "end_time": 840840,
+          "speaker": "Speaker 3",
+          "content": "I knew that from day one. Well, how about you? A couple bows. Okay. One solid for Monday. Okay, for Monday. Got a solid one for Monday. There's no Cash and Fist on. I understand. Okay. Well, am I a waste of Cash and Fist this week, or we're gonna make something happen, guys? So let's go through those. Happen."
+        },
+        {
+          "start_time": 840840,
+          "end_time": 856680,
+          "speaker": "Speaker 8",
+          "content": "Is anybody working the deal on the green Q3? Do I okay? Cool. Also, does anybody have any Q5 new that they're working? If we've worked them, you know, earlier this month, let's look at them again. Anything on the Q5?"
+        },
+        {
+          "start_time": 858830,
+          "end_time": 871630,
+          "speaker": "Speaker 8",
+          "content": "Not that one. That's all we know. But maybe that one, just not yet."
+        },
+        {
+          "start_time": 871630,
+          "end_time": 878670,
+          "speaker": "Speaker 7",
+          "content": "Can we work on turning Chloe off? Be having access to turn Chloe off? Oh, yeah. Beating the drum."
+        },
+        {
+          "start_time": 878670,
+          "end_time": 881790,
+          "speaker": "Lance",
+          "content": "You have all that. You have access. You can turn it off for thirty days at a time."
+        },
+        {
+          "start_time": 881790,
+          "end_time": 886840,
+          "speaker": "Speaker 7",
+          "content": "Well, we can pause it. I don't know where it says if you can pause it for five minutes to send a message, but I don't know what."
+        },
+        {
+          "start_time": 886840,
+          "end_time": 894280,
+          "speaker": "Speaker 5",
+          "content": "You pause it for five minutes. You can pause it up to thirty days, but then somehow it all comes back on sometimes. Can you show us where to pause it for thirty days?"
+        },
+        {
+          "start_time": 894280,
+          "end_time": 898920,
+          "speaker": "Speaker 1",
+          "content": "Sure. I want it coming after the fact, not before, and I'll keep it forever."
+        },
+        {
+          "start_time": 898920,
+          "end_time": 901960,
+          "speaker": "Speaker 6",
+          "content": "Forever. Forever. Wake up at midnight and answer the."
+        },
+        {
+          "start_time": 901960,
+          "end_time": 911040,
+          "speaker": "Speaker 1",
+          "content": "I am up at midnight. I don't sleep till three, and I'm up at five. I don't sleep till three o'clock. You can you can see where I answered this guy on the charge."
+        },
+        {
+          "start_time": 911040,
+          "end_time": 912800,
+          "speaker": "Lance",
+          "content": "Boys, he's sleeping two hours a night."
+        },
+        {
+          "start_time": 912800,
+          "end_time": 917440,
+          "speaker": "Speaker 1",
+          "content": "Sleep and I wake up and to sleep. I always change the whole system. I just turn it off. Yep,"
+        },
+        {
+          "start_time": 917440,
+          "end_time": 928480,
+          "speaker": "Speaker 5",
+          "content": "One hundred percent. I'm just warming up, dude. If we could just have after hours, Chloe, and then when we respond to her, just turn her off, and then we can turn her back on when we want. That'd be ideal."
+        },
+        {
+          "start_time": 928480,
+          "end_time": 939040,
+          "speaker": "Lance",
+          "content": "So there's a setting already turned on. If you start responding to her to the customer, it will turn off. But if you don't do it through the, Software, then it doesn't know it's not clairvoyant."
+        },
+        {
+          "start_time": 939040,
+          "end_time": 952000,
+          "speaker": "Speaker 7",
+          "content": "And that's not how it's working. Yeah. I'll get here. Chloe contacts him overnight. That's beautiful. Mhm. Does all sets an appointment, everything. When I come in and I contact him, she keeps, and that's okay."
+        },
+        {
+          "start_time": 952000,
+          "end_time": 961200,
+          "speaker": "Lance",
+          "content": "Just pause it. If you're in the middle of a deal and you're working the deal, just hit pause, assistant. Thirty days. Okay. It works every time."
+        },
+        {
+          "start_time": 961200,
+          "end_time": 961970,
+          "speaker": "Speaker 7",
+          "content": "All right."
+        },
+        {
+          "start_time": 962610,
+          "end_time": 963970,
+          "speaker": "Lance",
+          "content": "You Got to keep in mind too."
+        },
+        {
+          "start_time": 963970,
+          "end_time": 968690,
+          "speaker": "Speaker 7",
+          "content": "If the deal is dead and they're not buying, or something's wrong, she keeps going and going and going."
+        },
+        {
+          "start_time": 968690,
+          "end_time": 1017420,
+          "speaker": "Lance",
+          "content": "So what it does is it think of the system right now set up as basically tapping your system on the shoulder and say, hey, check on this for me. So it says, hey, check on this for me as soon as a new lead comes in. And then let's say you have someone that comes in and and you work a deal with them, but they don't buy. Or can't buy. Can't buy. That's a once that show room visit's closed. That's another tap on the shoulder. It says, \"Hey, Chloe, go check on this motherfucker,\" and so then it'll start checking on that person again. So you have basically some re-engages or some like you you're telling her to start over. A couple of different things that happen in the system. So a lot of times, if you say, \"Hey, I paused there. Why the hell is she start bothering my person again?\" Sometimes it's those little actions that are taking place in the system that are re-tapping the assistant, basically. But if you don't use the system to text the customer."
+        },
+        {
+          "start_time": 1018490,
+          "end_time": 1024890,
+          "speaker": "Lance",
+          "content": "The option that I turned on, that says \" stop bothering my customer \" if I'm texting them,"
+        },
+        {
+          "start_time": 1024890,
+          "end_time": 1026810,
+          "speaker": "Speaker 7",
+          "content": "Won't work."
+        },
+        {
+          "start_time": 1026810,
+          "end_time": 1030089,
+          "speaker": "Lance",
+          "content": "So just make sure you're texting inside the system. In the system."
+        },
+        {
+          "start_time": 1030089,
+          "end_time": 1038010,
+          "speaker": "Speaker 7",
+          "content": "Yep. And the ones I'm worried about, when they can't buy, but they won't stop, and we've already told them no, and you can't buy."
+        },
+        {
+          "start_time": 1038010,
+          "end_time": 1041210,
+          "speaker": "Lance",
+          "content": "That that customer needs to be marked lost, and then you're, and then it's over."
+        },
+        {
+          "start_time": 1041210,
+          "end_time": 1043930,
+          "speaker": "Speaker 1",
+          "content": "I got a few deals back from them, which is good."
+        },
+        {
+          "start_time": 1043930,
+          "end_time": 1060420,
+          "speaker": "Lance",
+          "content": "Yeah. The reengage is there for a reason. But if it's a truly dead, dead, dead person, you make sure you go market lost and get it out of there. But if you don't ever market lost, it thinks shit. We're gonna still keep trying, you know. And it's it'll it'll bother them until they're dead."
+        },
+        {
+          "start_time": 1060420,
+          "end_time": 1069460,
+          "speaker": "Speaker 7",
+          "content": "I had this customer from New Orleans that needed to be picked up, didn't have any money down yet, and I got 30 texts a day from Chloe on this fucking nut."
+        },
+        {
+          "start_time": 1069460,
+          "end_time": 1073500,
+          "speaker": "Speaker 6",
+          "content": "That was prior to us fixing it. Yeah, that was that's dirty."
+        },
+        {
+          "start_time": 1073500,
+          "end_time": 1078060,
+          "speaker": "Lance",
+          "content": "We made a lot of settings all in, In one day."
+        },
+        {
+          "start_time": 1078060,
+          "end_time": 1081100,
+          "speaker": "Speaker 5",
+          "content": "What's up? We not just set it to where like we can turn it off."
+        },
+        {
+          "start_time": 1081100,
+          "end_time": 1084940,
+          "speaker": "Lance",
+          "content": "And on. This kind of is what the pause button is."
+        },
+        {
+          "start_time": 1084940,
+          "end_time": 1087420,
+          "speaker": "Speaker 5",
+          "content": "Just let them know that Chloe is AI, and we're gonna call them back,"
+        },
+        {
+          "start_time": 1087420,
+          "end_time": 1088940,
+          "speaker": "Speaker 7",
+          "content": "But it don't say that."
+        },
+        {
+          "start_time": 1088940,
+          "end_time": 1090300,
+          "speaker": "Lance",
+          "content": "You can, you can tell them."
+        },
+        {
+          "start_time": 1090300,
+          "end_time": 1095740,
+          "speaker": "Speaker 7",
+          "content": "I tell them in every message and every email, I'm your salesperson. Chloe is our AI assistant."
+        },
+        {
+          "start_time": 1095740,
+          "end_time": 1096780,
+          "speaker": "Lance",
+          "content": "Yeah, and that's fine."
+        },
+        {
+          "start_time": 1096780,
+          "end_time": 1098540,
+          "speaker": "Speaker 7",
+          "content": "But it won't tell them that."
+        },
+        {
+          "start_time": 1098540,
+          "end_time": 1128430,
+          "speaker": "Lance",
+          "content": "Wait, here's the problem. It was talking. It was using some really weird language. When it was saying it was an AI, it it gets more ignored, right? But if it doesn't say that up front, then it's just your assistant. And then as soon as you take over and you know you're the man of the house basically in the deal, then tell it to pause. Start talking, and it won't fuck around. But if you've got old dead people like what you're talking about, that you're like Jesus Christ, this person can't buy anyway, and we keep bothering them. Make sure you mark that shit lost as soon as you know you need to."
+        },
+        {
+          "start_time": 1128430,
+          "end_time": 1136710,
+          "speaker": "Speaker 7",
+          "content": "That's in that little box you drop down where it says new, bad, used, bad, lost, lost. Yeah. Yeah. But I didn't know if that shut her up."
+        },
+        {
+          "start_time": 1136710,
+          "end_time": 1146630,
+          "speaker": "Lance",
+          "content": "If it's still bothering them and you've marked it lost, well, then that's a, then something's wrong. Like literally, just take a picture of it and send it to me, Yeah, I will."
+        },
+        {
+          "start_time": 1146630,
+          "end_time": 1150710,
+          "speaker": "Speaker 1",
+          "content": "Thank you. The boss gives you fourteen days. I've never seen thirty, but it's there."
+        },
+        {
+          "start_time": 1150710,
+          "end_time": 1153030,
+          "speaker": "Lance",
+          "content": "Yeah, it's a little. It pauses and then it's a little drop down."
+        },
+        {
+          "start_time": 1153030,
+          "end_time": 1171450,
+          "speaker": "Speaker 5",
+          "content": "Is there a way that we can prevent it from re - engaging a customer when there's a duplicate lead created? One problem I've run into. A lot is like a customer will be sold, right? Yeah. So if they finance, they go through Route One. It creates a duplicate lead, and then it starts messaging them. And I've had a multitude of customers now."
+        },
+        {
+          "start_time": 1171450,
+          "end_time": 1177850,
+          "speaker": "Speaker 3",
+          "content": "Can we just can we just turn her off from if the lead is created through Route One? Turn off from finance."
+        },
+        {
+          "start_time": 1177850,
+          "end_time": 1178650,
+          "speaker": "Lance",
+          "content": "Yeah, probably."
+        },
+        {
+          "start_time": 1178650,
+          "end_time": 1181530,
+          "speaker": "Speaker 3",
+          "content": "In other words, ignore that source."
+        },
+        {
+          "start_time": 1181530,
+          "end_time": 1187590,
+          "speaker": "Lance",
+          "content": "Yeah, but if it's one that the customer is a legit customer, that's a finance lead, then then they'll get ignored."
+        },
+        {
+          "start_time": 1188100,
+          "end_time": 1189780,
+          "speaker": "Speaker 7",
+          "content": "The."
+        },
+        {
+          "start_time": 1189780,
+          "end_time": 1193620,
+          "speaker": "Lance",
+          "content": "Fix is just super being super proactive and like merging shit as soon as you can."
+        },
+        {
+          "start_time": 1193620,
+          "end_time": 1199300,
+          "speaker": "Speaker 7",
+          "content": "I have the same problem as Jack has. They're bugging the shit out of me. They're already bought. Chloe's calling them. They're done. They're in our car."
+        },
+        {
+          "start_time": 1199300,
+          "end_time": 1217860,
+          "speaker": "Lance",
+          "content": "You gotta mark them sold. Okay, so the system's so great, as we know that. So anyway, when a customer comes in, I'm working them. They're in the store. I hit visit. We're doing a deal, and we take a line and you put a credit app in. Then Route One automatically starts a new lead. You get a phone up."
+        },
+        {
+          "start_time": 1217860,
+          "end_time": 1223300,
+          "speaker": "Speaker 7",
+          "content": "I see the phone up. I get the phone. I put it in. It sends the lead to someone else's name, the same customer."
+        },
+        {
+          "start_time": 1223300,
+          "end_time": 1229540,
+          "speaker": "Lance",
+          "content": "It's really yeah. What you're describing is kind of separate and apart from the whole virtual assistant thing. That's just the fucking problem."
+        },
+        {
+          "start_time": 1229540,
+          "end_time": 1230280,
+          "speaker": "Speaker 7",
+          "content": "Yeah. Finance app."
+        },
+        {
+          "start_time": 1230280,
+          "end_time": 1234340,
+          "speaker": "Lance",
+          "content": "Finance app. I know it's a duplicate lead problem. That's and that's always been a problem. Yeah."
+        },
+        {
+          "start_time": 1234340,
+          "end_time": 1242100,
+          "speaker": "Speaker 7",
+          "content": "Oh. When they're in the store and got them in the system, and then they go to finance and they put a credit app, and then it creates another whole new lead from that finance app. That I don't know. That's what."
+        },
+        {
+          "start_time": 1242100,
+          "end_time": 1261430,
+          "speaker": "Lance",
+          "content": "Comes from using. The customer - facing new lead gen form that's on the website as a basically a tool to put in a credit app on a person that's already a current customer. So my so to that, my answer is sit down with the customer and fill out the credit app."
+        },
+        {
+          "start_time": 1261430,
+          "end_time": 1275840,
+          "speaker": "Speaker 7",
+          "content": "Well, we've done that. We've done that. We're in the store. We're buying a car. We're doing finance. Sometimes when finance puts them in the system, it creates another lead in their name. So now we got duplicate leads on a credit app. So it's a great lead when you put it together. Not every time."
+        },
+        {
+          "start_time": 1275840,
+          "end_time": 1280400,
+          "speaker": "Lance",
+          "content": "You mean when you're doing it in the finance office? I don't think that creates a new reason."
+        },
+        {
+          "start_time": 1280400,
+          "end_time": 1299360,
+          "speaker": "Speaker 6",
+          "content": "I think it's when it's pushed to Route One, regardless of where it's being pushed. No, because no, because we push almost every deal to Route One, so it's not generating. It does it. It does happen occasionally. I don't know what the reason for that is. It's it's more rare for it to happen in the way that you're talking."
+        },
+        {
+          "start_time": 1299360,
+          "end_time": 1307040,
+          "speaker": "Lance",
+          "content": "But you mean like somehow you're in finance, you fill out the credit app, you push it. And it's creating a lead. Yeah. Yes. That should never happen."
+        },
+        {
+          "start_time": 1307040,
+          "end_time": 1312480,
+          "speaker": "Speaker 6",
+          "content": "Maybe if you build it inside of Route One, instead of getting pushed from Ven Solutions."
+        },
+        {
+          "start_time": 1312480,
+          "end_time": 1316720,
+          "speaker": "Lance",
+          "content": "That shouldn't matter. That's not that actually is a phone call to Route One. Like a few times. Yeah."
+        },
+        {
+          "start_time": 1316720,
+          "end_time": 1319120,
+          "speaker": "Speaker 6",
+          "content": "But but that's that's more rare."
+        },
+        {
+          "start_time": 1319120,
+          "end_time": 1320240,
+          "speaker": "Lance",
+          "content": "We probably should talk to Route One."
+        },
+        {
+          "start_time": 1320240,
+          "end_time": 1326640,
+          "speaker": "Speaker 6",
+          "content": "More when someone goes online and you say, \" Hey, fill out this credit application.\" It's generating a lead because that's what we're asking."
+        },
+        {
+          "start_time": 1326640,
+          "end_time": 1333500,
+          "speaker": "Speaker 7",
+          "content": "Them to do. So the sold thing is a pain in the ass. I'm aware. But."
+        },
+        {
+          "start_time": 1333500,
+          "end_time": 1369270,
+          "speaker": "Lance",
+          "content": "What happens is if you sell a sell a car, the ideal situation is you desk it, push it, it's sold, and then the day later the system knows that the thing was sold because it matches back with the deal number. But that doesn't always work. And if it wasn't desked and pushed and all that whole thing, it's a pain in the ass. The way to ensure that it's sold and mark sold, and your person doesn't keep getting bothered is that we like basically end a showroom visit, mark it sold, and then that right away the customer will stop getting messages."
+        },
+        {
+          "start_time": 1369270,
+          "end_time": 1370790,
+          "speaker": "Speaker 7",
+          "content": "Salesmen have access to do that."
+        },
+        {
+          "start_time": 1370790,
+          "end_time": 1374230,
+          "speaker": "Lance",
+          "content": "I don't think you can. I don't think y'all can mark it sold technically. Yeah."
+        },
+        {
+          "start_time": 1377750,
+          "end_time": 1385910,
+          "speaker": "Lance",
+          "content": "All right. Yeah. What else? Let's sell some cars, make some money this weekend."
+        },
+        {
+          "start_time": 1389570,
+          "end_time": 1391810,
+          "speaker": "Speaker 2",
+          "content": "Close that for."
+        },
+        {
+          "start_time": 1391810,
+          "end_time": 1407250,
+          "speaker": "Speaker 6",
+          "content": "Us, Hunter. Thanks, guy that sells the fucking least cars in the whole store is the one that has the biggest issues."
+        },
+        {
+          "start_time": 1407250,
+          "end_time": 1410930,
+          "speaker": "Speaker 3",
+          "content": "Yeah, that was the case. Doesn't seem like we got a lot broken this weekend."
+        },
+        {
+          "start_time": 1410930,
+          "end_time": 1416850,
+          "speaker": "Speaker 6",
+          "content": "No, really, just the Q8. That's the only one."
+        },
+        {
+          "start_time": 1429430,
+          "end_time": 1437270,
+          "speaker": "Speaker 3",
+          "content": "Yeah So that's only got a whole lot. A five on new, and that's. You waiting on that? That's Ciprian."
+        },
+        {
+          "start_time": 1437270,
+          "end_time": 1445110,
+          "speaker": "Speaker 6",
+          "content": "Ciprian, but that's like the guy's supposed to be coming with cash. It's just as is price. He knows all the issues with."
+        },
+        {
+          "start_time": 1445110,
+          "end_time": 1447030,
+          "speaker": "Speaker 3",
+          "content": "Oh, that's what we were talking about yesterday."
+        },
+        {
+          "start_time": 1447030,
+          "end_time": 1456540,
+          "speaker": "Speaker 6",
+          "content": "Yeah. Yeah. Which is not a. I mean, we'll we'll break out of it, lose a little bit, but it's not gonna be a little bit."
+        },
+        {
+          "start_time": 1456540,
+          "end_time": 1464060,
+          "speaker": "Speaker 3",
+          "content": "Yeah. You know, any other deals besides?"
+        },
+        {
+          "start_time": 1464060,
+          "end_time": 1471020,
+          "speaker": "Speaker 8",
+          "content": "Um. Well, Jack said he was working the Q three that he didn't mention. Well, that's the that's the."
+        },
+        {
+          "start_time": 1471020,
+          "end_time": 1474820,
+          "speaker": "Speaker 3",
+          "content": "The four ninety s. Yeah, the card is bad, so I don't."
+        },
+        {
+          "start_time": 1476210,
+          "end_time": 1479730,
+          "speaker": "Speaker 9",
+          "content": "I Submitted it to three banks before I come up here, so whenever I go back down, we'll see."
+        },
+        {
+          "start_time": 1479730,
+          "end_time": 1497570,
+          "speaker": "Speaker 3",
+          "content": "They have three grand down, so they'll come buy it, of course. We're doing it. Yeah. Somebody's not supporting. Yeah, I'm just gonna tell them we're not gonna deal with it. Yeah. Okay. Our customer is from Saint."
+        },
+        {
+          "start_time": 1497570,
+          "end_time": 1507500,
+          "speaker": "Speaker 6",
+          "content": "Yeah, that has happened, though, Lance. Very, very occasionally. That's fucking weird. He's saying it's every time. I mean,"
+        },
+        {
+          "start_time": 1507500,
+          "end_time": 1512380,
+          "speaker": "Speaker 3",
+          "content": "By the way, found something. It's not the case. Something interesting yesterday. What's up?"
+        },
+        {
+          "start_time": 1512380,
+          "end_time": 1517020,
+          "speaker": "Lance",
+          "content": "Well, that would be like call out Warren and be like, \" Hey, why is this happening?\" Because that shouldn't."
+        },
+        {
+          "start_time": 1517020,
+          "end_time": 1531340,
+          "speaker": "Speaker 3",
+          "content": "Warren called for his daughter. Yeah. You know what I mean? We used Mastermind money. Yeah. It's not compatible with a Q three. Interesting. And they were in a Q three and traded a Q three. Yeah, Mastermind money not compatible with Q three."
+        },
+        {
+          "start_time": 1531340,
+          "end_time": 1539280,
+          "speaker": "Speaker 8",
+          "content": "Well, they were trying to buy another Q three. I called Mastermind and they said we could use it on both of them. So hopefully they don't buy it."
+        },
+        {
+          "start_time": 1539280,
+          "end_time": 1540960,
+          "speaker": "Speaker 9",
+          "content": "It's listed under excluded. Yeah,"
+        },
+        {
+          "start_time": 1540960,
+          "end_time": 1575740,
+          "speaker": "Speaker 3",
+          "content": "That's interesting. I've never seen a I've never seen a Q3 excluded from you know no one's it's an RS Q8 or something like that. Yeah, that's interesting. Especially they have a Q3. They fucking turned in a they turned in a Q3 lease. Yeah. Even a custom offer that's not compatible with Q three. Anyway, so we gave it to them obviously on that first deal, but yeah, I'll just wash the fine print of that shit."
+        },
+        {
+          "start_time": 1575740,
+          "end_time": 1581100,
+          "speaker": "Speaker 6",
+          "content": "Yeah, well they've done it. That's bullshit. But they normally will do a different amount."
+        },
+        {
+          "start_time": 1581100,
+          "end_time": 1585020,
+          "speaker": "Speaker 3",
+          "content": "Yeah, normally it's like if you're getting a Q five and fifteen hundred, any other vehicles twelve fifty,"
+        },
+        {
+          "start_time": 1585020,
+          "end_time": 1592950,
+          "speaker": "Speaker 6",
+          "content": "But not excluding an actual fucking model. Especially the recent model that they're going into."
+        },
+        {
+          "start_time": 1592950,
+          "end_time": 1609910,
+          "speaker": "Speaker 8",
+          "content": "Yeah. Crazy. So we need one more Q5. Is that right? Yeah. But why does it seem like it's got so hard to get? Yeah, I needed one. Thank you, race to that. Yeah,"
+        },
+        {
+          "start_time": 1609910,
+          "end_time": 1622910,
+          "speaker": "Speaker 9",
+          "content": "That stops. That always is. We're good. We got days. We got fifteen hundred pieces for them. We looked through some. Declines and stuff. I'll see if I can look through my shit stack."
+        },
+        {
+          "start_time": 1622910,
+          "end_time": 1639950,
+          "speaker": "Speaker 8",
+          "content": "I want to maybe look at that Chantel deal just to see where we were on it or what type of approval. Do you remember the lady that was? She was almost done complaining to me that time. You were in my office. We might have a mid - month enhancement on that."
+        },
+        {
+          "start_time": 1639950,
+          "end_time": 1646600,
+          "speaker": "Speaker 9",
+          "content": "Yeah, we'll save that. That that was an A five. She was asking for it like I want to trade. I don't want to trade."
+        },
+        {
+          "start_time": 1646920,
+          "end_time": 1648840,
+          "speaker": "Speaker 8",
+          "content": "She was back being an asshole to me."
+        },
+        {
+          "start_time": 1648840,
+          "end_time": 1668360,
+          "speaker": "Speaker 6",
+          "content": "I thought about, and I don't know if we talked about this yesterday, but maybe we could get Hunter to go in as just like a I don't know what's going on, and kind of see if he can call her and feel her out on like no. As far as like what the like we need information. Yeah, I'm gonna call her. Yeah,"
+        },
+        {
+          "start_time": 1668360,
+          "end_time": 1669480,
+          "speaker": "Speaker 8",
+          "content": "No."
+        },
+        {
+          "start_time": 1669480,
+          "end_time": 1673730,
+          "speaker": "Speaker 2",
+          "content": "The I've got the information. I know what she's doing."
+        },
+        {
+          "start_time": 1673730,
+          "end_time": 1707900,
+          "speaker": "Speaker 8",
+          "content": "I just need to be able to be like I can get your rate better. She there, Capital One is approving her for thirty-seven grand, and that's cutting the deal to forty-three, forty-three, then financing thirty-seven for it, and she thinks that's they're like helping her out or whatever. But we had much better approvals. Right. But I think she's stuck on what the back payment would be, right? So if we did have a rate enhancement. At bid bond, I don't know if we could make it look attractive to it or not. And I can't remember what our credit is. I know it's not good,"
+        },
+        {
+          "start_time": 1707900,
+          "end_time": 1712220,
+          "speaker": "Speaker 9",
+          "content": "So it's not great. Pictures in the like mid to low sixties. That's not stellar,"
+        },
+        {
+          "start_time": 1712220,
+          "end_time": 1727260,
+          "speaker": "Speaker 6",
+          "content": "But it's not terrible. But dude, if she got an approval through Cap One, it could be fucking fifteen percent. I know it's bullshit. Yeah, that's why I was thinking if we could just get find out what that is. Yeah, that way we could be like, hey, we got it at eight percent,"
+        },
+        {
+          "start_time": 1727260,
+          "end_time": 1728650,
+          "speaker": "Speaker 8",
+          "content": "And then maybe she."
+        },
+        {
+          "start_time": 1730540,
+          "end_time": 1734060,
+          "speaker": "Speaker 8",
+          "content": "We Got her approved on a lease as well, so it can't be like awful,"
+        },
+        {
+          "start_time": 1734060,
+          "end_time": 1750380,
+          "speaker": "Speaker 9",
+          "content": "Awful. It's just she was. We had to adjust the money factor. I think she was like a two, two or three or something. I don't know. We, I'll look at it again. How about she's a wide lady too? That's crazy. What?"
+        },
+        {
+          "start_time": 1750380,
+          "end_time": 1759030,
+          "speaker": "Speaker 8",
+          "content": "Yes, that's a wide lady. We were talking to. What was her name? Shantelle. She's very ethnic. Yeah, very."
+        },
+        {
+          "start_time": 1760770,
+          "end_time": 1777586,
+          "speaker": "Speaker 8",
+          "content": "And I got her license, and she has flame on her neck. Oh fuck! Nice. That's the hydra cricket, yup. Look at marks. How do you know that? You get that? Been on her for."
+        },
+        {
+          "start_time": 1777586,
+          "end_time": 1794360,
+          "speaker": "Lance",
+          "content": "A long time. Do you have any any of the remember Audi loyalty credits? Do we have any of those anymore? The Audi loyalty credits. We have all that still. Is the current program the same as it used to be? I'm looking at like some of our supplemental pages that I've got,"
+        },
+        {
+          "start_time": 1794360,
+          "end_time": 1795800,
+          "speaker": "Speaker 2",
+          "content": "Kind of."
+        },
+        {
+          "start_time": 1795800,
+          "end_time": 1827450,
+          "speaker": "Lance",
+          "content": "So, same numbers, like seven fifty on the Q three. Okay, just making sure. I've got the page up. I'm just the dates need to be changed. All right. Yeah, this is showing. I'm still showing a two thousand on the Q seven. Is that right? No. Yeah, I didn't think so. I think some of this is out of date. That's what I'm saying. Yeah. All right. We'll update them."
+        },
+        {
+          "start_time": 1827450,
+          "end_time": 1836490,
+          "speaker": "Speaker 3",
+          "content": "It was out of date last one because the the the loyalty was the same. The same."
+        },
+        {
+          "start_time": 1836490,
+          "end_time": 1843930,
+          "speaker": "Speaker 8",
+          "content": "Do you have anything on Q3 in there? Because they probably didn't used to have Q3, but they went 500 down with Q7. Those are the two changes."
+        },
+        {
+          "start_time": 1843930,
+          "end_time": 1849360,
+          "speaker": "Lance",
+          "content": "They're showing Q3 750 right now. Yeah. Yeah, the double set. Yeah."
+        },
+        {
+          "start_time": 1851060,
+          "end_time": 1854020,
+          "speaker": "Speaker 3",
+          "content": "Yeah, we got the fifteen hundred customer credit on the Q threes now."
+        },
+        {
+          "start_time": 1854020,
+          "end_time": 1865940,
+          "speaker": "Lance",
+          "content": "Yeah, that's that's our. This is the separate like loyalty bonus stuff. That stuff's already up. Is correct. Yeah, this is just the separate loyalty crap. National loyalty credit."
+        },
+        {
+          "start_time": 1865940,
+          "end_time": 1877760,
+          "speaker": "Speaker 3",
+          "content": "Yeah. Thousand dollars for Q five, eighty six. Seven fifty for Q three. Q thirty. Got it. All right. Cool."
+        },
+        {
+          "start_time": 1883860,
+          "end_time": 1931150,
+          "speaker": "Speaker 3",
+          "content": "We need to get clarification how to lock in that long-term key seven fifty-nine for a few people. Yeah. This looks like it's available. There's a lock program. I just don't know how to do it. You can wait for Albert to come in Tuesday and tell us that they don't. Yeah. Yeah. Well, they can tell you. Okay, yeah, just market so. Yeah, looking at it now, looks good. You'd be fine, and then when you go to claim it, oh, well, you guys forgot to fill the form. Stuck. And the best was when they came out with a new program to punch the loaners. We punched the fucking loaners, and they're like, \" Yeah, well, you didn't. You never sent in the form. What form? Oh,"
+        },
+        {
+          "start_time": 1931150,
+          "end_time": 1941700,
+          "speaker": "Speaker 8",
+          "content": "It's the same form.\" Yeah, that was crazy. Yeah. Why? Why can you even punch them in the order? Why is it even possible?"
+        },
+        {
+          "start_time": 1941700,
+          "end_time": 1946740,
+          "speaker": "Speaker 9",
+          "content": "Right. Why do you allow that? So you can charge his fucking back."
+        },
+        {
+          "start_time": 1946740,
+          "end_time": 1951700,
+          "speaker": "Speaker 3",
+          "content": "On another note, I think everything's punched right now, so let's make sure we get all the incentives burning."
+        },
+        {
+          "start_time": 1951700,
+          "end_time": 1957220,
+          "speaker": "Speaker 9",
+          "content": "So I did everything that was punched yesterday. Punched some this morning, like the last two we sold."
+        },
+        {
+          "start_time": 1957220,
+          "end_time": 1959700,
+          "speaker": "Speaker 3",
+          "content": "The last two I punched last night. Okay."
+        },
+        {
+          "start_time": 1959700,
+          "end_time": 1968640,
+          "speaker": "Speaker 9",
+          "content": "So the only ones that aren't. Where we at? Like twenty - two. Twenty - two. The one that you did. The one you were going to do for the doctor. Oh well,"
+        },
+        {
+          "start_time": 1968640,
+          "end_time": 1969920,
+          "speaker": "Speaker 3",
+          "content": "Franky. Yeah, I'll do what Franky's do,"
+        },
+        {
+          "start_time": 1969920,
+          "end_time": 1976690,
+          "speaker": "Speaker 9",
+          "content": "And then I didn't do Co Patrick because we can talk to somebody on that."
         }
       ]
     }
