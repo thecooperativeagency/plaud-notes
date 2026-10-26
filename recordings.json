@@ -1,6 +1,205 @@
 {
-  "revision": "PLAUD-NOTES-2026-10-23-1333-MD",
+  "revision": "PLAUD-NOTES-2026-10-26-0605-MD",
   "recordings": [
+    {
+      "id": "of_4efb4248e329f26a29e709c5f6d52a5b",
+      "name": "Coop \u00b7 Ada \u2192 Grokbot (Ada 2.0) migration WO",
+      "start_at": "2026-10-26T03:31:56",
+      "created_at": "2026-10-26T03:33:41",
+      "duration_ms": 95000,
+      "vertical": "coop-dev",
+      "store": null,
+      "routed_by": "spoken Ada/Grokbot migration + cron/soul package",
+      "status": "go",
+      "work_order": "Ada: full cron inventory + comprehensive ops/soul Markdown in GitHub for Grokbot Ada 2.0 (managing consultant/board). Do not kill Mini crons until package validated.",
+      "highlights": [
+        {
+          "t": "0:00",
+          "title": "Crons",
+          "content": "Ask Ada for full cron collection; discuss in Discord"
+        },
+        {
+          "t": "0:58",
+          "title": "Ada 2.0",
+          "content": "Move soul + what-makes-Ada into Grokbot as Ada 2.0 board/consultant \u2014 not delete Ada"
+        }
+      ],
+      "summary_md": "## Ada \u2192 Grokbot (Ada 2.0)\n\n~1.5m Lance voice note (to Copper / Grokbot track).\n\n### Intent\n- Keep continuity of everything Ada/Hermes has been running\n- Inventory **all cron jobs**\n- Build comprehensive Markdown (soul + ops makeup) into **GitHub**\n- Instantiate **Ada 2.0** inside Grokbot as managing consultant / board \u2014 not a hard delete of Ada\n\n### Ada WO\n1. Full cron list (schedule, purpose, deps, outputs)\n2. Ops/soul Markdown package in GitHub\n3. Align scope before cutover; Mini stays live until validated\n\n### Status\n**go** for documentation package. Migration cutover is **not** automatic.\n",
+      "transcript": [
+        {
+          "start_time": 520,
+          "end_time": 58850,
+          "speaker": "Lance",
+          "content": "In terms of making sure we take care of all the things that Ada has been taking care of, and we move it over to our Grokbot setup, we need to look at all of her cron jobs. That's one big piece, right? So you'll ask Ada for a full collection of all of her cron jobs. You guys can discuss all this shit in Discord, but also you could just tell Ada what we're up to. And just have her build out some very comprehensive Markdown files and put them in the GitHub. Because what I think will be neat is if we, instead of like basically, you know, just not having Ada anymore, we essentially move Ada from where she is as a Hermes. We move what is now Ada, complete with her soul file and all that stuff."
+        },
+        {
+          "start_time": 58850,
+          "end_time": 92260,
+          "speaker": "Lance",
+          "content": "We move that into one of our new Grok bots. She can become your managing consultant, or be on the board of directors. I think you get the point. I think this is a perfect move for that. We do that by basically taking her soul file and all of what makes her her in her Markdown file. We build out the Markdown file. We mark that. We migrate that into Grokbot as, Ada 2.0. That makes sense."
+        }
+      ]
+    },
+    {
+      "id": "of_84844adea1d0d26ecc9a7fcb110bae8c",
+      "name": "Coop \u00b7 GrokBot feature parity vs Ada",
+      "start_at": "2026-10-26T02:28:25",
+      "created_at": "2026-10-26T03:34:18",
+      "duration_ms": 32000,
+      "vertical": "coop-dev",
+      "store": null,
+      "routed_by": "GrokBot ease-of-use / Ada parity deep dive",
+      "status": "park",
+      "work_order": "Park: Simon Beard GrokBot video + Ada\u2192GrokBot feature gap list. Copper/Grok track owns; Ada can supply capability inventory when asked.",
+      "highlights": [
+        {
+          "t": "0:00",
+          "title": "Video",
+          "content": "Simon Beard 'GrokBot just won' \u2014 extract ideas"
+        },
+        {
+          "t": "0:15",
+          "title": "Parity",
+          "content": "Deep dive Ada capabilities missing in GrokBot"
+        }
+      ],
+      "summary_md": "## GrokBot feature parity vs Ada\n\n~32s. Watch Simon Beard GrokBot video; systematically pull Ada capabilities GrokBot still lacks for ease of use.\n\n### Status\n**park** for Ada unless asked for the capability inventory. Pairs with Ada 2.0 migration cluster.\n",
+      "transcript": [
+        {
+          "start_time": 0,
+          "end_time": 27720,
+          "speaker": "Lance",
+          "content": "There's a YouTube video, GroqBot just won. Six hundred million dollar founders' honest take by a guy named Simon Beard. We need to go read through it. It's got a lot of good ideas, and we need to get serious. And I'm thinking, for ease of use, we need to do a deep dive into how to get everything that's in Ada that you still don't have, and get it built in to what we have in GroqBot."
+        }
+      ]
+    },
+    {
+      "id": "of_4eed2a480710e01a9c446fce04c6af23",
+      "name": "Coop \u00b7 Ada second brain in GitHub + Orgo decommission",
+      "start_at": "2026-10-26T02:33:02",
+      "created_at": "2026-10-26T03:34:13",
+      "duration_ms": 31000,
+      "vertical": "coop-dev",
+      "store": null,
+      "routed_by": "spoken second-brain GitHub + Orgo decommission",
+      "status": "go",
+      "work_order": "Ada: gather what-makes-Ada into GitHub second brain. Orgo decommission = separate decide (Aegis/DR still on Orgo per ops memory) \u2014 do not yank without Lance confirm.",
+      "highlights": [
+        {
+          "t": "0:00",
+          "title": "Second brain",
+          "content": "Everything that makes Ada \u2192 GitHub for Grokbot access"
+        },
+        {
+          "t": "0:20",
+          "title": "Orgo",
+          "content": "Decommission Orgo called out \u2014 verify Aegis/DR impact first"
+        }
+      ],
+      "summary_md": "## Ada second brain + Orgo\n\n~31s.\n\n1. **GitHub second brain** \u2014 consolidate Ada knowledge/assets so Grokbot can always reach it (pairs with Ada 2.0 WO).\n2. **Orgo decommission** \u2014 Lance called Orgo useless; **gate**: Aegis DR still Orgo-shaped in ops memory. Confirm before kill.\n\n### Status\n**go** on inventory/docs. Orgo shutdown needs explicit confirm.\n",
+      "transcript": [
+        {
+          "start_time": 0,
+          "end_time": 29120,
+          "speaker": "Lance",
+          "content": "We need to have Ada go and gather everything that makes Ada Ada, and build kind of a second brain in GitHub, so it all lives in GitHub. That way, the Grogbot setup can access any and all of it at all times. Oh, we also need to go ahead and decommission Orgo because that's useless at this point."
+        }
+      ]
+    },
+    {
+      "id": "of_e2128a44df636876ad7f66ac5bdbfea0",
+      "name": "Coop \u00b7 GM Weekly + always-on systems \u2192 Grokbot",
+      "start_at": "2026-10-26T02:34:33",
+      "created_at": "2026-10-26T03:34:01",
+      "duration_ms": 26000,
+      "vertical": "coop-dev",
+      "store": null,
+      "routed_by": "GM Weekly pipeline + always-on apps inventory for Grokbot",
+      "status": "go",
+      "work_order": "Ada: inventory always-on apps/systems (GM Weekly builders, inbound email\u2192GMW pipelines, watchers). Document before any move to Grokbot.",
+      "highlights": [
+        {
+          "t": "0:00",
+          "title": "Always-on",
+          "content": "List constantly running apps/systems"
+        },
+        {
+          "t": "0:10",
+          "title": "GMW",
+          "content": "GM Weekly + inbound email processing called out for Grokbot move"
+        }
+      ],
+      "summary_md": "## Always-on systems / GM Weekly \u2192 Grokbot\n\n~26s. Message Ada: inventory constantly running apps \u2014 especially GM Weekly daily/weekly inbound email processing \u2014 with intent to move that system to Grokbot.\n\n### Status\n**go** for inventory doc (same package as Ada 2.0). No cutover from this tape alone.\n",
+      "transcript": [
+        {
+          "start_time": 150,
+          "end_time": 23610,
+          "speaker": "Lance",
+          "content": "We need to write a message to Ada and find all of the apps that are constantly running, all of the systems that are constantly running. For example, we have all of our stuff that is that runs GM weekly, a bunch of inbound emails that get processed and built into GM weekly every day and every week. We need to move that whole system over to Grokbot."
+        }
+      ]
+    },
+    {
+      "id": "of_4557a34632322f4e23f308ee1322bfbb",
+      "name": "Coop \u00b7 multi-model agent swap research",
+      "start_at": "2026-10-26T02:33:51",
+      "created_at": "2026-10-26T03:34:06",
+      "duration_ms": 17000,
+      "vertical": "coop-dev",
+      "store": null,
+      "routed_by": "model-swapping for multi-agent",
+      "status": "park",
+      "work_order": "Park: research model swap (copywriter-bot pattern vs newer). Not day-strip.",
+      "highlights": [
+        {
+          "t": "0:00",
+          "title": "Models",
+          "content": "How to run multiple agents on different models"
+        }
+      ],
+      "summary_md": "## Multi-model agent setup\n\n~17s. Research model-swapping so more than one agent can run different models \u2014 compare copywriter-bot approach vs newer path.\n\n### Status\n**park**\n",
+      "transcript": [
+        {
+          "start_time": 60,
+          "end_time": 16439,
+          "speaker": "Lance",
+          "content": "We need to look up the how do you switch out models, so that we can set up more than one agent with different models. Is that something new, or is that similar to what we did for our copywriter bot? Or is there some better way of doing it now?"
+        }
+      ]
+    },
+    {
+      "id": "of_b44e395d916d3a2d23c0d1c47eb13df5",
+      "name": "Personal \u00b7 Tudor Pelagos AD-bot + money plan",
+      "start_at": "2026-10-26T02:36:35",
+      "created_at": "2026-10-26T03:33:57",
+      "duration_ms": 30000,
+      "vertical": "personal",
+      "store": null,
+      "routed_by": "spoken personal watch goal + AD bot",
+      "status": "park",
+      "work_order": "Park personal: Tudor Pelagos first real watch; AD-style bot + savings/income plan. Not Coop day work.",
+      "highlights": [
+        {
+          "t": "0:00",
+          "title": "Goal",
+          "content": "First real watch = Tudor Pelagos; AD-bot concept"
+        },
+        {
+          "t": "0:15",
+          "title": "Money",
+          "content": "Savings, reallocation, new income paths"
+        }
+      ],
+      "summary_md": "## Tudor Pelagos \u00b7 personal AD bot\n\n~30s fun goal. New bot as personal AD for first real watch (Tudor Pelagos) + money/savings/income plan.\n\n### Status\n**park** (personal). Not on Coop day-strip.\n",
+      "transcript": [
+        {
+          "start_time": 340,
+          "end_time": 29580,
+          "speaker": "Lance",
+          "content": "Have a fun goal. I want to set up. We need to make a new bot for it. I don't know what this new bot would be called, but it's going to basically be like my AD, like a watch collector would have an AD. Need you to help me start figure out how to buy my first real watch. It's going to be a Tudor Pelagos. So we're going to have to figure something out with money and savings and moving money around, and also new ways of making more money. All that kind of fun stuff."
+        }
+      ]
+    },
     {
       "id": "of_410de4e91ae20a024c3e9afebc51b063",
       "name": "BMWJ \u00b7 event photo + Buyer's Guide review path",
