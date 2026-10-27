@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>HP · inventory list + VinSolutions AI email blast (Gage)</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500&family=IBM+Plex+Mono:wght@400;500&family=Source+Sans+3:wght@400;600;700&display=swap">
+  <style>
+:root {
+  --bg: #090908;
+  --bg-2: #11110f;
+  --bg-3: #181714;
+  --ink: #f0eadc;
+  --muted: #8d8778;
+  --faint: #5c574c;
+  --line: #26241e;
+  --accent: #c4452d;
+  --mustard: #c4a35a;
+  --blue: #6f8fbf;
+  --ok: #7d9a6d;
+  --serif: "Fraunces", "Iowan Old Style", Georgia, serif;
+  --sans: "Source Sans 3", "Source Sans Pro", -apple-system, sans-serif;
+  --mono: "IBM Plex Mono", ui-monospace, monospace;
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html, body { background: var(--bg); color: var(--ink); }
+body {
+  font-family: var(--sans);
+  min-height: 100vh;
+  text-wrap: pretty;
+}
+a { color: inherit; }
+.shell { display: grid; grid-template-columns: 260px 1fr; min-height: 100vh; }
+.rail {
+  border-right: 1px solid var(--line);
+  padding: 28px 18px 40px;
+  background: var(--bg-2);
+  position: sticky; top: 0; height: 100vh; overflow: auto;
+}
+.mark {
+  font-family: var(--serif);
+  font-weight: 500;
+  font-size: 13px;
+  letter-spacing: .18em;
+  text-transform: uppercase;
+  color: var(--accent);
+}
+.rail h1 {
+  font-family: var(--serif);
+  font-size: 28px;
+  font-weight: 460;
+  letter-spacing: -.03em;
+  margin: 10px 0 6px;
+}
+.rail .lede { color: var(--muted); font-size: 13.5px; line-height: 1.45; margin-bottom: 28px; }
+.vnav { display: flex; flex-direction: column; gap: 4px; }
+.vnav a {
+  display: flex; justify-content: space-between; align-items: baseline;
+  text-decoration: none; padding: 9px 10px; border-radius: 8px;
+  color: var(--ink); font-size: 14px;
+}
+.vnav a:hover, .vnav a.is-on { background: var(--bg-3); }
+.vnav a.is-on { box-shadow: inset 2px 0 0 var(--accent); }
+.vnav .count { color: var(--faint); font-family: var(--mono); font-size: 11px; }
+.stage { padding: 36px 40px 80px; max-width: 980px; }
+.kicker {
+  font-size: 11px; letter-spacing: .16em; text-transform: uppercase;
+  color: var(--accent); font-weight: 700; margin-bottom: 8px;
+}
+.stage > h2 {
+  font-family: var(--serif); font-weight: 460; font-size: 34px;
+  letter-spacing: -.03em; margin-bottom: 8px;
+}
+.blurb { color: var(--muted); margin-bottom: 28px; max-width: 46rem; }
+.empty {
+  border: 1px dashed var(--line); border-radius: 14px;
+  padding: 36px 28px; color: var(--muted); background: var(--bg-2);
+}
+.empty strong { color: var(--ink); font-weight: 600; }
+.cards { display: flex; flex-direction: column; gap: 10px; }
+.card {
+  display: grid; grid-template-columns: 1fr auto; gap: 12px;
+  text-decoration: none; padding: 16px 18px; border-radius: 12px;
+  background: var(--bg-2); border: 1px solid var(--line);
+}
+.card:hover { border-color: #3a372e; background: var(--bg-3); }
+.card h3 { font-size: 16px; font-weight: 600; margin-bottom: 4px; }
+.meta { color: var(--muted); font-size: 13px; display: flex; gap: 10px; flex-wrap: wrap; }
+.chip {
+  font-family: var(--mono); font-size: 10px; letter-spacing: .06em;
+  text-transform: uppercase; padding: 3px 7px; border-radius: 999px;
+  border: 1px solid var(--line); color: var(--muted); height: fit-content;
+}
+.chip.dealers { color: var(--blue); border-color: #2a3344; }
+.chip.avec-tous { color: var(--mustard); border-color: #3a3320; }
+.chip.personal { color: #c9a7a0; }
+.chip.ideas { color: var(--ok); }
+.note-top { margin-bottom: 22px; }
+.note-top h2 { font-family: var(--serif); font-size: 36px; font-weight: 460; letter-spacing: -.03em; }
+.tabs { display: flex; gap: 6px; margin: 22px 0 18px; border-bottom: 1px solid var(--line); }
+.tabs button {
+  appearance: none; background: none; border: 0; color: var(--muted);
+  font: 600 13px var(--sans); padding: 10px 12px; cursor: pointer;
+  border-bottom: 2px solid transparent; margin-bottom: -1px;
+}
+.tabs button[aria-selected="true"] { color: var(--ink); border-bottom-color: var(--accent); }
+.panel { display: none; }
+.panel.is-on { display: block; }
+.prose { font-size: 16.5px; line-height: 1.6; max-width: 42rem; }
+.prose h2, .prose h3 { font-family: var(--serif); font-weight: 500; margin: 1.3em 0 .4em; }
+.prose p { margin: 0 0 .8em; }
+.prose ul, .prose ol { margin: 0 0 1em 1.2em; }
+.prose li { margin: .25em 0; }
+.hl { border-left: 2px solid var(--accent); padding: 10px 0 10px 14px; margin: 0 0 14px; }
+.hl .t { font-family: var(--mono); font-size: 11px; color: var(--faint); }
+.hl h4 { font-size: 15px; margin: 4px 0; }
+.hl p { color: var(--muted); font-size: 14.5px; }
+.seg { display: grid; grid-template-columns: 64px 1fr; gap: 12px; padding: 8px 0; border-bottom: 1px solid var(--line); }
+.seg .ts { font-family: var(--mono); font-size: 11px; color: var(--faint); padding-top: 3px; }
+.back { color: var(--muted); text-decoration: none; font-size: 13px; display: inline-block; margin-bottom: 18px; }
+.back:hover { color: var(--ink); }
+footer { margin-top: 48px; color: var(--faint); font-size: 11px; font-family: var(--mono); }
+@media (max-width: 820px) {
+  .shell { grid-template-columns: 1fr; }
+  .rail { position: relative; height: auto; border-right: 0; border-bottom: 1px solid var(--line); }
+  .stage { padding: 24px 18px 64px; }
+  .note-top h2 { font-size: 28px; }
+}
+</style>
+</head>
+<body>
+<div class="shell">
+<aside class="rail">
+  <div class="mark">Cooperative</div>
+  <h1>Field desk</h1>
+  <p class="lede">Plaud landings. Summary, highlights, transcript — filed by life area.</p>
+  <nav class="vnav"><a href="../index.html" class="">All <span class="count">124</span></a><a class="" href="../vertical-inbox.html">Inbox <span class="count">1</span></a><a class="" href="../vertical-personal.html">Personal <span class="count">10</span></a><a class="" href="../vertical-coop-marketing.html">Coop Marketing <span class="count">6</span></a><a class="" href="../vertical-coop-dev.html">Coop Dev <span class="count">16</span></a><a class="" href="../vertical-avec-tous.html">Avec Tous <span class="count">0</span></a><a class="is-on" href="../vertical-dealers.html">Dealers <span class="count">84</span></a><a class="" href="../vertical-ideas.html">Ideas <span class="count">7</span></a></nav>
+</aside>
+<main class="stage">
+  <a class="back" href="../index.html">← Desk</a>
+  <div class="note-top">
+    <div class="kicker">dealers · 2026-10-27 · 3m27s</div>
+    <h2>HP · inventory list + VinSolutions AI email blast (Gage)</h2>
+    <div class="meta" style="margin-top:8px"><span>id of_3b6fa6f2fecb72a14975aa56e867dafa</span><span>HP floor: stock list + AI customer emails too similar vs Podium</span></div>
+  </div>
+  <div class="tabs" role="tablist">
+    <button type="button" data-panel="sum" aria-selected="true">Summary</button>
+    <button type="button" data-panel="hl" aria-selected="false">Highlights</button>
+    <button type="button" data-panel="tx" aria-selected="false">Transcript</button>
+  </div>
+  <section id="sum" class="panel is-on prose"><h2>HP · Inventory + VinSolutions AI emails · Oct 27 ~10:30a</h2>
+<p>~3m27s. Quick new-unit list, then customer email quality.</p>
+<h3>Inventory</h3>
+<ul>
+<li>New list items called: <strong>26P212</strong>, <strong>26P211</strong>, <strong>195/212</strong>.</li>
+<li><strong>192</strong> (High Cube Electro) <strong>sold</strong> — Lance removing from shoot list so time isn’t wasted.</li>
+</ul>
+<h3>VinSolutions AI follow-up</h3>
+<ul>
+<li>Floor heat: follow-up program looks like the <strong>same email every ~2 days</strong>.</li>
+<li>Lance: AI customer emails inside <strong>VinSolutions</strong> are <strong>entirely too similar</strong> and worse than <strong>Podium</strong>.</li>
+<li>Action spoken: message / email <strong>Gage</strong> (rep). <strong>Della</strong> compose draft (may consult <strong>Copper</strong>), show Lance in chat.</li>
+</ul>
+<h3>Status</h3>
+<p><strong>park</strong> for Ada. Owner = Della (+ Copper assist). Ties to open Jeffrey / HP VinSolutions blast VIP.</p></section>
+  <section id="hl" class="panel"><div class="hl"><div class="t">0:00</div><h4>New stock</h4><p>26P212, 26P211, 195/212 on list</p></div><div class="hl"><div class="t">0:00</div><h4>Sold</h4><p>192 High Cube Electro sold — Lance marks off photo list</p></div><div class="hl"><div class="t">0:00</div><h4>AI email</h4><p>Same-looking VinSolutions AI emails ~every 2 days; bad vs Podium</p></div><div class="hl"><div class="t">0:00</div><h4>WO Della</h4><p>Della draft email to Gage; Copper consult OK; show Lance draft in chat</p></div></section>
+  <section id="tx" class="panel"><div class="seg"><div class="ts">0:00</div><div>Didn&#x27;t add that one. That&#x27;s not a big deal. Nothing to be added.</div></div><div class="seg"><div class="ts">0:05</div><div>Oh, we just did that one. That&#x27;s that&#x27;s a. That&#x27;s needed. But all right, can we get the new knocked out real quick? The new? Yeah, that&#x27;s three up.</div></div><div class="seg"><div class="ts">0:37</div><div>P twenty six P two twelve, twenty six P two eleven.</div></div><div class="seg"><div class="ts">0:48</div><div>Can be wrong. I mean, I can write the ones I don&#x27;t have. New. I got the new one. Oh, the new. Uh, one ninety five two twelve.</div></div><div class="seg"><div class="ts">1:05</div><div>That&#x27;s it. I&#x27;m showing one ninety two also. One ninety two. Is that not right? Did it sell on its own realizer?</div></div><div class="seg"><div class="ts">1:13</div><div>Is it a Cyan Electro?</div></div><div class="seg"><div class="ts">1:14</div><div>Yeah. Okay.</div></div><div class="seg"><div class="ts">1:17</div><div>Which one is it? One ninety two.</div></div><div class="seg"><div class="ts">1:18</div><div>Yeah. I&#x27;ll just mark it sold on my list, so I don&#x27;t go waste time on it.</div></div><div class="seg"><div class="ts">1:23</div><div>High Cube Electro One ninety two. Yeah, yeah. Okay, sold.</div></div><div class="seg"><div class="ts">1:32</div><div>Sweet, love, bear meat. Let me go knock these three out. Yeah,</div></div><div class="seg"><div class="ts">1:35</div><div>Because I got a million things I&#x27;m going to do, including uh, I got, including but in the world, the thing.</div></div><div class="seg"><div class="ts">1:45</div><div>I have a long list of things to do, but all three stories about the setting inside of it.</div></div><div class="seg"><div class="ts">2:02</div><div>So, is the program to follow up? If it&#x27;s not getting any responses, I really don&#x27;t like. I don&#x27;t like to think it&#x27;s sending the same exact. It looks like that&#x27;s what it&#x27;s doing though, because like every two days there was an.</div></div><div class="seg"><div class="ts">2:21</div><div>Email that.</div></div><div class="seg"><div class="ts">2:31</div><div>I&#x27;m saying, but.</div></div><div class="seg"><div class="ts">2:40</div><div>They didn&#x27;t do that. What&#x27;s that? I&#x27;m sending a message over to uh, Gage. Where? The the rep for that. Oh yeah. Hey, we need to send an email over to Gage. These emails that our AIs. Are sending to customers inside of In Solutions are entirely too similar. In, in a nutshell, it&#x27;s doing a terrible job compared to Podium. Della, get on that. Go ahead and compose an email that we can send out to Gage about that issue. You can consult with Copper if you need to, and then show me the draft in chat.</div></div></section>
+</main>
+</div>
+<footer>PLAUD-NOTES-2026-10-27-0130-PM · noindex · Plaud sources + notes</footer>
+<script>
+
+document.querySelectorAll('.tabs button').forEach(btn => {
+  btn.addEventListener('click', () => {
+    document.querySelectorAll('.tabs button').forEach(b => b.setAttribute('aria-selected', b===btn ? 'true':'false'));
+    document.querySelectorAll('.panel').forEach(p => p.classList.toggle('is-on', p.id === btn.dataset.panel));
+  });
+});
+
+</script>
+</body>
+</html>

@@ -1,5 +1,5 @@
 {
-  "revision": "PLAUD-NOTES-2026-10-27-0601-AM",
+  "revision": "PLAUD-NOTES-2026-10-27-0130-PM",
   "recordings": [
     {
       "id": "of_8e748600e70a90060ade4483fe07246c",
@@ -50949,6 +50949,348 @@
           "end_time": 74390,
           "speaker": "Lance",
           "content": "And then it goes okay. These six are worth bidding on because they're basically wanting what is a good value for the cars. What if we built that? Talk about it. Iterate on it. Give this to Copper to look at, and I'll look forward to her texting me."
+        }
+      ]
+    },
+    {
+      "id": "of_2be283c70029e8f10122dfa8f576c6a8",
+      "name": "HP \u00b7 vehicle photography + inventory photo backlog",
+      "start_at": "2026-10-27T15:23:52",
+      "created_at": "2026-10-27T15:30:19",
+      "duration_ms": 381000,
+      "vertical": "dealers",
+      "store": "porsche",
+      "routed_by": "HP floor: airport/lot photos, showroom backlog, Stephen Brownlee hire",
+      "status": "park",
+      "work_order": "Park. Lance owns shoots + Brownlee ($25/car). No Ada build. Photo backlog note only.",
+      "highlights": [
+        {
+          "t": "0:00",
+          "title": "Uploading",
+          "content": "Airport photos in progress; just uploaded a Panamera; hiring shooter"
+        },
+        {
+          "t": "1:50",
+          "title": "Backlog",
+          "content": "~6\u20137 non-loaners need photos; outside first, showroom later"
+        },
+        {
+          "t": "1:50",
+          "title": "Units",
+          "content": "26P192 + 195 showroom; Macan Turbo Electric; Cayenne S Coupe; Panamera Platinum; PPA020A GT3 was in service"
+        },
+        {
+          "t": "2:39",
+          "title": "Brownlee",
+          "content": "Stephen Brownlee back; $25/car (was $20); Hendrick only now; good camera"
+        },
+        {
+          "t": "3:20",
+          "title": "Done",
+          "content": "193 done; requested 911 done day-of"
+        },
+        {
+          "t": "4:35",
+          "title": "Loaners",
+          "content": "Retired loaners 26P102/103/109/110/117/118/201; TPL/PPL 130\u2013131 used Macan Q"
+        }
+      ],
+      "summary_md": "## HP \u00b7 Vehicle photography & inventory photo status \u00b7 Oct 27 ~10:24a\n\n~6m21s. Floor check on cars needing photos / web post readiness.\n\n### Status\n- Lance mid **airport/lot** shoots; outside units before showroom pulls.\n- ~**6\u20137 non-loaners** still need photos (some landed last ~3 days). Site won\u2019t post without required fields \u2014 ops double-checking.\n- **Showroom still due:** 26P192, 26P195.\n- **Also due:** Macan Turbo Electric, Cayenne S Coupe, Panamera Platinum Edition.\n- **PPA020A** (911 GT3) was in service at prior attempt.\n- **Done:** 193; the requested 911 shot day-of ask.\n- **Contractor:** Stephen Brownlee offered **$25/car** (his $20 rate) to cover Porsche; primarily Hendrick now; better camera.\n\n### Loaners / used\n- Retired loaners tracked: 26P102, 103, 109, 110, 117, 118, 201.\n- TPL/PPL 130\u2013131 \u2014 used Macan vs loaner clarification on the floor.\n\n### Status\n**park** \u2014 Lance owns. Not an Ada work order.\n",
+      "transcript": [
+        {
+          "start_time": 600,
+          "end_time": 10600,
+          "speaker": "Lance",
+          "content": "Airport photos. What about it? I'm trying to work on it right now. I just uploaded a Panamera. I'm about to hire a guy."
+        },
+        {
+          "start_time": 10600,
+          "end_time": 13080,
+          "speaker": "Speaker 2",
+          "content": "The Panamera we just did."
+        },
+        {
+          "start_time": 13080,
+          "end_time": 18440,
+          "speaker": "Lance",
+          "content": "Maybe, but I didn't upload that car. Obviously, I just uploaded a 26 P one."
+        },
+        {
+          "start_time": 18440,
+          "end_time": 49980,
+          "speaker": "Speaker 2",
+          "content": "Yeah. What you talking about? Price availability, mountain. You know what I mean? Like pure availability. Awesome."
+        },
+        {
+          "start_time": 49980,
+          "end_time": 69660,
+          "speaker": "Lance",
+          "content": "We eventually rule out inbound, right? Eventually, rule out inbound. Okay. So what it does? What are we doing? Cars that need photos. Yeah, try to see if you have them. You didn't yet. No, if they're not on the side, I didn't upload. I mean, I didn't shoot them,"
+        },
+        {
+          "start_time": 69660,
+          "end_time": 74940,
+          "speaker": "Speaker 2",
+          "content": "So I got to go shoot them. How many do the real estate have?"
+        },
+        {
+          "start_time": 74940,
+          "end_time": 83340,
+          "speaker": "Lance",
+          "content": "I'm showing seven that aren't loners. Seven. Well, you had some that just landed in the last like three days."
+        },
+        {
+          "start_time": 83340,
+          "end_time": 99480,
+          "speaker": "Speaker 2",
+          "content": "That's what the other problem is. They won't post into my website. Unless I do it certain, you know, unless they have certain things, then now I got to go back and double check them here. Yeah. What about the silver Panamera? So,"
+        },
+        {
+          "start_time": 99480,
+          "end_time": 109160,
+          "speaker": "Lance",
+          "content": "Something on the showroom that are probably older that I need to shoot, but but that's kind of like I normally get the ones that are outside first. The showroom ones I need to go pull them off, and it's like it's a little bit more time consuming. Yeah,"
+        },
+        {
+          "start_time": 109160,
+          "end_time": 110680,
+          "speaker": "Speaker 2",
+          "content": "That one's been in stock."
+        },
+        {
+          "start_time": 110680,
+          "end_time": 143210,
+          "speaker": "Lance",
+          "content": "I've got I'm showing 26 P 192 needs to be shot. It's on the showroom. 195 needs to be shot. It's on the showroom. 195, got it. I had a deal where PPA020A was a 911 GT3 that was in service when we tried to shoot it. Is it still in service? Okay. Yeah, those are the those are the only ones that I had issues. The other ones are starting at five days old. I need to go shoot them. So it's a Macan Turbo Electric, a Cayenne S Coupe, and a Panamera Platinum Edition. I didn't shoot that yet. Like I said, this is a couple of days out of. I can go update it."
+        },
+        {
+          "start_time": 143210,
+          "end_time": 146650,
+          "speaker": "Speaker 2",
+          "content": "Okay. So. I'm showing."
+        },
+        {
+          "start_time": 146650,
+          "end_time": 155930,
+          "speaker": "Lance",
+          "content": "How many cars total? Let's see, not ones that are non - loners. I'm showing around six. Like I said, it could it could be a few more."
+        },
+        {
+          "start_time": 155930,
+          "end_time": 159530,
+          "speaker": "Speaker 2",
+          "content": "You said you did not talk about."
+        },
+        {
+          "start_time": 159530,
+          "end_time": 199070,
+          "speaker": "Lance",
+          "content": "Yeah, Stephen Brownlee. He's fucking back in the game. I said, how much do you charge, dude? He's like twenty bucks a car. I'm like, well, that's what I'm paying these fucking idiots. And so I just offered him twenty - five a car. Cause all he's doing right now is working for Hendrick. That's all he's doing. I was like, dude, this this only dealership. He's like, I'm basically retired. This is all I'm doing. I do it two three days a week. So okay, great. Let's let's come do Porsche. So he's gonna probably do Porsche. I'm I'm like gonna pay him more just so he'll come do it. And he's shooting with a good camera now, so they'll they'll be even better. You know what I mean?"
+        },
+        {
+          "start_time": 200760,
+          "end_time": 229380,
+          "speaker": "Lance",
+          "content": "Don't be good. Good shots. Yeah, that that 911 that we needed done. I did that, like the day you asked for it. But come through, Stephen. 193. You're not looking at 193. 193's done. Yeah."
+        },
+        {
+          "start_time": 235250,
+          "end_time": 238370,
+          "speaker": "Lance",
+          "content": "If you close the filters on the left, you can read your stock numbers better."
+        },
+        {
+          "start_time": 274330,
+          "end_time": 275690,
+          "speaker": "Speaker 2",
+          "content": "What is."
+        },
+        {
+          "start_time": 275690,
+          "end_time": 301270,
+          "speaker": "Lance",
+          "content": "That? Twenty six P 110. That must be a loner. I'm retired. Yeah, I got. So I have the retired loners in here. Huh? I have 26 P 102, 103, 109, 110, 117, 118, and 201."
+        },
+        {
+          "start_time": 303130,
+          "end_time": 310810,
+          "speaker": "Lance",
+          "content": "One or two. Yep. Yeah, I got 'em all in."
+        },
+        {
+          "start_time": 310810,
+          "end_time": 326410,
+          "speaker": "Speaker 2",
+          "content": "Here. Mhm. Mhm. Mhm. All right."
+        },
+        {
+          "start_time": 326410,
+          "end_time": 343310,
+          "speaker": "Lance",
+          "content": "TPL 30. TPL 130. How old is that? Oh, so use what is it? Use Macan for regular use or a loaner?"
+        },
+        {
+          "start_time": 343310,
+          "end_time": 346910,
+          "speaker": "Speaker 2",
+          "content": "PPL I bought at least 30."
+        },
+        {
+          "start_time": 346910,
+          "end_time": 354990,
+          "speaker": "Lance",
+          "content": "Oh, you might be in here. I haven't used PPL 131. Yeah, 130. No,"
+        },
+        {
+          "start_time": 354990,
+          "end_time": 357140,
+          "speaker": "Speaker 2",
+          "content": "I got 130 and 130 one."
+        },
+        {
+          "start_time": 362280,
+          "end_time": 379250,
+          "speaker": "Speaker 2",
+          "content": "By firewood."
+        }
+      ]
+    },
+    {
+      "id": "of_3b6fa6f2fecb72a14975aa56e867dafa",
+      "name": "HP \u00b7 inventory list + VinSolutions AI email blast (Gage)",
+      "start_at": "2026-10-27T15:30:15",
+      "created_at": "2026-10-27T15:33:48",
+      "duration_ms": 207000,
+      "vertical": "dealers",
+      "store": "porsche",
+      "routed_by": "HP floor: stock list + AI customer emails too similar vs Podium",
+      "status": "park",
+      "work_order": "Park for Ada. Della drafts Gage email (consult Copper); Lance reviews in chat. Same thread as Jeffrey VIP VinSolutions blast heat.",
+      "highlights": [
+        {
+          "t": "0:37",
+          "title": "New stock",
+          "content": "26P212, 26P211, 195/212 on list"
+        },
+        {
+          "t": "1:05",
+          "title": "Sold",
+          "content": "192 High Cube Electro sold \u2014 Lance marks off photo list"
+        },
+        {
+          "t": "2:40",
+          "title": "AI email",
+          "content": "Same-looking VinSolutions AI emails ~every 2 days; bad vs Podium"
+        },
+        {
+          "t": "2:40",
+          "title": "WO Della",
+          "content": "Della draft email to Gage; Copper consult OK; show Lance draft in chat"
+        }
+      ],
+      "summary_md": "## HP \u00b7 Inventory + VinSolutions AI emails \u00b7 Oct 27 ~10:30a\n\n~3m27s. Quick new-unit list, then customer email quality.\n\n### Inventory\n- New list items called: **26P212**, **26P211**, **195/212**.\n- **192** (High Cube Electro) **sold** \u2014 Lance removing from shoot list so time isn\u2019t wasted.\n\n### VinSolutions AI follow-up\n- Floor heat: follow-up program looks like the **same email every ~2 days**.\n- Lance: AI customer emails inside **VinSolutions** are **entirely too similar** and worse than **Podium**.\n- Action spoken: message / email **Gage** (rep). **Della** compose draft (may consult **Copper**), show Lance in chat.\n\n### Status\n**park** for Ada. Owner = Della (+ Copper assist). Ties to open Jeffrey / HP VinSolutions blast VIP.\n",
+      "transcript": [
+        {
+          "start_time": 0,
+          "end_time": 5360,
+          "speaker": "Lance",
+          "content": "Didn't add that one. That's not a big deal. Nothing to be added."
+        },
+        {
+          "start_time": 5360,
+          "end_time": 26140,
+          "speaker": "Speaker 2",
+          "content": "Oh, we just did that one. That's that's a. That's needed. But all right, can we get the new knocked out real quick? The new? Yeah, that's three up."
+        },
+        {
+          "start_time": 37220,
+          "end_time": 48580,
+          "speaker": "Speaker 2",
+          "content": "P twenty six P two twelve, twenty six P two eleven."
+        },
+        {
+          "start_time": 48580,
+          "end_time": 65379,
+          "speaker": "Speaker 3",
+          "content": "Can be wrong. I mean, I can write the ones I don't have. New. I got the new one. Oh, the new. Uh, one ninety five two twelve."
+        },
+        {
+          "start_time": 65379,
+          "end_time": 73120,
+          "speaker": "Lance",
+          "content": "That's it. I'm showing one ninety two also. One ninety two. Is that not right? Did it sell on its own realizer?"
+        },
+        {
+          "start_time": 73120,
+          "end_time": 74480,
+          "speaker": "Speaker 3",
+          "content": "Is it a Cyan Electro?"
+        },
+        {
+          "start_time": 74480,
+          "end_time": 77120,
+          "speaker": "Lance",
+          "content": "Yeah. Okay."
+        },
+        {
+          "start_time": 77120,
+          "end_time": 78320,
+          "speaker": "Speaker 3",
+          "content": "Which one is it? One ninety two."
+        },
+        {
+          "start_time": 78320,
+          "end_time": 83840,
+          "speaker": "Lance",
+          "content": "Yeah. I'll just mark it sold on my list, so I don't go waste time on it."
+        },
+        {
+          "start_time": 83840,
+          "end_time": 89880,
+          "speaker": "Speaker 3",
+          "content": "High Cube Electro One ninety two. Yeah, yeah. Okay, sold."
+        },
+        {
+          "start_time": 92050,
+          "end_time": 95010,
+          "speaker": "Lance",
+          "content": "Sweet, love, bear meat. Let me go knock these three out. Yeah,"
+        },
+        {
+          "start_time": 95010,
+          "end_time": 105730,
+          "speaker": "Speaker 3",
+          "content": "Because I got a million things I'm going to do, including uh, I got, including but in the world, the thing."
+        },
+        {
+          "start_time": 105730,
+          "end_time": 118830,
+          "speaker": "Speaker 2",
+          "content": "I have a long list of things to do, but all three stories about the setting inside of it."
+        },
+        {
+          "start_time": 122090,
+          "end_time": 141930,
+          "speaker": "Speaker 3",
+          "content": "So, is the program to follow up? If it's not getting any responses, I really don't like. I don't like to think it's sending the same exact. It looks like that's what it's doing though, because like every two days there was an."
+        },
+        {
+          "start_time": 141930,
+          "end_time": 149280,
+          "speaker": "Speaker 2",
+          "content": "Email that."
+        },
+        {
+          "start_time": 151380,
+          "end_time": 160180,
+          "speaker": "Speaker 2",
+          "content": "I'm saying, but."
+        },
+        {
+          "start_time": 160180,
+          "end_time": 206270,
+          "speaker": "Lance",
+          "content": "They didn't do that. What's that? I'm sending a message over to uh, Gage. Where? The the rep for that. Oh yeah. Hey, we need to send an email over to Gage. These emails that our AIs. Are sending to customers inside of In Solutions are entirely too similar. In, in a nutshell, it's doing a terrible job compared to Podium. Della, get on that. Go ahead and compose an email that we can send out to Gage about that issue. You can consult with Copper if you need to, and then show me the draft in chat."
         }
       ]
     }
