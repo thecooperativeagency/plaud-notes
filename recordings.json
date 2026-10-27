@@ -1,5 +1,5 @@
 {
-  "revision": "PLAUD-NOTES-2026-10-26-1330-MD",
+  "revision": "PLAUD-NOTES-2026-10-27-0601-AM",
   "recordings": [
     {
       "id": "of_8e748600e70a90060ade4483fe07246c",
@@ -50655,6 +50655,300 @@
           "end_time": 36820,
           "speaker": "Lance",
           "content": "Hey, Anna, let's send an email over to Landon Tucker. He's using Grokbot right now. I want him to know about this Plaud, Note, Pro and our MCP we set up. Let's send an email to Landon telling him about Plaud and how we have it set up. Um, Tell him that I sent this by just recording a note into my Plaud and then send him the website for the Plaud. Um, I'll be waiting on Telegram as soon as you get this. Uh, compose the email. Show me the drafts on Telegram, and then we'll proceed after that."
+        }
+      ]
+    },
+    {
+      "id": "of_0172bc722955fda250cab3603fa6fe9d",
+      "name": "Group \u00b7 inventory count mismatch \u00b7 Olivia / Dealer.com feeds",
+      "start_at": "2026-10-26T18:38:24",
+      "created_at": "2026-10-26T18:44:25",
+      "duration_ms": 352000,
+      "vertical": "dealers",
+      "store": null,
+      "routed_by": "Olivia call: used counts off across BHBMW/ABR/HP vs group; feeds should be vAuto (BMW/Audi) + HomeNet (Porsche); no First Look",
+      "status": "park",
+      "work_order": "Park for Ada. Lance assigned Copper: scrape BHBMW + ABR + HP vs group site, list missing units, draft email to Olivia with stock #s. Olivia confirms feed config with support.",
+      "highlights": [],
+      "summary_md": "## Group \u00b7 Used inventory discrepancies \u00b7 Olivia \u00b7 Oct 26 ~1:38p\n\n~5m52s. Used/CPO counts still short on rooftop sites vs expectation; group total lower than sum of stores.\n\n### Takeaways\n- **Feeds:** vAuto for BHBMW + ABR; **HomeNet for HP**. First Look is dead / outdated (last touch looked like 2025)\n- Olivia will confirm support is pointed at those sources and reconfigure if not\n- Lance \u2192 **Copper**: scrape all four sites (3 rooftops + group), list mismatches, send Olivia stock numbers for support\n\n### Status\n**park** \u2014 Copper owns the scrape/email; not Ada day work unless Copper stalls.\n",
+      "transcript": [
+        {
+          "start_time": 0,
+          "end_time": 2640,
+          "speaker": "Speaker 1",
+          "content": "Excluded and it shouldn't have been."
+        },
+        {
+          "start_time": 2640,
+          "end_time": 19840,
+          "speaker": "Lance",
+          "content": "So let's see, Brian Harris, BMW used shows fifty nine. Hang on, no, shows one fifteen. At Brian Harris BMW used, and let's see, Audi."
+        },
+        {
+          "start_time": 19840,
+          "end_time": 28140,
+          "speaker": "Speaker 1",
+          "content": "This is combined pre - owned and certified, just so you know too. Yeah. I'm sorry, no, it's not. Yeah. So we've got one hundred forty - six pre - owned, twenty - six are certified."
+        },
+        {
+          "start_time": 29190,
+          "end_time": 33430,
+          "speaker": "Lance",
+          "content": "Twenty - six of those are twenty - six in addition to the one forty something."
+        },
+        {
+          "start_time": 33430,
+          "end_time": 36230,
+          "speaker": "Speaker 1",
+          "content": "It looks like in addition to."
+        },
+        {
+          "start_time": 36230,
+          "end_time": 54830,
+          "speaker": "Lance",
+          "content": "Okay, so that so here's the numbers. Like I'm looking at all used on Audi, and it's one oh eight. Uh huh. And then why did I do why did I do this thing? Let's see. And then Brian Harris, all used, is one fifteen."
+        },
+        {
+          "start_time": 56920,
+          "end_time": 64840,
+          "speaker": "Speaker 1",
+          "content": "The two twenty three. Okay. Still. Oh."
+        },
+        {
+          "start_time": 64840,
+          "end_time": 74360,
+          "speaker": "Lance",
+          "content": "Yeah. Like Brian Harris BMW, for example, has is showing fifty nine certified."
+        },
+        {
+          "start_time": 74360,
+          "end_time": 82920,
+          "speaker": "Speaker 1",
+          "content": "Okay. So we're still off. We're closer, but we're still missing. Yeah,"
+        },
+        {
+          "start_time": 82920,
+          "end_time": 87160,
+          "speaker": "Lance",
+          "content": "That's why. So, is your inventory feed is it coming from VAuto."
+        },
+        {
+          "start_time": 87160,
+          "end_time": 97800,
+          "speaker": "Speaker 1",
+          "content": "Oh, let me check. Should it be? I guess while I'm looking that up."
+        },
+        {
+          "start_time": 97800,
+          "end_time": 108840,
+          "speaker": "Lance",
+          "content": "I mean, I think yeah, I think it should be coming from VAuto for the BMW and the Audi store, but then maybe from HomeNet for the Porsche store."
+        },
+        {
+          "start_time": 108840,
+          "end_time": 110520,
+          "speaker": "Speaker 1",
+          "content": "Okay."
+        },
+        {
+          "start_time": 113060,
+          "end_time": 115860,
+          "speaker": "Speaker 1",
+          "content": "Looks like we've got some info coming from HomeNet."
+        },
+        {
+          "start_time": 115860,
+          "end_time": 130259,
+          "speaker": "Lance",
+          "content": "Yep. Yeah, in the used car department, you know, Porsche might have three cars, so they're kind of like it. Don't have a lot doing in there. Used car department."
+        },
+        {
+          "start_time": 141680,
+          "end_time": 154000,
+          "speaker": "Speaker 1",
+          "content": "There's the one BMW I'm seeing. It's pretty new, so there's not much to look at. See, first look. Does that sound?"
+        },
+        {
+          "start_time": 154000,
+          "end_time": 155200,
+          "speaker": "Lance",
+          "content": "Yep. Yep. That's okay."
+        },
+        {
+          "start_time": 155200,
+          "end_time": 158640,
+          "speaker": "Speaker 1",
+          "content": "We've got some. Yep. Seven people coming from here."
+        },
+        {
+          "start_time": 158640,
+          "end_time": 160000,
+          "speaker": "Lance",
+          "content": "No first look."
+        },
+        {
+          "start_time": 160000,
+          "end_time": 162000,
+          "speaker": "Speaker 1",
+          "content": "No. Jesus. No first look's not VAuto. It'll say VAuto."
+        },
+        {
+          "start_time": 162000,
+          "end_time": 174400,
+          "speaker": "Lance",
+          "content": "First look is like the old is dead. First look is what used to be like Max Digital. Then it became ACV Max. Yep. Yeah, we don't use First Look anymore at all."
+        },
+        {
+          "start_time": 174400,
+          "end_time": 184320,
+          "speaker": "Speaker 1",
+          "content": "Okay, I will say the information I'm seeing from First Look is like outdated. It looks like like the last updated like 2025, so that could be."
+        },
+        {
+          "start_time": 184320,
+          "end_time": 187840,
+          "speaker": "Lance",
+          "content": "We see digital. Certainly, VAuto and HomeNet, I guess,"
+        },
+        {
+          "start_time": 187840,
+          "end_time": 198560,
+          "speaker": "Speaker 1",
+          "content": "Should be all of it. Okay, so why do we do that? We're closer in numbers. Let me confirm with our support team that that's where we're looking. So it should be VAuto and HomeNet."
+        },
+        {
+          "start_time": 198560,
+          "end_time": 202250,
+          "speaker": "Lance",
+          "content": "Yep. Yeah, home net for Porsche, and then VAuto for the other two."
+        },
+        {
+          "start_time": 202250,
+          "end_time": 248920,
+          "speaker": "Speaker 1",
+          "content": "Okay. BMW and Audi. Okay. Okay. Let me. I can have our support team confirm that that's where they're looking. If not, I can make sure that they're configured as such. Because yeah, as of right now, it looks like it's still just holding steady at that one forty six. Yeah. 147. I just got one added in. Oh, lordy. They know it's a lot of units. If you see any specifically that you're not seeing on the site that should be, of course, send those over. Yeah. Um. I have a large number. I don't want to have to go through 100 plus units and kind of spot check them."
+        },
+        {
+          "start_time": 248920,
+          "end_time": 261440,
+          "speaker": "Lance",
+          "content": "Yeah, I'm gonna have one of my agents basically scrape all three sites, all four sites, and look for mismatches. And then I'll generate a report and I'll send it to you."
+        },
+        {
+          "start_time": 261440,
+          "end_time": 279440,
+          "speaker": "Speaker 1",
+          "content": "Perfect. Once I have that, I'll reach out to support team because they're probably going to want a couple specific stock numbers to look at. So if you can send those over, and then I can connect with support as needed. That sounds good. Thank you. Perfect. Wonderful. Of course. And once we posted, let me know if you have anything else that come up. But anything else you need from me for right now?"
+        },
+        {
+          "start_time": 279440,
+          "end_time": 281200,
+          "speaker": "Lance",
+          "content": "I think that's it for now."
+        },
+        {
+          "start_time": 281200,
+          "end_time": 285450,
+          "speaker": "Speaker 1",
+          "content": "Okay. Easy enough, sir. Yeah. I'll wait for that information. I'll keep you posted on progress. All right."
+        },
+        {
+          "start_time": 285450,
+          "end_time": 286490,
+          "speaker": "Lance",
+          "content": "Thank you. Have a good one,"
+        },
+        {
+          "start_time": 286490,
+          "end_time": 287530,
+          "speaker": "Speaker 1",
+          "content": "Olivia. Thank you, Lance."
+        },
+        {
+          "start_time": 287530,
+          "end_time": 344260,
+          "speaker": "Lance",
+          "content": "Have a good one. Bye bye. Bye. All right, that was a conversation. That was our meeting with Olivia. We need to look at Brian Harris BMW, Audi Baton Rouge, and Harris Porsche. Look at used inventory there, and compare that to the used inventory that's showing up on Brian Harris Auto Group. Because it is missing some cars, make a list of all the cars that are missing. So the cars that should be on Brian Harris Auto Group should be the same used inventory that we see on those three dealerships' used inventory pages. Make me an analysis. Make me a sheet. Make me a page that I can share with Olivia, and we'll actually just draft an email. I don't know what I'm thinking. So once you have that analysis done, we know the cars that are missing that should be showing on Auto Group, but they're not. Draft me an email."
+        },
+        {
+          "start_time": 344280,
+          "end_time": 350000,
+          "speaker": "Lance",
+          "content": "And we'll send it over to Olivia. That's for you, Copper. By the way."
+        }
+      ]
+    },
+    {
+      "id": "of_b91e23f7db62202469f81d2226240230",
+      "name": "Group \u00b7 listing exclusions match new vs used \u00b7 Olivia",
+      "start_at": "2026-10-26T18:35:30",
+      "created_at": "2026-10-26T18:44:39",
+      "duration_ms": 98000,
+      "vertical": "dealers",
+      "store": null,
+      "routed_by": "Olivia: align pre-owned account exclusions to new; Audi first; HP filters keep Audis out of Porsche (old shared DMS)",
+      "status": "park",
+      "work_order": "Park. Olivia to match new/used exclusions (Mazda, Audi, Mini, two Porsche accts, BHBMW). No Ada action.",
+      "highlights": [],
+      "summary_md": "## Group \u00b7 Listing exclusions / filters \u00b7 Olivia \u00b7 Oct 26 ~1:35p\n\n~1m38s. Pre-owned had more account exclusions than new.\n\n### Takeaways\n- Audi set to show first; no make-level filter-out\n- Pre-owned exclusions listed: BH Mazda, BH Audi, BH Mini, two Porsche accounts, BHBMW\n- Lance agreed: **match exclusions** across new + pre-owned\n- Historical: Porsche + Audi once shared DMS/lot \u2014 Porsche still needs filters so Audis don\u2019t appear\n\n### Status\n**park** \u2014 Olivia executing; no Coop build.\n",
+      "transcript": [
+        {
+          "start_time": 0,
+          "end_time": 41950,
+          "speaker": "Speaker 1",
+          "content": "Okay, let's see if that works. There's not like any. We've got Audi set to show first, but it's not filtering out anything from a make perspective. Excluded accounts are the same across new and used. Let me just double check that. Okay, so there's one. It looks like for the pre-owned, we are. Filtering out some specific accounts, and it looks like there's more accounts that we're excluding from reowned than we are from new. So if you want, I can just make those match."
+        },
+        {
+          "start_time": 41950,
+          "end_time": 45710,
+          "speaker": "Lance",
+          "content": "Yeah. What is it? What is the list of things we're excluding?"
+        },
+        {
+          "start_time": 45710,
+          "end_time": 65730,
+          "speaker": "Speaker 1",
+          "content": "So it says that we're excluding Brian Harris Mazda, Brian Harris, Audi. Oh. Brian Harris Mini. Porsche looks like there's two Porsche accounts, and then it looks like a Brian Harris BMW. So why don't I go ahead and have them match if that works for you?"
+        },
+        {
+          "start_time": 65730,
+          "end_time": 96140,
+          "speaker": "Lance",
+          "content": "That should. I can tell you the only like filtering that might still need to take place. Well, it probably will be okay. One of the goofy problems we've always had is at one point our Porsche and Audi were on the same lot, and they shared they fully shared the DMS. Okay. So that was a pain in the butt, as you can imagine. Okay. Yes. So, like when we look, like when we're looking at like the Porsche dealership, for example, they have to have filters to make sure no Audis pop up,"
+        },
+        {
+          "start_time": 96140,
+          "end_time": 98260,
+          "speaker": "Speaker 1",
+          "content": "Right? Got it. Okay."
+        }
+      ]
+    },
+    {
+      "id": "of_8806e898f3266550ece6f0de03a7a516",
+      "name": "Coop \u00b7 idea \u00b7 private-sale listing aggregator (vAuto-class)",
+      "start_at": "2026-10-26T22:50:37",
+      "created_at": "2026-10-26T22:52:01",
+      "duration_ms": 76000,
+      "vertical": "ideas",
+      "store": null,
+      "routed_by": "Spoken product idea: scrape private listings (FB MP / Autotrader), VIN/Carfax/ask vs JD Power, flag bid-worthy units; share w/ Copper",
+      "status": "park",
+      "work_order": "Park to ideas lot. No build. Copper review when free; Ada not starting a scraper.",
+      "highlights": [],
+      "summary_md": "## Idea \u00b7 Private-sale listing aggregator \u00b7 Oct 26 ~10:50p\n\n~1m16s. vAuto-class tool for private listings (Facebook Marketplace, Autotrader, etc.).\n\n### Thesis\nScrape private sellers in a configurable radius (10/20/50 mi) \u2192 VIN + Carfax + ask vs J.D. Power \u2192 surface the handful worth bidding.\n\n### Status\n**park** \u2014 ideas lot. Iterate with Copper; not day-strip.\n",
+      "transcript": [
+        {
+          "start_time": 250,
+          "end_time": 55100,
+          "speaker": "Lance",
+          "content": "Hey, we have a new idea. We want to build out a tool. So VAuto has a tool that's kind of like this. It lets a dealership look at all of the private listings where people are listing their cars for sale all over the internet, Facebook Marketplace, Auto Trader, wherever the hell they're listing them. Is it? It lets you see all those listings and then possibly contact them. What if we built and built a piece of software? It can be a separate page. We can start it out separate. What if we built a app that basically It scraped all of the private listings in a given area. We could have it tailored, where we say, okay, let us look in a 50 mile radius or 10 mile radius or 20 mile radius, based on need and based on inventory availability. We build it out to where it goes and looks at all the private listings, takes all of those private listings, looks at the VIN, looks at the Carfax, looks at what the customer is asking, compares that to J.D. Power."
+        },
+        {
+          "start_time": 55540,
+          "end_time": 74390,
+          "speaker": "Lance",
+          "content": "And then it goes okay. These six are worth bidding on because they're basically wanting what is a good value for the cars. What if we built that? Talk about it. Iterate on it. Give this to Copper to look at, and I'll look forward to her texting me."
         }
       ]
     }
