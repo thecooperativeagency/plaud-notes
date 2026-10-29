@@ -2,6 +2,277 @@
   "revision": "PLAUD-NOTES-2026-10-28-0603",
   "recordings": [
     {
+      "id": "of_41e3935dd06b767f402947c1726b0ff5",
+      "name": "Grokbot Pages \u00b7 Copper five-dashboard reverse prompt (Ada 2.0 holes)",
+      "start_at": "2026-10-29T16:28:39",
+      "created_at": "2026-10-29T16:43:12",
+      "duration_ms": 863000,
+      "vertical": "coop-dev",
+      "store": null,
+      "routed_by": "Grokbot Pages / agent dashboards / Ada 2.0 process holes \u2014 Copper owns drafts",
+      "status": "park",
+      "work_order": "Park. Copper drafting 5 Grok Pages dashboards (vAuto offers, Coop/MACO, BH box, migration gaps, slip-through). Mini Ada: no build. Lance: watch Copper chat replies; Tara/MACO already calendared.",
+      "highlights": [
+        {
+          "title": "Copper reverse prompt",
+          "content": "Five dashboards to cut misses post Ada\u2192new Ada; collaborate across bots.",
+          "timestamp": 531500
+        },
+        {
+          "title": "Draft themes",
+          "content": "vAuto offers \u00b7 Coop/MACO \u00b7 Brian Harris box \u00b7 data migration gaps \u00b7 slip-through catchers.",
+          "timestamp": 573690
+        },
+        {
+          "title": "Pages spine",
+          "content": "Stats + decisions waiting + finished + routines; pin Pages; multiplayer share.",
+          "timestamp": 348580
+        },
+        {
+          "title": "Tara / conf room",
+          "content": "Tara item added to calendar today; Lance will set up in conference room.",
+          "timestamp": 807020
+        }
+      ],
+      "summary_md": "## Takeaway\nGrokbot **Pages** tutorial (custom dashboards). Lance reverse-prompted **Copper** for five productivity dashboards after Ada\u2192new Ada cutover; Copper is drafting. Tara/MACO already on calendar; conference-room setup aside.\n\n## What landed\n- Pages demo: live bot activity, business stats, task heat map, editable CoS bar (Slate), share/multiplayer\n- Pillars to copy: top stats \u00b7 decisions waiting \u00b7 finished tasks \u00b7 upcoming routines\n- Reverse prompt issued to Copper (find process holes / fewer misses)\n- Copper draft themes: **vAuto offers \u00b7 Coop/MACO \u00b7 Brian Harris box \u00b7 data migration gaps \u00b7 slip-through catchers**\n- \u201cToday in 60s\u201d advanced brief pattern mentioned\n- Stack note from video (Grokbot / Claude Duet / Muse) \u2014 not a Coop mandate\n- Lance: Tara item added today; will set something up in the conference room\n\n## Actions\n- **Copper / Grok side:** five dashboard drafts \u2192 reply in chats (already sent)\n- **Ada (Mini):** file only \u2014 no Mini build from this tape\n- **Lance:** watch Copper replies; Tara/MACO awareness already live from morning mail\n",
+      "transcript": [
+        {
+          "start_time": 320,
+          "end_time": 30810,
+          "speaker": "Speaker 1",
+          "content": "Most power out of it, and at the end, give you a prompt that you can copy and paste, put into Grokbot, and instantly start getting way better organization and productivity out of your Grokbot. This one is going to be a banger. Let's lock in and get into it. So, what you are looking at here is my new Grokbot dashboard. This what I see when I come into Grokbot. There's a lot going on. Let me explain exactly what you're looking at here. This a part of Grokbot's new update called Pages."
+        },
+        {
+          "start_time": 30810,
+          "end_time": 62350,
+          "speaker": "Speaker 1",
+          "content": "Pages basically allows you to build your own custom pages and dashboards and interfaces for your Grokbot. This is the one I built here. So as you can see, I have this fun visual up top that shows me all my bots, who's working, what's doing what, that what they're working on. It's just fun. You're allowed to have fun. Let's look at what else I got here. I have live stats and data on everything in my business. If you're like me and you do a lot of different things, I got a Twitter, a YouTube, I got a business I raise money for, I got two different newsletters. I'm making money on different businesses."
+        },
+        {
+          "start_time": 62670,
+          "end_time": 95230,
+          "speaker": "Speaker 1",
+          "content": "I got some important stats that are up to date right here. I can see how many followers I have, subs, all that. How many subscribers on my main newsletter, my secondary newsletter? How many visitors I am getting on my solo, autonomous business agent use cases? All that data stays up to date here. And then I scroll down, and this the important part. This my live activity dashboard. If you're like me, you got 20 different bots all doing different things. The first thing you'll see on the left-hand side are activities and decisions waiting on me."
+        },
+        {
+          "start_time": 95310,
+          "end_time": 126790,
+          "speaker": "Speaker 1",
+          "content": "You can see my different bots and which ones are waiting on my approvals. Again, a big issue I run into a Grokbot a lot is I have all these different bots. They're all doing different things. Some of the times they get stuck on like a decision that's waiting on me, and because I have so many different bots, I don't look at it for days, and the decision gets blocked. Now I can see each decision, and then click open, and it takes me to that bot to settle that decision. In the middle, I can see tasks that are recently finished. Again, if you have a lot of different bots, it's kind of hard to lose track on who's doing what."
+        },
+        {
+          "start_time": 127040,
+          "end_time": 157470,
+          "speaker": "Speaker 1",
+          "content": "Now I can see exactly who's working on anything here, what they completed, and all that, so I can keep a track of productivity. And the right-hand side, again, this a really important one. This routines. A lot of people complain about, oh, you know, my usage is going so quick in Grokbot. My usage is going so quick. The issue might be just to have too many routines that you don't really use. So now on the right-hand side here, you can see what upcoming routines you have, and if you go, actually I don't really need that anymore. You can click Open, cancel the routine, and you're good to go. And then here at the bottom,"
+        },
+        {
+          "start_time": 157470,
+          "end_time": 187580,
+          "speaker": "Speaker 1",
+          "content": "I have a nice heat map, so I can see which bots are doing the most work, who's done the most tasks, and I can try to kind of up my heat map, up my tasks, so I do more and more every day. It's just kind of another cool, fun thing to add on here. And what's great is this dashboard's completely live. I can edit it live, and so I have this message bar at the bottom with Slate, my chief of staff, and I can just give requests on things to change. Now I'm not going to do this because this is a personal dashboard, but you, after you build this out, I'll show you how to build this out in a second."
+        },
+        {
+          "start_time": 187660,
+          "end_time": 217940,
+          "speaker": "Speaker 1",
+          "content": "How to figure out what's best for you and your routines and responsibilities. You can share this. This is multiplayer, so I can click share. And I can send this out and have other people get access. So if I have team members on my team who I want to build like a newsletter dashboard for, and they can see everything going on my newsletter, I can share that here as well. I can even put in a browser and share it in a link as well too. So that's really really cool. But that's not all. I have a whole bunch of other custom interfaces I built out. I have my whole org chart. I can see all my org of my different bots,"
+        },
+        {
+          "start_time": 218260,
+          "end_time": 250800,
+          "speaker": "Speaker 1",
+          "content": "What they're working on, things like that. Again, this is good for you if you have a ton of bots. You can just leave this up. See what they're working on. Click into them. Message them. All that. This one's an important one for me. I have a whole AI lab home set up. I have like 20 different computers or DGX Sparks, Mac Studios, all running different models, doing different things. Now I have my machines and models dashboard that shows me all my different machines, which ones are online, which ones are doing things right now, which ones might be low on memory. I have a DGX Spark right now that's low on memory. I can see the temperature of each one of the Sparks."
+        },
+        {
+          "start_time": 251040,
+          "end_time": 285900,
+          "speaker": "Speaker 1",
+          "content": "And so there's like a dashboard for my home AI lab, all in one place. So how do you set this up? How do you use this? How do you get the most out of Grokbot's pages? And by the way, there's way more updates with this massive update. I'll do another video on that if you're interested. Let me know down below. Do you want more Grokbot videos? Are you more into the other agents? Let me know which agent you care about the most at the moment down below. Also, if you learn anything at all, leave a like down below, subscribe, and turn on notifications. All I do is make banger videos about how to get the most out of AI. Also, I have a live Grokbot bootcamp I just did in the Vibe Coding Academy."
+        },
+        {
+          "start_time": 285900,
+          "end_time": 317830,
+          "speaker": "Speaker 1",
+          "content": "If you want instant access to that, link for that is down below. You can sign up and instant access to the Grokbot bootcamp I just did. Let's talk about how to set this up for you. How do you set up your own pages, your own dashboards, everything like that? First, I would start off in your chief of staff bot. So go to your main bot. Slate's my main chief of staff bot. This is my go-to if I have quick requests, all that. And what you're going to do is you can just ask to make that dashboard. Now the question comes: What should you put in that main dashboard? I'd recommend copying me for this initial dashboard."
+        },
+        {
+          "start_time": 318230,
+          "end_time": 348580,
+          "speaker": "Speaker 1",
+          "content": "So here's the key pillars. Of what you should put in your initial dashboard, I'll give you a prompt down below to build out this initial dashboard as well. First thing you want, if you want to have fun, if you don't want to have fun, skip this part. If you want to have fun, then copy me here. Some sort of visualization on your Grok bots and who's working and who's doing what. I just ask for like a two D office with my bots walking around and what they're doing. I put that as a part of the prompt down below. I like to have fun. You should have fun too. Copy that. Next is any important stats you need. For me, I'm a content creator."
+        },
+        {
+          "start_time": 348580,
+          "end_time": 380480,
+          "speaker": "Speaker 1",
+          "content": "I'm an entrepreneur. I have a business. I put all my stats around my social media, the business I'm building, all of that. Figure out whatever stats are most important for you. Good news for you, you don't even really need to figure that out. In a reverse prompt, I'm putting down below. It'll help your Grokbot determine that for you, so you don't even really need to think about that. But point being is, at the top here, have all your important stats. So you can track that at a glance, and then here's the three columns you want in your dashboard. These are super critical decisions waiting on you, tasks waiting on you on the left hand side."
+        },
+        {
+          "start_time": 380880,
+          "end_time": 413420,
+          "speaker": "Speaker 1",
+          "content": "In the middle is your finished tasks, so any tasks your bots have finished recently, and then over on the right hand side are your routines. So any of your upcoming routines. This allows you to quickly unblock anything that's blocked. Just get a glance at what's finished, what you've got done recently. And then routines, so you can cancel any ones you don't need anymore, so you can save on your usage. Again, copy the prompt down below for that. Once you have that main dashboard done, that's got to be your step one. Then you can start getting creative. Then you can start moving into like your full org chart,"
+        },
+        {
+          "start_time": 413420,
+          "end_time": 449020,
+          "speaker": "Speaker 1",
+          "content": "If you want, or if you want, you know, things you're more specifically interested in, like my home AI lab setup. If you have ones top of mind you want to build, you can go to your agent, just ask for them. But I'd actually recommend leaning more creatively on your bots. How do you do that? Well, use the reverse prompt I'm about to show you. Based on what you know about me, my business, my activities and tasks, and things I've asked you to do, please recommend five new dashboards we can create that'd be helpful for me and make me more productive. Feel free to collaborate with the other bots on this."
+        },
+        {
+          "start_time": 449020,
+          "end_time": 481620,
+          "speaker": "Speaker 1",
+          "content": "That's an important sentence I just added on there. Because what I think is the best way to do this is have all your dashboards just on your chief of staff, so he can quickly go in here in one place and see all them. And what collaborating with the other bots will do is find out what's important with your other bots, so your chief of staff can make dashboards relevant for them and what you do with your other bots. I put this down below. Feel free to copy this and put it in your Grokbot. You know, right now, pause this video and put in your Grokbot right now and do it alongside with me. You're going to hit enter on that. And your chief of staff will come up with some options."
+        },
+        {
+          "start_time": 481620,
+          "end_time": 512140,
+          "speaker": "Speaker 1",
+          "content": "We'll ask the other bots what they want to do, what's important to them. It'll come up with recommendations. Sponsor pipeline. Based on what it recommends, you can choose one. It'll build out, builds out lightning quick. Grokbot is so fast. And then once it builds out, you will see over on the right hand side the pages it built in your library. From there, you can just click on the three dots and pin it. That will keep your dashboard at the top. And then on Grokbot, maybe have a second monitor, maybe have another screen. You can just have it open with that dashboard you built,"
+        },
+        {
+          "start_time": 512299,
+          "end_time": 525020,
+          "speaker": "Speaker 1",
+          "content": "And so you can always keep a glance on it and see what's going on. This requires so little effort because you can reverse prompt here and lean on your bots to come up with the ideas. They know everything about you. They know all your emails."
+        },
+        {
+          "start_time": 531500,
+          "end_time": 564890,
+          "speaker": "Lance",
+          "content": "Copper. Based on what you know about me, my business, my activities and tasks, and things I've asked you to do, please recommend five new dashboards we can create that would be helpful for me and make me more productive. Feel free to collaborate with all of the other bots. This will also help us find holes in our process, things that are missing in our new implementation where we've moved from old Ada to the new Ada, and help us generally find places where we can implement you guys more deeply into my processes. So that I have less misses and forgets."
+        },
+        {
+          "start_time": 568090,
+          "end_time": 572090,
+          "speaker": "Speaker 3",
+          "content": "Actually, have it. Do what?"
+        },
+        {
+          "start_time": 573690,
+          "end_time": 588170,
+          "speaker": "Speaker 3",
+          "content": "Putting together five dashboard ideas from the world. The V Auto offers, the co-op and Maco side, your Brian Harrison box, the data migration gaps, and where the bots can catch what slips through. I've sent that to the team to draft up."
+        },
+        {
+          "start_time": 589090,
+          "end_time": 593490,
+          "speaker": "Lance",
+          "content": "Sounds great. I'm going to click out, and I'll be looking for you guys to reply in the chats."
+        },
+        {
+          "start_time": 594610,
+          "end_time": 595010,
+          "speaker": "Speaker 1",
+          "content": "We'll do."
+        },
+        {
+          "start_time": 632430,
+          "end_time": 665100,
+          "speaker": "Speaker 1",
+          "content": "Better memory than us. I hate to say it. These bots have way better memory than us, so they're going to be way better at coming up with creative ideas on which dashboards we should be building out. That's why you really want to lean on reverse prompting here with your chief of staff, but and have it talk to your other agents. Couple other ones I built out too. I have my today in sixty seconds. This is kind of like a more advanced daily brief. Where it has my calendar in it, has all the stats I need, decisions waiting on me, and other interesting information. So maybe you want to build like a morning brief as well."
+        },
+        {
+          "start_time": 665100,
+          "end_time": 696280,
+          "speaker": "Speaker 1",
+          "content": "This is like an advanced morning brief. It's a lot better than just kind of like a ping in your inbox every morning. It's an actual advanced dashboard with data and all that. So that's a good one to have as well. And if you're curious about my current AI agent stack, here is how I'm doing everything at the moment. My main productivity agent is Grokbot. I think from a productivity perspective. Grokbot is the best. It's the fastest. It gets the most done. It does things with the least amount of permission needed. I'm the most confident when I give it a prompt that at the end it's going to get it done."
+        },
+        {
+          "start_time": 696280,
+          "end_time": 728070,
+          "speaker": "Speaker 1",
+          "content": "That the next message it sends me will be done. You're good to go, right? Grokbot's number one at that. For more the building side, the coding side, the creating side, I lean more on Claude Duet. The reason being is it's powered by Claude Code and Claude Opus 5.5. That's the best model and harness at the moment. So I lean on that. For coding, anything I'm building, Claude Duet watches over my coding projects. And for more personal agent stuff, like quick one-off personal agent stuff, I'm going to like Muse. Sometimes Grokbot for a lot of these things too."
+        },
+        {
+          "start_time": 728150,
+          "end_time": 759160,
+          "speaker": "Speaker 1",
+          "content": "But Muse, like I can get super quick, open it up, send some prompts, get some things done. It's also like the fastest model. It also has the best like. iPhone Duo app there is, which it looks like just great on the iPhone Duo. By the way, I think iPhone Duo. I'm going to do a review video very shortly on all the AI apps on the iPhone Duo. If you want that, let me know down below too, and turn on notifications for that. But that's my current AI agent stack. And again, I say this every video: you don't need to copy me. You don't need to use ten different AI agents for all your different tasks. You can choose just one."
+        },
+        {
+          "start_time": 759320,
+          "end_time": 778590,
+          "speaker": "Speaker 1",
+          "content": "You can have Grokbot for everything, Muse for everything, Duet for everything, Dots for everything. They all work super nice. They're all great at everything. I'm just like hyper optimizing for every specific task. Don't be like, \"Oh, Alex, this is so confusing. You're having me switch every five seconds.\" You don't have to. I switch every five seconds. You don't have to. You can choose any of them. I'm just."
+        },
+        {
+          "start_time": 789150,
+          "end_time": 791630,
+          "speaker": "Speaker 1",
+          "content": "Well, the first thing you think about is this, right?"
+        },
+        {
+          "start_time": 792510,
+          "end_time": 794110,
+          "speaker": "Speaker 1",
+          "content": "We thought about this years ago."
+        },
+        {
+          "start_time": 795180,
+          "end_time": 798620,
+          "speaker": "Speaker 1",
+          "content": "We've done tons of user testing on this,"
+        },
+        {
+          "start_time": 799260,
+          "end_time": 800220,
+          "speaker": "Speaker 1",
+          "content": "And it turns out it."
+        },
+        {
+          "start_time": 802620,
+          "end_time": 803020,
+          "speaker": "Lance",
+          "content": "Yeah."
+        },
+        {
+          "start_time": 807020,
+          "end_time": 812460,
+          "speaker": "Lance",
+          "content": "That's what. Yeah, Tara. I didn't even have it on my calendar, and I got a I got it added to my calendar today."
+        },
+        {
+          "start_time": 816780,
+          "end_time": 820780,
+          "speaker": "Lance",
+          "content": "Okay. I'm gonna. I'll set it up in the conference room if you want me to."
+        },
+        {
+          "start_time": 822060,
+          "end_time": 824460,
+          "speaker": "Lance",
+          "content": "Or, or we can just each do it in our own office. It's up to you."
+        },
+        {
+          "start_time": 828350,
+          "end_time": 831390,
+          "speaker": "Lance",
+          "content": "Okay, I'll yeah, I'll set it up in the conference room so you can just walk in and see it."
+        },
+        {
+          "start_time": 831390,
+          "end_time": 832270,
+          "speaker": "Speaker 3",
+          "content": "Bye,"
+        },
+        {
+          "start_time": 836190,
+          "end_time": 836590,
+          "speaker": "Speaker 3",
+          "content": "Bye, bye."
+        },
+        {
+          "start_time": 838110,
+          "end_time": 838350,
+          "speaker": "Speaker 3",
+          "content": "Hey, hey."
+        }
+      ]
+    },
+    {
       "id": "of_eabdf1a689f0f85a813a8201ffa350e1",
       "name": "ABR \u00b7 Audi zone visit \u00b7 Q7/Q8/Q9 localization + Q4 sales/service",
       "start_at": "2026-10-27T17:19:40",
