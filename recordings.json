@@ -1,5 +1,5 @@
 {
-  "revision": "PLAUD-NOTES-2026-10-28-0603",
+  "revision": "PLAUD-NOTES-2026-10-30-1333",
   "recordings": [
     {
       "id": "of_41e3935dd06b767f402947c1726b0ff5",
@@ -57726,6 +57726,4754 @@
           "end_time": 5662330,
           "speaker": "Speaker 2",
           "content": "Yep. No problem, y'all. Appreciate you very much. Bye. Thanks, guys. Good afternoon. Good afternoon. Bye. Bye."
+        }
+      ]
+    },
+    {
+      "id": "of_1c182d36695f9bd3388673ea729d67a4",
+      "name": "BMWJ \u00b7 Oct sales pace + co-op burn + social push",
+      "start_at": "2026-10-30T14:46:20",
+      "created_at": "2026-10-30T14:59:47",
+      "duration_ms": 296000,
+      "vertical": "dealers",
+      "store": "bmwj",
+      "routed_by": "BMW Jackson sales/co-op/social; Galleria comparison; MB TikTok mock",
+      "status": "park",
+      "work_order": "Park. Lance: request BMWJ co-op as far back as possible + rest of year; email when done. Social 2\u20133 salespeople videos = later when in town.",
+      "summary_md": "## Takeaway\n**BMWJ** floor: **Oct sales at 23** (vs 42 LY / 44 in \u201924); expect ~+10 + 5\u20136 service loaners. Galleria 177 YTD vs 40 in 2017. Lance will **burn remaining co-op/reup** as far back as possible and email when filed. Social pressure from Frank after a **MB store TikTok mocking recalls**.\n\n## Locked / action-shaped\n- **Lance:** request available co-op as far back as possible + remainder of year; email clock when done\n- Social: 2\u20133 salespeople on dealer IG/FB ~1\u20132\u00d7/week when Lance is in town (proposal, not live yet)\n\n## Notes\n- Co-op/reup: Lance will go as far back as possible and burn rest of year\n- Oct pace weak; regional context from Bill\u2019s summaries\n- Frank wants more social; MB TikTok making fun of recalls \u2014 boss livid\n- Lance proposes featuring salespeople in video when on site\n\n## Ada vs Lance\n**Park + Lance.** Co-op request is Lance. No Mini build.\n",
+      "highlights": [
+        {
+          "title": "Co-op burn",
+          "content": "Request as far back as possible + rest of year; email when done.",
+          "timestamp": 8720
+        },
+        {
+          "title": "Oct pace",
+          "content": "23 sold vs 42 LY / 44 in \u201924; +~10 and 5\u20136 loaners expected.",
+          "timestamp": 143650
+        },
+        {
+          "title": "Galleria",
+          "content": "177 YTD 2026 vs 40 in 2017.",
+          "timestamp": 162840
+        },
+        {
+          "title": "MB TikTok",
+          "content": "Mercedes store TikTok mocking recalls; Frank/social pressure.",
+          "timestamp": 202480
+        }
+      ],
+      "transcript": [
+        {
+          "start_time": 0,
+          "end_time": 4480,
+          "speaker": "Lance",
+          "content": "I actually have a few new things that I'm gonna request."
+        },
+        {
+          "start_time": 5920,
+          "end_time": 7280,
+          "speaker": "Lance",
+          "content": "We should have a reup in there."
+        },
+        {
+          "start_time": 8720,
+          "end_time": 21760,
+          "speaker": "Lance",
+          "content": "Yeah. So I'm gonna go back and make sure I request some back. Basically, I'm gonna go as far back as I can and make sure we catch as much. And I'll make sure I get the rest for the rest of the year to try to burn through, like, use up all the co-op. You know, all the reup."
+        },
+        {
+          "start_time": 22960,
+          "end_time": 25600,
+          "speaker": "Speaker 2",
+          "content": "Yeah, we do every dollar. And I'll, I'll let you know."
+        },
+        {
+          "start_time": 25600,
+          "end_time": 30230,
+          "speaker": "Lance",
+          "content": "Let's do this so that I don't forget and it doesn't just fall through any of my cracks. Delayed."
+        },
+        {
+          "start_time": 30790,
+          "end_time": 38950,
+          "speaker": "Lance",
+          "content": "I'm gonna get it done, and I'll shoot you another email when it's done, so we can kind of both have a clock ticking on it's done and waiting on that."
+        },
+        {
+          "start_time": 40870,
+          "end_time": 42790,
+          "speaker": "Lance",
+          "content": "That makes sense. Yeah."
+        },
+        {
+          "start_time": 42790,
+          "end_time": 44550,
+          "speaker": "Speaker 2",
+          "content": "Yeah, we're just we're just we're off."
+        },
+        {
+          "start_time": 45750,
+          "end_time": 46470,
+          "speaker": "Lance",
+          "content": "Yeah, it's bad."
+        },
+        {
+          "start_time": 48310,
+          "end_time": 50470,
+          "speaker": "Lance",
+          "content": "Yeah. I was looking at we had that you know."
+        },
+        {
+          "start_time": 52070,
+          "end_time": 58790,
+          "speaker": "Lance",
+          "content": "BMW in in town here. They do that big giant that big obnoxious BMW meeting with with Curtis and."
+        },
+        {
+          "start_time": 59680,
+          "end_time": 69760,
+          "speaker": "Lance",
+          "content": "Chris Lukacic and all those people and I was in that yesterday and nobody thank. Well, it's like you know, hey, you got."
+        },
+        {
+          "start_time": 70880,
+          "end_time": 73520,
+          "speaker": "Lance",
+          "content": "He pulled up Brent, in other words, he said you're up one,"
+        },
+        {
+          "start_time": 74080,
+          "end_time": 76400,
+          "speaker": "Lance",
+          "content": "Literally one unit."
+        },
+        {
+          "start_time": 77360,
+          "end_time": 78240,
+          "speaker": "Lance",
+          "content": "He said so."
+        },
+        {
+          "start_time": 78240,
+          "end_time": 79120,
+          "speaker": "Speaker 2",
+          "content": "I'm light here."
+        },
+        {
+          "start_time": 79200,
+          "end_time": 89500,
+          "speaker": "Lance",
+          "content": "You're the yeah. He says so. You're the tallest midget right now, basically. He didn't say that, but you know, it's like fuck. You guys are up more than one. But but also still,"
+        },
+        {
+          "start_time": 90220,
+          "end_time": 94620,
+          "speaker": "Lance",
+          "content": "That's about to go away if we don't sell more cars. You know, like the gains we made."
+        },
+        {
+          "start_time": 95500,
+          "end_time": 97500,
+          "speaker": "Lance",
+          "content": "If we don't sell more, we're gonna lose our gains."
+        },
+        {
+          "start_time": 98940,
+          "end_time": 108300,
+          "speaker": "Speaker 2",
+          "content": "I had that. You have no idea what the conversation. So I've been here. So uh, and and now my boss is fucking jumping up and down."
+        },
+        {
+          "start_time": 108460,
+          "end_time": 116860,
+          "speaker": "Lance",
+          "content": "So well, I hope they get some regional numbers, right? Do they do they get the same? Like when when BMW sends out numbers, do they get all that shit?"
+        },
+        {
+          "start_time": 118370,
+          "end_time": 120530,
+          "speaker": "Speaker 2",
+          "content": "Yeah. Yeah. Well, fuck. Tell them."
+        },
+        {
+          "start_time": 121490,
+          "end_time": 127250,
+          "speaker": "Speaker 2",
+          "content": "Don't fuck about it. We're about to piss it all away. Do you get our Do you get our daily summary from Bill?"
+        },
+        {
+          "start_time": 127890,
+          "end_time": 132370,
+          "speaker": "Lance",
+          "content": "Oh yeah, I get all of our summaries from Bill. I have all that shit in my system, and I you know I look at all of it."
+        },
+        {
+          "start_time": 133490,
+          "end_time": 133810,
+          "speaker": "Lance",
+          "content": "Yeah."
+        },
+        {
+          "start_time": 133810,
+          "end_time": 136610,
+          "speaker": "Speaker 2",
+          "content": "So I'm looking at you know Bill sent out a thing this morning,"
+        },
+        {
+          "start_time": 137730,
+          "end_time": 142690,
+          "speaker": "Speaker 2",
+          "content": "October by year from 2017 until 26. Yeah."
+        },
+        {
+          "start_time": 143650,
+          "end_time": 148680,
+          "speaker": "Speaker 2",
+          "content": "And we did 44 and 24,42 last year. We're sitting on twenty three."
+        },
+        {
+          "start_time": 149000,
+          "end_time": 149640,
+          "speaker": "Lance",
+          "content": "Oh fuck!"
+        },
+        {
+          "start_time": 149720,
+          "end_time": 151960,
+          "speaker": "Speaker 2",
+          "content": "We're gonna probably pick up another ten cars."
+        },
+        {
+          "start_time": 152840,
+          "end_time": 154120,
+          "speaker": "Lance",
+          "content": "Okay, so finish with thirty."
+        },
+        {
+          "start_time": 154120,
+          "end_time": 158360,
+          "speaker": "Speaker 2",
+          "content": "But even if I put service loaners, you know, I got five or six service loaners I need to move."
+        },
+        {
+          "start_time": 159720,
+          "end_time": 161320,
+          "speaker": "Speaker 2",
+          "content": "But I want you to listen to this number."
+        },
+        {
+          "start_time": 162840,
+          "end_time": 166040,
+          "speaker": "Speaker 2",
+          "content": "Galleria in twenty seventeen sold forty cars."
+        },
+        {
+          "start_time": 167160,
+          "end_time": 168440,
+          "speaker": "Speaker 2",
+          "content": "In the twenty twenty six,"
+        },
+        {
+          "start_time": 169400,
+          "end_time": 172760,
+          "speaker": "Speaker 2",
+          "content": "As of this morning, they sold a hundred and seventy seven cars."
+        },
+        {
+          "start_time": 175240,
+          "end_time": 175480,
+          "speaker": "Speaker 2",
+          "content": "Jesus."
+        },
+        {
+          "start_time": 177440,
+          "end_time": 180640,
+          "speaker": "Speaker 2",
+          "content": "The rest of us can't be that bad, Bill. I mean, Lance."
+        },
+        {
+          "start_time": 182320,
+          "end_time": 182720,
+          "speaker": "Speaker 2",
+          "content": "No."
+        },
+        {
+          "start_time": 182800,
+          "end_time": 183040,
+          "speaker": "Lance",
+          "content": "Well,"
+        },
+        {
+          "start_time": 184240,
+          "end_time": 192080,
+          "speaker": "Lance",
+          "content": "We already know they made all those gains on the back of essentially stealing business from people, going completely against franchise agreements."
+        },
+        {
+          "start_time": 194000,
+          "end_time": 196240,
+          "speaker": "Lance",
+          "content": "You know. Oh, you know, unless the difference."
+        },
+        {
+          "start_time": 196320,
+          "end_time": 201600,
+          "speaker": "Speaker 2",
+          "content": "But the finality is, what are they doing that we're not doing? Is it a people issue?"
+        },
+        {
+          "start_time": 202480,
+          "end_time": 214570,
+          "speaker": "Speaker 2",
+          "content": "You know, Frank thinks that you know we're not, and he's right. We're don't we don't have enough social Media, we don't have enough. Like, there's a TikTok TikTok video that was put out at the Mercedes-Benz store here yesterday."
+        },
+        {
+          "start_time": 215850,
+          "end_time": 218490,
+          "speaker": "Speaker 2",
+          "content": "That's just laughing and making fun of us about recalls."
+        },
+        {
+          "start_time": 219290,
+          "end_time": 220730,
+          "speaker": "Lance",
+          "content": "Oh God, are you serious?"
+        },
+        {
+          "start_time": 221530,
+          "end_time": 222170,
+          "speaker": "Speaker 2",
+          "content": "Yeah, it's bad."
+        },
+        {
+          "start_time": 222730,
+          "end_time": 224730,
+          "speaker": "Speaker 2",
+          "content": "Yeah, my boss is fucking livid."
+        },
+        {
+          "start_time": 224810,
+          "end_time": 228250,
+          "speaker": "Lance",
+          "content": "That's just that's that's you know,"
+        },
+        {
+          "start_time": 231610,
+          "end_time": 232970,
+          "speaker": "Lance",
+          "content": "That's like ridiculously unprofessional."
+        },
+        {
+          "start_time": 234090,
+          "end_time": 234890,
+          "speaker": "Lance",
+          "content": "To be honest with you."
+        },
+        {
+          "start_time": 235920,
+          "end_time": 238080,
+          "speaker": "Speaker 2",
+          "content": "It is, but you know these are young guys."
+        },
+        {
+          "start_time": 238240,
+          "end_time": 239200,
+          "speaker": "Lance",
+          "content": "People don't do that."
+        },
+        {
+          "start_time": 242080,
+          "end_time": 242880,
+          "speaker": "Speaker 2",
+          "content": "Well, they just did it."
+        },
+        {
+          "start_time": 245040,
+          "end_time": 253040,
+          "speaker": "Lance",
+          "content": "Yeah. Yeah, I was sitting with Porsche. Well, what I would like to see it is something that I just started here at Porsche because Porsche was in town and it was top of mind."
+        },
+        {
+          "start_time": 253840,
+          "end_time": 258000,
+          "speaker": "Lance",
+          "content": "They were in town and said,\"Man, y'all, social media looks great. I just want to see some salesmen in it."
+        },
+        {
+          "start_time": 259040,
+          "end_time": 264480,
+          "speaker": "Lance",
+          "content": "\" And that's the same thing for all my stores. I need to see some salesmen. Salesman engagement, right? And so."
+        },
+        {
+          "start_time": 265870,
+          "end_time": 273470,
+          "speaker": "Lance",
+          "content": "So this Tuesday, I literally i i grabbed one. Here's the thing: when I'm in town with you guys, we should better grab two or three, and that's all we need. If we have,"
+        },
+        {
+          "start_time": 274590,
+          "end_time": 277790,
+          "speaker": "Lance",
+          "content": "I want to start seeing a salesman in a video once a week at least."
+        },
+        {
+          "start_time": 278430,
+          "end_time": 283230,
+          "speaker": "Speaker 2",
+          "content": "No, you know, so about every other day. I mean, well, here's the thing: it's different."
+        },
+        {
+          "start_time": 283550,
+          "end_time": 292510,
+          "speaker": "Lance",
+          "content": "No, it's not, and it's different video. So on our own on our own dealer Instagram, it should be and post Facebook, it should be once or twice a week."
+        },
+        {
+          "start_time": 293070,
+          "end_time": 293790,
+          "speaker": "Lance",
+          "content": "But you've got."
+        },
+        {
+          "start_time": 294310,
+          "end_time": 295910,
+          "speaker": "Lance",
+          "content": "Four, five, six salesmen."
+        }
+      ]
+    },
+    {
+      "id": "of_8cb6e699ff8f993a3cc5fbc7768d276c",
+      "name": "BMWJ \u00b7 Social plan + MB TikTok removal + salesman posts",
+      "start_at": "2026-10-30T14:52:25",
+      "created_at": "2026-10-30T14:59:24",
+      "duration_ms": 410000,
+      "vertical": "dealers",
+      "store": "bmwj",
+      "routed_by": "Continuation: TikTok harassment/removal + salesman social program w/ Landon",
+      "status": "park",
+      "work_order": "Park. Lance owns: dig up MB TikTok + removal path; salesman social presentation with Landon when in town. Ada: no build until asked.",
+      "summary_md": "## Takeaway\nContinuation of BMWJ social thread: **remove the MB recall-mock TikTok** (Frank melting down); Lance will dig it up. Plan: **2\u20133 willing salesmen** post (not force everyone); presentation + Landon/mgmt mandate when Lance is in town. Outside video vendor ~$5k floor mentioned and parked.\n\n## Locked / action-shaped\n- **Lance:** find TikTok \u2192 push removal\n- **Lance + Landon:** salesman social sit-down / presentation when on site\n- Optional historical spiff model ($25/post from 2018 reviews era) \u2014 not committed\n\n## Notes\n- Harassment/claim language floated; practical path = removal\n- Video vendor quotes start ~$5k \u2014 not buying now\n- Lance ramping web/AI content; needs on-camera salespeople he can\u2019t solo\n\n## Ada vs Lance\n**Park + Lance.** No Coop artifact until he asks for the deck.\n",
+      "highlights": [
+        {
+          "title": "Remove TikTok",
+          "content": "Lance will dig up MB mock-recall TikTok and get it removed.",
+          "timestamp": 173400
+        },
+        {
+          "title": "2\u20133 salesmen",
+          "content": "Willing posters > force everyone; Landon must back it.",
+          "timestamp": 30380
+        },
+        {
+          "title": "Vendor $5k",
+          "content": "Outside social video services start ~$5k \u2014 not the path now.",
+          "timestamp": 102260
+        }
+      ],
+      "transcript": [
+        {
+          "start_time": 0,
+          "end_time": 1760,
+          "speaker": "Speaker 1",
+          "content": "Myself and have my robots look this up,"
+        },
+        {
+          "start_time": 1760,
+          "end_time": 2560,
+          "speaker": "Lance",
+          "content": "Do some research."
+        },
+        {
+          "start_time": 3040,
+          "end_time": 11040,
+          "speaker": "Speaker 1",
+          "content": "You could almost make a claim against that as harassment, or basically, you know, the technical term for social media."
+        },
+        {
+          "start_time": 12640,
+          "end_time": 12960,
+          "speaker": "Lance",
+          "content": "Oh,"
+        },
+        {
+          "start_time": 14400,
+          "end_time": 19760,
+          "speaker": "Lance",
+          "content": "You might need to have that. We need to have them remove that. Oh,"
+        },
+        {
+          "start_time": 20960,
+          "end_time": 23360,
+          "speaker": "Lance",
+          "content": "Well, that would be me. I need to dig that up. I'll figure that out."
+        },
+        {
+          "start_time": 24240,
+          "end_time": 25440,
+          "speaker": "Lance",
+          "content": "But yeah, no. So what? What?"
+        },
+        {
+          "start_time": 26320,
+          "end_time": 29440,
+          "speaker": "Lance",
+          "content": "And I can. What I can do is put together like almost like a little."
+        },
+        {
+          "start_time": 30380,
+          "end_time": 41180,
+          "speaker": "Lance",
+          "content": "Presentation or a little something. We need to sit down, and even if I just do it with one salesman at a time, but it has to come from you and Landon. Like, hey, this is a requirement. You guys have to start making some of the posts,"
+        },
+        {
+          "start_time": 42300,
+          "end_time": 44860,
+          "speaker": "Lance",
+          "content": "You know. And in the past, we used to do a."
+        },
+        {
+          "start_time": 45820,
+          "end_time": 52460,
+          "speaker": "Lance",
+          "content": "I remember Brett did a. He did a spiff one time. It was like twenty-five bucks for every post."
+        },
+        {
+          "start_time": 53580,
+          "end_time": 60920,
+          "speaker": "Lance",
+          "content": "Um, at that time, it was back when we were trying to get reviews. And like customer posts up,"
+        },
+        {
+          "start_time": 62040,
+          "end_time": 62760,
+          "speaker": "Lance",
+          "content": "Because they were like,"
+        },
+        {
+          "start_time": 63560,
+          "end_time": 69640,
+          "speaker": "Lance",
+          "content": "Oh, when we first took back over in eighteen, the what's it called, the damn like ratings, Google ratings were really low."
+        },
+        {
+          "start_time": 71480,
+          "end_time": 75720,
+          "speaker": "Lance",
+          "content": "It says he was spiffing salesman. Hey, we'll give you twenty five bucks if you go make a social media post."
+        },
+        {
+          "start_time": 77240,
+          "end_time": 77560,
+          "speaker": "Lance",
+          "content": "You know?"
+        },
+        {
+          "start_time": 80600,
+          "end_time": 80840,
+          "speaker": "Lance",
+          "content": "Yeah."
+        },
+        {
+          "start_time": 83800,
+          "end_time": 84280,
+          "speaker": "Lance",
+          "content": "Oh yeah."
+        },
+        {
+          "start_time": 88180,
+          "end_time": 88420,
+          "speaker": "Lance",
+          "content": "Yeah."
+        },
+        {
+          "start_time": 92500,
+          "end_time": 96580,
+          "speaker": "Lance",
+          "content": "Well, do you have what was he? Was it was he that monkey something monkey?"
+        },
+        {
+          "start_time": 98100,
+          "end_time": 98980,
+          "speaker": "Lance",
+          "content": "He's reached back out."
+        },
+        {
+          "start_time": 99620,
+          "end_time": 100340,
+          "speaker": "Speaker 1",
+          "content": "Something monkey."
+        },
+        {
+          "start_time": 102260,
+          "end_time": 111220,
+          "speaker": "Speaker 3",
+          "content": "His his social media so his like his services start at five thousand dollars just for some social media video."
+        },
+        {
+          "start_time": 112980,
+          "end_time": 114580,
+          "speaker": "Speaker 3",
+          "content": "Well, that's just what people charge."
+        },
+        {
+          "start_time": 117670,
+          "end_time": 117750,
+          "speaker": "Speaker 4",
+          "content": "Yep."
+        },
+        {
+          "start_time": 119327,
+          "end_time": 124058,
+          "speaker": "Speaker 4",
+          "content": "Adam Glad,"
+        },
+        {
+          "start_time": 125635,
+          "end_time": 129430,
+          "speaker": "Speaker 5",
+          "content": "Silver one, silver one."
+        },
+        {
+          "start_time": 131094,
+          "end_time": 143302,
+          "speaker": "Speaker 4",
+          "content": "Is two six there? Do you want to send to that back?"
+        },
+        {
+          "start_time": 143318,
+          "end_time": 144230,
+          "speaker": "Speaker 5",
+          "content": "Just a public statement."
+        },
+        {
+          "start_time": 146760,
+          "end_time": 150680,
+          "speaker": "Speaker 5",
+          "content": "So fucking sick of it. Quit my job."
+        },
+        {
+          "start_time": 151480,
+          "end_time": 155960,
+          "speaker": "Speaker 4",
+          "content": "Get some ice cream."
+        },
+        {
+          "start_time": 157480,
+          "end_time": 158680,
+          "speaker": "Speaker 5",
+          "content": "Who's this?"
+        },
+        {
+          "start_time": 161640,
+          "end_time": 166920,
+          "speaker": "Speaker 5",
+          "content": "The fucked up. I see the one over there, but I won't read out of that. But he can sit with Lance, and I'll come sit down with."
+        },
+        {
+          "start_time": 170280,
+          "end_time": 173160,
+          "speaker": "Speaker 5",
+          "content": "Yeah, I think we should be able to have that TikTok removed. That's just."
+        },
+        {
+          "start_time": 173400,
+          "end_time": 174920,
+          "speaker": "Lance",
+          "content": "Yeah, I'm gonna look that up, figure that out."
+        },
+        {
+          "start_time": 175810,
+          "end_time": 178450,
+          "speaker": "Speaker 5",
+          "content": "I had. I was sitting here. Frank sent it to me this morning."
+        },
+        {
+          "start_time": 179170,
+          "end_time": 186690,
+          "speaker": "Speaker 5",
+          "content": "I told him that I saw it yesterday. Well, he's melting down because it don't take much to melt him down."
+        },
+        {
+          "start_time": 188530,
+          "end_time": 195730,
+          "speaker": "Lance",
+          "content": "Yeah, I tell you what's funny is if he thinks we if he thinks we need to work on our social media on our side, I mean those other stores look real bad."
+        },
+        {
+          "start_time": 197410,
+          "end_time": 201090,
+          "speaker": "Speaker 5",
+          "content": "Talk about here. Yeah. Yeah, we got 42 cars out in the west end."
+        },
+        {
+          "start_time": 202770,
+          "end_time": 203010,
+          "speaker": "Lance",
+          "content": "Yeah."
+        },
+        {
+          "start_time": 204440,
+          "end_time": 207080,
+          "speaker": "Lance",
+          "content": "You should be able to beat a BMW easy with a Chevy store."
+        },
+        {
+          "start_time": 208280,
+          "end_time": 214980,
+          "speaker": "Speaker 5",
+          "content": "They're selling. They have more new cars out. Okay. Okay."
+        },
+        {
+          "start_time": 217200,
+          "end_time": 221880,
+          "speaker": "Speaker 4",
+          "content": "Oh shit!"
+        },
+        {
+          "start_time": 221880,
+          "end_time": 224200,
+          "speaker": "Lance",
+          "content": "You started to scare me there. I was about to fucking fire myself."
+        },
+        {
+          "start_time": 233920,
+          "end_time": 235760,
+          "speaker": "Lance",
+          "content": "Well, I'm serious about wanting."
+        },
+        {
+          "start_time": 236800,
+          "end_time": 254720,
+          "speaker": "Lance",
+          "content": "No, no, but I want to make some changes, and I'm I've been ramping up a lot of our content. It's about to get even better, like our video, like our web content for AI and for search engine and all that crap. And but I really want to see us do some video, and I can't do the kind of video we need just myself. Like we need to get some salesmen."
+        },
+        {
+          "start_time": 255680,
+          "end_time": 259200,
+          "speaker": "Lance",
+          "content": "Here's the thing: the whole requiring everyone to do it is great,"
+        },
+        {
+          "start_time": 260160,
+          "end_time": 261279,
+          "speaker": "Lance",
+          "content": "But you don't need everyone."
+        },
+        {
+          "start_time": 262640,
+          "end_time": 267360,
+          "speaker": "Lance",
+          "content": "You need a couple of you like two or three people that are actually into it that already make posts,"
+        },
+        {
+          "start_time": 268160,
+          "end_time": 269760,
+          "speaker": "Lance",
+          "content": "Right? And then you say, \"Hey,"
+        },
+        {
+          "start_time": 270960,
+          "end_time": 274720,
+          "speaker": "Lance",
+          "content": "What the fuck? Why aren't you making posts about the dealership? You work here, you?"
+        },
+        {
+          "start_time": 276720,
+          "end_time": 277920,
+          "speaker": "Lance",
+          "content": "Well, you do, honestly."
+        },
+        {
+          "start_time": 279040,
+          "end_time": 283440,
+          "speaker": "Lance",
+          "content": "But I tell you, your store, that store, is a challenge. Just looking at the people that showed up for that event."
+        },
+        {
+          "start_time": 283440,
+          "end_time": 285440,
+          "speaker": "Speaker 4",
+          "content": "Oh my God,"
+        },
+        {
+          "start_time": 287280,
+          "end_time": 291040,
+          "speaker": "Lance",
+          "content": "God. I guess I didn't realize how skewed your demographic is."
+        },
+        {
+          "start_time": 292440,
+          "end_time": 293400,
+          "speaker": "Lance",
+          "content": "Well,"
+        },
+        {
+          "start_time": 294520,
+          "end_time": 298040,
+          "speaker": "Lance",
+          "content": "I kind of know you. I know how skewed it is, but I just didn't know how bad it was."
+        },
+        {
+          "start_time": 300200,
+          "end_time": 302360,
+          "speaker": "Lance",
+          "content": "Well, where are they buying? Where are they buying?"
+        },
+        {
+          "start_time": 303320,
+          "end_time": 305640,
+          "speaker": "Lance",
+          "content": "Lexus? Yeah, they're only only Lexus."
+        },
+        {
+          "start_time": 307240,
+          "end_time": 308920,
+          "speaker": "Lance",
+          "content": "Yeah, you know, white people they stay buying Lexuses."
+        },
+        {
+          "start_time": 309560,
+          "end_time": 311240,
+          "speaker": "Lance",
+          "content": "That's a problem here. I mean, that's why you know,"
+        },
+        {
+          "start_time": 311800,
+          "end_time": 318360,
+          "speaker": "Lance",
+          "content": "We were looking at our numbers compared to Lexus this year. Like right now, year over year, and like where we are this year, just with this Lexus store in Baton Rouge."
+        },
+        {
+          "start_time": 319400,
+          "end_time": 321480,
+          "speaker": "Lance",
+          "content": "This thing is in the same fucking neighborhood."
+        },
+        {
+          "start_time": 322560,
+          "end_time": 324720,
+          "speaker": "Speaker 5",
+          "content": "Dude, you get killed. That's bad."
+        },
+        {
+          "start_time": 325680,
+          "end_time": 326800,
+          "speaker": "Lance",
+          "content": "But you, but you, but here,"
+        },
+        {
+          "start_time": 327920,
+          "end_time": 340560,
+          "speaker": "Lance",
+          "content": "But here, and y'all. I think y'all the same. Well, positive, you know. Shit, it's positive for you if you. I mean, you own a piece of it. But it's like Lexus in that town. I feel like has done almost the same thing as this town. This town,"
+        },
+        {
+          "start_time": 341520,
+          "end_time": 345200,
+          "speaker": "Lance",
+          "content": "The price of our name is a legacy. It has been since literally like '82."
+        },
+        {
+          "start_time": 347440,
+          "end_time": 351280,
+          "speaker": "Lance",
+          "content": "You know, and so they're Toyota, and they roll them into Lexus, and."
+        },
+        {
+          "start_time": 353450,
+          "end_time": 354890,
+          "speaker": "Lance",
+          "content": "Anyway, all right, sir."
+        },
+        {
+          "start_time": 356170,
+          "end_time": 364330,
+          "speaker": "Lance",
+          "content": "I'm gonna make a plan, but what we need, and maybe I'll, what I'll tell you, what I'll do, I'll email you and Landon, and we'll say, hey, let's pick, let's pick two people or three people,"
+        },
+        {
+          "start_time": 365130,
+          "end_time": 368650,
+          "speaker": "Lance",
+          "content": "And when I'm in town, instead of me just bullshitting with you and Landon, let's,"
+        },
+        {
+          "start_time": 370010,
+          "end_time": 372650,
+          "speaker": "Lance",
+          "content": "Let's get them going and say, hey, this is what we need to be doing."
+        },
+        {
+          "start_time": 373210,
+          "end_time": 378570,
+          "speaker": "Lance",
+          "content": "We know you're not selling, but if you only, if you're a salesman and you only sell, sell eight cars this month, you got time."
+        },
+        {
+          "start_time": 380730,
+          "end_time": 385900,
+          "speaker": "Speaker 5",
+          "content": "Yeah, but the problem is. They're soul mate calls, and not the people that you and I need to have to make videos."
+        },
+        {
+          "start_time": 385900,
+          "end_time": 388620,
+          "speaker": "Speaker 4",
+          "content": "All right,"
+        },
+        {
+          "start_time": 388780,
+          "end_time": 389580,
+          "speaker": "Lance",
+          "content": "We'll figure that out."
+        },
+        {
+          "start_time": 390300,
+          "end_time": 391660,
+          "speaker": "Speaker 5",
+          "content": "Believe me,"
+        },
+        {
+          "start_time": 391660,
+          "end_time": 393740,
+          "speaker": "Lance",
+          "content": "I know. Believe me, I know. I'm. I'm."
+        },
+        {
+          "start_time": 394620,
+          "end_time": 395260,
+          "speaker": "Lance",
+          "content": "No, no, no."
+        },
+        {
+          "start_time": 397260,
+          "end_time": 402300,
+          "speaker": "Lance",
+          "content": "Let me go sit in this. Let me go sit in this meeting, and I'll, I'll holler at you later on."
+        },
+        {
+          "start_time": 403740,
+          "end_time": 404620,
+          "speaker": "Lance",
+          "content": "All right, thank you, sir."
+        }
+      ]
+    },
+    {
+      "id": "of_1f25c5cb8e2bd24dca986f839e304965",
+      "name": "ABR \u00b7 Used lead rule rebuild + 1.99 banners + 2026/27 inventory",
+      "start_at": "2026-10-30T15:08:41",
+      "created_at": "2026-10-30T15:18:10",
+      "duration_ms": 561000,
+      "vertical": "dealers",
+      "store": "abr",
+      "routed_by": "Audi BR floor: Vin used-car lead assignment + inventory/CPO + evergreen 1.99 banners",
+      "status": "park",
+      "work_order": "Park. Lance owns: delete/rebuild ABR used-car lead assignment rule in Vin. Banner 1.99 evergreen + two roadside banners = store decision still soft. No Ada CRM write.",
+      "summary_md": "## Takeaway\n**ABR** ops: Lance will **delete and rebuild the used-car lead assignment rule** in Vin (leads still need to hit someone even when off). Soft talk on **two evergreen 1.99 \u201cnew Audi\u201d banners**. Inventory: ~10\u00d72027 + 78\u00d72026 (35 in loaner); $400 mini on in-stock 2026s floated; Q5 soft vs region (Atlanta 12 / Marietta 9 Q5s out). CPO rate/cert path unclear \u2014 no lock.\n\n## Locked / action-shaped\n- **Lance:** delete + rebuild **used car lead assignment rule**\n- Banners: lean evergreen \u201c1.99 available now on a new Audi\u201d \u00d72 \u2014 not final art brief\n- Check enhancements ~2nd/3rd next month\n\n## Notes\n- Area softer month; ABR relative outperformance on Q5 still thin vs big hitters\n- Q7/Q8 ok; Q5/A5 concern\n- Loaner vs retail 2026s + adding 2027s to fleet \u2014 no final\n\n## Ada vs Lance\n**Park + Lance (Vin rule).** Do not touch client CRM from Mini. Creative banner only if he says go.\n",
+      "highlights": [
+        {
+          "title": "Lead rule",
+          "content": "Delete and rebuild used-car lead assignment rule; Lance will fix.",
+          "timestamp": 9040
+        },
+        {
+          "title": "1.99 banners",
+          "content": "Evergreen 1.99 new Audi; two banners (used + road).",
+          "timestamp": 122330
+        },
+        {
+          "title": "Inventory",
+          "content": "~10 2027s + 78 2026s (35 loaner); Q5 pressure region-wide.",
+          "timestamp": 129770
+        }
+      ],
+      "transcript": [
+        {
+          "start_time": 80,
+          "end_time": 640,
+          "speaker": "Lance",
+          "content": "So I'll."
+        },
+        {
+          "start_time": 720,
+          "end_time": 2240,
+          "speaker": "Speaker 2",
+          "content": "Bring us Thursday, and he's off."
+        },
+        {
+          "start_time": 2400,
+          "end_time": 7920,
+          "speaker": "Lance",
+          "content": "I mean, look, some of the leads might be coming through when he's not here, but no, he should be getting. I'll just delete the whole thing."
+        },
+        {
+          "start_time": 9040,
+          "end_time": 15680,
+          "speaker": "Lance",
+          "content": "Delete the used car lead assignment rule. That's what it's called, and fucking rebuild it. I don't know,"
+        },
+        {
+          "start_time": 16560,
+          "end_time": 17840,
+          "speaker": "Lance",
+          "content": "But no, that day I looked at it,"
+        },
+        {
+          "start_time": 18480,
+          "end_time": 20480,
+          "speaker": "Lance",
+          "content": "Called you, but yeah, so I don't know."
+        },
+        {
+          "start_time": 20480,
+          "end_time": 21760,
+          "speaker": "Speaker 2",
+          "content": "That's weird."
+        },
+        {
+          "start_time": 22480,
+          "end_time": 23280,
+          "speaker": "Lance",
+          "content": "Because I was worried."
+        },
+        {
+          "start_time": 23280,
+          "end_time": 27280,
+          "speaker": "Speaker 2",
+          "content": "I looked in the settings. I didn't really see anything that was. Yeah."
+        },
+        {
+          "start_time": 31570,
+          "end_time": 34450,
+          "speaker": "Speaker 2",
+          "content": "I can't put a lot of people's names there."
+        },
+        {
+          "start_time": 34530,
+          "end_time": 37570,
+          "speaker": "Lance",
+          "content": "Once they're in it, they're in it."
+        },
+        {
+          "start_time": 37570,
+          "end_time": 39570,
+          "speaker": "Speaker 2",
+          "content": "I could, but it'll cause just as much. Oh, I know."
+        },
+        {
+          "start_time": 41250,
+          "end_time": 43890,
+          "speaker": "Lance",
+          "content": "Yeah. It'll cause a fracas. I'll get it fixed."
+        },
+        {
+          "start_time": 47890,
+          "end_time": 56850,
+          "speaker": "Lance",
+          "content": "So for next month, are we just we're gonna kind of wait and see what we get? I think we'll get some enhancements a little bit again. Are we gonna kind of? We have right now is good. I'm just kind of getting the conversation started."
+        },
+        {
+          "start_time": 57650,
+          "end_time": 59810,
+          "speaker": "Speaker 3",
+          "content": "Yeah, yeah. If anything enhances, we'll change."
+        },
+        {
+          "start_time": 59810,
+          "end_time": 62470,
+          "speaker": "Lance",
+          "content": "Yeah. We'll yeah we'll check it on the second third."
+        },
+        {
+          "start_time": 62950,
+          "end_time": 78150,
+          "speaker": "Speaker 3",
+          "content": "I would think they I think they're probably okay. And the only reason I'm saying that is because during summer body we didn't get enough so maybe season the body we might go back to two thousand to fifteen hundred. That's just a guess."
+        },
+        {
+          "start_time": 79110,
+          "end_time": 85190,
+          "speaker": "Speaker 3",
+          "content": "I think you'll probably I think you'll see more shit on Q fox."
+        },
+        {
+          "start_time": 86470,
+          "end_time": 91580,
+          "speaker": "Speaker 2",
+          "content": "How how long does it take to get a banner for? Like a 1.9 percent 1."
+        },
+        {
+          "start_time": 91580,
+          "end_time": 93180,
+          "speaker": "Speaker 4",
+          "content": "99 for a couple days."
+        },
+        {
+          "start_time": 93740,
+          "end_time": 95260,
+          "speaker": "Lance",
+          "content": "Do you want to like do that for the road?"
+        },
+        {
+          "start_time": 95340,
+          "end_time": 103260,
+          "speaker": "Speaker 2",
+          "content": "I almost think we should just do it. Like we talked about it, doing both banners. Put one banner by used cars, and then like another one as we get."
+        },
+        {
+          "start_time": 103340,
+          "end_time": 107020,
+          "speaker": "Lance",
+          "content": "Yeah, we'll get two. Two of the same thing because we can do."
+        },
+        {
+          "start_time": 108220,
+          "end_time": 109980,
+          "speaker": "Lance",
+          "content": "We did this for like more sports."
+        },
+        {
+          "start_time": 110300,
+          "end_time": 110940,
+          "speaker": "Speaker 3",
+          "content": "We can do 1."
+        },
+        {
+          "start_time": 110940,
+          "end_time": 118060,
+          "speaker": "Lance",
+          "content": "9 new Audi, and like not put one model and all that shit, and then it kind of makes it more evergreen. Like we did that for BMW a while back, and it was."
+        },
+        {
+          "start_time": 118890,
+          "end_time": 120250,
+          "speaker": "Lance",
+          "content": "You know, because we can keep the sign up."
+        },
+        {
+          "start_time": 120890,
+          "end_time": 121930,
+          "speaker": "Speaker 2",
+          "content": "Yeah, because I bet they're gonna."
+        },
+        {
+          "start_time": 122330,
+          "end_time": 125290,
+          "speaker": "Lance",
+          "content": "We'll put you know one point nine nine available now on a new on a new Audi."
+        },
+        {
+          "start_time": 125610,
+          "end_time": 128729,
+          "speaker": "Speaker 2",
+          "content": "Did you see how many people had Q Fox out?"
+        },
+        {
+          "start_time": 129770,
+          "end_time": 145370,
+          "speaker": "Speaker 2",
+          "content": "Like the when he sent the report out today for the bonus for the fifteen hundred bonus. And like I think I think Audi Atlanta had like twelve. Marietta had nine."
+        },
+        {
+          "start_time": 146300,
+          "end_time": 159580,
+          "speaker": "Speaker 2",
+          "content": "Nobody. I mean, honestly, we have we've done pretty well considering, like, all the big hitters that are have only sold like the most anybody sold was Audi Atlanta, and they had they had twelve Q5s out."
+        },
+        {
+          "start_time": 159900,
+          "end_time": 164860,
+          "speaker": "Speaker 3",
+          "content": "The area is having a worse month than it did last month."
+        },
+        {
+          "start_time": 166380,
+          "end_time": 173900,
+          "speaker": "Speaker 3",
+          "content": "I I really don't quite understand the relative success that we've had."
+        },
+        {
+          "start_time": 174430,
+          "end_time": 178110,
+          "speaker": "Speaker 3",
+          "content": "And I'm calling it relative success because relative to to other people,"
+        },
+        {
+          "start_time": 178350,
+          "end_time": 183150,
+          "speaker": "Speaker 5",
+          "content": "But so."
+        },
+        {
+          "start_time": 183390,
+          "end_time": 185230,
+          "speaker": "Speaker 2",
+          "content": "But I would think nothing about the kids like that."
+        },
+        {
+          "start_time": 185310,
+          "end_time": 186350,
+          "speaker": "Speaker 3",
+          "content": "Nothing about changing that."
+        },
+        {
+          "start_time": 186590,
+          "end_time": 193150,
+          "speaker": "Speaker 2",
+          "content": "Well, I'm saying I think that because those numbers look bad, I'm sure the whole country looks bad. On the FOS, they're going to do."
+        },
+        {
+          "start_time": 193230,
+          "end_time": 195630,
+          "speaker": "Speaker 3",
+          "content": "The numbers are coming in. I mean, yeah."
+        },
+        {
+          "start_time": 196190,
+          "end_time": 199870,
+          "speaker": "Speaker 4",
+          "content": "Look at our. We've we've sold some FOS and look at our inventory."
+        },
+        {
+          "start_time": 199870,
+          "end_time": 201150,
+          "speaker": "Speaker 3",
+          "content": "Yeah, like thirty-five of them."
+        },
+        {
+          "start_time": 201390,
+          "end_time": 202190,
+          "speaker": "Speaker 4",
+          "content": "Yeah, everybody else."
+        },
+        {
+          "start_time": 202270,
+          "end_time": 203550,
+          "speaker": "Speaker 3",
+          "content": "Atlanta's probably got over a hundred."
+        },
+        {
+          "start_time": 204050,
+          "end_time": 209330,
+          "speaker": "Lance",
+          "content": "Did they bulk it up because they knew they were going to be making less for a little while,"
+        },
+        {
+          "start_time": 209810,
+          "end_time": 210210,
+          "speaker": "Speaker 3",
+          "content": "Or is it?"
+        },
+        {
+          "start_time": 211570,
+          "end_time": 212770,
+          "speaker": "Speaker 3",
+          "content": "No, no,"
+        },
+        {
+          "start_time": 212770,
+          "end_time": 215330,
+          "speaker": "Lance",
+          "content": "No. BMW used to do that. They'd send you a bunch, and then you were going to be."
+        },
+        {
+          "start_time": 215330,
+          "end_time": 220450,
+          "speaker": "Speaker 3",
+          "content": "It's basically it's accumulated over months of not selling enough Q fives."
+        },
+        {
+          "start_time": 220450,
+          "end_time": 221970,
+          "speaker": "Speaker 4",
+          "content": "Yeah, I was looking at,"
+        },
+        {
+          "start_time": 222530,
+          "end_time": 236930,
+          "speaker": "Speaker 4",
+          "content": "God Sugarland. Sugarland combines their inventory with North Houston because we had a because of Jack's people who were down there looking at the Sportback and they were also shopping. Do you remember that the black people?"
+        },
+        {
+          "start_time": 237730,
+          "end_time": 241810,
+          "speaker": "Speaker 4",
+          "content": "They have fucking combined thirty-eight Sportbacks and stuff between the two dealerships."
+        },
+        {
+          "start_time": 242770,
+          "end_time": 245330,
+          "speaker": "Speaker 3",
+          "content": "Jesus Christ, Lord, that's a lot."
+        },
+        {
+          "start_time": 246770,
+          "end_time": 247170,
+          "speaker": "Speaker 4",
+          "content": "So,"
+        },
+        {
+          "start_time": 249170,
+          "end_time": 260190,
+          "speaker": "Speaker 4",
+          "content": "One thing I was thinking, and y'all tell me what y'all think. I'm looking at the inventory, and we have seventy-eight out of it. So we have ten twenty sevens on the lot and seventy eight twenty sixes on the lot."
+        },
+        {
+          "start_time": 261149,
+          "end_time": 272510,
+          "speaker": "Speaker 4",
+          "content": "When we look at loaners, I was basically going to try to almost skip like twenty six year model to where we have like thirty five twenty sixes in loaner right now."
+        },
+        {
+          "start_time": 273950,
+          "end_time": 298110,
+          "speaker": "Speaker 4",
+          "content": "And basically, what I'm asking is, is it worth it to put like instead of a three hundred mini, do a four hundred mini on twenty sixes in stock? So like. We attack twenty sixes and don't just start selling twenty sevens. Yeah, sure. To where like I don't have to put a ton of twenty sixes into loaner to where like maybe fifty twenty sixes total for the year and then just sell them twenty sevens."
+        },
+        {
+          "start_time": 298750,
+          "end_time": 302190,
+          "speaker": "Speaker 4",
+          "content": "Yeah, we can at least come out and make some money. Yeah, I'm saying yeah. Great."
+        },
+        {
+          "start_time": 304190,
+          "end_time": 307870,
+          "speaker": "Speaker 3",
+          "content": "Yeah, I think I think salespeople are going to naturally sell the twenty sixes anyway."
+        },
+        {
+          "start_time": 308190,
+          "end_time": 310750,
+          "speaker": "Speaker 4",
+          "content": "If you I would agree with that if we had good salespeople. Yeah."
+        },
+        {
+          "start_time": 311290,
+          "end_time": 313930,
+          "speaker": "Speaker 3",
+          "content": "I mean, Jack is not going to share a fucking twenty-seven. Agreed,"
+        },
+        {
+          "start_time": 314650,
+          "end_time": 316650,
+          "speaker": "Speaker 3",
+          "content": "But we have. If I don't know,"
+        },
+        {
+          "start_time": 316650,
+          "end_time": 317050,
+          "speaker": "Speaker 4",
+          "content": "Yeah."
+        },
+        {
+          "start_time": 318970,
+          "end_time": 321050,
+          "speaker": "Speaker 4",
+          "content": "So I don't know. Give me some thought."
+        },
+        {
+          "start_time": 321210,
+          "end_time": 321930,
+          "speaker": "Speaker 3",
+          "content": "You can do it."
+        },
+        {
+          "start_time": 321930,
+          "end_time": 326890,
+          "speaker": "Speaker 4",
+          "content": "But I would like to retail out of twenty-sixes rather than dump them in the loaner."
+        },
+        {
+          "start_time": 326970,
+          "end_time": 331930,
+          "speaker": "Speaker 3",
+          "content": "Yeah, of course, of course. Now, the bulk of the twenty-sixes we've got."
+        },
+        {
+          "start_time": 332490,
+          "end_time": 334970,
+          "speaker": "Speaker 3",
+          "content": "Obviously, some some Q sevens, which I think they take care of."
+        },
+        {
+          "start_time": 334970,
+          "end_time": 336170,
+          "speaker": "Speaker 4",
+          "content": "Q sevens are going to be fine."
+        },
+        {
+          "start_time": 336970,
+          "end_time": 343760,
+          "speaker": "Speaker 4",
+          "content": "Q eights are probably going to be fine. Everything seems to be fine except for Q5 and maybe A5. Q5, you know,"
+        },
+        {
+          "start_time": 344800,
+          "end_time": 347760,
+          "speaker": "Speaker 3",
+          "content": "We've got what one twenty-seven coming in on Q5."
+        },
+        {
+          "start_time": 347760,
+          "end_time": 349520,
+          "speaker": "Speaker 4",
+          "content": "Yeah, we don't even have twenty-sevens. Yeah,"
+        },
+        {
+          "start_time": 351040,
+          "end_time": 354480,
+          "speaker": "Speaker 3",
+          "content": "It's funny how late they are into the game with their smiles. Yeah, if you want to do it,"
+        },
+        {
+          "start_time": 354480,
+          "end_time": 357600,
+          "speaker": "Speaker 5",
+          "content": "Let's do it."
+        },
+        {
+          "start_time": 357600,
+          "end_time": 361200,
+          "speaker": "Speaker 3",
+          "content": "I agree with you though. If if you could start putting twenty-sevens into the fleet,"
+        },
+        {
+          "start_time": 362320,
+          "end_time": 363920,
+          "speaker": "Speaker 3",
+          "content": "Would be ideal."
+        },
+        {
+          "start_time": 366160,
+          "end_time": 367840,
+          "speaker": "Speaker 4",
+          "content": "Yeah, because you look at it and you have."
+        },
+        {
+          "start_time": 369530,
+          "end_time": 371370,
+          "speaker": "Speaker 3",
+          "content": "Hopefully at the next year,"
+        },
+        {
+          "start_time": 371370,
+          "end_time": 378250,
+          "speaker": "Speaker 4",
+          "content": "We're we're we have fifty twenty six is max. We have to sell for the whole year, you know, rather than fifty in the last quarter."
+        },
+        {
+          "start_time": 378330,
+          "end_time": 379370,
+          "speaker": "Speaker 3",
+          "content": "Yeah, yeah."
+        },
+        {
+          "start_time": 381130,
+          "end_time": 382730,
+          "speaker": "Speaker 3",
+          "content": "Yeah, we won't be in the position if we're at this."
+        },
+        {
+          "start_time": 390010,
+          "end_time": 393050,
+          "speaker": "Speaker 2",
+          "content": "Yeah, that's a that's a tough hurdle that I don't know how to."
+        },
+        {
+          "start_time": 397950,
+          "end_time": 401470,
+          "speaker": "Speaker 2",
+          "content": "Unless they come out with something like we were talking about with CPOs,"
+        },
+        {
+          "start_time": 402030,
+          "end_time": 406990,
+          "speaker": "Speaker 2",
+          "content": "Unless they come out with something crazy on CPO interest rates, like what's the point of?"
+        },
+        {
+          "start_time": 408030,
+          "end_time": 410030,
+          "speaker": "Speaker 2",
+          "content": "I mean, sure they're way cheaper,"
+        },
+        {
+          "start_time": 410030,
+          "end_time": 410990,
+          "speaker": "Speaker 4",
+          "content": "But yeah."
+        },
+        {
+          "start_time": 412430,
+          "end_time": 415070,
+          "speaker": "Speaker 4",
+          "content": "And now you're looking at one nine nine and two nine nine, where it's like,"
+        },
+        {
+          "start_time": 417150,
+          "end_time": 422190,
+          "speaker": "Speaker 4",
+          "content": "For sure, it's gonna be six thousand dollars difference between the two, so it almost makes them the same."
+        },
+        {
+          "start_time": 425550,
+          "end_time": 426910,
+          "speaker": "Speaker 2",
+          "content": "Yeah. Yeah, it's like they, yeah."
+        },
+        {
+          "start_time": 427420,
+          "end_time": 430940,
+          "speaker": "Speaker 2",
+          "content": "It's good. I'm dead to do it, but at the same time, it fucks the."
+        },
+        {
+          "start_time": 432620,
+          "end_time": 437820,
+          "speaker": "Speaker 4",
+          "content": "Now I do believe some used car shoppers are just going to be used car shoppers. Yeah."
+        },
+        {
+          "start_time": 438140,
+          "end_time": 460710,
+          "speaker": "Speaker 2",
+          "content": "I I kind of hope I'm hoping that they run the same interest rate on the twenty fives. Like if they come out and say CPO loaners are one nine two, and then we can just certify them and fucking. Advertise one nine on them, then it makes sense because if you can get the same rate on the cheaper car,"
+        },
+        {
+          "start_time": 460710,
+          "end_time": 461990,
+          "speaker": "Speaker 4",
+          "content": "Then yeah, yeah."
+        },
+        {
+          "start_time": 462470,
+          "end_time": 481350,
+          "speaker": "Speaker 5",
+          "content": "Well, it's usually a sense about CPM for advance and you can get more carry on CPM. Hmm."
+        },
+        {
+          "start_time": 498980,
+          "end_time": 506020,
+          "speaker": "Speaker 3",
+          "content": "It's eight hundred bucks, and then plus the service service bill,"
+        },
+        {
+          "start_time": 506020,
+          "end_time": 509460,
+          "speaker": "Speaker 2",
+          "content": "Twelve hundred. Do you still get a? They're getting a copy of your Saturday whenever you want to."
+        },
+        {
+          "start_time": 509540,
+          "end_time": 518659,
+          "speaker": "Speaker 4",
+          "content": "Do you still get a UCI, or is it just the? Do you still get a UCI, or is it just the CPO inspection?"
+        },
+        {
+          "start_time": 518659,
+          "end_time": 520260,
+          "speaker": "Speaker 3",
+          "content": "If you do the fish, we should have."
+        },
+        {
+          "start_time": 520419,
+          "end_time": 531820,
+          "speaker": "Speaker 2",
+          "content": "If you do the fish, we should have been given them. But I think I don't even know if they're even inspecting them. I don't even know what because I don't. I don't get any of that information until the car gets to me. Wait, but it should have been."
+        },
+        {
+          "start_time": 531900,
+          "end_time": 536540,
+          "speaker": "Speaker 3",
+          "content": "Specifically, all we gotta really do to get these things certified at this point in time, because they've already gone through,"
+        },
+        {
+          "start_time": 537580,
+          "end_time": 540460,
+          "speaker": "Speaker 3",
+          "content": "You'll have to put them on a you have to put them on a scan."
+        },
+        {
+          "start_time": 541660,
+          "end_time": 545020,
+          "speaker": "Speaker 3",
+          "content": "So if the battery is low, yes, you're gonna get hit for that."
+        },
+        {
+          "start_time": 545580,
+          "end_time": 550380,
+          "speaker": "Speaker 3",
+          "content": "You gotta put them on a scan, and then you gotta do the paperwork, and you gotta run time. Think this."
+        },
+        {
+          "start_time": 550620,
+          "end_time": 551660,
+          "speaker": "Speaker 2",
+          "content": "Yeah, guys, here's the jet."
+        },
+        {
+          "start_time": 551900,
+          "end_time": 554300,
+          "speaker": "Speaker 3",
+          "content": "Okay, so they do that."
+        },
+        {
+          "start_time": 556230,
+          "end_time": 560470,
+          "speaker": "Speaker 3",
+          "content": "If you get that you want to go back and see if some of these things, I'll talk to Taylor and just."
+        }
+      ]
+    },
+    {
+      "id": "of_f452cb897f6184b6f4bd129723a10232",
+      "name": "ABR \u00b7 Food & Wine Fest / Country Roads car placement (Q7/Q9)",
+      "start_at": "2026-10-30T15:20:24",
+      "created_at": "2026-10-30T15:27:27",
+      "duration_ms": 414000,
+      "vertical": "dealers",
+      "store": "abr",
+      "routed_by": "Country Roads / Myrtles Food & Wine Festival sponsorship + vehicle placement",
+      "status": "park",
+      "work_order": "Park. Wait Lex/Country Roads follow-up today on offerings + demos. Possible late bare-bones car placement $1\u20132k or free spot; plan early for next year. No spend without Lance lock.",
+      "summary_md": "## Takeaway\n**Country Roads / Myrtles Food & Wine Festival** auto-partner chat. Jaguar long-time sponsor; Richard Condon Saturday commitments must be honored. Lance pitching **ABR Q9 + refreshed Q7** \u2014 late this year bare-bones placement (~$1\u20132k or just a car + windshield cling) and **early lock for next year**. Lex to send Country Roads offerings + demographics later today.\n\n## Locked / action-shaped\n- Wait **Lex follow-up** (offerings / auto slots / demos)\n- Organizer checks Saturday vs Condon before promising a spot\n- Next-year planning preferred over forced late entry\n\n## Notes\n- Sunday Grand Taste primary; daily auto partners\n- Chef from Gautreau\u2019s; ~70\u201375 dinner attendees\n- Ferrari status in flux \u2014 possible opening\n- Coop = three BH stores + BMWJ\n\n## Ada vs Lance\n**Park.** No deposit/creative until Lex reply + Lance go.\n",
+      "highlights": [
+        {
+          "title": "Q7/Q9 pitch",
+          "content": "Lance wants Q9 + updated Q7 visibility at Food & Wine.",
+          "timestamp": 47450
+        },
+        {
+          "title": "Budget band",
+          "content": "~$1\u20132k or bare-bones car + cling this late.",
+          "timestamp": 250850
+        },
+        {
+          "title": "Lex follow-up",
+          "content": "Country Roads offerings + demos later today.",
+          "timestamp": 0
+        }
+      ],
+      "transcript": [
+        {
+          "start_time": 240,
+          "end_time": 9120,
+          "speaker": "Speaker 1",
+          "content": "And the big event is the Sunday Grand Taste. Yep. But the the thing is, we have an auto partner each day all day."
+        },
+        {
+          "start_time": 9120,
+          "end_time": 12320,
+          "speaker": "Lance",
+          "content": "I kind of look this late in the party. I'm not surprised."
+        },
+        {
+          "start_time": 13520,
+          "end_time": 26320,
+          "speaker": "Speaker 1",
+          "content": "So, the Jaguar Jaguar has been. They've been the sponsor. Our kind of like auto sponsor for seven years, six or seven years,"
+        },
+        {
+          "start_time": 27200,
+          "end_time": 44810,
+          "speaker": "Speaker 1",
+          "content": "And they bring cars out. Richard Condon. Has come on two years for set. This is only the third year we've done the Saturday event. Yeah. But um. But I will say, if something changes, if there has there's been some flux with Ferrari, you know, if something changes, we would be thrilled to talk to you guys about it."
+        },
+        {
+          "start_time": 45130,
+          "end_time": 46570,
+          "speaker": "Lance",
+          "content": "Yeah. Let us know. And and I think,"
+        },
+        {
+          "start_time": 47450,
+          "end_time": 54250,
+          "speaker": "Lance",
+          "content": "I think I could. So this year it's super. It's super top of mind for us trying to get. We have a Q9 that just didn't exist before."
+        },
+        {
+          "start_time": 55450,
+          "end_time": 55770,
+          "speaker": "Lance",
+          "content": "Yeah."
+        },
+        {
+          "start_time": 56570,
+          "end_time": 59370,
+          "speaker": "Lance",
+          "content": "Yeah. Yep. Yep. And then the Q7. So Audi went."
+        },
+        {
+          "start_time": 60210,
+          "end_time": 69650,
+          "speaker": "Lance",
+          "content": "Longer than they should have updating the Q7, and so they have a fresh Q7. It's hitting right now too, and then the Q9, which is a whole new car. But, but anyway,"
+        },
+        {
+          "start_time": 70210,
+          "end_time": 76050,
+          "speaker": "Lance",
+          "content": "I think that I it would it would. But I think let's you know if we can talk about next year,"
+        },
+        {
+          "start_time": 76930,
+          "end_time": 82130,
+          "speaker": "Lance",
+          "content": "Early. You know I I know yeah. Let's find a spot like you know one of the days."
+        },
+        {
+          "start_time": 83090,
+          "end_time": 85410,
+          "speaker": "Lance",
+          "content": "So is there a Friday also? What."
+        },
+        {
+          "start_time": 89880,
+          "end_time": 90200,
+          "speaker": "Speaker 1",
+          "content": "Oh cool."
+        },
+        {
+          "start_time": 92840,
+          "end_time": 114600,
+          "speaker": "Speaker 1",
+          "content": "Yeah. We've done a number, and so I, my main work is with Country Roads Magazine. That's what we, my husband and I, on Country Roads. Oh cool. We part. Yeah, we partner with the owners of the Myrtles and created. That's who the four of us run the Food Wine Festival. Morgan and Lizzie from the Myrtles. Yeah."
+        },
+        {
+          "start_time": 115240,
+          "end_time": 117000,
+          "speaker": "Speaker 1",
+          "content": "And Country Roads did a summer."
+        },
+        {
+          "start_time": 119330,
+          "end_time": 132290,
+          "speaker": "Speaker 1",
+          "content": "I don't know if you were ever familiar with that, but we would\u2014it was like pop-up dinners in different places. We did one behind at a deep-seated church, and we did we did them all over the place. This chef from Dakar,"
+        },
+        {
+          "start_time": 132930,
+          "end_time": 141650,
+          "speaker": "Speaker 1",
+          "content": "NOLA, at Laurel Plantation, where he did recipes from Senegalese. Like this was years ago."
+        },
+        {
+          "start_time": 142290,
+          "end_time": 145410,
+          "speaker": "Speaker 1",
+          "content": "I know it was really\u2014it's been so fun to watch his rise. Yeah."
+        },
+        {
+          "start_time": 149520,
+          "end_time": 160000,
+          "speaker": "Speaker 1",
+          "content": "Sort of sunsetting those at the pandemic, and then, but for the festival we were doing some dinners outside, and then it just got too difficult, so we folded it into the Myrtles."
+        },
+        {
+          "start_time": 160560,
+          "end_time": 164800,
+          "speaker": "Speaker 1",
+          "content": "And this year the chef from Gautreau's in New Orleans is coming to cook."
+        },
+        {
+          "start_time": 165440,
+          "end_time": 170800,
+          "speaker": "Speaker 1",
+          "content": "Yeah. And it's like wine pairings with Reynolds and wineries,"
+        },
+        {
+          "start_time": 171520,
+          "end_time": 173280,
+          "speaker": "Speaker 1",
+          "content": "So that's just amazing. Okay."
+        },
+        {
+          "start_time": 181020,
+          "end_time": 195260,
+          "speaker": "Speaker 1",
+          "content": "Which only has about, this event has about seventy, seventy-five attendees. So I think, I mean, if that's the same principal area, I don't, I don't think I'll tell you you're taking up space for what you're looking for."
+        },
+        {
+          "start_time": 195260,
+          "end_time": 203180,
+          "speaker": "Lance",
+          "content": "Well, look, I mean, honestly, this late, I'm like, I don't know, you know, kind of. If you have something, that look, they would be ecstatic if we had a spot we could park the car,"
+        },
+        {
+          "start_time": 204540,
+          "end_time": 206060,
+          "speaker": "Lance",
+          "content": "Come up with a freaking sponsorship."
+        },
+        {
+          "start_time": 208700,
+          "end_time": 209340,
+          "speaker": "Lance",
+          "content": "I'm serious."
+        },
+        {
+          "start_time": 213030,
+          "end_time": 213990,
+          "speaker": "Speaker 1",
+          "content": "Okay, yeah."
+        },
+        {
+          "start_time": 215910,
+          "end_time": 216230,
+          "speaker": "Speaker 1",
+          "content": "Okay."
+        },
+        {
+          "start_time": 217270,
+          "end_time": 233350,
+          "speaker": "Speaker 1",
+          "content": "It is a Saturday. I just need to make sure I am honoring what we have told Richard Condon, which is which is across the street. I don't think they're bring cars. Oh, I don't think they're bring cars. Okay, I'm gonna find out about that. Find out."
+        },
+        {
+          "start_time": 233670,
+          "end_time": 239270,
+          "speaker": "Lance",
+          "content": "And look, and and honestly, if it's a thing where where it's a spot where we can park the car, and you tell us when,"
+        },
+        {
+          "start_time": 239830,
+          "end_time": 241350,
+          "speaker": "Lance",
+          "content": "We'll park it as early as we can."
+        },
+        {
+          "start_time": 242610,
+          "end_time": 244370,
+          "speaker": "Lance",
+          "content": "And leave it as long as we can. You know what I'm saying?"
+        },
+        {
+          "start_time": 244370,
+          "end_time": 248370,
+          "speaker": "Speaker 1",
+          "content": "Do you have a set for what your sponsorship budget is?"
+        },
+        {
+          "start_time": 248930,
+          "end_time": 249810,
+          "speaker": "Lance",
+          "content": "I don't know. I mean,"
+        },
+        {
+          "start_time": 250850,
+          "end_time": 258529,
+          "speaker": "Lance",
+          "content": "You tell me. Are we thinking a thousand, a couple thousand? Like, you know, what do you think? That's probably what it. This is probably what it is. Yeah."
+        },
+        {
+          "start_time": 259570,
+          "end_time": 260050,
+          "speaker": "Lance",
+          "content": "Um."
+        },
+        {
+          "start_time": 265570,
+          "end_time": 271250,
+          "speaker": "Lance",
+          "content": "Yeah. Yeah. Right. Yeah, it's a lot of stuff."
+        },
+        {
+          "start_time": 272280,
+          "end_time": 272520,
+          "speaker": "Lance",
+          "content": "Yeah,"
+        },
+        {
+          "start_time": 273720,
+          "end_time": 274360,
+          "speaker": "Lance",
+          "content": "A lot of stuff."
+        },
+        {
+          "start_time": 275640,
+          "end_time": 288520,
+          "speaker": "Lance",
+          "content": "Yeah, and if it's just and that's kind of what I was thinking. Like, even if it's a bare bones, hey, let us put a car out there. I'll make a static cling for the windshield, have a professional look in, and I. So I'm my my business is I'm the cooperative agency, so I have four dealerships right now."
+        },
+        {
+          "start_time": 289720,
+          "end_time": 292760,
+          "speaker": "Lance",
+          "content": "The three the three in town, the three Brian Harris stores,"
+        },
+        {
+          "start_time": 293800,
+          "end_time": 301970,
+          "speaker": "Lance",
+          "content": "Who have been my home away from home since like '05. I've been working with those guys for a long time, but then I've got another store in Jackson, Mississippi. I've got. A BMW there."
+        },
+        {
+          "start_time": 307810,
+          "end_time": 308210,
+          "speaker": "Lance",
+          "content": "Oh, cool!"
+        },
+        {
+          "start_time": 308210,
+          "end_time": 315250,
+          "speaker": "Speaker 1",
+          "content": "Wow!"
+        },
+        {
+          "start_time": 316450,
+          "end_time": 320290,
+          "speaker": "Lance",
+          "content": "So, do y'all have some? Quite a few attendants, but you know, people attend from Jackson."
+        },
+        {
+          "start_time": 327890,
+          "end_time": 328130,
+          "speaker": "Lance",
+          "content": "Yeah."
+        },
+        {
+          "start_time": 333920,
+          "end_time": 334160,
+          "speaker": "Lance",
+          "content": "Yeah."
+        },
+        {
+          "start_time": 361540,
+          "end_time": 363140,
+          "speaker": "Lance",
+          "content": "Sponsored that Eurofest."
+        },
+        {
+          "start_time": 364740,
+          "end_time": 366340,
+          "speaker": "Speaker 1",
+          "content": "It's in the magazine."
+        },
+        {
+          "start_time": 366580,
+          "end_time": 368740,
+          "speaker": "Speaker 3",
+          "content": "Yeah, they have it in the magazine. Yep, yep. Yeah."
+        },
+        {
+          "start_time": 370020,
+          "end_time": 400260,
+          "speaker": "Speaker 3",
+          "content": "So, well, it's really nice to connect. I'd love to have the opportunity to talk to you down the line. Just more about Country Roads and what we have to offer. Yeah. Because we don't have a lot of auto in the magazine, and I think there might be an opportunity there. With my brand new demographic specs, and I can show you all that. Who our readers are, but okay, I'm gonna um, I'm gonna give a few thoughts in a while, and then I'll be back in touch with you a little bit later today. Does that sound okay?"
+        },
+        {
+          "start_time": 400340,
+          "end_time": 401860,
+          "speaker": "Lance",
+          "content": "That's perfect. It's great talking to you, Lex."
+        },
+        {
+          "start_time": 402740,
+          "end_time": 406500,
+          "speaker": "Speaker 3",
+          "content": "All right, thanks, Lex. Take care. You have a good one. All right, bye. Bye. You too, bye."
+        }
+      ]
+    },
+    {
+      "id": "of_763fc82faa96f6ef4e9c1135e047b88b",
+      "name": "BHBMW \u00b7 Sales process/CRM discipline + X5 inventory + event",
+      "start_at": "2026-10-30T15:31:53",
+      "created_at": "2026-10-30T16:30:19",
+      "duration_ms": 3497000,
+      "vertical": "dealers",
+      "store": "bhbmw",
+      "routed_by": "BHBMW management sales meeting \u2014 process, orphan owners, X5 pipeline, promotions",
+      "status": "park",
+      "work_order": "Park. Store-owned: CRM orphan follow-up, Carrie/Mel Monday, X5 event timing Monday. 22 pre-sold X5s inbound. Brand-ambassador intro takes for HP noted \u2014 no Ada edit unless asked.",
+      "summary_md": "## Takeaway\nLong **BHBMW** sales/process meeting. Historical Oct new volume 35\u2192111 peak then soft; ~**52nd percentile** Southern Region. Push: enforce process, close vs hold for gross, put **all customers + orphan owners in CRM**. 22 pre-sold X5s incoming; X5 event timing revisit **Monday**; Porsche\u2192X5 trade \u201cManny Fresh\u201d at 41. HP brand-ambassador intro takes recorded. Carrie/Mel conflict Monday.\n\n## Locked / action-shaped\n- Store: CRM entry + orphan-owner protection (Tommy/Jason miss examples)\n- Monday: Carrie/Mel + X5 event timing / BMW reimbursement\n- Inventory: 22 pre-sold X5s inbound\n\n## Notes\n- Management accountability on salespeople (Kinsley/Lusk etc.) \u2014 internal\n- Strong product; miss rate = execution\n- HP ambassador intros captured on tape\n\n## Ada vs Lance\n**Park.** No Coop build from this tape. Continuity with last night\u2019s X5 drive-event / BrandMaster lane if Lance picks it.\n",
+      "highlights": [
+        {
+          "title": "Region pace",
+          "content": "~52nd percentile Southern; process/follow-up gap.",
+          "timestamp": 191190
+        },
+        {
+          "title": "CRM orphans",
+          "content": "All customers + orphan owners into CRM; protect deals.",
+          "timestamp": 0
+        },
+        {
+          "title": "X5 pipeline",
+          "content": "22 pre-sold X5s incoming; event timing Monday.",
+          "timestamp": 0
+        },
+        {
+          "title": "Trade",
+          "content": "Porsche trade for X5 w/ Manny Fresh at 41.",
+          "timestamp": 0
+        }
+      ],
+      "transcript": [
+        {
+          "start_time": 1780,
+          "end_time": 3540,
+          "speaker": "Speaker 1",
+          "content": "He wants to work a true bell to bell,"
+        },
+        {
+          "start_time": 3620,
+          "end_time": 6420,
+          "speaker": "Speaker 2",
+          "content": "Eight to eight, like old school."
+        },
+        {
+          "start_time": 9620,
+          "end_time": 10580,
+          "speaker": "Speaker 1",
+          "content": "Charles comes to the bar."
+        },
+        {
+          "start_time": 11700,
+          "end_time": 11860,
+          "speaker": "Speaker 1",
+          "content": "Yeah,"
+        },
+        {
+          "start_time": 14020,
+          "end_time": 22340,
+          "speaker": "Speaker 2",
+          "content": "He'll he'll be the manager on the desk, but you're working on the finance man. He's a half star man, a finance man."
+        },
+        {
+          "start_time": 22820,
+          "end_time": 23380,
+          "speaker": "Speaker 3",
+          "content": "Gordon Cleve."
+        },
+        {
+          "start_time": 24980,
+          "end_time": 27300,
+          "speaker": "Speaker 2",
+          "content": "Where's my buddy at, Cleve? He's getting fired."
+        },
+        {
+          "start_time": 28980,
+          "end_time": 44980,
+          "speaker": "Speaker 2",
+          "content": "All right, so let's talk business. I did so. I I liked what I saw that Bill sent over today, other than where we are right now."
+        },
+        {
+          "start_time": 46100,
+          "end_time": 51700,
+          "speaker": "Speaker 2",
+          "content": "But I mean, I'm not I'm not trying to make it a negative. I mean, because we still have three more days left in the month. Okay."
+        },
+        {
+          "start_time": 53140,
+          "end_time": 57860,
+          "speaker": "Speaker 2",
+          "content": "What I noticed on his, and I don't know if you saw this, boss, that back from."
+        },
+        {
+          "start_time": 58880,
+          "end_time": 59680,
+          "speaker": "Speaker 2",
+          "content": "Eighteen,"
+        },
+        {
+          "start_time": 61120,
+          "end_time": 63520,
+          "speaker": "Speaker 2",
+          "content": "Seventeen, eighteen. Did you look at that part of it?"
+        },
+        {
+          "start_time": 64160,
+          "end_time": 66400,
+          "speaker": "Speaker 2",
+          "content": "So, in seventeen,"
+        },
+        {
+          "start_time": 67840,
+          "end_time": 70800,
+          "speaker": "Speaker 2",
+          "content": "We sold thirty-five new cars. Thirty-five,"
+        },
+        {
+          "start_time": 71600,
+          "end_time": 73600,
+          "speaker": "Speaker 2",
+          "content": "Thirty-eight, I think was the next one."
+        },
+        {
+          "start_time": 73920,
+          "end_time": 75120,
+          "speaker": "Speaker 1",
+          "content": "Those were dark times."
+        },
+        {
+          "start_time": 75120,
+          "end_time": 77920,
+          "speaker": "Speaker 2",
+          "content": "It was the next year, yeah."
+        },
+        {
+          "start_time": 78160,
+          "end_time": 83120,
+          "speaker": "Speaker 4",
+          "content": "Seventeen, we wasn't here. Eighteen, we had got here. We was waiting on the new S fives to hit."
+        },
+        {
+          "start_time": 83120,
+          "end_time": 87680,
+          "speaker": "Speaker 2",
+          "content": "Yeah, nineteen was pre-COVID, and we went up to you got it right there."
+        },
+        {
+          "start_time": 87680,
+          "end_time": 88320,
+          "speaker": "Speaker 4",
+          "content": "Seventy-seven."
+        },
+        {
+          "start_time": 88710,
+          "end_time": 92550,
+          "speaker": "Speaker 2",
+          "content": "Seventy-seven. So we jumped. We almost doubled what we sold."
+        },
+        {
+          "start_time": 94070,
+          "end_time": 105270,
+          "speaker": "Speaker 2",
+          "content": "Then twenty twenty was eighty-four. Eighty-four. So that was after COVID. That was when we were transitioning into COVID. Right. No."
+        },
+        {
+          "start_time": 105270,
+          "end_time": 108150,
+          "speaker": "Speaker 4",
+          "content": "COVID hit March fifteenth of twenty twenty."
+        },
+        {
+          "start_time": 108390,
+          "end_time": 115510,
+          "speaker": "Speaker 2",
+          "content": "We were transitioning. Well, I guess were in COVID. We were full on in COVID. So were."
+        },
+        {
+          "start_time": 116230,
+          "end_time": 117430,
+          "speaker": "Speaker 2",
+          "content": "In the beginning. That was when."
+        },
+        {
+          "start_time": 118250,
+          "end_time": 119690,
+          "speaker": "Speaker 2",
+          "content": "Inventory started dwindling."
+        },
+        {
+          "start_time": 120250,
+          "end_time": 121290,
+          "speaker": "Speaker 2",
+          "content": "You know what I'm saying. Twenty-one,"
+        },
+        {
+          "start_time": 126090,
+          "end_time": 126490,
+          "speaker": "Speaker 2",
+          "content": "Eighty-eight,"
+        },
+        {
+          "start_time": 128330,
+          "end_time": 130250,
+          "speaker": "Speaker 4",
+          "content": "Twenty-two, ninety-two,"
+        },
+        {
+          "start_time": 131610,
+          "end_time": 133690,
+          "speaker": "Speaker 4",
+          "content": "Twenty-three, ninety-three,"
+        },
+        {
+          "start_time": 134970,
+          "end_time": 137370,
+          "speaker": "Speaker 4",
+          "content": "Twenty-four, one hundred and eleven,"
+        },
+        {
+          "start_time": 138570,
+          "end_time": 140730,
+          "speaker": "Speaker 4",
+          "content": "Twenty-five, eighty-four,"
+        },
+        {
+          "start_time": 141610,
+          "end_time": 143370,
+          "speaker": "Speaker 4",
+          "content": "And so forth. This month, February."
+        },
+        {
+          "start_time": 145110,
+          "end_time": 145750,
+          "speaker": "Speaker 4",
+          "content": "So,"
+        },
+        {
+          "start_time": 146310,
+          "end_time": 160870,
+          "speaker": "Speaker 2",
+          "content": "So one thing that I want to I want to reflect on is the pre-COVID and where we were, where we came from, and how we're going to get back to that. Okay, because we've been struggling every month to get to that. Okay,"
+        },
+        {
+          "start_time": 162710,
+          "end_time": 173110,
+          "speaker": "Speaker 2",
+          "content": "I know we got good product, which is going to help us out. One way that I and I think I've told you this, I gauge our performance by everybody else in the Southern Region."
+        },
+        {
+          "start_time": 174950,
+          "end_time": 185350,
+          "speaker": "Speaker 2",
+          "content": "And I think, and I don't know if I've told all this or not, but it's when when we're in the top fifty percentile,"
+        },
+        {
+          "start_time": 187030,
+          "end_time": 190550,
+          "speaker": "Speaker 2",
+          "content": "Then we're doing a decent job. I like to be around forty-five,"
+        },
+        {
+          "start_time": 191190,
+          "end_time": 197590,
+          "speaker": "Speaker 2",
+          "content": "The forty-five percentile, but fifty percentile. I think we're about fifty-two right now. We're missing."
+        },
+        {
+          "start_time": 199050,
+          "end_time": 219210,
+          "speaker": "Speaker 2",
+          "content": "So we're off a little bit. So we miss deals somehow, some way. Now I'm not saying that we miss deals, but some for some reason we're not selling at the same pace as everybody else at this point. Okay, we've got to take a checkup from the neck up and figure out why. Okay,"
+        },
+        {
+          "start_time": 221050,
+          "end_time": 223370,
+          "speaker": "Speaker 2",
+          "content": "Is it that we're ordering our inventory wrong?"
+        },
+        {
+          "start_time": 224090,
+          "end_time": 228950,
+          "speaker": "Speaker 2",
+          "content": "Is it that our you know we were arguing or? Answering two days ago,"
+        },
+        {
+          "start_time": 229670,
+          "end_time": 236550,
+          "speaker": "Speaker 2",
+          "content": "Two days yesterday, about about reasons why it could happen."
+        },
+        {
+          "start_time": 237750,
+          "end_time": 268310,
+          "speaker": "Speaker 2",
+          "content": "Is it sales? Well, if it's salespeople, that's a direct reflection of your management team. Okay, because we have to demand of our salespeople extra to make sure that they're following up. You know, not Barry. We were talking about Brandy. Brandy's somebody that's going to follow up all the time, okay? But on y'all side, on the new car side, you've got Peyton Lusk. You've got Josh Kinsley. Josh Kinsley, I started thinking about it."
+        },
+        {
+          "start_time": 268470,
+          "end_time": 275190,
+          "speaker": "Speaker 2",
+          "content": "We this brings you and you, me hoping that you move the needle coming over here."
+        },
+        {
+          "start_time": 275990,
+          "end_time": 287890,
+          "speaker": "Speaker 2",
+          "content": "You can push the needle by five cars, maybe ten cars a month. But Josh Kinsley can hurt you that five to ten cars, okay? It's y'all's. It's y'all's responsibility to manage y'all's people,"
+        },
+        {
+          "start_time": 288530,
+          "end_time": 290370,
+          "speaker": "Speaker 2",
+          "content": "And it doesn't matter who it is."
+        },
+        {
+          "start_time": 291010,
+          "end_time": 302290,
+          "speaker": "Speaker 2",
+          "content": "Okay, one thing about it is, if I if I go to Miss Millie and I tell Miss Millie that Josh is not doing his job, like then she's going to be receptive."
+        },
+        {
+          "start_time": 302930,
+          "end_time": 310050,
+          "speaker": "Speaker 2",
+          "content": "Okay, I don't want to have to do that. I want usually when you tell Josh to do something, he's going to say he's going to do it."
+        },
+        {
+          "start_time": 310770,
+          "end_time": 313410,
+          "speaker": "Speaker 2",
+          "content": "He's not going to do it, and then you're going to have to ask him again."
+        },
+        {
+          "start_time": 314420,
+          "end_time": 316340,
+          "speaker": "Speaker 2",
+          "content": "Again, until you demand that he does."
+        },
+        {
+          "start_time": 316900,
+          "end_time": 322740,
+          "speaker": "Speaker 2",
+          "content": "Okay, we've got a demand of our people, just like the other day with Tommy. Okay, Tommy cut, cut,"
+        },
+        {
+          "start_time": 323860,
+          "end_time": 345090,
+          "speaker": "Speaker 2",
+          "content": "Cut him. He cut him. Okay, but that's not the first time I've seen Tommy cut him, and it's not the first time that you talked to Tommy about it. Tommy needs to realize, and I'm not just picking on Tommy. Everybody here needs to realize that if they don't follow the rules, then we're going to have to make changes. Okay. You can only put up, you know, when you when you discipline your child,"
+        },
+        {
+          "start_time": 345650,
+          "end_time": 351250,
+          "speaker": "Speaker 2",
+          "content": "And they continue to do the same thing over and over and over, and you don't really, you just tell them no, don't do it again."
+        },
+        {
+          "start_time": 352370,
+          "end_time": 354770,
+          "speaker": "Speaker 2",
+          "content": "What does that teach them? That they can do it again, right?"
+        },
+        {
+          "start_time": 355730,
+          "end_time": 380330,
+          "speaker": "Speaker 2",
+          "content": "Until you have to slap their little hands, slap whatever you got to do, you got to, you know, whatever you have to do. So sometimes you have to make sure, and I think that we've gotten, and look, this goes back. This is actually probably my fault. This goes back to the Alice and Shagwell, okay, and us not wanting to to step on people's toes because we're being sued, and you know,"
+        },
+        {
+          "start_time": 381930,
+          "end_time": 398570,
+          "speaker": "Speaker 2",
+          "content": "So. But you know, one thing. This goes back to when we started, not when we started selling cards, but you know, the what's his name that's so rich now that was, Greg. Hmm. To my Greg."
+        },
+        {
+          "start_time": 399170,
+          "end_time": 400050,
+          "speaker": "Speaker 2",
+          "content": "Yeah, Grant Cardone."
+        },
+        {
+          "start_time": 400850,
+          "end_time": 404690,
+          "speaker": "Speaker 2",
+          "content": "Grant Cardone was a good tool, but guess what? You gotta,"
+        },
+        {
+          "start_time": 405570,
+          "end_time": 433710,
+          "speaker": "Speaker 2",
+          "content": "You still have to do it the same way. You know what I'm saying? The same way you've always done it. And a lot of people got to Grant Cardone. You know, surrender and comply was basically what it is. No problem. I'd be happy to. I give you the price, down payment, monthly payments, everything you need to make a decision. Well, a lot of people took that as a position of weakness. Okay, where they they're supposed to just let the customer go. That's what it ended up. That's why All Star, in my opinion, failed."
+        },
+        {
+          "start_time": 434270,
+          "end_time": 444910,
+          "speaker": "Speaker 2",
+          "content": "Okay, to a certain extent, because they didn't know how to push a customer over the edge. They took the Grant Cardone way, didn't understand what it was there for. It was there to bring that wall down,"
+        },
+        {
+          "start_time": 445470,
+          "end_time": 447630,
+          "speaker": "Speaker 2",
+          "content": "And but still push. But still push."
+        },
+        {
+          "start_time": 448350,
+          "end_time": 449710,
+          "speaker": "Speaker 2",
+          "content": "This goes back to,"
+        },
+        {
+          "start_time": 450350,
+          "end_time": 460070,
+          "speaker": "Speaker 2",
+          "content": "I know I I got on you the other day, or every now and then, that I feel like you. Let people go a little too weak, and I'm not saying you aren't okay. But we've got to push these customers a little harder,"
+        },
+        {
+          "start_time": 460630,
+          "end_time": 469270,
+          "speaker": "Speaker 2",
+          "content": "Okay? I know that we're in a luxury brand. I know that the majority of these people want to think about it, okay? I don't want to piss anybody off,"
+        },
+        {
+          "start_time": 469830,
+          "end_time": 477830,
+          "speaker": "Speaker 2",
+          "content": "But we've got to make sure that we're giving it a hundred and ten percent every single day, okay?"
+        },
+        {
+          "start_time": 478390,
+          "end_time": 491710,
+          "speaker": "Speaker 2",
+          "content": "What I see that happens, and we talked about this yesterday, Charles and I, that It's not that these people, and I believe everybody here and everybody knows if somebody's planning on buying or not."
+        },
+        {
+          "start_time": 492270,
+          "end_time": 495950,
+          "speaker": "Speaker 2",
+          "content": "The problem with me is I used to take people that weren't buying and made them buyers."
+        },
+        {
+          "start_time": 497790,
+          "end_time": 513070,
+          "speaker": "Speaker 2",
+          "content": "Okay, that's what we had to do in the Chevy business, in the Toyota business, is that we could not let them out because what happens when you let somebody out? They've got time to think about it. They've got time to shop other manufacturers. They've got time to talk themselves out of it."
+        },
+        {
+          "start_time": 513880,
+          "end_time": 517640,
+          "speaker": "Speaker 2",
+          "content": "There's a lot of reasons why you don't let somebody out now."
+        },
+        {
+          "start_time": 518200,
+          "end_time": 531160,
+          "speaker": "Speaker 2",
+          "content": "I was we were talking yesterday. I would rather make a thousand dollar front on somebody and sell them a car in stock now than make a five or six thousand dollar profit on somebody two weeks from now,"
+        },
+        {
+          "start_time": 531880,
+          "end_time": 544780,
+          "speaker": "Speaker 2",
+          "content": "Because I'm going to lose some of those customers that I let out. So that goes back to the volume, and I didn't mean to come back to this, but. When we, when I took over this,"
+        },
+        {
+          "start_time": 545820,
+          "end_time": 552540,
+          "speaker": "Speaker 2",
+          "content": "If they didn't want to pay sticker, they would tell them to get out, or basically not. It was either sticker or nothing."
+        },
+        {
+          "start_time": 553100,
+          "end_time": 555020,
+          "speaker": "Speaker 2",
+          "content": "Okay, it wasn't hard to change."
+        },
+        {
+          "start_time": 555580,
+          "end_time": 560300,
+          "speaker": "Speaker 2",
+          "content": "All we had to do was go and talk to them and find out what it's going to take to earn your business."
+        },
+        {
+          "start_time": 561740,
+          "end_time": 568620,
+          "speaker": "Speaker 2",
+          "content": "And and people don't get people don't get upset when you do it in a nice way."
+        },
+        {
+          "start_time": 569340,
+          "end_time": 574790,
+          "speaker": "Speaker 2",
+          "content": "How close are we? What can I do to earn your business? You know, he's the strategic."
+        },
+        {
+          "start_time": 575590,
+          "end_time": 582150,
+          "speaker": "Speaker 2",
+          "content": "I mean, he's he like strategizes every single every single close. You know,"
+        },
+        {
+          "start_time": 582950,
+          "end_time": 592870,
+          "speaker": "Speaker 2",
+          "content": "Role playing. We don't see role playing. Hey, Brett, why don't you come take a look? I'm gonna get my general manager to take a look at your car. If I could get you that seventy-seven thousand dollars on your car,"
+        },
+        {
+          "start_time": 594150,
+          "end_time": 594870,
+          "speaker": "Speaker 2",
+          "content": "Can I earn your business?"
+        },
+        {
+          "start_time": 595990,
+          "end_time": 598790,
+          "speaker": "Speaker 2",
+          "content": "No, no. Look."
+        },
+        {
+          "start_time": 599370,
+          "end_time": 603210,
+          "speaker": "Speaker 2",
+          "content": "I want to sell you this car. I know you want this car now. Okay."
+        },
+        {
+          "start_time": 604090,
+          "end_time": 606250,
+          "speaker": "Speaker 2",
+          "content": "I mean, if I get them to do seventy-eight,"
+        },
+        {
+          "start_time": 608650,
+          "end_time": 610330,
+          "speaker": "Speaker 2",
+          "content": "Perception is reality, guys."
+        },
+        {
+          "start_time": 611130,
+          "end_time": 624250,
+          "speaker": "Speaker 2",
+          "content": "And then what you do is, is you come get me, and you say, \"Hey, boss, I need you to role play. I need you to come out here and walk around this trade, and try and we put seventy-eight thousand on paper in the trade,"
+        },
+        {
+          "start_time": 625050,
+          "end_time": 625690,
+          "speaker": "Speaker 2",
+          "content": "And."
+        },
+        {
+          "start_time": 628260,
+          "end_time": 630820,
+          "speaker": "Speaker 2",
+          "content": "And we end up ACV and it's 75, right?"
+        },
+        {
+          "start_time": 630820,
+          "end_time": 631940,
+          "speaker": "Speaker 1",
+          "content": "Just put the deal."
+        },
+        {
+          "start_time": 632100,
+          "end_time": 638660,
+          "speaker": "Speaker 2",
+          "content": "And just put the deal together, okay? It's iron, iron. This is these these cars are replaceable,"
+        },
+        {
+          "start_time": 639220,
+          "end_time": 641380,
+          "speaker": "Speaker 2",
+          "content": "Okay? And I want to make sure,"
+        },
+        {
+          "start_time": 642740,
+          "end_time": 643300,
+          "speaker": "Speaker 2",
+          "content": "You know,"
+        },
+        {
+          "start_time": 644500,
+          "end_time": 646020,
+          "speaker": "Speaker 2",
+          "content": "We just got to be,"
+        },
+        {
+          "start_time": 647460,
+          "end_time": 653620,
+          "speaker": "Speaker 2",
+          "content": "We've got to pick up the volume, and the only way to pick up the volume is to hammer a little hard,"
+        },
+        {
+          "start_time": 654340,
+          "end_time": 661270,
+          "speaker": "Speaker 2",
+          "content": "Okay? Not that we're not doing a good job. Okay, I'm not saying we're not doing a good job. We just got to get back to what brought us here."
+        },
+        {
+          "start_time": 661910,
+          "end_time": 666310,
+          "speaker": "Speaker 2",
+          "content": "Okay, what what we did when we sold cars. Okay,"
+        },
+        {
+          "start_time": 667030,
+          "end_time": 671190,
+          "speaker": "Speaker 2",
+          "content": "When when all of us sold cars, it was always a now."
+        },
+        {
+          "start_time": 672470,
+          "end_time": 681190,
+          "speaker": "Speaker 2",
+          "content": "Okay, everybody. Okay, it was a now. We knew when when we would let a customer go from Audi and they came over to BMW, they weren't coming back,"
+        },
+        {
+          "start_time": 681910,
+          "end_time": 684540,
+          "speaker": "Speaker 2",
+          "content": "Right? Chances are, well, you feel like they would,"
+        },
+        {
+          "start_time": 685340,
+          "end_time": 686380,
+          "speaker": "Speaker 2",
+          "content": "But they wouldn't."
+        },
+        {
+          "start_time": 687020,
+          "end_time": 697420,
+          "speaker": "Speaker 2",
+          "content": "The majority of the time, because Hedrick was going to do whatever it took. He would lose ten thousand dollars to keep that customer from going back to our side."
+        },
+        {
+          "start_time": 698140,
+          "end_time": 699660,
+          "speaker": "Speaker 2",
+          "content": "Okay, we knew that,"
+        },
+        {
+          "start_time": 700220,
+          "end_time": 708620,
+          "speaker": "Speaker 2",
+          "content": "So we were going to try and do everything to close that customer now. Because I knew when they walked across the street,"
+        },
+        {
+          "start_time": 709340,
+          "end_time": 711820,
+          "speaker": "Speaker 2",
+          "content": "I had about a ten percent chance they were coming back."
+        },
+        {
+          "start_time": 712640,
+          "end_time": 718240,
+          "speaker": "Speaker 2",
+          "content": "And I was standing over there on the other side, wanting to vomit because I see him taking delivery of a call."
+        },
+        {
+          "start_time": 718960,
+          "end_time": 722160,
+          "speaker": "Speaker 2",
+          "content": "Because Hedrick would not back down."
+        },
+        {
+          "start_time": 722880,
+          "end_time": 730880,
+          "speaker": "Speaker 2",
+          "content": "It didn't matter what it was, and y'all lived through it. It's the facts. It was the facts. We would lose ten thousand dollars to take a deal from us."
+        },
+        {
+          "start_time": 730960,
+          "end_time": 732880,
+          "speaker": "Speaker 3",
+          "content": "One of the most miserable times in my life. Yeah."
+        },
+        {
+          "start_time": 733280,
+          "end_time": 753700,
+          "speaker": "Speaker 2",
+          "content": "So, so we learned, and look, we've got to think about not where we're at now, but where we came from and how how we got here. Okay, things have changed. We're not. We're in an information age. We're in AI. Most people have. Yesterday, they said eighty-three percent of everybody in Charleston like this did research online."
+        },
+        {
+          "start_time": 755140,
+          "end_time": 757380,
+          "speaker": "Speaker 2",
+          "content": "Of the customers coming in, coming in factory,"
+        },
+        {
+          "start_time": 757940,
+          "end_time": 759460,
+          "speaker": "Speaker 2",
+          "content": "Okay, eighty-three percent."
+        },
+        {
+          "start_time": 760580,
+          "end_time": 764660,
+          "speaker": "Speaker 2",
+          "content": "Used to be that dealer that customers would go to four plus dealers."
+        },
+        {
+          "start_time": 766580,
+          "end_time": 769540,
+          "speaker": "Speaker 2",
+          "content": "There are two, right? Two two dealers is what they're visiting."
+        },
+        {
+          "start_time": 769700,
+          "end_time": 770580,
+          "speaker": "Speaker 5",
+          "content": "So if they don't buy from you."
+        },
+        {
+          "start_time": 772520,
+          "end_time": 773480,
+          "speaker": "Speaker 5",
+          "content": "Yes. Last one."
+        },
+        {
+          "start_time": 773800,
+          "end_time": 801950,
+          "speaker": "Speaker 2",
+          "content": "Yeah. Yeah. So now we've got a we've got a unique situation because we're the only BMW store in town. But do we want them to go to Lexus? Do we want them to go to Mercedes? Do we want them to go to to Galleria? This guy that we that was in here the other day, he had a friend that bought from Galleria. Okay. Now he. This is just. I'm not saying this happened, but this could have happened. Okay. I'm talking about Monty."
+        },
+        {
+          "start_time": 802590,
+          "end_time": 816030,
+          "speaker": "Speaker 2",
+          "content": "So Monty goes home. I'm not saying this happened. I'm just saying this could be a. Monty goes home. His buddy he says, \"Yeah, yeah, I'm working this deal with Brian Harris. Man, I told you that you ought to try Galleria."
+        },
+        {
+          "start_time": 817230,
+          "end_time": 823470,
+          "speaker": "Speaker 2",
+          "content": "\" I mean, didn't happen. I'm just saying this is the way that when we let people out. Okay, the way it can't happen."
+        },
+        {
+          "start_time": 824510,
+          "end_time": 826430,
+          "speaker": "Speaker 2",
+          "content": "Man, you ought to go ahead and try them out."
+        },
+        {
+          "start_time": 827070,
+          "end_time": 831490,
+          "speaker": "Speaker 2",
+          "content": "He gets. Goes to them, you know what they're going to do. They're going to pull down their pants,"
+        },
+        {
+          "start_time": 832050,
+          "end_time": 847410,
+          "speaker": "Speaker 2",
+          "content": "Okay. Now Monty's not in our market; he's in New Orleans market, but he's still somebody that that is a a two-car swing, any way you work it, okay. So then then he ends up buying a car at Galleria, and then he says, \"Well,"
+        },
+        {
+          "start_time": 848210,
+          "end_time": 856770,
+          "speaker": "Speaker 2",
+          "content": "Y'all, yeah, y'all. They gave me what you did for the trade, but they discounted the car. They didn't just give me the extra money in the trade."
+        },
+        {
+          "start_time": 857130,
+          "end_time": 859930,
+          "speaker": "Speaker 6",
+          "content": "\" As a discount, all they have to do is beat us by a small amount,"
+        },
+        {
+          "start_time": 860090,
+          "end_time": 861210,
+          "speaker": "Speaker 2",
+          "content": "And they win. And they win,"
+        },
+        {
+          "start_time": 861770,
+          "end_time": 867370,
+          "speaker": "Speaker 2",
+          "content": "But we got to try. I mean, we had a customer. It was a customer on used cars the other day."
+        },
+        {
+          "start_time": 867930,
+          "end_time": 874170,
+          "speaker": "Speaker 2",
+          "content": "Okay, that this customer was from Covington. Don't know if they came back and bought."
+        },
+        {
+          "start_time": 874810,
+          "end_time": 877450,
+          "speaker": "Speaker 2",
+          "content": "Okay, but she was by herself from Covington."
+        },
+        {
+          "start_time": 878010,
+          "end_time": 880010,
+          "speaker": "Speaker 2",
+          "content": "Okay, she did a credit application."
+        },
+        {
+          "start_time": 881770,
+          "end_time": 883850,
+          "speaker": "Speaker 2",
+          "content": "Okay, good. Okay, good."
+        },
+        {
+          "start_time": 884650,
+          "end_time": 888840,
+          "speaker": "Speaker 2",
+          "content": "Um. But that's something that if that would happen on new cars,"
+        },
+        {
+          "start_time": 889720,
+          "end_time": 893480,
+          "speaker": "Speaker 2",
+          "content": "I would have been pissed because the chances are that customer wasn't coming back."
+        },
+        {
+          "start_time": 894040,
+          "end_time": 897560,
+          "speaker": "Speaker 2",
+          "content": "Okay, it was on a used car, so it was a specific,"
+        },
+        {
+          "start_time": 898200,
+          "end_time": 899880,
+          "speaker": "Speaker 2",
+          "content": "One of a kind vehicle."
+        },
+        {
+          "start_time": 900520,
+          "end_time": 915290,
+          "speaker": "Speaker 2",
+          "content": "But she was looking at another car somewhere else. Okay, so we took a we rolled the dice. We didn't have the buyer and decision maker here, and they ended up buying. But I just don't want. Continue to let ourselves be put in that position."
+        },
+        {
+          "start_time": 915930,
+          "end_time": 918650,
+          "speaker": "Speaker 2",
+          "content": "Okay, we don't have the strongest sales team."
+        },
+        {
+          "start_time": 920010,
+          "end_time": 930250,
+          "speaker": "Speaker 2",
+          "content": "Okay, on the new car side, so we can't allow them to to put us in a bad position. So that goes back to what Charles and I were talking about."
+        },
+        {
+          "start_time": 930890,
+          "end_time": 932810,
+          "speaker": "Speaker 2",
+          "content": "Salespeople can make or break you,"
+        },
+        {
+          "start_time": 933370,
+          "end_time": 951900,
+          "speaker": "Speaker 2",
+          "content": "But management team it can always change that. Okay, you don't have to have a strong sales team. As long as you have somebody that knows how to show the show the vehicle, ask a few of the right questions, then you can go in and and make friends with the customer because that's another thing. Zia,"
+        },
+        {
+          "start_time": 952780,
+          "end_time": 955740,
+          "speaker": "Speaker 2",
+          "content": "Some of the time he just blows people off."
+        },
+        {
+          "start_time": 956460,
+          "end_time": 965260,
+          "speaker": "Speaker 2",
+          "content": "You know, well then they have no reason to buy from you. Okay, I mean it's so we've got to get back to the basics and you know,"
+        },
+        {
+          "start_time": 967260,
+          "end_time": 978240,
+          "speaker": "Speaker 2",
+          "content": "You know, Jawad. I'm gonna bring Jawad up. You know, Jawad. Built a name for himself. Carl Boost did. People like to buy from y'all, okay? Because y'all made friends with them."
+        },
+        {
+          "start_time": 978960,
+          "end_time": 987200,
+          "speaker": "Speaker 2",
+          "content": "Jawad was, you know, he came out of the closet when he became Shazam. People like to do business with Shazam. It was just a name."
+        },
+        {
+          "start_time": 988080,
+          "end_time": 993120,
+          "speaker": "Speaker 2",
+          "content": "He didn't really do anything different. He just changed his name and wore some goofy glasses that didn't have lenses in."
+        },
+        {
+          "start_time": 994240,
+          "end_time": 995600,
+          "speaker": "Speaker 7",
+          "content": "It worked."
+        },
+        {
+          "start_time": 995840,
+          "end_time": 997360,
+          "speaker": "Speaker 2",
+          "content": "It worked. It worked."
+        },
+        {
+          "start_time": 998320,
+          "end_time": 1005680,
+          "speaker": "Speaker 2",
+          "content": "So, and and when he. Told somebody on the phone that his name was Shazam. Guess what? They remembered it and they came in and asked for Shazam."
+        },
+        {
+          "start_time": 1008720,
+          "end_time": 1016880,
+          "speaker": "Speaker 2",
+          "content": "But Shazam cost us deals because Shazam is one of those ones, and this is where our team is because they are greedy. Okay,"
+        },
+        {
+          "start_time": 1017600,
+          "end_time": 1019600,
+          "speaker": "Speaker 2",
+          "content": "That they want to make all the money or none."
+        },
+        {
+          "start_time": 1023200,
+          "end_time": 1029599,
+          "speaker": "Speaker 2",
+          "content": "Yeah, that's something that the that the desk controls, not the salespeople."
+        },
+        {
+          "start_time": 1030619,
+          "end_time": 1036619,
+          "speaker": "Speaker 2",
+          "content": "Okay, that y'all have to make sure. That's just like this i7. Great job. It's not over the over the."
+        },
+        {
+          "start_time": 1037339,
+          "end_time": 1043260,
+          "speaker": "Speaker 2",
+          "content": "Just about there, but it's close. Okay, but that's that's the way to work a car deal."
+        },
+        {
+          "start_time": 1043819,
+          "end_time": 1052140,
+          "speaker": "Speaker 2",
+          "content": "Okay, getting making a smart decision and letting the desk make the decision to how to do it. That was a good decision. Okay,"
+        },
+        {
+          "start_time": 1053020,
+          "end_time": 1059500,
+          "speaker": "Speaker 2",
+          "content": "Those are the things that we've got to do. We've got to make sure that we're that we're thinking outside the box. That we're you know."
+        },
+        {
+          "start_time": 1061210,
+          "end_time": 1065450,
+          "speaker": "Speaker 2",
+          "content": "We got landed with these X5s right now, but that's not staying for long."
+        },
+        {
+          "start_time": 1066010,
+          "end_time": 1070410,
+          "speaker": "Speaker 2",
+          "content": "Okay, I'm looking at Galleria's numbers. Galleria's already war on."
+        },
+        {
+          "start_time": 1070810,
+          "end_time": 1071610,
+          "speaker": "Speaker 6",
+          "content": "We're already discounted."
+        },
+        {
+          "start_time": 1071850,
+          "end_time": 1094710,
+          "speaker": "Speaker 2",
+          "content": "Yeah, so I just want to make sure everybody's aware. And we've got tons coming behind. So we ask for the business at full, but then we make the car deal. Right. Okay. And And and we're gonna because I mean I'm gonna tell you what even if we don't make anything on the front everybody knows we got a lot of money on the back Charles Tartars will tell you,"
+        },
+        {
+          "start_time": 1095430,
+          "end_time": 1117010,
+          "speaker": "Speaker 2",
+          "content": "Right? I mean and that's why when when we look at these numbers that's why I saw that okay well we can sell double the cars and we still didn't really I mean we were making more gross because we were selling more cars now some of them would be up here some of them be down here just like y'all an F&I it's all the law of averages. Is what it is,"
+        },
+        {
+          "start_time": 1117730,
+          "end_time": 1123090,
+          "speaker": "Speaker 2",
+          "content": "So you know. So we've just got to,"
+        },
+        {
+          "start_time": 1123890,
+          "end_time": 1129970,
+          "speaker": "Speaker 2",
+          "content": "You know. I just, I really, really, we got. We're gonna have a really strong close. I mean, really, really strong."
+        },
+        {
+          "start_time": 1130610,
+          "end_time": 1136130,
+          "speaker": "Speaker 2",
+          "content": "I'm excited about having 22 cars pre-sold. Are X5s coming in? There."
+        },
+        {
+          "start_time": 1136850,
+          "end_time": 1139410,
+          "speaker": "Speaker 4",
+          "content": "Finish Hamas Solo, Ragusa Solo yesterday."
+        },
+        {
+          "start_time": 1139650,
+          "end_time": 1144050,
+          "speaker": "Speaker 6",
+          "content": "Miller should be in today or tomorrow."
+        },
+        {
+          "start_time": 1144130,
+          "end_time": 1144770,
+          "speaker": "Speaker 4",
+          "content": "Heard. Heard. Let's see what that is."
+        },
+        {
+          "start_time": 1145360,
+          "end_time": 1146240,
+          "speaker": "Speaker 4",
+          "content": "Carol is ahead."
+        },
+        {
+          "start_time": 1146640,
+          "end_time": 1147440,
+          "speaker": "Speaker 8",
+          "content": "Carol's not."
+        },
+        {
+          "start_time": 1147440,
+          "end_time": 1152800,
+          "speaker": "Speaker 4",
+          "content": "Carol's not. Um. And then Manny Fresh showed up yesterday. I talked to him yesterday. He's about to get on."
+        },
+        {
+          "start_time": 1153360,
+          "end_time": 1155040,
+          "speaker": "Speaker 4",
+          "content": "He's going on tour. Um."
+        },
+        {
+          "start_time": 1155920,
+          "end_time": 1158160,
+          "speaker": "Speaker 4",
+          "content": "I already put number on the trade at 40."
+        },
+        {
+          "start_time": 1158880,
+          "end_time": 1167600,
+          "speaker": "Speaker 4",
+          "content": "He said, \"Man, can you do 42?\" I said, \"Look, man, let's just do 41.\" He's like, \"Fuck it, yeah, let's do it.\" So yesterday was his wife's birthday."
+        },
+        {
+          "start_time": 1168240,
+          "end_time": 1169200,
+          "speaker": "Speaker 4",
+          "content": "I can do everything,"
+        },
+        {
+          "start_time": 1170000,
+          "end_time": 1178760,
+          "speaker": "Speaker 4",
+          "content": "But he's not coming back in town till Tuesday, Wednesday. So I can punch it it then if he wanted, if not. We can keep it till next. It'll be a you decision."
+        },
+        {
+          "start_time": 1179080,
+          "end_time": 1180760,
+          "speaker": "Speaker 2",
+          "content": "I mean, you want him to do electronic."
+        },
+        {
+          "start_time": 1180920,
+          "end_time": 1182200,
+          "speaker": "Speaker 4",
+          "content": "Yeah, I mean, it's just."
+        },
+        {
+          "start_time": 1182200,
+          "end_time": 1183400,
+          "speaker": "Speaker 2",
+          "content": "Was the Porsche for the X5?"
+        },
+        {
+          "start_time": 1183640,
+          "end_time": 1185400,
+          "speaker": "Speaker 6",
+          "content": "That's the trade on the X5. Say again."
+        },
+        {
+          "start_time": 1185720,
+          "end_time": 1187000,
+          "speaker": "Speaker 4",
+          "content": "The Porsche is the trade on the X5. Yes,"
+        },
+        {
+          "start_time": 1188520,
+          "end_time": 1188840,
+          "speaker": "Speaker 2",
+          "content": "The same."
+        },
+        {
+          "start_time": 1204140,
+          "end_time": 1206700,
+          "speaker": "Speaker 2",
+          "content": "You don't know who Manny Fresh is, Charles? Neither did I."
+        },
+        {
+          "start_time": 1207820,
+          "end_time": 1216060,
+          "speaker": "Speaker 2",
+          "content": "Neither did I. Let's just say that. You know who he is now. I mean, I couldn't tell you one song. Manny Fresh. He pays cash for his stuff, buddy."
+        },
+        {
+          "start_time": 1217580,
+          "end_time": 1224300,
+          "speaker": "Speaker 2",
+          "content": "Manny Fresh is a rapper, one of the best rappers out of the state of Louisiana. You just don't know it's him, right?"
+        },
+        {
+          "start_time": 1225420,
+          "end_time": 1227180,
+          "speaker": "Speaker 2",
+          "content": "What's his real name? That's my point."
+        },
+        {
+          "start_time": 1227420,
+          "end_time": 1228460,
+          "speaker": "Speaker 4",
+          "content": "Miles Thomas."
+        },
+        {
+          "start_time": 1228700,
+          "end_time": 1232460,
+          "speaker": "Speaker 2",
+          "content": "Miles Thomas. Joe Blow, and I wouldn't fucking believe it. AKA Manny Fresh."
+        },
+        {
+          "start_time": 1232960,
+          "end_time": 1235280,
+          "speaker": "Speaker 4",
+          "content": "He's going on tour with LL Cool J."
+        },
+        {
+          "start_time": 1235280,
+          "end_time": 1239280,
+          "speaker": "Speaker 2",
+          "content": "And you know why? And you know why? That's him. He beat me up over a gram."
+        },
+        {
+          "start_time": 1239840,
+          "end_time": 1241040,
+          "speaker": "Speaker 4",
+          "content": "No, I think it's that."
+        },
+        {
+          "start_time": 1242560,
+          "end_time": 1254560,
+          "speaker": "Speaker 2",
+          "content": "Hey, this guy lives in. Hey, hey, look. I'm going to tell you what. I'm impressed with Daryl. Guy lives in. Guy lives in Houston and still buys from us. He likes to come here because we treat him like a normal person."
+        },
+        {
+          "start_time": 1254560,
+          "end_time": 1255360,
+          "speaker": "Speaker 1",
+          "content": "Just a normal person."
+        },
+        {
+          "start_time": 1255360,
+          "end_time": 1256160,
+          "speaker": "Speaker 2",
+          "content": "Normal person."
+        },
+        {
+          "start_time": 1256160,
+          "end_time": 1256560,
+          "speaker": "Speaker 1",
+          "content": "We don't."
+        },
+        {
+          "start_time": 1258710,
+          "end_time": 1259830,
+          "speaker": "Speaker 1",
+          "content": "Actually, you call everybody."
+        },
+        {
+          "start_time": 1259990,
+          "end_time": 1261830,
+          "speaker": "Speaker 2",
+          "content": "Actually, I don't think Carl. I think Carl."
+        },
+        {
+          "start_time": 1261830,
+          "end_time": 1262790,
+          "speaker": "Speaker 7",
+          "content": "You guys always do Fresh."
+        },
+        {
+          "start_time": 1263990,
+          "end_time": 1264150,
+          "speaker": "Speaker 7",
+          "content": "I'm kidding."
+        },
+        {
+          "start_time": 1265670,
+          "end_time": 1269590,
+          "speaker": "Speaker 2",
+          "content": "I got it. You did wrap on his paperwork on time. You did like the Ingram you grew up on."
+        },
+        {
+          "start_time": 1269590,
+          "end_time": 1273750,
+          "speaker": "Speaker 1",
+          "content": "You did a good shot. I'm doing. I didn't know who the fuck he was."
+        },
+        {
+          "start_time": 1274390,
+          "end_time": 1275110,
+          "speaker": "Speaker 5",
+          "content": "You back at that?"
+        },
+        {
+          "start_time": 1275110,
+          "end_time": 1275830,
+          "speaker": "Speaker 1",
+          "content": "What the fuck?"
+        },
+        {
+          "start_time": 1275830,
+          "end_time": 1279350,
+          "speaker": "Speaker 4",
+          "content": "But I mean, let's say that it's just if that's something you want me to do,"
+        },
+        {
+          "start_time": 1279350,
+          "end_time": 1280790,
+          "speaker": "Speaker 1",
+          "content": "You don't sign off on it."
+        },
+        {
+          "start_time": 1280870,
+          "end_time": 1291550,
+          "speaker": "Speaker 2",
+          "content": "I did everything for the big limbs tonight, man. Nice. Yeah, I was more excited about my taxes. Just say they did ask me not to let you talk in the meeting today,"
+        },
+        {
+          "start_time": 1291630,
+          "end_time": 1292030,
+          "speaker": "Speaker 1",
+          "content": "But go ahead."
+        },
+        {
+          "start_time": 1293630,
+          "end_time": 1293710,
+          "speaker": "Speaker 1",
+          "content": "I'm blessed."
+        },
+        {
+          "start_time": 1295390,
+          "end_time": 1298350,
+          "speaker": "Speaker 1",
+          "content": "Oh, all right, but it was me."
+        },
+        {
+          "start_time": 1298350,
+          "end_time": 1298990,
+          "speaker": "Speaker 2",
+          "content": "It was me."
+        },
+        {
+          "start_time": 1299950,
+          "end_time": 1309230,
+          "speaker": "Speaker 1",
+          "content": "No, no, that's fine. But I was going to mention the some of the calculations that I'm doing."
+        },
+        {
+          "start_time": 1309790,
+          "end_time": 1312670,
+          "speaker": "Speaker 1",
+          "content": "I noticed that some of the customers are buying from other dealers."
+        },
+        {
+          "start_time": 1313850,
+          "end_time": 1318570,
+          "speaker": "Speaker 1",
+          "content": "There we tested it. We gave you example to what you're saying. Customer lives here."
+        },
+        {
+          "start_time": 1319130,
+          "end_time": 1324170,
+          "speaker": "Speaker 1",
+          "content": "They bought out of our market. We looked it up to see if there's anybody follow up with an offer."
+        },
+        {
+          "start_time": 1325370,
+          "end_time": 1326730,
+          "speaker": "Speaker 1",
+          "content": "Customer, according to what you said,"
+        },
+        {
+          "start_time": 1326810,
+          "end_time": 1333610,
+          "speaker": "Speaker 4",
+          "content": "Jason Arsenal did follow up. Customer never he never requested any information. Jason,"
+        },
+        {
+          "start_time": 1334250,
+          "end_time": 1337130,
+          "speaker": "Speaker 4",
+          "content": "You know when they had the it was a new car. What's the what's the thing you get?"
+        },
+        {
+          "start_time": 1337690,
+          "end_time": 1338330,
+          "speaker": "Speaker 4",
+          "content": "Uh, the amp."
+        },
+        {
+          "start_time": 1339050,
+          "end_time": 1342190,
+          "speaker": "Speaker 4",
+          "content": "It was amp leads. They should follow up on the amp, but they bought something."
+        },
+        {
+          "start_time": 1342216,
+          "end_time": 1343790,
+          "speaker": "Speaker 5",
+          "content": "This is that old man that just bought the car."
+        },
+        {
+          "start_time": 1343950,
+          "end_time": 1344910,
+          "speaker": "Speaker 4",
+          "content": "No, this is a lady."
+        },
+        {
+          "start_time": 1345310,
+          "end_time": 1352590,
+          "speaker": "Speaker 1",
+          "content": "No, this is a lady. Never, never came into dealership. There's no information on it at all. I guess my point is,"
+        },
+        {
+          "start_time": 1353390,
+          "end_time": 1363950,
+          "speaker": "Speaker 1",
+          "content": "When you had houses and they were selling three to four cars, you say, \"Hey, what can you do? What can I do to move my needle?\" Kind of like Mr. White. You see, when you sell a customer car, you got to build a relationship with those customers."
+        },
+        {
+          "start_time": 1364510,
+          "end_time": 1369230,
+          "speaker": "Speaker 1",
+          "content": "Obviously, these guys haven't done that yet or know how to do it. But also, you have to follow up with customers."
+        },
+        {
+          "start_time": 1369950,
+          "end_time": 1373230,
+          "speaker": "Speaker 1",
+          "content": "The orphan owners are not being treated the same."
+        },
+        {
+          "start_time": 1373550,
+          "end_time": 1376110,
+          "speaker": "Speaker 2",
+          "content": "So we were talking about Jason Arsenio yesterday."
+        },
+        {
+          "start_time": 1376990,
+          "end_time": 1380030,
+          "speaker": "Speaker 2",
+          "content": "Yep, part of our conversation also. Jason is a phenomenal car guy,"
+        },
+        {
+          "start_time": 1380830,
+          "end_time": 1381390,
+          "speaker": "Speaker 2",
+          "content": "Good closer."
+        },
+        {
+          "start_time": 1382430,
+          "end_time": 1384590,
+          "speaker": "Speaker 2",
+          "content": "But what what I said? What about his follow-up?"
+        },
+        {
+          "start_time": 1385390,
+          "end_time": 1393390,
+          "speaker": "Speaker 2",
+          "content": "Right, he's lazy. He probably does not do a good job of following up. That's their responsibility as a desk manager. Is that what I said yesterday?"
+        },
+        {
+          "start_time": 1393470,
+          "end_time": 1394430,
+          "speaker": "Speaker 1",
+          "content": "What this is a new car."
+        },
+        {
+          "start_time": 1395550,
+          "end_time": 1404700,
+          "speaker": "Speaker 2",
+          "content": "So it's everybody's responsibility. This is my point. This is my point: that we've got to make sure our people are doing their job, okay? Not hiding."
+        },
+        {
+          "start_time": 1405740,
+          "end_time": 1408220,
+          "speaker": "Speaker 2",
+          "content": "We need to make sure our people are doing their job,"
+        },
+        {
+          "start_time": 1408380,
+          "end_time": 1412220,
+          "speaker": "Speaker 1",
+          "content": "Okay? So, orphan owners are going for someone to pop up. I guess is what I'm saying."
+        },
+        {
+          "start_time": 1412220,
+          "end_time": 1432170,
+          "speaker": "Speaker 2",
+          "content": "So, orphan owners are going into the system in the CRM, and they are also being assigned in BMW Financial, okay? Now, Daryl is man supposed to manage it. I don't know what happened with. I don't know how Jason Arsenio got an orphan owner because Savanna Tristan aren't here anymore."
+        },
+        {
+          "start_time": 1432570,
+          "end_time": 1433930,
+          "speaker": "Speaker 1",
+          "content": "Right. We looked that up."
+        },
+        {
+          "start_time": 1433930,
+          "end_time": 1434602,
+          "speaker": "Speaker 2",
+          "content": "It was a pre-owned."
+        },
+        {
+          "start_time": 1434730,
+          "end_time": 1436170,
+          "speaker": "Speaker 4",
+          "content": "It was a pre-owned 2023. Okay."
+        },
+        {
+          "start_time": 1437690,
+          "end_time": 1438650,
+          "speaker": "Speaker 4",
+          "content": "She bought another car."
+        },
+        {
+          "start_time": 1438650,
+          "end_time": 1439610,
+          "speaker": "Speaker 8",
+          "content": "That's all I have to do. Maximo."
+        },
+        {
+          "start_time": 1439610,
+          "end_time": 1445610,
+          "speaker": "Speaker 2",
+          "content": "Did she now? Did she buy a? Hopefully, she bought a pre-owned, not a new one. I'm sorry."
+        },
+        {
+          "start_time": 1445610,
+          "end_time": 1447450,
+          "speaker": "Speaker 4",
+          "content": "She bought a new 2023 three years ago."
+        },
+        {
+          "start_time": 1448090,
+          "end_time": 1449050,
+          "speaker": "Speaker 1",
+          "content": "She bought a new car."
+        },
+        {
+          "start_time": 1450330,
+          "end_time": 1451690,
+          "speaker": "Speaker 1",
+          "content": "She bought another new car."
+        },
+        {
+          "start_time": 1452650,
+          "end_time": 1456650,
+          "speaker": "Speaker 2",
+          "content": "So Jason Arsenio shouldn't have gotten that, nor should Tristan have gotten."
+        },
+        {
+          "start_time": 1457100,
+          "end_time": 1462940,
+          "speaker": "Speaker 4",
+          "content": "What Tristan and Shawad split, so maybe Shawad was busy. Tristan helped out back in 2023."
+        },
+        {
+          "start_time": 1463100,
+          "end_time": 1464060,
+          "speaker": "Speaker 2",
+          "content": "Yeah, I've been okay."
+        },
+        {
+          "start_time": 1464060,
+          "end_time": 1467980,
+          "speaker": "Speaker 1",
+          "content": "I'm just giving example of some of the cancellations that I'm doing,"
+        },
+        {
+          "start_time": 1468540,
+          "end_time": 1474220,
+          "speaker": "Speaker 1",
+          "content": "And I'm noticing where they live and where they are. I'm just bringing it to his attention. That's all I do. That's a hey,"
+        },
+        {
+          "start_time": 1474940,
+          "end_time": 1478140,
+          "speaker": "Speaker 1",
+          "content": "Where these orphan owners buying from. That's why I'm not always buying from."
+        },
+        {
+          "start_time": 1478140,
+          "end_time": 1481180,
+          "speaker": "Speaker 4",
+          "content": "That question though is on that, and I want to push back."
+        },
+        {
+          "start_time": 1482300,
+          "end_time": 1485500,
+          "speaker": "Speaker 4",
+          "content": "If if he if that customer is getting AMP emails."
+        },
+        {
+          "start_time": 1486380,
+          "end_time": 1490860,
+          "speaker": "Speaker 4",
+          "content": "And Jason is following up, asking. He did follow up. That's what I'm telling you."
+        },
+        {
+          "start_time": 1491580,
+          "end_time": 1492540,
+          "speaker": "Speaker 1",
+          "content": "No, more than once."
+        },
+        {
+          "start_time": 1494380,
+          "end_time": 1497100,
+          "speaker": "Speaker 2",
+          "content": "I got proof. I'm not saying that, and I'm not."
+        },
+        {
+          "start_time": 1497100,
+          "end_time": 1500300,
+          "speaker": "Speaker 4",
+          "content": "And the customer never told us that he was that they were looking for calls."
+        },
+        {
+          "start_time": 1500300,
+          "end_time": 1501420,
+          "speaker": "Speaker 1",
+          "content": "Right, right. All I'm saying is,"
+        },
+        {
+          "start_time": 1501740,
+          "end_time": 1503820,
+          "speaker": "Speaker 7",
+          "content": "Who are working the orphan owners?"
+        },
+        {
+          "start_time": 1503900,
+          "end_time": 1509100,
+          "speaker": "Speaker 1",
+          "content": "Like Suarez been gone for a while, and Tristan been gone for a while. Who's following the orphan owners?"
+        },
+        {
+          "start_time": 1509100,
+          "end_time": 1513020,
+          "speaker": "Speaker 2",
+          "content": "There is FIR, so they get the FIR. Right. So, but they don't have."
+        },
+        {
+          "start_time": 1513990,
+          "end_time": 1527270,
+          "speaker": "Speaker 2",
+          "content": "They don't have loyalty attached. Yes, that is. But that's something that we can't change at this point. Okay, because we have newer salespeople, we've got to build that back up. Okay, we can't just blink our eyes and say, okay,"
+        },
+        {
+          "start_time": 1527910,
+          "end_time": 1545300,
+          "speaker": "Speaker 2",
+          "content": "Somebody's going to have loyalty. Loyalty comes with time. Okay, and the longer you're here, the more loyal generally people are. That was one thing that Allison had going for. She was a horrible salesperson, but she had people come back because she built that. She built that that Trust and and loyalty pact."
+        },
+        {
+          "start_time": 1546420,
+          "end_time": 1548180,
+          "speaker": "Speaker 2",
+          "content": "Daryl Franklin was the same way at the Shady's."
+        },
+        {
+          "start_time": 1549860,
+          "end_time": 1550980,
+          "speaker": "Speaker 3",
+          "content": "Really? He was a horrible seller."
+        },
+        {
+          "start_time": 1551060,
+          "end_time": 1552180,
+          "speaker": "Speaker 1",
+          "content": "Horrible, horrible seller."
+        },
+        {
+          "start_time": 1552180,
+          "end_time": 1556980,
+          "speaker": "Speaker 2",
+          "content": "All his house deals. All his house deals. They always squeak, squeak. Oh, come on!"
+        },
+        {
+          "start_time": 1556980,
+          "end_time": 1559540,
+          "speaker": "Speaker 1",
+          "content": "They came after you though. Yeah,"
+        },
+        {
+          "start_time": 1559860,
+          "end_time": 1566260,
+          "speaker": "Speaker 2",
+          "content": "Yeah. Got paid, Hondo. No, he always did a good job when they came. When they came in, yeah."
+        },
+        {
+          "start_time": 1566660,
+          "end_time": 1568020,
+          "speaker": "Speaker 4",
+          "content": "Post moves, what do you think? Yeah."
+        },
+        {
+          "start_time": 1570340,
+          "end_time": 1573700,
+          "speaker": "Speaker 2",
+          "content": "Guess what? If you do that, guess what? You get to the next level, right there, Frank."
+        },
+        {
+          "start_time": 1573860,
+          "end_time": 1575140,
+          "speaker": "Speaker 4",
+          "content": "That's what it looks like. Um,"
+        },
+        {
+          "start_time": 1575780,
+          "end_time": 1585620,
+          "speaker": "Speaker 4",
+          "content": "I do, I do have a a small issue, and I know you said, Daryl, you can fix this, and I know this is going to cause a problem, but please, hit me out."
+        },
+        {
+          "start_time": 1585700,
+          "end_time": 1586820,
+          "speaker": "Speaker 2",
+          "content": "Go ahead, Shorty."
+        },
+        {
+          "start_time": 1588260,
+          "end_time": 1592340,
+          "speaker": "Speaker 4",
+          "content": "Davis Spikes refuses to work cloutios."
+        },
+        {
+          "start_time": 1592980,
+          "end_time": 1608650,
+          "speaker": "Speaker 4",
+          "content": "Normally, everything he wants to do it his way. He wants to give them Grant Cardone numbers. Over the phone, you don't have to come in. I can do a sight unseen. I'm here. You're like, and we are losing customers because all they have to do."
+        },
+        {
+          "start_time": 1608730,
+          "end_time": 1609690,
+          "speaker": "Speaker 6",
+          "content": "It doesn't matter whether we're."
+        },
+        {
+          "start_time": 1609770,
+          "end_time": 1610890,
+          "speaker": "Speaker 2",
+          "content": "I'm here. They're getting fast."
+        },
+        {
+          "start_time": 1611130,
+          "end_time": 1612090,
+          "speaker": "Speaker 4",
+          "content": "I lost four this week."
+        },
+        {
+          "start_time": 1613210,
+          "end_time": 1614570,
+          "speaker": "Speaker 6",
+          "content": "Really, that many? Yes."
+        },
+        {
+          "start_time": 1614570,
+          "end_time": 1615290,
+          "speaker": "Speaker 5",
+          "content": "So where did they go?"
+        },
+        {
+          "start_time": 1615690,
+          "end_time": 1635490,
+          "speaker": "Speaker 4",
+          "content": "They one one guy called him a liar on the X three for Jonathan A. Bear. We lost another guy out of New Orleans on the 7 Series. But what I'm saying is they gotta come here. We lost another guy to Lafayette because he said we low-balled them when we gave them 36,000, and he said Lafayette gave them 42 and discounted to 27."
+        },
+        {
+          "start_time": 1636050,
+          "end_time": 1640450,
+          "speaker": "Speaker 4",
+          "content": "Okay, we are losing, and none of these customers are here. Well, they don't get inside."
+        },
+        {
+          "start_time": 1640450,
+          "end_time": 1643970,
+          "speaker": "Speaker 2",
+          "content": "I'm saying. Okay, I mean, which there's not just a side."
+        },
+        {
+          "start_time": 1643970,
+          "end_time": 1645170,
+          "speaker": "Speaker 9",
+          "content": "It's not just side."
+        },
+        {
+          "start_time": 1645170,
+          "end_time": 1646930,
+          "speaker": "Speaker 2",
+          "content": "He gives them numbers on cars they're buying."
+        },
+        {
+          "start_time": 1647410,
+          "end_time": 1656660,
+          "speaker": "Speaker 6",
+          "content": "We're not arguing. We're just having a conversation. It goes back to what you were just saying about how our management needs to manage and has control. And that's a problem with Spikes. He will not let a manager."
+        },
+        {
+          "start_time": 1656900,
+          "end_time": 1667460,
+          "speaker": "Speaker 2",
+          "content": "But sometimes, and Coach is a big believer in this. Sometimes, you know, your your top performers are generally going to be hard to be with. Okay, and some people."
+        },
+        {
+          "start_time": 1668100,
+          "end_time": 1671940,
+          "speaker": "Speaker 2",
+          "content": "Shawad was a good example. Yeah. Okay, y'all gave Shawad everything."
+        },
+        {
+          "start_time": 1672900,
+          "end_time": 1677300,
+          "speaker": "Speaker 2",
+          "content": "Okay, Shawad could even go behind the computer and do his own worksheets."
+        },
+        {
+          "start_time": 1677940,
+          "end_time": 1680740,
+          "speaker": "Speaker 2",
+          "content": "Okay, Shawad was ordering cars. You know."
+        },
+        {
+          "start_time": 1681780,
+          "end_time": 1690440,
+          "speaker": "Speaker 2",
+          "content": "Yeah. So. So that was that went too far, okay. But generally, people like that,"
+        },
+        {
+          "start_time": 1691160,
+          "end_time": 1693080,
+          "speaker": "Speaker 2",
+          "content": "Okay, are harder to manage,"
+        },
+        {
+          "start_time": 1693720,
+          "end_time": 1723750,
+          "speaker": "Speaker 2",
+          "content": "And they feel like David Spikes feels like he knows more, or as much, or more than anybody in this room, okay. It's already a man in his mind. Yeah. So, so you have to, but but what you have to you have to figure out how to manage that person, okay. And they're going to generally get away with more than other people, but you can still manage it, okay. And I know it's hard. I know y'all sat him down a few times, and but do I think that? And this is my opinion,"
+        },
+        {
+          "start_time": 1724070,
+          "end_time": 1733910,
+          "speaker": "Speaker 2",
+          "content": "Okay. And if everybody in the room decides differently, then we could make changes. But I think he brings more to the table. You know, I look at pros and cons. He's got a lot more pros than he does cons,"
+        },
+        {
+          "start_time": 1734790,
+          "end_time": 1759360,
+          "speaker": "Speaker 2",
+          "content": "Okay. I think that you took one week and you got sour. You know, it's just like that one used car that sat here for 150 days, but you sold the last six of them. The same thing. Then you got to see why it happened. Okay, was it that it stumped? Was it that you didn't price it right? You got to figure out the reason why. You can't just take bad luck. You can't just take the one week."
+        },
+        {
+          "start_time": 1760560,
+          "end_time": 1764080,
+          "speaker": "Speaker 2",
+          "content": "And I know it's every week we have something different, so I'm not discounting it."
+        },
+        {
+          "start_time": 1764800,
+          "end_time": 1767440,
+          "speaker": "Speaker 2",
+          "content": "But you've got to, you know."
+        },
+        {
+          "start_time": 1768160,
+          "end_time": 1768880,
+          "speaker": "Speaker 2",
+          "content": "Adam Schaffer,"
+        },
+        {
+          "start_time": 1771040,
+          "end_time": 1780080,
+          "speaker": "Speaker 2",
+          "content": "He had a lot of pros. He had a lot of cons. Okay, but once your your cons outweigh your pros, then that's when it's time to make a change."
+        },
+        {
+          "start_time": 1781120,
+          "end_time": 1789040,
+          "speaker": "Speaker 2",
+          "content": "Okay, everybody here has their their downfalls. They really do. Everybody, not a single person in here, including myself,"
+        },
+        {
+          "start_time": 1789680,
+          "end_time": 1790320,
+          "speaker": "Speaker 2",
+          "content": "Is perfect."
+        },
+        {
+          "start_time": 1791200,
+          "end_time": 1796880,
+          "speaker": "Speaker 2",
+          "content": "Okay, and we have we're so we're close. It. I mean, we're."
+        },
+        {
+          "start_time": 1797670,
+          "end_time": 1806950,
+          "speaker": "Speaker 2",
+          "content": "We're good at some things. We're not good at other things. I mean, I'm an asshole. Okay, everybody in here can agree with that, and I won't hurt my feelings. Okay, I know that."
+        },
+        {
+          "start_time": 1807910,
+          "end_time": 1814630,
+          "speaker": "Speaker 2",
+          "content": "But and Richie knows that. But he's got to decide. Guess what? Me being an asshole is it?"
+        },
+        {
+          "start_time": 1815270,
+          "end_time": 1817270,
+          "speaker": "Speaker 2",
+          "content": "It does it outweigh the pro,"
+        },
+        {
+          "start_time": 1817830,
+          "end_time": 1819270,
+          "speaker": "Speaker 2",
+          "content": "The performance, the pros?"
+        },
+        {
+          "start_time": 1819910,
+          "end_time": 1822310,
+          "speaker": "Speaker 2",
+          "content": "Well, when it switches, then that's when he gets rid of."
+        },
+        {
+          "start_time": 1823030,
+          "end_time": 1827440,
+          "speaker": "Speaker 2",
+          "content": "Okay, so. You know, and I'm not the easiest person to manage."
+        },
+        {
+          "start_time": 1828560,
+          "end_time": 1835360,
+          "speaker": "Speaker 2",
+          "content": "So, but it's you know that's why you go pros and cons, and I think that he has a lot of pros."
+        },
+        {
+          "start_time": 1836240,
+          "end_time": 1841280,
+          "speaker": "Speaker 2",
+          "content": "I think you're looking at one week, and you had a bad week that you lost some deals because she was taken up."
+        },
+        {
+          "start_time": 1842880,
+          "end_time": 1847280,
+          "speaker": "Speaker 2",
+          "content": "So some of those deals weren't actually good deals."
+        },
+        {
+          "start_time": 1847840,
+          "end_time": 1851920,
+          "speaker": "Speaker 2",
+          "content": "You know what I'm saying? So you've got to see when you say somebody lost you a deal,"
+        },
+        {
+          "start_time": 1852640,
+          "end_time": 1856530,
+          "speaker": "Speaker 2",
+          "content": "Then that's Like when Shawady would say,\"I'm not dealing with this guy."
+        },
+        {
+          "start_time": 1857090,
+          "end_time": 1859330,
+          "speaker": "Speaker 2",
+          "content": "He's not paying me any profit. That's losing a deal."
+        },
+        {
+          "start_time": 1859890,
+          "end_time": 1861730,
+          "speaker": "Speaker 2",
+          "content": "Okay, that's that's bullshit."
+        },
+        {
+          "start_time": 1862770,
+          "end_time": 1863410,
+          "speaker": "Speaker 2",
+          "content": "Okay,"
+        },
+        {
+          "start_time": 1864690,
+          "end_time": 1878290,
+          "speaker": "Speaker 2",
+          "content": "Giving somebody numbers and then not following up with them, or lying to them, or whatever. Then then that's where then those are situations. But sometimes you just have bad luck."
+        },
+        {
+          "start_time": 1878850,
+          "end_time": 1886710,
+          "speaker": "Speaker 2",
+          "content": "You know, it's just one of those things.\" And I'm a I'm a true believer in that in everything. I'm just managing people. It's managing used car inventory also."
+        },
+        {
+          "start_time": 1887270,
+          "end_time": 1893910,
+          "speaker": "Speaker 2",
+          "content": "You know, I got been for years. Oh, we hadn't been able to. I've been hearing this from from used car managers for years."
+        },
+        {
+          "start_time": 1895990,
+          "end_time": 1899510,
+          "speaker": "Speaker 2",
+          "content": "Well, we never sold. We we didn't sell these. We never we we never sold these."
+        },
+        {
+          "start_time": 1900310,
+          "end_time": 1907590,
+          "speaker": "Speaker 2",
+          "content": "Well, you thought about that last one that you didn't sell. Not about the the deal. And CDK has all the information in there. It's got the history,"
+        },
+        {
+          "start_time": 1908310,
+          "end_time": 1909270,
+          "speaker": "Speaker 2",
+          "content": "And it's it's like."
+        },
+        {
+          "start_time": 1909790,
+          "end_time": 1930830,
+          "speaker": "Speaker 2",
+          "content": "You know, so us as Americans, as as just people, we're just we're we're short-sighted. We think we think just right here, you know, not what what was before. So it's a you know it's a it's a balancing act to balance an act with you people. You know,"
+        },
+        {
+          "start_time": 1933870,
+          "end_time": 1939180,
+          "speaker": "Speaker 2",
+          "content": "I just don't know what to say other than you know what I think David Spikes does a good job. Yeah, and Monday,"
+        },
+        {
+          "start_time": 1939420,
+          "end_time": 1947820,
+          "speaker": "Speaker 4",
+          "content": "Monday, we're gonna have to sit down and talk to Carrie and Mel because they're fighting again. Mel, I'm pretty much sure about that."
+        },
+        {
+          "start_time": 1947820,
+          "end_time": 1949580,
+          "speaker": "Speaker 5",
+          "content": "Yeah, well, yeah, I want you to separate."
+        },
+        {
+          "start_time": 1953020,
+          "end_time": 1957420,
+          "speaker": "Speaker 5",
+          "content": "Can I can have a couple seconds because I was gonna reiterate on some of the stuff you were talking about."
+        },
+        {
+          "start_time": 1957980,
+          "end_time": 1965100,
+          "speaker": "Speaker 5",
+          "content": "You know, I think right now BMW has probably the strongest product line out of a lot of these manufacturers that we come from the case."
+        },
+        {
+          "start_time": 1965610,
+          "end_time": 1989530,
+          "speaker": "Speaker 5",
+          "content": "So when you look at when you've got the strongest product, and every time sales are decreasing, it's not about the product. It's something that we're doing here, and Brett mentioned that. I don't know if anybody gets ESPN and watches some of the shows on there. They got one about Saban right now. I know, and and Hedrick mentioned it a couple weeks ago in the Audi meeting. So I watched some of the episodes. I don't know if anybody had a chance to watch any of it. Fucking watch it."
+        },
+        {
+          "start_time": 1990490,
+          "end_time": 1995740,
+          "speaker": "Speaker 5",
+          "content": "And the only reason I'm saying that is because dude, that guy. Has been so successful, and no matter what he does,"
+        },
+        {
+          "start_time": 1996380,
+          "end_time": 1999820,
+          "speaker": "Speaker 5",
+          "content": "Okay, he was a coach at Michigan State, had some success there,"
+        },
+        {
+          "start_time": 2000940,
+          "end_time": 2021420,
+          "speaker": "Speaker 5",
+          "content": "But he he met with this sports psychologist or something, and because he would get so frustrated because he thought he had a better team and he would lose a game or whatever, and the psychiatrist said,\"Dude, you have to, you can't manage the outcome. Enough, I'm sure everybody heard this. You can't manage the outcome. You have to manage the shit to the outcome."
+        },
+        {
+          "start_time": 2021980,
+          "end_time": 2025780,
+          "speaker": "Speaker 5",
+          "content": "\" So he just He said, \"What you need to do is start managing the play."
+        },
+        {
+          "start_time": 2026420,
+          "end_time": 2032500,
+          "speaker": "Speaker 5",
+          "content": "The play is six fucking seconds long. You have to manage the play. And what he meant by that? Your blockers got to do the right shit."
+        },
+        {
+          "start_time": 2033060,
+          "end_time": 2038580,
+          "speaker": "Speaker 5",
+          "content": "You know, the quarterback's got to do the right, the running backs got to do the right thing. You manage a play. You don't manage the game."
+        },
+        {
+          "start_time": 2039300,
+          "end_time": 2042340,
+          "speaker": "Speaker 5",
+          "content": "Make sure your people doing all the right shit on every play."
+        },
+        {
+          "start_time": 2042980,
+          "end_time": 2054060,
+          "speaker": "Speaker 5",
+          "content": "And then at the end of the game, your outcome will be what you want it to be. And that's what we have in sales. You know, we look at we look at oh man, we're down three or four cars at the end of the month.\" Well, have you managed every call?"
+        },
+        {
+          "start_time": 2054860,
+          "end_time": 2067739,
+          "speaker": "Speaker 5",
+          "content": "Have you managed every lead? Have you managed every salesperson? Have you managed the way they do every walk around? You know, so if we get granular and make sure everybody is doing what they're supposed to do, the outcome will be what we want it to be."
+        },
+        {
+          "start_time": 2068460,
+          "end_time": 2070060,
+          "speaker": "Speaker 5",
+          "content": "But if you're not managing that,"
+        },
+        {
+          "start_time": 2071020,
+          "end_time": 2073500,
+          "speaker": "Speaker 5",
+          "content": "Your outcome will not be to your expectation."
+        },
+        {
+          "start_time": 2074139,
+          "end_time": 2082060,
+          "speaker": "Speaker 5",
+          "content": "Watch that fucking show, and I'm gonna tell you, everybody in here will have a different outlook on coming to work because it's telling."
+        },
+        {
+          "start_time": 2083199,
+          "end_time": 2085840,
+          "speaker": "Speaker 5",
+          "content": "Let's let's manage and pay attention to details,"
+        },
+        {
+          "start_time": 2086400,
+          "end_time": 2087760,
+          "speaker": "Speaker 5",
+          "content": "And then everything will fall into place."
+        },
+        {
+          "start_time": 2088960,
+          "end_time": 2094560,
+          "speaker": "Speaker 5",
+          "content": "But dude, it's a fucking. I mean, I've only watched two or three episodes. I watch one and be like, wow."
+        },
+        {
+          "start_time": 2096159,
+          "end_time": 2099680,
+          "speaker": "Speaker 5",
+          "content": "But and now, dude, look. Now he's got dealerships. Yeah."
+        },
+        {
+          "start_time": 2100160,
+          "end_time": 2102080,
+          "speaker": "Speaker 8",
+          "content": "What's the other one? Saving."
+        },
+        {
+          "start_time": 2102080,
+          "end_time": 2106640,
+          "speaker": "Speaker 2",
+          "content": "He is just saving. Yeah. Yeah. Watch it."
+        },
+        {
+          "start_time": 2107440,
+          "end_time": 2109840,
+          "speaker": "Speaker 2",
+          "content": "Yeah. But you know,"
+        },
+        {
+          "start_time": 2109840,
+          "end_time": 2113910,
+          "speaker": "Speaker 5",
+          "content": "Like I said, dude, we've got product. It ain't. No one's got a better product."
+        },
+        {
+          "start_time": 2114630,
+          "end_time": 2117670,
+          "speaker": "Speaker 5",
+          "content": "So if we're not making the sales, it's something we're doing inside."
+        },
+        {
+          "start_time": 2120870,
+          "end_time": 2125190,
+          "speaker": "Speaker 2",
+          "content": "Is it? Yep. Air Fryer, you got anything else? No. Lance Faucheux."
+        },
+        {
+          "start_time": 2125670,
+          "end_time": 2126470,
+          "speaker": "Speaker 1",
+          "content": "Nothing new."
+        },
+        {
+          "start_time": 2127190,
+          "end_time": 2129990,
+          "speaker": "Speaker 2",
+          "content": "So we got the thing out. Finally. It's been."
+        },
+        {
+          "start_time": 2130790,
+          "end_time": 2135910,
+          "speaker": "Speaker 2",
+          "content": "We've got mixed mixed feelings about the way it looks. I actually like this. I actually like the message."
+        },
+        {
+          "start_time": 2136790,
+          "end_time": 2137670,
+          "speaker": "Speaker 3",
+          "content": "I think it's."
+        },
+        {
+          "start_time": 2138310,
+          "end_time": 2145690,
+          "speaker": "Speaker 2",
+          "content": "I I like it. Perfect. I like it. It's going to get us to the next level, which is when we got more product over and put it. It's the same one that was in Stroll."
+        },
+        {
+          "start_time": 2145770,
+          "end_time": 2147050,
+          "speaker": "Speaker 5",
+          "content": "Ah, that's awesome."
+        },
+        {
+          "start_time": 2147370,
+          "end_time": 2155450,
+          "speaker": "Speaker 2",
+          "content": "X5 piece, yeah. So, and it and it says experience the all new redesigned 2027 X5. So, I like it. I think it makes a statement."
+        },
+        {
+          "start_time": 2156810,
+          "end_time": 2157370,
+          "speaker": "Speaker 2",
+          "content": "So,"
+        },
+        {
+          "start_time": 2158410,
+          "end_time": 2159530,
+          "speaker": "Speaker 6",
+          "content": "That's our, yep,"
+        },
+        {
+          "start_time": 2159530,
+          "end_time": 2164250,
+          "speaker": "Speaker 2",
+          "content": "Article, right? Um, so I do need that loop taken care of."
+        },
+        {
+          "start_time": 2164650,
+          "end_time": 2165450,
+          "speaker": "Speaker 1",
+          "content": "Talk about that video."
+        },
+        {
+          "start_time": 2165850,
+          "end_time": 2168470,
+          "speaker": "Speaker 2",
+          "content": "The video, yeah. What about our?"
+        },
+        {
+          "start_time": 2168470,
+          "end_time": 2170390,
+          "speaker": "Speaker 1",
+          "content": "I'm already on that. I'm working on the videos thing."
+        },
+        {
+          "start_time": 2170470,
+          "end_time": 2171030,
+          "speaker": "Speaker 3",
+          "content": "What's the other thing?"
+        },
+        {
+          "start_time": 2171590,
+          "end_time": 2174790,
+          "speaker": "Speaker 2",
+          "content": "Things for the brand new X5. Is that or get that?"
+        },
+        {
+          "start_time": 2174790,
+          "end_time": 2180950,
+          "speaker": "Speaker 1",
+          "content": "I should maybe go pick that up today. Yeah. Um. But the other thing I want to keep top of mind is the event,"
+        },
+        {
+          "start_time": 2181270,
+          "end_time": 2182070,
+          "speaker": "Speaker 3",
+          "content": "The X5 thing."
+        },
+        {
+          "start_time": 2182070,
+          "end_time": 2186870,
+          "speaker": "Speaker 2",
+          "content": "We talked about that yesterday. Also, so we need to figure out when we're going to do the event."
+        },
+        {
+          "start_time": 2187590,
+          "end_time": 2192950,
+          "speaker": "Speaker 2",
+          "content": "We're going to put in for reimbursement with BMW on it, so we need to we need to figure that out."
+        },
+        {
+          "start_time": 2194230,
+          "end_time": 2194630,
+          "speaker": "Speaker 2",
+          "content": "So,"
+        },
+        {
+          "start_time": 2195670,
+          "end_time": 2196150,
+          "speaker": "Speaker 2",
+          "content": "When y'all."
+        },
+        {
+          "start_time": 2197290,
+          "end_time": 2201210,
+          "speaker": "Speaker 2",
+          "content": "Why don't y'all two talk about it, and we'll revisit it Monday."
+        },
+        {
+          "start_time": 2201770,
+          "end_time": 2204650,
+          "speaker": "Speaker 2",
+          "content": "Okay. Anything else,"
+        },
+        {
+          "start_time": 2204650,
+          "end_time": 2205290,
+          "speaker": "Speaker 3",
+          "content": "Lance? No."
+        },
+        {
+          "start_time": 2206810,
+          "end_time": 2211290,
+          "speaker": "Speaker 3",
+          "content": "Yes. I mean, just the same thing. Investment sense. Little, just the little details. Like yesterday,"
+        },
+        {
+          "start_time": 2212170,
+          "end_time": 2218570,
+          "speaker": "Speaker 3",
+          "content": "Tommy missed out on a second deal for his a family he sold Monday. The grandma came back and bought yesterday,"
+        },
+        {
+          "start_time": 2219450,
+          "end_time": 2225130,
+          "speaker": "Speaker 3",
+          "content": "And I and I was kind of pissed. Like, how did he not get out of this deal, whatever? And then I was talking to him. I was like, Hey, did you ever put the grandmother in the system?"
+        },
+        {
+          "start_time": 2225850,
+          "end_time": 2234410,
+          "speaker": "Speaker 3",
+          "content": "No, no. I just showed. Well, there you go. Then you lost. That's like. Did you ever call the family that you sold the car to and follow up? And within two days, you need to call people, thank them for the purchase, and shake their hand."
+        },
+        {
+          "start_time": 2234410,
+          "end_time": 2240570,
+          "speaker": "Speaker 2",
+          "content": "Yesterday, and it was a little awkward. Yeah. After they had been with them for the people for hours. Just the thank."
+        },
+        {
+          "start_time": 2240570,
+          "end_time": 2246810,
+          "speaker": "Speaker 3",
+          "content": "The thank you follow up for buying a car. I said, hey, by the way, if you have anybody looking, I'm Tommy. Remember sitting in the meeting. That even that little conversation."
+        },
+        {
+          "start_time": 2246810,
+          "end_time": 2248250,
+          "speaker": "Speaker 2",
+          "content": "That's that's the thing."
+        },
+        {
+          "start_time": 2248250,
+          "end_time": 2249050,
+          "speaker": "Speaker 3",
+          "content": "No follow up."
+        },
+        {
+          "start_time": 2249130,
+          "end_time": 2250650,
+          "speaker": "Speaker 4",
+          "content": "That's me. No, I talked about in the meeting."
+        },
+        {
+          "start_time": 2250650,
+          "end_time": 2252250,
+          "speaker": "Speaker 2",
+          "content": "That was our main topic."
+        },
+        {
+          "start_time": 2252610,
+          "end_time": 2259650,
+          "speaker": "Speaker 4",
+          "content": "He spent time with those people Saturday and Monday when they came back and bought it. It was eighteen grand flip, and he convinced them to buy the car."
+        },
+        {
+          "start_time": 2260610,
+          "end_time": 2262610,
+          "speaker": "Speaker 2",
+          "content": "You know, and he missed out on the sale."
+        },
+        {
+          "start_time": 2262610,
+          "end_time": 2263170,
+          "speaker": "Speaker 7",
+          "content": "Yeah, and show no."
+        },
+        {
+          "start_time": 2263250,
+          "end_time": 2264610,
+          "speaker": "Speaker 4",
+          "content": "He showed the mom of the car."
+        },
+        {
+          "start_time": 2266050,
+          "end_time": 2269330,
+          "speaker": "Speaker 4",
+          "content": "He demoed the car. They came back and bought it. The same car he demoed."
+        },
+        {
+          "start_time": 2270610,
+          "end_time": 2274290,
+          "speaker": "Speaker 4",
+          "content": "And apparently they didn't. According to Zia and Tasha,"
+        },
+        {
+          "start_time": 2275090,
+          "end_time": 2276370,
+          "speaker": "Speaker 4",
+          "content": "They didn't actually him."
+        },
+        {
+          "start_time": 2276450,
+          "end_time": 2278370,
+          "speaker": "Speaker 2",
+          "content": "So come on."
+        },
+        {
+          "start_time": 2278370,
+          "end_time": 2280050,
+          "speaker": "Speaker 5",
+          "content": "No, no. Were they in the system?"
+        },
+        {
+          "start_time": 2280450,
+          "end_time": 2282370,
+          "speaker": "Speaker 4",
+          "content": "No, they weren't. But he talked to them."
+        },
+        {
+          "start_time": 2282430,
+          "end_time": 2283710,
+          "speaker": "Speaker 1",
+          "content": "You're right,"
+        },
+        {
+          "start_time": 2283950,
+          "end_time": 2286190,
+          "speaker": "Speaker 4",
+          "content": "But he understood that he learned his lesson."
+        },
+        {
+          "start_time": 2286190,
+          "end_time": 2301390,
+          "speaker": "Speaker 2",
+          "content": "Yeah, he didn't ask because the way that he shook their hand, it was the first time that he had seen them. So they would have said,\"I mean, I was on the showroom when it happened.\" They would have said, \"Oh yeah, we came in and asked for you.\" That was just a hey, how you doing? You know, that was it."
+        },
+        {
+          "start_time": 2302110,
+          "end_time": 2305070,
+          "speaker": "Speaker 2",
+          "content": "So yeah, that's his fault. It wasn't that."
+        },
+        {
+          "start_time": 2305630,
+          "end_time": 2306910,
+          "speaker": "Speaker 2",
+          "content": "Look, Zia Scanty."
+        },
+        {
+          "start_time": 2307570,
+          "end_time": 2308610,
+          "speaker": "Speaker 1",
+          "content": "Zia told the truth."
+        },
+        {
+          "start_time": 2308770,
+          "end_time": 2324930,
+          "speaker": "Speaker 4",
+          "content": "Zia said, \"I had a customer coming in. I helped them. I greeted them. Do y'all need any help?\" He said, \"No. Yes, we need help. Are you working with anybody?\" He said, \"No.\" He said, \"Okay. Well, I have a customer coming in. I'm gonna get y'all with Tasha. Yeah. And so when you put it in,"
+        },
+        {
+          "start_time": 2325490,
+          "end_time": 2330370,
+          "speaker": "Speaker 4",
+          "content": "He didn't have the eggs. Are you working with somebody? Because when you put in a system, there was no entity."
+        },
+        {
+          "start_time": 2331650,
+          "end_time": 2331730,
+          "speaker": "Speaker 4",
+          "content": "Yeah."
+        },
+        {
+          "start_time": 2332930,
+          "end_time": 2335410,
+          "speaker": "Speaker 4",
+          "content": "But had he would have just called and followed up the next day,"
+        },
+        {
+          "start_time": 2335490,
+          "end_time": 2336290,
+          "speaker": "Speaker 2",
+          "content": "Or just put him in."
+        },
+        {
+          "start_time": 2336860,
+          "end_time": 2355900,
+          "speaker": "Speaker 2",
+          "content": "Well, I mean, really and truly, it's not just put them in. That's saving his. That's saving his deal. Yeah. But that's not the way you're supposed to do it. I mean, that that's a that's a backup plan. That's a that's that's a. That's the first step in the process of getting customers to come back. At the end of the deal, he should have sat down with them and went over their car, went over everything, and at the end said,"
+        },
+        {
+          "start_time": 2356380,
+          "end_time": 2357270,
+          "speaker": "Speaker 3",
+          "content": "\"By the way.\""
+        },
+        {
+          "start_time": 2357660,
+          "end_time": 2375180,
+          "speaker": "Speaker 2",
+          "content": "If you ever need another vehicle, I work off commission. Yeah, oh, I am followed up. If you know anybody, follow up next day or next Tuesday. That's the second part of the process. That's the biggest. That's the big. I followed up with every one of my customers when I was open. Every one of them, and the majority of the time, the customers say, \"Man, it's the first time I ever had anybody follow up with me,"
+        },
+        {
+          "start_time": 2375740,
+          "end_time": 2397060,
+          "speaker": "Speaker 2",
+          "content": "\" Because and when I was closing a deal, they would want to go down to price of lawn. Everybody wanted to go to price of lawn. I would have, and I would sell myself. Hey guys, you go down and buy the price of lawn. You become a number. No, you become a number. Okay, they might be able to beat my my deal by a few hundred dollars. Okay, to earn to to try and get you over there. But guess what? When something goes wrong,"
+        },
+        {
+          "start_time": 2398340,
+          "end_time": 2398900,
+          "speaker": "Speaker 2",
+          "content": "You're a number."
+        },
+        {
+          "start_time": 2399620,
+          "end_time": 2404340,
+          "speaker": "Speaker 2",
+          "content": "You buy from me, and I used to have all my shit behind me, and I'd say that's what you get buying from me."
+        },
+        {
+          "start_time": 2405700,
+          "end_time": 2420110,
+          "speaker": "Speaker 2",
+          "content": "And it works, you know. So, but I always followed up with my customers. I always made a phone call, and the day I made the phone call, I put a. Scal, y'all know Scal,"
+        },
+        {
+          "start_time": 2420670,
+          "end_time": 2421550,
+          "speaker": "Speaker 2",
+          "content": "Jenkins. Scal Jenkins."
+        },
+        {
+          "start_time": 2421550,
+          "end_time": 2429390,
+          "speaker": "Speaker 3",
+          "content": "When I was, we were selling cars together at Toyota. Like my wife's aunt and uncle, they were looking for. I was like, hey, you know, you have to come see me. I work down at Toyota. Like."
+        },
+        {
+          "start_time": 2429950,
+          "end_time": 2432190,
+          "speaker": "Speaker 3",
+          "content": "Yeah, Michael, we love you, but we're gonna buy from Scal."
+        },
+        {
+          "start_time": 2432190,
+          "end_time": 2432750,
+          "speaker": "Speaker 1",
+          "content": "What do you mean?"
+        },
+        {
+          "start_time": 2432750,
+          "end_time": 2436510,
+          "speaker": "Speaker 3",
+          "content": "He's like Scal's the only salesperson that's ever called me on my birthday and told me happy birthday."
+        },
+        {
+          "start_time": 2436510,
+          "end_time": 2437870,
+          "speaker": "Speaker 2",
+          "content": "So I'm calling that."
+        },
+        {
+          "start_time": 2438110,
+          "end_time": 2439470,
+          "speaker": "Speaker 3",
+          "content": "I'm going to buy from him no matter what."
+        },
+        {
+          "start_time": 2439470,
+          "end_time": 2447870,
+          "speaker": "Speaker 2",
+          "content": "Anniversary. He'll figure out another way to screw you. Yeah. He's not gonna laugh, but he didn't. He did wish you a happy birthday."
+        },
+        {
+          "start_time": 2448270,
+          "end_time": 2450190,
+          "speaker": "Speaker 3",
+          "content": "Yeah, it's like follow-up means something. Yeah."
+        },
+        {
+          "start_time": 2450830,
+          "end_time": 2452110,
+          "speaker": "Speaker 2",
+          "content": "You got anything? Nope."
+        },
+        {
+          "start_time": 2453470,
+          "end_time": 2461190,
+          "speaker": "Speaker 2",
+          "content": "You got anything? Nope. You got anything, Carl? Nope. Shelton. Charles. Nope. Coach, you got anything to follow? Strong close. Yeah, let's have strong close."
+        },
+        {
+          "start_time": 2461270,
+          "end_time": 2463350,
+          "speaker": "Speaker 5",
+          "content": "We've got an opportunity to have a decent run. We've got a strong close."
+        },
+        {
+          "start_time": 2464150,
+          "end_time": 2464790,
+          "speaker": "Speaker 2",
+          "content": "All right, let's go. Action,"
+        },
+        {
+          "start_time": 2471430,
+          "end_time": 2471910,
+          "speaker": "Speaker 2",
+          "content": "Charles."
+        },
+        {
+          "start_time": 2473030,
+          "end_time": 2473590,
+          "speaker": "Speaker 2",
+          "content": "Forty-eight."
+        },
+        {
+          "start_time": 2480790,
+          "end_time": 2482550,
+          "speaker": "Speaker 1",
+          "content": "Fourteen eight hundred. Fourteen eight hundred."
+        },
+        {
+          "start_time": 2483670,
+          "end_time": 2484470,
+          "speaker": "Speaker 1",
+          "content": "What are you talking? ATP. Forty-eight."
+        },
+        {
+          "start_time": 2484470,
+          "end_time": 2485270,
+          "speaker": "Speaker 2",
+          "content": "I told you there were some heavies in."
+        },
+        {
+          "start_time": 2486880,
+          "end_time": 2487600,
+          "speaker": "Speaker 2",
+          "content": "Keep going, down."
+        },
+        {
+          "start_time": 2489040,
+          "end_time": 2489920,
+          "speaker": "Speaker 2",
+          "content": "Ching, ching, ching,"
+        },
+        {
+          "start_time": 2490080,
+          "end_time": 2493840,
+          "speaker": "Speaker 7",
+          "content": "Ching, ching. Let's take the rest of them."
+        },
+        {
+          "start_time": 2494560,
+          "end_time": 2495200,
+          "speaker": "Speaker 3",
+          "content": "This is do or die."
+        },
+        {
+          "start_time": 2495520,
+          "end_time": 2510720,
+          "speaker": "Speaker 2",
+          "content": "Oh, we got to go. I was messed up. Take that out hard. I was. Charge. I can take the rest of them."
+        },
+        {
+          "start_time": 2510720,
+          "end_time": 2511840,
+          "speaker": "Speaker 7",
+          "content": "They tell me to take it out."
+        },
+        {
+          "start_time": 2511840,
+          "end_time": 2512720,
+          "speaker": "Speaker 2",
+          "content": "You go too late without something."
+        },
+        {
+          "start_time": 2529250,
+          "end_time": 2531250,
+          "speaker": "Speaker 3",
+          "content": "Just a phrase, transposed part again."
+        },
+        {
+          "start_time": 2575480,
+          "end_time": 2583480,
+          "speaker": "Speaker 8",
+          "content": "Brian Harris Porsche. One of my favorite things to do is help pick people for their new car and just sort of help them bring that vision to life."
+        },
+        {
+          "start_time": 2600600,
+          "end_time": 2602040,
+          "speaker": "Speaker 9",
+          "content": "Hello, my name is Seth Oblong."
+        },
+        {
+          "start_time": 2602360,
+          "end_time": 2603880,
+          "speaker": "Speaker 8",
+          "content": "I'm a Porsche brand ambassador."
+        },
+        {
+          "start_time": 2625140,
+          "end_time": 2626580,
+          "speaker": "Speaker 9",
+          "content": "Hello, my name is Seppe Blanc."
+        },
+        {
+          "start_time": 2626900,
+          "end_time": 2628180,
+          "speaker": "Speaker 8",
+          "content": "I'm a Porsche brand ambassador."
+        },
+        {
+          "start_time": 2630980,
+          "end_time": 2632180,
+          "speaker": "Speaker 9",
+          "content": "Hello, my name is Seppe Blanc."
+        },
+        {
+          "start_time": 2632660,
+          "end_time": 2635860,
+          "speaker": "Speaker 8",
+          "content": "I'm a Porsche brand ambassador here at Brian Harris Porsche."
+        },
+        {
+          "start_time": 2636820,
+          "end_time": 2642820,
+          "speaker": "Speaker 8",
+          "content": "One of my favorite things to do is help fit people for their new car and just sort of help them bring their vision to life."
+        },
+        {
+          "start_time": 2995270,
+          "end_time": 3023750,
+          "speaker": "Speaker 7",
+          "content": "Hello. My name is Seth Long."
+        },
+        {
+          "start_time": 3024700,
+          "end_time": 3027740,
+          "speaker": "Speaker 8",
+          "content": "I'm a Porsche brand ambassador here at Brian Harris Porsche."
+        },
+        {
+          "start_time": 3028700,
+          "end_time": 3034700,
+          "speaker": "Speaker 8",
+          "content": "One of my favorite things to do is help fit people for their new car and just sort of help them bring their vision to life."
+        },
+        {
+          "start_time": 3043420,
+          "end_time": 3044860,
+          "speaker": "Speaker 9",
+          "content": "Hello, my name is Seth Oblong."
+        },
+        {
+          "start_time": 3052700,
+          "end_time": 3053580,
+          "speaker": "Speaker 9",
+          "content": "Hello, my name is."
+        },
+        {
+          "start_time": 3237190,
+          "end_time": 3239030,
+          "speaker": "Speaker 8",
+          "content": "Porsche brand ambassador here."
+        },
+        {
+          "start_time": 3240390,
+          "end_time": 3243670,
+          "speaker": "Speaker 7",
+          "content": "At hello,"
+        },
+        {
+          "start_time": 3243670,
+          "end_time": 3244390,
+          "speaker": "Speaker 9",
+          "content": "My name is Seth Oblong."
+        },
+        {
+          "start_time": 3244950,
+          "end_time": 3248150,
+          "speaker": "Speaker 8",
+          "content": "I'm a Porsche brand ambassador here at Brian Harris Porsche."
+        },
+        {
+          "start_time": 3249110,
+          "end_time": 3255190,
+          "speaker": "Speaker 8",
+          "content": "One of my favorite things to do is help fit people for their new car and just sort of help them bring their vision to life."
+        },
+        {
+          "start_time": 3270640,
+          "end_time": 3270880,
+          "speaker": "Speaker 8",
+          "content": "\u5e72\u4ec0\u4e48\uff1f"
+        },
+        {
+          "start_time": 3306970,
+          "end_time": 3308570,
+          "speaker": "Speaker 9",
+          "content": "Hello, my name is Seppe Blanc."
+        },
+        {
+          "start_time": 3308650,
+          "end_time": 3309610,
+          "speaker": "Speaker 8",
+          "content": "I'm a Porsche brand."
+        },
+        {
+          "start_time": 3314250,
+          "end_time": 3316410,
+          "speaker": "Speaker 9",
+          "content": "Hello, my name is Seppe Blanc. I'm a."
+        },
+        {
+          "start_time": 3317610,
+          "end_time": 3319050,
+          "speaker": "Speaker 9",
+          "content": "Hello, my name is Seppe Blanc."
+        },
+        {
+          "start_time": 3319290,
+          "end_time": 3329610,
+          "speaker": "Speaker 8",
+          "content": "I'm a Porsche brand ambassador here at Brian Harris Porsche. One of my favorite things to do is help fit people for their new car and just sort of help them bring their vision to life."
+        },
+        {
+          "start_time": 3343200,
+          "end_time": 3344000,
+          "speaker": "Speaker 9",
+          "content": "Hello, my name's."
+        },
+        {
+          "start_time": 3355680,
+          "end_time": 3357760,
+          "speaker": "Speaker 9",
+          "content": "Hello, my name is Seth Oblong. I'm a."
         }
       ]
     }

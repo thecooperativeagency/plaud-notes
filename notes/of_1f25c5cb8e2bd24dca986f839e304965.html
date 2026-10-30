@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ABR · Used lead rule rebuild + 1.99 banners + 2026/27 inventory</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500&family=IBM+Plex+Mono:wght@400;500&family=Source+Sans+3:wght@400;600;700&display=swap">
+  <style>
+:root {
+  --bg: #090908;
+  --bg-2: #11110f;
+  --bg-3: #181714;
+  --ink: #f0eadc;
+  --muted: #8d8778;
+  --faint: #5c574c;
+  --line: #26241e;
+  --accent: #c4452d;
+  --mustard: #c4a35a;
+  --blue: #6f8fbf;
+  --ok: #7d9a6d;
+  --serif: "Fraunces", "Iowan Old Style", Georgia, serif;
+  --sans: "Source Sans 3", "Source Sans Pro", -apple-system, sans-serif;
+  --mono: "IBM Plex Mono", ui-monospace, monospace;
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html, body { background: var(--bg); color: var(--ink); }
+body {
+  font-family: var(--sans);
+  min-height: 100vh;
+  text-wrap: pretty;
+}
+a { color: inherit; }
+.shell { display: grid; grid-template-columns: 260px 1fr; min-height: 100vh; }
+.rail {
+  border-right: 1px solid var(--line);
+  padding: 28px 18px 40px;
+  background: var(--bg-2);
+  position: sticky; top: 0; height: 100vh; overflow: auto;
+}
+.mark {
+  font-family: var(--serif);
+  font-weight: 500;
+  font-size: 13px;
+  letter-spacing: .18em;
+  text-transform: uppercase;
+  color: var(--accent);
+}
+.rail h1 {
+  font-family: var(--serif);
+  font-size: 28px;
+  font-weight: 460;
+  letter-spacing: -.03em;
+  margin: 10px 0 6px;
+}
+.rail .lede { color: var(--muted); font-size: 13.5px; line-height: 1.45; margin-bottom: 28px; }
+.vnav { display: flex; flex-direction: column; gap: 4px; }
+.vnav a {
+  display: flex; justify-content: space-between; align-items: baseline;
+  text-decoration: none; padding: 9px 10px; border-radius: 8px;
+  color: var(--ink); font-size: 14px;
+}
+.vnav a:hover, .vnav a.is-on { background: var(--bg-3); }
+.vnav a.is-on { box-shadow: inset 2px 0 0 var(--accent); }
+.vnav .count { color: var(--faint); font-family: var(--mono); font-size: 11px; }
+.stage { padding: 36px 40px 80px; max-width: 980px; }
+.kicker {
+  font-size: 11px; letter-spacing: .16em; text-transform: uppercase;
+  color: var(--accent); font-weight: 700; margin-bottom: 8px;
+}
+.stage > h2 {
+  font-family: var(--serif); font-weight: 460; font-size: 34px;
+  letter-spacing: -.03em; margin-bottom: 8px;
+}
+.blurb { color: var(--muted); margin-bottom: 28px; max-width: 46rem; }
+.empty {
+  border: 1px dashed var(--line); border-radius: 14px;
+  padding: 36px 28px; color: var(--muted); background: var(--bg-2);
+}
+.empty strong { color: var(--ink); font-weight: 600; }
+.cards { display: flex; flex-direction: column; gap: 10px; }
+.card {
+  display: grid; grid-template-columns: 1fr auto; gap: 12px;
+  text-decoration: none; padding: 16px 18px; border-radius: 12px;
+  background: var(--bg-2); border: 1px solid var(--line);
+}
+.card:hover { border-color: #3a372e; background: var(--bg-3); }
+.card h3 { font-size: 16px; font-weight: 600; margin-bottom: 4px; }
+.meta { color: var(--muted); font-size: 13px; display: flex; gap: 10px; flex-wrap: wrap; }
+.chip {
+  font-family: var(--mono); font-size: 10px; letter-spacing: .06em;
+  text-transform: uppercase; padding: 3px 7px; border-radius: 999px;
+  border: 1px solid var(--line); color: var(--muted); height: fit-content;
+}
+.chip.dealers { color: var(--blue); border-color: #2a3344; }
+.chip.avec-tous { color: var(--mustard); border-color: #3a3320; }
+.chip.personal { color: #c9a7a0; }
+.chip.ideas { color: var(--ok); }
+.note-top { margin-bottom: 22px; }
+.note-top h2 { font-family: var(--serif); font-size: 36px; font-weight: 460; letter-spacing: -.03em; }
+.tabs { display: flex; gap: 6px; margin: 22px 0 18px; border-bottom: 1px solid var(--line); }
+.tabs button {
+  appearance: none; background: none; border: 0; color: var(--muted);
+  font: 600 13px var(--sans); padding: 10px 12px; cursor: pointer;
+  border-bottom: 2px solid transparent; margin-bottom: -1px;
+}
+.tabs button[aria-selected="true"] { color: var(--ink); border-bottom-color: var(--accent); }
+.panel { display: none; }
+.panel.is-on { display: block; }
+.prose { font-size: 16.5px; line-height: 1.6; max-width: 42rem; }
+.prose h2, .prose h3 { font-family: var(--serif); font-weight: 500; margin: 1.3em 0 .4em; }
+.prose p { margin: 0 0 .8em; }
+.prose ul, .prose ol { margin: 0 0 1em 1.2em; }
+.prose li { margin: .25em 0; }
+.hl { border-left: 2px solid var(--accent); padding: 10px 0 10px 14px; margin: 0 0 14px; }
+.hl .t { font-family: var(--mono); font-size: 11px; color: var(--faint); }
+.hl h4 { font-size: 15px; margin: 4px 0; }
+.hl p { color: var(--muted); font-size: 14.5px; }
+.seg { display: grid; grid-template-columns: 64px 1fr; gap: 12px; padding: 8px 0; border-bottom: 1px solid var(--line); }
+.seg .ts { font-family: var(--mono); font-size: 11px; color: var(--faint); padding-top: 3px; }
+.back { color: var(--muted); text-decoration: none; font-size: 13px; display: inline-block; margin-bottom: 18px; }
+.back:hover { color: var(--ink); }
+footer { margin-top: 48px; color: var(--faint); font-size: 11px; font-family: var(--mono); }
+@media (max-width: 820px) {
+  .shell { grid-template-columns: 1fr; }
+  .rail { position: relative; height: auto; border-right: 0; border-bottom: 1px solid var(--line); }
+  .stage { padding: 24px 18px 64px; }
+  .note-top h2 { font-size: 28px; }
+}
+</style>
+</head>
+<body>
+<div class="shell">
+<aside class="rail">
+  <div class="mark">Cooperative</div>
+  <h1>Field desk</h1>
+  <p class="lede">Plaud landings. Summary, highlights, transcript — filed by life area.</p>
+  <nav class="vnav"><a href="../index.html" class="">All <span class="count">133</span></a><a class="" href="../vertical-inbox.html">Inbox <span class="count">1</span></a><a class="" href="../vertical-personal.html">Personal <span class="count">10</span></a><a class="" href="../vertical-coop-marketing.html">Coop Marketing <span class="count">6</span></a><a class="" href="../vertical-coop-dev.html">Coop Dev <span class="count">17</span></a><a class="" href="../vertical-avec-tous.html">Avec Tous <span class="count">0</span></a><a class="is-on" href="../vertical-dealers.html">Dealers <span class="count">92</span></a><a class="" href="../vertical-ideas.html">Ideas <span class="count">7</span></a></nav>
+</aside>
+<main class="stage">
+  <a class="back" href="../index.html">← Desk</a>
+  <div class="note-top">
+    <div class="kicker">dealers · 2026-10-30 · 9m21s</div>
+    <h2>ABR · Used lead rule rebuild + 1.99 banners + 2026/27 inventory</h2>
+    <div class="meta" style="margin-top:8px"><span>id of_1f25c5cb8e2bd24dca986f839e304965</span><span>Audi BR floor: Vin used-car lead assignment + inventory/CPO + evergreen 1.99 banners</span></div>
+  </div>
+  <div class="tabs" role="tablist">
+    <button type="button" data-panel="sum" aria-selected="true">Summary</button>
+    <button type="button" data-panel="hl" aria-selected="false">Highlights</button>
+    <button type="button" data-panel="tx" aria-selected="false">Transcript</button>
+  </div>
+  <section id="sum" class="panel is-on prose"><h2>Takeaway</h2>
+<p><strong>ABR</strong> ops: Lance will <strong>delete and rebuild the used-car lead assignment rule</strong> in Vin (leads still need to hit someone even when off). Soft talk on <strong>two evergreen 1.99 “new Audi” banners</strong>. Inventory: ~10×2027 + 78×2026 (35 in loaner); $400 mini on in-stock 2026s floated; Q5 soft vs region (Atlanta 12 / Marietta 9 Q5s out). CPO rate/cert path unclear — no lock.</p>
+<h2>Locked / action-shaped</h2>
+<ul>
+<li><strong>Lance:</strong> delete + rebuild <strong>used car lead assignment rule</strong></li>
+<li>Banners: lean evergreen “1.99 available now on a new Audi” ×2 — not final art brief</li>
+<li>Check enhancements ~2nd/3rd next month</li>
+</ul>
+<h2>Notes</h2>
+<ul>
+<li>Area softer month; ABR relative outperformance on Q5 still thin vs big hitters</li>
+<li>Q7/Q8 ok; Q5/A5 concern</li>
+<li>Loaner vs retail 2026s + adding 2027s to fleet — no final</li>
+</ul>
+<h2>Ada vs Lance</h2>
+<p><strong>Park + Lance (Vin rule).</strong> Do not touch client CRM from Mini. Creative banner only if he says go.</p></section>
+  <section id="hl" class="panel"><div class="hl"><div class="t">0:09</div><h4>Lead rule</h4><p>Delete and rebuild used-car lead assignment rule; Lance will fix.</p></div><div class="hl"><div class="t">2:02</div><h4>1.99 banners</h4><p>Evergreen 1.99 new Audi; two banners (used + road).</p></div><div class="hl"><div class="t">2:09</div><h4>Inventory</h4><p>~10 2027s + 78 2026s (35 loaner); Q5 pressure region-wide.</p></div></section>
+  <section id="tx" class="panel"><div class="seg"><div class="ts">0:00</div><div>So I&#x27;ll.</div></div><div class="seg"><div class="ts">0:00</div><div>Bring us Thursday, and he&#x27;s off.</div></div><div class="seg"><div class="ts">0:02</div><div>I mean, look, some of the leads might be coming through when he&#x27;s not here, but no, he should be getting. I&#x27;ll just delete the whole thing.</div></div><div class="seg"><div class="ts">0:09</div><div>Delete the used car lead assignment rule. That&#x27;s what it&#x27;s called, and fucking rebuild it. I don&#x27;t know,</div></div><div class="seg"><div class="ts">0:16</div><div>But no, that day I looked at it,</div></div><div class="seg"><div class="ts">0:18</div><div>Called you, but yeah, so I don&#x27;t know.</div></div><div class="seg"><div class="ts">0:20</div><div>That&#x27;s weird.</div></div><div class="seg"><div class="ts">0:22</div><div>Because I was worried.</div></div><div class="seg"><div class="ts">0:23</div><div>I looked in the settings. I didn&#x27;t really see anything that was. Yeah.</div></div><div class="seg"><div class="ts">0:31</div><div>I can&#x27;t put a lot of people&#x27;s names there.</div></div><div class="seg"><div class="ts">0:34</div><div>Once they&#x27;re in it, they&#x27;re in it.</div></div><div class="seg"><div class="ts">0:37</div><div>I could, but it&#x27;ll cause just as much. Oh, I know.</div></div><div class="seg"><div class="ts">0:41</div><div>Yeah. It&#x27;ll cause a fracas. I&#x27;ll get it fixed.</div></div><div class="seg"><div class="ts">0:47</div><div>So for next month, are we just we&#x27;re gonna kind of wait and see what we get? I think we&#x27;ll get some enhancements a little bit again. Are we gonna kind of? We have right now is good. I&#x27;m just kind of getting the conversation started.</div></div><div class="seg"><div class="ts">0:57</div><div>Yeah, yeah. If anything enhances, we&#x27;ll change.</div></div><div class="seg"><div class="ts">0:59</div><div>Yeah. We&#x27;ll yeah we&#x27;ll check it on the second third.</div></div><div class="seg"><div class="ts">1:02</div><div>I would think they I think they&#x27;re probably okay. And the only reason I&#x27;m saying that is because during summer body we didn&#x27;t get enough so maybe season the body we might go back to two thousand to fifteen hundred. That&#x27;s just a guess.</div></div><div class="seg"><div class="ts">1:19</div><div>I think you&#x27;ll probably I think you&#x27;ll see more shit on Q fox.</div></div><div class="seg"><div class="ts">1:26</div><div>How how long does it take to get a banner for? Like a 1.9 percent 1.</div></div><div class="seg"><div class="ts">1:31</div><div>99 for a couple days.</div></div><div class="seg"><div class="ts">1:33</div><div>Do you want to like do that for the road?</div></div><div class="seg"><div class="ts">1:35</div><div>I almost think we should just do it. Like we talked about it, doing both banners. Put one banner by used cars, and then like another one as we get.</div></div><div class="seg"><div class="ts">1:43</div><div>Yeah, we&#x27;ll get two. Two of the same thing because we can do.</div></div><div class="seg"><div class="ts">1:48</div><div>We did this for like more sports.</div></div><div class="seg"><div class="ts">1:50</div><div>We can do 1.</div></div><div class="seg"><div class="ts">1:50</div><div>9 new Audi, and like not put one model and all that shit, and then it kind of makes it more evergreen. Like we did that for BMW a while back, and it was.</div></div><div class="seg"><div class="ts">1:58</div><div>You know, because we can keep the sign up.</div></div><div class="seg"><div class="ts">2:00</div><div>Yeah, because I bet they&#x27;re gonna.</div></div><div class="seg"><div class="ts">2:02</div><div>We&#x27;ll put you know one point nine nine available now on a new on a new Audi.</div></div><div class="seg"><div class="ts">2:05</div><div>Did you see how many people had Q Fox out?</div></div><div class="seg"><div class="ts">2:09</div><div>Like the when he sent the report out today for the bonus for the fifteen hundred bonus. And like I think I think Audi Atlanta had like twelve. Marietta had nine.</div></div><div class="seg"><div class="ts">2:26</div><div>Nobody. I mean, honestly, we have we&#x27;ve done pretty well considering, like, all the big hitters that are have only sold like the most anybody sold was Audi Atlanta, and they had they had twelve Q5s out.</div></div><div class="seg"><div class="ts">2:39</div><div>The area is having a worse month than it did last month.</div></div><div class="seg"><div class="ts">2:46</div><div>I I really don&#x27;t quite understand the relative success that we&#x27;ve had.</div></div><div class="seg"><div class="ts">2:54</div><div>And I&#x27;m calling it relative success because relative to to other people,</div></div><div class="seg"><div class="ts">2:58</div><div>But so.</div></div><div class="seg"><div class="ts">3:03</div><div>But I would think nothing about the kids like that.</div></div><div class="seg"><div class="ts">3:05</div><div>Nothing about changing that.</div></div><div class="seg"><div class="ts">3:06</div><div>Well, I&#x27;m saying I think that because those numbers look bad, I&#x27;m sure the whole country looks bad. On the FOS, they&#x27;re going to do.</div></div><div class="seg"><div class="ts">3:13</div><div>The numbers are coming in. I mean, yeah.</div></div><div class="seg"><div class="ts">3:16</div><div>Look at our. We&#x27;ve we&#x27;ve sold some FOS and look at our inventory.</div></div><div class="seg"><div class="ts">3:19</div><div>Yeah, like thirty-five of them.</div></div><div class="seg"><div class="ts">3:21</div><div>Yeah, everybody else.</div></div><div class="seg"><div class="ts">3:22</div><div>Atlanta&#x27;s probably got over a hundred.</div></div><div class="seg"><div class="ts">3:24</div><div>Did they bulk it up because they knew they were going to be making less for a little while,</div></div><div class="seg"><div class="ts">3:29</div><div>Or is it?</div></div><div class="seg"><div class="ts">3:31</div><div>No, no,</div></div><div class="seg"><div class="ts">3:32</div><div>No. BMW used to do that. They&#x27;d send you a bunch, and then you were going to be.</div></div><div class="seg"><div class="ts">3:35</div><div>It&#x27;s basically it&#x27;s accumulated over months of not selling enough Q fives.</div></div><div class="seg"><div class="ts">3:40</div><div>Yeah, I was looking at,</div></div><div class="seg"><div class="ts">3:42</div><div>God Sugarland. Sugarland combines their inventory with North Houston because we had a because of Jack&#x27;s people who were down there looking at the Sportback and they were also shopping. Do you remember that the black people?</div></div><div class="seg"><div class="ts">3:57</div><div>They have fucking combined thirty-eight Sportbacks and stuff between the two dealerships.</div></div><div class="seg"><div class="ts">4:02</div><div>Jesus Christ, Lord, that&#x27;s a lot.</div></div><div class="seg"><div class="ts">4:06</div><div>So,</div></div><div class="seg"><div class="ts">4:09</div><div>One thing I was thinking, and y&#x27;all tell me what y&#x27;all think. I&#x27;m looking at the inventory, and we have seventy-eight out of it. So we have ten twenty sevens on the lot and seventy eight twenty sixes on the lot.</div></div><div class="seg"><div class="ts">4:21</div><div>When we look at loaners, I was basically going to try to almost skip like twenty six year model to where we have like thirty five twenty sixes in loaner right now.</div></div><div class="seg"><div class="ts">4:33</div><div>And basically, what I&#x27;m asking is, is it worth it to put like instead of a three hundred mini, do a four hundred mini on twenty sixes in stock? So like. We attack twenty sixes and don&#x27;t just start selling twenty sevens. Yeah, sure. To where like I don&#x27;t have to put a ton of twenty sixes into loaner to where like maybe fifty twenty sixes total for the year and then just sell them twenty sevens.</div></div><div class="seg"><div class="ts">4:58</div><div>Yeah, we can at least come out and make some money. Yeah, I&#x27;m saying yeah. Great.</div></div><div class="seg"><div class="ts">5:04</div><div>Yeah, I think I think salespeople are going to naturally sell the twenty sixes anyway.</div></div><div class="seg"><div class="ts">5:08</div><div>If you I would agree with that if we had good salespeople. Yeah.</div></div><div class="seg"><div class="ts">5:11</div><div>I mean, Jack is not going to share a fucking twenty-seven. Agreed,</div></div><div class="seg"><div class="ts">5:14</div><div>But we have. If I don&#x27;t know,</div></div><div class="seg"><div class="ts">5:16</div><div>Yeah.</div></div><div class="seg"><div class="ts">5:18</div><div>So I don&#x27;t know. Give me some thought.</div></div><div class="seg"><div class="ts">5:21</div><div>You can do it.</div></div><div class="seg"><div class="ts">5:21</div><div>But I would like to retail out of twenty-sixes rather than dump them in the loaner.</div></div><div class="seg"><div class="ts">5:26</div><div>Yeah, of course, of course. Now, the bulk of the twenty-sixes we&#x27;ve got.</div></div><div class="seg"><div class="ts">5:32</div><div>Obviously, some some Q sevens, which I think they take care of.</div></div><div class="seg"><div class="ts">5:34</div><div>Q sevens are going to be fine.</div></div><div class="seg"><div class="ts">5:36</div><div>Q eights are probably going to be fine. Everything seems to be fine except for Q5 and maybe A5. Q5, you know,</div></div><div class="seg"><div class="ts">5:44</div><div>We&#x27;ve got what one twenty-seven coming in on Q5.</div></div><div class="seg"><div class="ts">5:47</div><div>Yeah, we don&#x27;t even have twenty-sevens. Yeah,</div></div><div class="seg"><div class="ts">5:51</div><div>It&#x27;s funny how late they are into the game with their smiles. Yeah, if you want to do it,</div></div><div class="seg"><div class="ts">5:54</div><div>Let&#x27;s do it.</div></div><div class="seg"><div class="ts">5:57</div><div>I agree with you though. If if you could start putting twenty-sevens into the fleet,</div></div><div class="seg"><div class="ts">6:02</div><div>Would be ideal.</div></div><div class="seg"><div class="ts">6:06</div><div>Yeah, because you look at it and you have.</div></div><div class="seg"><div class="ts">6:09</div><div>Hopefully at the next year,</div></div><div class="seg"><div class="ts">6:11</div><div>We&#x27;re we&#x27;re we have fifty twenty six is max. We have to sell for the whole year, you know, rather than fifty in the last quarter.</div></div><div class="seg"><div class="ts">6:18</div><div>Yeah, yeah.</div></div><div class="seg"><div class="ts">6:21</div><div>Yeah, we won&#x27;t be in the position if we&#x27;re at this.</div></div><div class="seg"><div class="ts">6:30</div><div>Yeah, that&#x27;s a that&#x27;s a tough hurdle that I don&#x27;t know how to.</div></div><div class="seg"><div class="ts">6:37</div><div>Unless they come out with something like we were talking about with CPOs,</div></div><div class="seg"><div class="ts">6:42</div><div>Unless they come out with something crazy on CPO interest rates, like what&#x27;s the point of?</div></div><div class="seg"><div class="ts">6:48</div><div>I mean, sure they&#x27;re way cheaper,</div></div><div class="seg"><div class="ts">6:50</div><div>But yeah.</div></div><div class="seg"><div class="ts">6:52</div><div>And now you&#x27;re looking at one nine nine and two nine nine, where it&#x27;s like,</div></div><div class="seg"><div class="ts">6:57</div><div>For sure, it&#x27;s gonna be six thousand dollars difference between the two, so it almost makes them the same.</div></div><div class="seg"><div class="ts">7:05</div><div>Yeah. Yeah, it&#x27;s like they, yeah.</div></div><div class="seg"><div class="ts">7:07</div><div>It&#x27;s good. I&#x27;m dead to do it, but at the same time, it fucks the.</div></div><div class="seg"><div class="ts">7:12</div><div>Now I do believe some used car shoppers are just going to be used car shoppers. Yeah.</div></div><div class="seg"><div class="ts">7:18</div><div>I I kind of hope I&#x27;m hoping that they run the same interest rate on the twenty fives. Like if they come out and say CPO loaners are one nine two, and then we can just certify them and fucking. Advertise one nine on them, then it makes sense because if you can get the same rate on the cheaper car,</div></div><div class="seg"><div class="ts">7:40</div><div>Then yeah, yeah.</div></div><div class="seg"><div class="ts">7:42</div><div>Well, it&#x27;s usually a sense about CPM for advance and you can get more carry on CPM. Hmm.</div></div><div class="seg"><div class="ts">8:18</div><div>It&#x27;s eight hundred bucks, and then plus the service service bill,</div></div><div class="seg"><div class="ts">8:26</div><div>Twelve hundred. Do you still get a? They&#x27;re getting a copy of your Saturday whenever you want to.</div></div><div class="seg"><div class="ts">8:29</div><div>Do you still get a UCI, or is it just the? Do you still get a UCI, or is it just the CPO inspection?</div></div><div class="seg"><div class="ts">8:38</div><div>If you do the fish, we should have.</div></div><div class="seg"><div class="ts">8:40</div><div>If you do the fish, we should have been given them. But I think I don&#x27;t even know if they&#x27;re even inspecting them. I don&#x27;t even know what because I don&#x27;t. I don&#x27;t get any of that information until the car gets to me. Wait, but it should have been.</div></div><div class="seg"><div class="ts">8:51</div><div>Specifically, all we gotta really do to get these things certified at this point in time, because they&#x27;ve already gone through,</div></div><div class="seg"><div class="ts">8:57</div><div>You&#x27;ll have to put them on a you have to put them on a scan.</div></div><div class="seg"><div class="ts">9:01</div><div>So if the battery is low, yes, you&#x27;re gonna get hit for that.</div></div><div class="seg"><div class="ts">9:05</div><div>You gotta put them on a scan, and then you gotta do the paperwork, and you gotta run time. Think this.</div></div><div class="seg"><div class="ts">9:10</div><div>Yeah, guys, here&#x27;s the jet.</div></div><div class="seg"><div class="ts">9:11</div><div>Okay, so they do that.</div></div><div class="seg"><div class="ts">9:16</div><div>If you get that you want to go back and see if some of these things, I&#x27;ll talk to Taylor and just.</div></div></section>
+</main>
+</div>
+<footer>PLAUD-NOTES-2026-10-30-1333 · noindex · Plaud sources + notes</footer>
+<script>
+
+document.querySelectorAll('.tabs button').forEach(btn => {
+  btn.addEventListener('click', () => {
+    document.querySelectorAll('.tabs button').forEach(b => b.setAttribute('aria-selected', b===btn ? 'true':'false'));
+    document.querySelectorAll('.panel').forEach(p => p.classList.toggle('is-on', p.id === btn.dataset.panel));
+  });
+});
+
+</script>
+</body>
+</html>
