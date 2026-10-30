@@ -53761,6 +53761,3973 @@
           "content": "They didn't do that. What's that? I'm sending a message over to uh, Gage. Where? The the rep for that. Oh yeah. Hey, we need to send an email over to Gage. These emails that our AIs. Are sending to customers inside of In Solutions are entirely too similar. In, in a nutshell, it's doing a terrible job compared to Podium. Della, get on that. Go ahead and compose an email that we can send out to Gage about that issue. You can consult with Copper if you need to, and then show me the draft in chat."
         }
       ]
+    },
+    {
+      "id": "of_118ef9f2c2fd28dc779b24ad84f20914",
+      "name": "Floor \u00b7 AMG convertible in-and-out trade valuation",
+      "start_at": "2026-10-29T18:57:37",
+      "created_at": "2026-10-29T19:03:30",
+      "duration_ms": 345000,
+      "vertical": "dealers",
+      "store": null,
+      "routed_by": "AMG trade / floor desk valuation dispute",
+      "status": "park",
+      "work_order": "Park. Floor deal talk \u2014 no Coop action.",
+      "summary_md": "## Takeaway\nFloor desk on an **AMG convertible in-and-out** trade. Trade value debate **$12k vs $15k**; buyer funding unclear until check/insurance clears.\n\n## Notes\n### Vehicle Transaction Discussion\n* **Deal Context & Parties:** in-and-out involving AMG Mercedes convertible trade-in. Kyle working buyer; Michelle said buyer works for her husband Jeff.\n* **Valuation & Payment:** $15k check claimed vs ~$12k trade value; Jason message that check/insurance should clear today or tomorrow. Buyer planned to purchase at trade value then trade later after insurance clears.\n* **Concern:** paying $15k for a $12k car puts buyer underwater (~$17k in six weeks) plus tax.\n\n\n## Ada vs Lance\n**Park.** No Coop build.\n",
+      "highlights": [],
+      "transcript": [
+        {
+          "start_time": 1380,
+          "end_time": 3140,
+          "speaker": "Speaker 1",
+          "content": "J. H. E. B. E. R. T."
+        },
+        {
+          "start_time": 8500,
+          "end_time": 10740,
+          "speaker": "Speaker 1",
+          "content": "So when I went and I looked at,"
+        },
+        {
+          "start_time": 10980,
+          "end_time": 14900,
+          "speaker": "Speaker 2",
+          "content": "I'm sorry, I don't think the deal is coming at two to capture."
+        },
+        {
+          "start_time": 16820,
+          "end_time": 20900,
+          "speaker": "Speaker 1",
+          "content": "Okay, but everything else is loaded. So, all right, she'll be here in one minute."
+        },
+        {
+          "start_time": 21300,
+          "end_time": 22180,
+          "speaker": "Speaker 2",
+          "content": "Yeah, it's actually in and out."
+        },
+        {
+          "start_time": 22420,
+          "end_time": 24340,
+          "speaker": "Speaker 1",
+          "content": "Forgot about that. What's the in and out?"
+        },
+        {
+          "start_time": 24660,
+          "end_time": 27460,
+          "speaker": "Speaker 2",
+          "content": "So the trade is one of the other guys coming to buy the trade."
+        },
+        {
+          "start_time": 28180,
+          "end_time": 29460,
+          "speaker": "Speaker 1",
+          "content": "Yeah, but the guy doesn't have the money."
+        },
+        {
+          "start_time": 30680,
+          "end_time": 31400,
+          "speaker": "Speaker 1",
+          "content": "No, he doesn't,"
+        },
+        {
+          "start_time": 31960,
+          "end_time": 33560,
+          "speaker": "Speaker 1",
+          "content": "Because he's trying to buy a car from us."
+        },
+        {
+          "start_time": 34520,
+          "end_time": 36520,
+          "speaker": "Speaker 1",
+          "content": "Yeah, he does not have the money yet."
+        },
+        {
+          "start_time": 37080,
+          "end_time": 38280,
+          "speaker": "Speaker 2",
+          "content": "Yeah, he has a check for fifteen grand."
+        },
+        {
+          "start_time": 38360,
+          "end_time": 44200,
+          "speaker": "Speaker 1",
+          "content": "He does not. I talked to Kyle about this. You might want to talk to Kyle. The guy is buying a car from Kyle."
+        },
+        {
+          "start_time": 45800,
+          "end_time": 51800,
+          "speaker": "Speaker 1",
+          "content": "He's buying either this or X One, and he wants to trade that car on the X One. I say this is fucking stupid."
+        },
+        {
+          "start_time": 54120,
+          "end_time": 54600,
+          "speaker": "Speaker 1",
+          "content": "Yes."
+        },
+        {
+          "start_time": 54600,
+          "end_time": 56440,
+          "speaker": "Speaker 2",
+          "content": "Kyle's involved in my deal. No,"
+        },
+        {
+          "start_time": 57160,
+          "end_time": 59960,
+          "speaker": "Speaker 1",
+          "content": "Kyle is working the deal on the guy buying the In and Out."
+        },
+        {
+          "start_time": 60740,
+          "end_time": 62100,
+          "speaker": "Speaker 1",
+          "content": "And they just so happen to know each other."
+        },
+        {
+          "start_time": 63540,
+          "end_time": 66340,
+          "speaker": "Speaker 2",
+          "content": "So my guys want to buy a vehicle, traded in."
+        },
+        {
+          "start_time": 66340,
+          "end_time": 67540,
+          "speaker": "Speaker 1",
+          "content": "In and out."
+        },
+        {
+          "start_time": 67780,
+          "end_time": 68580,
+          "speaker": "Speaker 2",
+          "content": "Is it another in and out?"
+        },
+        {
+          "start_time": 69860,
+          "end_time": 72660,
+          "speaker": "Speaker 1",
+          "content": "I'm not. Red. He knows Red Goose is. They're friends."
+        },
+        {
+          "start_time": 73300,
+          "end_time": 81540,
+          "speaker": "Speaker 1",
+          "content": "He had a wreck two weeks ago. Red Goose say, \"Here, you can use my car because I'm getting rid of it.\" He's like, \"Okay, I'll buy it."
+        },
+        {
+          "start_time": 82260,
+          "end_time": 95550,
+          "speaker": "Speaker 1",
+          "content": "\" Well, after he agreed to buy it, he already come in, Kyle. He already started working a deal with us to work on what's his next call gonna be. Well, we have the right call, and I told him I'd help him on the interest rate. But he's got to act faster, sooner than later."
+        },
+        {
+          "start_time": 96350,
+          "end_time": 99790,
+          "speaker": "Speaker 1",
+          "content": "So we're talking about the guy that's talking about doing it in and out."
+        },
+        {
+          "start_time": 101710,
+          "end_time": 101950,
+          "speaker": "Speaker 1",
+          "content": "Yeah,"
+        },
+        {
+          "start_time": 103710,
+          "end_time": 105630,
+          "speaker": "Speaker 1",
+          "content": "That's what I'm telling you. Yeah. So we've been working this guy."
+        },
+        {
+          "start_time": 105710,
+          "end_time": 113070,
+          "speaker": "Speaker 3",
+          "content": "Mercedes convertible? No, the Mercedes AMG."
+        },
+        {
+          "start_time": 114190,
+          "end_time": 114990,
+          "speaker": "Speaker 3",
+          "content": "That is Mr."
+        },
+        {
+          "start_time": 115630,
+          "end_time": 116590,
+          "speaker": "Speaker 1",
+          "content": "Where goose is called?"
+        },
+        {
+          "start_time": 117550,
+          "end_time": 118590,
+          "speaker": "Speaker 3",
+          "content": "He's friends with him."
+        },
+        {
+          "start_time": 119600,
+          "end_time": 132000,
+          "speaker": "Speaker 3",
+          "content": "And so what his plan was was to have Mister whatever the trade value was, he was just going to buy it from Ringusa and then trade it in later when Ringusa asked for fifteen grand for it."
+        },
+        {
+          "start_time": 132480,
+          "end_time": 134880,
+          "speaker": "Speaker 1",
+          "content": "Yada yada. We got it for twelve, because of trading."
+        },
+        {
+          "start_time": 135280,
+          "end_time": 136000,
+          "speaker": "Speaker 2",
+          "content": "I got it for fifteen."
+        },
+        {
+          "start_time": 137520,
+          "end_time": 140400,
+          "speaker": "Speaker 1",
+          "content": "Everything I got since twelve. Um,"
+        },
+        {
+          "start_time": 141120,
+          "end_time": 148560,
+          "speaker": "Speaker 3",
+          "content": "However, Jason messaged me maybe twenty minutes ago and said that he should be done with his check tomorrow or this afternoon."
+        },
+        {
+          "start_time": 149190,
+          "end_time": 152870,
+          "speaker": "Speaker 1",
+          "content": "So, so here's the other thing that understands because he's saying,"
+        },
+        {
+          "start_time": 153750,
+          "end_time": 157990,
+          "speaker": "Speaker 1",
+          "content": "He's saying that the guy's bringing us a fifteen thousand dollars check, and I'm like, he don't have no money."
+        },
+        {
+          "start_time": 158150,
+          "end_time": 166230,
+          "speaker": "Speaker 2",
+          "content": "I talked to Michelle this morning. She said, this guy, I don't know any of this. She said that her husband Jeff has the company. This guy works for Jeff."
+        },
+        {
+          "start_time": 166230,
+          "end_time": 167110,
+          "speaker": "Speaker 3",
+          "content": "She said,"
+        },
+        {
+          "start_time": 167430,
+          "end_time": 168710,
+          "speaker": "Speaker 2",
+          "content": "We're gonna bring a fifteen thousand dollars check."
+        },
+        {
+          "start_time": 168710,
+          "end_time": 169830,
+          "speaker": "Speaker 1",
+          "content": "Did you just say my name is Jeff?"
+        },
+        {
+          "start_time": 171430,
+          "end_time": 173990,
+          "speaker": "Speaker 1",
+          "content": "Okay, we'll see if he's got money."
+        },
+        {
+          "start_time": 174630,
+          "end_time": 176950,
+          "speaker": "Speaker 1",
+          "content": "He's about, he's about to fuck himself because he thinks."
+        },
+        {
+          "start_time": 178350,
+          "end_time": 182510,
+          "speaker": "Speaker 1",
+          "content": "You're not. You're not going to get fifteen. Yes. Absolutely."
+        },
+        {
+          "start_time": 182510,
+          "end_time": 184590,
+          "speaker": "Speaker 3",
+          "content": "Oh baby. On the street,"
+        },
+        {
+          "start_time": 191870,
+          "end_time": 193710,
+          "speaker": "Speaker 3",
+          "content": "That's probably what it's worth, right?"
+        },
+        {
+          "start_time": 194350,
+          "end_time": 195390,
+          "speaker": "Speaker 2",
+          "content": "So that's the car right there."
+        },
+        {
+          "start_time": 195390,
+          "end_time": 196910,
+          "speaker": "Speaker 1",
+          "content": "Yeah. See, he's look."
+        },
+        {
+          "start_time": 197790,
+          "end_time": 203630,
+          "speaker": "Speaker 1",
+          "content": "He's already taking off the old license plate. Yeah, it was."
+        },
+        {
+          "start_time": 206390,
+          "end_time": 207910,
+          "speaker": "Speaker 1",
+          "content": "This is a fucking mess. Oh yeah,"
+        },
+        {
+          "start_time": 211750,
+          "end_time": 213830,
+          "speaker": "Speaker 1",
+          "content": "Dude. Did we not have a talk about that?"
+        },
+        {
+          "start_time": 214550,
+          "end_time": 215270,
+          "speaker": "Speaker 2",
+          "content": "Did we talk about the new one?"
+        },
+        {
+          "start_time": 215430,
+          "end_time": 217030,
+          "speaker": "Speaker 1",
+          "content": "The last one. The last ride."
+        },
+        {
+          "start_time": 222630,
+          "end_time": 224070,
+          "speaker": "Speaker 1",
+          "content": "He claims he's got money to burn."
+        },
+        {
+          "start_time": 225030,
+          "end_time": 231590,
+          "speaker": "Speaker 1",
+          "content": "Stay right here. The In-N-Out dude. But then he wanted to get a Silverado at zero percent."
+        },
+        {
+          "start_time": 233910,
+          "end_time": 235590,
+          "speaker": "Speaker 1",
+          "content": "Yeah, but his payoff was with Santana."
+        },
+        {
+          "start_time": 237860,
+          "end_time": 242100,
+          "speaker": "Speaker 2",
+          "content": "Well, all I know is he's got to check. So I, where did I get fifteen? Because I do remember being twelve, though."
+        },
+        {
+          "start_time": 243140,
+          "end_time": 248340,
+          "speaker": "Speaker 1",
+          "content": "I don't know. That's what I'm telling you. It was never fifteen. Keyholder, they're selling it for."
+        },
+        {
+          "start_time": 248900,
+          "end_time": 252100,
+          "speaker": "Speaker 3",
+          "content": "And they were telling him that they were selling it to him for fifteen,"
+        },
+        {
+          "start_time": 252100,
+          "end_time": 253460,
+          "speaker": "Speaker 1",
+          "content": "And he was. The number was twelve."
+        },
+        {
+          "start_time": 253460,
+          "end_time": 260820,
+          "speaker": "Speaker 3",
+          "content": "I was hoping to get fifteen on trade for it in the week when the insurance was all cleared up. But he told me today that insurance should be done today."
+        },
+        {
+          "start_time": 261140,
+          "end_time": 265060,
+          "speaker": "Speaker 1",
+          "content": "If you got fifteen, she said she was selling it for fifteen. That's why we put it on that. Amazing."
+        },
+        {
+          "start_time": 265620,
+          "end_time": 269300,
+          "speaker": "Speaker 1",
+          "content": "Yeah, because you had already. I don't. So now it's starting to come back to me."
+        },
+        {
+          "start_time": 269860,
+          "end_time": 274340,
+          "speaker": "Speaker 1",
+          "content": "I said, \"Man, I don't have the fifteen.\" You said, \"Well, Darrin, it's regardless because it's going to be an in and out."
+        },
+        {
+          "start_time": 275460,
+          "end_time": 280340,
+          "speaker": "Speaker 2",
+          "content": "\" Yeah, I can't believe we signed off on this. Oh well, I'm not going to show them that."
+        },
+        {
+          "start_time": 280340,
+          "end_time": 281060,
+          "speaker": "Speaker 3",
+          "content": "We'll figure it out."
+        },
+        {
+          "start_time": 281940,
+          "end_time": 282740,
+          "speaker": "Speaker 2",
+          "content": "I told him twelve."
+        },
+        {
+          "start_time": 282740,
+          "end_time": 287140,
+          "speaker": "Speaker 1",
+          "content": "But I think we had to. I think we had to discount this call. Yeah, we did. Yeah."
+        },
+        {
+          "start_time": 289460,
+          "end_time": 290100,
+          "speaker": "Speaker 1",
+          "content": "That's all good."
+        },
+        {
+          "start_time": 294260,
+          "end_time": 295060,
+          "speaker": "Speaker 1",
+          "content": "Ship me shows."
+        },
+        {
+          "start_time": 297770,
+          "end_time": 303530,
+          "speaker": "Speaker 1",
+          "content": "Ship me, show. You should have saw his face. He almost got red. Kyle's on my deal. I said no. Kyle's on the in and out."
+        },
+        {
+          "start_time": 304250,
+          "end_time": 311930,
+          "speaker": "Speaker 1",
+          "content": "He's like how? He's not talking to my cut. I said no. I said this guy came and interact with. I said this dude's been going back and forth for three weeks."
+        },
+        {
+          "start_time": 313530,
+          "end_time": 316970,
+          "speaker": "Speaker 3",
+          "content": "Fuck yeah!"
+        },
+        {
+          "start_time": 317770,
+          "end_time": 323050,
+          "speaker": "Speaker 1",
+          "content": "I said, but here's the thing. Let me tell you what I'm worried about. Once he pays 15 grand for a cut, it's worth 12."
+        },
+        {
+          "start_time": 325210,
+          "end_time": 325610,
+          "speaker": "Speaker 1",
+          "content": "License."
+        },
+        {
+          "start_time": 326650,
+          "end_time": 329530,
+          "speaker": "Speaker 3",
+          "content": "Uh, he's appreciation twice."
+        },
+        {
+          "start_time": 329530,
+          "end_time": 339450,
+          "speaker": "Speaker 1",
+          "content": "Uh, he's gonna be a month and a half. He's gonna be he's gonna be in on this call for right at what seventeen grand? Is that right?"
+        },
+        {
+          "start_time": 340090,
+          "end_time": 343050,
+          "speaker": "Speaker 1",
+          "content": "And he can't pay his taxes later because this is the in and out."
+        }
+      ]
+    },
+    {
+      "id": "of_18846fa08063d31365f59e644d8c93f0",
+      "name": "BHBMW \u00b7 Driving Event debrief + 2027 planning (sales/media/AI)",
+      "start_at": "2026-10-29T17:01:19.275000",
+      "created_at": "2026-10-29T18:35:51",
+      "duration_ms": 5663000,
+      "vertical": "dealers",
+      "store": "bhbmw",
+      "routed_by": "BMW Driving Event + 2027 national/region planning",
+      "status": "park",
+      "work_order": "Park capture. Lance picks: BrandMaster Nov TV-loop assets; military/FR content; caption/AI SEO; X5 drive event w/ Curtis. Ada waits.",
+      "summary_md": "## Takeaway\n**BHBMW** Driving Event debrief + **2027 planning**: factory-tour limits, dealer-rep policy, inventory (X5 fast; X7/3-Series gap), KBA/media, AI/YouTube captions, TikTok + military/FR, Nov hunger-event TV loop, X5 drive-event co-op.\n\n## Locked / action-shaped\n- Push **0.9%** + lease support on **X5/X7**; non-G65 \u2192 X5\n- **Ultimate Driving Machine** on feature pages / creative\n- Captions + scripts for **5\u20138 word** queries (YouTube \u2192 AI citations)\n- **TikTok** short-form + **military/first responder** creative build-out\n- **Lance:** BrandMaster Nov assets \u2192 **TV loop**; Brett/Curtis X5 drive event co-op\n\n## Notes\n- Event feedback (BMW Driving Event): Factory tour missed due to group size >12; proposal to stagger buses. Factory offers four tours/day; only 9:00 and 11:15 usable, capacity ~24. Factory visit was advertised, causing disappointment. Working with plant on future scheduling; new product is a current obstacle.\n- Dealer representation: proposal to require at least one dealer rep per group; original policy was no dealer reps after brand-bash incident. Richard\u2019s store allocated seats to customers instead of sending a rep.\n- 2027 planning agenda: Market sales review \u2192 budget \u2192 challenges \u2192 media \u2192 opportunities \u2192 creative \u2192 experiential.\n- Sales & inventory: Retail +1 YoY; wholesale \u221253 YoY vs market earned +161. Inv Sep 103 / Oct MTD 109; days supply Sep 34 \u2192 Oct 43. X5 11 days (fast), X3 35; X7 and 3 Series high. Suggest moving non\u2011G65 customers to X5 with 0.9% financing; G20 pipeline, new model Q1. Turn ~46% vs region ~37%.\n- Core Four share: Registrations 350 \u2192 393 YoY. Local Lexus up; Mercedes gap on X7; X3/X5 vs Lexus; 3 Series local opportunity.\n\n\n## Ada vs Lance\n**Park + Lance next** on creative/ops follow-through. No Mini build until you pick a lane.\n",
+      "highlights": [
+        {
+          "title": "make sure we are pushing 0.9 on x7 enough...",
+          "content": "\u2022 Promote 0.9% financing and lease support for X5/X7; close gap vs Mercedes on X7.",
+          "timestamp": null
+        },
+        {
+          "title": "Customers unable or not preferring the G sixty five can be moved into an X five with 0.9 and current lease support.",
+          "content": "\u2022 X5 on ground with ~11-day supply; use 0.9 + lease support for returning X5 drivers.",
+          "timestamp": null
+        },
+        {
+          "title": "lean on ultimate driving machine in feature pages, etc",
+          "content": "\u2022 86% cite driving enjoyment \u2014 UDM messaging across feature pages and creative.",
+          "timestamp": null
+        },
+        {
+          "title": "need to make sure our captions are better and feed into ai results, etc",
+          "content": "\u2022 YouTube #2 AI citation source; 5\u20138 word queries; improve captions/scripts.",
+          "timestamp": null
+        },
+        {
+          "title": "need to look deeper at deploying more content to tiktok",
+          "content": "\u2022 2027 paid social plan includes dedicated TikTok; Tier-3 short-form pipeline.",
+          "timestamp": null
+        },
+        {
+          "title": "lets update and build out our military/first responders content better",
+          "content": "\u2022 Dedicated military Meta line; build creative/offers.",
+          "timestamp": null
+        },
+        {
+          "title": "find stuff for these events to put on the tv loop",
+          "content": "\u2022 Lance: BrandMaster Nov Drive Down Hunger / Road Home assets \u2192 showroom TV loop.",
+          "timestamp": null
+        },
+        {
+          "title": "Planning a drive event for the X Five and inquiring with Curtis on how to set it up to ensure getting money back.",
+          "content": "\u2022 Brett/Curtis: co-op portal preapproval for X5 drive event reimbursement.",
+          "timestamp": null
+        }
+      ],
+      "transcript": [
+        {
+          "start_time": 320,
+          "end_time": 9200,
+          "speaker": "Speaker 1",
+          "content": "It you know what it was actually a really good event. It was really nice. And what's up, Tara? They um, where you yeah you in the you at the farm?"
+        },
+        {
+          "start_time": 10480,
+          "end_time": 12000,
+          "speaker": "Speaker 2",
+          "content": "I'm on a farm."
+        },
+        {
+          "start_time": 12320,
+          "end_time": 14240,
+          "speaker": "Speaker 3",
+          "content": "At the farm."
+        },
+        {
+          "start_time": 14480,
+          "end_time": 40050,
+          "speaker": "Speaker 1",
+          "content": "I'm on a farm. Yeah, so it was it was really good. The the group of people we had was really nice. The event, you know, everything was everything was nice. One thing, just to talk to y'all about, it's just uh. And I don't know if there's anything y'all can do next year about it, but everybody looks forward to going to the factory."
+        },
+        {
+          "start_time": 40690,
+          "end_time": 56850,
+          "speaker": "Speaker 1",
+          "content": "Okay. Yeah. My in my what I understand is the reason why we couldn't go to the factory is because we got more than 12 people in a group. Can we stagger it? That the the museum, the one across the street that's not owned by BMW."
+        },
+        {
+          "start_time": 58310,
+          "end_time": 65670,
+          "speaker": "Speaker 1",
+          "content": "We had to sit there for like an hour and a half, two hours, which was like that thing you can get through in fifteen, twenty minutes, thirty minutes tops."
+        },
+        {
+          "start_time": 66470,
+          "end_time": 73830,
+          "speaker": "Speaker 1",
+          "content": "Can you get three, three buses where you could have each bus go on a tour?"
+        },
+        {
+          "start_time": 74950,
+          "end_time": 75430,
+          "speaker": "Speaker 1",
+          "content": "I mean,"
+        },
+        {
+          "start_time": 75990,
+          "end_time": 86870,
+          "speaker": "Speaker 4",
+          "content": "So Brett, the the problem is Brett is that timing. They only offer four tours a day: a nine a. m., an eleven fifteen, I think, and then the others are like twelve fifteen and two."
+        },
+        {
+          "start_time": 87400,
+          "end_time": 90360,
+          "speaker": "Speaker 4",
+          "content": "So, like the twelve, fifteen, and two are completely out of."
+        },
+        {
+          "start_time": 91400,
+          "end_time": 93000,
+          "speaker": "Speaker 4",
+          "content": "You can't even do those because you're on the track."
+        },
+        {
+          "start_time": 93640,
+          "end_time": 96120,
+          "speaker": "Speaker 4",
+          "content": "So then you're looking at two time frames,"
+        },
+        {
+          "start_time": 96920,
+          "end_time": 97960,
+          "speaker": "Speaker 4",
+          "content": "Which is twenty-four people."
+        },
+        {
+          "start_time": 98200,
+          "end_time": 105480,
+          "speaker": "Speaker 1",
+          "content": "Well, you got a year to maybe we could get the track to maybe push it back, just a little bit, or or push us forward, let us go in the morning."
+        },
+        {
+          "start_time": 106120,
+          "end_time": 113880,
+          "speaker": "Speaker 1",
+          "content": "You know, it's I just the everybody gets so disappointed because our our invite says the track if available."
+        },
+        {
+          "start_time": 114400,
+          "end_time": 117040,
+          "speaker": "Speaker 1",
+          "content": "Well, we know they're not going to track, and then they're disappointed."
+        },
+        {
+          "start_time": 117600,
+          "end_time": 119520,
+          "speaker": "Speaker 1",
+          "content": "You know, I mean, I'm sorry, not track the plant."
+        },
+        {
+          "start_time": 119520,
+          "end_time": 120240,
+          "speaker": "Speaker 2",
+          "content": "Yeah, the plant."
+        },
+        {
+          "start_time": 120960,
+          "end_time": 130160,
+          "speaker": "Speaker 1",
+          "content": "Yeah, we put that in on the invite, and they're like, \"Oh yeah, I've always wanted to to visit the plant,\" and then we give them a letdown. So, yeah,"
+        },
+        {
+          "start_time": 130880,
+          "end_time": 141280,
+          "speaker": "Speaker 2",
+          "content": "Look, we we agree entirely with you, and the we are working very actively with the plant outside of this conversation right now."
+        },
+        {
+          "start_time": 141790,
+          "end_time": 155470,
+          "speaker": "Speaker 2",
+          "content": "On how we shape what their tours look like in the future and moving forward, because like at the end of the day, we put five thousand people a year through this driving program and the plant,"
+        },
+        {
+          "start_time": 156430,
+          "end_time": 159070,
+          "speaker": "Speaker 2",
+          "content": "And and and that including y'all's group."
+        },
+        {
+          "start_time": 160030,
+          "end_time": 167710,
+          "speaker": "Speaker 2",
+          "content": "So we're a big part of steering that conversation. We are unfortunately at their."
+        },
+        {
+          "start_time": 169210,
+          "end_time": 195050,
+          "speaker": "Speaker 2",
+          "content": "Discretion as to what their schedule is, unfortunately. So we have to work around that with the driving events and the other things that we do want to accomplish. But the bigger challenge is recently with what has been going on with the new product that's been coming through. That's really been the bigger hurdle that they've been kind of stonewalling us on the schedule. But but I meet regularly with the head of corporate communications, and that's who's responsible for that."
+        },
+        {
+          "start_time": 196010,
+          "end_time": 216960,
+          "speaker": "Speaker 2",
+          "content": "So. I'm very involved into that conversation moving forward because it has been a challenge for the team, for Jen and I, for us to be able to get those set up. We agree, and we hate it every bit as much as you and your customers do. So, you're not telling us anything that we don't already know and appreciate. That's for sure. Thank you."
+        },
+        {
+          "start_time": 216960,
+          "end_time": 218800,
+          "speaker": "Speaker 1",
+          "content": "That makes me feel good that you already knew that."
+        },
+        {
+          "start_time": 219920,
+          "end_time": 223520,
+          "speaker": "Speaker 1",
+          "content": "You didn't need my input. I'm kidding with you. Hey, one other thing."
+        },
+        {
+          "start_time": 223520,
+          "end_time": 226560,
+          "speaker": "Speaker 2",
+          "content": "I always want your input. I might not listen or care,"
+        },
+        {
+          "start_time": 226560,
+          "end_time": 230640,
+          "speaker": "Speaker 1",
+          "content": "But you might not like it, but you're gonna hear it, buddy. Hey,"
+        },
+        {
+          "start_time": 231360,
+          "end_time": 249200,
+          "speaker": "Speaker 1",
+          "content": "So one more thing with that is y'all should insist on the other dealers always bringing at least one representative. Okay, we had Oklahoma came to us at the initial event that that first night."
+        },
+        {
+          "start_time": 249720,
+          "end_time": 252680,
+          "speaker": "Speaker 1",
+          "content": "We were all together, hanging out,"
+        },
+        {
+          "start_time": 253320,
+          "end_time": 255880,
+          "speaker": "Speaker 1",
+          "content": "And they said they wanted to know how,"
+        },
+        {
+          "start_time": 257160,
+          "end_time": 260680,
+          "speaker": "Speaker 1",
+          "content": "How we know each other, how we are having so much fun together."
+        },
+        {
+          "start_time": 261320,
+          "end_time": 273560,
+          "speaker": "Speaker 1",
+          "content": "Well, it's not that everybody knew each other. It was that you had a group that was getting everybody together. You understand what I'm saying? Yeah. They fell out the hole. The same thing."
+        },
+        {
+          "start_time": 273560,
+          "end_time": 274680,
+          "speaker": "Speaker 2",
+          "content": "I do. Hold on."
+        },
+        {
+          "start_time": 274680,
+          "end_time": 277720,
+          "speaker": "Speaker 1",
+          "content": "The same thing happened the first time with."
+        },
+        {
+          "start_time": 279320,
+          "end_time": 280520,
+          "speaker": "Speaker 2",
+          "content": "Port Meyers, I think."
+        },
+        {
+          "start_time": 280600,
+          "end_time": 281640,
+          "speaker": "Speaker 3",
+          "content": "No, Melbourne, maybe."
+        },
+        {
+          "start_time": 281640,
+          "end_time": 290760,
+          "speaker": "Speaker 1",
+          "content": "Melbourne. Well, Melbourne, and Melbourne wanted to defect from that dealer and come buy cars from us because they had so much fun with us,"
+        },
+        {
+          "start_time": 291400,
+          "end_time": 306760,
+          "speaker": "Speaker 1",
+          "content": "And they didn't have a representative there. And I said, no, that's not the look. Just have fun with us, but you need to stay with your dealer. But it's, yeah. They're not willing to send at least one representative. They should not send their group, okay? Because these people are floundering."
+        },
+        {
+          "start_time": 307750,
+          "end_time": 314550,
+          "speaker": "Speaker 2",
+          "content": "I well, I agree because you handle it well. You do it the right way. But let me give you the other side of that point."
+        },
+        {
+          "start_time": 315190,
+          "end_time": 317830,
+          "speaker": "Speaker 2",
+          "content": "And this happened during your group last week."
+        },
+        {
+          "start_time": 318790,
+          "end_time": 335670,
+          "speaker": "Speaker 2",
+          "content": "The other so when we started doing this, we originally told all the dealers we don't want you to have dealer representation there. Send your customers because we didn't want side conversations and we didn't want people trying to steal customers. And again, you do it correct. Not everyone does, unfortunate."
+        },
+        {
+          "start_time": 336230,
+          "end_time": 350110,
+          "speaker": "Speaker 2",
+          "content": "So. Originally, we did it that way, where we only wanted customers sent. We didn't want dealer representation to come. Chauffeur, let us be the guest escorts. Let us show them around. Let us be the BMW people on your behalf."
+        },
+        {
+          "start_time": 351150,
+          "end_time": 361630,
+          "speaker": "Speaker 2",
+          "content": "That was how we started it, and then we did allow a couple dealers to come in some smaller groups, and we said, \"Ooh, hey, this could really work, \" but we've got to really control this a little bit. Um,"
+        },
+        {
+          "start_time": 362270,
+          "end_time": 368110,
+          "speaker": "Speaker 2",
+          "content": "So we agreed because we saw where that that was a benefit, but specifically in your group. We actually wait. Gosh,"
+        },
+        {
+          "start_time": 368990,
+          "end_time": 377070,
+          "speaker": "Speaker 2",
+          "content": "We had too many of these now. Maybe it wasn't your group. It might have been the one before. We actually had two dealer representatives that were there that were completely bashing the brand."
+        },
+        {
+          "start_time": 377870,
+          "end_time": 379550,
+          "speaker": "Speaker 1",
+          "content": "Oh well, that's horrible."
+        },
+        {
+          "start_time": 379710,
+          "end_time": 380510,
+          "speaker": "Speaker 2",
+          "content": "Jesus, you're good."
+        },
+        {
+          "start_time": 380670,
+          "end_time": 382270,
+          "speaker": "Speaker 1",
+          "content": "Yeah, that's that's so."
+        },
+        {
+          "start_time": 383070,
+          "end_time": 388030,
+          "speaker": "Speaker 1",
+          "content": "I mean, these people are on these people are in Disneyland, and you're going to freaking bash the brand?"
+        },
+        {
+          "start_time": 388110,
+          "end_time": 388750,
+          "speaker": "Lance",
+          "content": "Yeah, that's weird."
+        },
+        {
+          "start_time": 388910,
+          "end_time": 400900,
+          "speaker": "Speaker 2",
+          "content": "Yes, yes, and they did it in front of customers because I actually had customers from their store and another store that they were paired with. Come to me and and ask me about it because they're like, hey, are these guys with you?"
+        },
+        {
+          "start_time": 401620,
+          "end_time": 402740,
+          "speaker": "Speaker 2",
+          "content": "No, no, they're not."
+        },
+        {
+          "start_time": 403940,
+          "end_time": 435280,
+          "speaker": "Speaker 2",
+          "content": "So so that's you said there. It's a it's a double edged sword having that, and it it does make it kind of hard. And and I I talked with Richard about sending someone from his store, and he felt very compelled about making sure that all of his seats went to his customers and potential customers. So they they made a conscious decision not to send somebody. We did have a conversation with with OKC and say, hey, look, if you'd like to send somebody, you can. If you would like to come, like like you do, right? You come, bring your wife. You guys, you guys, yeah. And you know, show them all around."
+        },
+        {
+          "start_time": 435280,
+          "end_time": 448400,
+          "speaker": "Speaker 2",
+          "content": "You you host them. You do a great job. But you know, Richard specifically, he made a conscious decision to say, hey, no, we want to make sure that all of our seats go to our guests available. But I hear you loud and clear."
+        },
+        {
+          "start_time": 448400,
+          "end_time": 449600,
+          "speaker": "Speaker 1",
+          "content": "And I'm pretty sure Jim."
+        },
+        {
+          "start_time": 449600,
+          "end_time": 451200,
+          "speaker": "Speaker 2",
+          "content": "Neither both sides come with challenge."
+        },
+        {
+          "start_time": 451360,
+          "end_time": 454000,
+          "speaker": "Speaker 1",
+          "content": "Jen, the old dude that I, you know who I'm talking about,"
+        },
+        {
+          "start_time": 454000,
+          "end_time": 455920,
+          "speaker": "Speaker 4",
+          "content": "Rob. Rob, yeah,"
+        },
+        {
+          "start_time": 456320,
+          "end_time": 457520,
+          "speaker": "Speaker 1",
+          "content": "From Oklahoma, wasn't he?"
+        },
+        {
+          "start_time": 458880,
+          "end_time": 459920,
+          "speaker": "Speaker 4",
+          "content": "I believe he was, yes."
+        },
+        {
+          "start_time": 459920,
+          "end_time": 467360,
+          "speaker": "Speaker 1",
+          "content": "Yeah, yeah, he was. He was lost. He was. I, I went and got Jen and asked Jen to go make sure he knew where he was going,"
+        },
+        {
+          "start_time": 467920,
+          "end_time": 472080,
+          "speaker": "Speaker 1",
+          "content": "Because he was just like he was sitting by himself. He went by himself,"
+        },
+        {
+          "start_time": 472640,
+          "end_time": 480160,
+          "speaker": "Speaker 1",
+          "content": "And he didn't know what to do. I mean, because there was nobody there to. So, well, yeah, it looks like y'all are pushing me forward. Y'all must have something going on."
+        },
+        {
+          "start_time": 481780,
+          "end_time": 487380,
+          "speaker": "Speaker 2",
+          "content": "Well, thanks. Yeah. Well, no. I mean, if you're if if you're done, we'll just go ahead and wrap it up right now. It's been good catching up with you."
+        },
+        {
+          "start_time": 487540,
+          "end_time": 488420,
+          "speaker": "Speaker 1",
+          "content": "Good to see you last week."
+        },
+        {
+          "start_time": 488660,
+          "end_time": 491540,
+          "speaker": "Speaker 2",
+          "content": "But have a good one. Thanks for joining on us for for you know a couple minutes."
+        },
+        {
+          "start_time": 491540,
+          "end_time": 498980,
+          "speaker": "Speaker 1",
+          "content": "All right, let's let's move. Come on. I've been on my soapbox long enough. I am still waiting for my soccer tickets."
+        },
+        {
+          "start_time": 499460,
+          "end_time": 504500,
+          "speaker": "Speaker 3",
+          "content": "I I sent them to Curtis. He said he was going to put them in the mail to you."
+        },
+        {
+          "start_time": 504660,
+          "end_time": 506420,
+          "speaker": "Speaker 1",
+          "content": "So they must have got next in the mail."
+        },
+        {
+          "start_time": 506500,
+          "end_time": 512020,
+          "speaker": "Speaker 2",
+          "content": "They must have got lost. Soccer. So yeah, yeah, yeah. We'll we'll get you on the next World Cup in the U. S."
+        },
+        {
+          "start_time": 512020,
+          "end_time": 513059,
+          "speaker": "Speaker 1",
+          "content": "Brett. Thanks, buddy."
+        },
+        {
+          "start_time": 513059,
+          "end_time": 515860,
+          "speaker": "Speaker 3",
+          "content": "You. That's the women next next year."
+        },
+        {
+          "start_time": 515940,
+          "end_time": 516500,
+          "speaker": "Speaker 1",
+          "content": "Ah, you know what?"
+        },
+        {
+          "start_time": 516500,
+          "end_time": 517940,
+          "speaker": "Speaker 2",
+          "content": "Let's shut up. You're fired."
+        },
+        {
+          "start_time": 518340,
+          "end_time": 518659,
+          "speaker": "Speaker 1",
+          "content": "Maybe."
+        },
+        {
+          "start_time": 520340,
+          "end_time": 520980,
+          "speaker": "Speaker 1",
+          "content": "All right, let's roll."
+        },
+        {
+          "start_time": 521059,
+          "end_time": 539200,
+          "speaker": "Speaker 2",
+          "content": "All right, let's start the meeting because I look and I I don't want to rush you, but hey, look, we we do have a ton of content to talk about because at the end of the day, this is 2027 planning meeting. So this one's going to be a little bit longer than our usual one. We got to try to keep it at two hours, if at all possible. Oh, it's not going to be because we've got a ton."
+        },
+        {
+          "start_time": 539600,
+          "end_time": 540800,
+          "speaker": "Speaker 1",
+          "content": "No, are you serious?"
+        },
+        {
+          "start_time": 540800,
+          "end_time": 544560,
+          "speaker": "Speaker 2",
+          "content": "No, I got the way you talk,"
+        },
+        {
+          "start_time": 544560,
+          "end_time": 549440,
+          "speaker": "Speaker 1",
+          "content": "It will be one thirty insurance meeting. Hopefully, it's not going to be that long."
+        },
+        {
+          "start_time": 550560,
+          "end_time": 554960,
+          "speaker": "Speaker 2",
+          "content": "Okay, well, it will be completely based off of you then, because Tim and I will."
+        },
+        {
+          "start_time": 554960,
+          "end_time": 556160,
+          "speaker": "Speaker 1",
+          "content": "All right,"
+        },
+        {
+          "start_time": 556160,
+          "end_time": 563840,
+          "speaker": "Speaker 2",
+          "content": "We'll plow through as quick as we can. All right. So here's what's going to look like. We're going to start with the market sales review. Tim's got some stuff to go over with you. Kind of show you how you're progressing."
+        },
+        {
+          "start_time": 565300,
+          "end_time": 567060,
+          "speaker": "Speaker 2",
+          "content": "The budget next year,"
+        },
+        {
+          "start_time": 568180,
+          "end_time": 594500,
+          "speaker": "Speaker 2",
+          "content": "Where we're at now, and what the budget will look like for next year, and what we'll have available to plan with. Then we'll breeze through some considerations, the things that we're looking at as being a factor in opportunity and challenges next year, and how those factor into what we're looking at. We'll break it down by medium. Then we'll take a look at the media overview from performance media to our local video support that we're looking at, and then we'll talk specifically about our additional opportunity on top of that."
+        },
+        {
+          "start_time": 595460,
+          "end_time": 604100,
+          "speaker": "Speaker 2",
+          "content": "We're not going to need a break because we're going to cruise right through this. We're going to jump into the creative. We'll look at the creative assets because we've got a ton of new product coming out right now. So we've got a lot of new stuff to take a look at,"
+        },
+        {
+          "start_time": 604740,
+          "end_time": 614180,
+          "speaker": "Speaker 2",
+          "content": "And then we'll go into an experiential update. If we do this right, we'll be done well before one thirty. But we'll have to cruise. So with that, I am going to kick it over to Tim to get us started."
+        },
+        {
+          "start_time": 614180,
+          "end_time": 614900,
+          "speaker": "Speaker 6",
+          "content": "I'll be quick."
+        },
+        {
+          "start_time": 616180,
+          "end_time": 622580,
+          "speaker": "Speaker 6",
+          "content": "All right. So some information that you may already know, but I'll be quick here. But from a sales perspective."
+        },
+        {
+          "start_time": 623280,
+          "end_time": 652320,
+          "speaker": "Speaker 6",
+          "content": "You are up one retail year over year, so you're up 0.2 percent, slightly behind the the growth pace of the region, but obviously in position as we head into the busiest months of the year. From a wholesale perspective, though, that means their wholesale has gone down year over year,53 units as a market. They've you know combined or collectively they've earned 161 more units, but as you can see, the region is down slightly in wholesale as well."
+        },
+        {
+          "start_time": 653270,
+          "end_time": 664150,
+          "speaker": "Speaker 6",
+          "content": "Looking at your month-end inventory snapshot, you had 103 units on the ground. You can see across the board, you know, 25 x fives,"
+        },
+        {
+          "start_time": 664870,
+          "end_time": 676950,
+          "speaker": "Speaker 6",
+          "content": "12 x ones, 28 x threes down the, you know. I'm not going to go model by model, and you can see where you are now, month today, at 109 units, you know, including what you've retailed and what's been wholesaled for the month."
+        },
+        {
+          "start_time": 678310,
+          "end_time": 680070,
+          "speaker": "Speaker 6",
+          "content": "Looking at days supply."
+        },
+        {
+          "start_time": 680850,
+          "end_time": 687890,
+          "speaker": "Speaker 6",
+          "content": "You ended September at 34 days supply, and as of October month to date, we're sitting at 43 days supply."
+        },
+        {
+          "start_time": 688770,
+          "end_time": 700370,
+          "speaker": "Speaker 6",
+          "content": "X5 is at 11 days supply, so you've got some in the in the pipeline coming, but obviously you're turning those fast. X3 you're at 35 days supply, up slightly from where you ended the month,"
+        },
+        {
+          "start_time": 701090,
+          "end_time": 734000,
+          "speaker": "Speaker 6",
+          "content": "And in X1 you're doing a a better job than most retailing through X1. That's that's one of the Areas of opportunity for the region for you, X7 is an opportunity, and hopefully some of the returning X5 customers that maybe aren't able to get into an G65 or don't necessarily prefer the G65, we can move them into an X5 with the 0.9 and the the lease support that we have on that vehicle right now is kind of the hope. And then three series is another area of opportunity."
+        },
+        {
+          "start_time": 734530,
+          "end_time": 741410,
+          "speaker": "Speaker 6",
+          "content": "For you and looking at it, you know you've got a high day supply. That vehicle is actually doing really well across the region right now."
+        },
+        {
+          "start_time": 742770,
+          "end_time": 747650,
+          "speaker": "Speaker 6",
+          "content": "If you're not seeing the retail on that, that's also good trade bait, I would say."
+        },
+        {
+          "start_time": 748210,
+          "end_time": 757490,
+          "speaker": "Speaker 6",
+          "content": "So keep that in mind. We are, you know, what you've received or what's in your pipeline is it for the G20, and we'll launch the new one starting in Q1 of next year."
+        },
+        {
+          "start_time": 759170,
+          "end_time": 759490,
+          "speaker": "Speaker 6",
+          "content": "All right."
+        },
+        {
+          "start_time": 760610,
+          "end_time": 768690,
+          "speaker": "Speaker 6",
+          "content": "Final inventory turn. You you ended the month turning forty six percent of your inventory ahead of the market and ahead of the region. Well done."
+        },
+        {
+          "start_time": 769410,
+          "end_time": 785170,
+          "speaker": "Speaker 6",
+          "content": "And where you're sitting right now, month to date is almost forty six percent as well, tracking ahead of the the region at almost thirty seven percent turn. And then last but not least, core four market share. You can see you're in your second."
+        },
+        {
+          "start_time": 785850,
+          "end_time": 797530,
+          "speaker": "Speaker 6",
+          "content": "Lexus has actually grown in your market. It's one of the few markets where Lexus has grown share or registrations year over year. Right now, as in the region, they're they're behind."
+        },
+        {
+          "start_time": 798090,
+          "end_time": 814730,
+          "speaker": "Speaker 6",
+          "content": "And then Mercedes has actually\u2014they're in about the same position they were in. Same, you know, down seven registrations and down three hundred registrations from us sitting at three hundred and ninety-three."
+        },
+        {
+          "start_time": 815370,
+          "end_time": 822570,
+          "speaker": "Speaker 6",
+          "content": "So you've grown. You've gone from 350 to 393 registrations. The areas of opportunity, three series again,"
+        },
+        {
+          "start_time": 823210,
+          "end_time": 835930,
+          "speaker": "Speaker 6",
+          "content": "Big area of opportunity where we've got Lexus leading us, and then the X7. You're only seven away from passing Mercedes. That's an area of opportunity for for you and and really for the region as well."
+        },
+        {
+          "start_time": 836650,
+          "end_time": 842330,
+          "speaker": "Speaker 6",
+          "content": "When you look at the the core four snapshot for the region, you can see here, right? So Lexus has gone back from."
+        },
+        {
+          "start_time": 843170,
+          "end_time": 867970,
+          "speaker": "Speaker 6",
+          "content": "Just over eighty-one thousand registrations to just under seventy-eight thousand. We've gone to sixty-four-five at BMW from sixty-two-seven, and Mercedes has dropped pretty good from fifty-one down to forty-seven thousand registrations. Our big area of opportunity: X Seven, thirteen hundred units behind Mercedes, and obviously always X Three and X Five. We've got opportunity against Lexus,"
+        },
+        {
+          "start_time": 869090,
+          "end_time": 873550,
+          "speaker": "Speaker 6",
+          "content": "But that's the The big picture, and I'll keep it rolling unless you have any questions."
+        },
+        {
+          "start_time": 874270,
+          "end_time": 874590,
+          "speaker": "Speaker 2",
+          "content": "Nope."
+        },
+        {
+          "start_time": 876190,
+          "end_time": 876510,
+          "speaker": "Speaker 2",
+          "content": "Well,"
+        },
+        {
+          "start_time": 877710,
+          "end_time": 882590,
+          "speaker": "Speaker 2",
+          "content": "You're gonna save all the beatings for me, then, huh? Got it. Noted. All right. So,"
+        },
+        {
+          "start_time": 883230,
+          "end_time": 883950,
+          "speaker": "Speaker 2",
+          "content": "Let's take a look at."
+        },
+        {
+          "start_time": 884670,
+          "end_time": 907160,
+          "speaker": "Speaker 2",
+          "content": "Yeah, I mean, me. I like. I can take it better than you. That's right. All right. Let's take. Let's take a look at the Makro budget and projected plan. So, when we look at 2027, we look at the top right hand side there. Projected wholesales. We're going to look at 853 as the projected plan. Now that might sound familiar because that is the projected, that is the plan that we had for 2026. You say,"
+        },
+        {
+          "start_time": 908200,
+          "end_time": 919480,
+          "speaker": "Speaker 2",
+          "content": "Curtis, why wouldn't we grow? Well, that's a great question. We will, but we're trying to get ahead of this a little bit earlier than what we have in the past. We want to get through planning early on."
+        },
+        {
+          "start_time": 920840,
+          "end_time": 922280,
+          "speaker": "Speaker 2",
+          "content": "We don't have a crystal ball."
+        },
+        {
+          "start_time": 922840,
+          "end_time": 937240,
+          "speaker": "Speaker 2",
+          "content": "Tim and I do not. It's not sitting here in the conference room with us. We don't know exactly where we're going to end out this year. We got a pretty good idea, and with that, we don't know fully what production is going to look like next year. Specifically, as we're looking at cranking some more BEVs into the market."
+        },
+        {
+          "start_time": 937800,
+          "end_time": 969050,
+          "speaker": "Speaker 2",
+          "content": "So, with that being said, we want to plan from a flat perspective now because it is always easier to add in budget and wholesales than it is to take back budget and wholesales once we get this machine started. Right. So that's kind of the projection that we're looking at is that eight fifty three and the reasoning behind that. The next thing I want to call out here is directly below that the contribution structure. We did talk about this the last time we're together. Funding per wholesale at six hundred twenty five dollars per wholesale unit."
+        },
+        {
+          "start_time": 970250,
+          "end_time": 1004030,
+          "speaker": "Speaker 2",
+          "content": "It used to be, or it currently is six twenty five and six seventy five. There's an extra fifty dollars per bed wholesale. That is. Likely, and I will say likely to go away at the end of this year. So again, for the same reason we talked about on the projected wholesales, it's easier to add in than take away. We want to plan at the six twenty five number. If for some reason we start getting the word that they are going to keep it, which I don't think is going to be the case, we can easily add that fifty dollars per B2B wholesale in and break that back out versus the percentage that you guys historically have done when we've had BAPS in the market."
+        },
+        {
+          "start_time": 1005150,
+          "end_time": 1013740,
+          "speaker": "Speaker 2",
+          "content": "All right. So what does that give us? That gives us a total projected Makro income Makro budget of five hundred thirty-three thousand one twenty-five."
+        },
+        {
+          "start_time": 1014700,
+          "end_time": 1032380,
+          "speaker": "Speaker 2",
+          "content": "And he said, \"Well, Curtis, why do we have four fifty-three one fifty-six at the top? Because that's what we're going to take a look at today on how we spend that. The other seventy-nine nine sixty-nine is that experiential that we kind of have earmarked for for really your track event and getting those customers here. We just talked about. So the big bulk of the conversation that we're going to talk about is the structure to which we spend that four fifty three one fifty six.\""
+        },
+        {
+          "start_time": 1040300,
+          "end_time": 1047660,
+          "speaker": "Speaker 2",
+          "content": "So with that, let's jump into the considerations of where we're going and what we're going to have to address to be able to get there."
+        },
+        {
+          "start_time": 1048300,
+          "end_time": 1069050,
+          "speaker": "Speaker 2",
+          "content": "So at the early stage in the game, the tea leaves, not the crystal ball, because we don't have one of those. The tea leaves are telling us that overall, at a national level, we're going to look to BMW North America to grow at about a five percent retail growth rate. For next year, again, that's high level North America. We haven't been able to back into that by region and by market by dealer yet."
+        },
+        {
+          "start_time": 1070490,
+          "end_time": 1073050,
+          "speaker": "Speaker 2",
+          "content": "We don't have that visibility and that detail just yet."
+        },
+        {
+          "start_time": 1073610,
+          "end_time": 1076570,
+          "speaker": "Speaker 2",
+          "content": "We say, okay, well, how are we going to get to five percent retail growth?"
+        },
+        {
+          "start_time": 1077130,
+          "end_time": 1110110,
+          "speaker": "Speaker 2",
+          "content": "I can I can tell you early on, it is going to be by doubling our bev volume from this year. And here you go, Curtis. I hate EVs. Okay, I get it. I know, but the EV market's going to change. The EV market is changing. We are going to have we have a 400 mile range EV SUV right now. We are going to have a 500 mile range EV SUV in the next couple months. We're going to have that in a sedan. We're going to have a lot of new EV products that are not just EV products,"
+        },
+        {
+          "start_time": 1110110,
+          "end_time": 1139280,
+          "speaker": "Speaker 2",
+          "content": "But they are long range EV products that get more miles on a on a charge than a lot of our cars do on a full tank of gas these days. So we are changing the landscape of that. So we do see that five percent retail growth next year coming out of EVs, coming out of BEVs, and it ain't that hard to sell double the BEVs in twenty seven that we sold in twenty six because we don't have any BEVs right now. We don't have i four. We sunset that early on. We don't have i x sunset that early on. We've got the i x three. It's already sold out,"
+        },
+        {
+          "start_time": 1139920,
+          "end_time": 1160180,
+          "speaker": "Speaker 2",
+          "content": "And but we're gonna have more, and we're gonna have a ton of great product on the horizon to be able to do that with. So, what are the challenges that we're going to have to face next year? Search evolution\u2014the way people are doing research and searching for products, searching for cars\u2014is changing and evolving very, very quickly. It always has been, but it has hit a new level right now,"
+        },
+        {
+          "start_time": 1160820,
+          "end_time": 1182910,
+          "speaker": "Speaker 2",
+          "content": "Specifically as AI continues to impact that. So, you see that right at the bottom. Now, with the evolution of search and the impact of AI right now, it is really skewing where our tiers align, where National Tier One is buying media, and where Makro level Tier Two, we are buying media, and then on the other side of it, Tier Three, where dealers, where you guys are buying media,"
+        },
+        {
+          "start_time": 1183790,
+          "end_time": 1197150,
+          "speaker": "Speaker 2",
+          "content": "We've got to evolve what that alignment looks like, and that needs to be a very fluid conversation that we've already started having, and we're going to continue to have on this call. So that's going to be one of the challenges and opportunities that we're going to have this year. Measure measurement refinement."
+        },
+        {
+          "start_time": 1197870,
+          "end_time": 1209660,
+          "speaker": "Speaker 2",
+          "content": "We have a very clear set of KPIs, KBAs, key buying actions. That we utilize to try to hold ourselves accountable to make sure that we're driving traffic, we're driving low funnel traffic,"
+        },
+        {
+          "start_time": 1210220,
+          "end_time": 1243490,
+          "speaker": "Speaker 2",
+          "content": "But we've realized that as we narrow down from the twenty-four things to the four things, that there are some other impacting, influencing factors that are driving business that we're not really we're not taking credit for, but we're also not really monitoring as much to be able to utilize to make future decisions. On how we continue to follow those customers and drive them down the funnel, so we're going to look to refine our measurement process for our KPIs from a tier two media standpoint. And then the other thing that's going to be a challenge and opportunity is increased competition."
+        },
+        {
+          "start_time": 1243810,
+          "end_time": 1272380,
+          "speaker": "Speaker 2",
+          "content": "How we look at competition, luxury vehicles\u2014that line of luxury versus volume\u2014is becoming a very skewed gray line because what is a luxury vehicle anymore? You got a seventy-five thousand dollars pickup truck. You've got. You know, a sixty thousand dollar Toyota Camry. Products are getting really, really expensive. So again, what is a luxury vehicle anymore? So there, there's an opportunity for us to look at, you know,"
+        },
+        {
+          "start_time": 1273100,
+          "end_time": 1299370,
+          "speaker": "Speaker 2",
+          "content": "Mercedes-Benz having more products coming to market, Lexus, you know, bookending our our products so that you know they're competitive. And then again, the volume stuff, how we're going to market against them. So we're going to have a lot more competition in 2027 that we haven't seen in a long time. So, what are some of the other considerations that the team and I we're factoring in, and we're looking at when we're talking about our go-to-market strategy for 2027?"
+        },
+        {
+          "start_time": 1300330,
+          "end_time": 1307930,
+          "speaker": "Speaker 2",
+          "content": "And these stats got something for me, or you want me to shut up and slow down? No, you're good. No, you're good. Okay, sorry, thought I heard something."
+        },
+        {
+          "start_time": 1308810,
+          "end_time": 1328560,
+          "speaker": "Speaker 2",
+          "content": "These stats that we've got up here are going to be very instrumental in how we go to market and things that we need to consider at the brand level and the tier two level. And I'm going to ask y'all to consider at the dealer level because y'all have an opportunity to influence a lot of this, as well as this is going to influence your business."
+        },
+        {
+          "start_time": 1329280,
+          "end_time": 1349760,
+          "speaker": "Speaker 2",
+          "content": "So let's start out with the very top one. This one might be kind of the doom and gloom of it, right? Fifty-one percent of U. S. consumer sentiment is positive. That is down from seventy-four percent in the third quarter of 2024, just two years ago. That's a big drop. But where are we at right now? We are the weak. Before a pretty contentious,"
+        },
+        {
+          "start_time": 1350320,
+          "end_time": 1352960,
+          "speaker": "Speaker 2",
+          "content": "Pretty close midterm cycle right now,"
+        },
+        {
+          "start_time": 1354560,
+          "end_time": 1374240,
+          "speaker": "Speaker 2",
+          "content": "This always historically, if we go back and we look year over year over year, this happens every single election cycle, where consumer sentiment absolutely tanks. The election happens; doesn't matter whose team wins, everybody goes back to life as usual and spends the money that they were spending. We're in that dip right now, right before the before the election cycle with this midterm."
+        },
+        {
+          "start_time": 1375080,
+          "end_time": 1387720,
+          "speaker": "Speaker 2",
+          "content": "We do expect that to go up, but I don't see it going to be going back up to really big and rosy in the near future just yet. So we want to keep an eye on this because that consumer sentiment right now is down a pretty good clip."
+        },
+        {
+          "start_time": 1388600,
+          "end_time": 1419000,
+          "speaker": "Speaker 2",
+          "content": "But the other side of it, where we start looking at some positive stories, eighty-six percent of consumers cite enjoyment of driving as motivation for a luxury car purchase. Well, guess what? If I recall, we are the ultimate driving machine, which means We are the driver's car, so we should have a home run story here. We, as a team, from a marketing perspective, need to make sure that that driving element is top of mind in every message that we relay, every piece of creative that we put out there, and every opportunity that we have to get a button to seat."
+        },
+        {
+          "start_time": 1419240,
+          "end_time": 1423400,
+          "speaker": "Speaker 2",
+          "content": "Because we are the ultimate drive machine, so this is a big success story opportunity for us."
+        },
+        {
+          "start_time": 1424200,
+          "end_time": 1431000,
+          "speaker": "Speaker 2",
+          "content": "Thirty-two percent of adults are somewhat to very likely to consider an EV. That is down."
+        },
+        {
+          "start_time": 1431600,
+          "end_time": 1433360,
+          "speaker": "Speaker 2",
+          "content": "Ten percent from 2022."
+        },
+        {
+          "start_time": 1434000,
+          "end_time": 1439040,
+          "speaker": "Speaker 2",
+          "content": "Let's let's break that down real quick. 2022. What did we have? That was the i four and the i x were coming to market."
+        },
+        {
+          "start_time": 1439600,
+          "end_time": 1446800,
+          "speaker": "Speaker 2",
+          "content": "We had a two hundred mile range SUV and a you know two hundred mile range sedan that were coming to market."
+        },
+        {
+          "start_time": 1447040,
+          "end_time": 1449760,
+          "speaker": "Speaker 1",
+          "content": "Subsidies and a seventy five."
+        },
+        {
+          "start_time": 1449760,
+          "end_time": 1479050,
+          "speaker": "Speaker 2",
+          "content": "You you beat me to it. See, you are trying to speed me up even faster. That was and a seventy five hundred dollar subsidy. Yeah, that we don't have anymore. Correct, but. We had two products, $7,500 subsidy, and lackluster to okay, toe-in-the-water EV range, to be able to have that. What are we going to have now? We're going to have a full lineup of products that are EV that very closely match the existing model lineups. X5 is going to look like the X5, the 3 Series looking like the 3 Series."
+        },
+        {
+          "start_time": 1479690,
+          "end_time": 1483450,
+          "speaker": "Speaker 2",
+          "content": "X7, IX4. We were talking about the IX4 last week, right?"
+        },
+        {
+          "start_time": 1484090,
+          "end_time": 1502650,
+          "speaker": "Speaker 2",
+          "content": "We are going to have a full lineup of products, more than we had before. The range is actually going to be realistic. It is in a lot of cases going to exceed what a full tank of gas is going to be able to handle in a lot of our products. So, regardless of what we think about the politics of it, regardless of what we think about the the incentive about it, the products are going to be competitive,"
+        },
+        {
+          "start_time": 1503530,
+          "end_time": 1526210,
+          "speaker": "Speaker 2",
+          "content": "And they are going to be plentiful. We're going to have opportunity with this. So, we're going to see that sentiment go back up. But even if it's set at thirty two percent, thirty two percent of somewhat to very likely gets us to the number that we need. So, again. Ten percent drop without all with all those things coming into play. Still, I see this as being a success story and a very positive indicator for us going into next year."
+        },
+        {
+          "start_time": 1527410,
+          "end_time": 1537970,
+          "speaker": "Speaker 2",
+          "content": "Now let's start talking about AI, and I'm not going to stop talking about AI till one thirty when you have your insurance meeting. Sixty four percent of affluent adults use AI weekly. Our customers are affluent adults,"
+        },
+        {
+          "start_time": 1538530,
+          "end_time": 1543010,
+          "speaker": "Speaker 2",
+          "content": "Not me. I'm probably a teenager, but we'll get onto that later."
+        },
+        {
+          "start_time": 1543650,
+          "end_time": 1556910,
+          "speaker": "Speaker 2",
+          "content": "Seventy percent use AI like a search engine. To look up information, what is the search engine? Google, Bing. Seventy percent of consumers are sliding away from that and starting to just go straight into Claude, ChatGPT, Grok,"
+        },
+        {
+          "start_time": 1557710,
+          "end_time": 1562030,
+          "speaker": "Speaker 2",
+          "content": "Gemini, and utilize that as a search engine to get the information that they want."
+        },
+        {
+          "start_time": 1562910,
+          "end_time": 1578320,
+          "speaker": "Speaker 2",
+          "content": "We can influence what is being served up to them in AI because AI is learning, it's growing, it's maturing. And how does it do that? It does that with content that we put into it, the content that we put on our websites. The content we put on social media, the content we put onto YouTube,"
+        },
+        {
+          "start_time": 1579120,
+          "end_time": 1582080,
+          "speaker": "Speaker 2",
+          "content": "We can influence that. So we can be there for those seventy percent of people."
+        },
+        {
+          "start_time": 1582800,
+          "end_time": 1603200,
+          "speaker": "Speaker 2",
+          "content": "Fifty-two percent of AI users discovered new brands or products because of AI. That's good news and bad news. It's good news if they're searching for Mercedes Mercedes Benz and we have content that says why our product is better than Mercedes Benz and why we exceed the market expectations of what a Mercedes Benz is and can be."
+        },
+        {
+          "start_time": 1604000,
+          "end_time": 1619610,
+          "speaker": "Speaker 2",
+          "content": "It's bad news. If somebody's searching for a BMW and we don't have any content talking about why BMW is the superior product in the luxury marketplace, and Mercedes-Benz does have product saying why theirs is better than ours, even if it's a lie,"
+        },
+        {
+          "start_time": 1620250,
+          "end_time": 1621290,
+          "speaker": "Speaker 2",
+          "content": "And they get served up to them."
+        },
+        {
+          "start_time": 1621850,
+          "end_time": 1654510,
+          "speaker": "Speaker 2",
+          "content": "But again, this about influence. Are we influencing the marketplace? Are we influencing the AI engines with content? That comes down to what we as a brand do, which we'll show you some stats on later. And what you at a dealer level do, we can influence that. Eighty-one percent of AI or auto shoppers used AI, believe it helped them make a smarter decision. Look, this no different than when Black Book put their first trade-in tool on a website to give them a payment range of good,"
+        },
+        {
+          "start_time": 1654510,
+          "end_time": 1661790,
+          "speaker": "Speaker 2",
+          "content": "Fair, and great. So it's a consumer sentiment confidence builder right now."
+        },
+        {
+          "start_time": 1662350,
+          "end_time": 1673260,
+          "speaker": "Speaker 2",
+          "content": "But with that. We need to make sure that we are putting the content in to the machine on our websites, so that it is influencing the AI engines."
+        },
+        {
+          "start_time": 1673900,
+          "end_time": 1674460,
+          "speaker": "Speaker 2",
+          "content": "That way,"
+        },
+        {
+          "start_time": 1675020,
+          "end_time": 1698350,
+          "speaker": "Speaker 2",
+          "content": "They are serving up the content that we want it to serve up, which is helping the customers feel like they're making a smarter decision. So that way, when they do get in front of you on a phone call, walk in, or over an internet lead, they're coming across more confident, less combative. Because they feel like they have a little bit of a better understanding about what they're getting themselves into in the negotiating process, because they did their AI research."
+        },
+        {
+          "start_time": 1699470,
+          "end_time": 1710110,
+          "speaker": "Speaker 2",
+          "content": "Now, the next and last component of this is sixty-one percent of consumers prioritize value, quality, and trust over prestige and exclusivity."
+        },
+        {
+          "start_time": 1710830,
+          "end_time": 1740950,
+          "speaker": "Speaker 2",
+          "content": "That's a little bit of a tough pill for us to swallow as a luxury brand, right? That the prestige and exclusivity of a BMW isn't just enough to win them over. We've got to make sure that we're presenting value to them, whether that be value of their time and the experience that they go through, the quality of the product, and the trust of the relationship that we have. So, some things that no matter what, no matter how digitized the process gets, no matter how AI search oriented they might be, sixty-one percent still prioritize value,"
+        },
+        {
+          "start_time": 1741030,
+          "end_time": 1746870,
+          "speaker": "Speaker 2",
+          "content": "Quality, and trust. So, just some these are some deciding factors that are helping the team and I."
+        },
+        {
+          "start_time": 1748070,
+          "end_time": 1759510,
+          "speaker": "Speaker 2",
+          "content": "Build into the case of how we go to market in 2027 and how we close out the fourth quarter of this year. Any questions that you all have before I move on to even more AI data?"
+        },
+        {
+          "start_time": 1759670,
+          "end_time": 1767670,
+          "speaker": "Speaker 1",
+          "content": "No, the sixty one percent really stands out for me because that's one of the reasons why Lexus has pushed so hard in this market,"
+        },
+        {
+          "start_time": 1768310,
+          "end_time": 1772390,
+          "speaker": "Speaker 1",
+          "content": "Is because they do prioritize value, quality, and trust."
+        },
+        {
+          "start_time": 1772950,
+          "end_time": 1785360,
+          "speaker": "Speaker 1",
+          "content": "Price O'Brien has done a phenomenal job over the years. They've got product now. People are a little tighter, you know. We took a lot of people from Lexus during COVID because we had the product,"
+        },
+        {
+          "start_time": 1786160,
+          "end_time": 1798720,
+          "speaker": "Speaker 1",
+          "content": "And now they're going back because they're having to spend twenty-five hundred dollars on tires, and they're having to, you know. So we do have the ultimate driving machine. We have the product, but when things get tight,"
+        },
+        {
+          "start_time": 1799840,
+          "end_time": 1803200,
+          "speaker": "Speaker 1",
+          "content": "People go to lower maintenance,"
+        },
+        {
+          "start_time": 1803760,
+          "end_time": 1829080,
+          "speaker": "Speaker 1",
+          "content": "Higher or As higher quality, higher quality. So that's just my opinion. And I see Tim looking at me; he's about to shoot me. But I mean, that's that's really you know. Some of y'all know our market. Price of Blong has been the number one Toyota dealer in the state for years, and they own the the Lexus store. Well, people graduate from Toyota to Lexus,"
+        },
+        {
+          "start_time": 1829640,
+          "end_time": 1835020,
+          "speaker": "Speaker 1",
+          "content": "And they do a phenomenal job. You know, it's So I'm not making excuses for my team,"
+        },
+        {
+          "start_time": 1835020,
+          "end_time": 1842860,
+          "speaker": "Speaker 2",
+          "content": "But you're not all. You're not all, and I love what you're telling us right now because I actually have some stats and some data on that later on in the presentation."
+        },
+        {
+          "start_time": 1843500,
+          "end_time": 1869110,
+          "speaker": "Speaker 2",
+          "content": "But that is great feedback, and I'm very happy that one of all the ones that are on here, that's the one that stands out because that one really is for you guys. I mean, it's it's for us too. All this for us, but that's one that's really going to be important because you guys have that relationship. You're the ones that help build. That trust and overcome. If we do have a quality issue, you guys are the ones that have to deal with it on the front line. We know that."
+        },
+        {
+          "start_time": 1869190,
+          "end_time": 1880870,
+          "speaker": "Speaker 1",
+          "content": "So, by the way, Tim, are you going to pull my X five that's been sitting here for all these weeks for a head unit? Are you going to pull that out of my? Are you going to give me an extra X five since I can't retail this sold unit?"
+        },
+        {
+          "start_time": 1883110,
+          "end_time": 1885910,
+          "speaker": "Speaker 1",
+          "content": "And it's yeah, let's talk about. And it's hurting my turn."
+        },
+        {
+          "start_time": 1886470,
+          "end_time": 1892070,
+          "speaker": "Speaker 1",
+          "content": "I got one of these X5s that I can't retail because the head unit's bad. They sent us the wrong head unit."
+        },
+        {
+          "start_time": 1892750,
+          "end_time": 1900350,
+          "speaker": "Speaker 1",
+          "content": "Now we got another ten days before the new one's going to end up in the states. We try to pull one from Hendrick Motorsport,"
+        },
+        {
+          "start_time": 1901070,
+          "end_time": 1901630,
+          "speaker": "Speaker 1",
+          "content": "National,"
+        },
+        {
+          "start_time": 1902510,
+          "end_time": 1904510,
+          "speaker": "Speaker 1",
+          "content": "Or whoever. Are you familiar with it?"
+        },
+        {
+          "start_time": 1906430,
+          "end_time": 1908430,
+          "speaker": "Speaker 6",
+          "content": "I think Bill mentioned something to me about it. Yeah."
+        },
+        {
+          "start_time": 1908670,
+          "end_time": 1940070,
+          "speaker": "Speaker 1",
+          "content": "So, but we'll we'll figure it out. It's just sort of now. I got a customer that's not which I am glad that BMW is going to help out a little bit with that. But just puts up. We're talking about you know. People feeling good, and this this guy wanted to be the first one or the first five X5s on the road, and he's been without a vehicle for you know. I think we're going on a month, just about now. So three weeks. So,"
+        },
+        {
+          "start_time": 1940950,
+          "end_time": 1947590,
+          "speaker": "Speaker 1",
+          "content": "But just just go ahead. I mean, I yeah, go ahead. I just got off the subject a little bit, but that's been a thorn in my side right there."
+        },
+        {
+          "start_time": 1948590,
+          "end_time": 1952030,
+          "speaker": "Speaker 2",
+          "content": "That's all right. We'll be an hour and forty-five minutes now, not an hour and thirty. Sorry about that."
+        },
+        {
+          "start_time": 1952110,
+          "end_time": 1954270,
+          "speaker": "Speaker 1",
+          "content": "Hey, you're gonna be. Hey, you're gonna be talking to Lance."
+        },
+        {
+          "start_time": 1956590,
+          "end_time": 1956910,
+          "speaker": "Speaker 1",
+          "content": "All right."
+        },
+        {
+          "start_time": 1956910,
+          "end_time": 1988080,
+          "speaker": "Speaker 2",
+          "content": "So let me hit you some more stats on this because it's important. Forty-nine percent of U. S. adults use generative AI monthly. Eighty-two percent of them use monthly. Use it. The monthly users are using it weekly. Yeah. Men are thirty-one percent more likely to use AI than women. And affluent adults are more likely to use AI. Sixty-four percent with a household income of two hundred thousand, using it weekly. Our customers are using AI very regularly. Two hundred thousand plus\u2014that's our bread and butter."
+        },
+        {
+          "start_time": 1988080,
+          "end_time": 1989280,
+          "speaker": "Speaker 2",
+          "content": "Those are our customers."
+        },
+        {
+          "start_time": 1989440,
+          "end_time": 1996880,
+          "speaker": "Speaker 1",
+          "content": "We're sold seventy. We're sold on it here, Curtis. I mean, we're we're all over AI. I mean, we we've been over AI for."
+        },
+        {
+          "start_time": 1997760,
+          "end_time": 2004000,
+          "speaker": "Speaker 1",
+          "content": "I mean, I've been looking at it for two years, but we're we're actually starting to get ahead of the game on it."
+        },
+        {
+          "start_time": 2004000,
+          "end_time": 2004320,
+          "speaker": "Speaker 2",
+          "content": "So."
+        },
+        {
+          "start_time": 2005800,
+          "end_time": 2006520,
+          "speaker": "Speaker 2",
+          "content": "Love to hear it."
+        },
+        {
+          "start_time": 2006760,
+          "end_time": 2012920,
+          "speaker": "Speaker 1",
+          "content": "Just so y'all know, we are. That is on our. I mean, everybody. I use AI for everything now. So,"
+        },
+        {
+          "start_time": 2014040,
+          "end_time": 2014360,
+          "speaker": "Speaker 1",
+          "content": "Go ahead."
+        },
+        {
+          "start_time": 2015320,
+          "end_time": 2026840,
+          "speaker": "Speaker 2",
+          "content": "I use it in trying to figure out how to win arguments with my wife. Give me data to help me win this argument with my wife. So, and I, I know your wife. I, I, I'm giving you a tip. Should probably try it."
+        },
+        {
+          "start_time": 2028280,
+          "end_time": 2028440,
+          "speaker": "Speaker 2",
+          "content": "Yeah."
+        },
+        {
+          "start_time": 2029880,
+          "end_time": 2031320,
+          "speaker": "Speaker 2",
+          "content": "So, seventy."
+        },
+        {
+          "start_time": 2032440,
+          "end_time": 2065630,
+          "speaker": "Speaker 2",
+          "content": "Investing with you, seventy percent use AI like a search engine. So, I mean, you guys obviously know that. But another challenge, something I want to call out: sixty-one percent are utilizing it for work in some capacity. Which it sounds like you guys are really trying to get ahead of that curve. How are you utilizing AI in your workflow, your CRM template workflow, or your CRM text and email workflow? You know, how dialed in do you have a an AI chatbot on your website? How much training have you put into that bot? If you do. Things like that, or just this is more of for you guys who are already getting your arms around it."
+        },
+        {
+          "start_time": 2065870,
+          "end_time": 2072270,
+          "speaker": "Speaker 2",
+          "content": "Hopefully, just some inspiring stuff on on different ways that you can keep pushing the the envelope with AI."
+        },
+        {
+          "start_time": 2072670,
+          "end_time": 2073949,
+          "speaker": "Speaker 1",
+          "content": "We have agents everywhere,"
+        },
+        {
+          "start_time": 2073949,
+          "end_time": 2074270,
+          "speaker": "Speaker 2",
+          "content": "Curtis."
+        },
+        {
+          "start_time": 2075870,
+          "end_time": 2076989,
+          "speaker": "Speaker 2",
+          "content": "I like it. I love to hear it."
+        },
+        {
+          "start_time": 2078110,
+          "end_time": 2109150,
+          "speaker": "Speaker 2",
+          "content": "So, look, I'll shoot through this one really quick. Fifty two percent of luxury AI users discovered new brands or products because of AI. Just make sure while you're using AI and your AI agents. Make sure you're not shortchanging yourself on the content that influences those AI agents. So that requires YouTube videos, that requires organic social media content, which I know y'all do."
+        },
+        {
+          "start_time": 2109390,
+          "end_time": 2139830,
+          "speaker": "Speaker 2",
+          "content": "Great images, you guys have always done a nice job with that, and organic website SEO content. All those things influence those agents and influence. How you guys show up in those AI results on all of the agents? Forty-four percent of luxury intenders prefer AI-powered vehicle research. So again, if you're influencing those agents and those engines, and you're putting that information out there, great. You guys are a big part of that already. Eighty-one percent of shoppers who use AI tools believe that it helped them make a smarter buying decision. We already looked at that one."
+        },
+        {
+          "start_time": 2141110,
+          "end_time": 2170780,
+          "speaker": "Speaker 2",
+          "content": "This the life cycle of BMW content to AI models and agents. To buyers and back to us. Again, I don't need to spend a ton of time on this because you guys are already starting this process. But know that this a never-ending cycle. It starts with the content that y'all build out on your website, the content that you put on YouTube, because YouTube is the number two cited source for all of the AI models."
+        },
+        {
+          "start_time": 2171900,
+          "end_time": 2186320,
+          "speaker": "Speaker 2",
+          "content": "YouTube is the number two cited source. So don't shortchange YouTube by having quality, authentic YouTube videos representing the product, your store, your staff, and the brand."
+        },
+        {
+          "start_time": 2187520,
+          "end_time": 2217650,
+          "speaker": "Speaker 2",
+          "content": "On your website, social media, the stuff that comes from content creators, stuff that gets pumped out on PR that you guys can host and you guys can share because you, as well as us at the brand level, are influencing the AI models. Which is influencing buyer behavior and the research that they that they do, and then the buyers are being very transparent because they're coming in saying,\"Hey, I know that I can buy this for this, and you'll take this as a trade-in because I did all this research here."
+        },
+        {
+          "start_time": 2217810,
+          "end_time": 2240220,
+          "speaker": "Speaker 2",
+          "content": "\" You can then take that information, go back, build some content around what you learned from those buyers and that those customers that month, and then start influencing the AI models again. So this is a non-ending cycle that just keeps going. My challenge to us and y'all is to make sure that you keep moving with that cycle, that you never stop with the content creation,"
+        },
+        {
+          "start_time": 2240780,
+          "end_time": 2259020,
+          "speaker": "Speaker 2",
+          "content": "Never stop trying to influence it, and that you're always trying to watch it. We've seen content mature on AI in four days, versus Lance. You know this just about as well as any of us on this call. That it we used to take sixty to ninety days to get a content page to rank."
+        },
+        {
+          "start_time": 2259650,
+          "end_time": 2270690,
+          "speaker": "Speaker 2",
+          "content": "On page two, let alone page one, to get that page to mature, we've now seen content on a dealer website rank in AI in four days. Oh yeah, it's it's very possible."
+        },
+        {
+          "start_time": 2272850,
+          "end_time": 2275170,
+          "speaker": "Speaker 2",
+          "content": "Questions on that cycle? Nope, nope."
+        },
+        {
+          "start_time": 2276290,
+          "end_time": 2307750,
+          "speaker": "Speaker 2",
+          "content": "Cool. All right, let's keep cruising. All right, you've seen this before. This is how we break out our customer buckets: awareness, consideration, and conversion. Awareness, reach, focused, engage potential customers. People that didn't wake up thinking about buying a new car, but we know that they might sometime in the near future, and we want to make sure that BMW is top of mind or somewhere near. We want to drive some interest and drive some excitement around the brand as a whole. We want to let them know when we've got some sales events. Hey, we've got a new product coming out. Hey, we've got a new sales event coming out."
+        },
+        {
+          "start_time": 2307910,
+          "end_time": 2314630,
+          "speaker": "Speaker 2",
+          "content": "But this is a little more broad reach focus. We're trying to hit a lot of people and the right people."
+        },
+        {
+          "start_time": 2316910,
+          "end_time": 2336750,
+          "speaker": "Speaker 2",
+          "content": "This is going to be important from that broad reach focus, but we still want to make sure that we're heavier in the consideration and the conversion component. Consideration are the early shoppers; they've already given us some indicators and some signs that they are in the market and they are looking to buy a car sometime in the near future."
+        },
+        {
+          "start_time": 2337310,
+          "end_time": 2340750,
+          "speaker": "Speaker 2",
+          "content": "They're typically our conquest customers that we are going to go after,"
+        },
+        {
+          "start_time": 2341310,
+          "end_time": 2354720,
+          "speaker": "Speaker 2",
+          "content": "And when we're serving up consideration ads, we're doing performance. We're doing innovation. We're showing them our options and features. We're showing them Gen Six batteries. We're showing them the the panoramic iDrive system and our new displays."
+        },
+        {
+          "start_time": 2355440,
+          "end_time": 2358720,
+          "speaker": "Speaker 2",
+          "content": "We're trying to drive interest and engagement in the branding."
+        },
+        {
+          "start_time": 2360800,
+          "end_time": 2361600,
+          "speaker": "Speaker 2",
+          "content": "Generation based."
+        },
+        {
+          "start_time": 2364560,
+          "end_time": 2397400,
+          "speaker": "Speaker 2",
+          "content": "We're trying to push them over to the store. We're trying to get them to start engaging with building your own products and things like that. We're in those early phases of inspiring some action. Then on conversion, it's the lower funnel stuff. It's the shoppers that are in the market. They're actively engaging with websites. They're actively doing real-time research about where products are, what options and features they need to have on their next car, what their budget's going to look like, things like that. We're going to serve them up models specifically. There are going to be offers based on those models that fit their needs and the research that they've been doing."
+        },
+        {
+          "start_time": 2397800,
+          "end_time": 2425210,
+          "speaker": "Speaker 2",
+          "content": "And it's going to be a very specific, detailed messaging that is going to be more relevant to those consumers because we want to see actions taking place off of that. We want to see them on the BYO building their own individual X Five. We want to see them complete that. We want to see them doing an inventory search after that, and then we want to see them go on and actually submit a lead, pick up the phone, or walk in the store and say,\"This my X Five that I want.\" This how we break up our buckets, and I know you guys at a store level do this pretty similarly too."
+        },
+        {
+          "start_time": 2425850,
+          "end_time": 2432650,
+          "speaker": "Speaker 2",
+          "content": "This is really from a transparency standpoint. As you know, we like accountability and transparency. We want to make sure you guys fully see."
+        },
+        {
+          "start_time": 2433200,
+          "end_time": 2443440,
+          "speaker": "Speaker 2",
+          "content": "All of our strategy, what we are doing, so that you guys can either pick it apart and give us feedback, good, bad, or indifferent on it, or you guys can take it, run with it on your own if you think it looks good."
+        },
+        {
+          "start_time": 2444160,
+          "end_time": 2454000,
+          "speaker": "Speaker 2",
+          "content": "Like I said earlier, on the awareness side, that's our entry level. That's the high, broad reach. It's not as targeted as what we would like it to be. So you see that being on the lower end of our budget,"
+        },
+        {
+          "start_time": 2454640,
+          "end_time": 2477150,
+          "speaker": "Speaker 2",
+          "content": "From 22 to 15 percent, from 2024 to 2026. Consideration stays pretty close right there in that that 30 percent realm. And then conversion, we're at and above fifty percent since twenty twenty four. That's where we want to live. We want to live there because we know every dollar that we spend, how many actions we're getting out of that, and that we know that it's taking place."
+        },
+        {
+          "start_time": 2480670,
+          "end_time": 2513280,
+          "speaker": "Speaker 2",
+          "content": "So that's the arena that we want to live in. And then the bars here on the left hand side is the percentage over the last three years where we're spending them at, and the fluctuation. One thing I want to call out is you'll see a spike in sponsorship TV. That's why you see our awareness go up four percent from twenty-five to twenty-six. Is because we had a little bit of a surplus going into the fourth quarter of this year, where we were trending ahead in some larger markets, and we wanted to add in some sports, major sports moments, specifically around college football,"
+        },
+        {
+          "start_time": 2513760,
+          "end_time": 2546400,
+          "speaker": "Speaker 2",
+          "content": "Around NFL, where we know we've got some key demographics that are participating and watching from an awareness standpoint. We wanted to do that in the fourth quarter to drive a little more awareness and a little more engagement for a stronger close on the fourth quarter. So that's why you see that spike there. That's not something that we typically have done in the past. We were in a really good budget position going into the fourth quarter of this year, so we wanted to make sure that we utilized all available funds that we could as effectively and efficiently as we could. And that was a really good area of opportunity that we had."
+        },
+        {
+          "start_time": 2546400,
+          "end_time": 2547600,
+          "speaker": "Speaker 2",
+          "content": "So that's why you see that spike there."
+        },
+        {
+          "start_time": 2548160,
+          "end_time": 2549200,
+          "speaker": "Speaker 2",
+          "content": "Any questions on this?"
+        },
+        {
+          "start_time": 2549610,
+          "end_time": 2551930,
+          "speaker": "Speaker 1",
+          "content": "No, dude. What's our carryover going to be for the year?"
+        },
+        {
+          "start_time": 2551930,
+          "end_time": 2552410,
+          "speaker": "Speaker 2",
+          "content": "Do you know?"
+        },
+        {
+          "start_time": 2553450,
+          "end_time": 2555130,
+          "speaker": "Speaker 2",
+          "content": "I don't think there's going to be one. Okay."
+        },
+        {
+          "start_time": 2557130,
+          "end_time": 2557370,
+          "speaker": "Speaker 2",
+          "content": "All right."
+        },
+        {
+          "start_time": 2559210,
+          "end_time": 2581650,
+          "speaker": "Speaker 2",
+          "content": "So let's start digging into twenty twenty six year to date where we're at so far. So on the left hand side, you see those four KBAs that we we've been talking about. You hear me? Keep talking about key buying actions. Build your own start. Build your own complete inventory searches and lead submissions. When we buy paid search and paid social, which is factored in on this slide, both of those two things,"
+        },
+        {
+          "start_time": 2582210,
+          "end_time": 2589810,
+          "speaker": "Speaker 2",
+          "content": "We are trying to accomplish these four tasks right here: BYO complete, BYO start, inventory search, and lead submission."
+        },
+        {
+          "start_time": 2590850,
+          "end_time": 2604370,
+          "speaker": "Speaker 2",
+          "content": "Again, transparency and honesty. We want to show you side by side where y'all line up on the right hand side versus the benchmark of the region. Now, obviously, when we're looking at the entire region, we're talking three point five million key buying actions."
+        },
+        {
+          "start_time": 2605310,
+          "end_time": 2607710,
+          "speaker": "Speaker 2",
+          "content": "And thirty four versus thirty four thousand for y'all,"
+        },
+        {
+          "start_time": 2608270,
+          "end_time": 2619550,
+          "speaker": "Speaker 2",
+          "content": "But where we can benchmark a little bit more is where is Baton Rouge line up against the region at a cost per key buying action and a cost per click a CPC those bottom two."
+        },
+        {
+          "start_time": 2620670,
+          "end_time": 2639930,
+          "speaker": "Speaker 2",
+          "content": "So the region is averaging five fifty one cost per key buying action to y'all's eight dollars and fifteen cents cost per key buying action the right hand side three seventeen cost per click versus four nineteen cost per click. And we started this conversation our last Mako meeting with Chris and with Lance,"
+        },
+        {
+          "start_time": 2640810,
+          "end_time": 2670870,
+          "speaker": "Speaker 2",
+          "content": "Discussing about making sure that we're not stepping on each other's toes with paid search and paid social. We're not overstepping budgets. And again, this was going back going back to that earlier statement that I made about the tier alignment and how that's going to continue to keep evolving to make sure that that we're all staying kind of in our areas and we're not getting in y'all's lane and y'all aren't getting in ours or nationals' lane and overspending budgets. So we'll keep working through that. We will break this out in a couple more slides specifically on paid social on its own,"
+        },
+        {
+          "start_time": 2670950,
+          "end_time": 2673110,
+          "speaker": "Speaker 2",
+          "content": "And then paid search on its own, and we can look at each of those."
+        },
+        {
+          "start_time": 2673670,
+          "end_time": 2678870,
+          "speaker": "Speaker 2",
+          "content": "And then I will take a breath and a drink of water, and I will let Chris jump in from here."
+        },
+        {
+          "start_time": 2680470,
+          "end_time": 2691030,
+          "speaker": "Speaker 3",
+          "content": "All right. So Curtis said that you know we weren't going to break down this by market region and dealer group, but I'm going to try."
+        },
+        {
+          "start_time": 2691670,
+          "end_time": 2706070,
+          "speaker": "Speaker 3",
+          "content": "So. Essentially, what you're looking at here are something being transparent again from a national perspective, from tier one perspective. This is what they're expecting to look at. So, to get that five-time retail growth,"
+        },
+        {
+          "start_time": 2706870,
+          "end_time": 2713750,
+          "speaker": "Speaker 3",
+          "content": "What do we need? What do those numbers actually potentially look like? What do we need to do? So, from a national perspective,"
+        },
+        {
+          "start_time": 2714550,
+          "end_time": 2729780,
+          "speaker": "Speaker 3",
+          "content": "They've laid out initial targets. We have to get how many visits? It's over 110 million visits. How many KBAs altogether? It's over thirty-one thousand or thirty-one million KBAs. How many leads? Almost two hundred thousand leads. That's the expectation."
+        },
+        {
+          "start_time": 2731140,
+          "end_time": 2732660,
+          "speaker": "Speaker 3",
+          "content": "Bringing that down to the southern region,"
+        },
+        {
+          "start_time": 2733780,
+          "end_time": 2738180,
+          "speaker": "Speaker 3",
+          "content": "Okay? So for the South, we're looking at almost nine million visits,"
+        },
+        {
+          "start_time": 2738980,
+          "end_time": 2743060,
+          "speaker": "Speaker 3",
+          "content": "Two point one million KBAs, almost ten thousand leads."
+        },
+        {
+          "start_time": 2743860,
+          "end_time": 2757680,
+          "speaker": "Speaker 3",
+          "content": "So just mathematically. Looking back, seeing where we're at, what we're doing, how we've been doing from a visit perspective, for Baton Rouge, we're looking at one hundred and twenty-two thousand,"
+        },
+        {
+          "start_time": 2758640,
+          "end_time": 2767680,
+          "speaker": "Speaker 3",
+          "content": "Key buying actions. We're looking at thirty-one thousand leads, eighty-seven. That looks small. Don't worry about that. Again, we look at the key buying actions,"
+        },
+        {
+          "start_time": 2768640,
+          "end_time": 2779170,
+          "speaker": "Speaker 3",
+          "content": "National ties up to those lead numbers. How we just factor it out based on what national looks at. And what we need to get to for that five times growth\u2014that's what this is doing."
+        },
+        {
+          "start_time": 2780130,
+          "end_time": 2784050,
+          "speaker": "Speaker 3",
+          "content": "Another thing I want to call out here, and Lance, you're probably familiar with this."
+        },
+        {
+          "start_time": 2784850,
+          "end_time": 2789330,
+          "speaker": "Speaker 3",
+          "content": "National looks at things based on a last touch model attribution."
+        },
+        {
+          "start_time": 2790770,
+          "end_time": 2794370,
+          "speaker": "Speaker 3",
+          "content": "We look at things on a full funnel attribution, multi-touch attribution."
+        },
+        {
+          "start_time": 2794930,
+          "end_time": 2797170,
+          "speaker": "Speaker 3",
+          "content": "A lot of times, when you just look at last touch,"
+        },
+        {
+          "start_time": 2797890,
+          "end_time": 2806140,
+          "speaker": "Speaker 3",
+          "content": "It's going to be a whole lot of search. You're going to be giving all your money to Google if you wanted to. So it's it's different attribution models to look at,"
+        },
+        {
+          "start_time": 2806700,
+          "end_time": 2808460,
+          "speaker": "Speaker 3",
+          "content": "But being fully transparent,"
+        },
+        {
+          "start_time": 2809420,
+          "end_time": 2821660,
+          "speaker": "Speaker 3",
+          "content": "This is from a national perspective, kind of how it how it lays out or how it's initially laying out. So what what I've got to look at is okay. I've got to build a plan that's going to get to these numbers from a last touch attribution perspective."
+        },
+        {
+          "start_time": 2822380,
+          "end_time": 2831340,
+          "speaker": "Speaker 3",
+          "content": "So that's kind of setup of what we haven't done before or been transparent with numbers before. Actually, tier one hasn't shown us this before."
+        },
+        {
+          "start_time": 2832210,
+          "end_time": 2842050,
+          "speaker": "Speaker 3",
+          "content": "We now have at least a benchmark of what we need to look at to put together a plan to get to numbers that will potentially reach that five times growth,"
+        },
+        {
+          "start_time": 2842610,
+          "end_time": 2844290,
+          "speaker": "Speaker 3",
+          "content": "And we can monitor as we go."
+        },
+        {
+          "start_time": 2846050,
+          "end_time": 2849170,
+          "speaker": "Speaker 3",
+          "content": "So, okay, does that make sense?"
+        },
+        {
+          "start_time": 2850450,
+          "end_time": 2851570,
+          "speaker": "Lance",
+          "content": "Yes. So far, yes."
+        },
+        {
+          "start_time": 2852450,
+          "end_time": 2854050,
+          "speaker": "Speaker 3",
+          "content": "Perfect. Let's move along."
+        },
+        {
+          "start_time": 2854850,
+          "end_time": 2884220,
+          "speaker": "Speaker 2",
+          "content": "All right, I will jump back in here. So this is the KBA realignment that I was talking about. How we're going to refine our targeting and how we're tracking what should or shouldn't be influencing. So if you remember, not that long ago, we had that upside down funnel on the left hand side. It was three levels of actions. There were about twenty four different site actions that we were tracking. It was very convoluted and vague all at the same time. Didn't give us a lot of detail in what was providing real, honest traffic and value."
+        },
+        {
+          "start_time": 2884830,
+          "end_time": 2915130,
+          "speaker": "Speaker 2",
+          "content": "We evolved that into the KBAs, those four site actions that you see right there in the middle. That's our current structure. But what the new consideration is, what we are wanting to look into, is what influence those those KBAs. What other actions are taking because of the traffic that we are driving over onto the site? So things specifically like build your own starts and build your own completes. We know that we're tracking those already, but once they start those things, are they exiting to estimate a trade-in value?"
+        },
+        {
+          "start_time": 2915770,
+          "end_time": 2931370,
+          "speaker": "Speaker 2",
+          "content": "Are they exiting that and going to a dealer locator and utilizing the dealer locator to see where you guys are at, how far y'all are from them, from their office, from their home? Are they exiting to a credit app to see what their rate might be and maybe get a little bit better of an idea on a payment?"
+        },
+        {
+          "start_time": 2932170,
+          "end_time": 2963420,
+          "speaker": "Speaker 2",
+          "content": "Those are certain things that we want to start evolving to track and keep an eye on because those are influencing. And helping that buying decision, and we're seeing those actions taking place post BYO start, post BYO complete, and that allows us to help track them down the funnel just a little bit further and hold ourselves accountable just a little bit more. And then the converting KBAs of the inventory searches and the leads, are they going over and they're going to start estimating a payment? Are they utilizing that tool or are they just exiting straight from there and going over to your site?"
+        },
+        {
+          "start_time": 2963660,
+          "end_time": 2985490,
+          "speaker": "Speaker 2",
+          "content": "Both of those things, pretty obvious indicators that we've got a successful campaign going on. And we're moving them down the funnel, like we like to say, as quickly, effectively, and efficiently as possible. So that's kind of the framework that we're looking at for our new considerations for how we'll start tracking in 2027 to make sure we're still seeing a clean but complete picture from our digital campaigns."
+        },
+        {
+          "start_time": 2985490,
+          "end_time": 2989730,
+          "speaker": "Speaker 1",
+          "content": "Hey guys, just hold on, hold on one second, real quick. I think I might have to take this. Hello."
+        },
+        {
+          "start_time": 2991570,
+          "end_time": 2995250,
+          "speaker": "Speaker 1",
+          "content": "Hey John. Hey John, you mind if I call you right back? I'm in a meeting."
+        },
+        {
+          "start_time": 2996050,
+          "end_time": 2996690,
+          "speaker": "Speaker 1",
+          "content": "All right, thanks."
+        },
+        {
+          "start_time": 2998540,
+          "end_time": 2999580,
+          "speaker": "Speaker 1",
+          "content": "All right, guys. Sorry about that."
+        },
+        {
+          "start_time": 3000700,
+          "end_time": 3001500,
+          "speaker": "Speaker 2",
+          "content": "No, no, that's okay."
+        },
+        {
+          "start_time": 3003580,
+          "end_time": 3013740,
+          "speaker": "Speaker 2",
+          "content": "All right, so good stuff there. Now let's go back and look at those dollars and cents again. So, eight fifty-three projected wholesales, four fifty-three, one fifty-six is what we're looking to spend."
+        },
+        {
+          "start_time": 3014700,
+          "end_time": 3041950,
+          "speaker": "Speaker 2",
+          "content": "Now let's go into how we project spending that throughout next year. So, from a calendarization standpoint, you've seen this before, but I want to remind you. We don't just spend the same amount of money every single month. Set it and forget it. In fact, we try to be as flexible and fluid with this plan as we possibly can. And when we've got a digital-first strategy like this, it makes it a lot easier to do that. Another call out that I want to say here is: you'll remember, you'll see,"
+        },
+        {
+          "start_time": 3042750,
+          "end_time": 3072060,
+          "speaker": "Speaker 2",
+          "content": "We spend more during the sales events, summer sales event, road home sales event, not just during the sales event, but we increase during that month prior to make sure that we're easing into that market. We're easing into that that sales event, and we're not just going in with a big spike cold. So you'll see how we kind of calendarize the budget throughout the year on this. And again, as we see things shifting and changing in the marketplace, the budget will shift and change with it potentially. But this is our baseline for next year."
+        },
+        {
+          "start_time": 3074620,
+          "end_time": 3075020,
+          "speaker": "Speaker 2",
+          "content": "Look good?"
+        },
+        {
+          "start_time": 3075660,
+          "end_time": 3079100,
+          "speaker": "Speaker 2",
+          "content": "Yep. Cool. All right. Keep cruising."
+        },
+        {
+          "start_time": 3079660,
+          "end_time": 3095330,
+          "speaker": "Speaker 2",
+          "content": "All right. We talked about the evolving search environment, zero click dominance. Something I want to call out to you guys. Look. We have a lot of conversations about leads. Bill is always beating me up and complaining, telling me about how you guys don't have enough damn leads. And you know what? He's right."
+        },
+        {
+          "start_time": 3096210,
+          "end_time": 3113640,
+          "speaker": "Speaker 2",
+          "content": "But here's an in our face stat that says,\"Hey, look! If we're chasing after leads, we've already missed it. It's not going to work out. It's not going to be a good story for us because 68% of searches end without a click to a website. What does that mean? It means I'm going on. I'm putting in a long tail,\""
+        },
+        {
+          "start_time": 3115800,
+          "end_time": 3125880,
+          "speaker": "Speaker 2",
+          "content": "Eight plus word search query about an X5 that I would like to buy. I'm getting served up all the information that I need at that moment,"
+        },
+        {
+          "start_time": 3127320,
+          "end_time": 3131080,
+          "speaker": "Speaker 2",
+          "content": "And not going to a website because it's all showing up right there in the initial result."
+        },
+        {
+          "start_time": 3131880,
+          "end_time": 3135080,
+          "speaker": "Speaker 2",
+          "content": "Sixty eight percent of searches end without a click to a website."
+        },
+        {
+          "start_time": 3135800,
+          "end_time": 3136680,
+          "speaker": "Speaker 2",
+          "content": "The other end of it is,"
+        },
+        {
+          "start_time": 3137320,
+          "end_time": 3142600,
+          "speaker": "Speaker 2",
+          "content": "They search and they don't find anything they want or they look for, so they stop searching."
+        },
+        {
+          "start_time": 3143460,
+          "end_time": 3159620,
+          "speaker": "Speaker 2",
+          "content": "So we need to be able to make sure that the content that is being served up to them that gives them just enough information to not move on is our content and your content, or we don't want to be the other scenario where they're just not seeing anything they want. They get fed up and frustrated, and they move on to something else."
+        },
+        {
+          "start_time": 3160420,
+          "end_time": 3162420,
+          "speaker": "Speaker 2",
+          "content": "That's the two sides of that coin. So,"
+        },
+        {
+          "start_time": 3163140,
+          "end_time": 3165140,
+          "speaker": "Speaker 2",
+          "content": "Again, from a leads perspective,"
+        },
+        {
+          "start_time": 3165700,
+          "end_time": 3167460,
+          "speaker": "Speaker 2",
+          "content": "It's a small percentage of our business."
+        },
+        {
+          "start_time": 3168010,
+          "end_time": 3181770,
+          "speaker": "Speaker 2",
+          "content": "We need to make sure that we are there where the customers want to be and where they need to be, and they're researching how they want to do it. So, just a quick call out there. I said this stat earlier: the value of user-generated content. Lance, you are a content generator."
+        },
+        {
+          "start_time": 3182810,
+          "end_time": 3188090,
+          "speaker": "Speaker 2",
+          "content": "Brent, you should be a content generator. I want to see you on more social media. I want to see you doing YouTube videos."
+        },
+        {
+          "start_time": 3188650,
+          "end_time": 3213950,
+          "speaker": "Speaker 2",
+          "content": "YouTube is the number two cited source in AI overviews. When AI is serving up answers to someone's search query. About products or offers or wellness checks, whatever it might be, YouTube is the number two-sided source. We can influence AI by having a healthy, active, engaged, consistent YouTube channel."
+        },
+        {
+          "start_time": 3214510,
+          "end_time": 3217470,
+          "speaker": "Speaker 2",
+          "content": "Don't forget about creating YouTube videos."
+        },
+        {
+          "start_time": 3218030,
+          "end_time": 3224110,
+          "speaker": "Speaker 2",
+          "content": "Increase in deep and detailed queries. Fifty-two percent of BMW-related searches are five plus words."
+        },
+        {
+          "start_time": 3224950,
+          "end_time": 3235670,
+          "speaker": "Speaker 2",
+          "content": "Last night, Chris and I were actually on a call with Google, and they told us that eight plus words is actually the common query right now. People are utilizing more than eight words when they're searching."
+        },
+        {
+          "start_time": 3236950,
+          "end_time": 3244310,
+          "speaker": "Speaker 2",
+          "content": "What does that mean? It doesn't. It means that we're not looking at just BMW near me, best BMW deals,"
+        },
+        {
+          "start_time": 3245030,
+          "end_time": 3255700,
+          "speaker": "Speaker 2",
+          "content": "X five deals near me. They're actually getting detailed in what they're searching, which means our content. Our SEO content, our website content, our social media content, and the content,"
+        },
+        {
+          "start_time": 3256500,
+          "end_time": 3266660,
+          "speaker": "Speaker 2",
+          "content": "Spoken word, natural spoken word, and our captions in our YouTube videos need to be able to speak to that. See the five to eight plus words that people are searching."
+        },
+        {
+          "start_time": 3267540,
+          "end_time": 3295980,
+          "speaker": "Speaker 2",
+          "content": "We as a brand, I think, are already doing a pretty good job of this too. Like you said, right? You guys are getting your arms around this a little bit early. I think as a brand, we have done a pretty good job getting our arms around it early too. We're trying to keep pouring the steam on with it. We have ninety-one percent visibility score compared to eighty percent of the industry average with with automotive. So I think we're we're doing a great job there. We've seen three times year over year Google AI citation volume from BMW branded content, BMW creative that we're putting out there."
+        },
+        {
+          "start_time": 3296540,
+          "end_time": 3306380,
+          "speaker": "Speaker 2",
+          "content": "And then the other side of it is the paid AI search products. We're of course you know it's it's new, so we can say ninety-nine plus percent year over year AI paid search product utilization."
+        },
+        {
+          "start_time": 3307020,
+          "end_time": 3334370,
+          "speaker": "Speaker 2",
+          "content": "But we put that on there to say that hey, look. We understand that this is an evolving, moving target. It's new. We're keeping a close eye on it. It's kind of like TikTok. We just talked about TikTok, and you heard Chris and I say,\"Hey, look, at a tier two level, doesn't make a whole lot of sense for us, but at a tier three level, for y'all to create content organically, you best be doing it because it is the best, stickiest algorithm out there right now.\" But we're going to keep an eye on it. And then, sure enough, from a tier two perspective, TikTok started making sense at tier two. We started buying."
+        },
+        {
+          "start_time": 3335090,
+          "end_time": 3337170,
+          "speaker": "Speaker 2",
+          "content": "Now, with this one, very similarly,"
+        },
+        {
+          "start_time": 3337810,
+          "end_time": 3350890,
+          "speaker": "Speaker 2",
+          "content": "AI paid. Search campaigns, paid campaigns, not mainstream just yet, but we're keeping a very close eye on it, and we'll keep you guys informed on that opportunity and possibilities there. Any questions on these callouts?"
+        },
+        {
+          "start_time": 3351610,
+          "end_time": 3361610,
+          "speaker": "Speaker 1",
+          "content": "Nope. No, explain to me the AI paid search just real quick, because I'm trying to figure out how that's going to work. Are they gonna Are they gonna manipulate the customers?"
+        },
+        {
+          "start_time": 3362410,
+          "end_time": 3364410,
+          "speaker": "Speaker 1",
+          "content": "How does that? I mean, because like when I I."
+        },
+        {
+          "start_time": 3365590,
+          "end_time": 3369270,
+          "speaker": "Speaker 1",
+          "content": "I just speak into my phone and get the answers. You know what I'm saying?"
+        },
+        {
+          "start_time": 3369990,
+          "end_time": 3372310,
+          "speaker": "Speaker 1",
+          "content": "Are they?"
+        },
+        {
+          "start_time": 3374150,
+          "end_time": 3376230,
+          "speaker": "Speaker 1",
+          "content": "I guess I want to understand that more. Yeah,"
+        },
+        {
+          "start_time": 3377910,
+          "end_time": 3388310,
+          "speaker": "Speaker 2",
+          "content": "Chris, you've been kind of leading a lot of the the research on that. You want to jump in with how that's again because it it is early. But yeah, so,"
+        },
+        {
+          "start_time": 3388950,
+          "end_time": 3401260,
+          "speaker": "Speaker 3",
+          "content": "National is starting to test this actually in the last month with ChatGPT. And so it's utilizing the Gemini, ChatGPT. It's it's very similar to how you search now,"
+        },
+        {
+          "start_time": 3402220,
+          "end_time": 3414700,
+          "speaker": "Speaker 3",
+          "content": "But there will be some kind of a whether it's an AI overview like you do see with Google now. There's certain products that you have to utilize for Google to get the AI overview to come up, or whether it's going to be literally sponsored ads."
+        },
+        {
+          "start_time": 3415500,
+          "end_time": 3419740,
+          "speaker": "Speaker 3",
+          "content": "It is going to be. They have to monetize it somehow. They were going to do that."
+        },
+        {
+          "start_time": 3420370,
+          "end_time": 3424370,
+          "speaker": "Speaker 3",
+          "content": "Eventually, as soon as it everything got set up, so it's going to be very similar to that."
+        },
+        {
+          "start_time": 3424370,
+          "end_time": 3424770,
+          "speaker": "Speaker 1",
+          "content": "Yes,"
+        },
+        {
+          "start_time": 3427170,
+          "end_time": 3430610,
+          "speaker": "Speaker 1",
+          "content": "I'm just curious. When I put in a request,"
+        },
+        {
+          "start_time": 3432370,
+          "end_time": 3443090,
+          "speaker": "Speaker 1",
+          "content": "Is it gonna is it gonna point me a because basically when I put in a request, it's taking all of the everything out there and summarizing it."
+        },
+        {
+          "start_time": 3443970,
+          "end_time": 3445410,
+          "speaker": "Speaker 1",
+          "content": "Correct. So,"
+        },
+        {
+          "start_time": 3447010,
+          "end_time": 3451700,
+          "speaker": "Speaker 1",
+          "content": "So how is it? I mean, I just. I guess maybe you don't even know. You're just, well,"
+        },
+        {
+          "start_time": 3452260,
+          "end_time": 3478580,
+          "speaker": "Speaker 3",
+          "content": "We're, yeah, we're testing it. But what it what's going to happen is essentially it will, yeah, you're going to have still those. Think of it as regular search where, you've got the organic results and whatnot, and you still have the paid results as well. It's going to be a resemblance of yes, that it's going to a resemblance of okay, again eight plus words because you're literally talking into ChatGPT like we were saying and saying hey."
+        },
+        {
+          "start_time": 3480200,
+          "end_time": 3481480,
+          "speaker": "Speaker 3",
+          "content": "What's a BMW shop near me?"
+        },
+        {
+          "start_time": 3482680,
+          "end_time": 3486280,
+          "speaker": "Speaker 3",
+          "content": "Okay, it's gonna find that exact thing. Cool,"
+        },
+        {
+          "start_time": 3487240,
+          "end_time": 3493160,
+          "speaker": "Speaker 3",
+          "content": "But now you're gonna be able to pay to be able to have it find you first. Yeah, yeah."
+        },
+        {
+          "start_time": 3493160,
+          "end_time": 3498200,
+          "speaker": "Lance",
+          "content": "And so the fear has been that it's gonna kind of taint the quality of what AI does."
+        },
+        {
+          "start_time": 3498200,
+          "end_time": 3498760,
+          "speaker": "Speaker 3",
+          "content": "Correct."
+        },
+        {
+          "start_time": 3499320,
+          "end_time": 3504680,
+          "speaker": "Lance",
+          "content": "And so a lot of, like, I know a lot of marketers. Like when I talk to my guys at J and L, or just when I do my own research, it's like,"
+        },
+        {
+          "start_time": 3505720,
+          "end_time": 3512010,
+          "speaker": "Lance",
+          "content": "You know, you want to play in that arena, but also I think you're going to have to, right? Obviously, eventually. But um,"
+        },
+        {
+          "start_time": 3512570,
+          "end_time": 3525290,
+          "speaker": "Lance",
+          "content": "And and look, not all AIs are going to be equivalent. I think Muse is going to push the the marketing piece and the paid marketing, and Gemini is going to push the paid marketing, and then you're going to have some that are just more pure,"
+        },
+        {
+          "start_time": 3526330,
+          "end_time": 3528410,
+          "speaker": "Lance",
+          "content": "You know, research plays. Yeah."
+        },
+        {
+          "start_time": 3529050,
+          "end_time": 3551260,
+          "speaker": "Speaker 3",
+          "content": "And you know, there's the open AI, the closed. I mean, it's it's there's going to be so much moving pieces that are going to continue for the next. Year, I mean, probably for the next however long, but just initially from that pay perspective, there's going to be a lot of moving pieces of what can be monetized, what can't, what can be purchased locally."
+        },
+        {
+          "start_time": 3551980,
+          "end_time": 3553260,
+          "speaker": "Speaker 3",
+          "content": "What are the? That's another thing."
+        },
+        {
+          "start_time": 3553260,
+          "end_time": 3567580,
+          "speaker": "Speaker 1",
+          "content": "Are y'all talking about guardrails? Because I'm thinking about the crooks, the crooks over there in Gulfport, because they're going to pay to to pop up when they're they're looking for a vehicle in my area to pop up with a paid ad."
+        },
+        {
+          "start_time": 3568420,
+          "end_time": 3569060,
+          "speaker": "Speaker 3",
+          "content": "Um."
+        },
+        {
+          "start_time": 3570180,
+          "end_time": 3571940,
+          "speaker": "Speaker 3",
+          "content": "So yeah, absolutely."
+        },
+        {
+          "start_time": 3572580,
+          "end_time": 3576180,
+          "speaker": "Speaker 2",
+          "content": "We'll still have the same monitoring guardrails in place that we do with paid search now."
+        },
+        {
+          "start_time": 3576180,
+          "end_time": 3577700,
+          "speaker": "Speaker 6",
+          "content": "Yeah, that would still be."
+        },
+        {
+          "start_time": 3577860,
+          "end_time": 3582340,
+          "speaker": "Speaker 2",
+          "content": "And that's still that is still an AEP violation because that's a really big concern to me."
+        },
+        {
+          "start_time": 3582340,
+          "end_time": 3601080,
+          "speaker": "Speaker 1",
+          "content": "I mean that because it's a lot easier to. It's gonna. It seems like it's gonna be a lot easier for them to do it if this. And it is gonna happen. I mean, it's just to manipulate this. Oh well, we didn't. You know, we used another company, and they ended up going into your market, and you know all that bullshit."
+        },
+        {
+          "start_time": 3601080,
+          "end_time": 3613960,
+          "speaker": "Speaker 2",
+          "content": "So, here's my advisement on that. We will we will continue to monitor, police, and engage that as it is a problem. But here's my advice on this: out create them in content."
+        },
+        {
+          "start_time": 3614760,
+          "end_time": 3615800,
+          "speaker": "Speaker 2",
+          "content": "Out create."
+        },
+        {
+          "start_time": 3616040,
+          "end_time": 3630500,
+          "speaker": "Speaker 1",
+          "content": "Yeah, I agree with that, Curtis. And the content, yeah. But the problem is, is when we go to paid, because you're I mean, how can you even put guardrails on that? Because that's a\u2014it's just almost\u2014it just seems like it's almost impossible."
+        },
+        {
+          "start_time": 3631140,
+          "end_time": 3635060,
+          "speaker": "Lance",
+          "content": "I think at one point, paid is going to matter less and less. It's just going to keep mattering less."
+        },
+        {
+          "start_time": 3635780,
+          "end_time": 3636500,
+          "speaker": "Speaker 2",
+          "content": "I agree."
+        },
+        {
+          "start_time": 3636500,
+          "end_time": 3640420,
+          "speaker": "Speaker 3",
+          "content": "Yes. Okay. I agree. Okay. Yeah, because I agree."
+        },
+        {
+          "start_time": 3640580,
+          "end_time": 3671200,
+          "speaker": "Speaker 2",
+          "content": "Yeah, it'll be a cash grab for them to be able to to line their pockets with the you know the agents and the and the machines. But at the end of the day, it is going to matter less and less. What is going to matter? Long term, what customers will continue to give value to is your organic content, and that's where we go back to your paid content, your paid campaigns being cheaper and more efficient when you have more organic ranking and your organic is more authentic. It makes your paid campaigns cheaper."
+        },
+        {
+          "start_time": 3671360,
+          "end_time": 3678960,
+          "speaker": "Speaker 2",
+          "content": "That's really the only place where where the paid part is going to be of relevance is because you guys have so much organic content built in."
+        },
+        {
+          "start_time": 3679680,
+          "end_time": 3694190,
+          "speaker": "Lance",
+          "content": "Yep. Yeah, you just want to basically load. Load, load, all of your systems with as many answers as you can give AI. Yes, I think the key is going to be that it's also pretty, like also usable, also click-onable by the consumer."
+        },
+        {
+          "start_time": 3694190,
+          "end_time": 3698110,
+          "speaker": "Speaker 2",
+          "content": "Like it's a story; it tells a story. Exactly, exactly, Lance. It tells a story."
+        },
+        {
+          "start_time": 3699150,
+          "end_time": 3700030,
+          "speaker": "Speaker 2",
+          "content": "Yep. All right."
+        },
+        {
+          "start_time": 3700510,
+          "end_time": 3710190,
+          "speaker": "Speaker 3",
+          "content": "And when you look at things how they're how they are now, even organic is is falling way down because people don't have because of how people are searching; they don't have the right."
+        },
+        {
+          "start_time": 3710770,
+          "end_time": 3717570,
+          "speaker": "Speaker 3",
+          "content": "Stuff up right now, so organic search for BMW in general is down. It's it's across. It's all down. Yeah,"
+        },
+        {
+          "start_time": 3718690,
+          "end_time": 3723730,
+          "speaker": "Speaker 3",
+          "content": "But it's gonna change as people get more accustomed to what the stuff is that they need to put up."
+        },
+        {
+          "start_time": 3724610,
+          "end_time": 3725810,
+          "speaker": "Speaker 3",
+          "content": "Yeah, to get the organic."
+        },
+        {
+          "start_time": 3725810,
+          "end_time": 3726850,
+          "speaker": "Speaker 2",
+          "content": "We gotta keep going though, Chris."
+        },
+        {
+          "start_time": 3727570,
+          "end_time": 3733890,
+          "speaker": "Speaker 2",
+          "content": "Okay, sir. Yep, I know, I know. I appreciate it. Sorry, because I I don't want to I don't want to cut anything short for Brett. Um,"
+        },
+        {
+          "start_time": 3734770,
+          "end_time": 3743870,
+          "speaker": "Speaker 2",
+          "content": "So when we break out paid search specifically, talking about the paid search. We've been historically talking about Google and Bing. We're going to talk exclusively about Google going forward in the future."
+        },
+        {
+          "start_time": 3744430,
+          "end_time": 3772260,
+          "speaker": "Speaker 2",
+          "content": "Region on the left-hand side, Baton Rouge on the right-hand side. Twenty thousand key buying actions so far year to date in the market. Six dollars and eighty-six cents cost per key buying action versus the four sixty-one of the region. Four dollars and eighty cents cost per click versus the region's three forty-three. So y'all are are a little bit higher than us. But again, as we continue to evolve that tier alignment conversation between all of us,"
+        },
+        {
+          "start_time": 3773140,
+          "end_time": 3799130,
+          "speaker": "Speaker 2",
+          "content": "That's going to keep getting more efficient. But we also see that as being a bigger opportunity for us to invest more in the paid search arena to get more results from that, to have a bigger presence there because we are getting a good volume of actions out of that. So we're looking at proposing two hundred and ten thousand dollars going into paid search with Google exclusively. Next year, which would be a thirteen percent year-over-year increase."
+        },
+        {
+          "start_time": 3801050,
+          "end_time": 3805450,
+          "speaker": "Speaker 2",
+          "content": "Thoughts on that at surface level before we even get into the rest of it, or do you want to just look at the rest?"
+        },
+        {
+          "start_time": 3805450,
+          "end_time": 3808810,
+          "speaker": "Speaker 1",
+          "content": "Sounds good to me. Yep. Cool. Okay. Perfect."
+        },
+        {
+          "start_time": 3809130,
+          "end_time": 3820890,
+          "speaker": "Speaker 2",
+          "content": "All right. Paid social. So, same thing. Region the left, that region the right. Thirteen thousand key buying actions trailing behind paid search. There,"
+        },
+        {
+          "start_time": 3821610,
+          "end_time": 3826790,
+          "speaker": "Speaker 2",
+          "content": "Ten dollars and nine cents cost per key buying action. A good bit higher than the regional 621."
+        },
+        {
+          "start_time": 3827430,
+          "end_time": 3829270,
+          "speaker": "Speaker 2",
+          "content": "You guys are definitely on the higher end of this,"
+        },
+        {
+          "start_time": 3830150,
+          "end_time": 3860500,
+          "speaker": "Speaker 2",
+          "content": "So a little bit of a different story here. But on the cost per click side, we're looking at 370 for y'all versus 304 at the regional level for us. We do want to see a better presence here. We want to see some more exposure on the paid social front. This is where we see the most of the success from the region across the board. So the proposed budget here would be $200,000, which would be a 10% increase. Year over a year, the little bit of a pivot here. Though we have historically been just in meta with Facebook and Instagram,"
+        },
+        {
+          "start_time": 3860820,
+          "end_time": 3879300,
+          "speaker": "Speaker 2",
+          "content": "But what we're looking at is adding in a exclusive budget for TikTok throughout the year at a paid level. Again, that algorithm maintains being incredibly sticky and incredibly resourceful for driving really good quality traffic. We want to see that continue to evolve and keep seeing growth there."
+        },
+        {
+          "start_time": 3881300,
+          "end_time": 3898360,
+          "speaker": "Speaker 2",
+          "content": "Sounds good. Yep. Okay. Perfect. Jump into local video. All right, same thing here. Region on the left, y'all on the right. One hundred thirty thousand dollars in spend so far year to date. Ninety nine percent video completion rate. Look, it's non-skippable. Right? You got one percent turning us off."
+        },
+        {
+          "start_time": 3899160,
+          "end_time": 3906280,
+          "speaker": "Speaker 2",
+          "content": "Twenty eight thousand dollars in spend in online video. Eighty two percent video completion rate, on par with the region. There."
+        },
+        {
+          "start_time": 3907320,
+          "end_time": 3936860,
+          "speaker": "Speaker 2",
+          "content": "This one we want to. We're looking to pull this back a little bit. And go heavier in the paid search front. That's where you see that change going. So we're looking at a thirty thousand dollar budget here that we want to see. So that is a sixty five percent reduction year over year. Five percent coming out of online video. We really want to make sure that we are owning the search space here, and is kind of the approach and the strategy that that we're taking with this recommendation."
+        },
+        {
+          "start_time": 3937740,
+          "end_time": 3940300,
+          "speaker": "Speaker 3",
+          "content": "Only YouTube. That's it."
+        },
+        {
+          "start_time": 3940940,
+          "end_time": 3944070,
+          "speaker": "Speaker 3",
+          "content": "Yep. Thank you. Only you two. Got you."
+        },
+        {
+          "start_time": 3944550,
+          "end_time": 3946470,
+          "speaker": "Speaker 2",
+          "content": "I thought it was going to be just CNN."
+        },
+        {
+          "start_time": 3947830,
+          "end_time": 3950070,
+          "speaker": "Speaker 3",
+          "content": "Yeah. Oh man, you just ended the meeting early."
+        },
+        {
+          "start_time": 3950710,
+          "end_time": 3954230,
+          "speaker": "Speaker 1",
+          "content": "So hey, you want to throw out that you want to throw out the red meat? Guess what?"
+        },
+        {
+          "start_time": 3955030,
+          "end_time": 3960470,
+          "speaker": "Speaker 1",
+          "content": "This week I identify as a brown Democrat. Okay. What?"
+        },
+        {
+          "start_time": 3962710,
+          "end_time": 3969030,
+          "speaker": "Speaker 2",
+          "content": "I just got you started it, Curtis. I started it. I put a quarter in him. I did it. I did the thing. Okay."
+        },
+        {
+          "start_time": 3969270,
+          "end_time": 3971090,
+          "speaker": "Speaker 6",
+          "content": "Okay. Must be a new thing."
+        },
+        {
+          "start_time": 3971170,
+          "end_time": 3976930,
+          "speaker": "Speaker 1",
+          "content": "After the election, if you call me back, I tell you what I'm identifying as next week."
+        },
+        {
+          "start_time": 3977970,
+          "end_time": 3981650,
+          "speaker": "Speaker 1",
+          "content": "I might be identifying as a non-U. S."
+        },
+        {
+          "start_time": 3981650,
+          "end_time": 3982050,
+          "speaker": "Speaker 2",
+          "content": "Citizen."
+        },
+        {
+          "start_time": 3983330,
+          "end_time": 3985970,
+          "speaker": "Speaker 2",
+          "content": "Oh shit! All right."
+        },
+        {
+          "start_time": 3986610,
+          "end_time": 3987970,
+          "speaker": "Speaker 2",
+          "content": "YouTube only. Moving on."
+        },
+        {
+          "start_time": 3988050,
+          "end_time": 3988930,
+          "speaker": "Speaker 1",
+          "content": "All right, let's go."
+        },
+        {
+          "start_time": 3989970,
+          "end_time": 3990930,
+          "speaker": "Speaker 6",
+          "content": "Started that."
+        },
+        {
+          "start_time": 3990930,
+          "end_time": 3991650,
+          "speaker": "Speaker 2",
+          "content": "I did."
+        },
+        {
+          "start_time": 3991810,
+          "end_time": 3996290,
+          "speaker": "Speaker 1",
+          "content": "Oh yeah, look, I'm like a windup toy. He knows how to do it."
+        },
+        {
+          "start_time": 3998520,
+          "end_time": 3999000,
+          "speaker": "Speaker 1",
+          "content": "All right."
+        },
+        {
+          "start_time": 3999000,
+          "end_time": 4021720,
+          "speaker": "Speaker 2",
+          "content": "So, additional, additional. this going to be exclusive. So, what we had done historically is kind of lumped in a military campaign, a first responders campaign, into your social media. We want to break that out and show it separately. So, we're recommending a ten thousand dollar budget. That's a fifty percent increase year over year, specifically as it relates to military campaigns on the social front."
+        },
+        {
+          "start_time": 4022600,
+          "end_time": 4055130,
+          "speaker": "Speaker 2",
+          "content": "We want to target KBAs with military specific messaging, creative. And offers right now year to date, we're seeing six point five thousand key buying actions taking place. That's a good clip to be able to see that for y'all's market. That's pretty positive. It is more expensive because it's a very exclusive, small, highly targeted audience. So that fourteen dollars and twenty six cents cost for KBA at the volume y'all are getting, I expect that a little bit. But is a little bit higher. But is also higher across the region as well too."
+        },
+        {
+          "start_time": 4055550,
+          "end_time": 4066350,
+          "speaker": "Speaker 2",
+          "content": "When we look at it as cost per click perspective, as CPC, y'all are actually beating us at three dollars and ninety cents cost per click. But we are proposing a ten thousand dollar budget, a fifty percent increase year over year."
+        },
+        {
+          "start_time": 4067390,
+          "end_time": 4067710,
+          "speaker": "Speaker 2",
+          "content": "Perfect."
+        },
+        {
+          "start_time": 4068990,
+          "end_time": 4079070,
+          "speaker": "Speaker 2",
+          "content": "Cool. Good stuff. All right. Here's how that breaks out on the beautiful, newly revised flowchart that Chris put together for us. That colors everything out so much easier, and it's a lot better on the eyes."
+        },
+        {
+          "start_time": 4079630,
+          "end_time": 4081230,
+          "speaker": "Speaker 2",
+          "content": "But you still have to squint because I'm old."
+        },
+        {
+          "start_time": 4083290,
+          "end_time": 4099450,
+          "speaker": "Speaker 2",
+          "content": "So paid search and paid social across the top in that BMW certified component. As always, that remains Southern Region budget. We're paying for certified all year round for you guys for paid search and paid social to keep that on in the market. Y'all's budget down below. Digital video for online video,"
+        },
+        {
+          "start_time": 4100010,
+          "end_time": 4107850,
+          "speaker": "Speaker 2",
+          "content": "YouTube. Like Chris talked about, thirty thousand dollar budget for the year, always on. Meta, one hundred twenty thousand, eighty thousand for TikTok."
+        },
+        {
+          "start_time": 4108490,
+          "end_time": 4119470,
+          "speaker": "Speaker 2",
+          "content": "The military Meta campaigns that we just talked about, ten thousand dollars. And then two hundred ten thousand dollars in paid search is how we break out four hundred and fifty thousand dollars of media for twenty twenty seven."
+        },
+        {
+          "start_time": 4123630,
+          "end_time": 4125069,
+          "speaker": "Speaker 2",
+          "content": "Good, bad, and different thoughts."
+        },
+        {
+          "start_time": 4125149,
+          "end_time": 4131069,
+          "speaker": "Speaker 1",
+          "content": "Good. I mean, that's the recap of what we just talked about. So yeah, it looks it looks good. I like the I like the flow chart. I like the chart."
+        },
+        {
+          "start_time": 4132029,
+          "end_time": 4132590,
+          "speaker": "Speaker 1",
+          "content": "Are we going to?"
+        },
+        {
+          "start_time": 4132590,
+          "end_time": 4133630,
+          "speaker": "Speaker 2",
+          "content": "Oh, thank you, Brett."
+        },
+        {
+          "start_time": 4133790,
+          "end_time": 4135550,
+          "speaker": "Speaker 1",
+          "content": "Yeah, I can actually see it,"
+        },
+        {
+          "start_time": 4135550,
+          "end_time": 4135950,
+          "speaker": "Speaker 2",
+          "content": "Chris."
+        },
+        {
+          "start_time": 4136990,
+          "end_time": 4141550,
+          "speaker": "Speaker 2",
+          "content": "That's you know what? That's the only thing Chris did in this whole entire presentation was make that flow chart."
+        },
+        {
+          "start_time": 4141970,
+          "end_time": 4143090,
+          "speaker": "Speaker 1",
+          "content": "He made you look good. What?"
+        },
+        {
+          "start_time": 4143890,
+          "end_time": 4154450,
+          "speaker": "Speaker 2",
+          "content": "I'm kidding. It was a dumb joke. It was a joke. All right. Speaking of things that Chris has done for this meeting and this presentation, I will let him pick it back up here again."
+        },
+        {
+          "start_time": 4154450,
+          "end_time": 4185370,
+          "speaker": "Speaker 3",
+          "content": "All right. So, from the on the final actuality of what we had said, okay, we have to look at this target. So this is just what we were looking at for Baton Rouge specific from the national Tier One aspect of things, last touch attribution. What do we need to get?122, 000 visits,31, 000 key buying actions,87 leads. This plan, if I back into those numbers in this plan, this plan will deliver, over deliver on all of those aspects. So if National comes asking,"
+        },
+        {
+          "start_time": 4185370,
+          "end_time": 4192649,
+          "speaker": "Speaker 3",
+          "content": "Any, oh, what about this and this? Well, we just we put together a plan that actually delivers everything on a last touch attribution that's needed,"
+        },
+        {
+          "start_time": 4193450,
+          "end_time": 4195370,
+          "speaker": "Speaker 3",
+          "content": "And it's going to deliver on full funnel as well."
+        },
+        {
+          "start_time": 4199760,
+          "end_time": 4200880,
+          "speaker": "Lance",
+          "content": "Perfect. Makes sense."
+        },
+        {
+          "start_time": 4202000,
+          "end_time": 4205920,
+          "speaker": "Speaker 2",
+          "content": "Cool. All right, you need a break. Keep going. Keep going."
+        },
+        {
+          "start_time": 4206880,
+          "end_time": 4207600,
+          "speaker": "Speaker 2",
+          "content": "All right, we're cruising."
+        },
+        {
+          "start_time": 4208160,
+          "end_time": 4236680,
+          "speaker": "Speaker 2",
+          "content": "Let's take a look at creative, and we can cruise through this too. But we are about to jump into drive down hunger. Gosh, it's going to be November next week. We are going to do the drive down hunger for the entire month of November. We are going to donate collectively two hundred meals for every single BMW retail customer retail in the month of November. That is such a strong message. Those two hundred meals go to your local food banks. It's such a positive relationship, such a positive message. It's a really good community feel good to be able to get out there. Makes fantastic content."
+        },
+        {
+          "start_time": 4237320,
+          "end_time": 4238600,
+          "speaker": "Speaker 2",
+          "content": "This is the entire out."
+        },
+        {
+          "start_time": 4239160,
+          "end_time": 4244120,
+          "speaker": "Speaker 1",
+          "content": "One of the assets. This is. You will have the physical assets."
+        },
+        {
+          "start_time": 4244280,
+          "end_time": 4247560,
+          "speaker": "Speaker 2",
+          "content": "These right here in store by Sunday. Okay."
+        },
+        {
+          "start_time": 4248600,
+          "end_time": 4249480,
+          "speaker": "Speaker 2",
+          "content": "Be on the lookout."
+        },
+        {
+          "start_time": 4250040,
+          "end_time": 4259160,
+          "speaker": "Speaker 2",
+          "content": "Shanika did just send out, and and we we try to leverage Tara and the shift team to be able to get the tracking numbers out. Ah, we got the tracking numbers yesterday,"
+        },
+        {
+          "start_time": 4260040,
+          "end_time": 4282760,
+          "speaker": "Speaker 2",
+          "content": "So we should be able to get those to you before the weekend. So you've got them to be on the lookout to see where they're coming from, but they should be in store by Sunday. You've got the social media selfie board that says \"My BMW purchase helped provide 200 meals, guys.\" This is a big one.21 million meals. We have provided more than 21 million meals. We we thought we were going to hit 21 million this year. We actually passed it."
+        },
+        {
+          "start_time": 4283640,
+          "end_time": 4295440,
+          "speaker": "Speaker 2",
+          "content": "So that's such a positive message. You're gonna have the showroom door clings. You're gonna have window vehicle window clings, and then that fabric pillowcase banner that goes on the six foot tall, three foot wide metal frame. Like slide that right over top of that frame."
+        },
+        {
+          "start_time": 4295680,
+          "end_time": 4296800,
+          "speaker": "Speaker 1",
+          "content": "They're driving out."
+        },
+        {
+          "start_time": 4298480,
+          "end_time": 4301600,
+          "speaker": "Speaker 1",
+          "content": "We're actually having a side conversation real quick. Sorry about that, guys."
+        },
+        {
+          "start_time": 4302160,
+          "end_time": 4305200,
+          "speaker": "Speaker 2",
+          "content": "It's a no. Do you need I? No, no, no. Need a minute? You have questions?"
+        },
+        {
+          "start_time": 4305360,
+          "end_time": 4311760,
+          "speaker": "Speaker 1",
+          "content": "We have a TV loop in the dealership, and I was telling Lance that I want to start putting this stuff on the on the TV loop."
+        },
+        {
+          "start_time": 4312960,
+          "end_time": 4314720,
+          "speaker": "Speaker 2",
+          "content": "Perfect. I love that. Yeah."
+        },
+        {
+          "start_time": 4315600,
+          "end_time": 4325440,
+          "speaker": "Speaker 2",
+          "content": "So here are the digital assets that you can utilize. Obviously, look, we're featuring that Vancouver Green G sixty five X five beautiful vehicle. Next part of it, Road Home Sales."
+        },
+        {
+          "start_time": 4325440,
+          "end_time": 4326480,
+          "speaker": "Speaker 1",
+          "content": "Can you come back one?"
+        },
+        {
+          "start_time": 4326560,
+          "end_time": 4329440,
+          "speaker": "Lance",
+          "content": "Come back one. I want to grab a little screenshot, so I kind of got it."
+        },
+        {
+          "start_time": 4329520,
+          "end_time": 4330160,
+          "speaker": "Speaker 1",
+          "content": "All right, you're good."
+        },
+        {
+          "start_time": 4331760,
+          "end_time": 4338720,
+          "speaker": "Speaker 2",
+          "content": "Cool. All right, Road Home Sales Event November and December. This is the national level campaign. Got the X seven, the X three,"
+        },
+        {
+          "start_time": 4339600,
+          "end_time": 4341040,
+          "speaker": "Speaker 2",
+          "content": "And then the X one."
+        },
+        {
+          "start_time": 4342210,
+          "end_time": 4349810,
+          "speaker": "Speaker 2",
+          "content": "All right, glow of the season is bright, and for those who keep driving forward, so is the road ahead. Give you a sneak peek of what that spot's going to look like."
+        },
+        {
+          "start_time": 4373000,
+          "end_time": 4374920,
+          "speaker": "Speaker 2",
+          "content": "There's no road like the road home."
+        },
+        {
+          "start_time": 4376280,
+          "end_time": 4378760,
+          "speaker": "Speaker 2",
+          "content": "The BMW Road Home sales event is on now."
+        },
+        {
+          "start_time": 4381320,
+          "end_time": 4383160,
+          "speaker": "Lance",
+          "content": "What you think? Like it? Looks good."
+        },
+        {
+          "start_time": 4384200,
+          "end_time": 4384600,
+          "speaker": "Lance",
+          "content": "Cool."
+        },
+        {
+          "start_time": 4385240,
+          "end_time": 4401320,
+          "speaker": "Speaker 2",
+          "content": "Nice little emotional. Good. Good rolling shots. Look, conversion, consideration, awareness\u2014those buckets that we talked about earlier. How we target? We want to make sure that we've got the right message for each of them. So these are samples of those. I'm not going to make you watch them all the way through just because of time. But know that we have."
+        },
+        {
+          "start_time": 4402020,
+          "end_time": 4409220,
+          "speaker": "Speaker 2",
+          "content": "Digital social assets for each bucket with the X1, the X3, the 3 Series, and the X7 for each one of those categories."
+        },
+        {
+          "start_time": 4412820,
+          "end_time": 4420260,
+          "speaker": "Speaker 2",
+          "content": "This is the total toolkit that is available in BrandMaster. It is in there for you guys to download and start implementing your buildouts today."
+        },
+        {
+          "start_time": 4422100,
+          "end_time": 4430340,
+          "speaker": "Speaker 2",
+          "content": "On to the X5 launch. X5 is out right now. We were showing it to your customers last week. Here's the spot that is available for y'all to start utilizing."
+        },
+        {
+          "start_time": 4430610,
+          "end_time": 4431490,
+          "speaker": "Speaker 6",
+          "content": "You excited for the game?"
+        },
+        {
+          "start_time": 4431570,
+          "end_time": 4432690,
+          "speaker": "Speaker 1",
+          "content": "Yes, we're gonna win!"
+        },
+        {
+          "start_time": 4432930,
+          "end_time": 4433730,
+          "speaker": "Speaker 2",
+          "content": "Yes, you are!"
+        },
+        {
+          "start_time": 4440850,
+          "end_time": 4441330,
+          "speaker": "Speaker 2",
+          "content": "Come on, girls, let's go!"
+        },
+        {
+          "start_time": 4446770,
+          "end_time": 4452530,
+          "speaker": "Speaker 1",
+          "content": "Having fun back there?"
+        },
+        {
+          "start_time": 4452530,
+          "end_time": 4453810,
+          "speaker": "Speaker 2",
+          "content": "Yes."
+        },
+        {
+          "start_time": 4455410,
+          "end_time": 4457330,
+          "speaker": "Speaker 2",
+          "content": "Bring your all with the BMW X5."
+        },
+        {
+          "start_time": 4460350,
+          "end_time": 4465230,
+          "speaker": "Speaker 2",
+          "content": "What do you think? Nice. Looks good. Cool. All right, that's available for you to use."
+        },
+        {
+          "start_time": 4465870,
+          "end_time": 4476910,
+          "speaker": "Speaker 2",
+          "content": "All right, same thing here. You got those social examples that are all available, showing the features, the entertainment, the exterior, and the driving dynamics. So all this stuff. In the BMW X Five. BMW X Five."
+        },
+        {
+          "start_time": 4477550,
+          "end_time": 4483310,
+          "speaker": "Speaker 2",
+          "content": "No. Full toolkit here. This is all available in Brandmaster to go and download and start implementing for right now."
+        },
+        {
+          "start_time": 4484110,
+          "end_time": 4485550,
+          "speaker": "Speaker 2",
+          "content": "Seven Series campaign."
+        },
+        {
+          "start_time": 4486270,
+          "end_time": 4490950,
+          "speaker": "Speaker 2",
+          "content": "Here's the new Seven Series creative. Play this one for you. In a moment of calm,"
+        },
+        {
+          "start_time": 4492150,
+          "end_time": 4495750,
+          "speaker": "Speaker 2",
+          "content": "Dedication grows and builds."
+        },
+        {
+          "start_time": 4500390,
+          "end_time": 4504390,
+          "speaker": "Speaker 2",
+          "content": "Always seeking what comes next."
+        },
+        {
+          "start_time": 4506710,
+          "end_time": 4510070,
+          "speaker": "Speaker 2",
+          "content": "This belongs to those who never settle."
+        },
+        {
+          "start_time": 4510870,
+          "end_time": 4517510,
+          "speaker": "Speaker 2",
+          "content": "A tribute to dedication. Experience the BMW 7 Series today at your local BMW Center."
+        },
+        {
+          "start_time": 4519270,
+          "end_time": 4543510,
+          "speaker": "Speaker 2",
+          "content": "Notice that Consumer Reports tag again. Let this be my friendly soapbox reminder. Please utilize those accolades that are available in Brandmaster, where we can use a tag and and take advantage of those. Go in and download them. Make sure you're taking advantage of them. It's such a strong message to get that out there. Again, here are those social assets available, showing the executive lounge, showing the craftsmanship, and then the high-level awareness of the product."
+        },
+        {
+          "start_time": 4545160,
+          "end_time": 4548920,
+          "speaker": "Speaker 1",
+          "content": "Y'all make sure y'all get some more of those I sevens, man. I don't have enough of those."
+        },
+        {
+          "start_time": 4549800,
+          "end_time": 4554280,
+          "speaker": "Speaker 2",
+          "content": "You need some more I sevens, Tim. Brett said he needs more I sevens. You know what?"
+        },
+        {
+          "start_time": 4554280,
+          "end_time": 4561960,
+          "speaker": "Speaker 1",
+          "content": "I actually like the electric. I just when I when I only have three seven series in stock and they're all I sevens. That's ugh."
+        },
+        {
+          "start_time": 4563000,
+          "end_time": 4564920,
+          "speaker": "Speaker 1",
+          "content": "So, but we're getting it. Yeah, Tim did."
+        },
+        {
+          "start_time": 4565000,
+          "end_time": 4567400,
+          "speaker": "Speaker 2",
+          "content": "Well, you do so good. You do so good selling them."
+        },
+        {
+          "start_time": 4567400,
+          "end_time": 4568280,
+          "speaker": "Speaker 1",
+          "content": "I know. Yeah."
+        },
+        {
+          "start_time": 4569800,
+          "end_time": 4570440,
+          "speaker": "Speaker 1",
+          "content": "Thanks, Bill."
+        },
+        {
+          "start_time": 4570440,
+          "end_time": 4571080,
+          "speaker": "Speaker 2",
+          "content": "So here's that."
+        },
+        {
+          "start_time": 4571800,
+          "end_time": 4573400,
+          "speaker": "Speaker 2",
+          "content": "Here's that toolkit. What it looks like."
+        },
+        {
+          "start_time": 4573930,
+          "end_time": 4604120,
+          "speaker": "Speaker 2",
+          "content": "Everything that's in it is available now to go in and download and utilize. Man, now the IX3 toolkit. Gosh, I wish we had more new products to be able to launch right now. We have nothing to talk about at this moment. Zero, nothing. We just looked at what four new products and a sales campaign with a charitable donation. Yeah, IX3. Let's take a look at. I absolutely love this spot. So I'm going to lead the witness a little bit, but I think this is freaking fantastic. It could be any car, and I think this spot is great. At BMW,"
+        },
+        {
+          "start_time": 4604280,
+          "end_time": 4610200,
+          "speaker": "Speaker 2",
+          "content": "We didn't invent the car; we created a standard\u2014the ultimate driving machine."
+        },
+        {
+          "start_time": 4614280,
+          "end_time": 4614600,
+          "speaker": "Speaker 2",
+          "content": "Now,"
+        },
+        {
+          "start_time": 4616040,
+          "end_time": 4617080,
+          "speaker": "Speaker 2",
+          "content": "We've reinvented it,"
+        },
+        {
+          "start_time": 4620120,
+          "end_time": 4622680,
+          "speaker": "Speaker 2",
+          "content": "Introducing the next level of driving experience."
+        },
+        {
+          "start_time": 4627240,
+          "end_time": 4630200,
+          "speaker": "Speaker 2",
+          "content": "Welcome to a new era of BMW."
+        },
+        {
+          "start_time": 4635160,
+          "end_time": 4641000,
+          "speaker": "Speaker 1",
+          "content": "What do you think? I like it. I like it. Hey, real quick, real quick, just a little off the. Well, it's on the subject, but it's off."
+        },
+        {
+          "start_time": 4641720,
+          "end_time": 4644520,
+          "speaker": "Speaker 1",
+          "content": "We we're planning on doing a drive event for the X5."
+        },
+        {
+          "start_time": 4645240,
+          "end_time": 4661160,
+          "speaker": "Speaker 1",
+          "content": "What do I need to do? Because I'm not taking your word on getting my money back, Curtis. How do I how do I go about setting up the? Do I do I just put a proposed budget that I'm planning on spending so I get some money back on this?"
+        },
+        {
+          "start_time": 4662200,
+          "end_time": 4664440,
+          "speaker": "Speaker 1",
+          "content": "Into the yeah into the site."
+        },
+        {
+          "start_time": 4665310,
+          "end_time": 4669310,
+          "speaker": "Speaker 2",
+          "content": "Into the co-op portal, yes, sir. Yep, exactly. Okay,"
+        },
+        {
+          "start_time": 4670350,
+          "end_time": 4671470,
+          "speaker": "Speaker 2",
+          "content": "That's it. All right."
+        },
+        {
+          "start_time": 4672990,
+          "end_time": 4673230,
+          "speaker": "Speaker 2",
+          "content": "Cool."
+        },
+        {
+          "start_time": 4674270,
+          "end_time": 4674590,
+          "speaker": "Speaker 2",
+          "content": "All right."
+        },
+        {
+          "start_time": 4677070,
+          "end_time": 4705810,
+          "speaker": "Speaker 2",
+          "content": "There's the full overview. Look, the big thing about the IX three, and this is the important message, is make sure that we are demonstrating and showing the features. The technology is so different and so new right now, and it all really focuses around specifically the. The the features and how we launch with the IX3 because it's now in everything. It's in the seven series. It's in the X5, and it's going to be in everything else that we have. The I3 coming out. So make sure that we're we're leveraging the technology."
+        },
+        {
+          "start_time": 4706610,
+          "end_time": 4708290,
+          "speaker": "Speaker 2",
+          "content": "Now we're going to jump over into experiential."
+        },
+        {
+          "start_time": 4708930,
+          "end_time": 4725810,
+          "speaker": "Speaker 2",
+          "content": "I'm going to jump through a couple of these, but I have some key callouts here. Look, from an experiential standpoint, I think we found a groove in the southern region. We take advantage of our weather. We take advantage of our opportunities that we have throughout the year to be able to get into our communities and engage. Very intentionally,"
+        },
+        {
+          "start_time": 4726530,
+          "end_time": 4733170,
+          "speaker": "Speaker 2",
+          "content": "We have done 132 events in the last year with 497 event days,"
+        },
+        {
+          "start_time": 4733730,
+          "end_time": 4767100,
+          "speaker": "Speaker 2",
+          "content": "Which means we are activating multiple events every single weekend, every single week. We have multiple functions, multiple events going on with the hardest working team in the business. We have driven in the last year 42,795 leads from those events. Those leads are people that engage with us at an event\u2014a wine and food festival, a hockey game, a football game, college or professional basketball, a community event, an art fair\u2014and they have come in and they have looked at the product we've had,"
+        },
+        {
+          "start_time": 4767100,
+          "end_time": 4781550,
+          "speaker": "Speaker 2",
+          "content": "Spent time with our our product specialists and our brand ambassadors, filled out a form, got a premium item, checked a box\u2014not one but two boxes\u2014and said,\"I would like my local BMW dealer to reach out to me about product X, Yandor, and/or Z.\""
+        },
+        {
+          "start_time": 4782510,
+          "end_time": 4787950,
+          "speaker": "Speaker 2",
+          "content": "Forty, almost forty-three thousand times. So, look, when we talk about internet leads being down,"
+        },
+        {
+          "start_time": 4788670,
+          "end_time": 4820740,
+          "speaker": "Speaker 2",
+          "content": "We can drive all the traffic to a website in the world. We can lead the horse to the water, but we can't make them drink. We can't force them to submit a lead on a website. We cannot do that. Trust me, we're trying our butts off, and we're going to keep trying to do that. But what we have found a niche with doing is being able to do experiential activations in a community that have a meaningful impact, that are intentionally engaged, and do get customers really thinking about our brand. So much so that so far, year to date, we've had 1,683 retail sales conversions that have taken place."
+        },
+        {
+          "start_time": 4820900,
+          "end_time": 4856890,
+          "speaker": "Speaker 2",
+          "content": "Now that's on the low end right now because by the end of the year we're probably going to have about 4,500, which is our average rolling is 4,500 retail conversions out of those 43,000 leads. Because the call out that I'll make here is if you think about it, our experiential season for when we activate goes from the fall, September. To the spring in March is really when we're activating. So we're about two months into our experiential season. So we're really early in. So those forty three thousand leads still have about twelve have ten months to mature to be able to see some more retail conversions come in and see some more sales."
+        },
+        {
+          "start_time": 4856890,
+          "end_time": 4858970,
+          "speaker": "Speaker 2",
+          "content": "This is of course the full Southern region, right?"
+        },
+        {
+          "start_time": 4859770,
+          "end_time": 4864890,
+          "speaker": "Speaker 2",
+          "content": "But when it when we look at it at full scale, it really shows the scope of what's possible."
+        },
+        {
+          "start_time": 4865610,
+          "end_time": 4869050,
+          "speaker": "Speaker 2",
+          "content": "Now those sixteen hundred retail conversions, almost seventeen hundred conversions."
+        },
+        {
+          "start_time": 4869930,
+          "end_time": 4874330,
+          "speaker": "Speaker 2",
+          "content": "Forty-nine percent of those converted in less than ninety days."
+        },
+        {
+          "start_time": 4876170,
+          "end_time": 4888650,
+          "speaker": "Speaker 2",
+          "content": "I get a lot of flack and a lot of pushback about experiential marketing and the amount of money and effort we put into experiential marketing in the south. And then I show them stats like this,"
+        },
+        {
+          "start_time": 4889290,
+          "end_time": 4910490,
+          "speaker": "Speaker 2",
+          "content": "Because what they'll typically say is,\"Oh, it's a slow burn.\" People are just hand raisers in an event. They're they they're not going there to buy a car. No, they're not going there to buy a car. But we're inspiring the thought to buy one. We're collecting their information and we're intentionally targeting them throughout their buying cycle when they already are ready. They're ready to make a purchase. And oh, by the way, the ones that we are getting,"
+        },
+        {
+          "start_time": 4911050,
+          "end_time": 4917450,
+          "speaker": "Speaker 2",
+          "content": "We're getting them to convert within 90 days at 49%. That's massive."
+        },
+        {
+          "start_time": 4918650,
+          "end_time": 4924240,
+          "speaker": "Speaker 2",
+          "content": "And we're tracking them still for 12 months. To get the stragglers that are that actually are taking the average time,"
+        },
+        {
+          "start_time": 4925280,
+          "end_time": 4955560,
+          "speaker": "Speaker 2",
+          "content": "We're getting 62% of those leads are conquests.51% of the conversions, the retail sales, are conquests. First-time BMW buyers, guys. That's why we do experiential. We're trying to get that first-time buyer. We're trying to get in front of the people that hadn't really been thinking about BMW, and now they are because we were there and engaged with them in a community, and we gave them an experience like our track experience here. That's a can't-buy experience. So we're we're proud of the experiential numbers that we're putting up, and we want to keep doing that. Make sure we're there."
+        },
+        {
+          "start_time": 4955960,
+          "end_time": 4985940,
+          "speaker": "Speaker 2",
+          "content": "Talked about the competitive landscape and how it's evolving and how it's changing and getting more competitive. You talked about Lexus earlier on. Guess what? We're stealing two percent more conquest business from Toyota than we are from Lexus. We're getting to more Toyota customers before Lexus is on the conquest side. We actually have twenty six percent of our conquest conversions. Are coming from Toyota, Chevy, Honda, and Ford, more so than Audi, Mercedes, Lexus, and Tesla."
+        },
+        {
+          "start_time": 4987220,
+          "end_time": 4994660,
+          "speaker": "Speaker 2",
+          "content": "We see, of course, the opportunity, yes, to be able to make sure that we're maintaining core four market share leadership,"
+        },
+        {
+          "start_time": 4995700,
+          "end_time": 5002660,
+          "speaker": "Speaker 2",
+          "content": "But we also see the opportunity to get the low hanging fruit from the feeder brands, the volume brands of people that say,\"Hey, you know what?"
+        },
+        {
+          "start_time": 5003540,
+          "end_time": 5006700,
+          "speaker": "Speaker 2",
+          "content": "My Chevy truck is just as expensive as an X5.\""
+        },
+        {
+          "start_time": 5007300,
+          "end_time": 5024100,
+          "speaker": "Speaker 2",
+          "content": "Make my wife a lot happier if we had one of those, and they're trading in for it, and they're going for it. Hondas, that Honda Accord, it's getting pretty pricey. That Toyota Camry, they're pretty expensive these days. So we have an opportunity to pick off some low hanging fruit from some of these aspirational buyers and some of these feeder brands."
+        },
+        {
+          "start_time": 5024900,
+          "end_time": 5042610,
+          "speaker": "Speaker 2",
+          "content": "So we need to make sure that we are present with them, and we're acknowledging them because luxury is not is an exclusive closed club, is what it has been in the past. We're really trying to win over the next. Level of luxury buyer when we're engaging in the communities and we're going out, we're doing these types of experiential activations and events."
+        },
+        {
+          "start_time": 5043410,
+          "end_time": 5046050,
+          "speaker": "Speaker 2",
+          "content": "The landscape, while it is changing a little bit,"
+        },
+        {
+          "start_time": 5046930,
+          "end_time": 5078630,
+          "speaker": "Speaker 2",
+          "content": "It's a little bit of the same still. Fifty-three percent are considering three or more brands while they're doing research. If you you know you heard me, you know earlier on we were talking about that journey not being exactly linear anymore. They're not going from A to Z. You know they're still bouncing around. AI is giving them a lot of information. It's helping them discover other brands and other models. So they're still considering three or more brands while they're doing their research. Sixty-six percent are flexible on make and model. Seventy percent switch brands when they're replacing their product."
+        },
+        {
+          "start_time": 5078950,
+          "end_time": 5083910,
+          "speaker": "Speaker 2",
+          "content": "Loyalty doesn't exist anymore. Not like it used to. We got to fight harder for it."
+        },
+        {
+          "start_time": 5084470,
+          "end_time": 5104090,
+          "speaker": "Speaker 2",
+          "content": "Eighty-three percent prefer more shopping from home. They want to do the research because it's easier to do the research now and get all the answers and feel confident. But guess what? Remember when I said 81% still need to feel the wheel and drive the car because they love that part of it.86% they still need to see the vehicle in person before they make that final decision."
+        },
+        {
+          "start_time": 5105370,
+          "end_time": 5124110,
+          "speaker": "Speaker 2",
+          "content": "They still want to come into the dealership. We're seeing that they're still going to two dealerships in the buying process. Remember, it used to be like four and a half, five dealerships they'd go into. On you know, it became the Saturday thing. You know, a long time ago, where they'd spend the whole day going from dealership to dealership to dealership. They're still going to two dealerships that that has shown us,"
+        },
+        {
+          "start_time": 5125230,
+          "end_time": 5154090,
+          "speaker": "Speaker 2",
+          "content": "But they're doing all of the research and the shopping online at eighty three percent. So just some considerations and why again speaking to why we want to go into the market, we want to be actively engaged in front of the consumers. We want to host them here at the performance center so that we can make them feel special, so that we can remove this from being a component. And then when we do go in and we meet those people that hadn't considered us before, we're showing them something a little bit special, a little bit extra. And we're gaining that trust from them earlier on."
+        },
+        {
+          "start_time": 5155930,
+          "end_time": 5161290,
+          "speaker": "Speaker 2",
+          "content": "So when we look at our overall budget, and this the last slide, we are on with this perfect timing."
+        },
+        {
+          "start_time": 5162090,
+          "end_time": 5171450,
+          "speaker": "Speaker 2",
+          "content": "Experiential budget seventy nine thousand nine sixty eight. Track event cost you sixty grand every single year. I presume you want to keep that going,"
+        },
+        {
+          "start_time": 5172250,
+          "end_time": 5184090,
+          "speaker": "Speaker 2",
+          "content": "Which leaves us a little bit of a buffer of money that if we wanted to do something else with, or if we wanted to roll that into media, we can do exactly that. But I presume y'all would like to keep doing the track event. Yes."
+        },
+        {
+          "start_time": 5185050,
+          "end_time": 5204090,
+          "speaker": "Speaker 2",
+          "content": "Okay. So this is a pretty easy conversation then. Like I said, we've got a little bit of buffer in there that if you had something else, like you were talking about doing that driving event, maybe that's a way that we could look at funding that, just you know, help reimburse that and walk through what that process might look like for you know for that type of event that you want to do. But that that's it."
+        },
+        {
+          "start_time": 5204810,
+          "end_time": 5211230,
+          "speaker": "Speaker 2",
+          "content": "This this what we have for you guys. I know you're on a tight window, and we got you in with three minutes to spare here right now."
+        },
+        {
+          "start_time": 5211630,
+          "end_time": 5218910,
+          "speaker": "Speaker 1",
+          "content": "Well, I got to go across. I got to go across town, so it doesn't matter, anyways, Curtis. You know, I was I was planning on staying until two if I had to."
+        },
+        {
+          "start_time": 5219070,
+          "end_time": 5220910,
+          "speaker": "Speaker 2",
+          "content": "Okay. Do you?"
+        },
+        {
+          "start_time": 5222110,
+          "end_time": 5227710,
+          "speaker": "Speaker 2",
+          "content": "It is there? Well, you got us. So you know, you've got me, Chris, Shanika,"
+        },
+        {
+          "start_time": 5228350,
+          "end_time": 5243020,
+          "speaker": "Speaker 2",
+          "content": "Jen. Yeah, you got Terry. You got the team all here, Bill. Together. Is there anything we didn't talk about yet that you want to talk about? Any questions y'all had lined up for us that that you wanted to bring to us? You've got our full attention, and you got us all here."
+        },
+        {
+          "start_time": 5243980,
+          "end_time": 5245820,
+          "speaker": "Speaker 1",
+          "content": "No, I think I'm good. I mean,"
+        },
+        {
+          "start_time": 5247340,
+          "end_time": 5248220,
+          "speaker": "Speaker 1",
+          "content": "I think I'm good."
+        },
+        {
+          "start_time": 5248860,
+          "end_time": 5259020,
+          "speaker": "Speaker 1",
+          "content": "I mean, I don't, I don't really. I mean, y'all touched everything, so it's pretty straightforward what the plan is. So it didn't matter if I agreed or disagreed. We were going to go that route anyway. So."
+        },
+        {
+          "start_time": 5260140,
+          "end_time": 5262540,
+          "speaker": "Speaker 2",
+          "content": "No, no, and I never wanted to be like that either."
+        },
+        {
+          "start_time": 5263550,
+          "end_time": 5273470,
+          "speaker": "Speaker 2",
+          "content": "No, yeah, I never once feel like that. This is a partnership, and with you, I would say more so than a lot of places. And we, I think, the team, we all appreciate that."
+        },
+        {
+          "start_time": 5274350,
+          "end_time": 5280990,
+          "speaker": "Speaker 2",
+          "content": "Thank you. We love catching up with you and being able to talk through this stuff because you you do give us honest feedback, and we value that. We really do."
+        },
+        {
+          "start_time": 5281790,
+          "end_time": 5283470,
+          "speaker": "Speaker 1",
+          "content": "One more question, Tara?"
+        },
+        {
+          "start_time": 5284030,
+          "end_time": 5289230,
+          "speaker": "Speaker 1",
+          "content": "Are you up north? Because I saw you with a a cover. Can you show us that cover, please?"
+        },
+        {
+          "start_time": 5290670,
+          "end_time": 5291150,
+          "speaker": "Speaker 1",
+          "content": "You must be."
+        },
+        {
+          "start_time": 5291150,
+          "end_time": 5292030,
+          "speaker": "Speaker 2",
+          "content": "Are you talking about?"
+        },
+        {
+          "start_time": 5292660,
+          "end_time": 5294100,
+          "speaker": "Speaker 1",
+          "content": "Yeah, are you talking about this?"
+        },
+        {
+          "start_time": 5294420,
+          "end_time": 5296020,
+          "speaker": "Speaker 2",
+          "content": "It's a it's a shawl."
+        },
+        {
+          "start_time": 5296180,
+          "end_time": 5298980,
+          "speaker": "Speaker 1",
+          "content": "I'm I'm in a I'm in a conference room."
+        },
+        {
+          "start_time": 5299620,
+          "end_time": 5305140,
+          "speaker": "Speaker 1",
+          "content": "Okay, thought you were at the house. I'm in a conference room, and it's freezing in here,"
+        },
+        {
+          "start_time": 5305140,
+          "end_time": 5306180,
+          "speaker": "Speaker 2",
+          "content": "So I have my shawl."
+        },
+        {
+          "start_time": 5306260,
+          "end_time": 5319940,
+          "speaker": "Speaker 1",
+          "content": "No, I'm glad that we got this done early too, so it's you know give a good plan of what moving forward, and you know I think the product's phenomenal. I mean, it really is as far as the the type of product."
+        },
+        {
+          "start_time": 5320500,
+          "end_time": 5337140,
+          "speaker": "Speaker 1",
+          "content": "Going back to, and I know I just sometimes I talk just to hear myself talk, but y'all need BMW needs to focus because they're going after those the low hanging fruit and those Toyota Ford those different buyers."
+        },
+        {
+          "start_time": 5338180,
+          "end_time": 5360370,
+          "speaker": "Speaker 1",
+          "content": "Those buyers expect different than what a Mercedes Audi and BMW buyer expects. Because when you own, when you've been a buyer of a European car, you understand the cost factor and that you're going to have problems. It's all about performance. Performance can get you to the, to the dance, but it can't keep you in the dance."
+        },
+        {
+          "start_time": 5360930,
+          "end_time": 5392460,
+          "speaker": "Speaker 1",
+          "content": "And BMW needs to be aware of that because it's just like us getting these customers. It's whether we can keep the customers. We made a lot of mistakes during COVID, and I identify with that. Hopefully, BMW, because I know BMW wants to be number one and. You know they're pushing this and that, but you know if they're looking for the the big picture, they need to make sure that they pay attention to these customers and not just GK customers because a lot of those customers are not GK customers."
+        },
+        {
+          "start_time": 5392780,
+          "end_time": 5413620,
+          "speaker": "Speaker 1",
+          "content": "You know they're X5 customers that look at a Highlander and say it's almost the same price and they would rather have the BMW badge, but can we keep those customers? That's where the question is. So it's just to take away from this whole thing, and I know y'all are the southern region. It doesn't really, I mean, but y'all do have a lot of contact with, you know,"
+        },
+        {
+          "start_time": 5414500,
+          "end_time": 5418660,
+          "speaker": "Speaker 1",
+          "content": "You know. I mean, on my NADA survey, I mean, I, I, ever,"
+        },
+        {
+          "start_time": 5419940,
+          "end_time": 5422180,
+          "speaker": "Speaker 1",
+          "content": "This time more than all than any,"
+        },
+        {
+          "start_time": 5422900,
+          "end_time": 5451670,
+          "speaker": "Speaker 1",
+          "content": "I talked about the reliability of the product. When you're six and seven years into a generation, you should not have the problems that we're having with a lot of these cars. And this is just me. It's not me bitching about the brand. It's just you know, I mean, it's it. We've got to you know BMW. Sometimes I know they want to be the first to market, the first of this, the first of that. But you know, it's just like this head unit. What kind of you know? Luckily, this guy has been buying BMWs. He's used to cars breaking down, right?"
+        },
+        {
+          "start_time": 5452230,
+          "end_time": 5462550,
+          "speaker": "Speaker 1",
+          "content": "But what if that was? I mean, I'm serious, and I'm not making. I mean, I am making a joke, but I'm not. You know, to that to that Toyota buyer that's been driving that car without it going to the shop for."
+        },
+        {
+          "start_time": 5463520,
+          "end_time": 5464560,
+          "speaker": "Speaker 1",
+          "content": "Seven years,"
+        },
+        {
+          "start_time": 5465280,
+          "end_time": 5476240,
+          "speaker": "Speaker 1",
+          "content": "That's something you gotta you gotta pay attention. That's why we're fighting with Lexus here, you know, is because they've seen that they've seen that, and so that's that's it. I mean, I'm getting long winded."
+        },
+        {
+          "start_time": 5476800,
+          "end_time": 5477920,
+          "speaker": "Speaker 1",
+          "content": "Jen, are you still on?"
+        },
+        {
+          "start_time": 5480080,
+          "end_time": 5481040,
+          "speaker": "Speaker 4",
+          "content": "Yes, I'm still on."
+        },
+        {
+          "start_time": 5481120,
+          "end_time": 5486080,
+          "speaker": "Speaker 1",
+          "content": "Hey, and one more thing, if if we can for my group, can or y'all,"
+        },
+        {
+          "start_time": 5487040,
+          "end_time": 5488560,
+          "speaker": "Speaker 1",
+          "content": "Can we do um,"
+        },
+        {
+          "start_time": 5489440,
+          "end_time": 5493520,
+          "speaker": "Speaker 1",
+          "content": "Like the AC Marriott next year if you can? Because I like,"
+        },
+        {
+          "start_time": 5494320,
+          "end_time": 5507600,
+          "speaker": "Speaker 1",
+          "content": "You know, a lot of my customers, my lot of my guests wanted to go down to the river, and they were a few blocks off, and it's just nice to be right there on the river if if we could one of those places, even if it's not the AC. But yeah,"
+        },
+        {
+          "start_time": 5507600,
+          "end_time": 5529380,
+          "speaker": "Speaker 4",
+          "content": "And let me ask you this, Brett: Do you want a spring or fall? And the only reason I ask is because we are getting a new JW. I have two questions for you: Do you want a spring or a fall? And then Do you want? We are getting a new JW Marriott, which I believe is supposed to come in 27, which is going to be on the river. And if you wanted to do a smaller, like just your group only, we could do a smaller,"
+        },
+        {
+          "start_time": 5530180,
+          "end_time": 5541300,
+          "speaker": "Speaker 4",
+          "content": "You know, not be paired with other people. We could look to do a smaller group and possibly look there, depending on rates. We have no idea what the rates are going to be, but with it being a new hotel, it is going to be right on the river and one of the higher end."
+        },
+        {
+          "start_time": 5541590,
+          "end_time": 5558150,
+          "speaker": "Speaker 1",
+          "content": "I would love to do that if it's in the budget. But if not, okay, you know I can do it with multiple groups because I mean I don't mind being with the the groups and you know I think the AC Marriott, in my opinion, is the nicest hotel downtown for the money. Agreed. Yeah. Yeah."
+        },
+        {
+          "start_time": 5558390,
+          "end_time": 5562070,
+          "speaker": "Speaker 4",
+          "content": "Okay. And are you good with fall still?"
+        },
+        {
+          "start_time": 5562070,
+          "end_time": 5567670,
+          "speaker": "Speaker 1",
+          "content": "Yeah, I thought this time of year was great. I mean, it was a really really good. The weather was was great."
+        },
+        {
+          "start_time": 5568630,
+          "end_time": 5576300,
+          "speaker": "Speaker 4",
+          "content": "Okay. Perfect. Well, we will as long as we don't put you with New Orleans. I know I remember that, so we'll make sure if we group if we group you up, we'll group you with the right people."
+        },
+        {
+          "start_time": 5576380,
+          "end_time": 5586780,
+          "speaker": "Speaker 1",
+          "content": "I don't have to worry about the crooks over there in Gulfport because I don't think they're a Mako yet, right? As many cars are selling, they might qualify for being a Mako, but I would not allow it to happen. Yeah."
+        },
+        {
+          "start_time": 5588460,
+          "end_time": 5589180,
+          "speaker": "Speaker 3",
+          "content": "Oh, thank you."
+        },
+        {
+          "start_time": 5590620,
+          "end_time": 5595180,
+          "speaker": "Speaker 1",
+          "content": "That. All right, guys, y'all done with us?"
+        },
+        {
+          "start_time": 5595980,
+          "end_time": 5616030,
+          "speaker": "Speaker 2",
+          "content": "We are Lance. Brett, we we really do appreciate you guys very much. So, Brett, it was great to see you last week. Yeah, appreciate y'all much. You know how to get a hold of us. Don't be shy. I know you're never you never are, but just reminding y'all, don't be shy about reaching out. When something comes up, you have an issue, you want to talk through something, something good's going on, you want us to be a part of, let us know."
+        },
+        {
+          "start_time": 5616110,
+          "end_time": 5625070,
+          "speaker": "Speaker 1",
+          "content": "Hey, one more thing. Hold on, hold on, hold on, on a drive event, do you does that come to you for approval or does that stay at national? I mean, do."
+        },
+        {
+          "start_time": 5625590,
+          "end_time": 5628230,
+          "speaker": "Speaker 1",
+          "content": "Should I expect to have pushback on that, or does?"
+        },
+        {
+          "start_time": 5629110,
+          "end_time": 5639830,
+          "speaker": "Speaker 2",
+          "content": "I wouldn't anticipate pushback. It will go through the national\u2014I don't want to say automated system because it's not automated. It will go through the national system first. If there are questions,"
+        },
+        {
+          "start_time": 5640550,
+          "end_time": 5655110,
+          "speaker": "Speaker 2",
+          "content": "They will come to me directly. Okay. Fair enough. On it on a manual process. Okay. So you could even in that preapproval, you can even put that you did discuss it with me. That way, if they do have questions, they just speed it up and come straight to me with it. Fair enough. Thank you, man."
+        },
+        {
+          "start_time": 5656090,
+          "end_time": 5662330,
+          "speaker": "Speaker 2",
+          "content": "Yep. No problem, y'all. Appreciate you very much. Bye. Thanks, guys. Good afternoon. Good afternoon. Bye. Bye."
+        }
+      ]
     }
   ]
 }

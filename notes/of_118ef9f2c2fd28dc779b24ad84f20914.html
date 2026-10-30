@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Floor · AMG convertible in-and-out trade valuation</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500&family=IBM+Plex+Mono:wght@400;500&family=Source+Sans+3:wght@400;600;700&display=swap">
+  <style>
+:root {
+  --bg: #090908;
+  --bg-2: #11110f;
+  --bg-3: #181714;
+  --ink: #f0eadc;
+  --muted: #8d8778;
+  --faint: #5c574c;
+  --line: #26241e;
+  --accent: #c4452d;
+  --mustard: #c4a35a;
+  --blue: #6f8fbf;
+  --ok: #7d9a6d;
+  --serif: "Fraunces", "Iowan Old Style", Georgia, serif;
+  --sans: "Source Sans 3", "Source Sans Pro", -apple-system, sans-serif;
+  --mono: "IBM Plex Mono", ui-monospace, monospace;
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html, body { background: var(--bg); color: var(--ink); }
+body {
+  font-family: var(--sans);
+  min-height: 100vh;
+  text-wrap: pretty;
+}
+a { color: inherit; }
+.shell { display: grid; grid-template-columns: 260px 1fr; min-height: 100vh; }
+.rail {
+  border-right: 1px solid var(--line);
+  padding: 28px 18px 40px;
+  background: var(--bg-2);
+  position: sticky; top: 0; height: 100vh; overflow: auto;
+}
+.mark {
+  font-family: var(--serif);
+  font-weight: 500;
+  font-size: 13px;
+  letter-spacing: .18em;
+  text-transform: uppercase;
+  color: var(--accent);
+}
+.rail h1 {
+  font-family: var(--serif);
+  font-size: 28px;
+  font-weight: 460;
+  letter-spacing: -.03em;
+  margin: 10px 0 6px;
+}
+.rail .lede { color: var(--muted); font-size: 13.5px; line-height: 1.45; margin-bottom: 28px; }
+.vnav { display: flex; flex-direction: column; gap: 4px; }
+.vnav a {
+  display: flex; justify-content: space-between; align-items: baseline;
+  text-decoration: none; padding: 9px 10px; border-radius: 8px;
+  color: var(--ink); font-size: 14px;
+}
+.vnav a:hover, .vnav a.is-on { background: var(--bg-3); }
+.vnav a.is-on { box-shadow: inset 2px 0 0 var(--accent); }
+.vnav .count { color: var(--faint); font-family: var(--mono); font-size: 11px; }
+.stage { padding: 36px 40px 80px; max-width: 980px; }
+.kicker {
+  font-size: 11px; letter-spacing: .16em; text-transform: uppercase;
+  color: var(--accent); font-weight: 700; margin-bottom: 8px;
+}
+.stage > h2 {
+  font-family: var(--serif); font-weight: 460; font-size: 34px;
+  letter-spacing: -.03em; margin-bottom: 8px;
+}
+.blurb { color: var(--muted); margin-bottom: 28px; max-width: 46rem; }
+.empty {
+  border: 1px dashed var(--line); border-radius: 14px;
+  padding: 36px 28px; color: var(--muted); background: var(--bg-2);
+}
+.empty strong { color: var(--ink); font-weight: 600; }
+.cards { display: flex; flex-direction: column; gap: 10px; }
+.card {
+  display: grid; grid-template-columns: 1fr auto; gap: 12px;
+  text-decoration: none; padding: 16px 18px; border-radius: 12px;
+  background: var(--bg-2); border: 1px solid var(--line);
+}
+.card:hover { border-color: #3a372e; background: var(--bg-3); }
+.card h3 { font-size: 16px; font-weight: 600; margin-bottom: 4px; }
+.meta { color: var(--muted); font-size: 13px; display: flex; gap: 10px; flex-wrap: wrap; }
+.chip {
+  font-family: var(--mono); font-size: 10px; letter-spacing: .06em;
+  text-transform: uppercase; padding: 3px 7px; border-radius: 999px;
+  border: 1px solid var(--line); color: var(--muted); height: fit-content;
+}
+.chip.dealers { color: var(--blue); border-color: #2a3344; }
+.chip.avec-tous { color: var(--mustard); border-color: #3a3320; }
+.chip.personal { color: #c9a7a0; }
+.chip.ideas { color: var(--ok); }
+.note-top { margin-bottom: 22px; }
+.note-top h2 { font-family: var(--serif); font-size: 36px; font-weight: 460; letter-spacing: -.03em; }
+.tabs { display: flex; gap: 6px; margin: 22px 0 18px; border-bottom: 1px solid var(--line); }
+.tabs button {
+  appearance: none; background: none; border: 0; color: var(--muted);
+  font: 600 13px var(--sans); padding: 10px 12px; cursor: pointer;
+  border-bottom: 2px solid transparent; margin-bottom: -1px;
+}
+.tabs button[aria-selected="true"] { color: var(--ink); border-bottom-color: var(--accent); }
+.panel { display: none; }
+.panel.is-on { display: block; }
+.prose { font-size: 16.5px; line-height: 1.6; max-width: 42rem; }
+.prose h2, .prose h3 { font-family: var(--serif); font-weight: 500; margin: 1.3em 0 .4em; }
+.prose p { margin: 0 0 .8em; }
+.prose ul, .prose ol { margin: 0 0 1em 1.2em; }
+.prose li { margin: .25em 0; }
+.hl { border-left: 2px solid var(--accent); padding: 10px 0 10px 14px; margin: 0 0 14px; }
+.hl .t { font-family: var(--mono); font-size: 11px; color: var(--faint); }
+.hl h4 { font-size: 15px; margin: 4px 0; }
+.hl p { color: var(--muted); font-size: 14.5px; }
+.seg { display: grid; grid-template-columns: 64px 1fr; gap: 12px; padding: 8px 0; border-bottom: 1px solid var(--line); }
+.seg .ts { font-family: var(--mono); font-size: 11px; color: var(--faint); padding-top: 3px; }
+.back { color: var(--muted); text-decoration: none; font-size: 13px; display: inline-block; margin-bottom: 18px; }
+.back:hover { color: var(--ink); }
+footer { margin-top: 48px; color: var(--faint); font-size: 11px; font-family: var(--mono); }
+@media (max-width: 820px) {
+  .shell { grid-template-columns: 1fr; }
+  .rail { position: relative; height: auto; border-right: 0; border-bottom: 1px solid var(--line); }
+  .stage { padding: 24px 18px 64px; }
+  .note-top h2 { font-size: 28px; }
+}
+</style>
+</head>
+<body>
+<div class="shell">
+<aside class="rail">
+  <div class="mark">Cooperative</div>
+  <h1>Field desk</h1>
+  <p class="lede">Plaud landings. Summary, highlights, transcript — filed by life area.</p>
+  <nav class="vnav"><a href="../index.html" class="">All <span class="count">128</span></a><a class="" href="../vertical-inbox.html">Inbox <span class="count">1</span></a><a class="" href="../vertical-personal.html">Personal <span class="count">10</span></a><a class="" href="../vertical-coop-marketing.html">Coop Marketing <span class="count">6</span></a><a class="" href="../vertical-coop-dev.html">Coop Dev <span class="count">17</span></a><a class="" href="../vertical-avec-tous.html">Avec Tous <span class="count">0</span></a><a class="is-on" href="../vertical-dealers.html">Dealers <span class="count">87</span></a><a class="" href="../vertical-ideas.html">Ideas <span class="count">7</span></a></nav>
+</aside>
+<main class="stage">
+  <a class="back" href="../index.html">← Desk</a>
+  <div class="note-top">
+    <div class="kicker">dealers · 2026-10-29 · 5m45s</div>
+    <h2>Floor · AMG convertible in-and-out trade valuation</h2>
+    <div class="meta" style="margin-top:8px"><span>id of_118ef9f2c2fd28dc779b24ad84f20914</span><span>AMG trade / floor desk valuation dispute</span></div>
+  </div>
+  <div class="tabs" role="tablist">
+    <button type="button" data-panel="sum" aria-selected="true">Summary</button>
+    <button type="button" data-panel="hl" aria-selected="false">Highlights</button>
+    <button type="button" data-panel="tx" aria-selected="false">Transcript</button>
+  </div>
+  <section id="sum" class="panel is-on prose"><h2>Takeaway</h2>
+<p>Floor desk on an <strong>AMG convertible in-and-out</strong> trade. Trade value debate <strong>$12k vs $15k</strong>; buyer funding unclear until check/insurance clears.</p>
+<h2>Notes</h2>
+<h3>Vehicle Transaction Discussion</h3>
+<ul>
+<li><strong>Deal Context &amp; Parties:</strong> in-and-out involving AMG Mercedes convertible trade-in. Kyle working buyer; Michelle said buyer works for her husband Jeff.</li>
+<li><strong>Valuation &amp; Payment:</strong> $15k check claimed vs ~$12k trade value; Jason message that check/insurance should clear today or tomorrow. Buyer planned to purchase at trade value then trade later after insurance clears.</li>
+<li><strong>Concern:</strong> paying $15k for a $12k car puts buyer underwater (~$17k in six weeks) plus tax.</li>
+</ul>
+<h2>Ada vs Lance</h2>
+<p><strong>Park.</strong> No Coop build.</p></section>
+  <section id="hl" class="panel"><div class='empty'>No device highlights on this take.</div></section>
+  <section id="tx" class="panel"><div class="seg"><div class="ts">0:01</div><div>J. H. E. B. E. R. T.</div></div><div class="seg"><div class="ts">0:08</div><div>So when I went and I looked at,</div></div><div class="seg"><div class="ts">0:10</div><div>I&#x27;m sorry, I don&#x27;t think the deal is coming at two to capture.</div></div><div class="seg"><div class="ts">0:16</div><div>Okay, but everything else is loaded. So, all right, she&#x27;ll be here in one minute.</div></div><div class="seg"><div class="ts">0:21</div><div>Yeah, it&#x27;s actually in and out.</div></div><div class="seg"><div class="ts">0:22</div><div>Forgot about that. What&#x27;s the in and out?</div></div><div class="seg"><div class="ts">0:24</div><div>So the trade is one of the other guys coming to buy the trade.</div></div><div class="seg"><div class="ts">0:28</div><div>Yeah, but the guy doesn&#x27;t have the money.</div></div><div class="seg"><div class="ts">0:30</div><div>No, he doesn&#x27;t,</div></div><div class="seg"><div class="ts">0:31</div><div>Because he&#x27;s trying to buy a car from us.</div></div><div class="seg"><div class="ts">0:34</div><div>Yeah, he does not have the money yet.</div></div><div class="seg"><div class="ts">0:37</div><div>Yeah, he has a check for fifteen grand.</div></div><div class="seg"><div class="ts">0:38</div><div>He does not. I talked to Kyle about this. You might want to talk to Kyle. The guy is buying a car from Kyle.</div></div><div class="seg"><div class="ts">0:45</div><div>He&#x27;s buying either this or X One, and he wants to trade that car on the X One. I say this is fucking stupid.</div></div><div class="seg"><div class="ts">0:54</div><div>Yes.</div></div><div class="seg"><div class="ts">0:54</div><div>Kyle&#x27;s involved in my deal. No,</div></div><div class="seg"><div class="ts">0:57</div><div>Kyle is working the deal on the guy buying the In and Out.</div></div><div class="seg"><div class="ts">1:00</div><div>And they just so happen to know each other.</div></div><div class="seg"><div class="ts">1:03</div><div>So my guys want to buy a vehicle, traded in.</div></div><div class="seg"><div class="ts">1:06</div><div>In and out.</div></div><div class="seg"><div class="ts">1:07</div><div>Is it another in and out?</div></div><div class="seg"><div class="ts">1:09</div><div>I&#x27;m not. Red. He knows Red Goose is. They&#x27;re friends.</div></div><div class="seg"><div class="ts">1:13</div><div>He had a wreck two weeks ago. Red Goose say, &quot;Here, you can use my car because I&#x27;m getting rid of it.&quot; He&#x27;s like, &quot;Okay, I&#x27;ll buy it.</div></div><div class="seg"><div class="ts">1:22</div><div>&quot; Well, after he agreed to buy it, he already come in, Kyle. He already started working a deal with us to work on what&#x27;s his next call gonna be. Well, we have the right call, and I told him I&#x27;d help him on the interest rate. But he&#x27;s got to act faster, sooner than later.</div></div><div class="seg"><div class="ts">1:36</div><div>So we&#x27;re talking about the guy that&#x27;s talking about doing it in and out.</div></div><div class="seg"><div class="ts">1:41</div><div>Yeah,</div></div><div class="seg"><div class="ts">1:43</div><div>That&#x27;s what I&#x27;m telling you. Yeah. So we&#x27;ve been working this guy.</div></div><div class="seg"><div class="ts">1:45</div><div>Mercedes convertible? No, the Mercedes AMG.</div></div><div class="seg"><div class="ts">1:54</div><div>That is Mr.</div></div><div class="seg"><div class="ts">1:55</div><div>Where goose is called?</div></div><div class="seg"><div class="ts">1:57</div><div>He&#x27;s friends with him.</div></div><div class="seg"><div class="ts">1:59</div><div>And so what his plan was was to have Mister whatever the trade value was, he was just going to buy it from Ringusa and then trade it in later when Ringusa asked for fifteen grand for it.</div></div><div class="seg"><div class="ts">2:12</div><div>Yada yada. We got it for twelve, because of trading.</div></div><div class="seg"><div class="ts">2:15</div><div>I got it for fifteen.</div></div><div class="seg"><div class="ts">2:17</div><div>Everything I got since twelve. Um,</div></div><div class="seg"><div class="ts">2:21</div><div>However, Jason messaged me maybe twenty minutes ago and said that he should be done with his check tomorrow or this afternoon.</div></div><div class="seg"><div class="ts">2:29</div><div>So, so here&#x27;s the other thing that understands because he&#x27;s saying,</div></div><div class="seg"><div class="ts">2:33</div><div>He&#x27;s saying that the guy&#x27;s bringing us a fifteen thousand dollars check, and I&#x27;m like, he don&#x27;t have no money.</div></div><div class="seg"><div class="ts">2:38</div><div>I talked to Michelle this morning. She said, this guy, I don&#x27;t know any of this. She said that her husband Jeff has the company. This guy works for Jeff.</div></div><div class="seg"><div class="ts">2:46</div><div>She said,</div></div><div class="seg"><div class="ts">2:47</div><div>We&#x27;re gonna bring a fifteen thousand dollars check.</div></div><div class="seg"><div class="ts">2:48</div><div>Did you just say my name is Jeff?</div></div><div class="seg"><div class="ts">2:51</div><div>Okay, we&#x27;ll see if he&#x27;s got money.</div></div><div class="seg"><div class="ts">2:54</div><div>He&#x27;s about, he&#x27;s about to fuck himself because he thinks.</div></div><div class="seg"><div class="ts">2:58</div><div>You&#x27;re not. You&#x27;re not going to get fifteen. Yes. Absolutely.</div></div><div class="seg"><div class="ts">3:02</div><div>Oh baby. On the street,</div></div><div class="seg"><div class="ts">3:11</div><div>That&#x27;s probably what it&#x27;s worth, right?</div></div><div class="seg"><div class="ts">3:14</div><div>So that&#x27;s the car right there.</div></div><div class="seg"><div class="ts">3:15</div><div>Yeah. See, he&#x27;s look.</div></div><div class="seg"><div class="ts">3:17</div><div>He&#x27;s already taking off the old license plate. Yeah, it was.</div></div><div class="seg"><div class="ts">3:26</div><div>This is a fucking mess. Oh yeah,</div></div><div class="seg"><div class="ts">3:31</div><div>Dude. Did we not have a talk about that?</div></div><div class="seg"><div class="ts">3:34</div><div>Did we talk about the new one?</div></div><div class="seg"><div class="ts">3:35</div><div>The last one. The last ride.</div></div><div class="seg"><div class="ts">3:42</div><div>He claims he&#x27;s got money to burn.</div></div><div class="seg"><div class="ts">3:45</div><div>Stay right here. The In-N-Out dude. But then he wanted to get a Silverado at zero percent.</div></div><div class="seg"><div class="ts">3:53</div><div>Yeah, but his payoff was with Santana.</div></div><div class="seg"><div class="ts">3:57</div><div>Well, all I know is he&#x27;s got to check. So I, where did I get fifteen? Because I do remember being twelve, though.</div></div><div class="seg"><div class="ts">4:03</div><div>I don&#x27;t know. That&#x27;s what I&#x27;m telling you. It was never fifteen. Keyholder, they&#x27;re selling it for.</div></div><div class="seg"><div class="ts">4:08</div><div>And they were telling him that they were selling it to him for fifteen,</div></div><div class="seg"><div class="ts">4:12</div><div>And he was. The number was twelve.</div></div><div class="seg"><div class="ts">4:13</div><div>I was hoping to get fifteen on trade for it in the week when the insurance was all cleared up. But he told me today that insurance should be done today.</div></div><div class="seg"><div class="ts">4:21</div><div>If you got fifteen, she said she was selling it for fifteen. That&#x27;s why we put it on that. Amazing.</div></div><div class="seg"><div class="ts">4:25</div><div>Yeah, because you had already. I don&#x27;t. So now it&#x27;s starting to come back to me.</div></div><div class="seg"><div class="ts">4:29</div><div>I said, &quot;Man, I don&#x27;t have the fifteen.&quot; You said, &quot;Well, Darrin, it&#x27;s regardless because it&#x27;s going to be an in and out.</div></div><div class="seg"><div class="ts">4:35</div><div>&quot; Yeah, I can&#x27;t believe we signed off on this. Oh well, I&#x27;m not going to show them that.</div></div><div class="seg"><div class="ts">4:40</div><div>We&#x27;ll figure it out.</div></div><div class="seg"><div class="ts">4:41</div><div>I told him twelve.</div></div><div class="seg"><div class="ts">4:42</div><div>But I think we had to. I think we had to discount this call. Yeah, we did. Yeah.</div></div><div class="seg"><div class="ts">4:49</div><div>That&#x27;s all good.</div></div><div class="seg"><div class="ts">4:54</div><div>Ship me shows.</div></div><div class="seg"><div class="ts">4:57</div><div>Ship me, show. You should have saw his face. He almost got red. Kyle&#x27;s on my deal. I said no. Kyle&#x27;s on the in and out.</div></div><div class="seg"><div class="ts">5:04</div><div>He&#x27;s like how? He&#x27;s not talking to my cut. I said no. I said this guy came and interact with. I said this dude&#x27;s been going back and forth for three weeks.</div></div><div class="seg"><div class="ts">5:13</div><div>Fuck yeah!</div></div><div class="seg"><div class="ts">5:17</div><div>I said, but here&#x27;s the thing. Let me tell you what I&#x27;m worried about. Once he pays 15 grand for a cut, it&#x27;s worth 12.</div></div><div class="seg"><div class="ts">5:25</div><div>License.</div></div><div class="seg"><div class="ts">5:26</div><div>Uh, he&#x27;s appreciation twice.</div></div><div class="seg"><div class="ts">5:29</div><div>Uh, he&#x27;s gonna be a month and a half. He&#x27;s gonna be he&#x27;s gonna be in on this call for right at what seventeen grand? Is that right?</div></div><div class="seg"><div class="ts">5:40</div><div>And he can&#x27;t pay his taxes later because this is the in and out.</div></div></section>
+</main>
+</div>
+<footer>PLAUD-NOTES-2026-10-28-0603 · noindex · Plaud sources + notes</footer>
+<script>
+
+document.querySelectorAll('.tabs button').forEach(btn => {
+  btn.addEventListener('click', () => {
+    document.querySelectorAll('.tabs button').forEach(b => b.setAttribute('aria-selected', b===btn ? 'true':'false'));
+    document.querySelectorAll('.panel').forEach(p => p.classList.toggle('is-on', p.id === btn.dataset.panel));
+  });
+});
+
+</script>
+</body>
+</html>
