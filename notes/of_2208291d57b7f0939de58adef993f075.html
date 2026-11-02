@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ABR · Lead distribution — Motive/CarCode off Jack-only toward 33/33/33</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500&family=IBM+Plex+Mono:wght@400;500&family=Source+Sans+3:wght@400;600;700&display=swap">
+  <style>
+:root {
+  --bg: #090908;
+  --bg-2: #11110f;
+  --bg-3: #181714;
+  --ink: #f0eadc;
+  --muted: #8d8778;
+  --faint: #5c574c;
+  --line: #26241e;
+  --accent: #c4452d;
+  --mustard: #c4a35a;
+  --blue: #6f8fbf;
+  --ok: #7d9a6d;
+  --serif: "Fraunces", "Iowan Old Style", Georgia, serif;
+  --sans: "Source Sans 3", "Source Sans Pro", -apple-system, sans-serif;
+  --mono: "IBM Plex Mono", ui-monospace, monospace;
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html, body { background: var(--bg); color: var(--ink); }
+body {
+  font-family: var(--sans);
+  min-height: 100vh;
+  text-wrap: pretty;
+}
+a { color: inherit; }
+.shell { display: grid; grid-template-columns: 260px 1fr; min-height: 100vh; }
+.rail {
+  border-right: 1px solid var(--line);
+  padding: 28px 18px 40px;
+  background: var(--bg-2);
+  position: sticky; top: 0; height: 100vh; overflow: auto;
+}
+.mark {
+  font-family: var(--serif);
+  font-weight: 500;
+  font-size: 13px;
+  letter-spacing: .18em;
+  text-transform: uppercase;
+  color: var(--accent);
+}
+.rail h1 {
+  font-family: var(--serif);
+  font-size: 28px;
+  font-weight: 460;
+  letter-spacing: -.03em;
+  margin: 10px 0 6px;
+}
+.rail .lede { color: var(--muted); font-size: 13.5px; line-height: 1.45; margin-bottom: 28px; }
+.vnav { display: flex; flex-direction: column; gap: 4px; }
+.vnav a {
+  display: flex; justify-content: space-between; align-items: baseline;
+  text-decoration: none; padding: 9px 10px; border-radius: 8px;
+  color: var(--ink); font-size: 14px;
+}
+.vnav a:hover, .vnav a.is-on { background: var(--bg-3); }
+.vnav a.is-on { box-shadow: inset 2px 0 0 var(--accent); }
+.vnav .count { color: var(--faint); font-family: var(--mono); font-size: 11px; }
+.stage { padding: 36px 40px 80px; max-width: 980px; }
+.kicker {
+  font-size: 11px; letter-spacing: .16em; text-transform: uppercase;
+  color: var(--accent); font-weight: 700; margin-bottom: 8px;
+}
+.stage > h2 {
+  font-family: var(--serif); font-weight: 460; font-size: 34px;
+  letter-spacing: -.03em; margin-bottom: 8px;
+}
+.blurb { color: var(--muted); margin-bottom: 28px; max-width: 46rem; }
+.empty {
+  border: 1px dashed var(--line); border-radius: 14px;
+  padding: 36px 28px; color: var(--muted); background: var(--bg-2);
+}
+.empty strong { color: var(--ink); font-weight: 600; }
+.cards { display: flex; flex-direction: column; gap: 10px; }
+.card {
+  display: grid; grid-template-columns: 1fr auto; gap: 12px;
+  text-decoration: none; padding: 16px 18px; border-radius: 12px;
+  background: var(--bg-2); border: 1px solid var(--line);
+}
+.card:hover { border-color: #3a372e; background: var(--bg-3); }
+.card h3 { font-size: 16px; font-weight: 600; margin-bottom: 4px; }
+.meta { color: var(--muted); font-size: 13px; display: flex; gap: 10px; flex-wrap: wrap; }
+.chip {
+  font-family: var(--mono); font-size: 10px; letter-spacing: .06em;
+  text-transform: uppercase; padding: 3px 7px; border-radius: 999px;
+  border: 1px solid var(--line); color: var(--muted); height: fit-content;
+}
+.chip.dealers { color: var(--blue); border-color: #2a3344; }
+.chip.avec-tous { color: var(--mustard); border-color: #3a3320; }
+.chip.personal { color: #c9a7a0; }
+.chip.ideas { color: var(--ok); }
+.note-top { margin-bottom: 22px; }
+.note-top h2 { font-family: var(--serif); font-size: 36px; font-weight: 460; letter-spacing: -.03em; }
+.tabs { display: flex; gap: 6px; margin: 22px 0 18px; border-bottom: 1px solid var(--line); }
+.tabs button {
+  appearance: none; background: none; border: 0; color: var(--muted);
+  font: 600 13px var(--sans); padding: 10px 12px; cursor: pointer;
+  border-bottom: 2px solid transparent; margin-bottom: -1px;
+}
+.tabs button[aria-selected="true"] { color: var(--ink); border-bottom-color: var(--accent); }
+.panel { display: none; }
+.panel.is-on { display: block; }
+.prose { font-size: 16.5px; line-height: 1.6; max-width: 42rem; }
+.prose h2, .prose h3 { font-family: var(--serif); font-weight: 500; margin: 1.3em 0 .4em; }
+.prose p { margin: 0 0 .8em; }
+.prose ul, .prose ol { margin: 0 0 1em 1.2em; }
+.prose li { margin: .25em 0; }
+.hl { border-left: 2px solid var(--accent); padding: 10px 0 10px 14px; margin: 0 0 14px; }
+.hl .t { font-family: var(--mono); font-size: 11px; color: var(--faint); }
+.hl h4 { font-size: 15px; margin: 4px 0; }
+.hl p { color: var(--muted); font-size: 14.5px; }
+.seg { display: grid; grid-template-columns: 64px 1fr; gap: 12px; padding: 8px 0; border-bottom: 1px solid var(--line); }
+.seg .ts { font-family: var(--mono); font-size: 11px; color: var(--faint); padding-top: 3px; }
+.back { color: var(--muted); text-decoration: none; font-size: 13px; display: inline-block; margin-bottom: 18px; }
+.back:hover { color: var(--ink); }
+footer { margin-top: 48px; color: var(--faint); font-size: 11px; font-family: var(--mono); }
+@media (max-width: 820px) {
+  .shell { grid-template-columns: 1fr; }
+  .rail { position: relative; height: auto; border-right: 0; border-bottom: 1px solid var(--line); }
+  .stage { padding: 24px 18px 64px; }
+  .note-top h2 { font-size: 28px; }
+}
+</style>
+</head>
+<body>
+<div class="shell">
+<aside class="rail">
+  <div class="mark">Cooperative</div>
+  <h1>Field desk</h1>
+  <p class="lede">Plaud landings. Summary, highlights, transcript — filed by life area.</p>
+  <nav class="vnav"><a href="../index.html" class="">All <span class="count">135</span></a><a class="" href="../vertical-inbox.html">Inbox <span class="count">1</span></a><a class="" href="../vertical-personal.html">Personal <span class="count">10</span></a><a class="" href="../vertical-coop-marketing.html">Coop Marketing <span class="count">6</span></a><a class="" href="../vertical-coop-dev.html">Coop Dev <span class="count">17</span></a><a class="" href="../vertical-avec-tous.html">Avec Tous <span class="count">0</span></a><a class="is-on" href="../vertical-dealers.html">Dealers <span class="count">94</span></a><a class="" href="../vertical-ideas.html">Ideas <span class="count">7</span></a></nav>
+</aside>
+<main class="stage">
+  <a class="back" href="../index.html">← Desk</a>
+  <div class="note-top">
+    <div class="kicker">dealers · 2026-10-30 · 3m34s</div>
+    <h2>ABR · Lead distribution — Motive/CarCode off Jack-only toward 33/33/33</h2>
+    <div class="meta" style="margin-top:8px"><span>id of_2208291d57b7f0939de58adef993f075</span><span>ABR floor: web lead assignment Motive + Car Code currently Jack-heavy; equal split test</span></div>
+  </div>
+  <div class="tabs" role="tablist">
+    <button type="button" data-panel="sum" aria-selected="true">Summary</button>
+    <button type="button" data-panel="hl" aria-selected="false">Highlights</button>
+    <button type="button" data-panel="tx" aria-selected="false">Transcript</button>
+  </div>
+  <section id="sum" class="panel is-on prose"><h2>Takeaway</h2>
+<p><strong>ABR</strong> web leads (Motive site/appraisals + Car Code chat/text) are still <strong>mostly Jack</strong>. Store wants to test performance with more volume incoming: lean <strong>equal 33/33/33</strong> across Jack / Steven / Alex. Off-day toggles hit all lead types — use hour/day quantity filters instead for Motive-only nuance.</p>
+<h2>Locked / action-shaped</h2>
+<ul>
+<li><strong>Lance:</strong> sit with screen and reconfigure assignment (offered same-day Fri after late lunch — confirm done or still open Mon)</li>
+<li>Keep split <strong>equal</strong> rather than Jack-majority if testing</li>
+</ul>
+<h2>Ada vs Lance</h2>
+<p><strong>Park + Lance (Vin).</strong> No Mini CRM write.</p></section>
+  <section id="hl" class="panel"><div class="hl"><div class="t">0:02</div><h4>Jack-heavy</h4><p>Almost all Motive + Car Code web leads go to Jack.</p></div><div class="hl"><div class="t">2:40</div><h4>Equal split test</h4><p>Store wants 33/33/33 Jack/Steven/Alex as volume rises.</p></div><div class="hl"><div class="t">1:12</div><h4>Config path</h4><p>Sub-source quantity and hour/day filters; off-days affect all leads.</p></div></section>
+  <section id="tx" class="panel"><div class="seg"><div class="ts">0:02</div><div>Hey, so a while back, you guys had me basically set it up where basically every single web lead goes to Jack. I&#x27;m saying mostly because there might be one or two like weird little sub leads that don&#x27;t go to Jack.</div></div><div class="seg"><div class="ts">0:14</div><div>You know what I mean? Like it&#x27;s like I could show you the screen,</div></div><div class="seg"><div class="ts">0:21</div><div>But it&#x27;s essentially like you you go through and just click each little sub category of each lead that comes from Motive.</div></div><div class="seg"><div class="ts">0:27</div><div>So our website, the the leads would be all like motive stuff, webs website stuff like appraisals,</div></div><div class="seg"><div class="ts">0:35</div><div>But then also the car code leads, our website leads. So I&#x27;ve got car code.</div></div><div class="seg"><div class="ts">0:40</div><div>You know what I&#x27;m saying? Like almost all of it&#x27;s Jack.</div></div><div class="seg"><div class="ts">0:46</div><div>Yeah, car code is the chat, the chat app on our website. The text leads. Yeah.</div></div><div class="seg"><div class="ts">0:52</div><div>Okay. I wonder if there&#x27;s a way to have Jack get. The majority of them, but have other people get them too.</div></div><div class="seg"><div class="ts">1:03</div><div>Well,</div></div><div class="seg"><div class="ts">1:04</div><div>Yeah.</div></div><div class="seg"><div class="ts">1:05</div><div>I mean, we could we could.</div></div><div class="seg"><div class="ts">1:07</div><div>There&#x27;s two ways, or maybe more than two, but I can think of two good ways. But well,</div></div><div class="seg"><div class="ts">1:12</div><div>You could pick certain sub sources that only go to him, and then the other ones go that basically just change, you know, change the quantity of what&#x27;s picked to go to him right now.</div></div><div class="seg"><div class="ts">1:20</div><div>You can also do it hourly,</div></div><div class="seg"><div class="ts">1:22</div><div>Or a day based on a day, you know. So.</div></div><div class="seg"><div class="ts">1:25</div><div>Just depends on how you want to filter it.</div></div><div class="seg"><div class="ts">1:27</div><div>Can we manipulate actual motive leads based on like off days, or would that affect all leads? Um.</div></div><div class="seg"><div class="ts">1:43</div><div>Let&#x27;s see. Like, do off days for just motive, and then off days for other leads?</div></div><div class="seg"><div class="ts">1:50</div><div>You mean have it not have it not not follow off days for certain people?</div></div><div class="seg"><div class="ts">1:55</div><div>So, like, say I wanted to give Alex motives leads, but I didn&#x27;t want him to get fifty percent of motives leads. But I have him off like Thursday.</div></div><div class="seg"><div class="ts">2:06</div><div>But you could set him off.</div></div><div class="seg"><div class="ts">2:08</div><div>Yeah, any in the system, you could set him as off any days you wanted to.</div></div><div class="seg"><div class="ts">2:12</div><div>Would that affect other leads? Is what I&#x27;m saying. I wouldn&#x27;t want it to affect the motives leads.</div></div><div class="seg"><div class="ts">2:18</div><div>Yes, yes, it would. Okay. Um.</div></div><div class="seg"><div class="ts">2:22</div><div>And that&#x27;s why I say we could do it. We could do it down to the hours. I don&#x27;t know. There&#x27;s lots of ways to do it. But is he the only one you want to give more leads to?</div></div><div class="seg"><div class="ts">2:32</div><div>No, I would try to work in Steven and Alex on both of them, but have them not get.</div></div><div class="seg"><div class="ts">2:40</div><div>Like I would want to split it 33,33, 33. I want to almost want to see how they do with them, because I think we&#x27;re going to be getting more leads coming up.</div></div><div class="seg"><div class="ts">2:50</div><div>But I don&#x27;t want to.</div></div><div class="seg"><div class="ts">2:51</div><div>Yeah, I mean, it really just kind of—you really wish you could just give, just leave it equal.</div></div><div class="seg"><div class="ts">3:06</div><div>Yes, I mean,</div></div><div class="seg"><div class="ts">3:07</div><div>Just kind of the way it.</div></div><div class="seg"><div class="ts">3:10</div><div>But I&#x27;m, uh, I mean, shit, I can come by and look at the screen. We can kind of do it in person and look at our different options if you want, and knock it out today if you want to.</div></div><div class="seg"><div class="ts">3:21</div><div>Yeah, I mean, in just a little while, I&#x27;m just grabbing lunch. I&#x27;m just eating late lunch. Then I&#x27;ll come by.</div></div><div class="seg"><div class="ts">3:25</div><div>All right, all right, man, bye.</div></div></section>
+</main>
+</div>
+<footer>PLAUD-NOTES-2026-11-02-0601 · noindex · Plaud sources + notes</footer>
+<script>
+
+document.querySelectorAll('.tabs button').forEach(btn => {
+  btn.addEventListener('click', () => {
+    document.querySelectorAll('.tabs button').forEach(b => b.setAttribute('aria-selected', b===btn ? 'true':'false'));
+    document.querySelectorAll('.panel').forEach(p => p.classList.toggle('is-on', p.id === btn.dataset.panel));
+  });
+});
+
+</script>
+</body>
+</html>
