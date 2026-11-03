@@ -1,5 +1,5 @@
 {
-  "revision": "PLAUD-NOTES-2026-11-03-0601",
+  "revision": "PLAUD-NOTES-2026-11-03-1331",
   "recordings": [
     {
       "id": "of_41e3935dd06b767f402947c1726b0ff5",
@@ -72107,6 +72107,354 @@
           "end_time": 2985330,
           "speaker": "Lance",
           "content": "All right. When you get this."
+        }
+      ]
+    },
+    {
+      "id": "of_d6a1155e25961240abc09cc84b0b0626",
+      "name": "GrokBot multi-bot + Cursor/Railway stack (parts finder seed)",
+      "start_at": "2026-11-03T17:54:58",
+      "created_at": "2026-11-03T17:59:51",
+      "duration_ms": 279000,
+      "vertical": "coop-dev",
+      "store": null,
+      "routed_by": "Midday \u2014 GrokBot multi-bot walkthrough with contact; parts finder seed; Focus CRM buddy (Jackson) vs CDK lock; Storably/HP deploy path",
+      "status": "park",
+      "work_order": "Park only. No Ada build from tape. Contact exploring GrokBot multi-bots + parts-finder idea; CDK remains locked; no work order to Mini.",
+      "summary_md": "## Takeaway\n**Coop-dev / GrokBot** midday chat \u2014 multi-bot setup + how Lance ships software from chat.\n\n- Contact already on paid GrokBot; clarifying **extra bots** (no extra pay on bottom tier; main bot can spin agents).\n- Lance stack pitch: **Cursor + GitHub + Railway** = bot writes/deploys; desktop takeover for logins (Linux screen).\n- Seed idea for them: **parts manager / parts finder**.\n- Jackson manager buddy runs bot inside **Focus CRM (Reynolds)** for mindless tasks \u2014 contact wanted something like that; **CDK locked** so not a clean parallel.\n- Lance: bot logging into **Storably** for **Porsche website** deploys; DMS platforms stay locked unless web-terminal style access exists.\n\n**Dest:** `coop-dev`  \n**Disposition:** **park** \u2014 awareness + contact enablement, no Ada artifact.\n",
+      "highlights": [
+        {
+          "title": "Multi-bots free on paid tier",
+          "content": "Bottom-tier GrokBot can create extra bots; main bot can generate agents from context.",
+          "timestamp": 32920
+        },
+        {
+          "title": "Ship path: Cursor + Git + Railway",
+          "content": "Bot writes software, deploys Railway; desktop takeover for account logins.",
+          "timestamp": 86890
+        },
+        {
+          "title": "Parts finder seed",
+          "content": "Contact: starting idea for parts manager / parts finder piece.",
+          "timestamp": 117400
+        },
+        {
+          "title": "Focus CRM works; CDK locked",
+          "content": "Jackson manager runs bot in Focus/Reynolds; CDK won\u2019t allow same login path.",
+          "timestamp": 181370
+        },
+        {
+          "title": "Storably / HP site deploys",
+          "content": "Lance logging bot into Storably for Porsche website update deploys.",
+          "timestamp": 223960
+        }
+      ],
+      "transcript": [
+        {
+          "start_time": 90,
+          "end_time": 2410,
+          "content": "Like yeah, you can sign up for a twenty dollar plan too.",
+          "speaker": "Speaker 1"
+        },
+        {
+          "start_time": 4170,
+          "end_time": 6810,
+          "content": "So have you not signed up for GroqBot?",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 7530,
+          "end_time": 11290,
+          "content": "No, I signed up for GroqBot. I'm paying for it.",
+          "speaker": "Speaker 1"
+        },
+        {
+          "start_time": 11290,
+          "end_time": 12890,
+          "content": "Okay, so what do you mean by other agents?",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 14170,
+          "end_time": 17210,
+          "content": "So you have other agents inside of your GroqBot now?",
+          "speaker": "Speaker 1"
+        },
+        {
+          "start_time": 17770,
+          "end_time": 20410,
+          "content": "Yeah, other bots. Yeah, you can create bots all you want.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 21530,
+          "end_time": 23770,
+          "content": "Yeah, yeah, but you pay for those, correct? No.",
+          "speaker": "Speaker 1"
+        },
+        {
+          "start_time": 24890,
+          "end_time": 25130,
+          "content": "No.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 26170,
+          "end_time": 29370,
+          "content": "I I have the two hundred dollar a month plan, so I don't pay for anything.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 31080,
+          "end_time": 32920,
+          "content": "Let me see.",
+          "speaker": "Speaker 1"
+        },
+        {
+          "start_time": 32920,
+          "end_time": 38200,
+          "content": "No, I'm pretty sure you just create bots. All you don't have to have a more expensive plan to create a bot.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 42120,
+          "end_time": 51480,
+          "content": "But you shouldn't have to create a bot yourself, though. That's the other pickle. Like that's the other cool thing. You go to your main bot and you tell it what you're up to, who you are, and it it'll just generate extra bots for you.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 52520,
+          "end_time": 52760,
+          "content": "Really?",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 53960,
+          "end_time": 54520,
+          "content": "Okay. Um.",
+          "speaker": "Speaker 1"
+        },
+        {
+          "start_time": 58780,
+          "end_time": 64540,
+          "content": "It's working now. Maybe just took a second because I wasn't paying for it.",
+          "speaker": "Speaker 1"
+        },
+        {
+          "start_time": 64860,
+          "end_time": 68220,
+          "content": "Yeah, I think you basically just have to be paying for at least the you know the bottom tier,",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 69020,
+          "end_time": 71420,
+          "content": "And then you can just add as many bots as you want, damn near.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 77420,
+          "end_time": 82300,
+          "content": "But yeah, no, I don't. I don't pay for. I also don't use any outside models right now.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 84220,
+          "end_time": 86300,
+          "content": "You don't need them, like.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 86890,
+          "end_time": 90250,
+          "content": "This thing is going to plug you in. You'll have your own Cursor account.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 91370,
+          "end_time": 95450,
+          "content": "You'll have your and then you could even go get a Railway account, which is cheap.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 97050,
+          "end_time": 99530,
+          "content": "And I'm assuming you have a GitHub already.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 100490,
+          "end_time": 113530,
+          "content": "Do I? You know, so it's like your your bot will write all of the software in Git. It deploys in Railway. It all just does all of it for you. All you're really literally doing is like texting an employee.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 117400,
+          "end_time": 123000,
+          "content": "You just tell them what you want, and it should have like the starting idea for that parts manager piece,",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 123880,
+          "end_time": 125720,
+          "content": "For that parts finder.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 127480,
+          "end_time": 130600,
+          "content": "But yeah,",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 133560,
+          "end_time": 139640,
+          "content": "Sweet. So you got to work. And I'll tell you what else. I also work with it a lot on my desktop. Like it's fast as fuck to type,",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 140200,
+          "end_time": 150210,
+          "content": "Type to it on your desktop. And then, if it ever like needs you, says it'll say things like,\"Hey, I need you to take over and go log into this account for me, so I can save your login information.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 151890,
+          "end_time": 157090,
+          "content": "\" Because then, when you do that, you'll click take over, and you'll be able to see its whole computer screen. It's running in Linux.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 158450,
+          "end_time": 161890,
+          "content": "Yeah, well, I am not to do that from home, unfortunately.",
+          "speaker": "Speaker 1"
+        },
+        {
+          "start_time": 161890,
+          "end_time": 164130,
+          "content": "I can't do that. Yeah, at home, or you'd have to have a laptop or some shit.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 164130,
+          "end_time": 166850,
+          "content": "And maybe I'll have brought my laptop.",
+          "speaker": "Speaker 1"
+        },
+        {
+          "start_time": 167890,
+          "end_time": 180810,
+          "content": "You brought my laptop, so I can work with my robot. Yeah. I mean, what's funny is that one of my buddies, that's the manager at a store in Jackson,",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 181370,
+          "end_time": 187450,
+          "content": "He fucking installed this thing on his computer. It operates inside of Focus CRM inside of Reynolds for him.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 188650,
+          "end_time": 189210,
+          "content": "No way.",
+          "speaker": "Speaker 1"
+        },
+        {
+          "start_time": 189210,
+          "end_time": 190650,
+          "content": "It doesn't does work.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 193530,
+          "end_time": 197210,
+          "content": "It like it's like completing his tasks and shit that are like mindless.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 199290,
+          "end_time": 202200,
+          "content": "That's that's what I wanted to make was a buff of that, but. Um.",
+          "speaker": "Speaker 1"
+        },
+        {
+          "start_time": 203960,
+          "end_time": 209560,
+          "content": "Well, I mean, I don't know how well it would work. In you can't log it into you.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 211080,
+          "end_time": 215240,
+          "content": "You wouldn't have to ask permission if it weren't for the fact that you can't really log it into CDK.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 216520,
+          "end_time": 219080,
+          "content": "Well, yeah, the thing on CDK software is so fucking.",
+          "speaker": "Speaker 1"
+        },
+        {
+          "start_time": 219320,
+          "end_time": 222840,
+          "content": "Yeah, you you wouldn't be able to log it into CDK. Like I logged mine into,",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 223960,
+          "end_time": 233080,
+          "content": "To log into Storably, which is the software that the Porsche website is run in. So about to have it doing all my deployments for my updates for the website,",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 235800,
+          "end_time": 238920,
+          "content": "But the things like the DMSs are all still going to be locked down, you know.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 240600,
+          "end_time": 250200,
+          "content": "Yeah, absolutely. No, I don't know. There's a way around that. The only way around that is if you have like website style style terminal terminals that you could operate in that would let you,",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 251720,
+          "end_time": 255400,
+          "content": "You know, like the old desking we used to have. Just a website we went to. We didn't have to.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 258910,
+          "end_time": 266750,
+          "content": "Yeah, I don't know. I don't know what the answer would be, dude. Yeah.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 268110,
+          "end_time": 269550,
+          "content": "All right. Well, shit. Well, let me know.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 271310,
+          "end_time": 271950,
+          "content": "How's it going?",
+          "speaker": "Speaker 1"
+        },
+        {
+          "start_time": 271950,
+          "end_time": 276190,
+          "content": "How's that going? You know. I'm good, man. I'm taking.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 277630,
+          "end_time": 277710,
+          "content": "Right.",
+          "speaker": "Lance"
         }
       ]
     }
