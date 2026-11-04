@@ -1,6 +1,722 @@
 {
-  "revision": "PLAUD-NOTES-2026-11-03-1331",
+  "revision": "PLAUD-NOTES-2026-11-04-1331",
   "recordings": [
+    {
+      "id": "of_b787f60930a8ff01612f12793691681a",
+      "name": "BMWJ \u00b7 Used-car hiring (young talent) + Cleveland earnings pass",
+      "start_at": "2026-11-04T18:31:36",
+      "created_at": "2026-11-04T18:36:04",
+      "duration_ms": 259000,
+      "vertical": "dealers",
+      "store": "bmwj",
+      "routed_by": "Midday \u2014 Rick/BMWJ floor chat; Mississippi College hire Mitch Dec; earnings fwd",
+      "status": "park",
+      "work_order": "Park. Lance: skim Cleveland Research 3Q earnings + NCM Digital packet Rick forwarded and document takeaways. Soft idea only: BMWJ sales career page (young / learn process / social-ready) \u2014 no build until go. No Ada work order on tape.",
+      "summary_md": "## Takeaway\n**BMWJ (Rick)** short floor chat \u2014 **used-car hiring profile** + industry email dump for Lance to mine.\n\n## Hiring\n- Want **young** hires who learn a process, work a schedule, act like adults; **prior sales not required**; aggressive OK\n- Lance angle: young + hard-working + **comfortable on social content**; floated **career page** to recruit salespeople (idea only)\n- **Mitch** \u2014 Mississippi College business grad, joins **December**; Rick called him sharp/professional\n- **Brandy** praised for doing whatever\u2019s asked (kept in role on purpose)\n\n## Materials\n- Rick forwarded **dealership earnings** (Cleveland Research / Jack Murphy path) + related data \u2014 won\u2019t read it himself\n- Lance: **read through and document** anything useful (esp. advertising)\n- Also noted **NCM Digital / foundation data** packet in the same pass\n\n## Side color\n- Floor drama / Lenny tough week (sales pressure) \u2014 awareness only\n\n## Disposition\n**park** \u2014 Lance owns earnings skim; career-page is a parked idea, not a go.\n",
+      "highlights": [
+        {
+          "title": "Career page idea",
+          "content": "Lance floated a sales career page aimed at young, social-ready learners.",
+          "timestamp": 31300
+        },
+        {
+          "title": "Hire profile",
+          "content": "Young, learn process, schedule, adult behavior; no need for established salespeople.",
+          "timestamp": 109460
+        },
+        {
+          "title": "Mitch Dec",
+          "content": "MS College business grad joining December \u2014 Rick\u2019s sharp hire.",
+          "timestamp": 124950
+        },
+        {
+          "title": "Earnings packet \u2192 Lance",
+          "content": "Rick won\u2019t read Cleveland/NCM dumps; Lance will document advertising-relevant takeaways.",
+          "timestamp": 211270
+        }
+      ],
+      "transcript": [
+        {
+          "start_time": 590,
+          "end_time": 3630,
+          "content": "Going fucking, you know, we get people come in.",
+          "speaker": "Speaker 1"
+        },
+        {
+          "start_time": 4350,
+          "end_time": 10750,
+          "content": "It's like this, just like this week, you know. Holy fucking, serves up some little fucking girl that's working over at Cavender's boot store.",
+          "speaker": "Speaker 1"
+        },
+        {
+          "start_time": 11550,
+          "end_time": 19470,
+          "content": "You know, I want to hire her. I want to make her a used car salesperson. She comes in here. I talk to her for less than ninety seconds, and I'm like, \"What the fuck are you doing here?",
+          "speaker": "Speaker 1"
+        },
+        {
+          "start_time": 20830,
+          "end_time": 24110,
+          "content": "\" I mean, you got a fucking nose ring. You got thirty tattoos on your arms.",
+          "speaker": "Speaker 1"
+        },
+        {
+          "start_time": 24670,
+          "end_time": 27550,
+          "content": "Yeah, you know. Well, first of all, why would you serve that person up?",
+          "speaker": "Speaker 1"
+        },
+        {
+          "start_time": 28990,
+          "end_time": 29870,
+          "content": "If we.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 31300,
+          "end_time": 34180,
+          "content": "If we designed a a career page to bring in salesmen,",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 36500,
+          "end_time": 38500,
+          "content": "I want young. I want young, stupid people.",
+          "speaker": "Speaker 1"
+        },
+        {
+          "start_time": 38980,
+          "end_time": 43620,
+          "content": "Well, but young. You mean young, young, ready to do some hard work and and just learn.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 44980,
+          "end_time": 47140,
+          "content": "But I think we should push the angle of young,",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 48020,
+          "end_time": 49300,
+          "content": "Social media savvy.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 49300,
+          "end_time": 52260,
+          "content": "Yeah, I don't want people want to learn. Is that bad of me?",
+          "speaker": "Speaker 1"
+        },
+        {
+          "start_time": 52260,
+          "end_time": 54420,
+          "content": "I think you need a little bit of both. But,",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 55060,
+          "end_time": 55860,
+          "content": "But I can tell you this.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 56660,
+          "end_time": 59140,
+          "content": "Wasn't that long ago? I was listening to somebody else say.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 60690,
+          "end_time": 62690,
+          "content": "Yeah, you just can't have females working together.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 64129,
+          "end_time": 70050,
+          "content": "There's the only reason Brandy. The only reason that Brandy has made it is because I hadn't moved her up.",
+          "speaker": "Speaker 1"
+        },
+        {
+          "start_time": 71250,
+          "end_time": 73810,
+          "content": "Yeah, I started out there moving cars around and stuff.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 73810,
+          "end_time": 75010,
+          "content": "She'll do whatever you ask her to do.",
+          "speaker": "Speaker 1"
+        },
+        {
+          "start_time": 75170,
+          "end_time": 89410,
+          "content": "So she, yeah, she's the genius. She's my, she's my good. So there's two salesmen, but they're like this. You know, their their stalls are they're stall neighbors all the time, constantly. The best part is they were sold. Hey, they were told, hey, we we gonna have to move y'all.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 90580,
+          "end_time": 92500,
+          "content": "No, we don't want to move. We like where we are. Well,",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 94020,
+          "end_time": 96020,
+          "content": "What? Fuck! Quit arguing.",
+          "speaker": "Speaker 1"
+        },
+        {
+          "start_time": 97460,
+          "end_time": 98820,
+          "content": "So we need to hire young people.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 101140,
+          "end_time": 104980,
+          "content": "Either established. Do we care if they're established salespeople? No.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 105940,
+          "end_time": 106900,
+          "content": "I think they're not.",
+          "speaker": "Speaker 1"
+        },
+        {
+          "start_time": 106900,
+          "end_time": 108500,
+          "content": "But you want them to be aggressive.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 109460,
+          "end_time": 110900,
+          "content": "I just want them to be able to come in,",
+          "speaker": "Speaker 1"
+        },
+        {
+          "start_time": 112740,
+          "end_time": 115220,
+          "content": "Learn a process, work a schedule,",
+          "speaker": "Speaker 1"
+        },
+        {
+          "start_time": 116020,
+          "end_time": 117620,
+          "content": "And act like young adults.",
+          "speaker": "Speaker 1"
+        },
+        {
+          "start_time": 119110,
+          "end_time": 124870,
+          "content": "And I think I think we we should push the angle of comfortable contributing to social media content.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 124950,
+          "end_time": 133190,
+          "content": "Fucking young kid that's graduating from Mississippi College, degree in business. He's coming in. He's gonna join us in December. Okay. Name is Mitch.",
+          "speaker": "Speaker 1"
+        },
+        {
+          "start_time": 133990,
+          "end_time": 136950,
+          "content": "He's landed his replacement. Okay. He's a bad motherfucker.",
+          "speaker": "Speaker 1"
+        },
+        {
+          "start_time": 137670,
+          "end_time": 144150,
+          "content": "He's a sharp dude. He's a fucking sharp guy. Okay. Walked right in here. Walked right up to my desk. Shook my hand like a grown ass man. All right.",
+          "speaker": "Speaker 1"
+        },
+        {
+          "start_time": 146770,
+          "end_time": 150850,
+          "content": "I sent you an email earlier today from some guy.",
+          "speaker": "Speaker 1"
+        },
+        {
+          "start_time": 152130,
+          "end_time": 154930,
+          "content": "Which one? Let me go see. Showing your name.",
+          "speaker": "Speaker 1"
+        },
+        {
+          "start_time": 157410,
+          "end_time": 158530,
+          "content": "Do we have an email from Rick?",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 160050,
+          "end_time": 161250,
+          "content": "Who's Rick? You.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 164610,
+          "end_time": 166050,
+          "content": "What do you mean from Rick?",
+          "speaker": "Speaker 1"
+        },
+        {
+          "start_time": 173410,
+          "end_time": 175330,
+          "content": "I sent this over from Stetson.",
+          "speaker": "Speaker 1"
+        },
+        {
+          "start_time": 176950,
+          "end_time": 177510,
+          "content": "Wells.",
+          "speaker": "Speaker 1"
+        },
+        {
+          "start_time": 179910,
+          "end_time": 180630,
+          "content": "Yep, I'm doing look.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 186470,
+          "end_time": 194310,
+          "content": "Uh, dealership earnings.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 196950,
+          "end_time": 197750,
+          "content": "That what it says.",
+          "speaker": "Speaker 1"
+        },
+        {
+          "start_time": 199350,
+          "end_time": 200070,
+          "content": "Well, this is.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 201990,
+          "end_time": 203190,
+          "content": "What, what else is?",
+          "speaker": "Speaker 1"
+        },
+        {
+          "start_time": 203190,
+          "end_time": 205510,
+          "content": "It's the email you sent me. I have two. This is the one.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 206070,
+          "end_time": 207590,
+          "content": "You forwarded from Jack Murphy.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 208470,
+          "end_time": 209030,
+          "content": "Yes,",
+          "speaker": "Speaker 1"
+        },
+        {
+          "start_time": 209910,
+          "end_time": 211270,
+          "content": "I don't even know what the fuck all that is.",
+          "speaker": "Speaker 1"
+        },
+        {
+          "start_time": 211270,
+          "end_time": 213110,
+          "content": "That's fine. We're gonna read through it and document it.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 213110,
+          "end_time": 214150,
+          "content": "That's why I sent it to you.",
+          "speaker": "Speaker 1"
+        },
+        {
+          "start_time": 214470,
+          "end_time": 215510,
+          "content": "See if there's something we can learn from it.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 215510,
+          "end_time": 217990,
+          "content": "If it's anything to do with advertising, I just send it to you. Yeah.",
+          "speaker": "Speaker 1"
+        },
+        {
+          "start_time": 220310,
+          "end_time": 221190,
+          "content": "Weighted basis.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 221190,
+          "end_time": 221910,
+          "content": "I'm not gonna read them.",
+          "speaker": "Speaker 1"
+        },
+        {
+          "start_time": 225590,
+          "end_time": 227030,
+          "content": "That's the guy sending out data.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 227910,
+          "end_time": 229590,
+          "content": "Yes, I know it's a lot of data in there too.",
+          "speaker": "Speaker 1"
+        },
+        {
+          "start_time": 230630,
+          "end_time": 235110,
+          "content": "This other one is from. Is it an NCM report?",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 236240,
+          "end_time": 237440,
+          "content": "Foundation data, yeah.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 238080,
+          "end_time": 238960,
+          "content": "NCM Digital, yeah.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 242640,
+          "end_time": 245120,
+          "content": "Did Lenny go get her fucking food? I don't know. I bet he did.",
+          "speaker": "Speaker 1"
+        },
+        {
+          "start_time": 247840,
+          "end_time": 248960,
+          "content": "He had a tough week this week.",
+          "speaker": "Speaker 1"
+        },
+        {
+          "start_time": 249440,
+          "end_time": 251520,
+          "content": "He did last week. Yeah, from sales.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 251600,
+          "end_time": 252960,
+          "content": "Yeah, Frank coming to fire him last week.",
+          "speaker": "Speaker 1"
+        },
+        {
+          "start_time": 253440,
+          "end_time": 254400,
+          "content": "Oh God, what happened?",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 254560,
+          "end_time": 256480,
+          "content": "He just said he fucking can't carry the ball.",
+          "speaker": "Speaker 1"
+        },
+        {
+          "start_time": 257279,
+          "end_time": 258880,
+          "content": "He said. He said.",
+          "speaker": "Lance"
+        }
+      ]
+    },
+    {
+      "id": "of_8a4234f8d19fd7d1ffb7e4bfcda25ddc",
+      "name": "Personal \u00b7 In-home wound-care grants (dad) \u2014 mid-Nov deadline",
+      "start_at": "2026-11-04T15:11:31",
+      "created_at": "2026-11-04T15:15:12",
+      "duration_ms": 212000,
+      "vertical": "personal",
+      "store": null,
+      "routed_by": "Midday \u2014 family call; dad/org wound-care grants; Lance driving to Jackson",
+      "status": "park",
+      "work_order": "Park until grant links/examples arrive. Then bot research + draft system. One due ~mid-November (women-owned + state wound-care). No Ada build without source links.",
+      "summary_md": "## Takeaway\n**Personal** call while Lance drives to **Jackson** \u2014 help **dad\u2019s org** chase **in-home wound-care grants** (NP/RN hiring; other wound-care shops folded).\n\n## What landed\n- Org hiring nurse practitioners + RNs for home wound care / primary-care style visits\n- Grants: women-owned business + state wound-care; **one due mid-November**\n- Ask: Lance write grants (share of award); he said **yes** and will stand up a **specific grant setup**\n- Blocker: need **1\u20132 example links** + where they live on gov sites; caller said they\u2019d send today\n- Lance: once materials land, **bot starts digging**\n\n## Disposition\n**park / wait** \u2014 no build without the links. Not dealer work.\n",
+      "highlights": [
+        {
+          "title": "Yes on grant help",
+          "content": "Lance agreed to help write grants for dad\u2019s wound-care org.",
+          "timestamp": 68290
+        },
+        {
+          "title": "Mid-Nov deadline",
+          "content": "At least one grant due mid-November; women-owned + state wound-care mentioned.",
+          "timestamp": 87970
+        },
+        {
+          "title": "Need starter links",
+          "content": "Lance asked for 1\u20132 example pages + gov listing location before bot research.",
+          "timestamp": 80210
+        },
+        {
+          "title": "Bot after materials",
+          "content": "Once hung up + links, bot digs; build a dedicated grant setup.",
+          "timestamp": 176140
+        }
+      ],
+      "transcript": [
+        {
+          "start_time": 1040,
+          "end_time": 2560,
+          "content": "Hey. Hey, what's going on?",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 2560,
+          "end_time": 2960,
+          "content": "How are you?",
+          "speaker": "Speaker 2"
+        },
+        {
+          "start_time": 4000,
+          "end_time": 10400,
+          "content": "Good. How are you doing? I'm good. Yeah, working on. Yeah,",
+          "speaker": "Speaker 2"
+        },
+        {
+          "start_time": 10800,
+          "end_time": 13360,
+          "content": "Trying to stay out of trouble and not get too busy.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 15040,
+          "end_time": 21120,
+          "content": "You know, like doing side projects with my AI crap. But no, I've been great. I'm driving to Jackson today.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 25520,
+          "end_time": 28880,
+          "content": "Um, I was calling to see if we're going to be grant.",
+          "speaker": "Speaker 2"
+        },
+        {
+          "start_time": 29490,
+          "end_time": 31330,
+          "content": "That I need to apply for.",
+          "speaker": "Speaker 2"
+        },
+        {
+          "start_time": 31970,
+          "end_time": 39250,
+          "content": "So basically, we're hiring nurse practitioners. We're offering wound care. All of the wound care companies went under.",
+          "speaker": "Speaker 2"
+        },
+        {
+          "start_time": 40290,
+          "end_time": 57730,
+          "content": "Okay. And so we're trying to raise these grants for all these different things, and saying that we're going to hire people, and we're growing, so we can take care of people with wounds and in their home with nurse practitioners and registered nurses.",
+          "speaker": "Speaker 2"
+        },
+        {
+          "start_time": 58290,
+          "end_time": 67410,
+          "content": "I don't have time to write these grants. It's getting a percentage of the grant that we receive in payment. Would you write the grant for your dad?",
+          "speaker": "Speaker 2"
+        },
+        {
+          "start_time": 68290,
+          "end_time": 70690,
+          "content": "I mean, yeah, why not?",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 72690,
+          "end_time": 73730,
+          "content": "Do you have?",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 74370,
+          "end_time": 77970,
+          "content": "Because what I would do is I would probably build like a specific setup just for that.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 80210,
+          "end_time": 85890,
+          "content": "What? Do you have like a couple of a couple of links to some web pages you can send me?",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 87970,
+          "end_time": 94370,
+          "content": "To you today, some of the grants. There's like endless amount of grants we can apply. Well, one of them due like mid-November,",
+          "speaker": "Speaker 2"
+        },
+        {
+          "start_time": 94930,
+          "end_time": 101170,
+          "content": "But basically the state is giving out like all these grants, like specifically for like wound care stuff.",
+          "speaker": "Speaker 2"
+        },
+        {
+          "start_time": 102370,
+          "end_time": 104370,
+          "content": "So, so for for what is it now exactly?",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 105490,
+          "end_time": 113890,
+          "content": "So basically, well, there's a few. There's some for like women-owned businesses. There's one for the state that's coming out. Yep. And basically,",
+          "speaker": "Speaker 2"
+        },
+        {
+          "start_time": 115170,
+          "end_time": 117250,
+          "content": "It's just saying like we're hiring you're practitioners.",
+          "speaker": "Speaker 2"
+        },
+        {
+          "start_time": 119270,
+          "end_time": 122870,
+          "content": "Registered nurses to take care of people's needs and health,",
+          "speaker": "Speaker 2"
+        },
+        {
+          "start_time": 123430,
+          "end_time": 125830,
+          "content": "And to see them as primary care providers,",
+          "speaker": "Speaker 2"
+        },
+        {
+          "start_time": 126710,
+          "end_time": 131430,
+          "content": "And we use this idea to hire people essentially.",
+          "speaker": "Speaker 2"
+        },
+        {
+          "start_time": 132710,
+          "end_time": 138630,
+          "content": "Okay. Yeah. I mean that makes sense. So, if you send me a few, a few, just like,",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 139670,
+          "end_time": 147350,
+          "content": "Kind of give me started. Like, all I need is probably one or two examples, and then I'll build a system that starts figuring all that out.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 149020,
+          "end_time": 150060,
+          "content": "And yeah, for sure.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 151340,
+          "end_time": 152620,
+          "content": "I'll help you do that. I mean,",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 154300,
+          "end_time": 154700,
+          "content": "Um,",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 155740,
+          "end_time": 156540,
+          "content": "Yeah, let's do that.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 156540,
+          "end_time": 158540,
+          "content": "I don't know.",
+          "speaker": "Speaker 2"
+        },
+        {
+          "start_time": 158540,
+          "end_time": 160140,
+          "content": "I mean, I don't need a. I mean,",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 161100,
+          "end_time": 164780,
+          "content": "Let's see if we can figure it out and get get a win, right? Like, let's see if we can get one.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 165900,
+          "end_time": 167980,
+          "content": "Um, and let. But yeah, send me the.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 169020,
+          "end_time": 170780,
+          "content": "Just get me started with a little bit of information,",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 171340,
+          "end_time": 175420,
+          "content": "Like where is the stuff? Where is it on the on the government's website? And whenever we hang up,",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 176140,
+          "end_time": 179490,
+          "content": "I'll. Have one of my bots start digging into it, also.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 180050,
+          "end_time": 184290,
+          "content": "But give me kind of what you're seeing, so I know like what you're looking at, like from your perspective.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 185250,
+          "end_time": 189010,
+          "content": "Like maybe, for example, like the first one that you just told me, you know exactly when it's due,",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 190370,
+          "end_time": 193010,
+          "content": "And and then I'll get rolling on it and see what I can figure out.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 194210,
+          "end_time": 205730,
+          "content": "Yeah, I mean, you know, once we get rolling, I definitely think we'll get funding, and I don't know, you know, how much money you paid or whatever, but I'll finish you. Thank you so much. No problem. Thank you.",
+          "speaker": "Speaker 2"
+        },
+        {
+          "start_time": 207060,
+          "end_time": 207460,
+          "content": "\u62dc\u62dc\u3002",
+          "speaker": "Speaker 2"
+        }
+      ]
+    },
     {
       "id": "of_41e3935dd06b767f402947c1726b0ff5",
       "name": "Grokbot Pages \u00b7 Copper five-dashboard reverse prompt (Ada 2.0 holes)",

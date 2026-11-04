@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Personal · In-home wound-care grants (dad) — mid-Nov deadline</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500&family=IBM+Plex+Mono:wght@400;500&family=Source+Sans+3:wght@400;600;700&display=swap">
+  <style>
+:root {
+  --bg: #090908;
+  --bg-2: #11110f;
+  --bg-3: #181714;
+  --ink: #f0eadc;
+  --muted: #8d8778;
+  --faint: #5c574c;
+  --line: #26241e;
+  --accent: #c4452d;
+  --mustard: #c4a35a;
+  --blue: #6f8fbf;
+  --ok: #7d9a6d;
+  --serif: "Fraunces", "Iowan Old Style", Georgia, serif;
+  --sans: "Source Sans 3", "Source Sans Pro", -apple-system, sans-serif;
+  --mono: "IBM Plex Mono", ui-monospace, monospace;
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html, body { background: var(--bg); color: var(--ink); }
+body {
+  font-family: var(--sans);
+  min-height: 100vh;
+  text-wrap: pretty;
+}
+a { color: inherit; }
+.shell { display: grid; grid-template-columns: 260px 1fr; min-height: 100vh; }
+.rail {
+  border-right: 1px solid var(--line);
+  padding: 28px 18px 40px;
+  background: var(--bg-2);
+  position: sticky; top: 0; height: 100vh; overflow: auto;
+}
+.mark {
+  font-family: var(--serif);
+  font-weight: 500;
+  font-size: 13px;
+  letter-spacing: .18em;
+  text-transform: uppercase;
+  color: var(--accent);
+}
+.rail h1 {
+  font-family: var(--serif);
+  font-size: 28px;
+  font-weight: 460;
+  letter-spacing: -.03em;
+  margin: 10px 0 6px;
+}
+.rail .lede { color: var(--muted); font-size: 13.5px; line-height: 1.45; margin-bottom: 28px; }
+.vnav { display: flex; flex-direction: column; gap: 4px; }
+.vnav a {
+  display: flex; justify-content: space-between; align-items: baseline;
+  text-decoration: none; padding: 9px 10px; border-radius: 8px;
+  color: var(--ink); font-size: 14px;
+}
+.vnav a:hover, .vnav a.is-on { background: var(--bg-3); }
+.vnav a.is-on { box-shadow: inset 2px 0 0 var(--accent); }
+.vnav .count { color: var(--faint); font-family: var(--mono); font-size: 11px; }
+.stage { padding: 36px 40px 80px; max-width: 980px; }
+.kicker {
+  font-size: 11px; letter-spacing: .16em; text-transform: uppercase;
+  color: var(--accent); font-weight: 700; margin-bottom: 8px;
+}
+.stage > h2 {
+  font-family: var(--serif); font-weight: 460; font-size: 34px;
+  letter-spacing: -.03em; margin-bottom: 8px;
+}
+.blurb { color: var(--muted); margin-bottom: 28px; max-width: 46rem; }
+.empty {
+  border: 1px dashed var(--line); border-radius: 14px;
+  padding: 36px 28px; color: var(--muted); background: var(--bg-2);
+}
+.empty strong { color: var(--ink); font-weight: 600; }
+.cards { display: flex; flex-direction: column; gap: 10px; }
+.card {
+  display: grid; grid-template-columns: 1fr auto; gap: 12px;
+  text-decoration: none; padding: 16px 18px; border-radius: 12px;
+  background: var(--bg-2); border: 1px solid var(--line);
+}
+.card:hover { border-color: #3a372e; background: var(--bg-3); }
+.card h3 { font-size: 16px; font-weight: 600; margin-bottom: 4px; }
+.meta { color: var(--muted); font-size: 13px; display: flex; gap: 10px; flex-wrap: wrap; }
+.chip {
+  font-family: var(--mono); font-size: 10px; letter-spacing: .06em;
+  text-transform: uppercase; padding: 3px 7px; border-radius: 999px;
+  border: 1px solid var(--line); color: var(--muted); height: fit-content;
+}
+.chip.dealers { color: var(--blue); border-color: #2a3344; }
+.chip.avec-tous { color: var(--mustard); border-color: #3a3320; }
+.chip.personal { color: #c9a7a0; }
+.chip.ideas { color: var(--ok); }
+.note-top { margin-bottom: 22px; }
+.note-top h2 { font-family: var(--serif); font-size: 36px; font-weight: 460; letter-spacing: -.03em; }
+.tabs { display: flex; gap: 6px; margin: 22px 0 18px; border-bottom: 1px solid var(--line); }
+.tabs button {
+  appearance: none; background: none; border: 0; color: var(--muted);
+  font: 600 13px var(--sans); padding: 10px 12px; cursor: pointer;
+  border-bottom: 2px solid transparent; margin-bottom: -1px;
+}
+.tabs button[aria-selected="true"] { color: var(--ink); border-bottom-color: var(--accent); }
+.panel { display: none; }
+.panel.is-on { display: block; }
+.prose { font-size: 16.5px; line-height: 1.6; max-width: 42rem; }
+.prose h2, .prose h3 { font-family: var(--serif); font-weight: 500; margin: 1.3em 0 .4em; }
+.prose p { margin: 0 0 .8em; }
+.prose ul, .prose ol { margin: 0 0 1em 1.2em; }
+.prose li { margin: .25em 0; }
+.hl { border-left: 2px solid var(--accent); padding: 10px 0 10px 14px; margin: 0 0 14px; }
+.hl .t { font-family: var(--mono); font-size: 11px; color: var(--faint); }
+.hl h4 { font-size: 15px; margin: 4px 0; }
+.hl p { color: var(--muted); font-size: 14.5px; }
+.seg { display: grid; grid-template-columns: 64px 1fr; gap: 12px; padding: 8px 0; border-bottom: 1px solid var(--line); }
+.seg .ts { font-family: var(--mono); font-size: 11px; color: var(--faint); padding-top: 3px; }
+.back { color: var(--muted); text-decoration: none; font-size: 13px; display: inline-block; margin-bottom: 18px; }
+.back:hover { color: var(--ink); }
+footer { margin-top: 48px; color: var(--faint); font-size: 11px; font-family: var(--mono); }
+@media (max-width: 820px) {
+  .shell { grid-template-columns: 1fr; }
+  .rail { position: relative; height: auto; border-right: 0; border-bottom: 1px solid var(--line); }
+  .stage { padding: 24px 18px 64px; }
+  .note-top h2 { font-size: 28px; }
+}
+</style>
+</head>
+<body>
+<div class="shell">
+<aside class="rail">
+  <div class="mark">Cooperative</div>
+  <h1>Field desk</h1>
+  <p class="lede">Plaud landings. Summary, highlights, transcript — filed by life area.</p>
+  <nav class="vnav"><a href="../index.html" class="">All <span class="count">141</span></a><a class="" href="../vertical-inbox.html">Inbox <span class="count">1</span></a><a class="is-on" href="../vertical-personal.html">Personal <span class="count">11</span></a><a class="" href="../vertical-coop-marketing.html">Coop Marketing <span class="count">6</span></a><a class="" href="../vertical-coop-dev.html">Coop Dev <span class="count">18</span></a><a class="" href="../vertical-avec-tous.html">Avec Tous <span class="count">0</span></a><a class="" href="../vertical-dealers.html">Dealers <span class="count">98</span></a><a class="" href="../vertical-ideas.html">Ideas <span class="count">7</span></a></nav>
+</aside>
+<main class="stage">
+  <a class="back" href="../index.html">← Desk</a>
+  <div class="note-top">
+    <div class="kicker">personal · 2026-11-04 · 3m32s</div>
+    <h2>Personal · In-home wound-care grants (dad) — mid-Nov deadline</h2>
+    <div class="meta" style="margin-top:8px"><span>id of_8a4234f8d19fd7d1ffb7e4bfcda25ddc</span><span>Midday — family call; dad/org wound-care grants; Lance driving to Jackson</span></div>
+  </div>
+  <div class="tabs" role="tablist">
+    <button type="button" data-panel="sum" aria-selected="true">Summary</button>
+    <button type="button" data-panel="hl" aria-selected="false">Highlights</button>
+    <button type="button" data-panel="tx" aria-selected="false">Transcript</button>
+  </div>
+  <section id="sum" class="panel is-on prose"><h2>Takeaway</h2>
+<p><strong>Personal</strong> call while Lance drives to <strong>Jackson</strong> — help <strong>dad’s org</strong> chase <strong>in-home wound-care grants</strong> (NP/RN hiring; other wound-care shops folded).</p>
+<h2>What landed</h2>
+<ul>
+<li>Org hiring nurse practitioners + RNs for home wound care / primary-care style visits</li>
+<li>Grants: women-owned business + state wound-care; <strong>one due mid-November</strong></li>
+<li>Ask: Lance write grants (share of award); he said <strong>yes</strong> and will stand up a <strong>specific grant setup</strong></li>
+<li>Blocker: need <strong>1–2 example links</strong> + where they live on gov sites; caller said they’d send today</li>
+<li>Lance: once materials land, <strong>bot starts digging</strong></li>
+</ul>
+<h2>Disposition</h2>
+<p><strong>park / wait</strong> — no build without the links. Not dealer work.</p></section>
+  <section id="hl" class="panel"><div class="hl"><div class="t">1:08</div><h4>Yes on grant help</h4><p>Lance agreed to help write grants for dad’s wound-care org.</p></div><div class="hl"><div class="t">1:27</div><h4>Mid-Nov deadline</h4><p>At least one grant due mid-November; women-owned + state wound-care mentioned.</p></div><div class="hl"><div class="t">1:20</div><h4>Need starter links</h4><p>Lance asked for 1–2 example pages + gov listing location before bot research.</p></div><div class="hl"><div class="t">2:56</div><h4>Bot after materials</h4><p>Once hung up + links, bot digs; build a dedicated grant setup.</p></div></section>
+  <section id="tx" class="panel"><div class="seg"><div class="ts">0:01</div><div>Hey. Hey, what&#x27;s going on?</div></div><div class="seg"><div class="ts">0:02</div><div>How are you?</div></div><div class="seg"><div class="ts">0:04</div><div>Good. How are you doing? I&#x27;m good. Yeah, working on. Yeah,</div></div><div class="seg"><div class="ts">0:10</div><div>Trying to stay out of trouble and not get too busy.</div></div><div class="seg"><div class="ts">0:15</div><div>You know, like doing side projects with my AI crap. But no, I&#x27;ve been great. I&#x27;m driving to Jackson today.</div></div><div class="seg"><div class="ts">0:25</div><div>Um, I was calling to see if we&#x27;re going to be grant.</div></div><div class="seg"><div class="ts">0:29</div><div>That I need to apply for.</div></div><div class="seg"><div class="ts">0:31</div><div>So basically, we&#x27;re hiring nurse practitioners. We&#x27;re offering wound care. All of the wound care companies went under.</div></div><div class="seg"><div class="ts">0:40</div><div>Okay. And so we&#x27;re trying to raise these grants for all these different things, and saying that we&#x27;re going to hire people, and we&#x27;re growing, so we can take care of people with wounds and in their home with nurse practitioners and registered nurses.</div></div><div class="seg"><div class="ts">0:58</div><div>I don&#x27;t have time to write these grants. It&#x27;s getting a percentage of the grant that we receive in payment. Would you write the grant for your dad?</div></div><div class="seg"><div class="ts">1:08</div><div>I mean, yeah, why not?</div></div><div class="seg"><div class="ts">1:12</div><div>Do you have?</div></div><div class="seg"><div class="ts">1:14</div><div>Because what I would do is I would probably build like a specific setup just for that.</div></div><div class="seg"><div class="ts">1:20</div><div>What? Do you have like a couple of a couple of links to some web pages you can send me?</div></div><div class="seg"><div class="ts">1:27</div><div>To you today, some of the grants. There&#x27;s like endless amount of grants we can apply. Well, one of them due like mid-November,</div></div><div class="seg"><div class="ts">1:34</div><div>But basically the state is giving out like all these grants, like specifically for like wound care stuff.</div></div><div class="seg"><div class="ts">1:42</div><div>So, so for for what is it now exactly?</div></div><div class="seg"><div class="ts">1:45</div><div>So basically, well, there&#x27;s a few. There&#x27;s some for like women-owned businesses. There&#x27;s one for the state that&#x27;s coming out. Yep. And basically,</div></div><div class="seg"><div class="ts">1:55</div><div>It&#x27;s just saying like we&#x27;re hiring you&#x27;re practitioners.</div></div><div class="seg"><div class="ts">1:59</div><div>Registered nurses to take care of people&#x27;s needs and health,</div></div><div class="seg"><div class="ts">2:03</div><div>And to see them as primary care providers,</div></div><div class="seg"><div class="ts">2:06</div><div>And we use this idea to hire people essentially.</div></div><div class="seg"><div class="ts">2:12</div><div>Okay. Yeah. I mean that makes sense. So, if you send me a few, a few, just like,</div></div><div class="seg"><div class="ts">2:19</div><div>Kind of give me started. Like, all I need is probably one or two examples, and then I&#x27;ll build a system that starts figuring all that out.</div></div><div class="seg"><div class="ts">2:29</div><div>And yeah, for sure.</div></div><div class="seg"><div class="ts">2:31</div><div>I&#x27;ll help you do that. I mean,</div></div><div class="seg"><div class="ts">2:34</div><div>Um,</div></div><div class="seg"><div class="ts">2:35</div><div>Yeah, let&#x27;s do that.</div></div><div class="seg"><div class="ts">2:36</div><div>I don&#x27;t know.</div></div><div class="seg"><div class="ts">2:38</div><div>I mean, I don&#x27;t need a. I mean,</div></div><div class="seg"><div class="ts">2:41</div><div>Let&#x27;s see if we can figure it out and get get a win, right? Like, let&#x27;s see if we can get one.</div></div><div class="seg"><div class="ts">2:45</div><div>Um, and let. But yeah, send me the.</div></div><div class="seg"><div class="ts">2:49</div><div>Just get me started with a little bit of information,</div></div><div class="seg"><div class="ts">2:51</div><div>Like where is the stuff? Where is it on the on the government&#x27;s website? And whenever we hang up,</div></div><div class="seg"><div class="ts">2:56</div><div>I&#x27;ll. Have one of my bots start digging into it, also.</div></div><div class="seg"><div class="ts">3:00</div><div>But give me kind of what you&#x27;re seeing, so I know like what you&#x27;re looking at, like from your perspective.</div></div><div class="seg"><div class="ts">3:05</div><div>Like maybe, for example, like the first one that you just told me, you know exactly when it&#x27;s due,</div></div><div class="seg"><div class="ts">3:10</div><div>And and then I&#x27;ll get rolling on it and see what I can figure out.</div></div><div class="seg"><div class="ts">3:14</div><div>Yeah, I mean, you know, once we get rolling, I definitely think we&#x27;ll get funding, and I don&#x27;t know, you know, how much money you paid or whatever, but I&#x27;ll finish you. Thank you so much. No problem. Thank you.</div></div><div class="seg"><div class="ts">3:27</div><div>拜拜。</div></div></section>
+</main>
+</div>
+<footer>PLAUD-NOTES-2026-11-04-1331 · noindex · Plaud sources + notes</footer>
+<script>
+
+document.querySelectorAll('.tabs button').forEach(btn => {
+  btn.addEventListener('click', () => {
+    document.querySelectorAll('.tabs button').forEach(b => b.setAttribute('aria-selected', b===btn ? 'true':'false'));
+    document.querySelectorAll('.panel').forEach(p => p.classList.toggle('is-on', p.id === btn.dataset.panel));
+  });
+});
+
+</script>
+</body>
+</html>
