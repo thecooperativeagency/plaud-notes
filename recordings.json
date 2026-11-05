@@ -1,6 +1,92 @@
 {
-  "revision": "PLAUD-NOTES-2026-11-04-1331",
+  "revision": "PLAUD-NOTES-2026-11-05-0601",
   "recordings": [
+    {
+      "id": "of_319ba37be39588f84df657266e316c74",
+      "name": "ABR \u00b7 Store page college news + buyer\u2019s guide \u2192 Landon proof",
+      "start_at": "2026-11-04T20:04:13",
+      "created_at": "2026-11-04T20:05:09",
+      "duration_ms": 48000,
+      "vertical": "dealers",
+      "store": "abr",
+      "routed_by": "Morning brief Nov 5 \u2014 A8/store context; buyer\u2019s guide + newsletter page talk",
+      "status": "park",
+      "work_order": "Park. Lance: resend buyer\u2019s guide to Landon for full proof before publish; Owen clarity pass may still be open. College-news / richer newsletter page = direction only until go. No Ada build.",
+      "summary_md": "## Takeaway\n**ABR** short floor/side chat \u2014 store-page content direction + **buyer\u2019s guide** proof path.\n\n## Content\n- Lance wants **college news** on the store page, plus the newsletter as a **separate richer page** (more than the email alone)\n- Built them a newsletter already; expanding the idea\n\n## Buyer\u2019s guide\n- Will **resend link to Landon** to proofread end-to-end before publish\n- Earlier sent to **Owen** for clarity check \u2014 unsure if he replied\n- Goal: nothing that doesn\u2019t make sense on the page\n\n## Floor color\n- A8s: \u201cnot much\u201d volume\n- Joke beat on what they sell\n\n## Disposition\n**park** \u2014 Lance owns Landon resend + proof gate; college-news / richer newsletter page is direction only, not an Ada build go.\n",
+      "highlights": [
+        {
+          "title": "College news on store page",
+          "content": "Want college news on the store page plus a richer standalone newsletter page.",
+          "timestamp": 0
+        },
+        {
+          "title": "Buyer\u2019s guide \u2192 Landon",
+          "content": "Resend guide link to Landon for full proofread before publish.",
+          "timestamp": 13200
+        },
+        {
+          "title": "Owen clarity pass",
+          "content": "Earlier sent to Owen; unsure if he replied.",
+          "timestamp": 26800
+        }
+      ],
+      "transcript": [
+        {
+          "start_time": 0,
+          "end_time": 7200,
+          "content": "Think about the page for this store. I think about I want to have in it like college news also. So like the newsletter that I built for us,",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 8160,
+          "end_time": 12240,
+          "content": "But like a separate little page that lives and it's the newsletter, but then it's like so much more.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 13200,
+          "end_time": 25360,
+          "content": "So like, have you seen the? I built y'all one, but I haven't gotten. I didn't. I'll resend the link to Landon for y'all's buyer's guide. I'll make him be the one to proofread the whole thing before I publish it.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 26800,
+          "end_time": 32500,
+          "content": "I'll send it to you too. What'd you send Owen? I think y'all he did. I did, but I don't know if anybody\u2014if he ever got back to me on it.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 33620,
+          "end_time": 39300,
+          "content": "I just wanted to pass his eyes on it, make sure there's nothing that doesn't make sense in it. That's all.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 40740,
+          "end_time": 42740,
+          "content": "They sell these cars at all, A8s?",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 43620,
+          "end_time": 44260,
+          "content": "Not much.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 46020,
+          "end_time": 46900,
+          "content": "What do they sell?",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 48100,
+          "end_time": 48260,
+          "content": "You.",
+          "speaker": "Lance"
+        }
+      ]
+    },
     {
       "id": "of_b787f60930a8ff01612f12793691681a",
       "name": "BMWJ \u00b7 Used-car hiring (young talent) + Cleveland earnings pass",
