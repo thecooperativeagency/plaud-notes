@@ -1,6 +1,3060 @@
 {
-  "revision": "PLAUD-NOTES-2026-11-05-0601",
+  "revision": "PLAUD-NOTES-2026-11-06-0601",
   "recordings": [
+    {
+      "id": "of_7119c198d18e2eb909d2add494cbf015",
+      "name": "BHBMW \u00b7 X3/X5 month strategy + content/spiffs (Brett)",
+      "start_at": "2026-11-05T22:40:40",
+      "created_at": "2026-11-05T22:50:13",
+      "duration_ms": 564000,
+      "vertical": "dealers",
+      "store": "bhbmw",
+      "routed_by": "Morning brief Nov 6 \u2014 BHBMW Brett X3/X5 + Landon/Randy content",
+      "status": "park",
+      "work_order": "Park + Lance. (1) Possible targeted spend on existing X3 feature pages + X5 push \u2014 Lance call w/ Michael/J&L; do not raise search caps without volume. (2) Wed on-site content session w/ Brett (J&L lunch same day context). (3) Staff video spiffs + Randy/Landon on-camera \u2014 store/Lance decide; no Ada build. Affluent ZIP / Nacogdoches ideas only.",
+      "summary_md": "- Speaker 2 reported low sales and said the team lacks a strategy to beat last month. They were reluctant to advertise the X3 but also said it \u201chas to go.\u201d Lance said the X5 should be pushed alongside it and noted he had built three X3 feature pages for potential ad spending. He cautioned that more search ad spend may not help without search volume.\n- Speaker 2 questioned whether expanding beyond the primary area would improve results. Lance suggested targeting affluent ZIP codes, including Nacogdoches; Speaker 2 also mentioned Ruston and described Monroe as a \u201cgray zone.\u201d\n- Lance proposed video ads featuring Speaker 2 and Landon on Facebook and TikTok. They disagreed about whether Facebook still works. Lance suggested producing content internally rather than hiring an expensive full-service agency; Speaker 2 suggested Randy create videos.\n- Lance plans to visit Wednesday and agreed to work with Speaker 2 on content. He offered to contribute financially to staff video-making spiffs.",
+      "highlights": [
+        {
+          "title": "X3 + X5 push",
+          "content": "X3 has to go; X5 is the card to push. Three X3 feature pages already built for possible targeted spend.",
+          "timestamp": 35810
+        },
+        {
+          "title": "Search volume limit",
+          "content": "More search spend won\u2019t help if nobody is searching; structure stays, small offer tweaks.",
+          "timestamp": 78810
+        },
+        {
+          "title": "Affluent ZIPs",
+          "content": "Target affluent zips; Nacogdoches floated; Ruston/Monroe gray vs Shreveport.",
+          "timestamp": 174720
+        },
+        {
+          "title": "Face video ads",
+          "content": "Brett + Landon (or Randy) on FB/TikTok; internal content over $5\u20138k agency.",
+          "timestamp": 240270
+        },
+        {
+          "title": "Wednesday content",
+          "content": "Lance on site Wednesday (J&L lunch). Content session + calendar; open to video spiffs.",
+          "timestamp": 438480
+        }
+      ],
+      "transcript": [
+        {
+          "start_time": 80,
+          "end_time": 800,
+          "content": "Hello, sir.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 1440,
+          "end_time": 5920,
+          "content": "We got on deck to change the path of the history of last month.",
+          "speaker": "Speaker 2"
+        },
+        {
+          "start_time": 7520,
+          "end_time": 10080,
+          "content": "The path of the to make this month better.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 11200,
+          "end_time": 17600,
+          "content": "Yeah, because we've done one, two, two. Today looks like zero.",
+          "speaker": "Speaker 2"
+        },
+        {
+          "start_time": 19520,
+          "end_time": 29840,
+          "content": "What are you thinking? I need some insight because we're sitting here talking with Randy and Landon, and we don't have a strategy or a game plan to defeat last month.",
+          "speaker": "Speaker 2"
+        },
+        {
+          "start_time": 30930,
+          "end_time": 34690,
+          "content": "So I've got to have some kind of advertising that's going to something extra.",
+          "speaker": "Speaker 2"
+        },
+        {
+          "start_time": 35810,
+          "end_time": 38530,
+          "content": "We got. I mean, I don't want to waste any money on X3.",
+          "speaker": "Speaker 2"
+        },
+        {
+          "start_time": 39250,
+          "end_time": 39970,
+          "content": "They're not going to sell.",
+          "speaker": "Speaker 2"
+        },
+        {
+          "start_time": 40050,
+          "end_time": 43650,
+          "content": "No, the X5 is the card to push. X5 and X3.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 43650,
+          "end_time": 45890,
+          "content": "X3. X3s got to go.",
+          "speaker": "Speaker 2"
+        },
+        {
+          "start_time": 45890,
+          "end_time": 48770,
+          "content": "Yeah. So I have a special page built for X3s. I can.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 49730,
+          "end_time": 51090,
+          "content": "That's already all done. I can.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 52210,
+          "end_time": 55010,
+          "content": "I can. I can put some specific.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 55570,
+          "end_time": 62490,
+          "content": "Let me do this. Let me. Let me. Put specific money on those like three special feature pages that actually fucking matter.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 64090,
+          "end_time": 64890,
+          "content": "That makes sense.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 68330,
+          "end_time": 75530,
+          "content": "Well, I mean, it's look, everything's set up and it's efficient and it works. It does what it does. But the problem, and I was just discussing this with Caleb.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 76170,
+          "end_time": 77370,
+          "content": "The problem is if we're not,",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 78810,
+          "end_time": 82890,
+          "content": "If there's nobody searching, then a search campaign doesn't help.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 85050,
+          "end_time": 86010,
+          "content": "Right, and so it's like.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 86520,
+          "end_time": 93080,
+          "content": "If I say shit, let me go from three to six thousand dollars. Well, doesn't fucking matter. If they're not searching, you're not gonna spend it. It's not gonna do anything.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 95800,
+          "end_time": 97400,
+          "content": "Right. So there's no point. So,",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 98360,
+          "end_time": 98840,
+          "content": "Uh,",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 99960,
+          "end_time": 117920,
+          "content": "Let me call them and let me let me do nothing. They're not doing anything different at all. They just I don't change Brian Harris's marketing structure at all. I haven't changed it in. Fucking five years,",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 118800,
+          "end_time": 120640,
+          "content": "You know. Like when I set up J and L,",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 121200,
+          "end_time": 135440,
+          "content": "I have a have. We we have some very small tweaks once in a while. The same kind of like calls that you and I have done. Like with J and L, I do those calls with everybody every month, and it's like with Brian Harris, it's just okay. Well, this is working. Let's do this month's offers, and okay, let's roll.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 136880,
+          "end_time": 140400,
+          "content": "Well, so we,",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 140400,
+          "end_time": 143280,
+          "content": "You know, I I talked you with.",
+          "speaker": "Speaker 2"
+        },
+        {
+          "start_time": 144950,
+          "end_time": 148390,
+          "content": "Pouring all the money that we have into our EMA area.",
+          "speaker": "Speaker 2"
+        },
+        {
+          "start_time": 149510,
+          "end_time": 156790,
+          "content": "Yeah, and I don't know that that would change any if I moved it out again.",
+          "speaker": "Speaker 2"
+        },
+        {
+          "start_time": 157030,
+          "end_time": 161270,
+          "content": "Well, if we just broadened it, you're saying just go a little broader. Yeah,",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 162230,
+          "end_time": 173990,
+          "content": "I don't know how much it helps. I, you know, for me, what I would do if I want to call with them and I'll make a fresh call with them, I might be able to. I might be able to catch Michael before he's done for the day. But it's basically.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 174720,
+          "end_time": 185920,
+          "content": "Hey man, is there? Let's look and do some targeted outreach to these few zips that are like our most affluent markets.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 187520,
+          "end_time": 191280,
+          "content": "Yeah, like straight across. Yeah, y'all sell more cars there than we do. I know.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 194000,
+          "end_time": 195040,
+          "content": "What about Nacogdoches?",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 195680,
+          "end_time": 196880,
+          "content": "Because there's money up there.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 198240,
+          "end_time": 201120,
+          "content": "Is that too far? Nacogdoches up there, past like in them.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 201840,
+          "end_time": 202720,
+          "content": "It's like north.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 204050,
+          "end_time": 204850,
+          "content": "North Louis,",
+          "speaker": "Speaker 2"
+        },
+        {
+          "start_time": 206530,
+          "end_time": 210690,
+          "content": "Yes, yeah. It's like, it's right. I think it's shit. It's almost even with you guys.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 211250,
+          "end_time": 211890,
+          "content": "Rustin,",
+          "speaker": "Speaker 2"
+        },
+        {
+          "start_time": 213330,
+          "end_time": 225890,
+          "content": "Yeah, yeah, yeah. But that's that range. Yeah, but Rustin is gonna be in Streetport's family.",
+          "speaker": "Speaker 2"
+        },
+        {
+          "start_time": 226530,
+          "end_time": 227970,
+          "content": "Yeah, they're thirty miles apart.",
+          "speaker": "Speaker 2"
+        },
+        {
+          "start_time": 230050,
+          "end_time": 232130,
+          "content": "Monroe's kind of like that that gray zone.",
+          "speaker": "Speaker 2"
+        },
+        {
+          "start_time": 235870,
+          "end_time": 238830,
+          "content": "Okay, I'm just throwing up some ideas. Let's do this. There's a, there's a,",
+          "speaker": "Speaker 2"
+        },
+        {
+          "start_time": 240270,
+          "end_time": 251150,
+          "content": "No, there's a kind of video. There's, there's a, an ad that I, that I think we should do, and I think we should do an ad that has you and Landon actually in the spot.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 252590,
+          "end_time": 254590,
+          "content": "I think we need to do a different kind of fucking ad,",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 255950,
+          "end_time": 256990,
+          "content": "And put it on Facebook,",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 258029,
+          "end_time": 258829,
+          "content": "And on TikTok.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 263930,
+          "end_time": 267370,
+          "content": "Well, it's not. I mean, it's not from the standpoint that I assure you.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 268490,
+          "end_time": 270250,
+          "content": "Well, no, he's trying to sell me Facebook.",
+          "speaker": "Speaker 2"
+        },
+        {
+          "start_time": 270810,
+          "end_time": 271610,
+          "content": "What you mean, like?",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 274970,
+          "end_time": 276330,
+          "content": "Yeah. Well, who was it?",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 278970,
+          "end_time": 280570,
+          "content": "Was it Busy Monkey or Monkey something?",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 281290,
+          "end_time": 282810,
+          "content": "They keep advertising to me.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 287290,
+          "end_time": 288570,
+          "content": "Yeah, that's Monkey Funk.",
+          "speaker": "Speaker 2"
+        },
+        {
+          "start_time": 289770,
+          "end_time": 295950,
+          "content": "No, this guy just called me and said,\"Hey, man, you know.\" You know, for you know, for pennies on the dollar, I can come in and help you with Facebook.",
+          "speaker": "Speaker 2"
+        },
+        {
+          "start_time": 296990,
+          "end_time": 301550,
+          "content": "I said, man, Facebook's dead. That's for dinosaurs. That's for old people like me to show off to grandkids.",
+          "speaker": "Speaker 2"
+        },
+        {
+          "start_time": 302510,
+          "end_time": 306110,
+          "content": "I think I found it. He was actually wanted to do.",
+          "speaker": "Speaker 2"
+        },
+        {
+          "start_time": 306190,
+          "end_time": 313870,
+          "content": "I don't think it's dead. I think it it needs to be done right, and I and I don't think there's anything wrong with it. Honestly, I'd like to know who that was, and I'll I'll talk to him.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 315070,
+          "end_time": 316670,
+          "content": "I thought you'd be calling. Okay, good.",
+          "speaker": "Speaker 2"
+        },
+        {
+          "start_time": 316750,
+          "end_time": 320830,
+          "content": "Well, I hadn't heard from him, but you told him my name. You gave him my number.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 321630,
+          "end_time": 324750,
+          "content": "No, I didn't give you your number. He said, \"He said, okay. I said, just Google it,",
+          "speaker": "Speaker 2"
+        },
+        {
+          "start_time": 324750,
+          "end_time": 326350,
+          "content": "You'll find.\" Okay.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 327550,
+          "end_time": 328830,
+          "content": "Well, shit. I'll keep an eye out.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 329790,
+          "end_time": 332030,
+          "content": "Hey, guess what? If he really wants it, we'll find out.",
+          "speaker": "Speaker 2"
+        },
+        {
+          "start_time": 333150,
+          "end_time": 337070,
+          "content": "Yeah. You think we need somebody here to just do content for us?",
+          "speaker": "Speaker 2"
+        },
+        {
+          "start_time": 338430,
+          "end_time": 341630,
+          "content": "Yeah, and the problem with just content is it gets pricey.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 342430,
+          "end_time": 343230,
+          "content": "It's expensive.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 344030,
+          "end_time": 347870,
+          "content": "Which is why it's like it.",
+          "speaker": "Speaker 2"
+        },
+        {
+          "start_time": 348480,
+          "end_time": 362000,
+          "content": "You know, I can't do the kind of coverage that an all social media agency does. That's just not what I do because they're like five grand, and all they do is twenty bit, twenty pieces of content all month. Like that's it, and they want five to eight grand. It's kind of nuts.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 365200,
+          "end_time": 375520,
+          "content": "We well, that's why we keep talking to saying we need the salespeople need to start making content just like Galleria does. You know, it's like they're not paying an outside agency. They don't have any agency making any videos.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 375760,
+          "end_time": 376240,
+          "content": "It's all.",
+          "speaker": "Speaker 2"
+        },
+        {
+          "start_time": 378390,
+          "end_time": 381750,
+          "content": "I know that,",
+          "speaker": "Speaker 2"
+        },
+        {
+          "start_time": 381750,
+          "end_time": 382310,
+          "content": "But fuck.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 382950,
+          "end_time": 385110,
+          "content": "That's why we need to hire more people, hire better people.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 385190,
+          "end_time": 387750,
+          "content": "We can be brandy as they close. Class F one,",
+          "speaker": "Speaker 2"
+        },
+        {
+          "start_time": 390326,
+          "end_time": 405230,
+          "content": "And we are here to celebrate again.",
+          "speaker": "Speaker 2"
+        },
+        {
+          "start_time": 406630,
+          "end_time": 406630,
+          "content": "Oh, fuck.",
+          "speaker": "Speaker 2"
+        },
+        {
+          "start_time": 412040,
+          "end_time": 413400,
+          "content": "Yeah, they wouldn't like it. I don't think.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 414040,
+          "end_time": 415960,
+          "content": "That would scare off the ones you're trying to attract.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 425000,
+          "end_time": 428680,
+          "content": "Nobody cares. Yeah, this this is so funny. Everybody.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 430440,
+          "end_time": 434840,
+          "content": "Yeah, makes a big hubbub over everything, and it's like me and nobody cares. It's just not gonna be.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 438480,
+          "end_time": 442560,
+          "content": "I am. We're gonna come Wednesday. We getting free lunch from J and L. Okay.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 443600,
+          "end_time": 449360,
+          "content": "Let's do some content stuff while you're here. Or either, or work with us and show us what we need to make and build.",
+          "speaker": "Speaker 2"
+        },
+        {
+          "start_time": 450160,
+          "end_time": 451600,
+          "content": "Okay. Let's do it.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 452160,
+          "end_time": 452960,
+          "content": "Hey, we could do a calendar.",
+          "speaker": "Speaker 2"
+        },
+        {
+          "start_time": 453520,
+          "end_time": 455760,
+          "content": "We could have everybody on the calendar.",
+          "speaker": "Speaker 2"
+        },
+        {
+          "start_time": 456960,
+          "end_time": 461280,
+          "content": "You mean like a like a fireman calendar like they do?",
+          "speaker": "Speaker 2"
+        },
+        {
+          "start_time": 461440,
+          "end_time": 461840,
+          "content": "Yes.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 463040,
+          "end_time": 465040,
+          "content": "Yeah. Yeah. And yeah. All right.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 466800,
+          "end_time": 467760,
+          "content": "I'll tell him.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 468700,
+          "end_time": 469660,
+          "content": "Jesus Christ!",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 471100,
+          "end_time": 477260,
+          "content": "I need to do a better job, and look, I need to figure out. We got to hack the system and figure out how to get more fucking business in there.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 479820,
+          "end_time": 480140,
+          "content": "Yeah.",
+          "speaker": "Speaker 2"
+        },
+        {
+          "start_time": 481420,
+          "end_time": 485180,
+          "content": "All right. You know, I'm okay. The reason I hired you is because I can't spell.",
+          "speaker": "Speaker 2"
+        },
+        {
+          "start_time": 485740,
+          "end_time": 492220,
+          "content": "Are are we open to like spit me spiffing? I mean, I'll even i'll I'll participate. I'll just put up some of my money.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 493580,
+          "end_time": 495660,
+          "content": "We just need a spiffs. I know you keep saying,",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 497660,
+          "end_time": 503330,
+          "content": "Look. I know you said you don't have people there that you want making videos, but I think we do.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 503410,
+          "end_time": 517570,
+          "content": "It might not be bad. I think that Randy. I think Randy should do it. Randy's the best-looking one of all of them. All right. And he's Mexican.",
+          "speaker": "Speaker 2"
+        },
+        {
+          "start_time": 518210,
+          "end_time": 518929,
+          "content": "He's okay.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 520690,
+          "end_time": 522210,
+          "content": "We'll get him. That's a perfect demographic.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 523250,
+          "end_time": 524370,
+          "content": "Fake. Fake Mexican.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 525810,
+          "end_time": 527330,
+          "content": "He's a fake Mexican. Yeah.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 529290,
+          "end_time": 535930,
+          "content": "Well, you know, a lot of those people got a lot of money up around there.",
+          "speaker": "Speaker 2"
+        },
+        {
+          "start_time": 535930,
+          "end_time": 536250,
+          "content": "I bet.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 538330,
+          "end_time": 541530,
+          "content": "Yep, they own up damn near everything. We could.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 543610,
+          "end_time": 545210,
+          "content": "All right, I'm gonna tell you.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 546330,
+          "end_time": 546650,
+          "content": "Yeah.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 549050,
+          "end_time": 554010,
+          "content": "Who? Oh my goodness. We will. Thank you. Thank y'all.",
+          "speaker": "Speaker 2"
+        },
+        {
+          "start_time": 559190,
+          "end_time": 561030,
+          "content": "All right. Bye bye. Thank you.",
+          "speaker": "Speaker 2"
+        }
+      ]
+    },
+    {
+      "id": "of_935c6fff309cd28a5e705060f69651ec",
+      "name": "Vendor/ad-spend \u00b7 Howell referral + BMW YT embeds + expansion",
+      "start_at": "2026-11-05T21:26:26",
+      "created_at": "2026-11-05T22:02:36",
+      "duration_ms": 2133000,
+      "vertical": "dealers",
+      "store": null,
+      "routed_by": "Morning brief Nov 6 \u2014 AutoTrader/Howell + J&L path + multi-rooftop video",
+      "status": "park",
+      "work_order": "Park + Lance. (1) Howell Summit GMC/Nissan free advisory visit still owed. (2) Unpublished YT embed work-block for both BMW stores (BHBMW+BMWJ) once video assets ready \u2014 share embed links to J&L/partner. (3) Expansion/hire/referral bonus = direction only. No Ada build from tape. No client email/spend changes.",
+      "summary_md": "- Lance manages Audi marketing and said search volume limits budget growth unless display or demand-generation channels are added. He uses Pipeboard to connect AI agents with Google and Meta for local search and ad-spend analysis.\n- An AutoTrader representative referred Howell Automotive, a GMC/Nissan group in Summit, Mississippi, to Lance for an ad-spend and vendor review. Lance also wants to add Jackson-area dealers, is finishing a sales deck and website section, and said he needs one or two hires to support expansion. He is considering referral bonuses and mentioned a group near McComb as a possible prospect.\n- Lance plans to upload unpublished YouTube videos for his two BMW stores and share embed links with Speaker 1\u2019s team. He also described a workflow that turns vehicle clips and window-sticker photos into edited social videos.\n- Speaker 1 plans a Tuesday visit to Brian Harris BMW to discuss service, parts, and sales, and is scheduling visits to South Point VW and Porsche. Lance reported arranging lunch with Rick for the following Wednesday.\n- Lance and Speaker 1 discussed OEM program requirements and potential risks to co-op, AVP, and holdback funds if dealerships do not comply.",
+      "highlights": [
+        {
+          "title": "Howell referral",
+          "content": "AutoTrader rep referred Howell Automotive (GMC/Nissan, Summit/McComb MS). Free spend/vendor look owed.",
+          "timestamp": 66350
+        },
+        {
+          "title": "Search volume caps",
+          "content": "ABR/search can\u2019t absorb more budget without display/demand-gen; Pipeboard+agents for volume math.",
+          "timestamp": 332050
+        },
+        {
+          "title": "YT embeds both BMW",
+          "content": "Unpublished YouTube uploads for both BMW stores; share embed links to partner (no extra mgmt if self-hosted).",
+          "timestamp": 465390
+        },
+        {
+          "title": "Tue BHBMW visit",
+          "content": "Speaker1 to BHBMW ~11:30 CT Tue for service/parts/sales (Brett). South Point VW/Porsche also in play.",
+          "timestamp": 484130
+        },
+        {
+          "title": "Rick lunch Wed",
+          "content": "Lance arranging lunch with Rick the following Wednesday. Expansion/hire talk is direction only.",
+          "timestamp": 0
+        }
+      ],
+      "transcript": [
+        {
+          "start_time": 0,
+          "end_time": 320,
+          "content": "How are you?",
+          "speaker": "Speaker 1"
+        },
+        {
+          "start_time": 1440,
+          "end_time": 4800,
+          "content": "I'm doing well. I'm trying to build out the rest of my stuff.",
+          "speaker": "Speaker 1"
+        },
+        {
+          "start_time": 5920,
+          "end_time": 11440,
+          "content": "Okay. And before I call the Audi store, I was thinking, would Clint have it? Like,",
+          "speaker": "Speaker 1"
+        },
+        {
+          "start_time": 12640,
+          "end_time": 14800,
+          "content": "Be upset if I call them and try to set a meeting?",
+          "speaker": "Speaker 1"
+        },
+        {
+          "start_time": 16160,
+          "end_time": 16640,
+          "content": "What do you mean, with Audi?",
+          "speaker": "Speaker 1"
+        },
+        {
+          "start_time": 17520,
+          "end_time": 20320,
+          "content": "Yeah. Well, I mean, I I do all of Audi's marketing.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 21200,
+          "end_time": 21760,
+          "content": "Oh, you do?",
+          "speaker": "Speaker 1"
+        },
+        {
+          "start_time": 21920,
+          "end_time": 24640,
+          "content": "Yeah, I buy it. I mean, I have it all set up through my system,",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 25680,
+          "end_time": 28400,
+          "content": "And he's not gonna pay for anything. That's why I do it.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 31620,
+          "end_time": 34740,
+          "content": "That's a that's a whole situation down there.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 39140,
+          "end_time": 40660,
+          "content": "Yeah, I do a lot,",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 42980,
+          "end_time": 43220,
+          "content": "Man.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 45620,
+          "end_time": 46980,
+          "content": "No, I love to conquest,",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 47860,
+          "end_time": 49700,
+          "content": "And I am going to tell you,",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 50580,
+          "end_time": 55380,
+          "content": "As I have more clients, they're going to all be they're going to all be switched to y'all.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 56500,
+          "end_time": 57220,
+          "content": "Just so you know.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 59790,
+          "end_time": 61790,
+          "content": "Have you ever fooled with? What man?",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 61790,
+          "end_time": 62270,
+          "content": "What you got?",
+          "speaker": "Speaker 1"
+        },
+        {
+          "start_time": 63390,
+          "end_time": 66110,
+          "content": "Oh, I was just gonna say, you got anything else that you're.",
+          "speaker": "Speaker 1"
+        },
+        {
+          "start_time": 66350,
+          "end_time": 73870,
+          "content": "Well, I haven't gone and met with them yet, but I have. I do. There's a little tiny two store group. They're on the same lot. They're a GMC and Nissan,",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 75150,
+          "end_time": 80750,
+          "content": "And they're called Howell Automotive. They're in Summit, which is like basically right outside of Macomb, Mississippi.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 82030,
+          "end_time": 85630,
+          "content": "I mean, it basically is Macomb, but you know, it's a little suburb city of Macomb.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 86990,
+          "end_time": 87390,
+          "content": "Uh,",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 88110,
+          "end_time": 91150,
+          "content": "So yeah. I wonder if you've ever fooled with them. Luxury.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 93870,
+          "end_time": 98990,
+          "content": "Well, not luxury,",
+          "speaker": "Speaker 1"
+        },
+        {
+          "start_time": 100190,
+          "end_time": 104270,
+          "content": "But just like Northeast Florida.",
+          "speaker": "Speaker 1"
+        },
+        {
+          "start_time": 105070,
+          "end_time": 110270,
+          "content": "Yeah. Yeah. Oh yeah.",
+          "speaker": "Speaker 1"
+        },
+        {
+          "start_time": 110270,
+          "end_time": 115150,
+          "content": "Well, that this store is gonna pose a fucking a serious challenge for me, I think.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 116670,
+          "end_time": 117150,
+          "content": "Um.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 118950,
+          "end_time": 121670,
+          "content": "No, I haven't. Like, they've called me.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 122790,
+          "end_time": 126710,
+          "content": "I owe them a visit. I told him I'd just come by and give basically give him some advice for free.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 128150,
+          "end_time": 129190,
+          "content": "Cause he's a small group.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 129830,
+          "end_time": 134230,
+          "content": "The owner is the one that I'm talking to. Um, and he,",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 135110,
+          "end_time": 136790,
+          "content": "He said, \"Man, I've been running this store for 30 years.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 137830,
+          "end_time": 139590,
+          "content": "You know, he's like, I've been here.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 140310,
+          "end_time": 142310,
+          "content": "\" And he said, \"I know I'm probably getting taken advantage of.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 143750,
+          "end_time": 147830,
+          "content": "\" And so, and my rap, my Auto Trader rap, is the one that referred me to him.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 149920,
+          "end_time": 151840,
+          "content": "And so he wants me to just look at his spend,",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 154160,
+          "end_time": 156400,
+          "content": "Look at his partners, like what vendors he's using.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 156720,
+          "end_time": 159280,
+          "content": "You know what I mean? And kind of tell him,",
+          "speaker": "Speaker 1"
+        },
+        {
+          "start_time": 159280,
+          "end_time": 160720,
+          "content": "\"Hey, dude, you're getting hosed.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 161760,
+          "end_time": 171200,
+          "content": "\" You know, because I have the benefit of I don't really sell any one thing that most that most dealers are using.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 172080,
+          "end_time": 178000,
+          "content": "I can come in and replace some vendors, but also I can also just move them around. You know.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 178900,
+          "end_time": 180980,
+          "content": "Like in Jackson, I moved him off of.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 180980,
+          "end_time": 182740,
+          "content": "I don't know.",
+          "speaker": "Speaker 3"
+        },
+        {
+          "start_time": 182820,
+          "end_time": 185780,
+          "content": "You might even remember whatever company he was on. Stream maybe.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 186900,
+          "end_time": 191700,
+          "content": "Yeah, I moved him off of stream onto you guys. You know, and so,",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 192580,
+          "end_time": 210570,
+          "content": "And then we also cut a few other products at that store. So I do a lot of just cleaning up, and guys are usually paying for too much stuff. And so anyway, I've got that company. It's a little two-store group. Y'all mean y'all handle. GMC and Nissan, I'm sure, huh? Yeah. Yep.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 215370,
+          "end_time": 221610,
+          "content": "GMC Nissan. We're actually a GMI, GMI Monster. Oh, cool.",
+          "speaker": "Speaker 1"
+        },
+        {
+          "start_time": 222650,
+          "end_time": 225690,
+          "content": "So that's like their kind of lineup, so you know. Yeah. So.",
+          "speaker": "Speaker 1"
+        },
+        {
+          "start_time": 226970,
+          "end_time": 229690,
+          "content": "Yeah, yeah. I mean, that's that's something we kind of. I mean, it's pretty,",
+          "speaker": "Speaker 1"
+        },
+        {
+          "start_time": 230250,
+          "end_time": 245340,
+          "content": "Pretty much plug and play. And hey, what car are you going to sell? That's how the budgets align. You know, everyone has the same. Same exact channels at their disposal. Where do we need to put them? Move those units. Yep. Um. Is is. I mean, it's. That's how you dumb it way down.",
+          "speaker": "Speaker 1"
+        },
+        {
+          "start_time": 245740,
+          "end_time": 259339,
+          "content": "Simple too. What's funny to me is like when I look at this shit, and I had a friend of mine who bought an arbitrator. Actually, another. I have two different arbitrator friends, but had another one go. Man, not a lot of people can just look at a spend and go, this is retarded. What?",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 259980,
+          "end_time": 263740,
+          "content": "And I said, well, it's just it's one of my skills. Like I honestly have been looking at it for so long.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 265420,
+          "end_time": 265820,
+          "content": "You know.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 267510,
+          "end_time": 270150,
+          "content": "Yeah, what are you doing? Like, how big is the city? You know,",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 271190,
+          "end_time": 274790,
+          "content": "Yeah. What are we doing? Why are we spending like like with Jackson? It was obvious,",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 275990,
+          "end_time": 280390,
+          "content": "You know. Why are you spending sixteen thousand dollars in Jackson, Mississippi?",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 281750,
+          "end_time": 281990,
+          "content": "There's,",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 284390,
+          "end_time": 294070,
+          "content": "Yeah. And the funny thing is, it's like once I like I have a workflow built in one of my AI agents because he's tied. I have one of my AI agents is tied to Pipeboard. Have you ever heard of Pipeboard?",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 295900,
+          "end_time": 307420,
+          "content": "So, Pipeboard is a plug-in. It's like a bridge. It's what's an MCP is what it is. But it's basically it's a connector for your AI to all of Meta's properties and Google's properties.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 308220,
+          "end_time": 313420,
+          "content": "So all of your ad spending, your AI agent can manage it through Pipeboard. So that's what Pipeboard does.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 314380,
+          "end_time": 316780,
+          "content": "So through Pipeboard, I can go to my AI agent and just say, Hey, man,",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 317500,
+          "end_time": 319420,
+          "content": "What's the search volume in this city on this brand?",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 320770,
+          "end_time": 326130,
+          "content": "You know, give me a prospect of all the possible search terms that could come up for this brand in this city,",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 327010,
+          "end_time": 330210,
+          "content": "And based on that, you can back in to where should your spend land.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 332050,
+          "end_time": 335090,
+          "content": "You know, one of my problems with Audi in this town is,",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 335730,
+          "end_time": 339250,
+          "content": "I I go and I tell Hedrick, I'm like, dude, I you can't even spend more.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 340050,
+          "end_time": 343650,
+          "content": "There's like literally some search terms unless you make it what's it called,",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 344930,
+          "end_time": 349730,
+          "content": "Display like display and demand gen, because they'll just they'll just eat it all up, you know.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 350750,
+          "end_time": 351230,
+          "content": "Uh,",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 352670,
+          "end_time": 354190,
+          "content": "Yeah, it'll spend it.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 355710,
+          "end_time": 357470,
+          "content": "But if you're just doing search,",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 358430,
+          "end_time": 361470,
+          "content": "Oh for sure. If you're just doing search, I said, Hendrick, you run out of searches.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 362350,
+          "end_time": 367710,
+          "content": "There's literally not enough searches for some of our terms to eat up more budget. So there's no point in trying to spend more.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 369150,
+          "end_time": 373950,
+          "content": "You know, it's just that, and it's it's a problem now. He's having for the past couple years,",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 373950,
+          "end_time": 374350,
+          "content": "Honestly.",
+          "speaker": "Speaker 1"
+        },
+        {
+          "start_time": 380170,
+          "end_time": 380330,
+          "content": "Yeah.",
+          "speaker": "Speaker 1"
+        },
+        {
+          "start_time": 382010,
+          "end_time": 390330,
+          "content": "Yep. Exactly. Yep. You're staying on top of it.",
+          "speaker": "Speaker 1"
+        },
+        {
+          "start_time": 391290,
+          "end_time": 391930,
+          "content": "Some video,",
+          "speaker": "Speaker 1"
+        },
+        {
+          "start_time": 392890,
+          "end_time": 394730,
+          "content": "You know, you can call it a day. Yeah.",
+          "speaker": "Speaker 1"
+        },
+        {
+          "start_time": 395610,
+          "end_time": 398890,
+          "content": "I mean, the video is, I can carry all the time. You know, yeah, that's not all.",
+          "speaker": "Speaker 1"
+        },
+        {
+          "start_time": 399210,
+          "end_time": 402570,
+          "content": "And I need to. I've been fucked up about getting our video going.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 405130,
+          "end_time": 409050,
+          "content": "It's just been, it's completely fallen to the back of my, to my most back burner, which is fucked up.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 410870,
+          "end_time": 411190,
+          "content": "So,",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 412870,
+          "end_time": 423270,
+          "content": "I need to get it. So, tell me this while we're here: Is it going to require me to go get our YouTube channel set up and download that video to our YouTube channel, or is there something y'all can do for it?",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 425350,
+          "end_time": 431430,
+          "content": "I have to.",
+          "speaker": "Speaker 1"
+        },
+        {
+          "start_time": 431670,
+          "end_time": 437830,
+          "content": "I got you. So, so if I do it, there's just no additional management. And if I don't do it, then y'all hit me for more management, I guess.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 440750,
+          "end_time": 441870,
+          "content": "Got it.",
+          "speaker": "Speaker 1"
+        },
+        {
+          "start_time": 445550,
+          "end_time": 447230,
+          "content": "Yeah. It's it's not even.",
+          "speaker": "Speaker 1"
+        },
+        {
+          "start_time": 447710,
+          "end_time": 449150,
+          "content": "I mean, so I can't have y'all host it.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 449230,
+          "end_time": 465390,
+          "content": "Yeah. I go in there, post the video, and all. It's not a matter of. Yeah. Um, it's just like YouTube's rules. The video has to be on the page, and then you can serve it as.",
+          "speaker": "Speaker 1"
+        },
+        {
+          "start_time": 465390,
+          "end_time": 481650,
+          "content": "Okay, I need to set up a work block. Yeah, no, I need to set up a work block where I'll sit down and do that for both my BMW stores, because it's the same video. So once I download the video, I might as well just download them into an unpublished YouTube video, right? And then just give y'all the share link, the embed link, I guess. Yeah.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 483170,
+          "end_time": 483490,
+          "content": "All right.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 484130,
+          "end_time": 489810,
+          "content": "For sure. Um. So what are you supposed to? Are you supposed to visit with Brian Harris on Tuesday?",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 491090,
+          "end_time": 491810,
+          "content": "So and then.",
+          "speaker": "Speaker 1"
+        },
+        {
+          "start_time": 493490,
+          "end_time": 493490,
+          "content": "Okay.",
+          "speaker": "Speaker 1"
+        },
+        {
+          "start_time": 497470,
+          "end_time": 511550,
+          "content": "My rental car, hop in the car, drive right up to Brian Harris BMW. I'll be there by 11: 30 a. m. Central. Okay. And then I put in that Teams message. You know, I'll be happy to like bring in pizza or something for for Brian and.",
+          "speaker": "Speaker 1"
+        },
+        {
+          "start_time": 512590,
+          "end_time": 513230,
+          "content": "Yeah, for Brett.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 513630,
+          "end_time": 514510,
+          "content": "Yeah, Brett.",
+          "speaker": "Speaker 1"
+        },
+        {
+          "start_time": 514669,
+          "end_time": 515630,
+          "content": "You're talking about for him for Brett.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 517150,
+          "end_time": 519390,
+          "content": "Yeah, I guess it's the service director is April now.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 521549,
+          "end_time": 526910,
+          "content": "Yeah. Well, for April, Brett, myself, you. Yeah. We could discuss. You know.",
+          "speaker": "Speaker 1"
+        },
+        {
+          "start_time": 527930,
+          "end_time": 528810,
+          "content": "Service and parts,",
+          "speaker": "Speaker 1"
+        },
+        {
+          "start_time": 529450,
+          "end_time": 545210,
+          "content": "Obviously sales, just kind of planning for for year end, and then jump over to Porsche. And then I'm actually meeting with. We're a approved Volkswagen vendor for after sales, so I actually just meeting with South Point VW for two days. Is it?",
+          "speaker": "Speaker 1"
+        },
+        {
+          "start_time": 545290,
+          "end_time": 547290,
+          "content": "Are you meeting with Kelly? Kelly Shiniver?",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 548330,
+          "end_time": 552170,
+          "content": "Kelly Shaw. Kelly Shaw. That's funny. She was similar to me. Went to high school with her.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 552730,
+          "end_time": 553610,
+          "content": "I forgot she's married.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 553610,
+          "end_time": 555530,
+          "content": "Oh, the guy. Oh.",
+          "speaker": "Speaker 1"
+        },
+        {
+          "start_time": 556370,
+          "end_time": 559010,
+          "content": "Yeah, used the GM there. Used to be a girl named Kelly,",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 560050,
+          "end_time": 561730,
+          "content": "And I guess she's moved on. I need to look her up.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 563650,
+          "end_time": 564930,
+          "content": "But anyway, where are you, man?",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 566530,
+          "end_time": 569570,
+          "content": "Well, yeah, let me let me remind Brett. I guess it's on his calendar, right?",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 569650,
+          "end_time": 573010,
+          "content": "Oh yeah, six o'clock.",
+          "speaker": "Speaker 1"
+        },
+        {
+          "start_time": 574610,
+          "end_time": 592490,
+          "content": "Yeah. Yeah. Well, I made sure I Rick, fucking Rick, dude. He was on a tear yesterday while still in his office. The reason why I like didn't text you back right away. I'm sitting in his office, and he's just on a tear, motherfucking people, and just it was funny. He wasn't being a complete dick, but he was having one of those days. And so when I asked him, I was like,\"Well, look, oh yeah,",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 593690,
+          "end_time": 613960,
+          "content": "No, it had nothing to do with y'all.\" And whenever I was mentioning you, he's like, \"No, I'm not doing nothing next Wednesday. I'm not doing nothing. I'm not going nowhere.\" So I let him be. And then on my way home, I texted him and I said,\"Hey, Caleb's gonna be here next Wednesday. I'll come back again because I don't normally go see him every week. It's kind of funny.\" He goes. I said, \"I'll be back again since he's in town.\" I said, \"And and do you want to go get?",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 614680,
+          "end_time": 618440,
+          "content": "Do you want me to tell?\" No. I said, \"Do you want to just tell him you don't have time? Like what's going on?",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 619080,
+          "end_time": 622040,
+          "content": "\" He finally texts me back. He said, \"No, no, let's all go get lunch.\" I'm like, \"All right.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 623880,
+          "end_time": 624680,
+          "content": "\" Jesus Christ.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 626040,
+          "end_time": 629800,
+          "content": "That's why I kept. I was like waiting and waiting, and finally, I got a positive response from him.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 631800,
+          "end_time": 634840,
+          "content": "So. It's a nice,",
+          "speaker": "Speaker 1"
+        },
+        {
+          "start_time": 637080,
+          "end_time": 637800,
+          "content": "Really nice Sunday story.",
+          "speaker": "Speaker 1"
+        },
+        {
+          "start_time": 638360,
+          "end_time": 639400,
+          "content": "He's browner, tighter.",
+          "speaker": "Speaker 1"
+        },
+        {
+          "start_time": 640130,
+          "end_time": 641250,
+          "content": "Oh shit!",
+          "speaker": "Speaker 1"
+        },
+        {
+          "start_time": 646290,
+          "end_time": 647490,
+          "content": "So they just opened, I guess.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 647490,
+          "end_time": 649410,
+          "content": "Oh okay,",
+          "speaker": "Speaker 1"
+        },
+        {
+          "start_time": 650210,
+          "end_time": 653170,
+          "content": "Cool. Yeah, it's got a new building.",
+          "speaker": "Speaker 1"
+        },
+        {
+          "start_time": 654210,
+          "end_time": 666450,
+          "content": "Yeah. Yep, I'm not gonna be around for that.",
+          "speaker": "Speaker 1"
+        },
+        {
+          "start_time": 667970,
+          "end_time": 668610,
+          "content": "Smart.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 669470,
+          "end_time": 672190,
+          "content": "Yeah. And he's a guy.",
+          "speaker": "Speaker 1"
+        },
+        {
+          "start_time": 675950,
+          "end_time": 677950,
+          "content": "Yeah. I mean, you guys are our number one lead provider.",
+          "speaker": "Speaker 1"
+        },
+        {
+          "start_time": 678510,
+          "end_time": 684510,
+          "content": "He's he's just you know very good. Just you know,",
+          "speaker": "Speaker 1"
+        },
+        {
+          "start_time": 686350,
+          "end_time": 688030,
+          "content": "We're thinking of it.",
+          "speaker": "Speaker 1"
+        },
+        {
+          "start_time": 688670,
+          "end_time": 689950,
+          "content": "It's for yeah, go on.",
+          "speaker": "Speaker 1"
+        },
+        {
+          "start_time": 690670,
+          "end_time": 693310,
+          "content": "I don't know all the ins and outs of the OEM.",
+          "speaker": "Speaker 1"
+        },
+        {
+          "start_time": 694170,
+          "end_time": 701530,
+          "content": "They're swirly, man. They they try to do what they can within legal parameters of like making sure they can hold your feet to the fire as much as possible.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 703530,
+          "end_time": 712250,
+          "content": "You know, so they tie it all to like, if you don't do all these things, you don't get your co-op dollars, your A V P dollars, or whatever the hell the manufacturer calls them. You know, hold back all that crap.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 714010,
+          "end_time": 717370,
+          "content": "Yeah. Yeah. So imagine he's in, he's up shit creek if he don't get all that shit approved.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 721210,
+          "end_time": 721450,
+          "content": "Yeah.",
+          "speaker": "Speaker 1"
+        },
+        {
+          "start_time": 722810,
+          "end_time": 723050,
+          "content": "Yep. Right.",
+          "speaker": "Speaker 1"
+        },
+        {
+          "start_time": 724270,
+          "end_time": 731390,
+          "content": "Sure. Cool. I will see you next week. Do you have any other dealers in the Jackson market? That's the day I feel like they kind of fill up.",
+          "speaker": "Speaker 1"
+        },
+        {
+          "start_time": 731390,
+          "end_time": 739390,
+          "content": "Yeah. You know what? I want more dealers in the Jackson market, and I'm I'm just now finishing building kind of a sales deck, like a a part of my website that is here's what I can do.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 740430,
+          "end_time": 747150,
+          "content": "And so I'm about to start trying to expand, but I've got to hire one or two people to go with that expansion, you know?",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 747790,
+          "end_time": 751390,
+          "content": "So it's like you're stuck in this in between place, this kind of purgatory where it's like.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 752050,
+          "end_time": 759330,
+          "content": "You're ready to expand. You've got people sort of starting to ask about it, but then you also need help if you're going to expand. And so I'm like right in that in between space.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 760050,
+          "end_time": 761890,
+          "content": "But I, yeah,",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 763650,
+          "end_time": 770450,
+          "content": "I've had a few of my vendors tell me,\"Look, dude, you've got some shit that not everybody has, and that some of my stores probably could use.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 771410,
+          "end_time": 778530,
+          "content": "\" And so I'm trying to figure out like where I land as far as like being giving a bonus spiff to people that give me some referrals. You know what I mean?",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 780850,
+          "end_time": 785610,
+          "content": "Absolutely. So. That's what I'm fixing to do. So yeah, I want some more people, but I don't have them right now in Jackson.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 786570,
+          "end_time": 800970,
+          "content": "But I need to look at I need to look at this little group in Mississippi. This little group outside of McComb that could be somebody that y'all could use. Because I'm gonna tell you, if I get in there and I find out who's working with them and what their spend is, I'm sure we can fix it.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 802090,
+          "end_time": 803450,
+          "content": "You know, y'all and me together.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 803770,
+          "end_time": 810970,
+          "content": "So yeah, good partnership. So all right, I will.",
+          "speaker": "Speaker 1"
+        },
+        {
+          "start_time": 811780,
+          "end_time": 814740,
+          "content": "I'll let you get back to it, man. And I'll see you Tuesday morning.",
+          "speaker": "Speaker 1"
+        },
+        {
+          "start_time": 814740,
+          "end_time": 816580,
+          "content": "Yep. See you Tuesday. Appreciate you, man. Have a good one.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 816580,
+          "end_time": 826580,
+          "content": "All right. Bye.",
+          "speaker": "Speaker 3"
+        },
+        {
+          "start_time": 847760,
+          "end_time": 856880,
+          "content": "Now, I'd like basically the sign to be hanging out there. Imagine if someone was standing behind that car and leaning against the car, but holding the sign up in front of them.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 857520,
+          "end_time": 860400,
+          "content": "So that's where that sign should be, kind of hovering over, like,",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 861040,
+          "end_time": 874160,
+          "content": "Basically covering the front top lip of the trunk, like so in that area, so closer to the car, up higher, as if someone's leaning against the back of the car and holding it, but there's no one there.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 874750,
+          "end_time": 885710,
+          "content": "And in that, all that's missing is you. That can go in the top portion of the, of that image, and also this. All that's missing is you. Copy is very, not good. So we got to work on that.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 921660,
+          "end_time": 924220,
+          "content": "He lives by the seat of his pants. Have you ever met Alex?",
+          "speaker": "Speaker 3"
+        },
+        {
+          "start_time": 924940,
+          "end_time": 933020,
+          "content": "Yes. He he's an adrenaline junkie, really. Yes. Who is? Who's that Alex? That's uh, yeah.",
+          "speaker": "Speaker 3"
+        },
+        {
+          "start_time": 933660,
+          "end_time": 939260,
+          "content": "Well, um, is is the check-in like that one? No. Well, the.",
+          "speaker": "Speaker 3"
+        },
+        {
+          "start_time": 960970,
+          "end_time": 962810,
+          "content": "Easy at the moment with you,",
+          "speaker": "Speaker 1"
+        },
+        {
+          "start_time": 962970,
+          "end_time": 964090,
+          "content": "Tachronis. It's pretty.",
+          "speaker": "Speaker 4"
+        },
+        {
+          "start_time": 968090,
+          "end_time": 969050,
+          "content": "Yeah. Yeah.",
+          "speaker": "Speaker 4"
+        },
+        {
+          "start_time": 1009600,
+          "end_time": 1009600,
+          "content": "You wanna hear your steak back? We don't break back. Yeah. No. Cause I fill it up. We fill it up for breakfast, and you? Yeah. But I fill it up too.",
+          "speaker": "Speaker 3"
+        },
+        {
+          "start_time": 1020640,
+          "end_time": 1031599,
+          "content": "Usually I take one,",
+          "speaker": "Speaker 3"
+        },
+        {
+          "start_time": 1031599,
+          "end_time": 1032480,
+          "content": "I fill two or three.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 1034000,
+          "end_time": 1036000,
+          "content": "Yeah. Well, so yeah.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 1037760,
+          "end_time": 1038800,
+          "content": "Keep it filled up for rent.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 1038800,
+          "end_time": 1044319,
+          "content": "I get one like every few days.",
+          "speaker": "Speaker 3"
+        },
+        {
+          "start_time": 1106650,
+          "end_time": 1107370,
+          "content": "What? What up?",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 1109210,
+          "end_time": 1110330,
+          "content": "Man, you know, just some work.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 1110330,
+          "end_time": 1115290,
+          "content": "I know that feeling.",
+          "speaker": "Speaker 4"
+        },
+        {
+          "start_time": 1121560,
+          "end_time": 1122520,
+          "content": "Manuel,",
+          "speaker": "Speaker 4"
+        },
+        {
+          "start_time": 1123880,
+          "end_time": 1124280,
+          "content": "Here.",
+          "speaker": "Speaker 4"
+        },
+        {
+          "start_time": 1127560,
+          "end_time": 1134680,
+          "content": "All those those green space things in the back in the parking lot.",
+          "speaker": "Speaker 4"
+        },
+        {
+          "start_time": 1135720,
+          "end_time": 1137480,
+          "content": "Oh God, no! He's got weird picture.",
+          "speaker": "Speaker 3"
+        },
+        {
+          "start_time": 1138360,
+          "end_time": 1143800,
+          "content": "Pennants of grass just sitting in there or dirt was grown over. Like, what you been doing?",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 1144280,
+          "end_time": 1146680,
+          "content": "Oh, I cut it all down to the dirt.",
+          "speaker": "Speaker 4"
+        },
+        {
+          "start_time": 1146920,
+          "end_time": 1148600,
+          "content": "Planted or what's he gonna do with it?",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 1148600,
+          "end_time": 1151240,
+          "content": "I'm gonna get went and got some landscape fabric and.",
+          "speaker": "Speaker 4"
+        },
+        {
+          "start_time": 1156050,
+          "end_time": 1159170,
+          "content": "Put landscape fabric and mulch on top of it, so weeds don't grow.",
+          "speaker": "Speaker 4"
+        },
+        {
+          "start_time": 1159170,
+          "end_time": 1161330,
+          "content": "So it'll just be solid mulch.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 1162850,
+          "end_time": 1163490,
+          "content": "I mean, that's free.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 1166370,
+          "end_time": 1166850,
+          "content": "That's smart.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 1168690,
+          "end_time": 1173410,
+          "content": "I hope they realize they're saving money by having you paying you what they're paying you.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 1174850,
+          "end_time": 1181810,
+          "content": "I'm sure they do, but I don't think it's just because I'm saving them money that they're going to pay me any more. Trust me.",
+          "speaker": "Speaker 4"
+        },
+        {
+          "start_time": 1181810,
+          "end_time": 1182930,
+          "content": "What you mean,",
+          "speaker": "Speaker 3"
+        },
+        {
+          "start_time": 1182930,
+          "end_time": 1187380,
+          "content": "Pay you more? No, they're not gonna pay the war. I just mean, you know, he fucking.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 1188020,
+          "end_time": 1190340,
+          "content": "I think they should for all the shit I did.",
+          "speaker": "Speaker 4"
+        },
+        {
+          "start_time": 1190340,
+          "end_time": 1191140,
+          "content": "The extra cashes.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 1191700,
+          "end_time": 1194900,
+          "content": "Oh, I was about to say those other stores should actually kick in a little something.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 1194900,
+          "end_time": 1196500,
+          "content": "That's yes,",
+          "speaker": "Speaker 4"
+        },
+        {
+          "start_time": 1196500,
+          "end_time": 1202740,
+          "content": "You know, but that was what me and Brett thought was gonna end up happening. Well,",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 1204420,
+          "end_time": 1208900,
+          "content": "Brett's literally definitely the most. Brett and Rick, two most generous G M's I've ever.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 1213500,
+          "end_time": 1220460,
+          "content": "I thought about you other day. I saw one from Mark Ford, Mark Dodge.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 1221180,
+          "end_time": 1223580,
+          "content": "So it was a Ram truck.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 1223580,
+          "end_time": 1226620,
+          "content": "I was going to say it must have been a Ram, probably a diesel, if I had to guess.",
+          "speaker": "Speaker 4"
+        },
+        {
+          "start_time": 1226940,
+          "end_time": 1228620,
+          "content": "I don't remember honestly.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 1228620,
+          "end_time": 1231660,
+          "content": "I remember being a Ram.",
+          "speaker": "Speaker 3"
+        },
+        {
+          "start_time": 1232540,
+          "end_time": 1235660,
+          "content": "Number one CDJ dealer in the nation.",
+          "speaker": "Speaker 4"
+        },
+        {
+          "start_time": 1237180,
+          "end_time": 1241740,
+          "content": "Really? I didn't know that. They were number just the number one Ram.",
+          "speaker": "Speaker 4"
+        },
+        {
+          "start_time": 1244430,
+          "end_time": 1244990,
+          "content": "That's cool.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 1245710,
+          "end_time": 1247710,
+          "content": "You know I can't not say eagle at the end.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 1248830,
+          "end_time": 1248990,
+          "content": "Oh,",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 1250510,
+          "end_time": 1252270,
+          "content": "I don't have a problem not saying.",
+          "speaker": "Speaker 4"
+        },
+        {
+          "start_time": 1252270,
+          "end_time": 1258430,
+          "content": "Well, not said. Always. But I worked there for. Dodge Jeep Eagle. I always add there's no eagle when I'm there. They used to have it here.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 1259710,
+          "end_time": 1262990,
+          "content": "I still remember the little eagle logo out by the road.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 1264910,
+          "end_time": 1268830,
+          "content": "That was. That was funny. They had some funny vehicles. Remember the Eagle Talon?",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 1269950,
+          "end_time": 1278680,
+          "content": "Very well. Yeah. What is it? Mitsubishi Eclipse. Yeah. I thought it looked better than the actual Mitsubishi version of it,",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 1281880,
+          "end_time": 1284360,
+          "content": "Though. I thought it was cool. I remember as a kid, I thought that was a cool car.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 1284760,
+          "end_time": 1291080,
+          "content": "At one point in time, all those car brands were trying to come up with their own another brand, make better other brands,",
+          "speaker": "Speaker 4"
+        },
+        {
+          "start_time": 1291080,
+          "end_time": 1293880,
+          "content": "Which is weird. We didn't just make better cars. Had Eagle,",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 1294840,
+          "end_time": 1295880,
+          "content": "GM had Saturn.",
+          "speaker": "Speaker 4"
+        },
+        {
+          "start_time": 1297000,
+          "end_time": 1297240,
+          "content": "Yeah.",
+          "speaker": "Speaker 4"
+        },
+        {
+          "start_time": 1300080,
+          "end_time": 1301760,
+          "content": "Geo, yeah.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 1303040,
+          "end_time": 1312800,
+          "content": "I don't think Ford had one. I mean, you had models that were like they're kind of cheap models that were weird. Yeah, they didn't have a whole lot of brands.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 1312800,
+          "end_time": 1316880,
+          "content": "They had collabs with other brands. Yeah. Chrysler.",
+          "speaker": "Speaker 4"
+        },
+        {
+          "start_time": 1316880,
+          "end_time": 1318400,
+          "content": "I mean, they had Mercury for a while.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 1318640,
+          "end_time": 1324240,
+          "content": "Chrysler. GM had collabs with other brands, but they also made their own new brands as well.",
+          "speaker": "Speaker 4"
+        },
+        {
+          "start_time": 1325920,
+          "end_time": 1328640,
+          "content": "I remember Maserati had a deal with Chrysler.",
+          "speaker": "Speaker 4"
+        },
+        {
+          "start_time": 1329120,
+          "end_time": 1331100,
+          "content": "What the hell? What were they making?",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 1331180,
+          "end_time": 1331900,
+          "content": "They were making.",
+          "speaker": "Speaker 4"
+        },
+        {
+          "start_time": 1333580,
+          "end_time": 1340700,
+          "content": "It was basically a Chrysler Sebring that was had a Maserati badge on it.",
+          "speaker": "Speaker 4"
+        },
+        {
+          "start_time": 1340700,
+          "end_time": 1341420,
+          "content": "That's wild.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 1342780,
+          "end_time": 1346380,
+          "content": "Now, of course, the interior trim,",
+          "speaker": "Speaker 4"
+        },
+        {
+          "start_time": 1346380,
+          "end_time": 1348780,
+          "content": "Ah, accoutrements.",
+          "speaker": "Speaker 3"
+        },
+        {
+          "start_time": 1348780,
+          "end_time": 1353340,
+          "content": "So, was Maserati trying to make a downmarket vehicle, and that was a way to make it affordable? I guess.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 1355740,
+          "end_time": 1357660,
+          "content": "That's crazy. They do not have a good record.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 1358620,
+          "end_time": 1359180,
+          "content": "Maserati.",
+          "speaker": "Speaker 4"
+        },
+        {
+          "start_time": 1360800,
+          "end_time": 1363840,
+          "content": "Of course, just they depreciate quick. Hey,",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 1369360,
+          "end_time": 1371440,
+          "content": "How many time it is?",
+          "speaker": "Speaker 3"
+        },
+        {
+          "start_time": 1371440,
+          "end_time": 1372720,
+          "content": "It's pasting. It's ten to.",
+          "speaker": "Speaker 4"
+        },
+        {
+          "start_time": 1373760,
+          "end_time": 1375760,
+          "content": "Is what? Yeah.",
+          "speaker": "Speaker 4"
+        },
+        {
+          "start_time": 1375760,
+          "end_time": 1380400,
+          "content": "Yeah. I got too much busy work to do. Watch fucking videos.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 1381360,
+          "end_time": 1384160,
+          "content": "Well, that's actually when you came in. That's when I was queuing up.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 1385280,
+          "end_time": 1387040,
+          "content": "Look, I have one queued up about the iPhone Duo.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 1388000,
+          "end_time": 1388560,
+          "content": "I ordered one.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 1389750,
+          "end_time": 1393270,
+          "content": "So it's going to replace my work phone, which you know my work phone stays in here.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 1393990,
+          "end_time": 1397910,
+          "content": "Literally, I take it out to charge it, or take it out to check to like check my posts and do work.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 1398710,
+          "end_time": 1401110,
+          "content": "It's an old paid for sixteen Pro Max.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 1401830,
+          "end_time": 1406470,
+          "content": "Well, here is what's cool. I say paid for because I just paid for it like three months ago. I just paid it off.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 1407830,
+          "end_time": 1410070,
+          "content": "So this thing, I am getting a duo.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 1410790,
+          "end_time": 1412230,
+          "content": "I think for twenty four dollars a month.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 1413910,
+          "end_time": 1418230,
+          "content": "So I was like, yeah, I'll make that upgrade because I am paying. I paid off two phones.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 1418870,
+          "end_time": 1422630,
+          "content": "You remember I had that stupid 16E that I got and tried? That thing was terrible.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 1423670,
+          "end_time": 1429590,
+          "content": "So I'm getting rid of two phones. I'm getting the Duo, and my notes going to go down because I'm getting two phones off my bill total.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 1429590,
+          "end_time": 1433110,
+          "content": "I just can't see necessity for me to get a Duo.",
+          "speaker": "Speaker 4"
+        },
+        {
+          "start_time": 1433110,
+          "end_time": 1438790,
+          "content": "I well, I was talking so my my buddy at Jackson, the the new hard sales manager there. Well, actually, he's the GSO now.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 1440230,
+          "end_time": 1448640,
+          "content": "He's a huge I huge Apple nerd. Like you know, you and I like always had the new. He's like he's always gets one every year, phone a watch every year. I'm like, boom. Too much,",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 1449440,
+          "end_time": 1450640,
+          "content": "But he got the duo right away.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 1452480,
+          "end_time": 1455200,
+          "content": "He said, \"I literally went to whichever carrier had the duo in stock.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 1456080,
+          "end_time": 1463840,
+          "content": "\" So he has the C. He went to C Spire in Jackson, and got a fucking C Spire. Yeah, I'd have to look it up.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 1465120,
+          "end_time": 1473440,
+          "content": "That's connected to one of the big big mobile phone companies. I really don't know, but anyway, I peddled with it. I handled it, and I would not want it as my only phone.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 1475360,
+          "end_time": 1477120,
+          "content": "I just wouldn't. It's not a good only phone.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 1477980,
+          "end_time": 1482060,
+          "content": "It's a good, like, for because I was about to get an iPad to use for work,",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 1482620,
+          "end_time": 1493020,
+          "content": "Because I can most of my work now is like I tell my agents,\"Hey, build this, do that. I need this, I need that,\" and they can do it. But I need to be able to look at it, proofread it, approve it, say yes.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 1493740,
+          "end_time": 1499900,
+          "content": "And that's stupid to do on a phone. I can't look at design work on a phone. It's too small, and I do not want to carry that everywhere I go.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 1501340,
+          "end_time": 1504700,
+          "content": "I'm telling you, I'm getting stupid. I'm about to. I told Chris the other day, I'm like,",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 1505660,
+          "end_time": 1508190,
+          "content": "I want to have to take my laptop out. Once or twice a week.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 1510030,
+          "end_time": 1516670,
+          "content": "Don't even take my laptop out, and we're almost there. I don't see any. It's fucking spooky. Laptop.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 1519470,
+          "end_time": 1523470,
+          "content": "Like literally no briefcase, nothing. Like just leave it in my truck,",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 1524030,
+          "end_time": 1534510,
+          "content": "And then just open up my phone and open up that little, that little iPad, basically, because that's all it is. I handled Landon's. It's a fucking iPad Mini. That's not what it is. It's a foldable iPad Mini.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 1534830,
+          "end_time": 1535950,
+          "content": "I just can't see any.",
+          "speaker": "Speaker 4"
+        },
+        {
+          "start_time": 1536950,
+          "end_time": 1539110,
+          "content": "Any reason for me to get? Especially when it's been two days.",
+          "speaker": "Speaker 4"
+        },
+        {
+          "start_time": 1539670,
+          "end_time": 1543750,
+          "content": "No, it's way too expensive. And it only made sense for me because I can get the little zero interest.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 1544550,
+          "end_time": 1548310,
+          "content": "No, I can get that. Twenty. I'll buy it on my Apple card and pay zero interest.",
+          "speaker": "Speaker 4"
+        },
+        {
+          "start_time": 1548390,
+          "end_time": 1552070,
+          "content": "What I'm saying is, I'm not even paying the full price because I'm trading into I'm trading into phones.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 1552870,
+          "end_time": 1556790,
+          "content": "So I think I'm paying like six, like eight hundred bucks for it. Six or eight hundred bucks.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 1557990,
+          "end_time": 1558870,
+          "content": "After my trade-ins.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 1558950,
+          "end_time": 1561350,
+          "content": "I wonder what they give me on my trade-in on my phone.",
+          "speaker": "Speaker 4"
+        },
+        {
+          "start_time": 1561350,
+          "end_time": 1565510,
+          "content": "Well, they're doing twelve hundred dollars right now. That I'm getting twelve hundred for just this one phone.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 1566630,
+          "end_time": 1567990,
+          "content": "AT and T. Yeah, really.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 1568870,
+          "end_time": 1569750,
+          "content": "That's why I was like, \"Yeah.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 1569750,
+          "end_time": 1572710,
+          "content": "\" Maybe worth upgrading to an 18 or was it 18 now?",
+          "speaker": "Speaker 4"
+        },
+        {
+          "start_time": 1573030,
+          "end_time": 1573990,
+          "content": "Yeah, 18 Pro.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 1575510,
+          "end_time": 1577670,
+          "content": "Which one do you have? Do you have the 17 Pro?",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 1578630,
+          "end_time": 1586390,
+          "content": "Yeah, the cam, the zoom got a lot better. If you go to like you know grandkids crap and you want to film, like that's where I use the zoom is during baseball season.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 1586390,
+          "end_time": 1590390,
+          "content": "Nothing about the camera and a phone makes me want to go buy it.",
+          "speaker": "Speaker 4"
+        },
+        {
+          "start_time": 1590630,
+          "end_time": 1595750,
+          "content": "The reason I don't other upgrades.",
+          "speaker": "Speaker 3"
+        },
+        {
+          "start_time": 1596140,
+          "end_time": 1600700,
+          "content": "The fucking like literally, dude. The eight times zoom is retarded,",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 1602460,
+          "end_time": 1603340,
+          "content": "And it's an actual zoom.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 1608300,
+          "end_time": 1611980,
+          "content": "Yeah, it's kind of wild that that's even possible.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 1613100,
+          "end_time": 1613900,
+          "content": "Nice, neat, and all.",
+          "speaker": "Speaker 4"
+        },
+        {
+          "start_time": 1613900,
+          "end_time": 1614620,
+          "content": "So crazy.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 1614620,
+          "end_time": 1619660,
+          "content": "I can't tell you. I mean, I take pictures on my phone just so I don't forget.",
+          "speaker": "Speaker 4"
+        },
+        {
+          "start_time": 1620620,
+          "end_time": 1621980,
+          "content": "I take a picture of a stock number.",
+          "speaker": "Speaker 4"
+        },
+        {
+          "start_time": 1622140,
+          "end_time": 1623820,
+          "content": "That's it. It's almost everything on my phone right now.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 1623820,
+          "end_time": 1625100,
+          "content": "Does not have to be.",
+          "speaker": "Speaker 4"
+        },
+        {
+          "start_time": 1625690,
+          "end_time": 1629450,
+          "content": "Then when I go to like baseball season, then it starts being Leonidas and.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 1631050,
+          "end_time": 1635210,
+          "content": "I mean I go to the kids stuff all the time. My wife videos that I don't.",
+          "speaker": "Speaker 4"
+        },
+        {
+          "start_time": 1635690,
+          "end_time": 1640090,
+          "content": "There you go. I'm still I'm over here I'm dead I'm kind of still curious.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 1640090,
+          "end_time": 1646890,
+          "content": "Thanksgiving Christmas all that she's the one who takes all the fun with that. So like I said, she's my favorite for me. I know you're a camera nerd.",
+          "speaker": "Speaker 4"
+        },
+        {
+          "start_time": 1646970,
+          "end_time": 1651050,
+          "content": "Yeah, I like a good camera, but what I'm gonna say is once you like once we got to this level.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 1651610,
+          "end_time": 1657530,
+          "content": "I don't know how much longer you go with the Zoom, the 17 Pro. Like I'm not gonna replace this main. That's my kind of just everyday phone.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 1658170,
+          "end_time": 1659610,
+          "content": "I don't need it to be better than that.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 1660650,
+          "end_time": 1662330,
+          "content": "The only thing I want better is battery life.",
+          "speaker": "Speaker 4"
+        },
+        {
+          "start_time": 1663050,
+          "end_time": 1671530,
+          "content": "That's it. That's about the only reason I would upgrade to 18. But if it's one, it's like a car. If you don't upgrade soon enough,",
+          "speaker": "Speaker 4"
+        },
+        {
+          "start_time": 1672170,
+          "end_time": 1676010,
+          "content": "By the time you're ready to do it later on, your trade-in won't be worth shit.",
+          "speaker": "Speaker 4"
+        },
+        {
+          "start_time": 1677290,
+          "end_time": 1678490,
+          "content": "So it's like,",
+          "speaker": "Speaker 4"
+        },
+        {
+          "start_time": 1679130,
+          "end_time": 1687050,
+          "content": "It's true. Either do it or start saving up money. You know. Yeah. I might go talk toATT AT&T.",
+          "speaker": "Speaker 4"
+        },
+        {
+          "start_time": 1687050,
+          "end_time": 1690650,
+          "content": "You probably could. I think that phone would still would swap for 1,200 bucks right now.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 1691530,
+          "end_time": 1703210,
+          "content": "That's as easy as openATT AT&T and like there's a little button right now where you just key in your little. No, actually, if you if you wanna if you wanna what the credit is on the phone you're using, it just automatically reads your little IMEI number and it'll tell you what it's worth.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 1703930,
+          "end_time": 1705690,
+          "content": "It'd probably be like two clicks and it would tell you.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 1710990,
+          "end_time": 1719550,
+          "content": "C Spire is owned by Telepacks, which is a privately held telecom company in Ridgeland, Mississippi. So that's literally a local company to him.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 1719630,
+          "end_time": 1723390,
+          "content": "Yeah, almost sounds like a bow company.",
+          "speaker": "Speaker 4"
+        },
+        {
+          "start_time": 1723390,
+          "end_time": 1725630,
+          "content": "Well, it it kind of probably is. It's like a.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 1726430,
+          "end_time": 1730430,
+          "content": "He Landon's funny. He goes because I think Landon had AT and T. We talk. We were talking about it.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 1731230,
+          "end_time": 1744140,
+          "content": "He's like, yeah, they had them in stock because I guess people use C Spire can't afford to just go buy a fucking iPhone Pro in. Oh, Donk, Mississippi. They had them in stock,",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 1744220,
+          "end_time": 1744780,
+          "content": "Mississippi.",
+          "speaker": "Speaker 4"
+        },
+        {
+          "start_time": 1746380,
+          "end_time": 1747100,
+          "content": "Exactly.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 1747580,
+          "end_time": 1748940,
+          "content": "Cousin, fucker, Mississippi.",
+          "speaker": "Speaker 4"
+        },
+        {
+          "start_time": 1749020,
+          "end_time": 1750140,
+          "content": "Exactly.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 1752060,
+          "end_time": 1755420,
+          "content": "Dude, this, uh, this AI is getting stupid, dude.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 1759580,
+          "end_time": 1765580,
+          "content": "You know, I have occasion to use it every now and then. I just don't even think about it.",
+          "speaker": "Speaker 4"
+        },
+        {
+          "start_time": 1766540,
+          "end_time": 1769580,
+          "content": "Well, I'm not sure what it could do to make my life easier, right?",
+          "speaker": "Speaker 4"
+        },
+        {
+          "start_time": 1770960,
+          "end_time": 1776000,
+          "content": "Man, you you get to a point where you don't need all this bullshit, but I just happen to like need it all right now.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 1776880,
+          "end_time": 1784800,
+          "content": "You need it. You need all. Well, especially if I'm gonna try to grow my company, because dude, I've got I've got a programmer. I got a whole system where I've got a guy who writes newsletters.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 1785440,
+          "end_time": 1789760,
+          "content": "I've got a setup where it's set up for video editing. This thing actually fucking.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 1790960,
+          "end_time": 1793120,
+          "content": "Look at this fucking video. I literally,",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 1794240,
+          "end_time": 1795520,
+          "content": "I send this fucking thing.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 1796800,
+          "end_time": 1797600,
+          "content": "Raw clips.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 1798350,
+          "end_time": 1801390,
+          "content": "So, let's see. Actually, I want to show you a different one.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 1802030,
+          "end_time": 1803550,
+          "content": "I sent this thing raw clips,",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 1804110,
+          "end_time": 1804910,
+          "content": "Including,",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 1806030,
+          "end_time": 1807790,
+          "content": "Let's see, a photograph.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 1809150,
+          "end_time": 1810990,
+          "content": "Like literally, I took a picture of the window sticker,",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 1812270,
+          "end_time": 1815150,
+          "content": "And then I just sent up, shot a bunch of like little goofy raw clips.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 1816670,
+          "end_time": 1821630,
+          "content": "So that's the raw stuff, right? Like nothing doing.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 1823470,
+          "end_time": 1827070,
+          "content": "It just doesn't have a lot to. Let's see. Let's see if this one's one of the finished ones.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 1832960,
+          "end_time": 1833680,
+          "content": "Let's see.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 1836160,
+          "end_time": 1837360,
+          "content": "So it went and got the music,",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 1841520,
+          "end_time": 1842960,
+          "content": "Put in little title cards.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 1844240,
+          "end_time": 1848160,
+          "content": "It knows the options of the fucking, and so it just went and put all that in.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 1849040,
+          "end_time": 1850240,
+          "content": "I didn't even tell it to do that.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 1852080,
+          "end_time": 1854160,
+          "content": "And then it even built its own little end card.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 1855520,
+          "end_time": 1859840,
+          "content": "So it's getting to where, like, to edit videos, I simply just drop them on like a Google Drive.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 1861060,
+          "end_time": 1866820,
+          "content": "And then it just goes and makes the videos for me, but then it automatically feeds them into my fucking Instagram and social media crap.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 1868980,
+          "end_time": 1875460,
+          "content": "So it's getting pretty cool. Let's see how I did with this one.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 1875460,
+          "end_time": 1878500,
+          "content": "Have you played with the new shortcuts and shit?",
+          "speaker": "Speaker 4"
+        },
+        {
+          "start_time": 1878500,
+          "end_time": 1881220,
+          "content": "Very little, but you can do a lot with them.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 1881860,
+          "end_time": 1883540,
+          "content": "It has a. Apparently, you can just tell it,",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 1884420,
+          "end_time": 1890450,
+          "content": "\"I need a shortcut that does this,\" and it just goes and writes the shortcut for you because they invented AI with it. Done that yet?",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 1891330,
+          "end_time": 1893730,
+          "content": "I did do that to like try it when it first came out.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 1893730,
+          "end_time": 1897250,
+          "content": "Or I was trying to help get you to help me set up my garage door opener shit.",
+          "speaker": "Speaker 4"
+        },
+        {
+          "start_time": 1897570,
+          "end_time": 1900130,
+          "content": "Yeah. Did you ever get it working? No.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 1900450,
+          "end_time": 1903250,
+          "content": "That didn't.",
+          "speaker": "Speaker 4"
+        },
+        {
+          "start_time": 1903970,
+          "end_time": 1905650,
+          "content": "Basically, what I had to do is.",
+          "speaker": "Speaker 4"
+        },
+        {
+          "start_time": 1908210,
+          "end_time": 1908610,
+          "content": "So look,",
+          "speaker": "Speaker 4"
+        },
+        {
+          "start_time": 1909890,
+          "end_time": 1911170,
+          "content": "What is you plus?",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 1914770,
+          "end_time": 1915970,
+          "content": "What the fuck is this?",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 1922720,
+          "end_time": 1924560,
+          "content": "Oh, I did just update my fucking software.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 1929680,
+          "end_time": 1937840,
+          "content": "Yeah, remember we set up OHD? Basically, it would tell me when I'd arrive at my house that I needed to open my phone.",
+          "speaker": "Speaker 4"
+        },
+        {
+          "start_time": 1938480,
+          "end_time": 1940240,
+          "content": "Okay, so I open my phone. Okay.",
+          "speaker": "Speaker 4"
+        },
+        {
+          "start_time": 1941280,
+          "end_time": 1950160,
+          "content": "Well, in my mind, opening my phone make it go through its process. What? It didn't. No, I'd have to basically push.",
+          "speaker": "Speaker 4"
+        },
+        {
+          "start_time": 1951180,
+          "end_time": 1952620,
+          "content": "To make it happen, and at that point,",
+          "speaker": "Speaker 4"
+        },
+        {
+          "start_time": 1952700,
+          "end_time": 1953980,
+          "content": "Why the fuck do I want to do that?",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 1955820,
+          "end_time": 1957900,
+          "content": "So I had to go back and just eliminate it.",
+          "speaker": "Speaker 4"
+        },
+        {
+          "start_time": 1958380,
+          "end_time": 1963660,
+          "content": "So you push this button right here until it. You should be able to push it, and then it pops up and says,\"What do you want to do?",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 1964540,
+          "end_time": 1965740,
+          "content": "\" You would literally just describe it.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 1967260,
+          "end_time": 1969580,
+          "content": "I need you to make a shortcut that does this, this, and this.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 1973020,
+          "end_time": 1975420,
+          "content": "Describe a shortcut. Can you?",
+          "speaker": "Speaker 3"
+        },
+        {
+          "start_time": 1978860,
+          "end_time": 1979020,
+          "content": "Oh yeah.",
+          "speaker": "Speaker 3"
+        },
+        {
+          "start_time": 1982260,
+          "end_time": 1982260,
+          "content": "When I get home, you keep everything locked. Right? Pretty smooth.",
+          "speaker": "Speaker 3"
+        },
+        {
+          "start_time": 2015110,
+          "end_time": 2043990,
+          "content": "No, Mom and Daddy made the decision.",
+          "speaker": "Speaker 3"
+        },
+        {
+          "start_time": 2054460,
+          "end_time": 2059260,
+          "content": "I created an automation that opens the application,",
+          "speaker": "Speaker 4"
+        },
+        {
+          "start_time": 2059900,
+          "end_time": 2062940,
+          "content": "But I'll have to manually operate the app.",
+          "speaker": "Speaker 4"
+        },
+        {
+          "start_time": 2065739,
+          "end_time": 2067739,
+          "content": "It can't push the button for me, I guess,",
+          "speaker": "Speaker 4"
+        },
+        {
+          "start_time": 2068380,
+          "end_time": 2070940,
+          "content": "Because that's a limitation of the application.",
+          "speaker": "Speaker 4"
+        },
+        {
+          "start_time": 2071020,
+          "end_time": 2073739,
+          "content": "I'm sure. Yeah, that's probably what that is.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 2074350,
+          "end_time": 2075630,
+          "content": "So it's like it would open the app for you,",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 2075630,
+          "end_time": 2081389,
+          "content": "But doesn't. So when I push play, what does it do? Nothing. It just shows me the opens app.",
+          "speaker": "Speaker 4"
+        },
+        {
+          "start_time": 2081389,
+          "end_time": 2082909,
+          "content": "So it'll open the app when you get home,",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 2083150,
+          "end_time": 2090909,
+          "content": "And then I have to hold that down. So basically, what happens is I've got my phone on my dashboard with my music playing, all that stuff.",
+          "speaker": "Speaker 4"
+        },
+        {
+          "start_time": 2091630,
+          "end_time": 2093150,
+          "content": "When I would get home,",
+          "speaker": "Speaker 4"
+        },
+        {
+          "start_time": 2093710,
+          "end_time": 2098030,
+          "content": "It would pop up and say,\"Cannot activate\" or whatever.",
+          "speaker": "Speaker 4"
+        },
+        {
+          "start_time": 2098190,
+          "end_time": 2102350,
+          "content": "That might be better than this one, because it'll just be smooth and it'll just open the app.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 2102840,
+          "end_time": 2103720,
+          "content": "I mean, if it does that,",
+          "speaker": "Speaker 4"
+        },
+        {
+          "start_time": 2103880,
+          "end_time": 2107400,
+          "content": "The other one was just showing like an error, basically. You can't do this. Yeah.",
+          "speaker": "Lance"
+        },
+        {
+          "start_time": 2110200,
+          "end_time": 2113400,
+          "content": "Something like that. Yeah. Anyway, I just wanted to play with it and see.",
+          "speaker": "Speaker 4"
+        },
+        {
+          "start_time": 2115080,
+          "end_time": 2115240,
+          "content": "Okay.",
+          "speaker": "Speaker 3"
+        },
+        {
+          "start_time": 2116360,
+          "end_time": 2125800,
+          "content": "Yep. One thing I hate too is with all this fucking AI shit.",
+          "speaker": "Speaker 3"
+        },
+        {
+          "start_time": 2126440,
+          "end_time": 2129480,
+          "content": "Tell me why, if I can tell Siri.",
+          "speaker": "Speaker 4"
+        },
+        {
+          "start_time": 2131080,
+          "end_time": 2132280,
+          "content": "Turn on.",
+          "speaker": "Speaker 1"
+        }
+      ]
+    },
     {
       "id": "of_319ba37be39588f84df657266e316c74",
       "name": "ABR \u00b7 Store page college news + buyer\u2019s guide \u2192 Landon proof",
