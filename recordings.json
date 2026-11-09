@@ -1,6 +1,2507 @@
 {
-  "revision": "PLAUD-NOTES-2026-11-09-0605",
+  "revision": "PLAUD-NOTES-2026-11-09-1335",
   "recordings": [
+    {
+      "id": "of_14a0de871e4bdefc9fe86a6d1e99ecec",
+      "name": "ABR \u00b7 Sales huddle \u2014 Q7/Q9 promo, F&I, inventory (Nov 9)",
+      "start_at": "2026-11-09T16:00:40",
+      "created_at": "2026-11-09T16:24:29",
+      "duration_ms": 1421000,
+      "vertical": "dealers",
+      "store": "abr",
+      "routed_by": "Midday brief Nov 9 \u2014 spoken ABR sales / Q7 Q9",
+      "status": "park",
+      "work_order": "File + park. Lance owns: (1) loyalty verbiage check + $1,500 on Q9 feature page (2) Fruit & Wine Fest go/no-go this weekend (3) Dec mag Q7/Q9-only direction. Ada: no same-day build unless he says go on feature/loyalty page edit. Banners already approved Fri; depreciation email already spinning.",
+      "summary_md": "### ABR sales huddle \u00b7 Nov 9\n- **Pace:** Best start in a long time \u2014 tracking ~**70 cars** early month; profitability still light \u2192 keep volume + push F&I.\n- **F&I focus:** Safety (every deal, esp. new Q7/Q9 equity buyers), Precision Protect, warranty, ceramic; tire/wheel OK. Safety + Precision Protect = no chargeback.\n- **Q7/Q9 promo stack (Lance):** Banners approved Fri / printing \u00b7 end-of-year depreciation email already spinning \u00b7 feature page year-round + Google Ads promote \u00b7 email + newsletter \u00b7 Dec magazine = **Q7/Q9 only** (not other stores).\n- **Loyalty:** Confirm specials/feature verbiage \u2014 current customers qualify for **$1,500 loyalty on Q7**; put that line on the **Q9 feature page**.\n- **Fruit & Wine Fest this weekend (~$4k):** Lance deciding today (organizer pressing); Q9 port releases may land this week; Q7-only fallback if Q9 late. Alt events exist (Bougazi, Highland tennis).\n- **Ops:** Online training finish early (Q4 only one that hits store P&L). Service busy / stack to close. Inventory closing ~Wed. ~7 units released at port (incl. ~2 Q9 + ~2 Q7); some sold Q9s still held at port. Christmas party **Dec 8**. Nuvolari funding (~$100k now / $100k Jan) pending spots by the 13th. AutoBlog comparison favored Q7 vs X5/GLE.",
+      "highlights": [
+        {
+          "title": "70-car pace / F&I",
+          "content": "Best start in a long time at ~70 cars; push safety + Precision Protect especially on new Q7/Q9.",
+          "timestamp": 92590
+        },
+        {
+          "title": "Q7/Q9 promo stack",
+          "content": "Banners printing; Google Ads + feature page; email/newsletter; Dec mag = Q7/Q9 only.",
+          "timestamp": 291790
+        },
+        {
+          "title": "Loyalty on feature page",
+          "content": "Confirm $1,500 loyalty for current customers on Q7; put verbiage on Q9 feature page.",
+          "timestamp": 518000
+        },
+        {
+          "title": "Fruit & Wine Fest weekend",
+          "content": "Lance deciding today; Q9 port timing uncertain; Q7 fallback possible.",
+          "timestamp": 361000
+        }
+      ],
+      "transcript": [
+        {
+          "start_time": 0,
+          "end_time": 1520,
+          "content": "I don't have very much to go tonight.",
+          "speaker": "Speaker 1",
+          "original_speaker": "Speaker 1",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_0_15"
+        },
+        {
+          "start_time": 4000,
+          "end_time": 18080,
+          "content": "First thing is training. I know it's early in the quarter, but let's just is there anybody that has any type of instructor led that we can schedule for or anything that's sitting out there?",
+          "speaker": "Speaker 1",
+          "original_speaker": "Speaker 1",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_40_180"
+        },
+        {
+          "start_time": 18640,
+          "end_time": 20240,
+          "content": "No, we're 100% first serve.",
+          "speaker": "Speaker 1",
+          "original_speaker": "Speaker 1",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_186_202"
+        },
+        {
+          "start_time": 20640,
+          "end_time": 21920,
+          "content": "Okay, we're on all day.",
+          "speaker": "Speaker 2",
+          "original_speaker": "Speaker 2",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_206_219"
+        },
+        {
+          "start_time": 23440,
+          "end_time": 25440,
+          "content": "You completed the last instructor led we just needed,",
+          "speaker": "Speaker 1",
+          "original_speaker": "Speaker 1",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_234_254"
+        },
+        {
+          "start_time": 26080,
+          "end_time": 28960,
+          "content": "So I think after this it's just online stuff.",
+          "speaker": "Speaker 1",
+          "original_speaker": "Speaker 1",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_260_289"
+        },
+        {
+          "start_time": 29920,
+          "end_time": 39280,
+          "content": "Let's let's try to get that all done early because really the training in the fourth quarter is the only one that truly affects the profitability of the store.",
+          "speaker": "Speaker 1",
+          "original_speaker": "Speaker 1",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_299_392"
+        },
+        {
+          "start_time": 39280,
+          "end_time": 40080,
+          "content": "So yeah, sure.",
+          "speaker": "Speaker 2",
+          "original_speaker": "Speaker 2",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_392_400"
+        },
+        {
+          "start_time": 40720,
+          "end_time": 42160,
+          "content": "Yeah, ours is all done for the year.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_407_421"
+        },
+        {
+          "start_time": 42160,
+          "end_time": 44080,
+          "content": "Everybody, let's not wait for the last minute.",
+          "speaker": "Speaker 1",
+          "original_speaker": "Speaker 1",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_421_440"
+        },
+        {
+          "start_time": 47360,
+          "end_time": 58960,
+          "content": "So okay, service. I have no idea where we're really at right now. Monica may have, but it seems based on the appointments, it seems like we've been.",
+          "speaker": "Speaker 1",
+          "original_speaker": "Speaker 1",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_473_589"
+        },
+        {
+          "start_time": 60480,
+          "end_time": 62432,
+          "content": "Really good traffic that we're selling a little bit.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_604_624"
+        },
+        {
+          "start_time": 62560,
+          "end_time": 64549,
+          "content": "We got a job that's starting to go in.",
+          "speaker": "Speaker 2",
+          "original_speaker": "Speaker 2",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_625_645"
+        },
+        {
+          "start_time": 64608,
+          "end_time": 65900,
+          "content": "We got a patient job that we have fitted.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_646_659"
+        },
+        {
+          "start_time": 66120,
+          "end_time": 74640,
+          "content": "We're going to sell job now, and she's got a huge stack to get close. I don't want her to get all close today, but we'll get it all close.",
+          "speaker": "Speaker 2",
+          "original_speaker": "Speaker 2",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_661_746"
+        },
+        {
+          "start_time": 74640,
+          "end_time": 77680,
+          "content": "We got tons of business tomorrow. We should have an idea where we're really at.",
+          "speaker": "Speaker 1",
+          "original_speaker": "Speaker 1",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_746_776"
+        },
+        {
+          "start_time": 78400,
+          "end_time": 83920,
+          "content": "Okay. Yeah, I should have somewhat of an idea this afternoon because she'll be able to flag everything. Okay.",
+          "speaker": "Speaker 2",
+          "original_speaker": "Speaker 2",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_784_839"
+        },
+        {
+          "start_time": 84800,
+          "end_time": 89020,
+          "content": "So I have some numbers. Go off of it. All right. Oh.",
+          "speaker": "Speaker 2",
+          "original_speaker": "Speaker 2",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_848_890"
+        },
+        {
+          "start_time": 92590,
+          "end_time": 97630,
+          "content": "Sales for us are probably the best start we've had in a long time. So we're tracking 70 cars right now,",
+          "speaker": "Speaker 1",
+          "original_speaker": "Speaker 1",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_925_976"
+        },
+        {
+          "start_time": 98750,
+          "end_time": 109630,
+          "content": "Early in the month, which is good. Profitability is a little bit lower than what we want to be at, but let's just keep selling cars. One thing I want to talk about is F and I.",
+          "speaker": "Speaker 1",
+          "original_speaker": "Speaker 1",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_987_1096"
+        },
+        {
+          "start_time": 110590,
+          "end_time": 112750,
+          "content": "We've got to start getting some more products out.",
+          "speaker": "Speaker 1",
+          "original_speaker": "Speaker 1",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_1105_1127"
+        },
+        {
+          "start_time": 113390,
+          "end_time": 118030,
+          "content": "So right now it seems we're making money on rate and gap, and we're not selling a lot.",
+          "speaker": "Speaker 1",
+          "original_speaker": "Speaker 1",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_1133_1180"
+        },
+        {
+          "start_time": 121690,
+          "end_time": 124970,
+          "content": "One of the ones I want to focus on is is safety.",
+          "speaker": "Speaker 1",
+          "original_speaker": "Speaker 1",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_1216_1249"
+        },
+        {
+          "start_time": 124970,
+          "end_time": 131130,
+          "content": "It's such a low cost product with a high ROI.",
+          "speaker": "Speaker 2",
+          "original_speaker": "Speaker 2",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_1249_1311"
+        },
+        {
+          "start_time": 131290,
+          "end_time": 148650,
+          "content": "I know it's a front end ad, so that affects sometimes the approval whether we can use it or not. But I think it's a good product for the customers. I think it's a great product for us. So let's make sure and try to increase our penetration of that. We had low penetration on safety last month,",
+          "speaker": "Speaker 1",
+          "original_speaker": "Speaker 1",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_1312_1486"
+        },
+        {
+          "start_time": 149210,
+          "end_time": 167380,
+          "content": "And we're having low penetration this month. Was always a product that was sold pretty good, so let's make sure that is pitched in to every customer we go to, especially the people buying the new Q sevens, new Q nines. Most of them have been in equity situations, and that's a great product for a car that's brand new.",
+          "speaker": "Speaker 1",
+          "original_speaker": "Speaker 1",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_1492_1673"
+        },
+        {
+          "start_time": 169140,
+          "end_time": 173700,
+          "content": "You know, they weren't protected. They're not going to have a warranty or keep it very long.",
+          "speaker": "Speaker 1",
+          "original_speaker": "Speaker 1",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_1691_1737"
+        },
+        {
+          "start_time": 174900,
+          "end_time": 179460,
+          "content": "Certainly, the ceramic is something that I think most of these customers would want. So.",
+          "speaker": "Speaker 1",
+          "original_speaker": "Speaker 1",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_1749_1794"
+        },
+        {
+          "start_time": 180830,
+          "end_time": 185310,
+          "content": "Let's make sure and present that to every festival. Any comments or anything on that?",
+          "speaker": "Speaker 1",
+          "original_speaker": "Speaker 1",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_1808_1853"
+        },
+        {
+          "start_time": 188910,
+          "end_time": 191710,
+          "content": "Alright. The tire wheel is another good one.",
+          "speaker": "Speaker 2",
+          "original_speaker": "Speaker 2",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_1889_1917"
+        },
+        {
+          "start_time": 191710,
+          "end_time": 202910,
+          "content": "Tire wheel is a good one. We're doing okay with tire wheel. We did what we did with tire wheel last month. Warranty was a little off, but from a profit perspective,",
+          "speaker": "Speaker 1",
+          "original_speaker": "Speaker 1",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_1917_2029"
+        },
+        {
+          "start_time": 203710,
+          "end_time": 206350,
+          "content": "The nice thing with safe fuel,",
+          "speaker": "Speaker 1",
+          "original_speaker": "Speaker 1",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_2037_2063"
+        },
+        {
+          "start_time": 206910,
+          "end_time": 207950,
+          "content": "We can't get charged back.",
+          "speaker": "Speaker 1",
+          "original_speaker": "Speaker 1",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_2069_2079"
+        },
+        {
+          "start_time": 208910,
+          "end_time": 209710,
+          "content": "Tire wheel can.",
+          "speaker": "Speaker 1",
+          "original_speaker": "Speaker 1",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_2089_2097"
+        },
+        {
+          "start_time": 210320,
+          "end_time": 224000,
+          "content": "But warranties are always a preference, but I think we're missing the boat right now on that. Also, the Precision Protect is is a is a good product as well.",
+          "speaker": "Speaker 1",
+          "original_speaker": "Speaker 1",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_2103_2240"
+        },
+        {
+          "start_time": 227120,
+          "end_time": 231440,
+          "content": "That's a real value to the customer, especially when you start talking brake jobs, headlights,",
+          "speaker": "Speaker 1",
+          "original_speaker": "Speaker 1",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_2271_2314"
+        },
+        {
+          "start_time": 232160,
+          "end_time": 236000,
+          "content": "Belts, hoses, things like that. These things, although they get free maintenance for three years.",
+          "speaker": "Speaker 1",
+          "original_speaker": "Speaker 1",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_2321_2360"
+        },
+        {
+          "start_time": 237160,
+          "end_time": 238680,
+          "content": "By the time you get to that third year,",
+          "speaker": "Speaker 1",
+          "original_speaker": "Speaker 1",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_2371_2386"
+        },
+        {
+          "start_time": 238760,
+          "end_time": 243560,
+          "content": "You know that's when these specific items are not going to be covered.",
+          "speaker": "Speaker 2",
+          "original_speaker": "Speaker 2",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_2387_2435"
+        },
+        {
+          "start_time": 243560,
+          "end_time": 249640,
+          "content": "No maintenance plan will come into place. That's another thing to to show people as well, and that product also cannot be charged back.",
+          "speaker": "Speaker 1",
+          "original_speaker": "Speaker 1",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_2435_2496"
+        },
+        {
+          "start_time": 251800,
+          "end_time": 252040,
+          "content": "So,",
+          "speaker": "Speaker 1",
+          "original_speaker": "Speaker 1",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_2518_2520"
+        },
+        {
+          "start_time": 255720,
+          "end_time": 261240,
+          "content": "Sorry,",
+          "speaker": "Speaker 2",
+          "original_speaker": "Speaker 2",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_2557_2612"
+        },
+        {
+          "start_time": 261240,
+          "end_time": 264120,
+          "content": "It's just such an important part of our profitability right now. I just don't want.",
+          "speaker": "Speaker 1",
+          "original_speaker": "Speaker 1",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_2612_2641"
+        },
+        {
+          "start_time": 265230,
+          "end_time": 275390,
+          "content": "We're often a little slow starting up, and I just want to refocus on that and try to maximize every opportunity we have. About coming, we still got a part of Q7 and Q9 that are going to come in this month,",
+          "speaker": "Speaker 1",
+          "original_speaker": "Speaker 1",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_2652_2753"
+        },
+        {
+          "start_time": 276030,
+          "end_time": 279470,
+          "content": "And we need to maximize every one of those that we can. So,",
+          "speaker": "Speaker 1",
+          "original_speaker": "Speaker 1",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_2760_2794"
+        },
+        {
+          "start_time": 280750,
+          "end_time": 283950,
+          "content": "Boss, that's really awesome.",
+          "speaker": "Speaker 2",
+          "original_speaker": "Speaker 2",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_2807_2839"
+        },
+        {
+          "start_time": 283950,
+          "end_time": 291790,
+          "content": "What do we do to promote the Q7, Q9? Did I lift a banner? We still got the Q3 banner around the Q9 whatever banner.",
+          "speaker": "Speaker 4",
+          "original_speaker": "Speaker 4",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_2839_2917"
+        },
+        {
+          "start_time": 291790,
+          "end_time": 294430,
+          "content": "They're both being printed. We approved them Friday.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_2917_2944"
+        },
+        {
+          "start_time": 295750,
+          "end_time": 303190,
+          "content": "And and and the email we're doing the depreciation email for the end of the year, so we're we're starting that already.",
+          "speaker": "Speaker 4",
+          "original_speaker": "Speaker 4",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_2957_3031"
+        },
+        {
+          "start_time": 303190,
+          "end_time": 304070,
+          "content": "Yes, already.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_3031_3040"
+        },
+        {
+          "start_time": 304550,
+          "end_time": 311110,
+          "content": "Because I mean I I think it's I think it's important while these products are brand new and hot, to promote them so people can.",
+          "speaker": "Speaker 4",
+          "original_speaker": "Speaker 4",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_3045_3111"
+        },
+        {
+          "start_time": 312950,
+          "end_time": 321670,
+          "content": "Yeah, I leave um I leave a a special page like a feature page about that program all year, and so just this time of year the big difference is we just we push it in.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_3129_3216"
+        },
+        {
+          "start_time": 322260,
+          "end_time": 327060,
+          "content": "I'll put in for this store. I'll put in our Google Ad Spend. A little note about it to add that as a page that we promote.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_3222_3270"
+        },
+        {
+          "start_time": 327380,
+          "end_time": 328180,
+          "content": "Do we email it?",
+          "speaker": "Speaker 4",
+          "original_speaker": "Speaker 4",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_3273_3281"
+        },
+        {
+          "start_time": 328260,
+          "end_time": 330740,
+          "content": "Yes, and that's also going to be an email and newsletter too.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_3282_3307"
+        },
+        {
+          "start_time": 330900,
+          "end_time": 336260,
+          "content": "And did we do the little display deals for like the service advisor desks?",
+          "speaker": "Speaker 4",
+          "original_speaker": "Speaker 4",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_3309_3362"
+        },
+        {
+          "start_time": 336420,
+          "end_time": 339060,
+          "content": "I didn't print his his little tabletops yet.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_3364_3390"
+        },
+        {
+          "start_time": 339540,
+          "end_time": 348740,
+          "content": "So like the Q seven Q knife, we can put those on the service advisor and then put one or two in the little customer waiting area. Just you know, just so we have people knowing that these things are coming.",
+          "speaker": "Speaker 4",
+          "original_speaker": "Speaker 4",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_3395_3487"
+        },
+        {
+          "start_time": 348740,
+          "end_time": 350660,
+          "content": "Because I mean,",
+          "speaker": "Speaker 2",
+          "original_speaker": "Speaker 2",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_3487_3506"
+        },
+        {
+          "start_time": 350660,
+          "end_time": 357510,
+          "content": "Most of our most of our traction. Traffic's coming into the search department. I just think we need to have it in front of their face when they come in.",
+          "speaker": "Speaker 4",
+          "original_speaker": "Speaker 4",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_3506_3575"
+        },
+        {
+          "start_time": 357670,
+          "end_time": 359990,
+          "content": "And our plan is to park them out there like we did before.",
+          "speaker": "Speaker 1",
+          "original_speaker": "Speaker 1",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_3576_3599"
+        },
+        {
+          "start_time": 361350,
+          "end_time": 366150,
+          "content": "With the Q3 and Q4, we had good success with that. Now we've got that fruit and wine festival this weekend.",
+          "speaker": "Speaker 1",
+          "original_speaker": "Speaker 1",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_3613_3661"
+        },
+        {
+          "start_time": 367270,
+          "end_time": 379190,
+          "content": "My concern is whether or we're going to have a Q9. Yeah, I don't know. We've got two released at port, and they can be here any any time this week.",
+          "speaker": "Speaker 1",
+          "original_speaker": "Speaker 1",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_3672_3791"
+        },
+        {
+          "start_time": 379920,
+          "end_time": 382880,
+          "content": "My fear is they come in, they sell those two right away,",
+          "speaker": "Speaker 1",
+          "original_speaker": "Speaker 1",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_3799_3828"
+        },
+        {
+          "start_time": 383680,
+          "end_time": 384720,
+          "content": "If they come in at all,",
+          "speaker": "Speaker 1",
+          "original_speaker": "Speaker 1",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_3836_3847"
+        },
+        {
+          "start_time": 385280,
+          "end_time": 391520,
+          "content": "And then I've got nothing to display at the launch event. I don't want to go back with with old products. I mean, what do y'all think?",
+          "speaker": "Speaker 1",
+          "original_speaker": "Speaker 1",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_3852_3915"
+        },
+        {
+          "start_time": 394080,
+          "end_time": 395360,
+          "content": "Yeah, it's gonna be risky.",
+          "speaker": "Speaker 5",
+          "original_speaker": "Speaker 5",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_3940_3953"
+        },
+        {
+          "start_time": 395520,
+          "end_time": 397360,
+          "content": "It's four thousand dollars.",
+          "speaker": "Speaker 1",
+          "original_speaker": "Speaker 1",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_3955_3973"
+        },
+        {
+          "start_time": 397360,
+          "end_time": 399360,
+          "content": "But all you have is Q seven. If that doesn't come right,",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_3973_3993"
+        },
+        {
+          "start_time": 399760,
+          "end_time": 400800,
+          "content": "Indeed. I mean, the Q seven.",
+          "speaker": "Speaker 4",
+          "original_speaker": "Speaker 4",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_3997_4008"
+        },
+        {
+          "start_time": 400800,
+          "end_time": 402560,
+          "content": "How many Q sevens do we have? One two.",
+          "speaker": "Speaker 1",
+          "original_speaker": "Speaker 1",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_4008_4025"
+        },
+        {
+          "start_time": 404320,
+          "end_time": 406000,
+          "content": "I got two. I got a blue and I got a gray.",
+          "speaker": "Speaker 1",
+          "original_speaker": "Speaker 1",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_4043_4060"
+        },
+        {
+          "start_time": 407990,
+          "end_time": 412470,
+          "content": "We have a white woman that's supposed to be going. I'm sorry, the other gray woman is supposed to be going out today.",
+          "speaker": "Speaker 1",
+          "original_speaker": "Speaker 1",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_4079_4124"
+        },
+        {
+          "start_time": 415430,
+          "end_time": 415830,
+          "content": "So,",
+          "speaker": "Speaker 1",
+          "original_speaker": "Speaker 1",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_4154_4158"
+        },
+        {
+          "start_time": 418150,
+          "end_time": 419350,
+          "content": "I mean, seems like a good event.",
+          "speaker": "Speaker 1",
+          "original_speaker": "Speaker 1",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_4181_4193"
+        },
+        {
+          "start_time": 419350,
+          "end_time": 419750,
+          "content": "Yeah,",
+          "speaker": "Speaker 4",
+          "original_speaker": "Speaker 4",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_4193_4197"
+        },
+        {
+          "start_time": 421190,
+          "end_time": 425110,
+          "content": "Molly, you should do it if you don't have the car. Man, it's pointless to do it.",
+          "speaker": "Speaker 4",
+          "original_speaker": "Speaker 4",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_4211_4251"
+        },
+        {
+          "start_time": 427510,
+          "end_time": 430710,
+          "content": "What's the absolute latest they'll let us say yay or nay today?",
+          "speaker": "Speaker 1",
+          "original_speaker": "Speaker 1",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_4275_4307"
+        },
+        {
+          "start_time": 431510,
+          "end_time": 435670,
+          "content": "She wanted my decision Friday, but I told her, let me, you know, give me till today.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_4315_4356"
+        },
+        {
+          "start_time": 437350,
+          "end_time": 439110,
+          "content": "Yeah, she's already texted me and called me twice. So, yeah,",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_4373_4391"
+        },
+        {
+          "start_time": 441270,
+          "end_time": 442630,
+          "content": "I don't know if I do it.",
+          "speaker": "Speaker 2",
+          "original_speaker": "Speaker 2",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_4412_4426"
+        },
+        {
+          "start_time": 442630,
+          "end_time": 448310,
+          "content": "Yeah, because it's this. I mean, it's this weekend, so they're kind of like, yeah, to finalize the setup and shit. Well,",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_4426_4483"
+        },
+        {
+          "start_time": 449670,
+          "end_time": 450870,
+          "content": "We just have to look for something else.",
+          "speaker": "Speaker 1",
+          "original_speaker": "Speaker 1",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_4496_4508"
+        },
+        {
+          "start_time": 451190,
+          "end_time": 454150,
+          "content": "I mean, there's other stuff. There's a long list of different little things,",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_4511_4541"
+        },
+        {
+          "start_time": 454790,
+          "end_time": 461110,
+          "content": "Which is smaller stuff. I mean, which you've got like bougazi events, you've got tennis events at Highland. There's a lot of that going on right now.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_4547_4611"
+        },
+        {
+          "start_time": 461750,
+          "end_time": 462710,
+          "content": "There's all kind of things.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_4617_4627"
+        },
+        {
+          "start_time": 463030,
+          "end_time": 464310,
+          "content": "We were about shit at the country club.",
+          "speaker": "Speaker 4",
+          "original_speaker": "Speaker 4",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_4630_4643"
+        },
+        {
+          "start_time": 466200,
+          "end_time": 476120,
+          "content": "Yeah, you got some. You got some events in December coming up. International has to do it. You've got you've got Christmas on the lawn,",
+          "speaker": "Speaker 1",
+          "original_speaker": "Speaker 1",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_4662_4761"
+        },
+        {
+          "start_time": 476120,
+          "end_time": 479480,
+          "content": "Then you've got. Big outfit for the.",
+          "speaker": "Speaker 2",
+          "original_speaker": "Speaker 2",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_4761_4794"
+        },
+        {
+          "start_time": 479560,
+          "end_time": 483160,
+          "content": "There's a big shopping event they do that was set up in the 19th hole.",
+          "speaker": "Speaker 1",
+          "original_speaker": "Speaker 1",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_4795_4831"
+        },
+        {
+          "start_time": 483240,
+          "end_time": 484280,
+          "content": "Thanks, thanks.",
+          "speaker": "Speaker 2",
+          "original_speaker": "Speaker 2",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_4832_4842"
+        },
+        {
+          "start_time": 484280,
+          "end_time": 486280,
+          "content": "It's where you pop the balloon. You get a certain percent of.",
+          "speaker": "Speaker 1",
+          "original_speaker": "Speaker 1",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_4842_4862"
+        },
+        {
+          "start_time": 486280,
+          "end_time": 488360,
+          "content": "Oh yeah, it was pretty big last year.",
+          "speaker": "Speaker 4",
+          "original_speaker": "Speaker 4",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_4862_4883"
+        },
+        {
+          "start_time": 489080,
+          "end_time": 492040,
+          "content": "What about the magazines that go into U Club and?",
+          "speaker": "Speaker 4",
+          "original_speaker": "Speaker 4",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_4890_4920"
+        },
+        {
+          "start_time": 492720,
+          "end_time": 496080,
+          "content": "CC, are we doing Q9, Q7, and Q6? Yeah. Okay, that's that's.",
+          "speaker": "Speaker 4",
+          "original_speaker": "Speaker 4",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_4927_4960"
+        },
+        {
+          "start_time": 496080,
+          "end_time": 505120,
+          "content": "Well, that, that's already that's, that's all. Remember, that's all. All the stores is the most recent one. Yeah. With Q7, Q9, but then we've got to do the next one already. So,",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_4960_5051"
+        },
+        {
+          "start_time": 506080,
+          "end_time": 507760,
+          "content": "Guess what? That one will be out in December.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_5060_5077"
+        },
+        {
+          "start_time": 508960,
+          "end_time": 510720,
+          "content": "Yeah. So whatever we want to do for that.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_5089_5107"
+        },
+        {
+          "start_time": 510720,
+          "end_time": 512240,
+          "content": "Q7, Q9,",
+          "speaker": "Speaker 1",
+          "original_speaker": "Speaker 1",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_5107_5122"
+        },
+        {
+          "start_time": 512240,
+          "end_time": 514640,
+          "content": "Q6. We want just do just just do Q. Yeah, we won't do the other stores.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_5122_5146"
+        },
+        {
+          "start_time": 515440,
+          "end_time": 518000,
+          "content": "Q7, Q9. All right, that's easy. That's what we'll do.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_5154_5180"
+        },
+        {
+          "start_time": 518000,
+          "end_time": 527500,
+          "content": "And also, let's make sure that on our specialist page that we have emphasis that. Our current customers do qualify for loyalty on the on the Q set, fifteen thousand loyalty for Q set.",
+          "speaker": "Speaker 1",
+          "original_speaker": "Speaker 1",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_5180_5275"
+        },
+        {
+          "start_time": 527580,
+          "end_time": 531100,
+          "content": "Yeah, I'll check the verbiage, but I think I've got loyalty in there. I'll double check loyalty.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_5275_5311"
+        },
+        {
+          "start_time": 531660,
+          "end_time": 534380,
+          "content": "You know, all the customers are thinking,\"Well, man,",
+          "speaker": "Speaker 1",
+          "original_speaker": "Speaker 1",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_5316_5343"
+        },
+        {
+          "start_time": 535340,
+          "end_time": 540140,
+          "content": "Brand new, I might have to pay a different price for it.\" Price, but they'll be able to get that. It's a pretty nice discount. Yeah.",
+          "speaker": "Speaker 1",
+          "original_speaker": "Speaker 1",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_5353_5401"
+        },
+        {
+          "start_time": 542860,
+          "end_time": 543900,
+          "content": "Yeah, I mean,",
+          "speaker": "Speaker 1",
+          "original_speaker": "Speaker 1",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_5428_5439"
+        },
+        {
+          "start_time": 543900,
+          "end_time": 546780,
+          "content": "I'll put that. I'll actually put that verbiage on the feature page for the Q nine.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_5439_5467"
+        },
+        {
+          "start_time": 548620,
+          "end_time": 548780,
+          "content": "Yeah.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_5486_5487"
+        },
+        {
+          "start_time": 555000,
+          "end_time": 555880,
+          "content": "Anything I want to talk about?",
+          "speaker": "Speaker 1",
+          "original_speaker": "Speaker 1",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_5550_5558"
+        },
+        {
+          "start_time": 563000,
+          "end_time": 565960,
+          "content": "We have a bunch of technicians taking off the day after Thanksgiving.",
+          "speaker": "Speaker 4",
+          "original_speaker": "Speaker 4",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_5630_5659"
+        },
+        {
+          "start_time": 566840,
+          "end_time": 568120,
+          "content": "I don't think so.",
+          "speaker": "Speaker 2",
+          "original_speaker": "Speaker 2",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_5668_5681"
+        },
+        {
+          "start_time": 568120,
+          "end_time": 568600,
+          "content": "It's just uh,",
+          "speaker": "Speaker 4",
+          "original_speaker": "Speaker 4",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_5681_5686"
+        },
+        {
+          "start_time": 571320,
+          "end_time": 577720,
+          "content": "We're in training. It's just, just, just. But I'm not going out of town, so.",
+          "speaker": "Speaker 4",
+          "original_speaker": "Speaker 4",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_5713_5777"
+        },
+        {
+          "start_time": 584090,
+          "end_time": 590090,
+          "content": "We're not doing things we normally do the week of Tuesday, yeah, Tuesday,",
+          "speaker": "Speaker 1",
+          "original_speaker": "Speaker 1",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_5840_5900"
+        },
+        {
+          "start_time": 592490,
+          "end_time": 599530,
+          "content": "And we got Tzumani's last year. Everybody liked that. The only one skipping Tzumani's, the only one do something different.",
+          "speaker": "Speaker 1",
+          "original_speaker": "Speaker 1",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_5924_5995"
+        },
+        {
+          "start_time": 599530,
+          "end_time": 602490,
+          "content": "Frank, Tzumani's again.",
+          "speaker": "Speaker 2",
+          "original_speaker": "Speaker 2",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_5995_6024"
+        },
+        {
+          "start_time": 604170,
+          "end_time": 612410,
+          "content": "That one's good. Can you take care of ordering that? Just kind of mirror the order that we did last year. We got the pies and stuff from from Costco.",
+          "speaker": "Speaker 1",
+          "original_speaker": "Speaker 1",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_6041_6124"
+        },
+        {
+          "start_time": 613690,
+          "end_time": 615370,
+          "content": "So, yeah.",
+          "speaker": "Speaker 2",
+          "original_speaker": "Speaker 2",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_6136_6153"
+        },
+        {
+          "start_time": 616730,
+          "end_time": 618330,
+          "content": "So we do it on Tuesday.",
+          "speaker": "Speaker 2",
+          "original_speaker": "Speaker 2",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_6167_6183"
+        },
+        {
+          "start_time": 618330,
+          "end_time": 619130,
+          "content": "Yeah, I think so.",
+          "speaker": "Speaker 1",
+          "original_speaker": "Speaker 1",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_6183_6191"
+        },
+        {
+          "start_time": 619130,
+          "end_time": 620970,
+          "content": "I think. Maybe Wednesday,",
+          "speaker": "Speaker 4",
+          "original_speaker": "Speaker 4",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_6191_6209"
+        },
+        {
+          "start_time": 621770,
+          "end_time": 623050,
+          "content": "So maybe Wednesday or on Thanksgiving.",
+          "speaker": "Speaker 2",
+          "original_speaker": "Speaker 2",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_6217_6230"
+        },
+        {
+          "start_time": 625130,
+          "end_time": 630170,
+          "content": "Yeah, Tuesday, or we can do the Thursday. We'll do the Thursday the previous week if y'all want to do that.",
+          "speaker": "Speaker 1",
+          "original_speaker": "Speaker 1",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_6251_6301"
+        },
+        {
+          "start_time": 630330,
+          "end_time": 634490,
+          "content": "I mean, doesn't matter the minute. It doesn't matter the minute what we do.",
+          "speaker": "Speaker 5",
+          "original_speaker": "Speaker 5",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_6303_6344"
+        },
+        {
+          "start_time": 634890,
+          "end_time": 636410,
+          "content": "Yeah. Or the Friday the previous week,",
+          "speaker": "Speaker 1",
+          "original_speaker": "Speaker 1",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_6348_6364"
+        },
+        {
+          "start_time": 636570,
+          "end_time": 637770,
+          "content": "Something like that.",
+          "speaker": "Speaker 2",
+          "original_speaker": "Speaker 2",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_6365_6377"
+        },
+        {
+          "start_time": 637770,
+          "end_time": 640330,
+          "content": "I said Tuesday, same week. Yeah. All right.",
+          "speaker": "Speaker 1",
+          "original_speaker": "Speaker 1",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_6377_6403"
+        },
+        {
+          "start_time": 643390,
+          "end_time": 643550,
+          "content": "Yeah,",
+          "speaker": "Speaker 4",
+          "original_speaker": "Speaker 4",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_6433_6435"
+        },
+        {
+          "start_time": 644670,
+          "end_time": 647630,
+          "content": "And I think you said that Christmas party is December eighth.",
+          "speaker": "Speaker 4",
+          "original_speaker": "Speaker 4",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_6446_6476"
+        },
+        {
+          "start_time": 647790,
+          "end_time": 650670,
+          "content": "December eighth. Yeah,",
+          "speaker": "Speaker 2",
+          "original_speaker": "Speaker 2",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_6477_6506"
+        },
+        {
+          "start_time": 650670,
+          "end_time": 654350,
+          "content": "And I think Jane said the Christmas checks come out end of this month.",
+          "speaker": "Speaker 4",
+          "original_speaker": "Speaker 4",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_6506_6543"
+        },
+        {
+          "start_time": 655870,
+          "end_time": 657310,
+          "content": "Ah, the week where you could.",
+          "speaker": "Speaker 1",
+          "original_speaker": "Speaker 1",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_6558_6573"
+        },
+        {
+          "start_time": 657310,
+          "end_time": 664110,
+          "content": "I think it was like on the fifteenth. Yeah, I don't think Marie sent something to tell everybody, but I don't think.",
+          "speaker": "Speaker 6",
+          "original_speaker": "Speaker 6",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_6573_6641"
+        },
+        {
+          "start_time": 664110,
+          "end_time": 666190,
+          "content": "Well, fifteenth is Sunday, so I think.",
+          "speaker": "Speaker 1",
+          "original_speaker": "Speaker 1",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_6641_6661"
+        },
+        {
+          "start_time": 666190,
+          "end_time": 669070,
+          "content": "Well, she was like, I think she was trying to get them out that whatever day.",
+          "speaker": "Speaker 6",
+          "original_speaker": "Speaker 6",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_6661_6690"
+        },
+        {
+          "start_time": 669070,
+          "end_time": 669710,
+          "content": "Yeah, definitely.",
+          "speaker": "Speaker 2",
+          "original_speaker": "Speaker 2",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_6690_6697"
+        },
+        {
+          "start_time": 673410,
+          "end_time": 675730,
+          "content": "They always give me meat because I like to walk around and pass them out.",
+          "speaker": "Speaker 1",
+          "original_speaker": "Speaker 1",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_6734_6757"
+        },
+        {
+          "start_time": 677090,
+          "end_time": 688690,
+          "content": "So yeah, I would say the earlier the better around Thanksgiving time would be the would be the preference to look for things.",
+          "speaker": "Speaker 1",
+          "original_speaker": "Speaker 1",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_6770_6886"
+        },
+        {
+          "start_time": 693810,
+          "end_time": 698290,
+          "content": "And then Christmas party the same as last year. Other sweater, it snows, same thing.",
+          "speaker": "Speaker 1",
+          "original_speaker": "Speaker 1",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_6938_6982"
+        },
+        {
+          "start_time": 699570,
+          "end_time": 701810,
+          "content": "They got bought out by Hot Tails. Yeah, I heard that.",
+          "speaker": "Speaker 1",
+          "original_speaker": "Speaker 1",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_6995_7018"
+        },
+        {
+          "start_time": 702320,
+          "end_time": 708160,
+          "content": "But what's his name?",
+          "speaker": "Speaker 2",
+          "original_speaker": "Speaker 2",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_7023_7081"
+        },
+        {
+          "start_time": 708800,
+          "end_time": 711520,
+          "content": "Colin said we're good, so no problems for him.",
+          "speaker": "Speaker 1",
+          "original_speaker": "Speaker 1",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_7088_7115"
+        },
+        {
+          "start_time": 715840,
+          "end_time": 718080,
+          "content": "Can't see it doing anywhere else, and it's a perfect venue. Yeah.",
+          "speaker": "Speaker 1",
+          "original_speaker": "Speaker 1",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_7158_7180"
+        },
+        {
+          "start_time": 720960,
+          "end_time": 721440,
+          "content": "Um.",
+          "speaker": "Speaker 1",
+          "original_speaker": "Speaker 1",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_7209_7214"
+        },
+        {
+          "start_time": 722720,
+          "end_time": 724960,
+          "content": "Anybody got anything? Suggestions? Anything?",
+          "speaker": "Speaker 1",
+          "original_speaker": "Speaker 1",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_7227_7249"
+        },
+        {
+          "start_time": 728080,
+          "end_time": 730560,
+          "content": "All right. The only concern I got this month is a very short month.",
+          "speaker": "Speaker 1",
+          "original_speaker": "Speaker 1",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_7280_7305"
+        },
+        {
+          "start_time": 731400,
+          "end_time": 739880,
+          "content": "We only got 18 working days left, so we're talking Thanksgiving. So it's not one that we can dilute down. We got off to a great start in sales.",
+          "speaker": "Speaker 1",
+          "original_speaker": "Speaker 1",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_7314_7398"
+        },
+        {
+          "start_time": 741000,
+          "end_time": 754760,
+          "content": "So yeah, I think I think you're recording. You know, we've got excitement with the product now. We're going to get people in, but we just got to maximize every opportunity we have for marketing and sales. So let's make sure you people motivate, stay focused, and prepare.",
+          "speaker": "Speaker 4",
+          "original_speaker": "Speaker 4",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_7410_7547"
+        },
+        {
+          "start_time": 755080,
+          "end_time": 756360,
+          "content": "Yeah, I've been excited.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_7550_7563"
+        },
+        {
+          "start_time": 757080,
+          "end_time": 758360,
+          "content": "This past week was very,",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_7570_7583"
+        },
+        {
+          "start_time": 759560,
+          "end_time": 760200,
+          "content": "Great sales. So.",
+          "speaker": "Speaker 1",
+          "original_speaker": "Speaker 1",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_7595_7602"
+        },
+        {
+          "start_time": 762080,
+          "end_time": 765360,
+          "content": "Let's keep that going.",
+          "speaker": "Speaker 1",
+          "original_speaker": "Speaker 1",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_7620_7653"
+        },
+        {
+          "start_time": 769040,
+          "end_time": 770880,
+          "content": "And then you're gonna knock out inventory this week.",
+          "speaker": "Speaker 1",
+          "original_speaker": "Speaker 1",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_7690_7708"
+        },
+        {
+          "start_time": 771200,
+          "end_time": 778160,
+          "content": "Yeah, I think closing out next next Wednesday. Next Wednesday. Okay. But yeah, I've almost got all done.",
+          "speaker": "Speaker 4",
+          "original_speaker": "Speaker 4",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_7712_7781"
+        },
+        {
+          "start_time": 784160,
+          "end_time": 786560,
+          "content": "All right.",
+          "speaker": "Speaker 2",
+          "original_speaker": "Speaker 2",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_7841_7865"
+        },
+        {
+          "start_time": 786560,
+          "end_time": 791680,
+          "content": "Cool. Um. Let's see. I know today we got we got the wire supposed to be coming in. I don't know if that's coming yet.",
+          "speaker": "Speaker 1",
+          "original_speaker": "Speaker 1",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_7865_7916"
+        },
+        {
+          "start_time": 792840,
+          "end_time": 795800,
+          "content": "No, we haven't checked, but so we got that.",
+          "speaker": "Speaker 1",
+          "original_speaker": "Speaker 1",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_7928_7958"
+        },
+        {
+          "start_time": 796600,
+          "end_time": 799800,
+          "content": "Jack's got a Q7, the lady that gave the deposit.",
+          "speaker": "Speaker 1",
+          "original_speaker": "Speaker 1",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_7966_7998"
+        },
+        {
+          "start_time": 800680,
+          "end_time": 801320,
+          "content": "Are they good?",
+          "speaker": "Speaker 5",
+          "original_speaker": "Speaker 5",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_8006_8013"
+        },
+        {
+          "start_time": 802120,
+          "end_time": 802840,
+          "content": "Yeah, I think so.",
+          "speaker": "Speaker 1",
+          "original_speaker": "Speaker 1",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_8021_8028"
+        },
+        {
+          "start_time": 803080,
+          "end_time": 806600,
+          "content": "Okay. Yeah, they're supposed to be coming in.",
+          "speaker": "Speaker 2",
+          "original_speaker": "Speaker 2",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_8030_8066"
+        },
+        {
+          "start_time": 806600,
+          "end_time": 810600,
+          "content": "And then he's got another Q7. It was the one I located over at.",
+          "speaker": "Speaker 1",
+          "original_speaker": "Speaker 1",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_8066_8106"
+        },
+        {
+          "start_time": 812120,
+          "end_time": 818680,
+          "content": "Can't remember it was North Park or North Austin. I think it was North Austin. They have two at Fort.",
+          "speaker": "Speaker 1",
+          "original_speaker": "Speaker 1",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_8121_8186"
+        },
+        {
+          "start_time": 819960,
+          "end_time": 820680,
+          "content": "It's black beige.",
+          "speaker": "Speaker 5",
+          "original_speaker": "Speaker 5",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_8199_8206"
+        },
+        {
+          "start_time": 821160,
+          "end_time": 823400,
+          "content": "So. They're supposed to be coming in today as well.",
+          "speaker": "Speaker 1",
+          "original_speaker": "Speaker 1",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_8211_8234"
+        },
+        {
+          "start_time": 824760,
+          "end_time": 826680,
+          "content": "But they got trade, they got price to trade.",
+          "speaker": "Speaker 1",
+          "original_speaker": "Speaker 1",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_8247_8266"
+        },
+        {
+          "start_time": 829160,
+          "end_time": 830120,
+          "content": "Should hopefully be decent day.",
+          "speaker": "Speaker 1",
+          "original_speaker": "Speaker 1",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_8291_8301"
+        },
+        {
+          "start_time": 830760,
+          "end_time": 833960,
+          "content": "So, dude, it seems like the Q7 is relatively relatively popular.",
+          "speaker": "Speaker 4",
+          "original_speaker": "Speaker 4",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_8307_8339"
+        },
+        {
+          "start_time": 835480,
+          "end_time": 842440,
+          "content": "Oh yeah, they're more popular. I thought they were gonna be. Yeah, yeah, yeah. They're doing, they're doing pretty. It's an amazing, beautiful car.",
+          "speaker": "Speaker 1",
+          "original_speaker": "Speaker 1",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_8354_8424"
+        },
+        {
+          "start_time": 842600,
+          "end_time": 846600,
+          "content": "Yeah, well, I saw, I saw y'all delivered. I mean, y'all delivered one so far.",
+          "speaker": "Speaker 4",
+          "original_speaker": "Speaker 4",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_8426_8466"
+        },
+        {
+          "start_time": 847080,
+          "end_time": 849000,
+          "content": "Two, two. Okay, yeah. Saw one.",
+          "speaker": "Speaker 1",
+          "original_speaker": "Speaker 1",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_8470_8490"
+        },
+        {
+          "start_time": 849000,
+          "end_time": 851700,
+          "content": "It was like seven thousand front gross on it. Yeah.",
+          "speaker": "Speaker 4",
+          "original_speaker": "Speaker 4",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_8490_8517"
+        },
+        {
+          "start_time": 852820,
+          "end_time": 853940,
+          "content": "I might have been the SQ nine.",
+          "speaker": "Speaker 5",
+          "original_speaker": "Speaker 5",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_8528_8539"
+        },
+        {
+          "start_time": 855220,
+          "end_time": 857300,
+          "content": "No, that was the SQ seven.",
+          "speaker": "Speaker 1",
+          "original_speaker": "Speaker 1",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_8552_8573"
+        },
+        {
+          "start_time": 858180,
+          "end_time": 862260,
+          "content": "Oh, SQ seven. He gets a late train in like a really cheap car. Yeah.",
+          "speaker": "Speaker 4",
+          "original_speaker": "Speaker 4",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_8581_8622"
+        },
+        {
+          "start_time": 865460,
+          "end_time": 869780,
+          "content": "Yeah, that was the.",
+          "speaker": "Speaker 2",
+          "original_speaker": "Speaker 2",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_8654_8697"
+        },
+        {
+          "start_time": 869780,
+          "end_time": 871540,
+          "content": "No, that was the T seven.",
+          "speaker": "Speaker 1",
+          "original_speaker": "Speaker 1",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_8697_8715"
+        },
+        {
+          "start_time": 871620,
+          "end_time": 877140,
+          "content": "We held back a little bit on the trade. Thirteen thousand dollars trade.",
+          "speaker": "Speaker 2",
+          "original_speaker": "Speaker 2",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_8716_8771"
+        },
+        {
+          "start_time": 877140,
+          "end_time": 878180,
+          "content": "Yeah, that's right.",
+          "speaker": "Speaker 1",
+          "original_speaker": "Speaker 1",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_8771_8781"
+        },
+        {
+          "start_time": 879220,
+          "end_time": 881200,
+          "content": "Yeah. We've done two, one SP7,",
+          "speaker": "Speaker 1",
+          "original_speaker": "Speaker 1",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_8792_8812"
+        },
+        {
+          "start_time": 881200,
+          "end_time": 887680,
+          "content": "One Q7. I think one was like seven thousand, one two thousand.",
+          "speaker": "Speaker 2",
+          "original_speaker": "Speaker 2",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_8812_8876"
+        },
+        {
+          "start_time": 887760,
+          "end_time": 888880,
+          "content": "The the markup on the car,",
+          "speaker": "Speaker 1",
+          "original_speaker": "Speaker 1",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_8877_8888"
+        },
+        {
+          "start_time": 888960,
+          "end_time": 892640,
+          "content": "It's about thirty hundred dollars, Jay.",
+          "speaker": "Speaker 2",
+          "original_speaker": "Speaker 2",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_8889_8926"
+        },
+        {
+          "start_time": 892960,
+          "end_time": 894400,
+          "content": "Yeah, four hundred,",
+          "speaker": "Speaker 5",
+          "original_speaker": "Speaker 5",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_8929_8944"
+        },
+        {
+          "start_time": 894400,
+          "end_time": 895120,
+          "content": "Like four hundred.",
+          "speaker": "Speaker 2",
+          "original_speaker": "Speaker 2",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_8944_8951"
+        },
+        {
+          "start_time": 896320,
+          "end_time": 897840,
+          "content": "Yeah, so it's terrible.",
+          "speaker": "Speaker 1",
+          "original_speaker": "Speaker 1",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_8963_8978"
+        },
+        {
+          "start_time": 898080,
+          "end_time": 900560,
+          "content": "Yeah, so to to make money,",
+          "speaker": "Speaker 2",
+          "original_speaker": "Speaker 2",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_8980_9005"
+        },
+        {
+          "start_time": 900880,
+          "end_time": 902400,
+          "content": "You really got to go back on trades.",
+          "speaker": "Speaker 1",
+          "original_speaker": "Speaker 1",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_9008_9024"
+        },
+        {
+          "start_time": 904000,
+          "end_time": 908160,
+          "content": "Yeah, I mean that SP7, that was seven thousand. That was I was holding a thousand dollars trade.",
+          "speaker": "Speaker 1",
+          "original_speaker": "Speaker 1",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_9040_9081"
+        },
+        {
+          "start_time": 908860,
+          "end_time": 917900,
+          "content": "And that was a hundred and thirty thousand dollars a car. So another reason why that drives home for those.",
+          "speaker": "Speaker 2",
+          "original_speaker": "Speaker 2",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_9088_9179"
+        },
+        {
+          "start_time": 917900,
+          "end_time": 920700,
+          "content": "I mean, we want to average ten thousand dollars a car on those.",
+          "speaker": "Speaker 1",
+          "original_speaker": "Speaker 1",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_9179_9207"
+        },
+        {
+          "start_time": 920700,
+          "end_time": 922300,
+          "content": "I mean, that's kind of the goal.",
+          "speaker": "Speaker 2",
+          "original_speaker": "Speaker 2",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_9207_9223"
+        },
+        {
+          "start_time": 922380,
+          "end_time": 925580,
+          "content": "But yeah, the the market is more appreciating.",
+          "speaker": "Speaker 1",
+          "original_speaker": "Speaker 1",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_9223_9255"
+        },
+        {
+          "start_time": 935020,
+          "end_time": 935980,
+          "content": "Anything else in news today?",
+          "speaker": "Speaker 1",
+          "original_speaker": "Speaker 1",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_9350_9359"
+        },
+        {
+          "start_time": 936620,
+          "end_time": 937660,
+          "content": "We got some stuff working,",
+          "speaker": "Speaker 6",
+          "original_speaker": "Speaker 6",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_9366_9376"
+        },
+        {
+          "start_time": 937740,
+          "end_time": 938300,
+          "content": "So we'll see.",
+          "speaker": "Speaker 2",
+          "original_speaker": "Speaker 2",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_9377_9383"
+        },
+        {
+          "start_time": 938790,
+          "end_time": 941030,
+          "content": "It seems like the users off to a better start this month.",
+          "speaker": "Speaker 4",
+          "original_speaker": "Speaker 4",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_9387_9410"
+        },
+        {
+          "start_time": 941910,
+          "end_time": 943990,
+          "content": "On that one, yeah. I know we unloaded.",
+          "speaker": "Speaker 2",
+          "original_speaker": "Speaker 2",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_9419_9439"
+        },
+        {
+          "start_time": 943990,
+          "end_time": 946870,
+          "content": "Looked like a couple of loaners we unloaded that we took some hits on,",
+          "speaker": "Speaker 4",
+          "original_speaker": "Speaker 4",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_9439_9468"
+        },
+        {
+          "start_time": 946870,
+          "end_time": 948710,
+          "content": "But we got to get rid of them. Yeah.",
+          "speaker": "Speaker 2",
+          "original_speaker": "Speaker 2",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_9468_9487"
+        },
+        {
+          "start_time": 954230,
+          "end_time": 954870,
+          "content": "That last one,",
+          "speaker": "Speaker 1",
+          "original_speaker": "Speaker 1",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_9542_9548"
+        },
+        {
+          "start_time": 955990,
+          "end_time": 956870,
+          "content": "You did a good job there,",
+          "speaker": "Speaker 1",
+          "original_speaker": "Speaker 1",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_9559_9568"
+        },
+        {
+          "start_time": 957510,
+          "end_time": 961610,
+          "content": "Covering someone in the back end on that one.",
+          "speaker": "Speaker 2",
+          "original_speaker": "Speaker 2",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_9575_9616"
+        },
+        {
+          "start_time": 961790,
+          "end_time": 962390,
+          "content": "Nothing much.",
+          "speaker": "Speaker 1",
+          "original_speaker": "Speaker 1",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_9617_9623"
+        },
+        {
+          "start_time": 962710,
+          "end_time": 963990,
+          "content": "Four thousand times.",
+          "speaker": "Speaker 2",
+          "original_speaker": "Speaker 2",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_9627_9639"
+        },
+        {
+          "start_time": 964070,
+          "end_time": 965590,
+          "content": "They got well, yeah, a couple of.",
+          "speaker": "Speaker 6",
+          "original_speaker": "Speaker 6",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_9640_9655"
+        },
+        {
+          "start_time": 966890,
+          "end_time": 969130,
+          "content": "Yeah, we didn't produce either those,",
+          "speaker": "Speaker 6",
+          "original_speaker": "Speaker 6",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_9668_9691"
+        },
+        {
+          "start_time": 969690,
+          "end_time": 977930,
+          "content": "So those are real numbers. The only thing we produced is that fallout this month.",
+          "speaker": "Speaker 2",
+          "original_speaker": "Speaker 2",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_9696_9779"
+        },
+        {
+          "start_time": 981450,
+          "end_time": 987050,
+          "content": "Yeah, no, we're off to off to another start. We need to keep going, so we really need a good week here. You know,",
+          "speaker": "Speaker 1",
+          "original_speaker": "Speaker 1",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_9814_9870"
+        },
+        {
+          "start_time": 987930,
+          "end_time": 996170,
+          "content": "We get a good week, good week here, good momentum going into the third week. Is you know that Thanksgiving week is is always a little dicey, especially when you get to Wednesday.",
+          "speaker": "Speaker 1",
+          "original_speaker": "Speaker 1",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_9879_9961"
+        },
+        {
+          "start_time": 996760,
+          "end_time": 1000200,
+          "content": "That Wednesday and Friday are normally tough, tough days. So,",
+          "speaker": "Speaker 1",
+          "original_speaker": "Speaker 1",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_9967_10002"
+        },
+        {
+          "start_time": 1003800,
+          "end_time": 1008440,
+          "content": "But I don't know. Excited? Yeah.",
+          "speaker": "Speaker 2",
+          "original_speaker": "Speaker 2",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_10038_10084"
+        },
+        {
+          "start_time": 1009240,
+          "end_time": 1010280,
+          "content": "By sending some Q nines to her,",
+          "speaker": "Speaker 1",
+          "original_speaker": "Speaker 1",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_10092_10102"
+        },
+        {
+          "start_time": 1010280,
+          "end_time": 1011240,
+          "content": "We can get here. Yeah.",
+          "speaker": "Speaker 4",
+          "original_speaker": "Speaker 4",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_10102_10112"
+        },
+        {
+          "start_time": 1012200,
+          "end_time": 1014680,
+          "content": "Have y'all seen the ones with Q nines?",
+          "speaker": "Speaker 4",
+          "original_speaker": "Speaker 4",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_10122_10146"
+        },
+        {
+          "start_time": 1015080,
+          "end_time": 1019800,
+          "content": "They, they did have Q nines. Yeah.",
+          "speaker": "Speaker 2",
+          "original_speaker": "Speaker 2",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_10150_10198"
+        },
+        {
+          "start_time": 1020360,
+          "end_time": 1023160,
+          "content": "The, I'm assuming the next truck we get will have Q nines on there.",
+          "speaker": "Speaker 5",
+          "original_speaker": "Speaker 5",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_10203_10231"
+        },
+        {
+          "start_time": 1023300,
+          "end_time": 1030579,
+          "content": "It should. There's seven cars released at port. There's two of them are Q9s, and I think two are Q7s, and then there's some other models.",
+          "speaker": "Speaker 1",
+          "original_speaker": "Speaker 1",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_10233_10305"
+        },
+        {
+          "start_time": 1030579,
+          "end_time": 1039060,
+          "content": "But the last thing I want is these cars to be here the last day or last two days of the month.",
+          "speaker": "Speaker 2",
+          "original_speaker": "Speaker 2",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_10305_10390"
+        },
+        {
+          "start_time": 1039140,
+          "end_time": 1044980,
+          "content": "And well, you could, you're able to get you know seven Q9s. I mean, you can sell them.",
+          "speaker": "Speaker 1",
+          "original_speaker": "Speaker 1",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_10391_10449"
+        },
+        {
+          "start_time": 1044980,
+          "end_time": 1046980,
+          "content": "Dude, if I'm running fucking Audi,",
+          "speaker": "Speaker 4",
+          "original_speaker": "Speaker 4",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_10449_10469"
+        },
+        {
+          "start_time": 1047540,
+          "end_time": 1057160,
+          "content": "I'm paying these truck drivers overtime to deliver these cars. Yeah. I mean, you know. It's the first time we've had product that people have really been excited about. Get the stuff to the dealers.",
+          "speaker": "Speaker 4",
+          "original_speaker": "Speaker 4",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_10475_10571"
+        },
+        {
+          "start_time": 1058040,
+          "end_time": 1066280,
+          "content": "And I'm also not delivering other shit. I'm not bringing in Q8s and Q5s. I mean, we don't need any of that shit.",
+          "speaker": "Speaker 1",
+          "original_speaker": "Speaker 1",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_10580_10662"
+        },
+        {
+          "start_time": 1067640,
+          "end_time": 1072760,
+          "content": "I don't complain too much, but we have Q9s also sitting at the port that are sold that aren't released.",
+          "speaker": "Speaker 5",
+          "original_speaker": "Speaker 5",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_10676_10727"
+        },
+        {
+          "start_time": 1072840,
+          "end_time": 1073400,
+          "content": "Oh, I know.",
+          "speaker": "Speaker 2",
+          "original_speaker": "Speaker 2",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_10728_10734"
+        },
+        {
+          "start_time": 1073480,
+          "end_time": 1079510,
+          "content": "So can you talk? Can you talk to our reps and say,\"Dude, send me the shit that's sold.\"",
+          "speaker": "Speaker 4",
+          "original_speaker": "Speaker 4",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_10734_10795"
+        },
+        {
+          "start_time": 1079510,
+          "end_time": 1081830,
+          "content": "Yeah, well, I mean, that's what they said. They're like,",
+          "speaker": "Speaker 5",
+          "original_speaker": "Speaker 5",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_10795_10818"
+        },
+        {
+          "start_time": 1082390,
+          "end_time": 1093110,
+          "content": "You know, it doesn't make a difference whenever you mark it sold at port as far as getting priority. The way that it's priority is if it's marked sold, you know, when it's on a boat, right? So these were marked sold when they were built.",
+          "speaker": "Speaker 5",
+          "original_speaker": "Speaker 5",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_10823_10931"
+        },
+        {
+          "start_time": 1093590,
+          "end_time": 1098790,
+          "content": "Yeah, they've always said that. So it's never we've always fighting with that.",
+          "speaker": "Speaker 6",
+          "original_speaker": "Speaker 6",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_10935_10987"
+        },
+        {
+          "start_time": 1098790,
+          "end_time": 1106930,
+          "content": "It may be used to like seven years ago be like that, but it's not. It's not like that anymore. It's almost like they're like fucking that one sold.",
+          "speaker": "Speaker 5",
+          "original_speaker": "Speaker 5",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_10987_11069"
+        },
+        {
+          "start_time": 1106930,
+          "end_time": 1110610,
+          "content": "Yeah, we know that one sold. The other shit in here is they sell that too. Yeah.",
+          "speaker": "Speaker 4",
+          "original_speaker": "Speaker 4",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_11069_11106"
+        },
+        {
+          "start_time": 1112530,
+          "end_time": 1114130,
+          "content": "Yeah. Let's piss the customer off. Yeah.",
+          "speaker": "Speaker 1",
+          "original_speaker": "Speaker 1",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_11125_11141"
+        },
+        {
+          "start_time": 1114450,
+          "end_time": 1117090,
+          "content": "That's all. You want to you want to get up quick?",
+          "speaker": "Speaker 2",
+          "original_speaker": "Speaker 2",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_11144_11170"
+        },
+        {
+          "start_time": 1117090,
+          "end_time": 1121410,
+          "content": "Markham is service lover. They'll deliver that shit, man. They'll air drop that mother.",
+          "speaker": "Speaker 1",
+          "original_speaker": "Speaker 1",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_11170_11214"
+        },
+        {
+          "start_time": 1124770,
+          "end_time": 1124850,
+          "content": "Yeah.",
+          "speaker": "Speaker 4",
+          "original_speaker": "Speaker 4",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_11247_11248"
+        },
+        {
+          "start_time": 1126130,
+          "end_time": 1135510,
+          "content": "But it does look like it does look like we've got somebody maybe at the head of the company that. Starting to try to put something together,",
+          "speaker": "Speaker 4",
+          "original_speaker": "Speaker 4",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_11261_11355"
+        },
+        {
+          "start_time": 1136790,
+          "end_time": 1138150,
+          "content": "So hopefully. Yeah.",
+          "speaker": "Speaker 2",
+          "original_speaker": "Speaker 2",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_11367_11381"
+        },
+        {
+          "start_time": 1139910,
+          "end_time": 1149750,
+          "content": "See, that's going to be a pretty big plant. Yeah. Three billion dollar expansion. Yeah. Yeah. I mean that's. Is that the seven and a half percent that they're after now, or?",
+          "speaker": "Speaker 1",
+          "original_speaker": "Speaker 1",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_11399_11497"
+        },
+        {
+          "start_time": 1151750,
+          "end_time": 1152630,
+          "content": "I think they got a billion.",
+          "speaker": "Speaker 1",
+          "original_speaker": "Speaker 1",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_11517_11526"
+        },
+        {
+          "start_time": 1152630,
+          "end_time": 1154870,
+          "content": "They're getting a billion from Georgia though. Yeah.",
+          "speaker": "Speaker 2",
+          "original_speaker": "Speaker 2",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_11526_11548"
+        },
+        {
+          "start_time": 1155990,
+          "end_time": 1160310,
+          "content": "They got a billion from Georgia to build it. Yeah. But.",
+          "speaker": "Speaker 1",
+          "original_speaker": "Speaker 1",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_11559_11603"
+        },
+        {
+          "start_time": 1166470,
+          "end_time": 1166710,
+          "content": "Yeah.",
+          "speaker": "Speaker 1",
+          "original_speaker": "Speaker 1",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_11664_11667"
+        },
+        {
+          "start_time": 1167750,
+          "end_time": 1167990,
+          "content": "Yeah.",
+          "speaker": "Speaker 1",
+          "original_speaker": "Speaker 1",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_11677_11679"
+        },
+        {
+          "start_time": 1169670,
+          "end_time": 1174790,
+          "content": "Well, the nice thing with those is you don't need to ship them to a port. Yeah. You know,",
+          "speaker": "Speaker 1",
+          "original_speaker": "Speaker 1",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_11696_11747"
+        },
+        {
+          "start_time": 1175830,
+          "end_time": 1178150,
+          "content": "But now BMW goes straight from the factory. Yeah.",
+          "speaker": "Speaker 1",
+          "original_speaker": "Speaker 1",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_11758_11781"
+        },
+        {
+          "start_time": 1179190,
+          "end_time": 1185030,
+          "content": "They have a processing center right there, and they go straight from the processing center. You don't have to ship them to a port.",
+          "speaker": "Speaker 1",
+          "original_speaker": "Speaker 1",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_11791_11850"
+        },
+        {
+          "start_time": 1185270,
+          "end_time": 1191590,
+          "content": "And see, the crazy thing is that you know we're doing three to four week turnaround versus three to four months.",
+          "speaker": "Speaker 4",
+          "original_speaker": "Speaker 4",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_11852_11915"
+        },
+        {
+          "start_time": 1191590,
+          "end_time": 1193270,
+          "content": "You know, instead of three to four.",
+          "speaker": "Speaker 1",
+          "original_speaker": "Speaker 1",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_11915_11932"
+        },
+        {
+          "start_time": 1193350,
+          "end_time": 1197700,
+          "content": "Yeah, that's why I'm worried. I wonder how long the process is going to be,",
+          "speaker": "Speaker 5",
+          "original_speaker": "Speaker 5",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_11933_11977"
+        },
+        {
+          "start_time": 1197700,
+          "end_time": 1200980,
+          "content": "It's still be two months. Really, a hundred percent, absolutely.",
+          "speaker": "Speaker 1",
+          "original_speaker": "Speaker 1",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_11977_12009"
+        },
+        {
+          "start_time": 1201700,
+          "end_time": 1203780,
+          "content": "Yeah, you you put in a car,",
+          "speaker": "Speaker 1",
+          "original_speaker": "Speaker 1",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_12017_12037"
+        },
+        {
+          "start_time": 1204740,
+          "end_time": 1209860,
+          "content": "Even your cars that are built in Europe, if you put that car in, it's it starts production within a couple of weeks.",
+          "speaker": "Speaker 1",
+          "original_speaker": "Speaker 1",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_12047_12098"
+        },
+        {
+          "start_time": 1211300,
+          "end_time": 1211860,
+          "content": "Here,",
+          "speaker": "Speaker 1",
+          "original_speaker": "Speaker 1",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_12113_12118"
+        },
+        {
+          "start_time": 1212500,
+          "end_time": 1217620,
+          "content": "You're not you build a car, you put it for factory order, it's still not starting production for a month and a half. Yeah.",
+          "speaker": "Speaker 1",
+          "original_speaker": "Speaker 1",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_12125_12176"
+        },
+        {
+          "start_time": 1222720,
+          "end_time": 1223520,
+          "content": "Maybe they'll change it.",
+          "speaker": "Speaker 5",
+          "original_speaker": "Speaker 5",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_12227_12235"
+        },
+        {
+          "start_time": 1223600,
+          "end_time": 1226800,
+          "content": "Well, dude, to be competitive, you better better look at a different model.",
+          "speaker": "Speaker 4",
+          "original_speaker": "Speaker 4",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_12236_12268"
+        },
+        {
+          "start_time": 1226960,
+          "end_time": 1228240,
+          "content": "You know what I'm saying? I mean,",
+          "speaker": "Speaker 2",
+          "original_speaker": "Speaker 2",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_12269_12282"
+        },
+        {
+          "start_time": 1229920,
+          "end_time": 1234240,
+          "content": "But good things are happening. Yeah,",
+          "speaker": "Speaker 2",
+          "original_speaker": "Speaker 2",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_12299_12342"
+        },
+        {
+          "start_time": 1235280,
+          "end_time": 1236880,
+          "content": "Audi is finally starting to.",
+          "speaker": "Speaker 1",
+          "original_speaker": "Speaker 1",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_12352_12368"
+        },
+        {
+          "start_time": 1236880,
+          "end_time": 1240080,
+          "content": "I think we hit our bottom. Hopefully,",
+          "speaker": "Speaker 2",
+          "original_speaker": "Speaker 2",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_12368_12400"
+        },
+        {
+          "start_time": 1246960,
+          "end_time": 1250480,
+          "content": "Because I can tell you, August and September were completely.",
+          "speaker": "Speaker 1",
+          "original_speaker": "Speaker 1",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_12469_12504"
+        },
+        {
+          "start_time": 1252790,
+          "end_time": 1255530,
+          "content": "Hopefully, it's in our Blog.",
+          "speaker": "Speaker 2",
+          "original_speaker": "Speaker 2",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_12527_12555"
+        },
+        {
+          "start_time": 1255750,
+          "end_time": 1259510,
+          "content": "Well, dude, I was telling Chad yesterday there was a article and it was on AutoBlog.",
+          "speaker": "Speaker 4",
+          "original_speaker": "Speaker 4",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_12557_12595"
+        },
+        {
+          "start_time": 1260230,
+          "end_time": 1265670,
+          "content": "They compared the new X5, they compared the Q7, and then they had some Mercedes and GLE,",
+          "speaker": "Speaker 4",
+          "original_speaker": "Speaker 4",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_12602_12656"
+        },
+        {
+          "start_time": 1266630,
+          "end_time": 1268710,
+          "content": "Some SUV. I don't know which.",
+          "speaker": "Speaker 4",
+          "original_speaker": "Speaker 4",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_12666_12687"
+        },
+        {
+          "start_time": 1269590,
+          "end_time": 1274390,
+          "content": "Anyway, they did head to head, and the Q7 came out ahead of all of them.",
+          "speaker": "Speaker 4",
+          "original_speaker": "Speaker 4",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_12695_12743"
+        },
+        {
+          "start_time": 1274550,
+          "end_time": 1275270,
+          "content": "I thought so.",
+          "speaker": "Speaker 2",
+          "original_speaker": "Speaker 2",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_12745_12752"
+        },
+        {
+          "start_time": 1275270,
+          "end_time": 1278230,
+          "content": "It's AutoBlog. If you go to that, if you get that email,",
+          "speaker": "Speaker 4",
+          "original_speaker": "Speaker 4",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_12752_12782"
+        },
+        {
+          "start_time": 1280470,
+          "end_time": 1281270,
+          "content": "AutoBlog.",
+          "speaker": "Speaker 4",
+          "original_speaker": "Speaker 4",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_12804_12812"
+        },
+        {
+          "start_time": 1281360,
+          "end_time": 1282960,
+          "content": "And listen, even you know,",
+          "speaker": "Speaker 1",
+          "original_speaker": "Speaker 1",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_12813_12829"
+        },
+        {
+          "start_time": 1286240,
+          "end_time": 1298080,
+          "content": "Not to target BMW, but BMW has always been the more performance-driven vehicle. I mean, that Q7, that shit is faster than it than the X5. I mean, that is a thing. It's quick,",
+          "speaker": "Speaker 1",
+          "original_speaker": "Speaker 1",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_12862_12980"
+        },
+        {
+          "start_time": 1301360,
+          "end_time": 1303920,
+          "content": "Dude. And then is it the Nuvolari?",
+          "speaker": "Speaker 4",
+          "original_speaker": "Speaker 4",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_13013_13039"
+        },
+        {
+          "start_time": 1304320,
+          "end_time": 1305120,
+          "content": "Nuvolari, yeah.",
+          "speaker": "Speaker 1",
+          "original_speaker": "Speaker 1",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_13043_13051"
+        },
+        {
+          "start_time": 1306160,
+          "end_time": 1308720,
+          "content": "So you said that guy giving us the.",
+          "speaker": "Speaker 4",
+          "original_speaker": "Speaker 4",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_13061_13087"
+        },
+        {
+          "start_time": 1308820,
+          "end_time": 1314660,
+          "content": "He hasn't given us spots yet. True Martin's is supposed to come in. He's got until the thirteenth.",
+          "speaker": "Speaker 1",
+          "original_speaker": "Speaker 1",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_13088_13146"
+        },
+        {
+          "start_time": 1316020,
+          "end_time": 1317460,
+          "content": "He's going to drop us off a hundred thousand,",
+          "speaker": "Speaker 1",
+          "original_speaker": "Speaker 1",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_13160_13174"
+        },
+        {
+          "start_time": 1318420,
+          "end_time": 1322900,
+          "content": "And then he also has a hundred thousand in in January.",
+          "speaker": "Speaker 1",
+          "original_speaker": "Speaker 1",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_13184_13229"
+        },
+        {
+          "start_time": 1327540,
+          "end_time": 1330100,
+          "content": "He's still in the season. That's it.",
+          "speaker": "Speaker 4",
+          "original_speaker": "Speaker 4",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_13275_13301"
+        },
+        {
+          "start_time": 1330100,
+          "end_time": 1335300,
+          "content": "Do you know where I got the name Nuvolari from? Yeah, I have no idea.",
+          "speaker": "Speaker 2",
+          "original_speaker": "Speaker 2",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_13301_13353"
+        },
+        {
+          "start_time": 1335380,
+          "end_time": 1336820,
+          "content": "Some race car. Yeah, Italian race car.",
+          "speaker": "Speaker 4",
+          "original_speaker": "Speaker 4",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_13353_13368"
+        },
+        {
+          "start_time": 1343560,
+          "end_time": 1345880,
+          "content": "Called it the Antonelli.",
+          "speaker": "Speaker 6",
+          "original_speaker": "Speaker 6",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_13435_13458"
+        },
+        {
+          "start_time": 1347640,
+          "end_time": 1349080,
+          "content": "That would have been good.",
+          "speaker": "Speaker 6",
+          "original_speaker": "Speaker 6",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_13476_13490"
+        },
+        {
+          "start_time": 1349720,
+          "end_time": 1351480,
+          "content": "Is that the guy driving for Yamaha?",
+          "speaker": "Speaker 4",
+          "original_speaker": "Speaker 4",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_13497_13514"
+        },
+        {
+          "start_time": 1351480,
+          "end_time": 1353880,
+          "content": "The 19-year-old has just won the world championship,",
+          "speaker": "Speaker 6",
+          "original_speaker": "Speaker 6",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_13514_13538"
+        },
+        {
+          "start_time": 1355080,
+          "end_time": 1358040,
+          "content": "Youngest Formula One world champ. Oh no.",
+          "speaker": "Speaker 6",
+          "original_speaker": "Speaker 6",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_13550_13580"
+        },
+        {
+          "start_time": 1359560,
+          "end_time": 1360280,
+          "content": "He's Italian.",
+          "speaker": "Speaker 6",
+          "original_speaker": "Speaker 6",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_13595_13602"
+        },
+        {
+          "start_time": 1360360,
+          "end_time": 1361240,
+          "content": "That race was good.",
+          "speaker": "Speaker 5",
+          "original_speaker": "Speaker 5",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_13603_13612"
+        },
+        {
+          "start_time": 1362840,
+          "end_time": 1364360,
+          "content": "He started winning before he could drive, right?",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_13628_13643"
+        },
+        {
+          "start_time": 1365160,
+          "end_time": 1367160,
+          "content": "What's that? He started winning before he could drive on the street.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_13651_13671"
+        },
+        {
+          "start_time": 1367400,
+          "end_time": 1371400,
+          "content": "Oh yeah. Well, he's still in fucking high school. Yeah. They had him.",
+          "speaker": "Speaker 6",
+          "original_speaker": "Speaker 6",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_13674_13714"
+        },
+        {
+          "start_time": 1372060,
+          "end_time": 1379340,
+          "content": "Mercedes gave him some fucking crazy supercar and drive. He drove it to school and then they were like,\"No, you can't. We can't.",
+          "speaker": "Speaker 6",
+          "original_speaker": "Speaker 6",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_13720_13793"
+        },
+        {
+          "start_time": 1379900,
+          "end_time": 1381420,
+          "content": "Damn, you show up with this shit.",
+          "speaker": "Speaker 6",
+          "original_speaker": "Speaker 6",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_13799_13814"
+        },
+        {
+          "start_time": 1382140,
+          "end_time": 1385100,
+          "content": "\" Like the school is like a billion dollar car.",
+          "speaker": "Speaker 6",
+          "original_speaker": "Speaker 6",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_13821_13851"
+        },
+        {
+          "start_time": 1385420,
+          "end_time": 1386140,
+          "content": "Who's he drive for?",
+          "speaker": "Speaker 2",
+          "original_speaker": "Speaker 2",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_13854_13861"
+        },
+        {
+          "start_time": 1386300,
+          "end_time": 1388300,
+          "content": "Mercedes. He won.",
+          "speaker": "Speaker 6",
+          "original_speaker": "Speaker 6",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_13863_13883"
+        },
+        {
+          "start_time": 1388300,
+          "end_time": 1390140,
+          "content": "Yep. He won. He won all of them.",
+          "speaker": "Speaker 1",
+          "original_speaker": "Speaker 1",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_13883_13901"
+        },
+        {
+          "start_time": 1390140,
+          "end_time": 1390860,
+          "content": "Championship.",
+          "speaker": "Speaker 5",
+          "original_speaker": "Speaker 5",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_13901_13908"
+        },
+        {
+          "start_time": 1390860,
+          "end_time": 1392300,
+          "content": "Did he win yesterday?",
+          "speaker": "Speaker 2",
+          "original_speaker": "Speaker 2",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_13908_13923"
+        },
+        {
+          "start_time": 1392940,
+          "end_time": 1394220,
+          "content": "No, he took a bit.",
+          "speaker": "Speaker 6",
+          "original_speaker": "Speaker 6",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_13929_13942"
+        },
+        {
+          "start_time": 1394860,
+          "end_time": 1395820,
+          "content": "He's gone and took.",
+          "speaker": "Speaker 6",
+          "original_speaker": "Speaker 6",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_13948_13958"
+        },
+        {
+          "start_time": 1396780,
+          "end_time": 1399180,
+          "content": "Mercedes won the championship.",
+          "speaker": "Speaker 2",
+          "original_speaker": "Speaker 2",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_13967_13991"
+        },
+        {
+          "start_time": 1399180,
+          "end_time": 1399820,
+          "content": "Yeah, they won both.",
+          "speaker": "Speaker 6",
+          "original_speaker": "Speaker 6",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_13991_13998"
+        },
+        {
+          "start_time": 1402260,
+          "end_time": 1405460,
+          "content": "But they had the, they had the best car, honestly.",
+          "speaker": "Speaker 6",
+          "original_speaker": "Speaker 6",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_14022_14054"
+        },
+        {
+          "start_time": 1405860,
+          "end_time": 1406900,
+          "content": "Red Bull.",
+          "speaker": "Speaker 1",
+          "original_speaker": "Speaker 1",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_14058_14069"
+        },
+        {
+          "start_time": 1407700,
+          "end_time": 1412020,
+          "content": "Red Bull. Red Bull. Halfway through the season, once they got their shit together,",
+          "speaker": "Speaker 6",
+          "original_speaker": "Speaker 6",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_14077_14120"
+        },
+        {
+          "start_time": 1412660,
+          "end_time": 1414580,
+          "content": "They've kind of been beating them a good bit.",
+          "speaker": "Speaker 6",
+          "original_speaker": "Speaker 6",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_14126_14145"
+        },
+        {
+          "start_time": 1414580,
+          "end_time": 1416820,
+          "content": "But what Ferrari winning early?",
+          "speaker": "Speaker 4",
+          "original_speaker": "Speaker 4",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_14145_14168"
+        },
+        {
+          "start_time": 1416820,
+          "end_time": 1420580,
+          "content": "Ferrari's not bad this year actually, but their Ferrari's run by the.",
+          "speaker": "Speaker 6",
+          "original_speaker": "Speaker 6",
+          "segment_uid": "14a0de871e4bdefc9fe86a6d1e99ecec_14168_14205"
+        }
+      ]
+    },
     {
       "id": "of_2427c376e862fc0f91ff9cd8f7bbf9bb",
       "name": "BHBMW \u00b7 Company event funding (Maco) + logistics (Nov 6 eve)",
