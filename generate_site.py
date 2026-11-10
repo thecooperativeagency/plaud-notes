@@ -10,7 +10,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent
 NOTES = ROOT / "notes"
-REV = "PLAUD-NOTES-2026-11-10-0605"
+REV = "PLAUD-NOTES-2026-11-10-1330"
 
 CSS = """
 :root {
