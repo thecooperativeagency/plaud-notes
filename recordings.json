@@ -1,5 +1,5 @@
 {
-  "revision": "PLAUD-NOTES-2026-11-09-1335",
+  "revision": "PLAUD-NOTES-2026-11-10-0605",
   "recordings": [
     {
       "id": "of_14a0de871e4bdefc9fe86a6d1e99ecec",
@@ -88031,6 +88031,3516 @@
           "end_time": 277710,
           "content": "Right.",
           "speaker": "Lance"
+        }
+      ]
+    },
+    {
+      "name": "BHBMW \u00b7 X5 reveal event planning \u2014 RSVP + catering (Nov 9)",
+      "start_at": "2026-11-09T22:13:20",
+      "created_at": "2026-11-09T22:18:19",
+      "duration_ms": 261000,
+      "vertical": "dealers",
+      "store": "bhbmw",
+      "routed_by": "Morning brief Nov 10 \u2014 X5 reveal Thu Nov 19 6\u20138p",
+      "status": "park",
+      "work_order": "Lance owns RSVP invite page + newsletter link (emails to store contact + Carly). Store owns Bacon & Fig catering after headcount; no alcohol default. Ada: hold unless he asks for the RSVP page build.",
+      "summary_md": "### BHBMW \u00b7 X5 reveal \u00b7 Nov 9\n- **When:** Thursday **Nov 19**, **6\u20138 p.m.**\n- **RSVP:** Lance building invite mini-page + form into newsletter; notify store contact + Carly; capture headcount.\n- **Food/drink:** Light snacks preferred over alcohol (drive liability). Store calls **Bacon & Fig** after headcount; music on store.",
+      "highlights": [
+        {
+          "title": "Nov 19 \u00b7 6\u20138p",
+          "content": "X5 reveal locked Thursday the 19th, 6\u20138 p.m.",
+          "timestamp": 27200
+        },
+        {
+          "title": "RSVP page",
+          "content": "Newsletter invite mini-page + form; notify store + Carly.",
+          "timestamp": 200880
+        },
+        {
+          "title": "No alcohol default",
+          "content": "Light snacks; Bacon & Fig after headcount.",
+          "timestamp": 35500
+        }
+      ],
+      "id": "of_e90dfd7aef6edd33cc8a0934db7cb6f5",
+      "transcript": [
+        {
+          "start_time": 400,
+          "end_time": 15200,
+          "content": "Can you work on getting a invitation out where we can get people to click and say yes? I'm interested in coming for next week Thursday for the BMW X5 reveal. Yep,",
+          "speaker": "Speaker 1",
+          "original_speaker": "Speaker 1",
+          "segment_uid": "e90dfd7aef6edd33cc8a0934db7cb6f5_4_152"
+        },
+        {
+          "start_time": 16320,
+          "end_time": 17520,
+          "content": "This coming Thursday.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "e90dfd7aef6edd33cc8a0934db7cb6f5_163_175"
+        },
+        {
+          "start_time": 18160,
+          "end_time": 22880,
+          "content": "What? So you settled on a time? Not this coming. I know next. So, yep,",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "e90dfd7aef6edd33cc8a0934db7cb6f5_181_228"
+        },
+        {
+          "start_time": 23600,
+          "end_time": 25600,
+          "content": "The 19th. What?",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "e90dfd7aef6edd33cc8a0934db7cb6f5_236_256"
+        },
+        {
+          "start_time": 27200,
+          "end_time": 28480,
+          "content": "Six to eight on the 19th.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "e90dfd7aef6edd33cc8a0934db7cb6f5_272_284"
+        },
+        {
+          "start_time": 30540,
+          "end_time": 31420,
+          "content": "And are we gonna say,",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "e90dfd7aef6edd33cc8a0934db7cb6f5_305_314"
+        },
+        {
+          "start_time": 32460,
+          "end_time": 35500,
+          "content": "Drinks, hors d'oeuvres, beer and wine?",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "e90dfd7aef6edd33cc8a0934db7cb6f5_324_355"
+        },
+        {
+          "start_time": 35500,
+          "end_time": 54780,
+          "content": "We're gonna drive the car. I don't think we should do alcohol. I think we should do just, you know, light refreshments and snacks because somebody's gonna want to drive the car, and I don't want us to be liable for someone being an inebriate.",
+          "speaker": "Speaker 1",
+          "original_speaker": "Speaker 1",
+          "segment_uid": "e90dfd7aef6edd33cc8a0934db7cb6f5_355_547"
+        },
+        {
+          "start_time": 57100,
+          "end_time": 57420,
+          "content": "Okay.",
+          "speaker": "Speaker 1",
+          "original_speaker": "Speaker 1",
+          "segment_uid": "e90dfd7aef6edd33cc8a0934db7cb6f5_571_574"
+        },
+        {
+          "start_time": 59570,
+          "end_time": 63010,
+          "content": "I think I think that's less less exposed than the ship. No,",
+          "speaker": "Speaker 1",
+          "original_speaker": "Speaker 1",
+          "segment_uid": "e90dfd7aef6edd33cc8a0934db7cb6f5_595_630"
+        },
+        {
+          "start_time": 64209,
+          "end_time": 66770,
+          "content": "Because here's the thing: I don't think it would be a cabin.",
+          "speaker": "Speaker 1",
+          "original_speaker": "Speaker 1",
+          "segment_uid": "e90dfd7aef6edd33cc8a0934db7cb6f5_642_667"
+        },
+        {
+          "start_time": 67810,
+          "end_time": 74370,
+          "content": "Maybe wine or champagne. Nobody was driving the car. I'm sure some people are like,\"Oh my God,",
+          "speaker": "Speaker 1",
+          "original_speaker": "Speaker 1",
+          "segment_uid": "e90dfd7aef6edd33cc8a0934db7cb6f5_678_743"
+        },
+        {
+          "start_time": 75810,
+          "end_time": 76930,
+          "content": "I want to drive.\" Yeah.",
+          "speaker": "Speaker 1",
+          "original_speaker": "Speaker 1",
+          "segment_uid": "e90dfd7aef6edd33cc8a0934db7cb6f5_758_769"
+        },
+        {
+          "start_time": 77170,
+          "end_time": 84450,
+          "content": "Well, yeah. I mean, you can have some people want to drive it. You can always just say, \"Yeah, you want to drive it? You got to drive it first.\" And when you get back, you get yourself a drink. Okay,",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "e90dfd7aef6edd33cc8a0934db7cb6f5_771_844"
+        },
+        {
+          "start_time": 85810,
+          "end_time": 86770,
+          "content": "Whatever.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "e90dfd7aef6edd33cc8a0934db7cb6f5_858_867"
+        },
+        {
+          "start_time": 88620,
+          "end_time": 91420,
+          "content": "Yeah, we just sit out. We just not do alcohol. That's fine.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "e90dfd7aef6edd33cc8a0934db7cb6f5_886_914"
+        },
+        {
+          "start_time": 93500,
+          "end_time": 93500,
+          "content": "Um.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "e90dfd7aef6edd33cc8a0934db7cb6f5_935_935"
+        },
+        {
+          "start_time": 100540,
+          "end_time": 104700,
+          "content": "Yep. All right. So you got everything lined up? You good with the food and the drinks?",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "e90dfd7aef6edd33cc8a0934db7cb6f5_1005_1047"
+        },
+        {
+          "start_time": 104700,
+          "end_time": 116220,
+          "content": "And no, that's the other reason I was calling. I'm gonna do the music like you told me. No, the food and the drinks.",
+          "speaker": "Speaker 1",
+          "original_speaker": "Speaker 1",
+          "segment_uid": "e90dfd7aef6edd33cc8a0934db7cb6f5_1047_1162"
+        },
+        {
+          "start_time": 116970,
+          "end_time": 126250,
+          "content": "I don't have that lined up. You know a caterer because I I would like us to have somebody that can work like at a party, whatever it like,",
+          "speaker": "Speaker 1",
+          "original_speaker": "Speaker 1",
+          "segment_uid": "e90dfd7aef6edd33cc8a0934db7cb6f5_1169_1262"
+        },
+        {
+          "start_time": 128009,
+          "end_time": 135050,
+          "content": "Food, snacks, everything.",
+          "speaker": "Speaker 1",
+          "original_speaker": "Speaker 1",
+          "segment_uid": "e90dfd7aef6edd33cc8a0934db7cb6f5_1280_1350"
+        },
+        {
+          "start_time": 135050,
+          "end_time": 136250,
+          "content": "Let's see. So,",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "e90dfd7aef6edd33cc8a0934db7cb6f5_1350_1362"
+        },
+        {
+          "start_time": 137130,
+          "end_time": 139290,
+          "content": "Bacon and fig is very close.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "e90dfd7aef6edd33cc8a0934db7cb6f5_1371_1392"
+        },
+        {
+          "start_time": 141450,
+          "end_time": 143290,
+          "content": "Um, I would call them.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "e90dfd7aef6edd33cc8a0934db7cb6f5_1414_1432"
+        },
+        {
+          "start_time": 146320,
+          "end_time": 149920,
+          "content": "Just bacon and we can probably just get it done with literally one phone call.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "e90dfd7aef6edd33cc8a0934db7cb6f5_1463_1499"
+        },
+        {
+          "start_time": 150480,
+          "end_time": 154000,
+          "content": "Do you know Bacon and Fig? I'm gonna send. I'm on their website. You wanna send them to you?",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "e90dfd7aef6edd33cc8a0934db7cb6f5_1504_1540"
+        },
+        {
+          "start_time": 154960,
+          "end_time": 165920,
+          "content": "Yeah, I saw them. I think they've come by here before to ask us to do business with them. Okay. Have you had their food and their their kitchen stuff before?",
+          "speaker": "Speaker 1",
+          "original_speaker": "Speaker 1",
+          "segment_uid": "e90dfd7aef6edd33cc8a0934db7cb6f5_1549_1659"
+        },
+        {
+          "start_time": 166640,
+          "end_time": 176240,
+          "content": "I mean, I just know who it is. They're connected to that dog shit. What is it? BRQ, and they're also connected to the to the culinary school. Right there.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "e90dfd7aef6edd33cc8a0934db7cb6f5_1666_1762"
+        },
+        {
+          "start_time": 177200,
+          "end_time": 187280,
+          "content": "I think they do consistent professional work, and they'd be kind of quick and easy to grab. That way, you know, you could, you'll know within five minutes. Hey, can you do it? And you probably just,",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "e90dfd7aef6edd33cc8a0934db7cb6f5_1772_1872"
+        },
+        {
+          "start_time": 187840,
+          "end_time": 190080,
+          "content": "You know, have a quick conversation, and they'll line you up.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "e90dfd7aef6edd33cc8a0934db7cb6f5_1878_1900"
+        },
+        {
+          "start_time": 191680,
+          "end_time": 193040,
+          "content": "Sweet.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "e90dfd7aef6edd33cc8a0934db7cb6f5_1916_1930"
+        },
+        {
+          "start_time": 193280,
+          "end_time": 200240,
+          "content": "I'm gonna tell them we probably want that, but I definitely want to know how many people I'll ink it so that we could properly. Yeah.",
+          "speaker": "Speaker 1",
+          "original_speaker": "Speaker 1",
+          "segment_uid": "e90dfd7aef6edd33cc8a0934db7cb6f5_1932_2002"
+        },
+        {
+          "start_time": 200880,
+          "end_time": 210240,
+          "content": "Yeah. Let me build an invite real quick, cause I'm about to send out. Emails and all that shit. So, let me build the invite into our newsletter, which was about to go out. So this will be perfect.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "e90dfd7aef6edd33cc8a0934db7cb6f5_2008_2102"
+        },
+        {
+          "start_time": 210560,
+          "end_time": 223440,
+          "content": "I'm gonna build the invite. I will probably build it like a little mini,",
+          "speaker": "Speaker 1",
+          "original_speaker": "Speaker 1",
+          "segment_uid": "e90dfd7aef6edd33cc8a0934db7cb6f5_2105_2234"
+        },
+        {
+          "start_time": 223440,
+          "end_time": 224320,
+          "content": "Like a little page,",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "e90dfd7aef6edd33cc8a0934db7cb6f5_2234_2243"
+        },
+        {
+          "start_time": 224960,
+          "end_time": 236090,
+          "content": "With the form on it and everything. And so, if the email, so the email would go out and they can click, and it would say, \"Click here to RSVP,\" and it'll be the little invite. Event page with the form on it.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "e90dfd7aef6edd33cc8a0934db7cb6f5_2249_2360"
+        },
+        {
+          "start_time": 236890,
+          "end_time": 240970,
+          "content": "All right, and I'll probably and what I'll do is I'll set it up to email you and Carly.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "e90dfd7aef6edd33cc8a0934db7cb6f5_2368_2409"
+        },
+        {
+          "start_time": 242490,
+          "end_time": 252650,
+          "content": "So that way. Just say how many is attending.",
+          "speaker": "Speaker 1",
+          "original_speaker": "Speaker 1",
+          "segment_uid": "e90dfd7aef6edd33cc8a0934db7cb6f5_2424_2526"
+        },
+        {
+          "start_time": 254410,
+          "end_time": 258329,
+          "content": "Yeah, not a problem. Sweet, thank you, man. All right.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "e90dfd7aef6edd33cc8a0934db7cb6f5_2544_2583"
+        }
+      ]
+    },
+    {
+      "name": "HP \u00b7 Auto Cartel photo workflow + content collab (Nov 9)",
+      "start_at": "2026-11-09T21:28:47",
+      "created_at": "2026-11-09T22:18:32",
+      "duration_ms": 2669000,
+      "vertical": "dealers",
+      "store": "porsche",
+      "routed_by": "Morning brief Nov 10 \u2014 HP inventory photo vendor (Austin / Auto Cartel)",
+      "status": "park",
+      "work_order": "Park. Weigh Auto Cartel vs just-hired Audi shooter (login pending). Lance to email Austin overview for raw\u2192social/AI collab Zoom. After ~13m tape is personal/noise \u2014 ignore for ops.",
+      "summary_md": "### Harris Porsche \u00b7 Auto Cartel \u00b7 Nov 9\n- HP inventory photos messy; 3 BH stores = 3 photo methods; Porsche sort-order picky.\n- **Austin (ops, Auto Cartel):** 2 local BR shooters; HomeNet path; Porsche experience (Park Place Dallas). M/W/F or 3\u20135x week; can combo BMW lot.\n- Lance just hired Audi stills guy (said yes day before Auto Cartel reached out) \u2014 still owes login.\n- Side: raw cinematic shorts \u2192 Lance AI post pipeline; Liza 360 partner on their side; Lance will email overview for Zoom with decision-makers.\n- After call: Own Your Web refresh / Prospector scope / AI shopping assistant (dict only). Rest of file = watches + disc golf noise.",
+      "highlights": [
+        {
+          "title": "HP photo mess",
+          "content": "Three methods across BH stores; Porsche picky.",
+          "timestamp": 17210
+        },
+        {
+          "title": "Auto Cartel",
+          "content": "2 BR shooters \u00b7 HomeNet \u00b7 3\u20135 days/week possible.",
+          "timestamp": 143760
+        },
+        {
+          "title": "Email follow-up",
+          "content": "Lance to email overview for content+AI collab Zoom.",
+          "timestamp": 786480
+        }
+      ],
+      "id": "of_09b5911f0487e745fd62bb5618de5a3c",
+      "transcript": [
+        {
+          "start_time": 410,
+          "end_time": 1450,
+          "content": "I'm doing well, man. How are you?",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_4_14"
+        },
+        {
+          "start_time": 2330,
+          "end_time": 3850,
+          "content": "I'm doing well.",
+          "speaker": "Speaker 2",
+          "original_speaker": "Speaker 2",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_23_38"
+        },
+        {
+          "start_time": 3930,
+          "end_time": 6570,
+          "content": "Glad to catch you. Good time. Yeah, sure. I got a minute. What's up?",
+          "speaker": "Speaker 3",
+          "original_speaker": "Speaker 3",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_39_65"
+        },
+        {
+          "start_time": 7690,
+          "end_time": 17210,
+          "content": "Hey, I know we were kind of playing catch up, so just wanted to reach back out see if you guys had any questions about actually upgrading this one.",
+          "speaker": "Speaker 3",
+          "original_speaker": "Speaker 3",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_76_172"
+        },
+        {
+          "start_time": 17210,
+          "end_time": 29370,
+          "content": "Um, so that Porsche store has been a mess for me for the inventory photos. I do. I'm basically the marketing agency for the store, and I'm marketing agency for all three of our stores at Brian Harris.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_172_293"
+        },
+        {
+          "start_time": 29950,
+          "end_time": 34830,
+          "content": "And they literally all, all three use a different method for their inventory photos.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_299_348"
+        },
+        {
+          "start_time": 36350,
+          "end_time": 47790,
+          "content": "Um, and right now, so basically, when I took on that, you know, I've known I've known these guys literally since like '04. So when I took over at Audi, I mean at Porsche for for Adam,",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_363_477"
+        },
+        {
+          "start_time": 48430,
+          "end_time": 54110,
+          "content": "I said, yeah, sure, I'll manage the inventory photos for you because his previous guy was shooting his inventory photos in house.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_484_541"
+        },
+        {
+          "start_time": 55230,
+          "end_time": 57950,
+          "content": "Porsche is very, very, very particular about their photos.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_552_579"
+        },
+        {
+          "start_time": 59250,
+          "end_time": 65330,
+          "content": "I don't know. I mean, y'all do what y'all do, so I'm sure y'all are used to that kind of thing. But do y'all have any Porsche stores right now?",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_592_653"
+        },
+        {
+          "start_time": 66370,
+          "end_time": 81330,
+          "content": "Yes. Okay. The first one on top of my head is Park Place Porsche in Dallas. Yeah. That's one of our stores, and that was really the first one that we kind of dealt with. So Porsche ended up sending us the whole little photography package,",
+          "speaker": "Speaker 3",
+          "original_speaker": "Speaker 3",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_663_813"
+        },
+        {
+          "start_time": 82610,
+          "end_time": 86770,
+          "content": "Stuff, packet. So definitely familiar with it. All right. So.",
+          "speaker": "Speaker 3",
+          "original_speaker": "Speaker 3",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_826_867"
+        },
+        {
+          "start_time": 87110,
+          "end_time": 94790,
+          "content": "I guess where it gets funny or a little just goofy right now is the day before Adam sent me y'all's information.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_871_947"
+        },
+        {
+          "start_time": 95350,
+          "end_time": 99510,
+          "content": "I had hired a guy who shoots the Porsche the photos for for Audi.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_953_995"
+        },
+        {
+          "start_time": 100950,
+          "end_time": 103350,
+          "content": "I had hired him to do the Porsche ones,",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_1009_1033"
+        },
+        {
+          "start_time": 104230,
+          "end_time": 113110,
+          "content": "And he's a dude that we've known for years. You know, he shoots with a good camera. He does he does a good job. He's an older guy. He's basically retired and kind of came back to do Audi for us.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_1042_1131"
+        },
+        {
+          "start_time": 114930,
+          "end_time": 122770,
+          "content": "So I'm kind of I'm kind of like stuck in between. I'm like I had just hired him. He hadn't even he hadn't even gotten like started yet. I'm still getting him one of the logins.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_1149_1227"
+        },
+        {
+          "start_time": 123410,
+          "end_time": 130449,
+          "content": "But I'm also I'm also prone to like going okay. Well, what might be my best solution long long run? And if you guys have,",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_1234_1304"
+        },
+        {
+          "start_time": 131410,
+          "end_time": 138290,
+          "content": "You know, a few questions, I guess I would have is you have multiple people shooting, and if so, like how is the consistency kind of ensured? And then,",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_1314_1382"
+        },
+        {
+          "start_time": 138850,
+          "end_time": 142130,
+          "content": "You know, what days they all come shoot and how often and that kind of thing.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_1388_1421"
+        },
+        {
+          "start_time": 143760,
+          "end_time": 159120,
+          "content": "Yeah, so the nice thing about going with a company like Auto Cartel is that in Baton Rouge itself, I already have two photographers, and so like I kind of told Adam, you know, we're in that expansion phase. We're going around trying to find more work because my guys are champing at the bit for more. Yeah.",
+          "speaker": "Speaker 3",
+          "original_speaker": "Speaker 3",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_1437_1591"
+        },
+        {
+          "start_time": 160320,
+          "end_time": 166080,
+          "content": "So we have two local people as of right now, and as we continue to expand, we're just going to keep adding photographers there.",
+          "speaker": "Speaker 3",
+          "original_speaker": "Speaker 3",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_1603_1660"
+        },
+        {
+          "start_time": 166640,
+          "end_time": 176530,
+          "content": "So, as having multiple photographers, it actually kind of works out because if somebody's on sick or vacation. And that's what I think about when I think about you guys.",
+          "speaker": "Speaker 3",
+          "original_speaker": "Speaker 3",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_1666_1765"
+        },
+        {
+          "start_time": 176530,
+          "end_time": 177890,
+          "content": "I'm like, well, shit, that helps me out.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_1765_1778"
+        },
+        {
+          "start_time": 178530,
+          "end_time": 191490,
+          "content": "It especially helps me out because, like, right now, I even wrote an app to help manage the damn inventory photos because I had I had like a few random kids shooting them for me. The other pickle you run into is we're in a situation where we can't have anybody under 21.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_1785_1914"
+        },
+        {
+          "start_time": 192610,
+          "end_time": 201650,
+          "content": "Fisher. You know, so it's like, man, just because at one point you could have somebody under 21, but insurances are so strict now that it's it's tough to do.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_1926_2016"
+        },
+        {
+          "start_time": 201890,
+          "end_time": 210090,
+          "content": "Um. Trust me, I'm well aware. We work with so many different dealerships, and we have our own insurance in that. Yeah. Yeah.",
+          "speaker": "Speaker 3",
+          "original_speaker": "Speaker 3",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_2018_2100"
+        },
+        {
+          "start_time": 210090,
+          "end_time": 217050,
+          "content": "Well, look, my my the way I, you know, if I've so I, I do also social media crap too. So I have to do,",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_2100_2170"
+        },
+        {
+          "start_time": 217770,
+          "end_time": 220250,
+          "content": "If I've got somebody that needs to come get a car, they just sign a,",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_2177_2202"
+        },
+        {
+          "start_time": 220810,
+          "end_time": 228810,
+          "content": "They sign a test drive form. It's it's covered by their own insurance the way it would be if they were on a test drive. So I've got kind of multiple ways of being covered, but,",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_2208_2288"
+        },
+        {
+          "start_time": 229770,
+          "end_time": 235400,
+          "content": "Um. You know, I guess all that bullshit just to say it's kind of not a no. Let me talk to this guy.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_2297_2354"
+        },
+        {
+          "start_time": 236280,
+          "end_time": 248440,
+          "content": "I still owe him one more. I'm waiting on an IT to give him one more login. The other, I guess, couple of questions is, are you guys going to be? I guess just log into whatever we give y'all to log in to upload the photos.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_2362_2484"
+        },
+        {
+          "start_time": 249800,
+          "end_time": 251320,
+          "content": "Yes. Is that kind of how it works? How do y'all?",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_2498_2513"
+        },
+        {
+          "start_time": 251880,
+          "end_time": 259399,
+          "content": "Well, so Porsche's official partner is HomeNet, and we have Home we have HomeNet for the photos syndication.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_2518_2594"
+        },
+        {
+          "start_time": 259940,
+          "end_time": 267460,
+          "content": "Or it's yeah, or it's Porsche's actual own backend, which is just called Porsche Car Sales Online.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_2599_2674"
+        },
+        {
+          "start_time": 268900,
+          "end_time": 278980,
+          "content": "When I was doing it myself, because I still have to go out there and do it myself, which is not good, not ideal, because I've kind of stopped whatever I'm doing and go like switch modes.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_2689_2789"
+        },
+        {
+          "start_time": 280820,
+          "end_time": 302740,
+          "content": "Is I actually like logging in the Porsche site because I can. It's more visual. They give you three sections because they're very like we said picky. So they've got like. Exterior, interior, and highlights, and so I'll drag my whole album onto the middle, drop it, and then I'll start sorting because they want like a precise sort order, you know. So it's kind of I can give you guys the option, is what I'm saying.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_2808_3027"
+        },
+        {
+          "start_time": 303380,
+          "end_time": 304580,
+          "content": "But if you're already in HomeNet,",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_3033_3045"
+        },
+        {
+          "start_time": 305780,
+          "end_time": 317380,
+          "content": "You know, maybe you just yeah. Essentially, what we would do is is essentially log into HomeNet, get a feed set up, and then.",
+          "speaker": "Speaker 3",
+          "original_speaker": "Speaker 3",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_3057_3173"
+        },
+        {
+          "start_time": 318370,
+          "end_time": 324370,
+          "content": "Photo guys can just kind of go in there, take the photos, put them in the correct order, and then feeds out to you guys. Yeah.",
+          "speaker": "Speaker 3",
+          "original_speaker": "Speaker 3",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_3183_3243"
+        },
+        {
+          "start_time": 324930,
+          "end_time": 326210,
+          "content": "But both would work.",
+          "speaker": "Speaker 3",
+          "original_speaker": "Speaker 3",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_3249_3262"
+        },
+        {
+          "start_time": 326290,
+          "end_time": 328450,
+          "content": "So y'all have it set where your shooters aren't having to upload.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_3262_3284"
+        },
+        {
+          "start_time": 329970,
+          "end_time": 332530,
+          "content": "Correct. Yeah. They do in a sense. So we.",
+          "speaker": "Speaker 3",
+          "original_speaker": "Speaker 3",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_3299_3325"
+        },
+        {
+          "start_time": 332850,
+          "end_time": 335330,
+          "content": "They stick them into a app and all that kind of stuff.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_3328_3353"
+        },
+        {
+          "start_time": 335330,
+          "end_time": 337250,
+          "content": "Yeah. Yep. So it makes it real easy for them.",
+          "speaker": "Speaker 3",
+          "original_speaker": "Speaker 3",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_3353_3372"
+        },
+        {
+          "start_time": 337650,
+          "end_time": 340530,
+          "content": "Stick them in, and then somebody else can sort them and fuck with them and stuff.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_3376_3405"
+        },
+        {
+          "start_time": 341490,
+          "end_time": 342130,
+          "content": "Exactly.",
+          "speaker": "Speaker 3",
+          "original_speaker": "Speaker 3",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_3414_3421"
+        },
+        {
+          "start_time": 343170,
+          "end_time": 351570,
+          "content": "Do y'all do any other? Stuff. Do y'all do actual content creation? Have y'all considered shooting RAWS for reels and photos for social media?",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_3431_3515"
+        },
+        {
+          "start_time": 352610,
+          "end_time": 354930,
+          "content": "Yep, we are working on that right now.",
+          "speaker": "Speaker 3",
+          "original_speaker": "Speaker 3",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_3526_3549"
+        },
+        {
+          "start_time": 355970,
+          "end_time": 360130,
+          "content": "Our primary focal point is obviously like photos and even 4K videos and that kind of stuff.",
+          "speaker": "Speaker 3",
+          "original_speaker": "Speaker 3",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_3559_3601"
+        },
+        {
+          "start_time": 360130,
+          "end_time": 372450,
+          "content": "Because let me tell you where that sits, man. This is like I'm deep in AI, man. I've been playing with it for like eight months now. I started out building my own Her agent. If you're into, if you know at all what that is.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_3601_3724"
+        },
+        {
+          "start_time": 373600,
+          "end_time": 382080,
+          "content": "So I got deep into it, and now I'm actually morphed in. I've got a few different systems, but I've got complete systems that essentially I could give you a Google Drive,",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_3736_3820"
+        },
+        {
+          "start_time": 383200,
+          "end_time": 385440,
+          "content": "A Google folder, and you just drop photos on it.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_3832_3854"
+        },
+        {
+          "start_time": 386080,
+          "end_time": 403440,
+          "content": "That if they're named correctly, my system just takes over and does everything for me. And then the same goes for literal raw footage. So if you shoot, you know, it's like you walk to car and shot me like five or six assorted interiors and exteriors of a car, like like cinematic. Little shorts,",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_3860_4034"
+        },
+        {
+          "start_time": 404080,
+          "end_time": 407520,
+          "content": "You could drop them in the same kind of folder, and my system would grab them,",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_4040_4075"
+        },
+        {
+          "start_time": 408160,
+          "end_time": 410080,
+          "content": "Caption them, cut them to music,",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_4081_4100"
+        },
+        {
+          "start_time": 410800,
+          "end_time": 414000,
+          "content": "And upload them into my system, and then deploy them into one of my websites.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_4108_4140"
+        },
+        {
+          "start_time": 415200,
+          "end_time": 425840,
+          "content": "So, kind of like, I'm at a phase where I'm I'm ready to grow like exponentially because I've got so many different little things built, but I need to finish finding like the right pieces of the puzzle. So,",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_4152_4258"
+        },
+        {
+          "start_time": 427280,
+          "end_time": 431440,
+          "content": "Put that in y'all's mind. If y'all, it's it's the kind of thing where.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_4272_4314"
+        },
+        {
+          "start_time": 432440,
+          "end_time": 435480,
+          "content": "It's worth more money than inventory photos,",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_4324_4354"
+        },
+        {
+          "start_time": 436920,
+          "end_time": 439400,
+          "content": "And if you've got, and here's the pickle. Here, just the,",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_4369_4394"
+        },
+        {
+          "start_time": 440200,
+          "end_time": 440920,
+          "content": "Here's the thing,",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_4402_4409"
+        },
+        {
+          "start_time": 441720,
+          "end_time": 446760,
+          "content": "It's not that's not worth the two or three thousand dollars that somebody's knuckleheads think it's worth.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_4417_4467"
+        },
+        {
+          "start_time": 448200,
+          "end_time": 451160,
+          "content": "So, like, if you go talk to, you know,",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_4482_4511"
+        },
+        {
+          "start_time": 452600,
+          "end_time": 455480,
+          "content": "Just your random social media content creators,",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_4526_4554"
+        },
+        {
+          "start_time": 456360,
+          "end_time": 459560,
+          "content": "Um, they're crazy expensive.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_4563_4595"
+        },
+        {
+          "start_time": 460690,
+          "end_time": 481970,
+          "content": "And what's happened is their work they're doing is kind of becoming commoditized just because the way AI is working, but you still need good raw footage to produce stuff out of. So kind of yeah, I mean if you guys are already kind of headed down that road, man, I would love to have the conversation with you. Developing the software part is actually not hard,",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_4606_4819"
+        },
+        {
+          "start_time": 482610,
+          "end_time": 484130,
+          "content": "But but uh,",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_4826_4841"
+        },
+        {
+          "start_time": 485010,
+          "end_time": 488290,
+          "content": "I've been in car business since '04, so I kind of like know it inside and out.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_4850_4882"
+        },
+        {
+          "start_time": 490130,
+          "end_time": 505570,
+          "content": "So, yeah, if you're in a point where you guys are maybe gonna have a few people,'cause look, fuck, if you got the right couple of guides, they can shoot both kinds of content, you know. And while you're here, you just you shoot it all, and then you're done. Yeah. Okay.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_4901_5055"
+        },
+        {
+          "start_time": 506930,
+          "end_time": 507250,
+          "content": "Yeah.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_5069_5072"
+        },
+        {
+          "start_time": 507730,
+          "end_time": 529760,
+          "content": "And so, like, what my photographers do is they go out there and they shoot the inventory photos themselves, but then we're also partnered with. Company called Liza. Yeah, and what that does is it's like an exterior 360 walkaround video, a couple of interior videos, and that kind of stuff that just kind of do the same thing,",
+          "speaker": "Speaker 3",
+          "original_speaker": "Speaker 3",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_5077_5297"
+        },
+        {
+          "start_time": 530560,
+          "end_time": 540000,
+          "content": "Where they cut it to music. You know, there's a lady that kind of talks about the car, goes over website. Yeah, and that's definitely of that mindset.",
+          "speaker": "Speaker 3",
+          "original_speaker": "Speaker 3",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_5305_5400"
+        },
+        {
+          "start_time": 540720,
+          "end_time": 549560,
+          "content": "Yeah, so that piece is very much. I mean, that's a modern take on what they've been doing for what. Inventory photographers and video, you know, been doing for probably twenty years.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_5407_5495"
+        },
+        {
+          "start_time": 551160,
+          "end_time": 558440,
+          "content": "And what I'm talking about is shit that actually plays well on reels and stories and and hits on social media. So,",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_5511_5584"
+        },
+        {
+          "start_time": 559640,
+          "end_time": 559800,
+          "content": "Yeah.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_5596_5598"
+        },
+        {
+          "start_time": 561160,
+          "end_time": 562840,
+          "content": "But anyway, so what's your name?",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_5611_5628"
+        },
+        {
+          "start_time": 565240,
+          "end_time": 569400,
+          "content": "Austin. Austin, are you in? Are you in the company deep? Are you in sales? What's your role there?",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_5652_5694"
+        },
+        {
+          "start_time": 572040,
+          "end_time": 573320,
+          "content": "Well, I'm actually operations manager.",
+          "speaker": "Speaker 3",
+          "original_speaker": "Speaker 3",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_5720_5733"
+        },
+        {
+          "start_time": 574440,
+          "end_time": 574680,
+          "content": "Okay. Cool.",
+          "speaker": "Speaker 3",
+          "original_speaker": "Speaker 3",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_5744_5746"
+        },
+        {
+          "start_time": 575760,
+          "end_time": 590560,
+          "content": "Company for a little over eight years now. My primary focal point is just kind of running Louisiana and Houston. Is actually where I'm based out of, so I handle more of like the day-to-day operations. But while I was in Baton Rouge last week,",
+          "speaker": "Speaker 3",
+          "original_speaker": "Speaker 3",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_5757_5905"
+        },
+        {
+          "start_time": 591280,
+          "end_time": 598560,
+          "content": "Just decided to pop around and check in with a couple of people, see what they got going on. Do you have a dedicated sales person? Yeah.",
+          "speaker": "Speaker 3",
+          "original_speaker": "Speaker 3",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_5912_5985"
+        },
+        {
+          "start_time": 599760,
+          "end_time": 601200,
+          "content": "Yeah, he's all over the place.",
+          "speaker": "Speaker 3",
+          "original_speaker": "Speaker 3",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_5997_6012"
+        },
+        {
+          "start_time": 602840,
+          "end_time": 607480,
+          "content": "Did you talk to any of the other stores that I did? Did you talk to BMW or Porsche? I mean, or Audi?",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_6028_6074"
+        },
+        {
+          "start_time": 608440,
+          "end_time": 618840,
+          "content": "I did not go to Audi because I saw that our sales guy Walter had gone over there a couple of weeks ago. Yeah. I went by BMW to see if I could talk to Brett,",
+          "speaker": "Speaker 3",
+          "original_speaker": "Speaker 3",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_6084_6188"
+        },
+        {
+          "start_time": 619480,
+          "end_time": 621560,
+          "content": "But he had like just left the office.",
+          "speaker": "Speaker 3",
+          "original_speaker": "Speaker 3",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_6194_6215"
+        },
+        {
+          "start_time": 621560,
+          "end_time": 624600,
+          "content": "So, and all I'm going to talk to Brett is to talk to me.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_6215_6246"
+        },
+        {
+          "start_time": 625640,
+          "end_time": 626280,
+          "content": "That's fantastic.",
+          "speaker": "Speaker 3",
+          "original_speaker": "Speaker 3",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_6256_6262"
+        },
+        {
+          "start_time": 626360,
+          "end_time": 630920,
+          "content": "That's my job. That's like I've been running interference for him for a while.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_6263_6309"
+        },
+        {
+          "start_time": 631940,
+          "end_time": 632420,
+          "content": "So yeah,",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_6319_6324"
+        },
+        {
+          "start_time": 633540,
+          "end_time": 643140,
+          "content": "You know I'm gonna keep you in mind for the BMW store. I'll talk to Adam and I'll talk to my guy and kind of see where he stands. You know, for him, I don't know how worth it it is.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_6335_6431"
+        },
+        {
+          "start_time": 643860,
+          "end_time": 645460,
+          "content": "You know, so I don't know. We'll see.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_6438_6454"
+        },
+        {
+          "start_time": 646420,
+          "end_time": 649860,
+          "content": "Yeah. But I've got your number, man. Is this just your cell? I'm just gonna save it.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_6464_6498"
+        },
+        {
+          "start_time": 649860,
+          "end_time": 651060,
+          "content": "This is my direct cell.",
+          "speaker": "Speaker 3",
+          "original_speaker": "Speaker 3",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_6498_6510"
+        },
+        {
+          "start_time": 651060,
+          "end_time": 657380,
+          "content": "All right. Cool. All right. Awesome. I appreciate you, man. And I'll I'll reach back out. We may end up just needing you guys to tackle it.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_6510_6573"
+        },
+        {
+          "start_time": 658020,
+          "end_time": 664380,
+          "content": "What? Do you all are kind of just open about what days you would come? How does how do y'all work that? Y'all set a schedule or what?",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_6580_6643"
+        },
+        {
+          "start_time": 665180,
+          "end_time": 671340,
+          "content": "Yeah, we'll set a schedule. So typically it'll depend on how much inventory we have every single day. Yeah.",
+          "speaker": "Speaker 3",
+          "original_speaker": "Speaker 3",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_6651_6713"
+        },
+        {
+          "start_time": 672060,
+          "end_time": 697290,
+          "content": "But usually, what I kind of told Adam, I was just like, honestly, for Porsche with how finicky they can be, yeah. We'd probably be looking at you know maybe a Monday, Wednesday, Friday schedule. We wanted to do kind of like a combo between maybe Porsche and BMW since they're right there. I could probably have somebody out there three. To five times a week, making sure that everything gets handled. Yeah. And look, you know, I'm not trying to sit here and steal anybody's job, especially you know, just got put into that role.",
+          "speaker": "Speaker 3",
+          "original_speaker": "Speaker 3",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_6720_6972"
+        },
+        {
+          "start_time": 697530,
+          "end_time": 705450,
+          "content": "Yeah. No. It's well. Look, it's like I said, he's retired. He does Audi. He put me off a week and a half whether he said yes or no for the Porsche store,",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_6975_7054"
+        },
+        {
+          "start_time": 706730,
+          "end_time": 717210,
+          "content": "And then he had just said yes the day before you guys reached out. So let's see how that plays out, man. And I'll probably be giving you guys a call.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_7067_7172"
+        },
+        {
+          "start_time": 718820,
+          "end_time": 728420,
+          "content": "And then look, you know, if there if there is, I'm already kind of way down this road with this, with basically building in like a workflow for for people shooting,",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_7188_7284"
+        },
+        {
+          "start_time": 729140,
+          "end_time": 731220,
+          "content": "And then having it translate into real posts.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_7291_7312"
+        },
+        {
+          "start_time": 731780,
+          "end_time": 736340,
+          "content": "Is there's if if there's somebody in your company that's like actually genuinely,",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_7317_7363"
+        },
+        {
+          "start_time": 737300,
+          "end_time": 743460,
+          "content": "You know, super interested and is kind of like one of the top decision makers, whether it be you and or one or two other people,",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_7373_7434"
+        },
+        {
+          "start_time": 744580,
+          "end_time": 746660,
+          "content": "Maybe we should schedule a Zoom call.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_7445_7466"
+        },
+        {
+          "start_time": 749540,
+          "end_time": 754580,
+          "content": "Because what this does is, man, if you if you guys are serious about shooting, and the content looks good,",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_7495_7545"
+        },
+        {
+          "start_time": 755140,
+          "end_time": 759140,
+          "content": "And then my backbone of this shit, my backbone of the things that I'm already doing,",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_7551_7591"
+        },
+        {
+          "start_time": 760500,
+          "end_time": 763220,
+          "content": "It's it might work well together, you know.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_7605_7632"
+        },
+        {
+          "start_time": 763300,
+          "end_time": 766180,
+          "content": "Yeah, I would love to have a conversation about that.",
+          "speaker": "Speaker 3",
+          "original_speaker": "Speaker 3",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_7633_7661"
+        },
+        {
+          "start_time": 766180,
+          "end_time": 770180,
+          "content": "Like, look, for example, All Star, as far as I know, they don't do a lot with their social media,",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_7661_7701"
+        },
+        {
+          "start_time": 771860,
+          "end_time": 777860,
+          "content": "And so something like this would dovetail perfectly with what you guys are already doing.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_7718_7778"
+        },
+        {
+          "start_time": 779360,
+          "end_time": 779600,
+          "content": "So,",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_7793_7796"
+        },
+        {
+          "start_time": 781280,
+          "end_time": 784240,
+          "content": "Really? Yeah. I mean, you got my email. You got my cell phone number.",
+          "speaker": "Speaker 3",
+          "original_speaker": "Speaker 3",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_7812_7842"
+        },
+        {
+          "start_time": 784240,
+          "end_time": 785280,
+          "content": "Yep. I'm gonna shoot you an email.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_7842_7852"
+        },
+        {
+          "start_time": 786480,
+          "end_time": 794480,
+          "content": "I'll shoot you an email that has like some kind of gives you like a rough idea of what I do and how it might plug in, and then you forward it to whoever needs to be forwarded to.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_7864_7944"
+        },
+        {
+          "start_time": 796160,
+          "end_time": 800480,
+          "content": "All right. Sweet. Thank you, man. You have a good one. Bye bye.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_7961_8004"
+        },
+        {
+          "start_time": 809790,
+          "end_time": 810030,
+          "content": "\u55ef\u3002",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_8097_8100"
+        },
+        {
+          "start_time": 846280,
+          "end_time": 848280,
+          "content": "Hey, we just recently set up Prospector.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_8462_8482"
+        },
+        {
+          "start_time": 849080,
+          "end_time": 851960,
+          "content": "As far as I know, we haven't had a Prospector before.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_8490_8519"
+        },
+        {
+          "start_time": 852840,
+          "end_time": 869720,
+          "content": "Should that Prospector be just for that AI site service type of bullshit that we're doing, or should we just set that Prospector up for all of our business? I don't know. Just wanted to hear what you thought because I would like Prospector to be doing some other things as well,",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_8528_8697"
+        },
+        {
+          "start_time": 870760,
+          "end_time": 873640,
+          "content": "Not just on the AI service and the AI site stuff.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_8707_8736"
+        },
+        {
+          "start_time": 1055390,
+          "end_time": 1061950,
+          "content": "Louis Cafe is celebrating 81 years this Saturday afternoon at 3: 20 on Main Street in Saginaw.",
+          "speaker": "Speaker 4",
+          "original_speaker": "Speaker 4",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_10553_10619"
+        },
+        {
+          "start_time": 1061950,
+          "end_time": 1062750,
+          "content": "Open from 6: 30 a.",
+          "speaker": "Speaker 5",
+          "original_speaker": "Speaker 5",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_10619_10627"
+        },
+        {
+          "start_time": 1063150,
+          "end_time": 1074590,
+          "content": "M. to 2: 30 p. m., serving Baton Rouge and the LSU community since 1941. Louis Cafe is a member of the Northgate Business Association. Area code 225, 346, 8221,",
+          "speaker": "Speaker 4",
+          "original_speaker": "Speaker 4",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_10631_10745"
+        },
+        {
+          "start_time": 1075310,
+          "end_time": 1076990,
+          "content": "And online at louiscafe. com.",
+          "speaker": "Speaker 4",
+          "original_speaker": "Speaker 4",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_10753_10769"
+        },
+        {
+          "start_time": 1083610,
+          "end_time": 1089930,
+          "content": "Catch a ride this Saturday on the Wednesday News Show from 8 p. m. to midnight. Get your tickets. Artists like Mumford,",
+          "speaker": "Speaker 6",
+          "original_speaker": "Speaker 6",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_10836_10899"
+        },
+        {
+          "start_time": 1090730,
+          "end_time": 1093130,
+          "content": "Howlin' Wolf,",
+          "speaker": "Speaker 2",
+          "original_speaker": "Speaker 2",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_10907_10931"
+        },
+        {
+          "start_time": 1093130,
+          "end_time": 1098490,
+          "content": "And catch legends like Lightnin' Slim.",
+          "speaker": "Speaker 6",
+          "original_speaker": "Speaker 6",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_10931_10984"
+        },
+        {
+          "start_time": 1099146,
+          "end_time": 1107370,
+          "content": "This is one stop. Go. It's the Wednesday News Show from 8 p. m. to midnight every Saturday. Right here.",
+          "speaker": "Speaker 6",
+          "original_speaker": "Speaker 6",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_10991_11073"
+        },
+        {
+          "start_time": 1227800,
+          "end_time": 1231800,
+          "content": "All right. The other thing we need is so this is companies with no website,",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_12278_12318"
+        },
+        {
+          "start_time": 1232360,
+          "end_time": 1246600,
+          "content": "But there's also going to be even more companies that have a website, but it's not modern, and I mean all the way modern. So it doesn't have AIO. It doesn't have good lead gen funnel practices, etc.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_12323_12466"
+        },
+        {
+          "start_time": 1247320,
+          "end_time": 1253320,
+          "content": "This brings up another topic. Let's talk to Site Builder about.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_12473_12533"
+        },
+        {
+          "start_time": 1256540,
+          "end_time": 1259340,
+          "content": "Fully updating what he knows about building good funnels,",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_12565_12593"
+        },
+        {
+          "start_time": 1259980,
+          "end_time": 1263580,
+          "content": "We can actually probably go find some Alex Hormozi lessons about that.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_12599_12635"
+        },
+        {
+          "start_time": 1289140,
+          "end_time": 1315540,
+          "content": "That looks good. We have to also talk about another thing. So right now, if we go to thecoopbrla. com, we have own your web. I don't know how much traffic that's gotten, but I think that that's just a failed experiment. Own your web. I don't mind as a domain for using for something, but that particular book, leave Squarespace, keep everything. I don't know what I'm thinking is own your web.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_12891_13155"
+        },
+        {
+          "start_time": 1316160,
+          "end_time": 1326400,
+          "content": "That needs to be on the part of our site where we discuss what we're doing with this newest venture, where we're talking about building sites, optimizing sites,",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_13161_13264"
+        },
+        {
+          "start_time": 1327200,
+          "end_time": 1337760,
+          "content": "Modernizing sites, building lead gen sites. So basically, it needs to be a really good SEO AIO system and page,",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_13272_13377"
+        },
+        {
+          "start_time": 1338320,
+          "end_time": 1340400,
+          "content": "Telling people about all the things we're building,",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_13383_13404"
+        },
+        {
+          "start_time": 1340960,
+          "end_time": 1343040,
+          "content": "The stuff that I'm building with Landry.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_13409_13430"
+        },
+        {
+          "start_time": 1345270,
+          "end_time": 1371350,
+          "content": "And market that stuff through some really good content, and then also discuss what Guidepost does and talk about that as part of our suite of products that we add to our websites. Makes sense. We can also talk about what we could use GoHighLevel for for some of these websites. So, for example, should we use GoHighLevel for like this site we're building for whoever?",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_13452_13713"
+        },
+        {
+          "start_time": 1371950,
+          "end_time": 1376590,
+          "content": "Or should we just use our own system with our own call system and our own lead gen system, that kind of thing?",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_13719_13765"
+        },
+        {
+          "start_time": 1419860,
+          "end_time": 1428180,
+          "content": "Alright, that's awesome. I'm excited to see what this AI shopping assistant page does. I'm excited to see a use of our guidepost branding.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_14198_14281"
+        },
+        {
+          "start_time": 1430020,
+          "end_time": 1434580,
+          "content": "Basically, as footer logos, maybe I don't know. We need to consider this AI shopping assistant page.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_14300_14345"
+        },
+        {
+          "start_time": 1435540,
+          "end_time": 1438580,
+          "content": "Is it ever going to be landed upon or seen by humans?",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_14355_14385"
+        },
+        {
+          "start_time": 1439140,
+          "end_time": 1445220,
+          "content": "If so, does it need some consideration for that? So it kind of explains what it is and why it's so awesome,",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_14391_14452"
+        },
+        {
+          "start_time": 1445940,
+          "end_time": 1447700,
+          "content": "Because that could help us garner more business.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_14459_14477"
+        },
+        {
+          "start_time": 1473890,
+          "end_time": 1476530,
+          "content": "Ladies and gentlemen, Fable Five Point Two is here,",
+          "speaker": "Speaker 5",
+          "original_speaker": "Speaker 5",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_14738_14765"
+        },
+        {
+          "start_time": 1476530,
+          "end_time": 1477890,
+          "content": "And holy crap,",
+          "speaker": "Speaker 6",
+          "original_speaker": "Speaker 6",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_14765_14778"
+        },
+        {
+          "start_time": 1478290,
+          "end_time": 1479090,
+          "content": "Is this followed yet?",
+          "speaker": "Speaker 4",
+          "original_speaker": "Speaker 4",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_14782_14790"
+        },
+        {
+          "start_time": 1479490,
+          "end_time": 1490370,
+          "content": "In this video, I'm going to walk you through it and give you everything you need to know\u2014not just the sexy-looking benchmarks, but I'm also going to run it on a bunch of tests and show you guys what it looks like if you have lots of money to throw at it.",
+          "speaker": "Speaker 5",
+          "original_speaker": "Speaker 5",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_14794_14903"
+        },
+        {
+          "start_time": 1491010,
+          "end_time": 1525440,
+          "content": "So first things first, if you guys haven't checked out the landing page for Fable Five Point Two and get those two, you should. You guys see this like sexy little animation as I move my mouse around the place? Pretty damn cool, huh? It's worth noting that we're releasing both Fable and Mythos today, but us puny underclassmen only get access to the former. I'm not going to be talking about Mythos as much, but obviously it is there and square for people that have cybersecurity backgrounds. The big thing I'd like to point out that I don't believe other people probably will is Fable Five Point Two is not insane or changes everything or oh my God the sky is falling down.",
+          "speaker": "Speaker 5",
+          "original_speaker": "Speaker 5",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_14910_15254"
+        },
+        {
+          "start_time": 1525440,
+          "end_time": 1530560,
+          "content": "AGI is here any more so than previous models. All Fable Five Point Two is really.",
+          "speaker": "Speaker 5",
+          "original_speaker": "Speaker 5",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_15254_15305"
+        },
+        {
+          "start_time": 1530860,
+          "end_time": 1552700,
+          "content": "Data of chronographs: the high-contrast combination of black subdials over a light primary dial surface has come to be known as the panda,",
+          "speaker": "Speaker 7",
+          "original_speaker": "Speaker 7",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_15308_15527"
+        },
+        {
+          "start_time": 1552700,
+          "end_time": 1559980,
+          "content": "Or in the opposite formation as the reverse panda. Over the years, these design styles have become some of the most beloved by watch.",
+          "speaker": "Speaker 6",
+          "original_speaker": "Speaker 6",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_15527_15599"
+        },
+        {
+          "start_time": 1561020,
+          "end_time": 1574140,
+          "content": "So in this video, we're looking at a long list of some of the best panda and reverse panda dials on the market. So we're going to be looking at a wide variety of price points, quartz as well as mechanical options. Given that we are talking about chronographs,",
+          "speaker": "Speaker 6",
+          "original_speaker": "Speaker 6",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_15610_15741"
+        },
+        {
+          "start_time": 1574700,
+          "end_time": 1581180,
+          "content": "Where the affordable end of things might end and start might be very different compared to other genres of watches.",
+          "speaker": "Speaker 6",
+          "original_speaker": "Speaker 6",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_15747_15811"
+        },
+        {
+          "start_time": 1581820,
+          "end_time": 1614470,
+          "content": "A mechanical chronograph typically starts with the flip going around $2,000. So just kind of keep all of that in mind when talking about this subject. We will look at some of the picks at the beginning, and then gradually build our way up from there. One other thing I'll mention is panda. I will try to be somewhat strict about is it a true panda or not. There are some exceptions, and I'll give reasons for why maybe you want it included on this list, maybe without fitting it perfectly as a panda. Dial is kind of a weird distinction of what we think about as a perfect panda configuration versus not. So,",
+          "speaker": "Speaker 6",
+          "original_speaker": "Speaker 6",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_15818_16144"
+        },
+        {
+          "start_time": 1615350,
+          "end_time": 1618950,
+          "content": "Who would have thought I'd ever be talking about is that a true panda or not a panda?",
+          "speaker": "Speaker 6",
+          "original_speaker": "Speaker 6",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_16153_16189"
+        },
+        {
+          "start_time": 1619750,
+          "end_time": 1620550,
+          "content": "This is the world of art.",
+          "speaker": "Speaker 6",
+          "original_speaker": "Speaker 6",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_16197_16205"
+        },
+        {
+          "start_time": 1621760,
+          "end_time": 1625920,
+          "content": "So something you want to be aware of is that teddybaldassarre. com is an authorized dealer of Blastingo.",
+          "speaker": "Speaker 6",
+          "original_speaker": "Speaker 6",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_16217_16259"
+        },
+        {
+          "start_time": 1626880,
+          "end_time": 1657620,
+          "content": "This a brand we just bought on the last few months. I am so excited to have them. They are an incredible brand. I would argue if you're looking at high horology watchmaking with some of the most competitive value in all of the industry, right? I'm talking about Germany. Anywhere you have to put this brand top of the list when you're.95% of the components are being produced in the region that they're from. Artisanal finishing across the board. This where you can get a watch with sometimes industrialized pricing for hand-finished elements, hand engraving on their balance bridges,",
+          "speaker": "Speaker 6",
+          "original_speaker": "Speaker 6",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_16268_16576"
+        },
+        {
+          "start_time": 1658100,
+          "end_time": 1688910,
+          "content": "Precious metal options. Also, in the case of their CQ, as an example, twenty-four day excellence test. Now, this a test that they're going to do over twenty-four days. So, before you even get the watch out the door, this after assembly, after putting together the movement, casing up the watch. They're then going to go through this test on top of that. So, think about that. A month before they were able to leave, almost they are going through these. Has to make sure the quality standards meet to that point. Such incredible value! You have collections across the board with their pan of collection, their 60s and 70s models,",
+          "speaker": "Speaker 6",
+          "original_speaker": "Speaker 6",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_16581_16889"
+        },
+        {
+          "start_time": 1689150,
+          "end_time": 1692830,
+          "content": "Senator and more. So check it out in the description down below to shop around.",
+          "speaker": "Speaker 6",
+          "original_speaker": "Speaker 6",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_16891_16928"
+        },
+        {
+          "start_time": 1693390,
+          "end_time": 1715320,
+          "content": "So to kick us off here, we're looking at a Panda style chronograph for under three hundred dollars, actually under two hundred and fifty dollars. This the Orient Neo series. This a watch that has become kind of an enthusiast favorite for this genre of watch. These kind of watches become Price of the watch is given its price, and as you look, it does look the part for being a watch under $300.",
+          "speaker": "Speaker 6",
+          "original_speaker": "Speaker 6",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_16933_17153"
+        },
+        {
+          "start_time": 1716120,
+          "end_time": 1723000,
+          "content": "Case diameter is 42 millimeters, thickness of 11.8 millimeters. It's a pretty reasonable lug to lug given the case size.",
+          "speaker": "Speaker 6",
+          "original_speaker": "Speaker 6",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_17161_17230"
+        },
+        {
+          "start_time": 1723320,
+          "end_time": 1724760,
+          "content": "Water resistance of 100 meters.",
+          "speaker": "Speaker 5",
+          "original_speaker": "Speaker 5",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_17233_17247"
+        },
+        {
+          "start_time": 1724920,
+          "end_time": 1739880,
+          "content": "Solar powered movement on the inside, so quartz accuracy. Solar power on the inside, so that fills the battery. And then in addition, you have a mineral glass on top. This was initially released in 2016. Getting these watches can be difficult at times because they're not.",
+          "speaker": "Speaker 6",
+          "original_speaker": "Speaker 6",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_17249_17398"
+        },
+        {
+          "start_time": 1741070,
+          "end_time": 1747390,
+          "content": "Everywhere you can't get these from conventional authorized places. Sometimes you have to find it on like an Amazon or something of that sort.",
+          "speaker": "Speaker 6",
+          "original_speaker": "Speaker 6",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_17410_17473"
+        },
+        {
+          "start_time": 1747630,
+          "end_time": 1748750,
+          "content": "The different parts of the world,",
+          "speaker": "Speaker 2",
+          "original_speaker": "Speaker 2",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_17476_17487"
+        },
+        {
+          "start_time": 1748990,
+          "end_time": 1760670,
+          "content": "You know, look for the different channels and where you can find them. They are a little bit trickier to navigate compared to some of the other watches on this list. But if you're just looking for bang for your buck, this is one.",
+          "speaker": "Speaker 6",
+          "original_speaker": "Speaker 6",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_17489_17606"
+        },
+        {
+          "start_time": 1762110,
+          "end_time": 1766430,
+          "content": "Next up, another affordable chronograph. I think we have the Timex Q chronograph.",
+          "speaker": "Speaker 6",
+          "original_speaker": "Speaker 6",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_17621_17664"
+        },
+        {
+          "start_time": 1767070,
+          "end_time": 1770270,
+          "content": "The Q was a model that I would put along with.",
+          "speaker": "Speaker 6",
+          "original_speaker": "Speaker 6",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_17670_17702"
+        },
+        {
+          "start_time": 1770840,
+          "end_time": 1777640,
+          "content": "Marlin as helping to resurge Timex to become more appreciated amongst collectors and enthusiasts.",
+          "speaker": "Speaker 6",
+          "original_speaker": "Speaker 6",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_17708_17776"
+        },
+        {
+          "start_time": 1778280,
+          "end_time": 1808540,
+          "content": "Are they going to blow you away with their specification? What they're bringing to the table? No, but for the price, they're a lot of fun and the designs are on point. This is another example of a watch that looks pretty cool for its price point. If you're only going around two hundred dollars, I'm saying that's not a lot of money. But considering we're talking about chronographs here, that's a whole different story. Forty millimeter case, thirteen point five millimeters in thickness, and that's With that dome, the acrylic crystal on top, quartz movement on the inside, water resistance of 50 meters. Very clean, vintage-inspired aesthetics,",
+          "speaker": "Speaker 6",
+          "original_speaker": "Speaker 6",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_17782_18085"
+        },
+        {
+          "start_time": 1809020,
+          "end_time": 1812380,
+          "content": "But a watch that again,$200, pretty tough to argue with.",
+          "speaker": "Speaker 6",
+          "original_speaker": "Speaker 6",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_18090_18123"
+        },
+        {
+          "start_time": 1813340,
+          "end_time": 1822700,
+          "content": "Now we're getting into a couple watches that I would say are some of the best buys for chronograph in general under $1,000. Here we have the Seiko Speedtimer. This is the SSC813.",
+          "speaker": "Speaker 6",
+          "original_speaker": "Speaker 6",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_18133_18227"
+        },
+        {
+          "start_time": 1824060,
+          "end_time": 1829180,
+          "content": "This follows the panda configuration more than really any other speedtimer out there. You're looking at.",
+          "speaker": "Speaker 6",
+          "original_speaker": "Speaker 6",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_18240_18291"
+        },
+        {
+          "start_time": 1829760,
+          "end_time": 1837840,
+          "content": "39 millimeter case. It does have a lug to lug of 35.5 millimeters, but this is a pretty small watch because we put this one on the wrist.",
+          "speaker": "Speaker 6",
+          "original_speaker": "Speaker 6",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_18297_18378"
+        },
+        {
+          "start_time": 1838400,
+          "end_time": 1841840,
+          "content": "13.4 millimeters for its thickness. Under the inside is hidden the solar powered quartz movement.",
+          "speaker": "Speaker 6",
+          "original_speaker": "Speaker 6",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_18384_18418"
+        },
+        {
+          "start_time": 1848800,
+          "end_time": 1857840,
+          "content": "Now we're getting into a couple watches that I would say are some of the best buys for chronograph in general under a thousand dollars. Here we have the Seiko.",
+          "speaker": "Speaker 6",
+          "original_speaker": "Speaker 6",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_18488_18578"
+        },
+        {
+          "start_time": 1860760,
+          "end_time": 1864680,
+          "content": "This follows the panda configuration more than really any other speedtimer out there.",
+          "speaker": "Speaker 6",
+          "original_speaker": "Speaker 6",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_18607_18646"
+        },
+        {
+          "start_time": 1865560,
+          "end_time": 1899000,
+          "content": "We're looking at a 39 millimeter case. It does have a lug to lug of 45.5 millimeters, but this is a pretty small watch. We'll just put this one on the wrist.13.4 millimeters for its thickness. On the inside, you're getting a solar power quartz movement that is V192.100 meters of water resistant, sapphire crystal, and a price point typically under $700 in most cases. Sometimes we find it for cheaper than that. When these were released a couple of years ago, these got a ton of love just because of how they were able to represent old-school kind of DNA, while also infusing some really nice tonneau looks in the process.",
+          "speaker": "Speaker 6",
+          "original_speaker": "Speaker 6",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_18655_18990"
+        },
+        {
+          "start_time": 1899160,
+          "end_time": 1905560,
+          "content": "It looks awesome. I also love how they're able to take these solar cells, making them hidden within the sub registers.",
+          "speaker": "Speaker 6",
+          "original_speaker": "Speaker 6",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_18991_19055"
+        },
+        {
+          "start_time": 1906200,
+          "end_time": 1921680,
+          "content": "You're getting the look of a panda, so you're not getting anybody upset, but you're also getting that feasibility of being able to have an absence of light through that dial in a clean way. So next up, we have the Bulova Lunar Pilots. This is the 43 edition. Specifically, the white dial version with the blue subdials.",
+          "speaker": "Speaker 6",
+          "original_speaker": "Speaker 6",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_19062_19216"
+        },
+        {
+          "start_time": 1922320,
+          "end_time": 1946000,
+          "content": "Some of you might be saying that I don't know any panda in the wild that is blue and white, but you're going to have to let this one slide. Long diamonds, most in and a great, just pick for under a thousand dollars for chronographs in general. Under nine hundred dollars, case diameter forty-three and a half millimeters. It's still on the larger end of things. It is smaller than the previous forty-five millimeter option, but is not going to be something that I'm saying smaller than this out there than the white, but.",
+          "speaker": "Speaker 6",
+          "original_speaker": "Speaker 6",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_19223_19460"
+        },
+        {
+          "start_time": 1946650,
+          "end_time": 1970650,
+          "content": "Medium to larger wrist range. You know we love how this one rides on the wrist. Thickness is reasonable, and also a high-frequency quartz movement on the inside with really solid accuracy to go along with it. This is going to outperform many other quartz movements under a thousand dollars, and getting a cool speed in the process, and getting quartz accuracy, high quartz accuracy, speed that really mimics that kind of a walk.",
+          "speaker": "Speaker 6",
+          "original_speaker": "Speaker 6",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_19466_19706"
+        },
+        {
+          "start_time": 1977130,
+          "end_time": 1982570,
+          "content": "Baltik knocked it out of the park with these heritage-inspired designs. This one, especially, this is a high compound.",
+          "speaker": "Speaker 6",
+          "original_speaker": "Speaker 6",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_19771_19825"
+        },
+        {
+          "start_time": 1983210,
+          "end_time": 1988250,
+          "content": "Baltik has played around with different chronographs in the past since their initial launch in 2017.",
+          "speaker": "Speaker 6",
+          "original_speaker": "Speaker 6",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_19832_19882"
+        },
+        {
+          "start_time": 1988810,
+          "end_time": 2022180,
+          "content": "One of the first watches that I remember from them was that initial chronograph that they released, early after they became a brand and started to really take the scene by storm. This now moves up into a different price tier, so you're getting closer to that 1,700 to 1,800 dollar range, depending on where you're at in the world.39.5 millimeter case.13.1 millimeters in thickness, with that SW510 on the inside of the manual wound caliber,50 meters of water resistance,47 millimeter lug to lug, sapphire crystal. This watch just looks so clean. The design is clearly inspired by a lot of mid 20th century design.",
+          "speaker": "Speaker 6",
+          "original_speaker": "Speaker 6",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_19888_20221"
+        },
+        {
+          "start_time": 2022260,
+          "end_time": 2026580,
+          "content": "You see some more of the Daytona in here, but it looks great. And for the price, hard to beat.",
+          "speaker": "Speaker 6",
+          "original_speaker": "Speaker 6",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_20222_20265"
+        },
+        {
+          "start_time": 2027220,
+          "end_time": 2060800,
+          "content": "Baltik's rise is probably one of the most notable of any smaller upstart brand in the last five to 10 years, and I think for good reason, just given that they've been Able to have this pull on everything we're building as much as looking at the timelessness of many of these designs and doing it in a way that doesn't look cheap. Also, that I've grown to hold, I always feel like it's done with an element of taste and class, and really hard to beat for money. Also, doing some things like the Parmigiani Micro rotor movement, they were one of the first brands to truly dive into the world of seagull calibers.",
+          "speaker": "Speaker 6",
+          "original_speaker": "Speaker 6",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_20272_20608"
+        },
+        {
+          "start_time": 2061120,
+          "end_time": 2065199,
+          "content": "They know when to take a risk, but they also know when to not take a risk, and just like the.",
+          "speaker": "Speaker 6",
+          "original_speaker": "Speaker 6",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_20611_20652"
+        },
+        {
+          "start_time": 2065960,
+          "end_time": 2099340,
+          "content": "Lead for and give people ultimately what they want\u2014an attainable-looking vintage-inspired chronograph that works. Made another watch that's a long-standing point of value for chronographs in this price range: the Hamilton Intra-Matic chronograph. This is a watch that I would argue really helps in kind of setting the standard of where you can get into the door for a Swiss-made chronograph while having some history in the process. Hamilton was very much involved in the development of the first automatic chronograph with those Intra-Matics. And looking at the early 1970s that really brought forth the design that we're looking at here.",
+          "speaker": "Speaker 6",
+          "original_speaker": "Speaker 6",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_20659_20993"
+        },
+        {
+          "start_time": 2099420,
+          "end_time": 2101980,
+          "content": "So this is paying a lot of reference to that initial design,",
+          "speaker": "Speaker 6",
+          "original_speaker": "Speaker 6",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_20994_21019"
+        },
+        {
+          "start_time": 2102540,
+          "end_time": 2122860,
+          "content": "Hamilton during those periods in the late 1970s. The watch across the board looks phenomenal too. We have 40 millimeter case,14.4 millimeters in thickness,49 millimeter lug to lug, water resistance of 100 meters, automatic balance caliber on the inside, sapphire crystal. I love the subdial design that we have. It is following a traditional balance configuration, but it works really well.",
+          "speaker": "Speaker 6",
+          "original_speaker": "Speaker 6",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_21025_21228"
+        },
+        {
+          "start_time": 2123970,
+          "end_time": 2130130,
+          "content": "When you get something this versatile, the alligator case and the strap configuration that you go for\u2014love this watch.",
+          "speaker": "Speaker 6",
+          "original_speaker": "Speaker 6",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_21239_21301"
+        },
+        {
+          "start_time": 2130290,
+          "end_time": 2139650,
+          "content": "It's one that I have always been following under consideration for you,",
+          "speaker": "Speaker 7",
+          "original_speaker": "Speaker 7",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_21302_21396"
+        },
+        {
+          "start_time": 2139730,
+          "end_time": 2145730,
+          "content": "Baltik. Baltik knocked it out of the park with the heritage-inspired design. This one, especially, this is very high compact.",
+          "speaker": "Speaker 6",
+          "original_speaker": "Speaker 6",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_21397_21457"
+        },
+        {
+          "start_time": 2146290,
+          "end_time": 2151330,
+          "content": "Baltik has played around with different chronographs in the past since their initial launch in 2017.",
+          "speaker": "Speaker 6",
+          "original_speaker": "Speaker 6",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_21462_21513"
+        },
+        {
+          "start_time": 2151960,
+          "end_time": 2180360,
+          "content": "One of the first watches I remember from them was that initial chronograph they released early after they became a brand and started to really flip the scene by storm. This now moves up into a different price tier to get closer to that one thousand seven hundred to one thousand eight hundred dollar range, depending on where you're in the world. Thirty nine and a half millimeter case, thirteen point one millimeters of thickness with that SW510 on the inside for number one caliber. Fifty meters of water resistance, forty seven millimeter lug to lug sapphire crystal. This watch just looks so clean.",
+          "speaker": "Speaker 6",
+          "original_speaker": "Speaker 6",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_21519_21803"
+        },
+        {
+          "start_time": 2181960,
+          "end_time": 2189720,
+          "content": "Clearly inspired by a lot of mid twentieth century design, you see some raw concrete, tonal in here, but it looks great. And for the price, hard to beat.",
+          "speaker": "Speaker 6",
+          "original_speaker": "Speaker 6",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_21819_21897"
+        },
+        {
+          "start_time": 2190360,
+          "end_time": 2209320,
+          "content": "Baltic's rise is probably one of the most notable in smaller upstart brands in the last five to ten years, and I think for good reason. Just given that they've been able to tap this pulse on where things are going, as much as really that timelessness and many of these designs and doing in a way that doesn't feel cheap. Like every single Baltic that I manage to hold,",
+          "speaker": "Speaker 6",
+          "original_speaker": "Speaker 6",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_21903_22093"
+        },
+        {
+          "start_time": 2209880,
+          "end_time": 2234990,
+          "content": "I always feel like it's done with an element of. In class and really hard to beat for the money across the board. They're also doing some cool things like their Micro rotor Micro rotor movement. They were one of the first brands to truly dive into the world of Seiko calibers. They don't want to take a risk, but they also know when to not take a risk and just let design lead forward and give people ultimately what they want\u2014an attainable-looking vintage-inspired chronograph that looks amazing.",
+          "speaker": "Speaker 6",
+          "original_speaker": "Speaker 6",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_22098_22349"
+        },
+        {
+          "start_time": 2235550,
+          "end_time": 2240750,
+          "content": "Another watch that's a long-standing point of value for chronographs in this price range is the Hamilton Intramatic.",
+          "speaker": "Speaker 6",
+          "original_speaker": "Speaker 6",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_22355_22407"
+        },
+        {
+          "start_time": 2241350,
+          "end_time": 2267990,
+          "content": "This a watch that I would argue really helped kind of setting the standard of where you can get into the door for a Swiss mechanical chronograph while having some history in the process. Hamilton was very much involved in the development of the first automatic chronograph with those Chronomatics, and looking at the early 1970s that really brought forth the design that you're looking at here. So this paying a lot of reverence to that initial design of Hamilton during those periods in the late 60s.",
+          "speaker": "Speaker 6",
+          "original_speaker": "Speaker 6",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_22413_22679"
+        },
+        {
+          "start_time": 2268910,
+          "end_time": 2298190,
+          "content": "The watch across the board looks phenomenal too. We have 40 millimeter case,14.4 millimeters in thickness,49 millimeter lug to lug, water resistance of 100 meters, automatic Valjoux caliber on the inside, sapphire crystal. I love the sub-regulator layout. It is following a traditional Valjoux configuration, but it works really well. Feels balanced, sporty with some dress versatility. I would argue, depending on the strap configuration that you go for, love this watch. It's one that I have always been a fan of, and probably still even to this day one of the.",
+          "speaker": "Speaker 6",
+          "original_speaker": "Speaker 6",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_22689_22981"
+        },
+        {
+          "start_time": 2301390,
+          "end_time": 2305070,
+          "content": "I don't know if it'll be out by the time of releasing this video, but I have something amazing,",
+          "speaker": "Speaker 6",
+          "original_speaker": "Speaker 6",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_23013_23050"
+        },
+        {
+          "start_time": 2307310,
+          "end_time": 2315150,
+          "content": "Amazing piece of art history underrepresented in terms of typically being mentioned when.",
+          "speaker": "Speaker 6",
+          "original_speaker": "Speaker 6",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_23073_23151"
+        },
+        {
+          "start_time": 2353010,
+          "end_time": 2358770,
+          "content": "Welcome back to channel's another rounder. I am holding in my hand for the first time what some call a malformation.",
+          "speaker": "Speaker 8",
+          "original_speaker": "Speaker 8",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_23530_23587"
+        },
+        {
+          "start_time": 2359330,
+          "end_time": 2360930,
+          "content": "Truly, how did you get that?",
+          "speaker": "Speaker 6",
+          "original_speaker": "Speaker 6",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_23593_23609"
+        },
+        {
+          "start_time": 2361010,
+          "end_time": 2362050,
+          "content": "One of my homies did.",
+          "speaker": "Speaker 8",
+          "original_speaker": "Speaker 8",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_23610_23620"
+        },
+        {
+          "start_time": 2362050,
+          "end_time": 2370210,
+          "content": "So apparently this is a mistake that ended up as a real mold that this guy had just sitting around. I believe the story is when they were trying to do the caliper,",
+          "speaker": "Speaker 2",
+          "original_speaker": "Speaker 2",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_23620_23702"
+        },
+        {
+          "start_time": 2371010,
+          "end_time": 2383040,
+          "content": "Which is like they tried to do a Luna Zone, which ended up being a fantastic disc. They accidentally had one, and when I look at it, it looks like they accidentally put two zone bottoms on top of each other. And then they put a ridge here.",
+          "speaker": "Speaker 2",
+          "original_speaker": "Speaker 2",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_23710_23830"
+        },
+        {
+          "start_time": 2383680,
+          "end_time": 2384480,
+          "content": "This is the slide.",
+          "speaker": "Speaker 8",
+          "original_speaker": "Speaker 8",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_23836_23844"
+        },
+        {
+          "start_time": 2385040,
+          "end_time": 2386720,
+          "content": "He took it and aimed it.",
+          "speaker": "Speaker 2",
+          "original_speaker": "Speaker 2",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_23850_23867"
+        },
+        {
+          "start_time": 2387200,
+          "end_time": 2390720,
+          "content": "Could be thought about the accident.",
+          "speaker": "Speaker 6",
+          "original_speaker": "Speaker 6",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_23872_23907"
+        },
+        {
+          "start_time": 2390720,
+          "end_time": 2391760,
+          "content": "It could be an accident.",
+          "speaker": "Speaker 7",
+          "original_speaker": "Speaker 7",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_23907_23917"
+        },
+        {
+          "start_time": 2393120,
+          "end_time": 2394880,
+          "content": "The people haven't thought about that. Well, some not many.",
+          "speaker": "Speaker 2",
+          "original_speaker": "Speaker 2",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_23931_23948"
+        },
+        {
+          "start_time": 2395440,
+          "end_time": 2399680,
+          "content": "They just came. This is the slowest and most overstable disc in the discraft line. Again,",
+          "speaker": "Speaker 2",
+          "original_speaker": "Speaker 2",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_23954_23996"
+        },
+        {
+          "start_time": 2400480,
+          "end_time": 2401840,
+          "content": "Waiting on PG approval.",
+          "speaker": "Speaker 2",
+          "original_speaker": "Speaker 2",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_24004_24018"
+        },
+        {
+          "start_time": 2402400,
+          "end_time": 2404960,
+          "content": "It's going to happen at some point. But really,",
+          "speaker": "Speaker 2",
+          "original_speaker": "Speaker 2",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_24024_24049"
+        },
+        {
+          "start_time": 2405760,
+          "end_time": 2415320,
+          "content": "Slowest, most overstable disc they've made. I think what before that it was like a a Raft. Yeah, for overstable. This is a slow risotto less. It's very fun.",
+          "speaker": "Speaker 2",
+          "original_speaker": "Speaker 2",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_24057_24153"
+        },
+        {
+          "start_time": 2415560,
+          "end_time": 2416200,
+          "content": "Here's the deal,",
+          "speaker": "Speaker 8",
+          "original_speaker": "Speaker 8",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_24155_24162"
+        },
+        {
+          "start_time": 2417160,
+          "end_time": 2426360,
+          "content": "And Nathan, you can insert this in the beginning of the video or not. We're gonna stand here until one of us aces with either the Slime or the Son of Flaw,",
+          "speaker": "Speaker 8",
+          "original_speaker": "Speaker 8",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_24171_24263"
+        },
+        {
+          "start_time": 2427160,
+          "end_time": 2434760,
+          "content": "Which is some version of the Rat. Or I guess there's no better way to start than to just start. Do you want to throw the first? I will.",
+          "speaker": "Speaker 8",
+          "original_speaker": "Speaker 8",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_24271_24347"
+        },
+        {
+          "start_time": 2434920,
+          "end_time": 2439160,
+          "content": "Okay, I'll throw it because nobody has aces with the Slime yet. They again just got released.",
+          "speaker": "Speaker 2",
+          "original_speaker": "Speaker 2",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_24349_24391"
+        },
+        {
+          "start_time": 2439480,
+          "end_time": 2441000,
+          "content": "That'll be true for the next 30 seconds.",
+          "speaker": "Speaker 8",
+          "original_speaker": "Speaker 8",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_24394_24410"
+        },
+        {
+          "start_time": 2442410,
+          "end_time": 2446650,
+          "content": "I think they gave the flight number. It was a 2 1 1 4.",
+          "speaker": "Speaker 2",
+          "original_speaker": "Speaker 2",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_24424_24466"
+        },
+        {
+          "start_time": 2447130,
+          "end_time": 2449770,
+          "content": "So it's it's a two speed Tilt. Yeah.",
+          "speaker": "Speaker 8",
+          "original_speaker": "Speaker 8",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_24471_24497"
+        },
+        {
+          "start_time": 2450330,
+          "end_time": 2450490,
+          "content": "Yeah.",
+          "speaker": "Speaker 2",
+          "original_speaker": "Speaker 2",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_24503_24504"
+        },
+        {
+          "start_time": 2451530,
+          "end_time": 2454810,
+          "content": "Yeah. I got a little bit more fun to throw this than than that.",
+          "speaker": "Speaker 2",
+          "original_speaker": "Speaker 2",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_24515_24548"
+        },
+        {
+          "start_time": 2456810,
+          "end_time": 2457450,
+          "content": "Oh boy.",
+          "speaker": "Speaker 2",
+          "original_speaker": "Speaker 2",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_24568_24574"
+        },
+        {
+          "start_time": 2458490,
+          "end_time": 2459850,
+          "content": "This whole plane's like 480,",
+          "speaker": "Speaker 8",
+          "original_speaker": "Speaker 8",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_24584_24598"
+        },
+        {
+          "start_time": 2459850,
+          "end_time": 2461690,
+          "content": "I think. Yeah, effortless.",
+          "speaker": "Speaker 2",
+          "original_speaker": "Speaker 2",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_24598_24616"
+        },
+        {
+          "start_time": 2461930,
+          "end_time": 2462570,
+          "content": "I mean 180.",
+          "speaker": "Speaker 8",
+          "original_speaker": "Speaker 8",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_24619_24625"
+        },
+        {
+          "start_time": 2462570,
+          "end_time": 2468890,
+          "content": "Are we doing one? Yeah, go ahead. Okay.",
+          "speaker": "Speaker 2",
+          "original_speaker": "Speaker 2",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_24625_24688"
+        },
+        {
+          "start_time": 2469690,
+          "end_time": 2473150,
+          "content": "Yeah, that wants to not go that way. It wants to go that way.",
+          "speaker": "Speaker 8",
+          "original_speaker": "Speaker 8",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_24696_24731"
+        },
+        {
+          "start_time": 2473310,
+          "end_time": 2476190,
+          "content": "Like step and Clay at the three-point line. We're just going to alternate.",
+          "speaker": "Speaker 2",
+          "original_speaker": "Speaker 2",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_24733_24761"
+        },
+        {
+          "start_time": 2476270,
+          "end_time": 2481090,
+          "content": "But I feel like I understand.",
+          "speaker": "Speaker 6",
+          "original_speaker": "Speaker 6",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_24762_24810"
+        },
+        {
+          "start_time": 2481110,
+          "end_time": 2483772,
+          "content": "Yes. Do that fly. I know. Fly straight.",
+          "speaker": "Speaker 2",
+          "original_speaker": "Speaker 2",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_24811_24837"
+        },
+        {
+          "start_time": 2483941,
+          "end_time": 2485461,
+          "content": "All right, here we go.",
+          "speaker": "Speaker 7",
+          "original_speaker": "Speaker 7",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_24839_24854"
+        },
+        {
+          "start_time": 2485630,
+          "end_time": 2489530,
+          "content": "I am.",
+          "speaker": "Speaker 6",
+          "original_speaker": "Speaker 6",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_24856_24895"
+        },
+        {
+          "start_time": 2490830,
+          "end_time": 2492830,
+          "content": "Yes. Did that? Didn't answer that.",
+          "speaker": "Speaker 2",
+          "original_speaker": "Speaker 2",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_24908_24928"
+        },
+        {
+          "start_time": 2492830,
+          "end_time": 2494190,
+          "content": "Dang it!",
+          "speaker": "Speaker 6",
+          "original_speaker": "Speaker 6",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_24928_24941"
+        },
+        {
+          "start_time": 2494270,
+          "end_time": 2497150,
+          "content": "That is that is way more flight characteristics than Zano's Ortegel.",
+          "speaker": "Speaker 8",
+          "original_speaker": "Speaker 8",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_24942_24971"
+        },
+        {
+          "start_time": 2500750,
+          "end_time": 2501470,
+          "content": "Oh, oh, baby.",
+          "speaker": "Speaker 8",
+          "original_speaker": "Speaker 8",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_25007_25014"
+        },
+        {
+          "start_time": 2506650,
+          "end_time": 2507290,
+          "content": "We're hey we're.",
+          "speaker": "Speaker 8",
+          "original_speaker": "Speaker 8",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_25066_25072"
+        },
+        {
+          "start_time": 2507290,
+          "end_time": 2508010,
+          "content": "It can't come up through.",
+          "speaker": "Speaker 7",
+          "original_speaker": "Speaker 7",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_25072_25080"
+        },
+        {
+          "start_time": 2508010,
+          "end_time": 2509610,
+          "content": "You're not good. We're on it though.",
+          "speaker": "Speaker 2",
+          "original_speaker": "Speaker 2",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_25080_25096"
+        },
+        {
+          "start_time": 2512410,
+          "end_time": 2513370,
+          "content": "He did not just ace.",
+          "speaker": "Speaker 2",
+          "original_speaker": "Speaker 2",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_25124_25133"
+        },
+        {
+          "start_time": 2514250,
+          "end_time": 2515210,
+          "content": "Nice shot, I used to.",
+          "speaker": "Speaker 2",
+          "original_speaker": "Speaker 2",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_25142_25152"
+        },
+        {
+          "start_time": 2515210,
+          "end_time": 2516010,
+          "content": "And good form.",
+          "speaker": "Speaker 8",
+          "original_speaker": "Speaker 8",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_25152_25160"
+        },
+        {
+          "start_time": 2516410,
+          "end_time": 2517690,
+          "content": "I see that. Very nice.",
+          "speaker": "Speaker 2",
+          "original_speaker": "Speaker 2",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_25164_25176"
+        },
+        {
+          "start_time": 2520410,
+          "end_time": 2521450,
+          "content": "That's gonna go that way.",
+          "speaker": "Speaker 8",
+          "original_speaker": "Speaker 8",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_25204_25214"
+        },
+        {
+          "start_time": 2521450,
+          "end_time": 2522650,
+          "content": "That wants to go that way.",
+          "speaker": "Speaker 6",
+          "original_speaker": "Speaker 6",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_25214_25226"
+        },
+        {
+          "start_time": 2524650,
+          "end_time": 2525450,
+          "content": "You have one blob.",
+          "speaker": "Speaker 8",
+          "original_speaker": "Speaker 8",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_25246_25254"
+        },
+        {
+          "start_time": 2525450,
+          "end_time": 2526570,
+          "content": "I have two. I have one.",
+          "speaker": "Speaker 2",
+          "original_speaker": "Speaker 2",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_25254_25265"
+        },
+        {
+          "start_time": 2531790,
+          "end_time": 2532510,
+          "content": "Oh, it's beautiful.",
+          "speaker": "Speaker 8",
+          "original_speaker": "Speaker 8",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_25317_25325"
+        },
+        {
+          "start_time": 2533150,
+          "end_time": 2535230,
+          "content": "No, no. Okay, all right.",
+          "speaker": "Speaker 8",
+          "original_speaker": "Speaker 8",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_25331_25352"
+        },
+        {
+          "start_time": 2538830,
+          "end_time": 2541950,
+          "content": "We got it. You know I throw everything power grip, which does not help me.",
+          "speaker": "Speaker 8",
+          "original_speaker": "Speaker 8",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_25388_25419"
+        },
+        {
+          "start_time": 2541950,
+          "end_time": 2542670,
+          "content": "Oh God.",
+          "speaker": "Speaker 2",
+          "original_speaker": "Speaker 2",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_25419_25426"
+        },
+        {
+          "start_time": 2543630,
+          "end_time": 2544190,
+          "content": "Oh no.",
+          "speaker": "Speaker 2",
+          "original_speaker": "Speaker 2",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_25436_25441"
+        },
+        {
+          "start_time": 2544990,
+          "end_time": 2548910,
+          "content": "Okay. I feel like I'm getting it though.",
+          "speaker": "Speaker 8",
+          "original_speaker": "Speaker 8",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_25449_25489"
+        },
+        {
+          "start_time": 2550110,
+          "end_time": 2551390,
+          "content": "We're we're we're there.",
+          "speaker": "Speaker 2",
+          "original_speaker": "Speaker 2",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_25501_25513"
+        },
+        {
+          "start_time": 2551950,
+          "end_time": 2553150,
+          "content": "Trying two v two Avalanche.",
+          "speaker": "Speaker 8",
+          "original_speaker": "Speaker 8",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_25519_25531"
+        },
+        {
+          "start_time": 2553390,
+          "end_time": 2554110,
+          "content": "Oh, done deal.",
+          "speaker": "Speaker 2",
+          "original_speaker": "Speaker 2",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_25533_25541"
+        },
+        {
+          "start_time": 2555230,
+          "end_time": 2557310,
+          "content": "Done deal. I love the Avalanche. Two v two.",
+          "speaker": "Speaker 2",
+          "original_speaker": "Speaker 2",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_25552_25573"
+        },
+        {
+          "start_time": 2559550,
+          "end_time": 2560510,
+          "content": "That's too much. Go ahead.",
+          "speaker": "Speaker 8",
+          "original_speaker": "Speaker 8",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_25595_25605"
+        },
+        {
+          "start_time": 2560720,
+          "end_time": 2561680,
+          "content": "Go ahead, you take a second.",
+          "speaker": "Speaker 2",
+          "original_speaker": "Speaker 2",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_25607_25616"
+        },
+        {
+          "start_time": 2564320,
+          "end_time": 2565200,
+          "content": "That was a little too much.",
+          "speaker": "Speaker 2",
+          "original_speaker": "Speaker 2",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_25643_25652"
+        },
+        {
+          "start_time": 2567520,
+          "end_time": 2568480,
+          "content": "No, he spit out.",
+          "speaker": "Speaker 2",
+          "original_speaker": "Speaker 2",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_25675_25684"
+        },
+        {
+          "start_time": 2569440,
+          "end_time": 2570000,
+          "content": "Shame on him.",
+          "speaker": "Speaker 2",
+          "original_speaker": "Speaker 2",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_25694_25700"
+        },
+        {
+          "start_time": 2572880,
+          "end_time": 2573840,
+          "content": "I tried to take a little bit off.",
+          "speaker": "Speaker 8",
+          "original_speaker": "Speaker 8",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_25728_25738"
+        },
+        {
+          "start_time": 2574160,
+          "end_time": 2575680,
+          "content": "You let the passes by down.",
+          "speaker": "Speaker 2",
+          "original_speaker": "Speaker 2",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_25741_25756"
+        },
+        {
+          "start_time": 2576080,
+          "end_time": 2576720,
+          "content": "I really did.",
+          "speaker": "Speaker 8",
+          "original_speaker": "Speaker 8",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_25760_25767"
+        },
+        {
+          "start_time": 2577280,
+          "end_time": 2582320,
+          "content": "I thought. I mean, it. It was my fault for not letting it get in the bottom of the basket.",
+          "speaker": "Speaker 8",
+          "original_speaker": "Speaker 8",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_25772_25823"
+        },
+        {
+          "start_time": 2585760,
+          "end_time": 2589040,
+          "content": "You really have to crawl these out this hole. If they're really soft, them.",
+          "speaker": "Speaker 2",
+          "original_speaker": "Speaker 2",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_25857_25890"
+        },
+        {
+          "start_time": 2589660,
+          "end_time": 2592380,
+          "content": "Unless you're a weenie, in which case you just go for power.",
+          "speaker": "Speaker 8",
+          "original_speaker": "Speaker 8",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_25896_25923"
+        },
+        {
+          "start_time": 2592380,
+          "end_time": 2594140,
+          "content": "I ain't no weenie.",
+          "speaker": "Speaker 2",
+          "original_speaker": "Speaker 2",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_25923_25941"
+        },
+        {
+          "start_time": 2594620,
+          "end_time": 2603660,
+          "content": "Round two. After round one, my first impression is it has the initial part of the Solo S play, like where it goes, oh, I don't want to be flying, but instead of going,",
+          "speaker": "Speaker 8",
+          "original_speaker": "Speaker 8",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_25946_26036"
+        },
+        {
+          "start_time": 2604780,
+          "end_time": 2606540,
+          "content": "It actually keeps pushing, which is interesting.",
+          "speaker": "Speaker 8",
+          "original_speaker": "Speaker 8",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_26047_26065"
+        },
+        {
+          "start_time": 2607180,
+          "end_time": 2614220,
+          "content": "And it doesn't have actually a lot of like left to right finish. It just has the initial stability and then the kind of,",
+          "speaker": "Speaker 8",
+          "original_speaker": "Speaker 8",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_26071_26142"
+        },
+        {
+          "start_time": 2614860,
+          "end_time": 2615500,
+          "content": "You know what I mean?",
+          "speaker": "Speaker 8",
+          "original_speaker": "Speaker 8",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_26148_26155"
+        },
+        {
+          "start_time": 2615820,
+          "end_time": 2617980,
+          "content": "I think it flies great. I do too. My question though.",
+          "speaker": "Speaker 2",
+          "original_speaker": "Speaker 2",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_26158_26179"
+        },
+        {
+          "start_time": 2619140,
+          "end_time": 2626580,
+          "content": "If it is in fact two zone bottoms slapped on top of each other, does it cancel one out or does it stack? I don't know.",
+          "speaker": "Speaker 2",
+          "original_speaker": "Speaker 2",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_26191_26265"
+        },
+        {
+          "start_time": 2626580,
+          "end_time": 2632420,
+          "content": "I need to throw it more. I want to throw forehands, but I just I think the backhand line fits better for me.",
+          "speaker": "Speaker 8",
+          "original_speaker": "Speaker 8",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_26265_26324"
+        },
+        {
+          "start_time": 2636020,
+          "end_time": 2639300,
+          "content": "No, he didn't. No, it's just it's just perfect. Yeah,",
+          "speaker": "Speaker 2",
+          "original_speaker": "Speaker 2",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_26360_26393"
+        },
+        {
+          "start_time": 2643460,
+          "end_time": 2644500,
+          "content": "I like that better.",
+          "speaker": "Speaker 8",
+          "original_speaker": "Speaker 8",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_26434_26445"
+        },
+        {
+          "start_time": 2647780,
+          "end_time": 2649860,
+          "content": "In fact, this purple one.",
+          "speaker": "Speaker 2",
+          "original_speaker": "Speaker 2",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_26477_26498"
+        },
+        {
+          "start_time": 2649860,
+          "end_time": 2650740,
+          "content": "The purple one is a couple overstable.",
+          "speaker": "Speaker 8",
+          "original_speaker": "Speaker 8",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_26498_26507"
+        },
+        {
+          "start_time": 2651700,
+          "end_time": 2657140,
+          "content": "My first impression is about the same. It's hilariously overstable right out of your hand.",
+          "speaker": "Speaker 2",
+          "original_speaker": "Speaker 2",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_26517_26571"
+        },
+        {
+          "start_time": 2657700,
+          "end_time": 2659780,
+          "content": "It starts to fade out immediately.",
+          "speaker": "Speaker 8",
+          "original_speaker": "Speaker 8",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_26577_26597"
+        },
+        {
+          "start_time": 2660100,
+          "end_time": 2661140,
+          "content": "But since it's so slow,",
+          "speaker": "Speaker 2",
+          "original_speaker": "Speaker 2",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_26601_26611"
+        },
+        {
+          "start_time": 2661140,
+          "end_time": 2663460,
+          "content": "It's just going just like that.",
+          "speaker": "Speaker 8",
+          "original_speaker": "Speaker 8",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_26611_26634"
+        },
+        {
+          "start_time": 2663700,
+          "end_time": 2665140,
+          "content": "Can you? Can you?",
+          "speaker": "Speaker 6",
+          "original_speaker": "Speaker 6",
+          "segment_uid": "09b5911f0487e745fd62bb5618de5a3c_26637_26651"
+        }
+      ]
+    },
+    {
+      "name": "ABR \u00b7 Chloe per-lead control + on-order status (Nov 9)",
+      "start_at": "2026-11-09T20:41:17",
+      "created_at": "2026-11-09T21:03:42",
+      "duration_ms": 1329000,
+      "vertical": "dealers",
+      "store": "abr",
+      "routed_by": "Morning brief Nov 10 \u2014 long-lead Chloe off",
+      "status": "park",
+      "work_order": "Park. Need on-order / sold-pending-delivery that turns off Chloe without lost. Lance texted Gaige. No Ada build.",
+      "summary_md": "### ABR \u00b7 Chloe lead controls \u00b7 Nov 9\n- One lead (Truett Miley \u2014 Valari 1\u20132 yr out): Chloe off without marking lost.\n- Wish: per-lead Chloe toggle; stop auto-lost; **on order / sold pending delivery**.\n- Lance investigating; ABR first then other rooftops. Texted Gaige.",
+      "highlights": [
+        {
+          "title": "Per-lead Chloe off",
+          "content": "Long-lead order \u2014 don\u2019t mark lost; don\u2019t spam.",
+          "timestamp": 5760
+        },
+        {
+          "title": "On-order status",
+          "content": "Sold pending delivery should kill VCA.",
+          "timestamp": 553550
+        },
+        {
+          "title": "Gaige check",
+          "content": "Does on-order deactivate VCA?",
+          "timestamp": 1144480
+        }
+      ],
+      "id": "of_a012d8e9d07f245624dae95c4a9726fa",
+      "transcript": [
+        {
+          "start_time": 720,
+          "end_time": 4800,
+          "content": "Hey, my bad, dude. I had a customer walk up right when you were calling me. What's happening?",
+          "speaker": "Speaker 1",
+          "original_speaker": "Speaker 1",
+          "segment_uid": "a012d8e9d07f245624dae95c4a9726fa_7_48"
+        },
+        {
+          "start_time": 5760,
+          "end_time": 9680,
+          "content": "Can I remove Chloe from literally just one person?",
+          "speaker": "Speaker 1",
+          "original_speaker": "Speaker 1",
+          "segment_uid": "a012d8e9d07f245624dae95c4a9726fa_57_96"
+        },
+        {
+          "start_time": 11040,
+          "end_time": 17440,
+          "content": "Because like, I have a customer that ordered a new Valari, and it won't get here for a year or two.",
+          "speaker": "Speaker 1",
+          "original_speaker": "Speaker 1",
+          "segment_uid": "a012d8e9d07f245624dae95c4a9726fa_110_174"
+        },
+        {
+          "start_time": 18000,
+          "end_time": 18640,
+          "content": "You know what I mean?",
+          "speaker": "Speaker 1",
+          "original_speaker": "Speaker 1",
+          "segment_uid": "a012d8e9d07f245624dae95c4a9726fa_180_186"
+        },
+        {
+          "start_time": 19280,
+          "end_time": 23600,
+          "content": "But I don't want to mark the lead lost, and I don't want to have to turn it off every.",
+          "speaker": "Speaker 1",
+          "original_speaker": "Speaker 1",
+          "segment_uid": "a012d8e9d07f245624dae95c4a9726fa_192_236"
+        },
+        {
+          "start_time": 30060,
+          "end_time": 37740,
+          "content": "This is perfect lead to fucking to try this on, but give me the.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "a012d8e9d07f245624dae95c4a9726fa_300_377"
+        },
+        {
+          "start_time": 40700,
+          "end_time": 42460,
+          "content": "His name is Truett Miley,",
+          "speaker": "Speaker 1",
+          "original_speaker": "Speaker 1",
+          "segment_uid": "a012d8e9d07f245624dae95c4a9726fa_407_424"
+        },
+        {
+          "start_time": 43180,
+          "end_time": 44300,
+          "content": "T R U,",
+          "speaker": "Speaker 1",
+          "original_speaker": "Speaker 1",
+          "segment_uid": "a012d8e9d07f245624dae95c4a9726fa_431_443"
+        },
+        {
+          "start_time": 44940,
+          "end_time": 50780,
+          "content": "E T T Miley, like Miley Cyrus. Got it. Oh, one oh nine oh eight three.",
+          "speaker": "Speaker 1",
+          "original_speaker": "Speaker 1",
+          "segment_uid": "a012d8e9d07f245624dae95c4a9726fa_449_507"
+        },
+        {
+          "start_time": 55930,
+          "end_time": 59290,
+          "content": "And if you can't do it, let me know. I'll just mark the lead lost so it doesn't bother him.",
+          "speaker": "Speaker 1",
+          "original_speaker": "Speaker 1",
+          "segment_uid": "a012d8e9d07f245624dae95c4a9726fa_559_592"
+        },
+        {
+          "start_time": 59290,
+          "end_time": 67370,
+          "content": "But no, I don't think we need to do that. I think I'm just trying to make sure I have the right lead because you get he's in here three times.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "a012d8e9d07f245624dae95c4a9726fa_592_673"
+        },
+        {
+          "start_time": 69450,
+          "end_time": 72330,
+          "content": "Sweet, he's submitted a whole bunch of leads in the past.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "a012d8e9d07f245624dae95c4a9726fa_694_723"
+        },
+        {
+          "start_time": 73290,
+          "end_time": 74890,
+          "content": "There's only one that should be active.",
+          "speaker": "Speaker 1",
+          "original_speaker": "Speaker 1",
+          "segment_uid": "a012d8e9d07f245624dae95c4a9726fa_732_748"
+        },
+        {
+          "start_time": 75210,
+          "end_time": 77130,
+          "content": "Yeah, there is. It's just a bunch of old junk.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "a012d8e9d07f245624dae95c4a9726fa_752_771"
+        },
+        {
+          "start_time": 78250,
+          "end_time": 81850,
+          "content": "Yeah. All right, sweet. So let's see. We should be able to do.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "a012d8e9d07f245624dae95c4a9726fa_782_818"
+        },
+        {
+          "start_time": 85120,
+          "end_time": 86480,
+          "content": "You got him paused right now, right?",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "a012d8e9d07f245624dae95c4a9726fa_851_864"
+        },
+        {
+          "start_time": 87840,
+          "end_time": 89440,
+          "content": "Yeah, I haven't paused for thirty days.",
+          "speaker": "Speaker 1",
+          "original_speaker": "Speaker 1",
+          "segment_uid": "a012d8e9d07f245624dae95c4a9726fa_878_894"
+        },
+        {
+          "start_time": 89440,
+          "end_time": 91360,
+          "content": "Leaving paused, and I'm going to go in.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "a012d8e9d07f245624dae95c4a9726fa_894_913"
+        },
+        {
+          "start_time": 91920,
+          "end_time": 97760,
+          "content": "I'm going to build, basically, have it rigged where when it's marked.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "a012d8e9d07f245624dae95c4a9726fa_919_977"
+        },
+        {
+          "start_time": 98560,
+          "end_time": 99840,
+          "content": "So, are you able to click?",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "a012d8e9d07f245624dae95c4a9726fa_985_998"
+        },
+        {
+          "start_time": 101760,
+          "end_time": 106400,
+          "content": "Do you not normally have a a damn thing, a status you could put someone in when they have a customer when they have an order?",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "a012d8e9d07f245624dae95c4a9726fa_1017_1064"
+        },
+        {
+          "start_time": 108160,
+          "end_time": 120620,
+          "content": "Um, no. I I mark all of my people whether it's an order car they're coming in next week or, you know, they said they wanted a car they want me to call them in 60 days. I put it in the notes and I mark them hot,",
+          "speaker": "Speaker 1",
+          "original_speaker": "Speaker 1",
+          "segment_uid": "a012d8e9d07f245624dae95c4a9726fa_1081_1206"
+        },
+        {
+          "start_time": 121260,
+          "end_time": 129020,
+          "content": "And then if it's more than a month out, I mark the past creation thing the cold. Right. But I check my fucking hot list every day.",
+          "speaker": "Speaker 1",
+          "original_speaker": "Speaker 1",
+          "segment_uid": "a012d8e9d07f245624dae95c4a9726fa_1212_1290"
+        },
+        {
+          "start_time": 129740,
+          "end_time": 135660,
+          "content": "So if I could change anything about the system, it would be the capability to just turn Chloe on or off,",
+          "speaker": "Speaker 1",
+          "original_speaker": "Speaker 1",
+          "segment_uid": "a012d8e9d07f245624dae95c4a9726fa_1297_1356"
+        },
+        {
+          "start_time": 136300,
+          "end_time": 137260,
+          "content": "And it would be,",
+          "speaker": "Speaker 1",
+          "original_speaker": "Speaker 1",
+          "segment_uid": "a012d8e9d07f245624dae95c4a9726fa_1363_1372"
+        },
+        {
+          "start_time": 137900,
+          "end_time": 149490,
+          "content": "Uh. The capability to prevent the system from marking my leads lost automatically, because it'll do that. There'll be customers that I'll like fucking lose track of because like they told me,",
+          "speaker": "Speaker 1",
+          "original_speaker": "Speaker 1",
+          "segment_uid": "a012d8e9d07f245624dae95c4a9726fa_1379_1494"
+        },
+        {
+          "start_time": 149490,
+          "end_time": 150610,
+          "content": "Hey, I'm in the market.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "a012d8e9d07f245624dae95c4a9726fa_1494_1506"
+        },
+        {
+          "start_time": 151570,
+          "end_time": 154370,
+          "content": "Like ninety day or one hundred twenty day auto. That's on auto.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "a012d8e9d07f245624dae95c4a9726fa_1515_1543"
+        },
+        {
+          "start_time": 154370,
+          "end_time": 159890,
+          "content": "Yeah. If there's a way to turn that shit off too, that would be ideal. I'm sorry to trouble you with this. I'm just trying to figure out.",
+          "speaker": "Speaker 1",
+          "original_speaker": "Speaker 1",
+          "segment_uid": "a012d8e9d07f245624dae95c4a9726fa_1543_1598"
+        },
+        {
+          "start_time": 159890,
+          "end_time": 170030,
+          "content": "Let me go. Let me go get this figured out, and and I'll let you know what I figure out because I want you to be able to use the status. I'm gonna do like a you know on order status, which is just a common sense thing.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "a012d8e9d07f245624dae95c4a9726fa_1598_1700"
+        },
+        {
+          "start_time": 170110,
+          "end_time": 181950,
+          "content": "Oh, dude, if you can do an order status, like, but not the yeah an order status that has no closing and it prevents the lead from being blocked or like or sold not delivered,",
+          "speaker": "Speaker 1",
+          "original_speaker": "Speaker 1",
+          "segment_uid": "a012d8e9d07f245624dae95c4a9726fa_1701_1819"
+        },
+        {
+          "start_time": 182510,
+          "end_time": 183870,
+          "content": "Right? Like sold not delivered.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "a012d8e9d07f245624dae95c4a9726fa_1825_1838"
+        },
+        {
+          "start_time": 184990,
+          "end_time": 187550,
+          "content": "Yeah. Well, I can't mark things sold either, but I gotta.",
+          "speaker": "Speaker 1",
+          "original_speaker": "Speaker 1",
+          "segment_uid": "a012d8e9d07f245624dae95c4a9726fa_1849_1875"
+        },
+        {
+          "start_time": 187630,
+          "end_time": 196090,
+          "content": "So it's a whole new status where you can just you choose it, and if you say sold not delivered, it just means hey, this customer's got a car in order. I took a deposit. It's like whatever.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "a012d8e9d07f245624dae95c4a9726fa_1876_1960"
+        },
+        {
+          "start_time": 196810,
+          "end_time": 200170,
+          "content": "Yeah. You know, sold, waiting on delivery or whatever the fuck.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "a012d8e9d07f245624dae95c4a9726fa_1968_2001"
+        },
+        {
+          "start_time": 200890,
+          "end_time": 204650,
+          "content": "Yes. All right, sweet. Thank you, man. Thank you. Bye. Bye.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "a012d8e9d07f245624dae95c4a9726fa_2008_2046"
+        },
+        {
+          "start_time": 356950,
+          "end_time": 357670,
+          "content": "Radio.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "a012d8e9d07f245624dae95c4a9726fa_3569_3576"
+        },
+        {
+          "start_time": 364550,
+          "end_time": 365190,
+          "content": "Radio.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "a012d8e9d07f245624dae95c4a9726fa_3645_3651"
+        },
+        {
+          "start_time": 490080,
+          "end_time": 490960,
+          "content": "I like that baby.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "a012d8e9d07f245624dae95c4a9726fa_4900_4909"
+        },
+        {
+          "start_time": 495600,
+          "end_time": 502320,
+          "content": "It's a young man's shit.",
+          "speaker": "Speaker 3",
+          "original_speaker": "Speaker 3",
+          "segment_uid": "a012d8e9d07f245624dae95c4a9726fa_4956_5023"
+        },
+        {
+          "start_time": 538510,
+          "end_time": 543710,
+          "content": "All right. Let's look at this. I had a call from Jack. You'll probably see the note in a little while.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "a012d8e9d07f245624dae95c4a9726fa_5385_5437"
+        },
+        {
+          "start_time": 544430,
+          "end_time": 547390,
+          "content": "I want to see if we can,",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "a012d8e9d07f245624dae95c4a9726fa_5444_5473"
+        },
+        {
+          "start_time": 548030,
+          "end_time": 552830,
+          "content": "Inside of Vint Solutions, this starts with Audi Baton Rouge, but then I want to put it in all the other dealerships.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "a012d8e9d07f245624dae95c4a9726fa_5480_5528"
+        },
+        {
+          "start_time": 553550,
+          "end_time": 563310,
+          "content": "We need to be able to put a customer in a status such as sold on order, sold pending delivery,",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "a012d8e9d07f245624dae95c4a9726fa_5535_5633"
+        },
+        {
+          "start_time": 563870,
+          "end_time": 579780,
+          "content": "Something like that. That basically turns off VCA. So we don't have the AI BDC agent in there trying to respond to people and text people, while they already have their cars sold. We just haven't delivered them yet, so they're not fully marked sold yet.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "a012d8e9d07f245624dae95c4a9726fa_5638_5797"
+        },
+        {
+          "start_time": 1053750,
+          "end_time": 1060390,
+          "content": "Does this status on order turn off VCA? That's the question, I guess.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "a012d8e9d07f245624dae95c4a9726fa_10537_10603"
+        },
+        {
+          "start_time": 1085530,
+          "end_time": 1091610,
+          "content": "Reduces Automotive and Westmont. It's our mission to serve the best car repair and maintenance service for you.",
+          "speaker": "Speaker 4",
+          "original_speaker": "Speaker 4",
+          "segment_uid": "a012d8e9d07f245624dae95c4a9726fa_10855_10916"
+        },
+        {
+          "start_time": 1093050,
+          "end_time": 1097340,
+          "content": "We support the dealers, providing the best service and form. The team behind us.",
+          "speaker": "Speaker 4",
+          "original_speaker": "Speaker 4",
+          "segment_uid": "a012d8e9d07f245624dae95c4a9726fa_10930_10973"
+        },
+        {
+          "start_time": 1097530,
+          "end_time": 1098530,
+          "content": "Reduces Automotive.",
+          "speaker": "Speaker 3",
+          "original_speaker": "Speaker 3",
+          "segment_uid": "a012d8e9d07f245624dae95c4a9726fa_10975_10985"
+        },
+        {
+          "start_time": 1098863,
+          "end_time": 1109530,
+          "content": "It's proud to advertise that the VRH Reduces Automotive has provided general maintenance and repair service since 1990 and remains a family-owned local business.",
+          "speaker": "Speaker 4",
+          "original_speaker": "Speaker 4",
+          "segment_uid": "a012d8e9d07f245624dae95c4a9726fa_10988_11095"
+        },
+        {
+          "start_time": 1110410,
+          "end_time": 1114650,
+          "content": "Reduces Automotive is located at 2714 Government Street in Mid City Baton Rouge.",
+          "speaker": "Speaker 4",
+          "original_speaker": "Speaker 4",
+          "segment_uid": "a012d8e9d07f245624dae95c4a9726fa_11104_11146"
+        },
+        {
+          "start_time": 1115160,
+          "end_time": 1136520,
+          "content": "Question is just does this turn off VCA?",
+          "speaker": "Speaker 3",
+          "original_speaker": "Speaker 3",
+          "segment_uid": "a012d8e9d07f245624dae95c4a9726fa_11151_11365"
+        },
+        {
+          "start_time": 1144480,
+          "end_time": 1147440,
+          "content": "I already texted Gage, so we'll wait and see what he says.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "a012d8e9d07f245624dae95c4a9726fa_11444_11474"
+        },
+        {
+          "start_time": 1187730,
+          "end_time": 1210050,
+          "content": "A very simple workflow would be when we have a particular website that we need to build, we go and look into other websites in that vertical. We go use some resource to figure out which ones are the best in those verticals, and we get a little inspiration from those. We don't copy, but we kind of get the vibe and the and the the feel.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "a012d8e9d07f245624dae95c4a9726fa_11877_12100"
+        },
+        {
+          "start_time": 1327750,
+          "end_time": 1328950,
+          "content": "Hey, what's up, man? How are you?",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "a012d8e9d07f245624dae95c4a9726fa_13277_13289"
+        }
+      ]
+    },
+    {
+      "name": "AG \u00b7 VCA processes \u2014 on-order / pending finance kills VCA (Nov 9)",
+      "start_at": "2026-11-09T21:03:29",
+      "created_at": "2026-11-09T21:05:42",
+      "duration_ms": 123000,
+      "vertical": "dealers",
+      "store": null,
+      "routed_by": "Morning brief Nov 10 \u2014 Vin confirm",
+      "status": "park",
+      "work_order": "Locked ops fact. Share with floor.",
+      "summary_md": "### VCA process rules \u00b7 Nov 9\n- VCA only in: new internet lead \u00b7 showroom follow-up \u00b7 after-hours.\n- No sold-follow-up process yet (sold+delivered can\u2019t re-enter).\n- **On order**, **pending finance**, or **pause** turns VCA off.",
+      "highlights": [
+        {
+          "title": "Three VCA homes",
+          "content": "New internet \u00b7 showroom FU \u00b7 after-hours.",
+          "timestamp": 80
+        },
+        {
+          "title": "On order kills VCA",
+          "content": "On order + pending finance + pause.",
+          "timestamp": 68830
+        }
+      ],
+      "id": "of_edb84ed771c0f65573f5b78356ac1a93",
+      "transcript": [
+        {
+          "start_time": 80,
+          "end_time": 19840,
+          "content": "In a couple of ways, essentially, I just take you back to yes. Marking it on order would disengage or turn off VCA. Okay, because VCA only can live currently in three different statuses or processes. It can only live in the new internet lead,",
+          "speaker": "Speaker 1",
+          "original_speaker": "Speaker 1",
+          "segment_uid": "edb84ed771c0f65573f5b78356ac1a93_0_198"
+        },
+        {
+          "start_time": 21200,
+          "end_time": 24480,
+          "content": "The showroom visit follow up, and the after hours.",
+          "speaker": "Speaker 1",
+          "original_speaker": "Speaker 1",
+          "segment_uid": "edb84ed771c0f65573f5b78356ac1a93_212_244"
+        },
+        {
+          "start_time": 25390,
+          "end_time": 39070,
+          "content": "So any customer that gets like a customer that gets marked a customer that gets marked sold and delivered, VCA cannot physically get back into that customer conversation because VCA cannot be added to sold follow up processes yet. Okay.",
+          "speaker": "Speaker 1",
+          "original_speaker": "Speaker 1",
+          "segment_uid": "edb84ed771c0f65573f5b78356ac1a93_253_390"
+        },
+        {
+          "start_time": 40590,
+          "end_time": 44030,
+          "content": "Same thing for online order. Same thing for phone ups. All those things.",
+          "speaker": "Speaker 1",
+          "original_speaker": "Speaker 1",
+          "segment_uid": "edb84ed771c0f65573f5b78356ac1a93_405_440"
+        },
+        {
+          "start_time": 44110,
+          "end_time": 44430,
+          "content": "Got it.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "edb84ed771c0f65573f5b78356ac1a93_441_444"
+        },
+        {
+          "start_time": 47710,
+          "end_time": 48350,
+          "content": "Perfect, man.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "edb84ed771c0f65573f5b78356ac1a93_477_483"
+        },
+        {
+          "start_time": 49070,
+          "end_time": 65550,
+          "content": "I just needed to make sure because I got one particular fellow who's really fucking annoying. And and I always tell him, yeah, you just see it, market sold, market on order, market on this. And it's like, well, I don't even know what that means. I'm like, oh my gosh. So,",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "edb84ed771c0f65573f5b78356ac1a93_490_655"
+        },
+        {
+          "start_time": 66830,
+          "end_time": 67310,
+          "content": "Um,",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "edb84ed771c0f65573f5b78356ac1a93_668_673"
+        },
+        {
+          "start_time": 68830,
+          "end_time": 83710,
+          "content": "Before I go ahead and beat him over the head with it, like, hey, dude, like this is what I've been telling you. No, no, no. I just wanted to double check. So, by by default, if you stick this thing in on order or pending finance, either one will just turn off VCA.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "edb84ed771c0f65573f5b78356ac1a93_688_837"
+        },
+        {
+          "start_time": 84890,
+          "end_time": 85370,
+          "content": "Correct.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "edb84ed771c0f65573f5b78356ac1a93_848_853"
+        },
+        {
+          "start_time": 85370,
+          "end_time": 113610,
+          "content": "Or using the pause functionality would too. But like, if you have a visit and you didn't sell them, so they're not delivered. Yep. But you don't want them in the showroom follow up. Like, if you put them in the on order. Yep. It's going to put them in the on order process. Which you guys have one built. I just look at like the BMW store. Yeah. And it's like your normal on order process. You know, like where it gets a task to follow up after so many days. Is your customer's car built yet? So on and so forth. Yep.",
+          "speaker": "Speaker 1",
+          "original_speaker": "Speaker 1",
+          "segment_uid": "edb84ed771c0f65573f5b78356ac1a93_853_1136"
+        },
+        {
+          "start_time": 114260,
+          "end_time": 114900,
+          "content": "Perfect, man.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "edb84ed771c0f65573f5b78356ac1a93_1142_1149"
+        },
+        {
+          "start_time": 115300,
+          "end_time": 115700,
+          "content": "Thank you.",
+          "speaker": "Speaker 1",
+          "original_speaker": "Speaker 1",
+          "segment_uid": "edb84ed771c0f65573f5b78356ac1a93_1153_1157"
+        },
+        {
+          "start_time": 116740,
+          "end_time": 117300,
+          "content": "You're welcome, brother.",
+          "speaker": "Speaker 1",
+          "original_speaker": "Speaker 1",
+          "segment_uid": "edb84ed771c0f65573f5b78356ac1a93_1167_1173"
+        },
+        {
+          "start_time": 117300,
+          "end_time": 120020,
+          "content": "Appreciate you, dude. Take it easy. Yep. See you.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "edb84ed771c0f65573f5b78356ac1a93_1173_1200"
+        }
+      ]
+    },
+    {
+      "name": "ABR \u00b7 Jack sold-customer VCA \u2014 deal-status deactivates (Nov 9)",
+      "start_at": "2026-11-09T21:05:51",
+      "created_at": "2026-11-09T21:28:58",
+      "duration_ms": 1371000,
+      "vertical": "dealers",
+      "store": "abr",
+      "routed_by": "Morning brief Nov 10 \u2014 floor coaching after Gabe",
+      "status": "park",
+      "work_order": "Park. Coaching done. Specials numbers still need store pencil.",
+      "summary_md": "### ABR \u00b7 Deal status vs VCA \u00b7 Nov 9\n- Jack noise on sold customers still getting VCA.\n- **Gabe confirm:** delivered / on order / pending finance all deactivate VCA.\n- Specials page up \u2014 needs store exact numbers.",
+      "highlights": [
+        {
+          "title": "Deal status kills VCA",
+          "content": "Delivered, on order, or pending finance.",
+          "timestamp": 9570
+        },
+        {
+          "title": "Gabe double-check",
+          "content": "Confirmed before coaching Jack.",
+          "timestamp": 45950
+        }
+      ],
+      "id": "of_90cf4b1492f33fb1ecaf26fcb24b24ce",
+      "transcript": [
+        {
+          "start_time": 5810,
+          "end_time": 8770,
+          "content": "Yo, what's happening, man? Um,",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "90cf4b1492f33fb1ecaf26fcb24b24ce_58_87"
+        },
+        {
+          "start_time": 9570,
+          "end_time": 28770,
+          "content": "Oh, nothing. I'm just over here being badgered by Jack. He's texting me and calling me about his sold customers. I just wanted to let you know because I texted him a screenshot of it. But if you do, if you take one of his customers, like this New Valari guy, and you you click sold, then the next window it says deal status, and you choose on order.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "90cf4b1492f33fb1ecaf26fcb24b24ce_95_287"
+        },
+        {
+          "start_time": 29970,
+          "end_time": 44750,
+          "content": "Actually, any one of those three statuses. Obviously, delivered, but. If you choose on order or pending finance, though either of those will also just deactivate VCA. So I'm just I'm just letting you know because you know because that way you'll know exactly he'll Jack's bothering you about.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "90cf4b1492f33fb1ecaf26fcb24b24ce_299_447"
+        },
+        {
+          "start_time": 45950,
+          "end_time": 58350,
+          "content": "But yeah, he's he was messing with me about it. I said, dude, I'm pretty sure if you just stick it in on order, it'll be turned off. But I just double checked with Gabe just to make sure. And yeah, any of any of those does deactivate it.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "90cf4b1492f33fb1ecaf26fcb24b24ce_459_583"
+        },
+        {
+          "start_time": 59790,
+          "end_time": 62590,
+          "content": "Word. I need to come see. Are you there? Are you there right now? Are you out?",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "90cf4b1492f33fb1ecaf26fcb24b24ce_597_625"
+        },
+        {
+          "start_time": 65269,
+          "end_time": 68070,
+          "content": "All right, I'm gonna come see you in a minute. I need to just get you to just,",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "90cf4b1492f33fb1ecaf26fcb24b24ce_652_680"
+        },
+        {
+          "start_time": 69110,
+          "end_time": 71590,
+          "content": "Like, the special page is up, but it's like,",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "90cf4b1492f33fb1ecaf26fcb24b24ce_691_715"
+        },
+        {
+          "start_time": 72230,
+          "end_time": 75510,
+          "content": "Kind of, you know. I need to get you to kind of put your precise pencil on it.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "90cf4b1492f33fb1ecaf26fcb24b24ce_722_755"
+        },
+        {
+          "start_time": 76470,
+          "end_time": 79990,
+          "content": "You know what I mean? To get your exact numbers and all that shit. All right, dude. Right in. Bye.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "90cf4b1492f33fb1ecaf26fcb24b24ce_764_799"
+        },
+        {
+          "start_time": 457820,
+          "end_time": 457820,
+          "content": "Oh,",
+          "speaker": "Speaker 2",
+          "original_speaker": "Speaker 2",
+          "segment_uid": "90cf4b1492f33fb1ecaf26fcb24b24ce_4578_4578"
+        },
+        {
+          "start_time": 468620,
+          "end_time": 468620,
+          "content": "Oh.",
+          "speaker": "Speaker 2",
+          "original_speaker": "Speaker 2",
+          "segment_uid": "90cf4b1492f33fb1ecaf26fcb24b24ce_4686_4686"
+        },
+        {
+          "start_time": 501020,
+          "end_time": 504540,
+          "content": "You found the right radio station. Now help us spread the word.",
+          "speaker": "Speaker 2",
+          "original_speaker": "Speaker 2",
+          "segment_uid": "90cf4b1492f33fb1ecaf26fcb24b24ce_5010_5045"
+        },
+        {
+          "start_time": 505180,
+          "end_time": 510380,
+          "content": "Jazz from the capital city, ninety point three FM, WBRH dot org.",
+          "speaker": "Speaker 2",
+          "original_speaker": "Speaker 2",
+          "segment_uid": "90cf4b1492f33fb1ecaf26fcb24b24ce_5051_5103"
+        },
+        {
+          "start_time": 512140,
+          "end_time": 512140,
+          "content": "Oh.",
+          "speaker": "Speaker 2",
+          "original_speaker": "Speaker 2",
+          "segment_uid": "90cf4b1492f33fb1ecaf26fcb24b24ce_5121_5121"
+        },
+        {
+          "start_time": 733870,
+          "end_time": 749070,
+          "content": "It's just one of those things. But don't let me go,'cause I wanna be true with you.",
+          "speaker": "Speaker 3",
+          "original_speaker": "Speaker 3",
+          "segment_uid": "90cf4b1492f33fb1ecaf26fcb24b24ce_7338_7490"
+        },
+        {
+          "start_time": 804990,
+          "end_time": 806350,
+          "content": "Oh come on!",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "90cf4b1492f33fb1ecaf26fcb24b24ce_8049_8063"
         }
       ]
     }
