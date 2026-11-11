@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ABR · Chad pricing lock + Willow Grove Q7/Q9 (Nov 10)</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500&family=IBM+Plex+Mono:wght@400;500&family=Source+Sans+3:wght@400;600;700&display=swap">
+  <style>
+:root {
+  --bg: #090908;
+  --bg-2: #11110f;
+  --bg-3: #181714;
+  --ink: #f0eadc;
+  --muted: #8d8778;
+  --faint: #5c574c;
+  --line: #26241e;
+  --accent: #c4452d;
+  --mustard: #c4a35a;
+  --blue: #6f8fbf;
+  --ok: #7d9a6d;
+  --serif: "Fraunces", "Iowan Old Style", Georgia, serif;
+  --sans: "Source Sans 3", "Source Sans Pro", -apple-system, sans-serif;
+  --mono: "IBM Plex Mono", ui-monospace, monospace;
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html, body { background: var(--bg); color: var(--ink); }
+body {
+  font-family: var(--sans);
+  min-height: 100vh;
+  text-wrap: pretty;
+}
+a { color: inherit; }
+.shell { display: grid; grid-template-columns: 260px 1fr; min-height: 100vh; }
+.rail {
+  border-right: 1px solid var(--line);
+  padding: 28px 18px 40px;
+  background: var(--bg-2);
+  position: sticky; top: 0; height: 100vh; overflow: auto;
+}
+.mark {
+  font-family: var(--serif);
+  font-weight: 500;
+  font-size: 13px;
+  letter-spacing: .18em;
+  text-transform: uppercase;
+  color: var(--accent);
+}
+.rail h1 {
+  font-family: var(--serif);
+  font-size: 28px;
+  font-weight: 460;
+  letter-spacing: -.03em;
+  margin: 10px 0 6px;
+}
+.rail .lede { color: var(--muted); font-size: 13.5px; line-height: 1.45; margin-bottom: 28px; }
+.vnav { display: flex; flex-direction: column; gap: 4px; }
+.vnav a {
+  display: flex; justify-content: space-between; align-items: baseline;
+  text-decoration: none; padding: 9px 10px; border-radius: 8px;
+  color: var(--ink); font-size: 14px;
+}
+.vnav a:hover, .vnav a.is-on { background: var(--bg-3); }
+.vnav a.is-on { box-shadow: inset 2px 0 0 var(--accent); }
+.vnav .count { color: var(--faint); font-family: var(--mono); font-size: 11px; }
+.stage { padding: 36px 40px 80px; max-width: 980px; }
+.kicker {
+  font-size: 11px; letter-spacing: .16em; text-transform: uppercase;
+  color: var(--accent); font-weight: 700; margin-bottom: 8px;
+}
+.stage > h2 {
+  font-family: var(--serif); font-weight: 460; font-size: 34px;
+  letter-spacing: -.03em; margin-bottom: 8px;
+}
+.blurb { color: var(--muted); margin-bottom: 28px; max-width: 46rem; }
+.empty {
+  border: 1px dashed var(--line); border-radius: 14px;
+  padding: 36px 28px; color: var(--muted); background: var(--bg-2);
+}
+.empty strong { color: var(--ink); font-weight: 600; }
+.cards { display: flex; flex-direction: column; gap: 10px; }
+.card {
+  display: grid; grid-template-columns: 1fr auto; gap: 12px;
+  text-decoration: none; padding: 16px 18px; border-radius: 12px;
+  background: var(--bg-2); border: 1px solid var(--line);
+}
+.card:hover { border-color: #3a372e; background: var(--bg-3); }
+.card h3 { font-size: 16px; font-weight: 600; margin-bottom: 4px; }
+.meta { color: var(--muted); font-size: 13px; display: flex; gap: 10px; flex-wrap: wrap; }
+.chip {
+  font-family: var(--mono); font-size: 10px; letter-spacing: .06em;
+  text-transform: uppercase; padding: 3px 7px; border-radius: 999px;
+  border: 1px solid var(--line); color: var(--muted); height: fit-content;
+}
+.chip.dealers { color: var(--blue); border-color: #2a3344; }
+.chip.avec-tous { color: var(--mustard); border-color: #3a3320; }
+.chip.personal { color: #c9a7a0; }
+.chip.ideas { color: var(--ok); }
+.note-top { margin-bottom: 22px; }
+.note-top h2 { font-family: var(--serif); font-size: 36px; font-weight: 460; letter-spacing: -.03em; }
+.tabs { display: flex; gap: 6px; margin: 22px 0 18px; border-bottom: 1px solid var(--line); }
+.tabs button {
+  appearance: none; background: none; border: 0; color: var(--muted);
+  font: 600 13px var(--sans); padding: 10px 12px; cursor: pointer;
+  border-bottom: 2px solid transparent; margin-bottom: -1px;
+}
+.tabs button[aria-selected="true"] { color: var(--ink); border-bottom-color: var(--accent); }
+.panel { display: none; }
+.panel.is-on { display: block; }
+.prose { font-size: 16.5px; line-height: 1.6; max-width: 42rem; }
+.prose h2, .prose h3 { font-family: var(--serif); font-weight: 500; margin: 1.3em 0 .4em; }
+.prose p { margin: 0 0 .8em; }
+.prose ul, .prose ol { margin: 0 0 1em 1.2em; }
+.prose li { margin: .25em 0; }
+.hl { border-left: 2px solid var(--accent); padding: 10px 0 10px 14px; margin: 0 0 14px; }
+.hl .t { font-family: var(--mono); font-size: 11px; color: var(--faint); }
+.hl h4 { font-size: 15px; margin: 4px 0; }
+.hl p { color: var(--muted); font-size: 14.5px; }
+.seg { display: grid; grid-template-columns: 64px 1fr; gap: 12px; padding: 8px 0; border-bottom: 1px solid var(--line); }
+.seg .ts { font-family: var(--mono); font-size: 11px; color: var(--faint); padding-top: 3px; }
+.back { color: var(--muted); text-decoration: none; font-size: 13px; display: inline-block; margin-bottom: 18px; }
+.back:hover { color: var(--ink); }
+footer { margin-top: 48px; color: var(--faint); font-size: 11px; font-family: var(--mono); }
+@media (max-width: 820px) {
+  .shell { grid-template-columns: 1fr; }
+  .rail { position: relative; height: auto; border-right: 0; border-bottom: 1px solid var(--line); }
+  .stage { padding: 24px 18px 64px; }
+  .note-top h2 { font-size: 28px; }
+}
+</style>
+</head>
+<body>
+<div class="shell">
+<aside class="rail">
+  <div class="mark">Cooperative</div>
+  <h1>Field desk</h1>
+  <p class="lede">Plaud landings. Summary, highlights, transcript — filed by life area.</p>
+  <nav class="vnav"><a href="../index.html" class="">All <span class="count">158</span></a><a class="" href="../vertical-inbox.html">Inbox <span class="count">1</span></a><a class="" href="../vertical-personal.html">Personal <span class="count">11</span></a><a class="" href="../vertical-coop-marketing.html">Coop Marketing <span class="count">6</span></a><a class="" href="../vertical-coop-dev.html">Coop Dev <span class="count">18</span></a><a class="" href="../vertical-avec-tous.html">Avec Tous <span class="count">0</span></a><a class="is-on" href="../vertical-dealers.html">Dealers <span class="count">115</span></a><a class="" href="../vertical-ideas.html">Ideas <span class="count">7</span></a></nav>
+</aside>
+<main class="stage">
+  <a class="back" href="../index.html">← Desk</a>
+  <div class="note-top">
+    <div class="kicker">dealers · 2026-11-10 · 5m52s</div>
+    <h2>ABR · Chad pricing lock + Willow Grove Q7/Q9 (Nov 10)</h2>
+    <div class="meta" style="margin-top:8px"><span>id of_d35cb3db2919702a2fe0562a1d6a2218</span><span>Morning ops Nov 11 — ABR evening pricing tape</span></div>
+  </div>
+  <div class="tabs" role="tablist">
+    <button type="button" data-panel="sum" aria-selected="true">Summary</button>
+    <button type="button" data-panel="hl" aria-selected="false">Highlights</button>
+    <button type="button" data-panel="tx" aria-selected="false">Transcript</button>
+  </div>
+  <section id="sum" class="panel is-on prose"><h3>ABR · Chad + Lance pricing lock · Nov 10 (~5m52s)</h3>
+<p><strong>Who:</strong> Lance + Chad (ABR). Copper work-order at end.</p>
+<p><strong>Locked discounts (compliance-checked on lot lows):</strong></p>
+<ul>
+<li><strong>Q8</strong> — <strong>$4,300</strong> off when MSRP ≥ <strong>$86k</strong> (~5% of 86)</li>
+<li><strong>A5</strong> — keep <strong>$2,700</strong> (cheapest ~$54,960 → 5% = $2,748)</li>
+<li><strong>Q7</strong> — <strong>$5,500</strong> across (8% of cheapest ~$71,595 = $5,725 safe). If stuck, can raise on higher 55s</li>
+<li><strong>A6</strong> — <strong>$3,500</strong> (cheapest ~$72k; 5% ≈ $3,600)</li>
+<li><strong>Q5</strong> — spot-check OK (~$2,890 / ~$57.8k); no change called</li>
+</ul>
+<p><strong>Ops:</strong></p>
+<ul>
+<li>Eric still hasn&#x27;t reviewed backend-tool worksheet → later</li>
+<li>Lance <strong>Thu Willow Grove</strong> off-site shoot: <strong>Q7 + Q9</strong></li>
+<li>Chad: other two Q9s PDI status / take one first</li>
+</ul>
+<p><strong>Work order:</strong> Copper — compile Chad+Lance pricing list → website prices + vAuto discussion with Lance.</p></section>
+  <section id="hl" class="panel"><div class="hl"><div class="t">0:13</div><h4>Q8 $4300 / A5 $2700</h4><p>Q8 $4.3k off ≥$86k MSRP; A5 stays $2.7k.</p></div><div class="hl"><div class="t">1:46</div><h4>Q7 $5500 / A6 $3500</h4><p>Q7 flat $5.5k; A6 to $3.5k after lot low check.</p></div><div class="hl"><div class="t">5:23</div><h4>Copper + Willow Grove</h4><p>Copper compile pricing; Lance Thu off-site Q7/Q9 shoot.</p></div></section>
+  <section id="tx" class="panel"><div class="seg"><div class="ts">0:00</div><div>So I think that would be like,</div></div><div class="seg"><div class="ts">0:03</div><div>I guess we could just do forty-three hundred deal discount on all the Q8s.</div></div><div class="seg"><div class="ts">0:07</div><div>But I know three hundred.</div></div><div class="seg"><div class="ts">0:08</div><div>Yep. You know because that&#x27;s five percent of eighty-six.</div></div><div class="seg"><div class="ts">0:12</div><div>Yeah. Q8, right?</div></div><div class="seg"><div class="ts">0:13</div><div>Yeah, and as long as it&#x27;s eighty-six or more, let&#x27;s just do forty-three hundred on it. Yeah, I&#x27;m down with that. Doing something like that.</div></div><div class="seg"><div class="ts">0:19</div><div>Then what about the other ones? Do we want to just do this, these numbers?</div></div><div class="seg"><div class="ts">0:23</div><div>Yeah, but I think we might be out of compliance on like the lower end ones. You know what I&#x27;m saying?</div></div><div class="seg"><div class="ts">0:29</div><div>So like a low end.</div></div><div class="seg"><div class="ts">0:31</div><div>So get like okay. So get me the cheapest MSRP A5 on our lot.</div></div><div class="seg"><div class="ts">0:35</div><div>Yep. Let&#x27;s go see.</div></div><div class="seg"><div class="ts">0:42</div><div>So right now,</div></div><div class="seg"><div class="ts">0:48</div><div>It&#x27;s like 54.</div></div><div class="seg"><div class="ts">0:50</div><div>So 54, 54.960 times.05 is 27.48.</div></div><div class="seg"><div class="ts">0:57</div><div>We just do twenty seven fifty off of everything, and twenty seven forty eight off of that one. You know what I&#x27;m saying?</div></div><div class="seg"><div class="ts">1:01</div><div>I mean, right now it&#x27;s just twenty seven hundred.</div></div><div class="seg"><div class="ts">1:03</div><div>Oh yeah, let&#x27;s do that. Yeah, perfect.</div></div><div class="seg"><div class="ts">1:05</div><div>Yeah, so we can leave those,</div></div><div class="seg"><div class="ts">1:07</div><div>And then like the other one. What&#x27;s the other one? Might be like run kind of close, like. Um.</div></div><div class="seg"><div class="ts">1:11</div><div>So we need to look at the Q7s because like, you can do eight percent off those, but I don&#x27;t know if I want to do eight percent off those because that&#x27;ll be six thousand. What are we running off the Q sevens right now?</div></div><div class="seg"><div class="ts">1:21</div><div>Seven. Let&#x27;s look at the cheapest.</div></div><div class="seg"><div class="ts">1:25</div><div>And you have to probably break out fifty five from fifty five, seventy six.</div></div><div class="seg"><div class="ts">1:28</div><div>Yeah, so we&#x27;re doing fifty five on all of them. So and this is the cheapest one.</div></div><div class="seg"><div class="ts">1:33</div><div>Give me a forty.</div></div><div class="seg"><div class="ts">1:34</div><div>Maybe go more.</div></div><div class="seg"><div class="ts">1:35</div><div>Oh no no, well that would be. Let me see.</div></div><div class="seg"><div class="ts">1:38</div><div>Seventy one five nine five times point oh eight would be fifty seven twenty five.</div></div><div class="seg"><div class="ts">1:44</div><div>So that&#x27;s safe. Yeah yeah.</div></div><div class="seg"><div class="ts">1:46</div><div>All right. So let&#x27;s just do fifty five hundred off of every all of them.</div></div><div class="seg"><div class="ts">1:48</div><div>Okay. So we&#x27;ll leave that.</div></div><div class="seg"><div class="ts">1:50</div><div>Let&#x27;s see what else might be like.</div></div><div class="seg"><div class="ts">1:54</div><div>So Q eight, Q seven, Q five,</div></div><div class="seg"><div class="ts">1:59</div><div>A six, maybe.</div></div><div class="seg"><div class="ts">2:00</div><div>Yeah. So Q. Let&#x27;s look at these real quick. Do these get sketchy? So like fifty seven eight.</div></div><div class="seg"><div class="ts">2:08</div><div>Because your Q five, yeah.</div></div><div class="seg"><div class="ts">2:12</div><div>Twenty eight ninety. Yeah. Okay.</div></div><div class="seg"><div class="ts">2:14</div><div>So that&#x27;s pretty good.</div></div><div class="seg"><div class="ts">2:16</div><div>Yeah. And then what did you say? The um.</div></div><div class="seg"><div class="ts">2:18</div><div>A six.</div></div><div class="seg"><div class="ts">2:26</div><div>Seventy-two is the cheapest one right now. So at three, that&#x27;s pretty.</div></div><div class="seg"><div class="ts">2:31</div><div>Yeah, thirty-six hundred. So you could do thirty-five hundred on those.</div></div><div class="seg"><div class="ts">2:33</div><div>So go to thirty-five. Yeah.</div></div><div class="seg"><div class="ts">2:36</div><div>Yep. All right. So go to thirty-five on the A six.</div></div><div class="seg"><div class="ts">2:40</div><div>And then we just kind of kind of look and see if we get one cheaper, like seventy-two or something.</div></div><div class="seg"><div class="ts">2:44</div><div>Yeah, because then it would it would step on the rules.</div></div><div class="seg"><div class="ts">2:49</div><div>What about what? So Q seven would be the one that&#x27;s like, no.</div></div><div class="seg"><div class="ts">2:55</div><div>Yeah, Q7 is the one that can go over to eight, right?</div></div><div class="seg"><div class="ts">2:58</div><div>Yeah, we did that. Eight, okay. It was like seven one five forty five.</div></div><div class="seg"><div class="ts">3:02</div><div>All right, so it&#x27;s fifty five hundred on that one.</div></div><div class="seg"><div class="ts">3:04</div><div>So they were not as far off as I thought.</div></div><div class="seg"><div class="ts">3:05</div><div>Yeah, and if we if we wanna max, like let&#x27;s see what it looks like because we&#x27;re kind of selling twenty six Q7s, so we probably have to do fifty five hundred. But like, if we get stuck with one, we can raise it on fifty fives because they&#x27;re like ten grand more.</div></div><div class="seg"><div class="ts">3:25</div><div>This thing&#x27;s good looking, dude.</div></div><div class="seg"><div class="ts">3:26</div><div>Yeah, that&#x27;s the Q Seven.</div></div><div class="seg"><div class="ts">3:28</div><div>Yep, I like it.</div></div><div class="seg"><div class="ts">3:29</div><div>Have you driven one? No. They&#x27;re nasty.</div></div><div class="seg"><div class="ts">3:32</div><div>It&#x27;s got it&#x27;s quick.</div></div><div class="seg"><div class="ts">3:33</div><div>It&#x27;s like an SQ Seven.</div></div><div class="seg"><div class="ts">3:35</div><div>The funny thing, like for the longest time, like when you drove like a base X5 and a base Q7, like the Q7 was just like not get out of its own way.</div></div><div class="seg"><div class="ts">3:43</div><div>I am more. I feel like it was like gearing too, some of it. It wasn&#x27;t just motor.</div></div><div class="seg"><div class="ts">3:46</div><div>Well, yeah, the four cylinder for sure.</div></div><div class="seg"><div class="ts">3:47</div><div>Well, not the four cylinder, but like the six. Yeah, it was like, dude, what is happening? Yeah. Yeah, I&#x27;ll I&#x27;ll leave you. I&#x27;m gonna call you. I&#x27;m good.</div></div><div class="seg"><div class="ts">3:57</div><div>What&#x27;s up?</div></div><div class="seg"><div class="ts">4:01</div><div>Yeah.</div></div><div class="seg"><div class="ts">4:08</div><div>Eric hasn&#x27;t had a chance to look at it yet. Whatever that means. What does that mean?</div></div><div class="seg"><div class="ts">4:18</div><div>Oh, you sent him a worksheet for the backend tool, and he hasn&#x27;t looked at it yet.</div></div><div class="seg"><div class="ts">4:23</div><div>Lance, I&#x27;m talking to you. Oh, what? Eric, Eric, you sent Eric a worksheet for the backend. He hasn&#x27;t had a chance to look at it yet. That&#x27;s cool.</div></div><div class="seg"><div class="ts">4:31</div><div>Okay. Yeah, we&#x27;ll look at it a little bit later. Okay.</div></div><div class="seg"><div class="ts">4:36</div><div>I&#x27;m gonna call you in three minutes. I&#x27;m gonna call you in three minutes.</div></div><div class="seg"><div class="ts">4:43</div><div>Bye bye. Yeah, on Thursday I&#x27;m gonna shoot the Q7 and Q9 like off site. Oh, you&#x27;re shooting at Willow Grove.</div></div><div class="seg"><div class="ts">4:49</div><div>Yeah. Ah.</div></div><div class="seg"><div class="ts">4:52</div><div>Okay.</div></div><div class="seg"><div class="ts">4:54</div><div>Did they PDI the other two Q9s? Yeah. I was gonna maybe take one first. Are they out there? Well, I saw one.</div></div><div class="seg"><div class="ts">5:23</div><div>Hey Copper, put together a list of what Chad and I—that was me and Chad—talking about pricing for Audi Baton Rouge.</div></div><div class="seg"><div class="ts">5:30</div><div>See if you can make sense of it. There&#x27;s just a few things we&#x27;re gonna change with what our prices are on the website. So I had to get into V Auto and move some numbers around. I don&#x27;t think it was a lot, but that this note is for you and me to discuss the pricing in V Auto for Audi Baton Rouge.</div></div></section>
+</main>
+</div>
+<footer>PLAUD-NOTES-2026-11-10-1330 · noindex · Plaud sources + notes</footer>
+<script>
+
+document.querySelectorAll('.tabs button').forEach(btn => {
+  btn.addEventListener('click', () => {
+    document.querySelectorAll('.tabs button').forEach(b => b.setAttribute('aria-selected', b===btn ? 'true':'false'));
+    document.querySelectorAll('.panel').forEach(p => p.classList.toggle('is-on', p.id === btn.dataset.panel));
+  });
+});
+
+</script>
+</body>
+</html>

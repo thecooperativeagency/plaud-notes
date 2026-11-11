@@ -2,6 +2,631 @@
   "revision": "PLAUD-NOTES-2026-11-10-1330",
   "recordings": [
     {
+      "id": "of_d35cb3db2919702a2fe0562a1d6a2218",
+      "name": "ABR \u00b7 Chad pricing lock + Willow Grove Q7/Q9 (Nov 10)",
+      "start_at": "2026-11-10T22:44:43",
+      "created_at": "2026-11-10T22:50:42",
+      "duration_ms": 352000,
+      "vertical": "dealers",
+      "store": "abr",
+      "routed_by": "Morning ops Nov 11 \u2014 ABR evening pricing tape",
+      "status": "park",
+      "work_order": "Park for Ada creative. Copper owns pricing list \u2192 website/vAuto. Lance: Thu Willow Grove Q7/Q9 shoot.",
+      "summary_md": "### ABR \u00b7 Chad + Lance pricing lock \u00b7 Nov 10 (~5m52s)\n**Who:** Lance + Chad (ABR). Copper work-order at end.\n\n**Locked discounts (compliance-checked on lot lows):**\n- **Q8** \u2014 **$4,300** off when MSRP \u2265 **$86k** (~5% of 86)\n- **A5** \u2014 keep **$2,700** (cheapest ~$54,960 \u2192 5% = $2,748)\n- **Q7** \u2014 **$5,500** across (8% of cheapest ~$71,595 = $5,725 safe). If stuck, can raise on higher 55s\n- **A6** \u2014 **$3,500** (cheapest ~$72k; 5% \u2248 $3,600)\n- **Q5** \u2014 spot-check OK (~$2,890 / ~$57.8k); no change called\n\n**Ops:**\n- Eric still hasn't reviewed backend-tool worksheet \u2192 later\n- Lance **Thu Willow Grove** off-site shoot: **Q7 + Q9**\n- Chad: other two Q9s PDI status / take one first\n\n**Work order:** Copper \u2014 compile Chad+Lance pricing list \u2192 website prices + vAuto discussion with Lance.",
+      "highlights": [
+        {
+          "title": "Q8 $4300 / A5 $2700",
+          "content": "Q8 $4.3k off \u2265$86k MSRP; A5 stays $2.7k.",
+          "timestamp": 13630
+        },
+        {
+          "title": "Q7 $5500 / A6 $3500",
+          "content": "Q7 flat $5.5k; A6 to $3.5k after lot low check.",
+          "timestamp": 106020
+        },
+        {
+          "title": "Copper + Willow Grove",
+          "content": "Copper compile pricing; Lance Thu off-site Q7/Q9 shoot.",
+          "timestamp": 323710
+        }
+      ],
+      "transcript": [
+        {
+          "start_time": 430,
+          "end_time": 1790,
+          "content": "So I think that would be like,",
+          "speaker": "Speaker 1",
+          "original_speaker": "Speaker 1",
+          "segment_uid": "d35cb3db2919702a2fe0562a1d6a2218_4_17"
+        },
+        {
+          "start_time": 3470,
+          "end_time": 7230,
+          "content": "I guess we could just do forty-three hundred deal discount on all the Q8s.",
+          "speaker": "Speaker 1",
+          "original_speaker": "Speaker 1",
+          "segment_uid": "d35cb3db2919702a2fe0562a1d6a2218_34_72"
+        },
+        {
+          "start_time": 7950,
+          "end_time": 8750,
+          "content": "But I know three hundred.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "d35cb3db2919702a2fe0562a1d6a2218_79_87"
+        },
+        {
+          "start_time": 8830,
+          "end_time": 12350,
+          "content": "Yep. You know because that's five percent of eighty-six.",
+          "speaker": "Speaker 1",
+          "original_speaker": "Speaker 1",
+          "segment_uid": "d35cb3db2919702a2fe0562a1d6a2218_88_123"
+        },
+        {
+          "start_time": 12350,
+          "end_time": 13310,
+          "content": "Yeah. Q8, right?",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "d35cb3db2919702a2fe0562a1d6a2218_123_133"
+        },
+        {
+          "start_time": 13630,
+          "end_time": 19390,
+          "content": "Yeah, and as long as it's eighty-six or more, let's just do forty-three hundred on it. Yeah, I'm down with that. Doing something like that.",
+          "speaker": "Speaker 1",
+          "original_speaker": "Speaker 1",
+          "segment_uid": "d35cb3db2919702a2fe0562a1d6a2218_136_193"
+        },
+        {
+          "start_time": 19390,
+          "end_time": 22750,
+          "content": "Then what about the other ones? Do we want to just do this, these numbers?",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "d35cb3db2919702a2fe0562a1d6a2218_193_227"
+        },
+        {
+          "start_time": 23630,
+          "end_time": 27870,
+          "content": "Yeah, but I think we might be out of compliance on like the lower end ones. You know what I'm saying?",
+          "speaker": "Speaker 1",
+          "original_speaker": "Speaker 1",
+          "segment_uid": "d35cb3db2919702a2fe0562a1d6a2218_236_278"
+        },
+        {
+          "start_time": 29770,
+          "end_time": 30810,
+          "content": "So like a low end.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "d35cb3db2919702a2fe0562a1d6a2218_297_308"
+        },
+        {
+          "start_time": 31050,
+          "end_time": 35450,
+          "content": "So get like okay. So get me the cheapest MSRP A5 on our lot.",
+          "speaker": "Speaker 1",
+          "original_speaker": "Speaker 1",
+          "segment_uid": "d35cb3db2919702a2fe0562a1d6a2218_310_354"
+        },
+        {
+          "start_time": 35770,
+          "end_time": 36650,
+          "content": "Yep. Let's go see.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "d35cb3db2919702a2fe0562a1d6a2218_357_366"
+        },
+        {
+          "start_time": 42970,
+          "end_time": 47210,
+          "content": "So right now,",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "d35cb3db2919702a2fe0562a1d6a2218_429_472"
+        },
+        {
+          "start_time": 48010,
+          "end_time": 48650,
+          "content": "It's like 54.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "d35cb3db2919702a2fe0562a1d6a2218_480_486"
+        },
+        {
+          "start_time": 50490,
+          "end_time": 56810,
+          "content": "So 54, 54.960 times.05 is 27.48.",
+          "speaker": "Speaker 1",
+          "original_speaker": "Speaker 1",
+          "segment_uid": "d35cb3db2919702a2fe0562a1d6a2218_504_568"
+        },
+        {
+          "start_time": 57380,
+          "end_time": 61540,
+          "content": "We just do twenty seven fifty off of everything, and twenty seven forty eight off of that one. You know what I'm saying?",
+          "speaker": "Speaker 1",
+          "original_speaker": "Speaker 1",
+          "segment_uid": "d35cb3db2919702a2fe0562a1d6a2218_573_615"
+        },
+        {
+          "start_time": 61780,
+          "end_time": 63300,
+          "content": "I mean, right now it's just twenty seven hundred.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "d35cb3db2919702a2fe0562a1d6a2218_617_633"
+        },
+        {
+          "start_time": 63380,
+          "end_time": 65060,
+          "content": "Oh yeah, let's do that. Yeah, perfect.",
+          "speaker": "Speaker 1",
+          "original_speaker": "Speaker 1",
+          "segment_uid": "d35cb3db2919702a2fe0562a1d6a2218_633_650"
+        },
+        {
+          "start_time": 65459,
+          "end_time": 66740,
+          "content": "Yeah, so we can leave those,",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "d35cb3db2919702a2fe0562a1d6a2218_654_667"
+        },
+        {
+          "start_time": 67300,
+          "end_time": 71940,
+          "content": "And then like the other one. What's the other one? Might be like run kind of close, like. Um.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "d35cb3db2919702a2fe0562a1d6a2218_673_719"
+        },
+        {
+          "start_time": 71940,
+          "end_time": 81780,
+          "content": "So we need to look at the Q7s because like, you can do eight percent off those, but I don't know if I want to do eight percent off those because that'll be six thousand. What are we running off the Q sevens right now?",
+          "speaker": "Speaker 1",
+          "original_speaker": "Speaker 1",
+          "segment_uid": "d35cb3db2919702a2fe0562a1d6a2218_719_817"
+        },
+        {
+          "start_time": 81940,
+          "end_time": 83620,
+          "content": "Seven. Let's look at the cheapest.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "d35cb3db2919702a2fe0562a1d6a2218_819_836"
+        },
+        {
+          "start_time": 85540,
+          "end_time": 88660,
+          "content": "And you have to probably break out fifty five from fifty five, seventy six.",
+          "speaker": "Speaker 1",
+          "original_speaker": "Speaker 1",
+          "segment_uid": "d35cb3db2919702a2fe0562a1d6a2218_855_886"
+        },
+        {
+          "start_time": 88660,
+          "end_time": 93380,
+          "content": "Yeah, so we're doing fifty five on all of them. So and this is the cheapest one.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "d35cb3db2919702a2fe0562a1d6a2218_886_933"
+        },
+        {
+          "start_time": 93780,
+          "end_time": 94340,
+          "content": "Give me a forty.",
+          "speaker": "Speaker 1",
+          "original_speaker": "Speaker 1",
+          "segment_uid": "d35cb3db2919702a2fe0562a1d6a2218_937_943"
+        },
+        {
+          "start_time": 94340,
+          "end_time": 95300,
+          "content": "Maybe go more.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "d35cb3db2919702a2fe0562a1d6a2218_943_953"
+        },
+        {
+          "start_time": 95300,
+          "end_time": 97620,
+          "content": "Oh no no, well that would be. Let me see.",
+          "speaker": "Speaker 1",
+          "original_speaker": "Speaker 1",
+          "segment_uid": "d35cb3db2919702a2fe0562a1d6a2218_953_976"
+        },
+        {
+          "start_time": 98900,
+          "end_time": 104420,
+          "content": "Seventy one five nine five times point oh eight would be fifty seven twenty five.",
+          "speaker": "Speaker 1",
+          "original_speaker": "Speaker 1",
+          "segment_uid": "d35cb3db2919702a2fe0562a1d6a2218_989_1044"
+        },
+        {
+          "start_time": 104420,
+          "end_time": 105700,
+          "content": "So that's safe. Yeah yeah.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "d35cb3db2919702a2fe0562a1d6a2218_1044_1057"
+        },
+        {
+          "start_time": 106020,
+          "end_time": 108820,
+          "content": "All right. So let's just do fifty five hundred off of every all of them.",
+          "speaker": "Speaker 1",
+          "original_speaker": "Speaker 1",
+          "segment_uid": "d35cb3db2919702a2fe0562a1d6a2218_1060_1088"
+        },
+        {
+          "start_time": 108820,
+          "end_time": 109940,
+          "content": "Okay. So we'll leave that.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "d35cb3db2919702a2fe0562a1d6a2218_1088_1099"
+        },
+        {
+          "start_time": 110900,
+          "end_time": 113060,
+          "content": "Let's see what else might be like.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "d35cb3db2919702a2fe0562a1d6a2218_1109_1130"
+        },
+        {
+          "start_time": 114610,
+          "end_time": 118050,
+          "content": "So Q eight, Q seven, Q five,",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "d35cb3db2919702a2fe0562a1d6a2218_1146_1180"
+        },
+        {
+          "start_time": 119090,
+          "end_time": 119890,
+          "content": "A six, maybe.",
+          "speaker": "Speaker 1",
+          "original_speaker": "Speaker 1",
+          "segment_uid": "d35cb3db2919702a2fe0562a1d6a2218_1190_1198"
+        },
+        {
+          "start_time": 120370,
+          "end_time": 126850,
+          "content": "Yeah. So Q. Let's look at these real quick. Do these get sketchy? So like fifty seven eight.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "d35cb3db2919702a2fe0562a1d6a2218_1203_1268"
+        },
+        {
+          "start_time": 128289,
+          "end_time": 130210,
+          "content": "Because your Q five, yeah.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "d35cb3db2919702a2fe0562a1d6a2218_1282_1302"
+        },
+        {
+          "start_time": 132930,
+          "end_time": 134050,
+          "content": "Twenty eight ninety. Yeah. Okay.",
+          "speaker": "Speaker 1",
+          "original_speaker": "Speaker 1",
+          "segment_uid": "d35cb3db2919702a2fe0562a1d6a2218_1329_1340"
+        },
+        {
+          "start_time": 134610,
+          "end_time": 135250,
+          "content": "So that's pretty good.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "d35cb3db2919702a2fe0562a1d6a2218_1346_1352"
+        },
+        {
+          "start_time": 136850,
+          "end_time": 138290,
+          "content": "Yeah. And then what did you say? The um.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "d35cb3db2919702a2fe0562a1d6a2218_1368_1382"
+        },
+        {
+          "start_time": 138370,
+          "end_time": 139010,
+          "content": "A six.",
+          "speaker": "Speaker 1",
+          "original_speaker": "Speaker 1",
+          "segment_uid": "d35cb3db2919702a2fe0562a1d6a2218_1383_1390"
+        },
+        {
+          "start_time": 146040,
+          "end_time": 149800,
+          "content": "Seventy-two is the cheapest one right now. So at three, that's pretty.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "d35cb3db2919702a2fe0562a1d6a2218_1460_1498"
+        },
+        {
+          "start_time": 151320,
+          "end_time": 153720,
+          "content": "Yeah, thirty-six hundred. So you could do thirty-five hundred on those.",
+          "speaker": "Speaker 1",
+          "original_speaker": "Speaker 1",
+          "segment_uid": "d35cb3db2919702a2fe0562a1d6a2218_1513_1537"
+        },
+        {
+          "start_time": 153720,
+          "end_time": 155160,
+          "content": "So go to thirty-five. Yeah.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "d35cb3db2919702a2fe0562a1d6a2218_1537_1551"
+        },
+        {
+          "start_time": 156040,
+          "end_time": 158760,
+          "content": "Yep. All right. So go to thirty-five on the A six.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "d35cb3db2919702a2fe0562a1d6a2218_1560_1587"
+        },
+        {
+          "start_time": 160360,
+          "end_time": 164360,
+          "content": "And then we just kind of kind of look and see if we get one cheaper, like seventy-two or something.",
+          "speaker": "Speaker 1",
+          "original_speaker": "Speaker 1",
+          "segment_uid": "d35cb3db2919702a2fe0562a1d6a2218_1603_1643"
+        },
+        {
+          "start_time": 164360,
+          "end_time": 166920,
+          "content": "Yeah, because then it would it would step on the rules.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "d35cb3db2919702a2fe0562a1d6a2218_1643_1669"
+        },
+        {
+          "start_time": 169000,
+          "end_time": 175160,
+          "content": "What about what? So Q seven would be the one that's like, no.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "d35cb3db2919702a2fe0562a1d6a2218_1690_1751"
+        },
+        {
+          "start_time": 175900,
+          "end_time": 177820,
+          "content": "Yeah, Q7 is the one that can go over to eight, right?",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "d35cb3db2919702a2fe0562a1d6a2218_1759_1778"
+        },
+        {
+          "start_time": 178620,
+          "end_time": 181740,
+          "content": "Yeah, we did that. Eight, okay. It was like seven one five forty five.",
+          "speaker": "Speaker 1",
+          "original_speaker": "Speaker 1",
+          "segment_uid": "d35cb3db2919702a2fe0562a1d6a2218_1786_1817"
+        },
+        {
+          "start_time": 182300,
+          "end_time": 184140,
+          "content": "All right, so it's fifty five hundred on that one.",
+          "speaker": "Speaker 1",
+          "original_speaker": "Speaker 1",
+          "segment_uid": "d35cb3db2919702a2fe0562a1d6a2218_1823_1841"
+        },
+        {
+          "start_time": 184380,
+          "end_time": 185660,
+          "content": "So they were not as far off as I thought.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "d35cb3db2919702a2fe0562a1d6a2218_1843_1856"
+        },
+        {
+          "start_time": 185740,
+          "end_time": 198940,
+          "content": "Yeah, and if we if we wanna max, like let's see what it looks like because we're kind of selling twenty six Q7s, so we probably have to do fifty five hundred. But like, if we get stuck with one, we can raise it on fifty fives because they're like ten grand more.",
+          "speaker": "Speaker 1",
+          "original_speaker": "Speaker 1",
+          "segment_uid": "d35cb3db2919702a2fe0562a1d6a2218_1857_1989"
+        },
+        {
+          "start_time": 205030,
+          "end_time": 206070,
+          "content": "This thing's good looking, dude.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "d35cb3db2919702a2fe0562a1d6a2218_2050_2060"
+        },
+        {
+          "start_time": 206230,
+          "end_time": 207510,
+          "content": "Yeah, that's the Q Seven.",
+          "speaker": "Speaker 1",
+          "original_speaker": "Speaker 1",
+          "segment_uid": "d35cb3db2919702a2fe0562a1d6a2218_2062_2075"
+        },
+        {
+          "start_time": 208550,
+          "end_time": 209190,
+          "content": "Yep, I like it.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "d35cb3db2919702a2fe0562a1d6a2218_2085_2091"
+        },
+        {
+          "start_time": 209670,
+          "end_time": 212470,
+          "content": "Have you driven one? No. They're nasty.",
+          "speaker": "Speaker 1",
+          "original_speaker": "Speaker 1",
+          "segment_uid": "d35cb3db2919702a2fe0562a1d6a2218_2096_2124"
+        },
+        {
+          "start_time": 212710,
+          "end_time": 213430,
+          "content": "It's got it's quick.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "d35cb3db2919702a2fe0562a1d6a2218_2127_2134"
+        },
+        {
+          "start_time": 213590,
+          "end_time": 214630,
+          "content": "It's like an SQ Seven.",
+          "speaker": "Speaker 1",
+          "original_speaker": "Speaker 1",
+          "segment_uid": "d35cb3db2919702a2fe0562a1d6a2218_2135_2146"
+        },
+        {
+          "start_time": 215030,
+          "end_time": 222390,
+          "content": "The funny thing, like for the longest time, like when you drove like a base X5 and a base Q7, like the Q7 was just like not get out of its own way.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "d35cb3db2919702a2fe0562a1d6a2218_2150_2223"
+        },
+        {
+          "start_time": 223030,
+          "end_time": 226390,
+          "content": "I am more. I feel like it was like gearing too, some of it. It wasn't just motor.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "d35cb3db2919702a2fe0562a1d6a2218_2230_2263"
+        },
+        {
+          "start_time": 226550,
+          "end_time": 227830,
+          "content": "Well, yeah, the four cylinder for sure.",
+          "speaker": "Speaker 1",
+          "original_speaker": "Speaker 1",
+          "segment_uid": "d35cb3db2919702a2fe0562a1d6a2218_2265_2278"
+        },
+        {
+          "start_time": 227910,
+          "end_time": 236650,
+          "content": "Well, not the four cylinder, but like the six. Yeah, it was like, dude, what is happening? Yeah. Yeah, I'll I'll leave you. I'm gonna call you. I'm good.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "d35cb3db2919702a2fe0562a1d6a2218_2279_2366"
+        },
+        {
+          "start_time": 237770,
+          "end_time": 238090,
+          "content": "What's up?",
+          "speaker": "Speaker 1",
+          "original_speaker": "Speaker 1",
+          "segment_uid": "d35cb3db2919702a2fe0562a1d6a2218_2377_2380"
+        },
+        {
+          "start_time": 241210,
+          "end_time": 241450,
+          "content": "Yeah.",
+          "speaker": "Speaker 1",
+          "original_speaker": "Speaker 1",
+          "segment_uid": "d35cb3db2919702a2fe0562a1d6a2218_2412_2414"
+        },
+        {
+          "start_time": 248730,
+          "end_time": 252970,
+          "content": "Eric hasn't had a chance to look at it yet. Whatever that means. What does that mean?",
+          "speaker": "Speaker 1",
+          "original_speaker": "Speaker 1",
+          "segment_uid": "d35cb3db2919702a2fe0562a1d6a2218_2487_2529"
+        },
+        {
+          "start_time": 258570,
+          "end_time": 262410,
+          "content": "Oh, you sent him a worksheet for the backend tool, and he hasn't looked at it yet.",
+          "speaker": "Speaker 1",
+          "original_speaker": "Speaker 1",
+          "segment_uid": "d35cb3db2919702a2fe0562a1d6a2218_2585_2624"
+        },
+        {
+          "start_time": 263630,
+          "end_time": 271070,
+          "content": "Lance, I'm talking to you. Oh, what? Eric, Eric, you sent Eric a worksheet for the backend. He hasn't had a chance to look at it yet. That's cool.",
+          "speaker": "Speaker 1",
+          "original_speaker": "Speaker 1",
+          "segment_uid": "d35cb3db2919702a2fe0562a1d6a2218_2636_2710"
+        },
+        {
+          "start_time": 271230,
+          "end_time": 274190,
+          "content": "Okay. Yeah, we'll look at it a little bit later. Okay.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "d35cb3db2919702a2fe0562a1d6a2218_2712_2741"
+        },
+        {
+          "start_time": 276350,
+          "end_time": 283470,
+          "content": "I'm gonna call you in three minutes. I'm gonna call you in three minutes.",
+          "speaker": "Speaker 1",
+          "original_speaker": "Speaker 1",
+          "segment_uid": "d35cb3db2919702a2fe0562a1d6a2218_2763_2834"
+        },
+        {
+          "start_time": 283470,
+          "end_time": 288510,
+          "content": "Bye bye. Yeah, on Thursday I'm gonna shoot the Q7 and Q9 like off site. Oh, you're shooting at Willow Grove.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "d35cb3db2919702a2fe0562a1d6a2218_2834_2885"
+        },
+        {
+          "start_time": 289950,
+          "end_time": 291150,
+          "content": "Yeah. Ah.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "d35cb3db2919702a2fe0562a1d6a2218_2899_2911"
+        },
+        {
+          "start_time": 292190,
+          "end_time": 292350,
+          "content": "Okay.",
+          "speaker": "Speaker 1",
+          "original_speaker": "Speaker 1",
+          "segment_uid": "d35cb3db2919702a2fe0562a1d6a2218_2921_2923"
+        },
+        {
+          "start_time": 294660,
+          "end_time": 305940,
+          "content": "Did they PDI the other two Q9s? Yeah. I was gonna maybe take one first. Are they out there? Well, I saw one.",
+          "speaker": "Speaker 1",
+          "original_speaker": "Speaker 1",
+          "segment_uid": "d35cb3db2919702a2fe0562a1d6a2218_2946_3059"
+        },
+        {
+          "start_time": 323710,
+          "end_time": 329950,
+          "content": "Hey Copper, put together a list of what Chad and I\u2014that was me and Chad\u2014talking about pricing for Audi Baton Rouge.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "d35cb3db2919702a2fe0562a1d6a2218_3237_3299"
+        },
+        {
+          "start_time": 330750,
+          "end_time": 349870,
+          "content": "See if you can make sense of it. There's just a few things we're gonna change with what our prices are on the website. So I had to get into V Auto and move some numbers around. I don't think it was a lot, but that this note is for you and me to discuss the pricing in V Auto for Audi Baton Rouge.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "d35cb3db2919702a2fe0562a1d6a2218_3307_3498"
+        }
+      ],
+      "plaud_note_md": "- **Pricing:** Speaker 1 proposed a $4,300 discount on Q8s with an MSRP of at least $86,000. Speaker 1 and Lance agreed to keep the A5 discount at $2,700 and set the Q7 discount at $5,500, with possible adjustment if needed. They discussed setting the A6 discount at $3,500.\n- **Operations:** Eric had not reviewed the backend-tool worksheet sent by Speaker 1; Lance said they would review it later. Lance plans to shoot Q7 and Q9 photos or video off-site at Willow Grove on Thursday. Speaker 1 asked whether the other two Q9s had completed PDI.\n- **Next step:** Lance instructed Copper to compile the pricing discussion between Lance and Chad (Speaker 1) to adjust Audi Baton Rouge\u2019s website pricing and update vAuto."
+    },
+    {
       "id": "of_8c15e4dca3e57e3f26d74b8ff7ecd361",
       "name": "BHBMW \u00b7 J&L marketing performance + year-end (Nov 10)",
       "start_at": "2026-11-10T17:32:25",
