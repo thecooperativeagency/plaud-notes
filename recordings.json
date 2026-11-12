@@ -1,5 +1,5 @@
 {
-  "revision": "PLAUD-NOTES-2026-11-10-1330",
+  "revision": "PLAUD-NOTES-2026-11-12-0601",
   "recordings": [
     {
       "id": "of_d35cb3db2919702a2fe0562a1d6a2218",
@@ -98185,6 +98185,118 @@
           "speaker": "Lance",
           "original_speaker": "Lance",
           "segment_uid": "90cf4b1492f33fb1ecaf26fcb24b24ce_8049_8063"
+        }
+      ]
+    },
+    {
+      "id": "of_adfd3f6eeec1dd8ddf85ee27bd223deb",
+      "name": "TikTok cheat-sheet plan for sales/managers (Nov 11)",
+      "start_at": "2026-11-11T23:03:11",
+      "created_at": "2026-11-11T23:04:44",
+      "duration_ms": 84000,
+      "vertical": "coop-marketing",
+      "store": null,
+      "routed_by": "Morning brief Nov 12 \u2014 sales TikTok tutorial seed",
+      "status": "park",
+      "work_order": "Park. Lance owns monthly sales TikTok cheat sheet/scripts; systems vs market note only.",
+      "summary_md": "- Speaker 1 plans to create a \u201ccheat sheet\u201d tutorial with ideas and scripts for salespeople and managers making TikToks, potentially to send monthly. They believe the TikToks will attract new viewers.\n- Speaker 1 said their systems are performing as they did at the end of last year, but they need the market to turn up.\n- Speaker 1 mentioned \u201cnine layers\u201d related to people and processes and believes part of all three are currently involved.",
+      "highlights": [],
+      "transcript": [
+        {
+          "start_time": 2000,
+          "end_time": 8960,
+          "content": "Almost like a tutorial to be able to give to like salespeople and managers that are wanting to start doing TikToks,",
+          "speaker": "Speaker 1",
+          "original_speaker": "Speaker 1",
+          "segment_uid": "adfd3f6eeec1dd8ddf85ee27bd223deb_20_89"
+        },
+        {
+          "start_time": 9600,
+          "end_time": 16720,
+          "content": "Because I see you guys are starting to have salesmen kind of start participating. Well,",
+          "speaker": "Speaker 1",
+          "original_speaker": "Speaker 1",
+          "segment_uid": "adfd3f6eeec1dd8ddf85ee27bd223deb_96_167"
+        },
+        {
+          "start_time": 17840,
+          "end_time": 26800,
+          "content": "You know, so I'm gonna put together kind of like a cheat sheet on basically, and I can send it out. Shit, I could probably set it up to send it out each month. It's like, hey.",
+          "speaker": "Speaker 1",
+          "original_speaker": "Speaker 1",
+          "segment_uid": "adfd3f6eeec1dd8ddf85ee27bd223deb_178_268"
+        },
+        {
+          "start_time": 27500,
+          "end_time": 31020,
+          "content": "Here are some ideas and some scripts to give you to get you rolling,",
+          "speaker": "Speaker 1",
+          "original_speaker": "Speaker 1",
+          "segment_uid": "adfd3f6eeec1dd8ddf85ee27bd223deb_275_310"
+        },
+        {
+          "start_time": 32299,
+          "end_time": 35580,
+          "content": "With some ideas for what kind of salesman TikToks to make.",
+          "speaker": "Speaker 1",
+          "original_speaker": "Speaker 1",
+          "segment_uid": "adfd3f6eeec1dd8ddf85ee27bd223deb_323_355"
+        },
+        {
+          "start_time": 37340,
+          "end_time": 43020,
+          "content": "You know, so I think that that's going to help bring some new eyes that maybe aren't seeing our seeing our shit.",
+          "speaker": "Speaker 1",
+          "original_speaker": "Speaker 1",
+          "segment_uid": "adfd3f6eeec1dd8ddf85ee27bd223deb_373_430"
+        },
+        {
+          "start_time": 44380,
+          "end_time": 44940,
+          "content": "Um,",
+          "speaker": "Speaker 1",
+          "original_speaker": "Speaker 1",
+          "segment_uid": "adfd3f6eeec1dd8ddf85ee27bd223deb_443_449"
+        },
+        {
+          "start_time": 45980,
+          "end_time": 53500,
+          "content": "But yeah, and and a lot of it is we need the market to turn up, not just our not just our systems. Our systems are kind of.",
+          "speaker": "Speaker 1",
+          "original_speaker": "Speaker 1",
+          "segment_uid": "adfd3f6eeec1dd8ddf85ee27bd223deb_459_535"
+        },
+        {
+          "start_time": 54920,
+          "end_time": 58680,
+          "content": "Doing the same thing they were doing, you know, at the end of last year when we were rolling.",
+          "speaker": "Speaker 1",
+          "original_speaker": "Speaker 1",
+          "segment_uid": "adfd3f6eeec1dd8ddf85ee27bd223deb_549_586"
+        },
+        {
+          "start_time": 60520,
+          "end_time": 71560,
+          "content": "Um. So, it's either people processes. There's nine layers, and I think there's a part of all three of them right now. Probably. Yeah, probably.",
+          "speaker": "Speaker 1",
+          "original_speaker": "Speaker 1",
+          "segment_uid": "adfd3f6eeec1dd8ddf85ee27bd223deb_605_715"
+        },
+        {
+          "start_time": 73800,
+          "end_time": 79720,
+          "content": "Yeah. Well, have a good trip home, buddy. I'll talk to you next week. You too. You have a good one. Well, later in the week. Yep. You too. Bye. Bye.",
+          "speaker": "Speaker 1",
+          "original_speaker": "Speaker 1",
+          "segment_uid": "adfd3f6eeec1dd8ddf85ee27bd223deb_738_797"
+        },
+        {
+          "start_time": 83240,
+          "end_time": 84440,
+          "content": "John Ford movies.",
+          "speaker": "Speaker 1",
+          "original_speaker": "Speaker 1",
+          "segment_uid": "adfd3f6eeec1dd8ddf85ee27bd223deb_832_844"
         }
       ]
     }
