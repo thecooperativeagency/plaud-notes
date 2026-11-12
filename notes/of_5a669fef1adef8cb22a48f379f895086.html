@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Personal · 911 photos + midday family (Nov 12)</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500&family=IBM+Plex+Mono:wght@400;500&family=Source+Sans+3:wght@400;600;700&display=swap">
+  <style>
+:root {
+  --bg: #090908;
+  --bg-2: #11110f;
+  --bg-3: #181714;
+  --ink: #f0eadc;
+  --muted: #8d8778;
+  --faint: #5c574c;
+  --line: #26241e;
+  --accent: #c4452d;
+  --mustard: #c4a35a;
+  --blue: #6f8fbf;
+  --ok: #7d9a6d;
+  --serif: "Fraunces", "Iowan Old Style", Georgia, serif;
+  --sans: "Source Sans 3", "Source Sans Pro", -apple-system, sans-serif;
+  --mono: "IBM Plex Mono", ui-monospace, monospace;
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html, body { background: var(--bg); color: var(--ink); }
+body {
+  font-family: var(--sans);
+  min-height: 100vh;
+  text-wrap: pretty;
+}
+a { color: inherit; }
+.shell { display: grid; grid-template-columns: 260px 1fr; min-height: 100vh; }
+.rail {
+  border-right: 1px solid var(--line);
+  padding: 28px 18px 40px;
+  background: var(--bg-2);
+  position: sticky; top: 0; height: 100vh; overflow: auto;
+}
+.mark {
+  font-family: var(--serif);
+  font-weight: 500;
+  font-size: 13px;
+  letter-spacing: .18em;
+  text-transform: uppercase;
+  color: var(--accent);
+}
+.rail h1 {
+  font-family: var(--serif);
+  font-size: 28px;
+  font-weight: 460;
+  letter-spacing: -.03em;
+  margin: 10px 0 6px;
+}
+.rail .lede { color: var(--muted); font-size: 13.5px; line-height: 1.45; margin-bottom: 28px; }
+.vnav { display: flex; flex-direction: column; gap: 4px; }
+.vnav a {
+  display: flex; justify-content: space-between; align-items: baseline;
+  text-decoration: none; padding: 9px 10px; border-radius: 8px;
+  color: var(--ink); font-size: 14px;
+}
+.vnav a:hover, .vnav a.is-on { background: var(--bg-3); }
+.vnav a.is-on { box-shadow: inset 2px 0 0 var(--accent); }
+.vnav .count { color: var(--faint); font-family: var(--mono); font-size: 11px; }
+.stage { padding: 36px 40px 80px; max-width: 980px; }
+.kicker {
+  font-size: 11px; letter-spacing: .16em; text-transform: uppercase;
+  color: var(--accent); font-weight: 700; margin-bottom: 8px;
+}
+.stage > h2 {
+  font-family: var(--serif); font-weight: 460; font-size: 34px;
+  letter-spacing: -.03em; margin-bottom: 8px;
+}
+.blurb { color: var(--muted); margin-bottom: 28px; max-width: 46rem; }
+.empty {
+  border: 1px dashed var(--line); border-radius: 14px;
+  padding: 36px 28px; color: var(--muted); background: var(--bg-2);
+}
+.empty strong { color: var(--ink); font-weight: 600; }
+.cards { display: flex; flex-direction: column; gap: 10px; }
+.card {
+  display: grid; grid-template-columns: 1fr auto; gap: 12px;
+  text-decoration: none; padding: 16px 18px; border-radius: 12px;
+  background: var(--bg-2); border: 1px solid var(--line);
+}
+.card:hover { border-color: #3a372e; background: var(--bg-3); }
+.card h3 { font-size: 16px; font-weight: 600; margin-bottom: 4px; }
+.meta { color: var(--muted); font-size: 13px; display: flex; gap: 10px; flex-wrap: wrap; }
+.chip {
+  font-family: var(--mono); font-size: 10px; letter-spacing: .06em;
+  text-transform: uppercase; padding: 3px 7px; border-radius: 999px;
+  border: 1px solid var(--line); color: var(--muted); height: fit-content;
+}
+.chip.dealers { color: var(--blue); border-color: #2a3344; }
+.chip.avec-tous { color: var(--mustard); border-color: #3a3320; }
+.chip.personal { color: #c9a7a0; }
+.chip.ideas { color: var(--ok); }
+.note-top { margin-bottom: 22px; }
+.note-top h2 { font-family: var(--serif); font-size: 36px; font-weight: 460; letter-spacing: -.03em; }
+.tabs { display: flex; gap: 6px; margin: 22px 0 18px; border-bottom: 1px solid var(--line); }
+.tabs button {
+  appearance: none; background: none; border: 0; color: var(--muted);
+  font: 600 13px var(--sans); padding: 10px 12px; cursor: pointer;
+  border-bottom: 2px solid transparent; margin-bottom: -1px;
+}
+.tabs button[aria-selected="true"] { color: var(--ink); border-bottom-color: var(--accent); }
+.panel { display: none; }
+.panel.is-on { display: block; }
+.prose { font-size: 16.5px; line-height: 1.6; max-width: 42rem; }
+.prose h2, .prose h3 { font-family: var(--serif); font-weight: 500; margin: 1.3em 0 .4em; }
+.prose p { margin: 0 0 .8em; }
+.prose ul, .prose ol { margin: 0 0 1em 1.2em; }
+.prose li { margin: .25em 0; }
+.hl { border-left: 2px solid var(--accent); padding: 10px 0 10px 14px; margin: 0 0 14px; }
+.hl .t { font-family: var(--mono); font-size: 11px; color: var(--faint); }
+.hl h4 { font-size: 15px; margin: 4px 0; }
+.hl p { color: var(--muted); font-size: 14.5px; }
+.seg { display: grid; grid-template-columns: 64px 1fr; gap: 12px; padding: 8px 0; border-bottom: 1px solid var(--line); }
+.seg .ts { font-family: var(--mono); font-size: 11px; color: var(--faint); padding-top: 3px; }
+.back { color: var(--muted); text-decoration: none; font-size: 13px; display: inline-block; margin-bottom: 18px; }
+.back:hover { color: var(--ink); }
+footer { margin-top: 48px; color: var(--faint); font-size: 11px; font-family: var(--mono); }
+@media (max-width: 820px) {
+  .shell { grid-template-columns: 1fr; }
+  .rail { position: relative; height: auto; border-right: 0; border-bottom: 1px solid var(--line); }
+  .stage { padding: 24px 18px 64px; }
+  .note-top h2 { font-size: 28px; }
+}
+</style>
+</head>
+<body>
+<div class="shell">
+<aside class="rail">
+  <div class="mark">Cooperative</div>
+  <h1>Field desk</h1>
+  <p class="lede">Plaud landings. Summary, highlights, transcript — filed by life area.</p>
+  <nav class="vnav"><a href="../index.html" class="">All <span class="count">161</span></a><a class="" href="../vertical-inbox.html">Inbox <span class="count">1</span></a><a class="is-on" href="../vertical-personal.html">Personal <span class="count">12</span></a><a class="" href="../vertical-coop-marketing.html">Coop Marketing <span class="count">7</span></a><a class="" href="../vertical-coop-dev.html">Coop Dev <span class="count">18</span></a><a class="" href="../vertical-avec-tous.html">Avec Tous <span class="count">0</span></a><a class="" href="../vertical-dealers.html">Dealers <span class="count">116</span></a><a class="" href="../vertical-ideas.html">Ideas <span class="count">7</span></a></nav>
+</aside>
+<main class="stage">
+  <a class="back" href="../index.html">← Desk</a>
+  <div class="note-top">
+    <div class="kicker">personal · 2026-11-12 · 5m47s</div>
+    <h2>Personal · 911 photos + midday family (Nov 12)</h2>
+    <div class="meta" style="margin-top:8px"><span>id of_5a669fef1adef8cb22a48f379f895086</span><span>Midday ops Nov 12 — personal casual</span></div>
+  </div>
+  <div class="tabs" role="tablist">
+    <button type="button" data-panel="sum" aria-selected="true">Summary</button>
+    <button type="button" data-panel="hl" aria-selected="false">Highlights</button>
+    <button type="button" data-panel="tx" aria-selected="false">Transcript</button>
+  </div>
+  <section id="sum" class="panel is-on prose"><h3>Personal · casual midday · Nov 12 (~5m47s)</h3>
+<p>Family/errand chatter. Lance shot a few <strong>911</strong> photos earlier, may call Austin on the way back. Lunch/jeans chat; phone discipline with kids. No Coop work order.</p></section>
+  <section id="hl" class="panel"><div class='empty'>No device highlights on this take.</div></section>
+  <section id="tx" class="panel"><div class="seg"><div class="ts">0:00</div><div>House.</div></div><div class="seg"><div class="ts">0:02</div><div>I just actually was just at your place actually.</div></div><div class="seg"><div class="ts">0:06</div><div>Yeah, I took a bunch of pictures. A few pictures. I was wanting to get pictures of that 911.</div></div><div class="seg"><div class="ts">0:10</div><div>Okay. What&#x27;s up?</div></div><div class="seg"><div class="ts">0:13</div><div>Man, I&#x27;m coming back that way in a little while. Okay.</div></div><div class="seg"><div class="ts">0:17</div><div>The foreign cartel is here.</div></div><div class="seg"><div class="ts">0:18</div><div>God,</div></div><div class="seg"><div class="ts">0:20</div><div>I just talked to them on the phone like two, three days ago,</div></div><div class="seg"><div class="ts">0:23</div><div>And I told them I said, man, look, I don&#x27;t know if I need to use you right now. I said, but I&#x27;ll probably end up using you.</div></div><div class="seg"><div class="ts">0:29</div><div>You know what I mean? It&#x27;s kind of where I left it with him. Is that Austin there?</div></div><div class="seg"><div class="ts">0:35</div><div>Yep. Okay. Is Austin in the area today? Like he&#x27;s gonna be in the area a while? Cause I can just call him when I&#x27;m headed back up that way.</div></div><div class="seg"><div class="ts">0:41</div><div>Okay.</div></div><div class="seg"><div class="ts">0:43</div><div>Well,</div></div><div class="seg"><div class="ts">0:47</div><div>That just ran off a little bit. So you can call him when he&#x27;s head back this way.</div></div><div class="seg"><div class="ts">0:54</div><div>The officer. He&#x27;s an officer.</div></div><div class="seg"><div class="ts">0:55</div><div>The officer is there, and I got yeah.</div></div><div class="seg"><div class="ts">0:59</div><div>Yeah, that&#x27;s what I&#x27;ll do.</div></div><div class="seg"><div class="ts">1:01</div><div>Should you tell him that? Tell him I&#x27;ll get my ring.</div></div><div class="seg"><div class="ts">1:03</div><div>I just put on speakerphone, so I&#x27;m not good at it.</div></div><div class="seg"><div class="ts">1:05</div><div>No, you&#x27;re good. Yeah, I&#x27;ll just give you a call in just a little while.</div></div><div class="seg"><div class="ts">1:09</div><div>All right, thank you, man.</div></div><div class="seg"><div class="ts">1:11</div><div>Bye. Hey,</div></div><div class="seg"><div class="ts">1:20</div><div>What are you doing, dude?</div></div><div class="seg"><div class="ts">1:23</div><div>Do I need something?</div></div><div class="seg"><div class="ts">1:26</div><div>My brother can&#x27;t go to lunch, so it&#x27;s like,</div></div><div class="seg"><div class="ts">1:31</div><div>You know, he&#x27;s a. Can he go to lunch? He got work until like one thirty or whatever. Right now.</div></div><div class="seg"><div class="ts">2:29</div><div>Yeah, more work pants. Know what you said? Yeah, I think so. That&#x27;s what&#x27;s missing.</div></div><div class="seg"><div class="ts">2:38</div><div>Got me a pair of jeans.</div></div><div class="seg"><div class="ts">2:39</div><div>First pair of jeans I&#x27;ve had in probably ten years.</div></div><div class="seg"><div class="ts">2:42</div><div>Huh?</div></div><div class="seg"><div class="ts">2:46</div><div>This is just another pair, just like what I&#x27;m wearing, just a different color.</div></div><div class="seg"><div class="ts">2:57</div><div>What you think? You can&#x27;t hold that.</div></div><div class="seg"><div class="ts">3:02</div><div>So, see you. You&#x27;re quite important.</div></div><div class="seg"><div class="ts">3:11</div><div>Leaving tomorrow.</div></div><div class="seg"><div class="ts">3:11</div><div>You don&#x27;t have.</div></div><div class="seg"><div class="ts">3:17</div><div>I don&#x27;t know anything other than we&#x27;re gonna make like five hundred bucks,</div></div><div class="seg"><div class="ts">3:26</div><div>Quite a bit of money. Okay.</div></div><div class="seg"><div class="ts">3:32</div><div>See,</div></div><div class="seg"><div class="ts">3:41</div><div>Get the map. Okay. How&#x27;s this wash look?</div></div><div class="seg"><div class="ts">3:42</div><div>Oh,</div></div><div class="seg"><div class="ts">3:44</div><div>I like the dark wash and the stitching.</div></div><div class="seg"><div class="ts">3:48</div><div>I kind of want to put them on, try them out.</div></div><div class="seg"><div class="ts">3:53</div><div>Just walk into these for the rest of the day.</div></div><div class="seg"><div class="ts">4:03</div><div>In U. S. time.</div></div><div class="seg"><div class="ts">4:07</div><div>That&#x27;s crazy, right?</div></div><div class="seg"><div class="ts">4:44</div><div>Something.</div></div><div class="seg"><div class="ts">4:50</div><div>Yeah. What? Hmm. Really? Something wrong with you?</div></div><div class="seg"><div class="ts">4:53</div><div>You get into it with mom? We did.</div></div><div class="seg"><div class="ts">4:54</div><div>Okay. So. I know. What&#x27;s up?</div></div><div class="seg"><div class="ts">4:58</div><div>You want to come in and eat?</div></div><div class="seg"><div class="ts">4:59</div><div>Said yeah. What have you been doing? You been playing guitar, or have you been fucking around on your phone?</div></div><div class="seg"><div class="ts">5:04</div><div>Not my phone. My phone&#x27;s bricked up.</div></div><div class="seg"><div class="ts">5:07</div><div>The unbricker&#x27;s right there, bro. I&#x27;m not stupid.</div></div><div class="seg"><div class="ts">5:11</div><div>So, did you unbrick it as soon as mom left?</div></div><div class="seg"><div class="ts">5:16</div><div>No, not as soon as she left.</div></div><div class="seg"><div class="ts">5:17</div><div>Uh huh.</div></div><div class="seg"><div class="ts">5:20</div><div>Let me have your phone.</div></div><div class="seg"><div class="ts">5:22</div><div>You don&#x27;t own a phone. It&#x27;s gonna be a while.</div></div><div class="seg"><div class="ts">5:25</div><div>When you get it back, it&#x27;s not gonna be the same. Just give it to me.</div></div><div class="seg"><div class="ts">5:28</div><div>You and brother are about to be literally stripped of your fucking cell phones.</div></div><div class="seg"><div class="ts">5:33</div><div>Give me one second.</div></div><div class="seg"><div class="ts">5:34</div><div>For what?</div></div><div class="seg"><div class="ts">5:35</div><div>Can I just?</div></div><div class="seg"><div class="ts">5:36</div><div>Do you think?</div></div><div class="seg"><div class="ts">5:44</div><div>I really? No, I&#x27;m not.</div></div></section>
+</main>
+</div>
+<footer>PLAUD-NOTES-2026-11-12-1331 · noindex · Plaud sources + notes</footer>
+<script>
+
+document.querySelectorAll('.tabs button').forEach(btn => {
+  btn.addEventListener('click', () => {
+    document.querySelectorAll('.tabs button').forEach(b => b.setAttribute('aria-selected', b===btn ? 'true':'false'));
+    document.querySelectorAll('.panel').forEach(p => p.classList.toggle('is-on', p.id === btn.dataset.panel));
+  });
+});
+
+</script>
+</body>
+</html>

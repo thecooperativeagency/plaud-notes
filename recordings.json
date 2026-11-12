@@ -1,6 +1,2304 @@
 {
-  "revision": "PLAUD-NOTES-2026-11-12-0601",
+  "revision": "PLAUD-NOTES-2026-11-12-1331",
   "recordings": [
+    {
+      "id": "of_5a669fef1adef8cb22a48f379f895086",
+      "name": "Personal \u00b7 911 photos + midday family (Nov 12)",
+      "start_at": "2026-11-12T18:54:52",
+      "created_at": "2026-11-12T19:00:45",
+      "duration_ms": 347000,
+      "vertical": "personal",
+      "store": null,
+      "routed_by": "Midday ops Nov 12 \u2014 personal casual",
+      "status": "park",
+      "work_order": "Park. No Coop action.",
+      "summary_md": "### Personal \u00b7 casual midday \u00b7 Nov 12 (~5m47s)\nFamily/errand chatter. Lance shot a few **911** photos earlier, may call Austin on the way back. Lunch/jeans chat; phone discipline with kids. No Coop work order.",
+      "highlights": [],
+      "plaud_note_md": "- Lance said he had taken several photos of a 911 during a recent visit. He had spoken with some people by phone and might use them later, and planned to call Austin when heading back that way.\n- A speaker said someone had work until 1:30 when lunch plans came up.\n- One speaker said it was their first pair of jeans in about ten years; another complimented the dark wash and stitching.\n- A speaker said they only knew they were going to make $500, though the context was unclear.\n- Lance challenged another speaker about using a phone described as bricked and said they and their brother would lose their cell phones.",
+      "transcript": [
+        {
+          "start_time": 160,
+          "end_time": 400,
+          "content": "House.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "5a669fef1adef8cb22a48f379f895086_1_4"
+        },
+        {
+          "start_time": 2000,
+          "end_time": 4400,
+          "content": "I just actually was just at your place actually.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "5a669fef1adef8cb22a48f379f895086_20_44"
+        },
+        {
+          "start_time": 6000,
+          "end_time": 9200,
+          "content": "Yeah, I took a bunch of pictures. A few pictures. I was wanting to get pictures of that 911.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "5a669fef1adef8cb22a48f379f895086_60_92"
+        },
+        {
+          "start_time": 10240,
+          "end_time": 11600,
+          "content": "Okay. What's up?",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "5a669fef1adef8cb22a48f379f895086_102_116"
+        },
+        {
+          "start_time": 13760,
+          "end_time": 16079,
+          "content": "Man, I'm coming back that way in a little while. Okay.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "5a669fef1adef8cb22a48f379f895086_137_160"
+        },
+        {
+          "start_time": 17600,
+          "end_time": 18720,
+          "content": "The foreign cartel is here.",
+          "speaker": "Speaker 2",
+          "original_speaker": "Speaker 2",
+          "segment_uid": "5a669fef1adef8cb22a48f379f895086_176_187"
+        },
+        {
+          "start_time": 18720,
+          "end_time": 20160,
+          "content": "God,",
+          "speaker": "Speaker 3",
+          "original_speaker": "Speaker 3",
+          "segment_uid": "5a669fef1adef8cb22a48f379f895086_187_201"
+        },
+        {
+          "start_time": 20160,
+          "end_time": 22800,
+          "content": "I just talked to them on the phone like two, three days ago,",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "5a669fef1adef8cb22a48f379f895086_201_228"
+        },
+        {
+          "start_time": 23600,
+          "end_time": 28320,
+          "content": "And I told them I said, man, look, I don't know if I need to use you right now. I said, but I'll probably end up using you.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "5a669fef1adef8cb22a48f379f895086_236_283"
+        },
+        {
+          "start_time": 29990,
+          "end_time": 33510,
+          "content": "You know what I mean? It's kind of where I left it with him. Is that Austin there?",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "5a669fef1adef8cb22a48f379f895086_299_335"
+        },
+        {
+          "start_time": 35030,
+          "end_time": 40150,
+          "content": "Yep. Okay. Is Austin in the area today? Like he's gonna be in the area a while? Cause I can just call him when I'm headed back up that way.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "5a669fef1adef8cb22a48f379f895086_350_401"
+        },
+        {
+          "start_time": 41350,
+          "end_time": 41430,
+          "content": "Okay.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "5a669fef1adef8cb22a48f379f895086_413_414"
+        },
+        {
+          "start_time": 43350,
+          "end_time": 45270,
+          "content": "Well,",
+          "speaker": "Speaker 2",
+          "original_speaker": "Speaker 2",
+          "segment_uid": "5a669fef1adef8cb22a48f379f895086_433_452"
+        },
+        {
+          "start_time": 47190,
+          "end_time": 51030,
+          "content": "That just ran off a little bit. So you can call him when he's head back this way.",
+          "speaker": "Speaker 2",
+          "original_speaker": "Speaker 2",
+          "segment_uid": "5a669fef1adef8cb22a48f379f895086_471_510"
+        },
+        {
+          "start_time": 54070,
+          "end_time": 55690,
+          "content": "The officer. He's an officer.",
+          "speaker": "Speaker 2",
+          "original_speaker": "Speaker 2",
+          "segment_uid": "5a669fef1adef8cb22a48f379f895086_540_556"
+        },
+        {
+          "start_time": 55710,
+          "end_time": 56790,
+          "content": "The officer is there, and I got yeah.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "5a669fef1adef8cb22a48f379f895086_557_567"
+        },
+        {
+          "start_time": 59080,
+          "end_time": 59880,
+          "content": "Yeah, that's what I'll do.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "5a669fef1adef8cb22a48f379f895086_590_598"
+        },
+        {
+          "start_time": 61480,
+          "end_time": 63080,
+          "content": "Should you tell him that? Tell him I'll get my ring.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "5a669fef1adef8cb22a48f379f895086_614_630"
+        },
+        {
+          "start_time": 63320,
+          "end_time": 65160,
+          "content": "I just put on speakerphone, so I'm not good at it.",
+          "speaker": "Speaker 2",
+          "original_speaker": "Speaker 2",
+          "segment_uid": "5a669fef1adef8cb22a48f379f895086_633_651"
+        },
+        {
+          "start_time": 65160,
+          "end_time": 67640,
+          "content": "No, you're good. Yeah, I'll just give you a call in just a little while.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "5a669fef1adef8cb22a48f379f895086_651_676"
+        },
+        {
+          "start_time": 69320,
+          "end_time": 70360,
+          "content": "All right, thank you, man.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "5a669fef1adef8cb22a48f379f895086_693_703"
+        },
+        {
+          "start_time": 71640,
+          "end_time": 78600,
+          "content": "Bye. Hey,",
+          "speaker": "Speaker 3",
+          "original_speaker": "Speaker 3",
+          "segment_uid": "5a669fef1adef8cb22a48f379f895086_716_786"
+        },
+        {
+          "start_time": 80840,
+          "end_time": 81560,
+          "content": "What are you doing, dude?",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "5a669fef1adef8cb22a48f379f895086_808_815"
+        },
+        {
+          "start_time": 83880,
+          "end_time": 84680,
+          "content": "Do I need something?",
+          "speaker": "Speaker 4",
+          "original_speaker": "Speaker 4",
+          "segment_uid": "5a669fef1adef8cb22a48f379f895086_838_846"
+        },
+        {
+          "start_time": 86530,
+          "end_time": 89170,
+          "content": "My brother can't go to lunch, so it's like,",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "5a669fef1adef8cb22a48f379f895086_865_891"
+        },
+        {
+          "start_time": 91170,
+          "end_time": 96530,
+          "content": "You know, he's a. Can he go to lunch? He got work until like one thirty or whatever. Right now.",
+          "speaker": "Speaker 2",
+          "original_speaker": "Speaker 2",
+          "segment_uid": "5a669fef1adef8cb22a48f379f895086_911_965"
+        },
+        {
+          "start_time": 149220,
+          "end_time": 154580,
+          "content": "Yeah, more work pants. Know what you said? Yeah, I think so. That's what's missing.",
+          "speaker": "Speaker 2",
+          "original_speaker": "Speaker 2",
+          "segment_uid": "5a669fef1adef8cb22a48f379f895086_1492_1545"
+        },
+        {
+          "start_time": 158020,
+          "end_time": 158660,
+          "content": "Got me a pair of jeans.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "5a669fef1adef8cb22a48f379f895086_1580_1586"
+        },
+        {
+          "start_time": 159060,
+          "end_time": 160900,
+          "content": "First pair of jeans I've had in probably ten years.",
+          "speaker": "Speaker 2",
+          "original_speaker": "Speaker 2",
+          "segment_uid": "5a669fef1adef8cb22a48f379f895086_1590_1609"
+        },
+        {
+          "start_time": 162980,
+          "end_time": 163220,
+          "content": "Huh?",
+          "speaker": "Speaker 2",
+          "original_speaker": "Speaker 2",
+          "segment_uid": "5a669fef1adef8cb22a48f379f895086_1629_1632"
+        },
+        {
+          "start_time": 166710,
+          "end_time": 169350,
+          "content": "This is just another pair, just like what I'm wearing, just a different color.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "5a669fef1adef8cb22a48f379f895086_1667_1693"
+        },
+        {
+          "start_time": 177110,
+          "end_time": 182550,
+          "content": "What you think? You can't hold that.",
+          "speaker": "Speaker 2",
+          "original_speaker": "Speaker 2",
+          "segment_uid": "5a669fef1adef8cb22a48f379f895086_1771_1825"
+        },
+        {
+          "start_time": 182550,
+          "end_time": 191216,
+          "content": "So, see you. You're quite important.",
+          "speaker": "Speaker 3",
+          "original_speaker": "Speaker 3",
+          "segment_uid": "5a669fef1adef8cb22a48f379f895086_1825_1912"
+        },
+        {
+          "start_time": 191243,
+          "end_time": 191750,
+          "content": "Leaving tomorrow.",
+          "speaker": "Speaker 2",
+          "original_speaker": "Speaker 2",
+          "segment_uid": "5a669fef1adef8cb22a48f379f895086_1912_1917"
+        },
+        {
+          "start_time": 191750,
+          "end_time": 192710,
+          "content": "You don't have.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "5a669fef1adef8cb22a48f379f895086_1917_1927"
+        },
+        {
+          "start_time": 197220,
+          "end_time": 205380,
+          "content": "I don't know anything other than we're gonna make like five hundred bucks,",
+          "speaker": "Speaker 5",
+          "original_speaker": "Speaker 5",
+          "segment_uid": "5a669fef1adef8cb22a48f379f895086_1972_2053"
+        },
+        {
+          "start_time": 206580,
+          "end_time": 207860,
+          "content": "Quite a bit of money. Okay.",
+          "speaker": "Speaker 5",
+          "original_speaker": "Speaker 5",
+          "segment_uid": "5a669fef1adef8cb22a48f379f895086_2065_2078"
+        },
+        {
+          "start_time": 212020,
+          "end_time": 212020,
+          "content": "See,",
+          "speaker": "Speaker 5",
+          "original_speaker": "Speaker 5",
+          "segment_uid": "5a669fef1adef8cb22a48f379f895086_2120_2120"
+        },
+        {
+          "start_time": 221380,
+          "end_time": 222340,
+          "content": "Get the map. Okay. How's this wash look?",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "5a669fef1adef8cb22a48f379f895086_2213_2223"
+        },
+        {
+          "start_time": 222740,
+          "end_time": 224340,
+          "content": "Oh,",
+          "speaker": "Speaker 3",
+          "original_speaker": "Speaker 3",
+          "segment_uid": "5a669fef1adef8cb22a48f379f895086_2227_2243"
+        },
+        {
+          "start_time": 224500,
+          "end_time": 226500,
+          "content": "I like the dark wash and the stitching.",
+          "speaker": "Speaker 5",
+          "original_speaker": "Speaker 5",
+          "segment_uid": "5a669fef1adef8cb22a48f379f895086_2245_2265"
+        },
+        {
+          "start_time": 228600,
+          "end_time": 230840,
+          "content": "I kind of want to put them on, try them out.",
+          "speaker": "Speaker 2",
+          "original_speaker": "Speaker 2",
+          "segment_uid": "5a669fef1adef8cb22a48f379f895086_2286_2308"
+        },
+        {
+          "start_time": 233160,
+          "end_time": 243160,
+          "content": "Just walk into these for the rest of the day.",
+          "speaker": "Speaker 3",
+          "original_speaker": "Speaker 3",
+          "segment_uid": "5a669fef1adef8cb22a48f379f895086_2331_2431"
+        },
+        {
+          "start_time": 243160,
+          "end_time": 245320,
+          "content": "In U. S. time.",
+          "speaker": "Speaker 2",
+          "original_speaker": "Speaker 2",
+          "segment_uid": "5a669fef1adef8cb22a48f379f895086_2431_2453"
+        },
+        {
+          "start_time": 247480,
+          "end_time": 248200,
+          "content": "That's crazy, right?",
+          "speaker": "Speaker 2",
+          "original_speaker": "Speaker 2",
+          "segment_uid": "5a669fef1adef8cb22a48f379f895086_2474_2482"
+        },
+        {
+          "start_time": 284760,
+          "end_time": 284760,
+          "content": "Something.",
+          "speaker": "Speaker 2",
+          "original_speaker": "Speaker 2",
+          "segment_uid": "5a669fef1adef8cb22a48f379f895086_2847_2847"
+        },
+        {
+          "start_time": 290360,
+          "end_time": 291960,
+          "content": "Yeah. What? Hmm. Really? Something wrong with you?",
+          "speaker": "Speaker 2",
+          "original_speaker": "Speaker 2",
+          "segment_uid": "5a669fef1adef8cb22a48f379f895086_2903_2919"
+        },
+        {
+          "start_time": 293080,
+          "end_time": 294250,
+          "content": "You get into it with mom? We did.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "5a669fef1adef8cb22a48f379f895086_2930_2942"
+        },
+        {
+          "start_time": 294287,
+          "end_time": 297480,
+          "content": "Okay. So. I know. What's up?",
+          "speaker": "Speaker 3",
+          "original_speaker": "Speaker 3",
+          "segment_uid": "5a669fef1adef8cb22a48f379f895086_2942_2974"
+        },
+        {
+          "start_time": 298120,
+          "end_time": 298920,
+          "content": "You want to come in and eat?",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "5a669fef1adef8cb22a48f379f895086_2981_2989"
+        },
+        {
+          "start_time": 299560,
+          "end_time": 303320,
+          "content": "Said yeah. What have you been doing? You been playing guitar, or have you been fucking around on your phone?",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "5a669fef1adef8cb22a48f379f895086_2995_3033"
+        },
+        {
+          "start_time": 304760,
+          "end_time": 306040,
+          "content": "Not my phone. My phone's bricked up.",
+          "speaker": "Speaker 4",
+          "original_speaker": "Speaker 4",
+          "segment_uid": "5a669fef1adef8cb22a48f379f895086_3047_3060"
+        },
+        {
+          "start_time": 307320,
+          "end_time": 309400,
+          "content": "The unbricker's right there, bro. I'm not stupid.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "5a669fef1adef8cb22a48f379f895086_3073_3094"
+        },
+        {
+          "start_time": 311800,
+          "end_time": 314760,
+          "content": "So, did you unbrick it as soon as mom left?",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "5a669fef1adef8cb22a48f379f895086_3118_3147"
+        },
+        {
+          "start_time": 316760,
+          "end_time": 317960,
+          "content": "No, not as soon as she left.",
+          "speaker": "Speaker 4",
+          "original_speaker": "Speaker 4",
+          "segment_uid": "5a669fef1adef8cb22a48f379f895086_3167_3179"
+        },
+        {
+          "start_time": 317960,
+          "end_time": 318280,
+          "content": "Uh huh.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "5a669fef1adef8cb22a48f379f895086_3179_3182"
+        },
+        {
+          "start_time": 320520,
+          "end_time": 321240,
+          "content": "Let me have your phone.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "5a669fef1adef8cb22a48f379f895086_3205_3212"
+        },
+        {
+          "start_time": 322600,
+          "end_time": 324360,
+          "content": "You don't own a phone. It's gonna be a while.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "5a669fef1adef8cb22a48f379f895086_3226_3243"
+        },
+        {
+          "start_time": 325400,
+          "end_time": 327720,
+          "content": "When you get it back, it's not gonna be the same. Just give it to me.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "5a669fef1adef8cb22a48f379f895086_3254_3277"
+        },
+        {
+          "start_time": 328970,
+          "end_time": 332810,
+          "content": "You and brother are about to be literally stripped of your fucking cell phones.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "5a669fef1adef8cb22a48f379f895086_3289_3328"
+        },
+        {
+          "start_time": 333290,
+          "end_time": 334330,
+          "content": "Give me one second.",
+          "speaker": "Speaker 4",
+          "original_speaker": "Speaker 4",
+          "segment_uid": "5a669fef1adef8cb22a48f379f895086_3332_3343"
+        },
+        {
+          "start_time": 334570,
+          "end_time": 335130,
+          "content": "For what?",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "5a669fef1adef8cb22a48f379f895086_3345_3351"
+        },
+        {
+          "start_time": 335450,
+          "end_time": 336010,
+          "content": "Can I just?",
+          "speaker": "Speaker 4",
+          "original_speaker": "Speaker 4",
+          "segment_uid": "5a669fef1adef8cb22a48f379f895086_3354_3360"
+        },
+        {
+          "start_time": 336090,
+          "end_time": 343850,
+          "content": "Do you think?",
+          "speaker": "Speaker 3",
+          "original_speaker": "Speaker 3",
+          "segment_uid": "5a669fef1adef8cb22a48f379f895086_3360_3438"
+        },
+        {
+          "start_time": 344010,
+          "end_time": 346890,
+          "content": "I really? No, I'm not.",
+          "speaker": "Speaker 4",
+          "original_speaker": "Speaker 4",
+          "segment_uid": "5a669fef1adef8cb22a48f379f895086_3440_3468"
+        }
+      ]
+    },
+    {
+      "id": "of_5b84856139632807be5c300fa2b61e27",
+      "name": "BHBMW \u00b7 J&L paid search + model targeting (Nov 12)",
+      "start_at": "2026-11-12T18:04:39.661000",
+      "created_at": "2026-11-12T18:56:18",
+      "duration_ms": 1935000,
+      "vertical": "dealers",
+      "store": "bhbmw",
+      "routed_by": "Midday ops Nov 12 \u2014 BHBMW J&L paid search call",
+      "status": "park",
+      "work_order": "Park. J&L owns campaign revise (DTEH desc + X3/X5/3er focus + 2027 kw). Lance: monthly specials wrap email to J&L when offers lock.",
+      "summary_md": "### BHBMW \u00b7 J&L paid search / model targeting \u00b7 Nov 12 (~32m)\n**Who:** Lance + J&L (Speaker 2 / Carly on the line).\n\n**Programs**\n- **Road Home** stays top-funnel national sales event through month-end\n- **Drive to End Hunger** (Nov only, ~200 meals / new BMW via Feeding America) \u2192 add as **paid-search ad description** rotation; not the hero top-funnel story\n- Lance will start sending J&L a monthly wrap email of specials + live page links so paid mirrors site/email/newsletter\n\n**Model focus**\n- Heavy: **X3 + X5**\n- Third slot: revise **X7 \u2192 3 Series** (J&L/Carly). Note: web \u201c3 Series new\u201d is mostly **loaners**; real 3s ~5\u20136 units\n- X5/X7 still the **$6k+ weight / tax-writeoff** story (Drive Luxury Deduct page stays year-round). 7 Series may hit weight but isn\u2019t SUV/truck\n- Push remaining real **2026** X5s out; most remaining X5s are **2027**. Bid **2027 keywords** across models; last month on **2026** keywords then reassess inventory\n\n**Performance bar (Oct / trailing)**\n- New sales under LY but \u201cstill strong\u201d; used up\n- Call match: **3 sales + 95 ROs** (undercounts forms/impact)\n- ~20k GA4 visitors vs ~14k Ads clicks (windows differ) \u2014 J&L to talk director on tracking options\n\n**Work:** J&L revises campaigns from this call. No new Ada creative locked on tape.",
+      "highlights": [
+        {
+          "title": "DTEH in search desc",
+          "content": "Drive to End Hunger as paid-search description rotation; Road Home stays top funnel.",
+          "timestamp": 107430
+        },
+        {
+          "title": "X7 \u2192 3 Series slot",
+          "content": "Third focus model: replace X7 with 3 Series (loaner caveat on web new).",
+          "timestamp": 320080
+        },
+        {
+          "title": "2027 keywords",
+          "content": "Bid 2027 across models; last month on 2026 kw then inventory review.",
+          "timestamp": 333360
+        }
+      ],
+      "plaud_note_md": "- **Campaigns and search:** Speaker 2 proposed adding Drive to End Hunger messaging to paid search while keeping broader top-funnel ads focused on Road Home; they were open to testing suitable materials. Lance said Drive to End Hunger runs in November and sent campaign links for review.\n- **Models and keywords:** Lance said the X5 and X7 qualify for a tax write-off; the 7 Series might meet the weight threshold but is not an SUV or truck. With much of the listed 3 Series inventory consisting of loaners, Speaker 2 proposed replacing the X7 with the 3 Series as a focus model, and Lance agreed. They also agreed to bid on 2027 keywords across models and treat this as the last month bidding on 2026 keywords before reviewing inventory.\n- **Performance and tracking:** October new sales were below last year but still strong, while used sales were up. Call attribution showed 3 vehicle sales and 95 repair orders; Speaker 2 said results likely undercounted impact. GA4 showed about 20,000 visitors, versus about 14,000 Google Ads clicks over a slightly different period. Speaker 2 planned to discuss further tracking options with their director.",
+      "transcript": [
+        {
+          "start_time": 470,
+          "end_time": 7750,
+          "content": "Anything that stands out, other than just to make sure all the right programs are being promoted, you know, just the normal stuff.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "5b84856139632807be5c300fa2b61e27_4_77"
+        },
+        {
+          "start_time": 8390,
+          "end_time": 11910,
+          "content": "I'm hitting the right buttons. I'm flipping the right switches on some of that stuff for you.",
+          "speaker": "Speaker 2",
+          "original_speaker": "Speaker 2",
+          "segment_uid": "5b84856139632807be5c300fa2b61e27_83_119"
+        },
+        {
+          "start_time": 11910,
+          "end_time": 15350,
+          "content": "But like Road Home sales, and then right now it's Drive to End Hunger.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "5b84856139632807be5c300fa2b61e27_119_153"
+        },
+        {
+          "start_time": 17750,
+          "end_time": 37640,
+          "content": "Road Home, I believe we are. Drive to End Hunger, I don't know much about, but I can go ahead and double check that for you. So let me. Up the BMW and actually, I have Brian Harris's website up. That tends to link pretty well to where I'm going. Jeez, man, I can't.",
+          "speaker": "Speaker 2",
+          "original_speaker": "Speaker 2",
+          "segment_uid": "5b84856139632807be5c300fa2b61e27_177_376"
+        },
+        {
+          "start_time": 41080,
+          "end_time": 43880,
+          "content": "New BMW specials. So,",
+          "speaker": "Speaker 2",
+          "original_speaker": "Speaker 2",
+          "segment_uid": "5b84856139632807be5c300fa2b61e27_410_438"
+        },
+        {
+          "start_time": 44440,
+          "end_time": 49960,
+          "content": "Yeah, we're doing the road ahead stuff through the end of the month. I haven't heard anything about drive to end hunger though.",
+          "speaker": "Speaker 2",
+          "original_speaker": "Speaker 2",
+          "segment_uid": "5b84856139632807be5c300fa2b61e27_444_499"
+        },
+        {
+          "start_time": 52930,
+          "end_time": 60290,
+          "content": "Are you okay if we just do Road Home because that's kind of the national sales event that I I know about? Is the Drive to End Hunger more just like a charity thing?",
+          "speaker": "Speaker 2",
+          "original_speaker": "Speaker 2",
+          "segment_uid": "5b84856139632807be5c300fa2b61e27_529_602"
+        },
+        {
+          "start_time": 61410,
+          "end_time": 66130,
+          "content": "Yeah, it is, and it goes just in November, and then it stops.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "5b84856139632807be5c300fa2b61e27_614_661"
+        },
+        {
+          "start_time": 68290,
+          "end_time": 70130,
+          "content": "So,",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "5b84856139632807be5c300fa2b61e27_682_701"
+        },
+        {
+          "start_time": 75410,
+          "end_time": 85350,
+          "content": "Your purchase of VW assets that I'll be publishing for you know social, like just organic. I don't know how much we. I guess it's probably.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "5b84856139632807be5c300fa2b61e27_754_853"
+        },
+        {
+          "start_time": 85350,
+          "end_time": 87110,
+          "content": "If you send those over to promoted,",
+          "speaker": "Speaker 2",
+          "original_speaker": "Speaker 2",
+          "segment_uid": "5b84856139632807be5c300fa2b61e27_853_871"
+        },
+        {
+          "start_time": 88150,
+          "end_time": 91910,
+          "content": "So here I'll just share my screen because this is the first I'm hearing about it.",
+          "speaker": "Speaker 2",
+          "original_speaker": "Speaker 2",
+          "segment_uid": "5b84856139632807be5c300fa2b61e27_881_919"
+        },
+        {
+          "start_time": 93190,
+          "end_time": 94710,
+          "content": "So I'll share what I'm looking at here.",
+          "speaker": "Speaker 2",
+          "original_speaker": "Speaker 2",
+          "segment_uid": "5b84856139632807be5c300fa2b61e27_931_947"
+        },
+        {
+          "start_time": 97430,
+          "end_time": 106710,
+          "content": "So the Drive to End Hunger. Pretty much, I saw it on the description right here. Now through November thirtieth, your purchase of a new BMW will provide approximately two hundred meals through Feeding America.",
+          "speaker": "Speaker 2",
+          "original_speaker": "Speaker 2",
+          "segment_uid": "5b84856139632807be5c300fa2b61e27_974_1067"
+        },
+        {
+          "start_time": 107430,
+          "end_time": 137050,
+          "content": "You'll also be able to take advantage of the holiday offers, and then it links to the holiday offers. So my train of thought is, is that we add this as like a description on our paid search ads, so just like that it rotates on there. Yep. So that way we're hitting that messaging, but then like all of our top funnel ads, they focus more on the excuse me, the the road home sales event stuff, which is what I'm seeing a lot more nationally in terms of what BMW is promoting,",
+          "speaker": "Speaker 2",
+          "original_speaker": "Speaker 2",
+          "segment_uid": "5b84856139632807be5c300fa2b61e27_1074_1370"
+        },
+        {
+          "start_time": 137530,
+          "end_time": 139450,
+          "content": "Complete with links to the drop drives.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "5b84856139632807be5c300fa2b61e27_1375_1394"
+        },
+        {
+          "start_time": 142250,
+          "end_time": 146090,
+          "content": "Yep, I'm gonna. I'll send you a thing with all of the different things.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "5b84856139632807be5c300fa2b61e27_1422_1460"
+        },
+        {
+          "start_time": 147450,
+          "end_time": 154330,
+          "content": "Yeah, if there's something in there that looks good to me, I'm not opposed to trying it. But sorry, sorry for not having heard about this.",
+          "speaker": "Speaker 2",
+          "original_speaker": "Speaker 2",
+          "segment_uid": "5b84856139632807be5c300fa2b61e27_1474_1543"
+        },
+        {
+          "start_time": 154330,
+          "end_time": 159210,
+          "content": "No, you're fine. What I'm gonna start doing whenever I wrap all of my,",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "5b84856139632807be5c300fa2b61e27_1543_1592"
+        },
+        {
+          "start_time": 160650,
+          "end_time": 170090,
+          "content": "You know, offers for the month, like the ones you're seeing on the page, and then those also went out in emails and they're also in newsletters and shit. When I wrap that, I'm gonna draft a.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "5b84856139632807be5c300fa2b61e27_1606_1700"
+        },
+        {
+          "start_time": 171970,
+          "end_time": 176930,
+          "content": "An email that goes to you that just summarizes all of that stuff and like the link to all those pages.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "5b84856139632807be5c300fa2b61e27_1719_1769"
+        },
+        {
+          "start_time": 177730,
+          "end_time": 182210,
+          "content": "Yeah, if you're I forget what your assistant's called, but if you're yeah,",
+          "speaker": "Speaker 2",
+          "original_speaker": "Speaker 2",
+          "segment_uid": "5b84856139632807be5c300fa2b61e27_1777_1822"
+        },
+        {
+          "start_time": 182610,
+          "end_time": 185410,
+          "content": "Just basically whatever you're doing there just needs to mirror this,",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "5b84856139632807be5c300fa2b61e27_1826_1854"
+        },
+        {
+          "start_time": 186290,
+          "end_time": 191490,
+          "content": "Right? That works for me. Yeah, like we're we're focusing heavy on the X3 and X5,",
+          "speaker": "Speaker 2",
+          "original_speaker": "Speaker 2",
+          "segment_uid": "5b84856139632807be5c300fa2b61e27_1862_1914"
+        },
+        {
+          "start_time": 192530,
+          "end_time": 200690,
+          "content": "And then the three series here. I see the three series is below the X7. Would you rather us do the X7 as kind of that third focus model?",
+          "speaker": "Speaker 2",
+          "original_speaker": "Speaker 2",
+          "segment_uid": "5b84856139632807be5c300fa2b61e27_1925_2006"
+        },
+        {
+          "start_time": 201490,
+          "end_time": 208210,
+          "content": "Yeah, right now X seven and X five are big. Those get that six thousand plus mile. You know the the tax incentive.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "5b84856139632807be5c300fa2b61e27_2014_2082"
+        },
+        {
+          "start_time": 208930,
+          "end_time": 216290,
+          "content": "So have like if you click on specials, you the drop down for specials. Yeah, I didn't hear that drive luxury deduct one hundred percent.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "5b84856139632807be5c300fa2b61e27_2089_2162"
+        },
+        {
+          "start_time": 217410,
+          "end_time": 218450,
+          "content": "Oh, that is new.",
+          "speaker": "Speaker 2",
+          "original_speaker": "Speaker 2",
+          "segment_uid": "5b84856139632807be5c300fa2b61e27_2174_2184"
+        },
+        {
+          "start_time": 219650,
+          "end_time": 225170,
+          "content": "But that that stays up. That stays up year over year. So that basically just summarizes and is a little teaser,",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "5b84856139632807be5c300fa2b61e27_2196_2251"
+        },
+        {
+          "start_time": 225970,
+          "end_time": 229010,
+          "content": "Saying that those vehicles qualify for the tax write off.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "5b84856139632807be5c300fa2b61e27_2259_2290"
+        },
+        {
+          "start_time": 229930,
+          "end_time": 233530,
+          "content": "And then you've got a you know a shop window where they can kind of look through the inventory.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "5b84856139632807be5c300fa2b61e27_2299_2335"
+        },
+        {
+          "start_time": 237050,
+          "end_time": 238170,
+          "content": "Okay, that's cool.",
+          "speaker": "Speaker 2",
+          "original_speaker": "Speaker 2",
+          "segment_uid": "5b84856139632807be5c300fa2b61e27_2370_2381"
+        },
+        {
+          "start_time": 239290,
+          "end_time": 239530,
+          "content": "So,",
+          "speaker": "Speaker 2",
+          "original_speaker": "Speaker 2",
+          "segment_uid": "5b84856139632807be5c300fa2b61e27_2392_2395"
+        },
+        {
+          "start_time": 241450,
+          "end_time": 249610,
+          "content": "Why is it? Why is it just on SUVs? This is more so my my curiosity more than anything. Like I'm surprised.",
+          "speaker": "Speaker 2",
+          "original_speaker": "Speaker 2",
+          "segment_uid": "5b84856139632807be5c300fa2b61e27_2414_2496"
+        },
+        {
+          "start_time": 249770,
+          "end_time": 257050,
+          "content": "If you scroll to the bottom, you'll see what section in the law that's about, and it's all about a weight. It has to be over six thousand pounds.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "5b84856139632807be5c300fa2b61e27_2497_2570"
+        },
+        {
+          "start_time": 259519,
+          "end_time": 263120,
+          "content": "It's SUVs or trucks that are over six thousand pounds is what that law is.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "5b84856139632807be5c300fa2b61e27_2595_2631"
+        },
+        {
+          "start_time": 263120,
+          "end_time": 266320,
+          "content": "You got to put some, you got to put some extra weight on those three series, man.",
+          "speaker": "Speaker 2",
+          "original_speaker": "Speaker 2",
+          "segment_uid": "5b84856139632807be5c300fa2b61e27_2631_2663"
+        },
+        {
+          "start_time": 266640,
+          "end_time": 278320,
+          "content": "I know, right? You know, it's goofy, but I believe the seven series would actually qualify. I think it's damn near the same weight of a damn X5 and X7, but it's not an SUV or a truck.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "5b84856139632807be5c300fa2b61e27_2666_2783"
+        },
+        {
+          "start_time": 279360,
+          "end_time": 286380,
+          "content": "Yeah, I mean, you only got four of those. That's I mean, yeah, you got plenty of X three, X seven. So, Carly, let's just double check.",
+          "speaker": "Speaker 2",
+          "original_speaker": "Speaker 2",
+          "segment_uid": "5b84856139632807be5c300fa2b61e27_2793_2863"
+        },
+        {
+          "start_time": 286940,
+          "end_time": 289340,
+          "content": "Yeah, here's the thing: those three series is that's not real.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "5b84856139632807be5c300fa2b61e27_2869_2893"
+        },
+        {
+          "start_time": 290460,
+          "end_time": 301100,
+          "content": "Yeah, and I'm looking at your, I'm looking at your website, not necessarily like what's on what I have in terms of inventory, just because I had the website pulled up right away. No, no. But um, hello.",
+          "speaker": "Speaker 2",
+          "original_speaker": "Speaker 2",
+          "segment_uid": "5b84856139632807be5c300fa2b61e27_2904_3011"
+        },
+        {
+          "start_time": 302460,
+          "end_time": 307020,
+          "content": "No, what I'm saying is the inventory on the web page is not real. Most of that's loaners.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "5b84856139632807be5c300fa2b61e27_3024_3070"
+        },
+        {
+          "start_time": 308880,
+          "end_time": 319040,
+          "content": "We're not real piece of inventory. A lot of that's used inventory, used that are actually loaners that got stuck in new. So, like actual three series inventory is like five or six cars.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "5b84856139632807be5c300fa2b61e27_3088_3190"
+        },
+        {
+          "start_time": 320080,
+          "end_time": 329840,
+          "content": "Understood. Understood. So, Carly, let's just see if we can do a revision and get the X7 replaced with the three series. Yep. Sounds good. Yep. Cool.",
+          "speaker": "Speaker 2",
+          "original_speaker": "Speaker 2",
+          "segment_uid": "5b84856139632807be5c300fa2b61e27_3200_3298"
+        },
+        {
+          "start_time": 331520,
+          "end_time": 332240,
+          "content": "Yeah.",
+          "speaker": "Speaker 2",
+          "original_speaker": "Speaker 2",
+          "segment_uid": "5b84856139632807be5c300fa2b61e27_3315_3322"
+        },
+        {
+          "start_time": 333360,
+          "end_time": 353750,
+          "content": "And then we'll still focus on the remaining X5s. And just try and push those. I think you guys are starting to get the 2027s in here. Yep. Yeah. Most of most of the remaining X fives are 2027s. But try and get these last seven or so, assuming these aren't like already sold 2026s out of here. 2026s.",
+          "speaker": "Speaker 2",
+          "original_speaker": "Speaker 2",
+          "segment_uid": "5b84856139632807be5c300fa2b61e27_3333_3537"
+        },
+        {
+          "start_time": 353750,
+          "end_time": 358790,
+          "content": "Those are also loaners, so those don't count either. I don't have any sold X7s.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "5b84856139632807be5c300fa2b61e27_3537_3587"
+        },
+        {
+          "start_time": 359750,
+          "end_time": 363110,
+          "content": "Okay. Well, that's that's great to hear then. Okay.",
+          "speaker": "Speaker 2",
+          "original_speaker": "Speaker 2",
+          "segment_uid": "5b84856139632807be5c300fa2b61e27_3597_3631"
+        },
+        {
+          "start_time": 363430,
+          "end_time": 365590,
+          "content": "Yeah. We have 2027s.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "5b84856139632807be5c300fa2b61e27_3634_3655"
+        },
+        {
+          "start_time": 366750,
+          "end_time": 368990,
+          "content": "Nice. Okay. The X five and X seven.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "5b84856139632807be5c300fa2b61e27_3667_3689"
+        },
+        {
+          "start_time": 370510,
+          "end_time": 370910,
+          "content": "Gotcha.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "5b84856139632807be5c300fa2b61e27_3705_3709"
+        },
+        {
+          "start_time": 370990,
+          "end_time": 382750,
+          "content": "I think Carly had sent over like an email for the like November offers on that, but we'll we'll get this tweaked up based on our conversation, and we'll be good to go, Lance.",
+          "speaker": "Speaker 2",
+          "original_speaker": "Speaker 2",
+          "segment_uid": "5b84856139632807be5c300fa2b61e27_3709_3827"
+        },
+        {
+          "start_time": 384590,
+          "end_time": 387470,
+          "content": "All right. We'll revise. Yeah.",
+          "speaker": "Speaker 2",
+          "original_speaker": "Speaker 2",
+          "segment_uid": "5b84856139632807be5c300fa2b61e27_3845_3874"
+        },
+        {
+          "start_time": 388750,
+          "end_time": 389230,
+          "content": "All good.",
+          "speaker": "Speaker 2",
+          "original_speaker": "Speaker 2",
+          "segment_uid": "5b84856139632807be5c300fa2b61e27_3887_3892"
+        },
+        {
+          "start_time": 390430,
+          "end_time": 415340,
+          "content": "So the main thing I wanted to To talk to you about, so here let's pull this up first, because I wasn't there obviously when Caleb was down there. But based on the conversation I had with Caleb, Brett's pretty happy with where sales are at. But like, as always, like more and more. Does that kind of align with what feeling at the dealership is after this past October and kind of how November's starting?",
+          "speaker": "Speaker 2",
+          "original_speaker": "Speaker 2",
+          "segment_uid": "5b84856139632807be5c300fa2b61e27_3904_4153"
+        },
+        {
+          "start_time": 417100,
+          "end_time": 417580,
+          "content": "Yes.",
+          "speaker": "Speaker 2",
+          "original_speaker": "Speaker 2",
+          "segment_uid": "5b84856139632807be5c300fa2b61e27_4171_4175"
+        },
+        {
+          "start_time": 418380,
+          "end_time": 424290,
+          "content": "Okay. Looking at sales now, this is total vehicle sales. Let me filter this to just new vehicle sales.",
+          "speaker": "Speaker 2",
+          "original_speaker": "Speaker 2",
+          "segment_uid": "5b84856139632807be5c300fa2b61e27_4183_4242"
+        },
+        {
+          "start_time": 426130,
+          "end_time": 445890,
+          "content": "New vehicle sales didn't meet demand of last year, but has still been pretty strong. I don't have a whole lot of November data here, so I'm not focusing too much on this. It does look like it's maybe a little slow, just based on this is data from the seventh, and I have 12 cars. But I frankly don't really trust this data till I get closer to the end of the month.",
+          "speaker": "Speaker 2",
+          "original_speaker": "Speaker 2",
+          "segment_uid": "5b84856139632807be5c300fa2b61e27_4261_4458"
+        },
+        {
+          "start_time": 446410,
+          "end_time": 460810,
+          "content": "But I want to make sure things are doing well there. It does like used sales are up pretty good. We're not doing a whole lot of marketing on used sales, but one thing that's frequently changing with where the state of the economy is is people are pivoting to more used and pre-owned cars,",
+          "speaker": "Speaker 2",
+          "original_speaker": "Speaker 2",
+          "segment_uid": "5b84856139632807be5c300fa2b61e27_4464_4608"
+        },
+        {
+          "start_time": 461770,
+          "end_time": 476680,
+          "content": "Focusing more on that rather than trying to go all in on the purchase price of new vehicles. But doesn't mean that my strategy changes too much. I want to make sure I'm just Capitalizing on as much of the new inventory traffic as I possibly can,",
+          "speaker": "Speaker 2",
+          "original_speaker": "Speaker 2",
+          "segment_uid": "5b84856139632807be5c300fa2b61e27_4617_4766"
+        },
+        {
+          "start_time": 477720,
+          "end_time": 480200,
+          "content": "Now that 2027s are more fully in stock,",
+          "speaker": "Speaker 2",
+          "original_speaker": "Speaker 2",
+          "segment_uid": "5b84856139632807be5c300fa2b61e27_4777_4802"
+        },
+        {
+          "start_time": 480760,
+          "end_time": 486920,
+          "content": "Gabriel and Carly, I want to make sure that we are bidding on 2027 keywords across the board for all the models.",
+          "speaker": "Speaker 2",
+          "original_speaker": "Speaker 2",
+          "segment_uid": "5b84856139632807be5c300fa2b61e27_4807_4869"
+        },
+        {
+          "start_time": 487560,
+          "end_time": 489640,
+          "content": "I know we added that in for X5.",
+          "speaker": "Speaker 2",
+          "original_speaker": "Speaker 2",
+          "segment_uid": "5b84856139632807be5c300fa2b61e27_4875_4896"
+        },
+        {
+          "start_time": 490680,
+          "end_time": 492520,
+          "content": "Need to make sure that's in for.",
+          "speaker": "Speaker 2",
+          "original_speaker": "Speaker 2",
+          "segment_uid": "5b84856139632807be5c300fa2b61e27_4906_4925"
+        },
+        {
+          "start_time": 494910,
+          "end_time": 506750,
+          "content": "All of the other models, and then Lance, I want to just talk about this with you. This would probably be the last month, or maybe December could be the last month, where that we bid on 2026 keywords for just across everything.",
+          "speaker": "Speaker 2",
+          "original_speaker": "Speaker 2",
+          "segment_uid": "5b84856139632807be5c300fa2b61e27_4949_5067"
+        },
+        {
+          "start_time": 508350,
+          "end_time": 509390,
+          "content": "Yeah, that makes sense.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "5b84856139632807be5c300fa2b61e27_5083_5093"
+        },
+        {
+          "start_time": 510350,
+          "end_time": 516350,
+          "content": "Cool. So I'll I would say let's plan for this to be the last month we bid on 2026 keywords,",
+          "speaker": "Speaker 2",
+          "original_speaker": "Speaker 2",
+          "segment_uid": "5b84856139632807be5c300fa2b61e27_5103_5163"
+        },
+        {
+          "start_time": 516990,
+          "end_time": 524270,
+          "content": "And then maybe we'll see what the remaining inventory looks like at the end of next month, beginning of next month, and then we can just kind of repivot it from there.",
+          "speaker": "Speaker 2",
+          "original_speaker": "Speaker 2",
+          "segment_uid": "5b84856139632807be5c300fa2b61e27_5169_5242"
+        },
+        {
+          "start_time": 525300,
+          "end_time": 526420,
+          "content": "That works. That sounds good.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "5b84856139632807be5c300fa2b61e27_5253_5264"
+        },
+        {
+          "start_time": 527460,
+          "end_time": 527620,
+          "content": "Cool.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "5b84856139632807be5c300fa2b61e27_5274_5276"
+        },
+        {
+          "start_time": 528980,
+          "end_time": 545620,
+          "content": "Then the other thing I wanted to talk to you about, I think I called this out on an email, but we let me pull this up. So I'm looking at data for October here. So Lance, let me. I'll pull up our service page so that I can.",
+          "speaker": "Speaker 2",
+          "original_speaker": "Speaker 2",
+          "segment_uid": "5b84856139632807be5c300fa2b61e27_5289_5456"
+        },
+        {
+          "start_time": 547460,
+          "end_time": 550340,
+          "content": "I always get confused where it's at on your site. Service specials here.",
+          "speaker": "Speaker 2",
+          "original_speaker": "Speaker 2",
+          "segment_uid": "5b84856139632807be5c300fa2b61e27_5474_5503"
+        },
+        {
+          "start_time": 552180,
+          "end_time": 570020,
+          "content": "So I'm pulling up the service specials page because it's the one most clearly with our phone number on it right here. But we also have dynamic number insertion on your website. We have our Google Ads call extensions on both our sales and service campaigns. So we've been collecting phone call data for anybody who calls any of our numbers here, recording that data.",
+          "speaker": "Speaker 2",
+          "original_speaker": "Speaker 2",
+          "segment_uid": "5b84856139632807be5c300fa2b61e27_5521_5700"
+        },
+        {
+          "start_time": 570580,
+          "end_time": 572900,
+          "content": "We also have your guys's DMS data.",
+          "speaker": "Speaker 2",
+          "original_speaker": "Speaker 2",
+          "segment_uid": "5b84856139632807be5c300fa2b61e27_5705_5729"
+        },
+        {
+          "start_time": 573780,
+          "end_time": 578500,
+          "content": "So what we've kind of figured out how to do is take our phone call data.",
+          "speaker": "Speaker 2",
+          "original_speaker": "Speaker 2",
+          "segment_uid": "5b84856139632807be5c300fa2b61e27_5737_5785"
+        },
+        {
+          "start_time": 579560,
+          "end_time": 601400,
+          "content": "And match it back to your DMS. See who actually comes in for sales or service based on, you know, what our phone call record share and what our DMS data that we're getting from you guys is. So, if Michael Dorsey picks up the phone, picks up the phone, calls Brian Harris BMW, dials this number, and then I book my value service oil change for my car,",
+          "speaker": "Speaker 2",
+          "original_speaker": "Speaker 2",
+          "segment_uid": "5b84856139632807be5c300fa2b61e27_5795_6014"
+        },
+        {
+          "start_time": 601960,
+          "end_time": 604440,
+          "content": "And come in, book an appointment, come in for an RO,",
+          "speaker": "Speaker 2",
+          "original_speaker": "Speaker 2",
+          "segment_uid": "5b84856139632807be5c300fa2b61e27_6019_6044"
+        },
+        {
+          "start_time": 605000,
+          "end_time": 626300,
+          "content": "I'm actually now able to see that on this report right here. We have one for service. We have one for sales. This looking at October data. I'm getting data for November, but it does take some time to backfill in, so I don't have a whole lot to look at for November. There's some flaws to this system that I want to make sure I call out because this great results on here, but it's,",
+          "speaker": "Speaker 2",
+          "original_speaker": "Speaker 2",
+          "segment_uid": "5b84856139632807be5c300fa2b61e27_6050_6263"
+        },
+        {
+          "start_time": 627100,
+          "end_time": 629980,
+          "content": "I'd say, heavily underreported on what it is,",
+          "speaker": "Speaker 2",
+          "original_speaker": "Speaker 2",
+          "segment_uid": "5b84856139632807be5c300fa2b61e27_6271_6299"
+        },
+        {
+          "start_time": 630940,
+          "end_time": 631660,
+          "content": "In terms of,",
+          "speaker": "Speaker 2",
+          "original_speaker": "Speaker 2",
+          "segment_uid": "5b84856139632807be5c300fa2b61e27_6309_6316"
+        },
+        {
+          "start_time": 632220,
+          "end_time": 647630,
+          "content": "You know, what people can do on the website. For sales, I'm not capturing anyone's information who fill out the lead form on here. I'm only capturing the people who pick up the phone and call from any of the numbers where we're tracking through dynamic number insertion or a call extension.",
+          "speaker": "Speaker 2",
+          "original_speaker": "Speaker 2",
+          "segment_uid": "5b84856139632807be5c300fa2b61e27_6322_6476"
+        },
+        {
+          "start_time": 648350,
+          "end_time": 658510,
+          "content": "Secondly, let's say I pick up the phone to call. Actually, this happened for my wife. I she was heavily pregnant two years ago when we bought her car.",
+          "speaker": "Speaker 2",
+          "original_speaker": "Speaker 2",
+          "segment_uid": "5b84856139632807be5c300fa2b61e27_6483_6585"
+        },
+        {
+          "start_time": 659150,
+          "end_time": 691180,
+          "content": "I I called the dealership, booked the appointment for the test drive. I came in and did the test drive. But when we filled out the information to buy the car, I used all of her information for that car because it's her car. So in this scenario, my matchback wouldn't work because the number on the sale, my wife's phone number, did not match the number from the recorded phone call, Michael Dorsey's phone number. Right. So it's not a perfect system, but if taken into account that through this system that I'm accounting for three vehicle sales in October generating $115,",
+          "speaker": "Speaker 2",
+          "original_speaker": "Speaker 2",
+          "segment_uid": "5b84856139632807be5c300fa2b61e27_6591_6911"
+        },
+        {
+          "start_time": 691180,
+          "end_time": 700270,
+          "content": "000 in revenue. As well as 95 repair orders generating $142,000 in revenue, knowing that the system isn't perfect,",
+          "speaker": "Speaker 2",
+          "original_speaker": "Speaker 2",
+          "segment_uid": "5b84856139632807be5c300fa2b61e27_6911_7002"
+        },
+        {
+          "start_time": 700910,
+          "end_time": 710270,
+          "content": "I feel pretty good about where the marketing is working. Now, obviously, I want to drive more sales than just three via phone via phone calls because, looking at your guys's total sales,",
+          "speaker": "Speaker 2",
+          "original_speaker": "Speaker 2",
+          "segment_uid": "5b84856139632807be5c300fa2b61e27_7009_7102"
+        },
+        {
+          "start_time": 711870,
+          "end_time": 712750,
+          "content": "There's a lot of cars.",
+          "speaker": "Speaker 2",
+          "original_speaker": "Speaker 2",
+          "segment_uid": "5b84856139632807be5c300fa2b61e27_7118_7127"
+        },
+        {
+          "start_time": 713150,
+          "end_time": 717950,
+          "content": "Which number is that's giving you that tracking data, that attribution? Like, where is that number?",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "5b84856139632807be5c300fa2b61e27_7131_7179"
+        },
+        {
+          "start_time": 719470,
+          "end_time": 745470,
+          "content": "So this num so any of the numbers like that we're using for our marketing efforts, like this number right here, or the number that shows up on our Google Ads call extensions. We're also doing dynamic number insertion. So if somebody comes from one of our ads, and let's say they, I'm trying to figure out how to get it to pop up on your website here. Let's say they called the number that's here. We replace this number with our number via dynamic number insertion.",
+          "speaker": "Speaker 2",
+          "original_speaker": "Speaker 2",
+          "segment_uid": "5b84856139632807be5c300fa2b61e27_7194_7454"
+        },
+        {
+          "start_time": 746430,
+          "end_time": 762690,
+          "content": "Okay. If they're coming from our marketing efforts, so we have UTM parameters that cause that number to flip. So that's how we're tracking this. So if somebody comes to the page organically, that number is not flipping unless you have another dynamic number insertion going on the website, which I don't believe you do.",
+          "speaker": "Speaker 2",
+          "original_speaker": "Speaker 2",
+          "segment_uid": "5b84856139632807be5c300fa2b61e27_7464_7626"
+        },
+        {
+          "start_time": 763890,
+          "end_time": 764290,
+          "content": "No.",
+          "speaker": "Speaker 2",
+          "original_speaker": "Speaker 2",
+          "segment_uid": "5b84856139632807be5c300fa2b61e27_7638_7642"
+        },
+        {
+          "start_time": 765410,
+          "end_time": 771810,
+          "content": "So so so that should just be a motive tracking number, or it's my call review tracking number, is what that is.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "5b84856139632807be5c300fa2b61e27_7654_7718"
+        },
+        {
+          "start_time": 772530,
+          "end_time": 782790,
+          "content": "Yeah. So we're just. Flipping the number to ours, it still directs to the same place at the end of the day. But this way, we're able to record the phone calls, get that phone call data,",
+          "speaker": "Speaker 2",
+          "original_speaker": "Speaker 2",
+          "segment_uid": "5b84856139632807be5c300fa2b61e27_7725_7827"
+        },
+        {
+          "start_time": 783350,
+          "end_time": 785590,
+          "content": "And then match it back to us at the end of the day.",
+          "speaker": "Speaker 2",
+          "original_speaker": "Speaker 2",
+          "segment_uid": "5b84856139632807be5c300fa2b61e27_7833_7855"
+        },
+        {
+          "start_time": 786150,
+          "end_time": 790950,
+          "content": "October, and then let's see. I can compare to September. I was just looking at October.",
+          "speaker": "Speaker 2",
+          "original_speaker": "Speaker 2",
+          "segment_uid": "5b84856139632807be5c300fa2b61e27_7861_7909"
+        },
+        {
+          "start_time": 793670,
+          "end_time": 797670,
+          "content": "We've been working on this throughout October, and there is some matchback historical.",
+          "speaker": "Speaker 2",
+          "original_speaker": "Speaker 2",
+          "segment_uid": "5b84856139632807be5c300fa2b61e27_7936_7976"
+        },
+        {
+          "start_time": 799510,
+          "end_time": 799910,
+          "content": "Yeah, you're good.",
+          "speaker": "Speaker 2",
+          "original_speaker": "Speaker 2",
+          "segment_uid": "5b84856139632807be5c300fa2b61e27_7995_7999"
+        },
+        {
+          "start_time": 803110,
+          "end_time": 803830,
+          "content": "Hey, what's up, man?",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "5b84856139632807be5c300fa2b61e27_8031_8038"
+        },
+        {
+          "start_time": 811110,
+          "end_time": 820470,
+          "content": "Yeah, I just texted you that. I said tell them to do it, and we'll. I'll just come get you. I'm on a Zoom right now, but it won't be too much longer, and I'll come get you.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "5b84856139632807be5c300fa2b61e27_8111_8204"
+        },
+        {
+          "start_time": 825510,
+          "end_time": 828630,
+          "content": "Did it get hit? Was it rim rim dented, bent?",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "5b84856139632807be5c300fa2b61e27_8255_8286"
+        },
+        {
+          "start_time": 837430,
+          "end_time": 838310,
+          "content": "Well, she hit a curb.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "5b84856139632807be5c300fa2b61e27_8374_8383"
+        },
+        {
+          "start_time": 841160,
+          "end_time": 845800,
+          "content": "Um, you hit curves. I've ridden with you when you hit curves. Okay.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "5b84856139632807be5c300fa2b61e27_8411_8458"
+        },
+        {
+          "start_time": 853320,
+          "end_time": 853880,
+          "content": "Yeah. Okay.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "5b84856139632807be5c300fa2b61e27_8533_8538"
+        },
+        {
+          "start_time": 855160,
+          "end_time": 860920,
+          "content": "We'll have him do start get started on it, and I'll come get you in just a minute. Let me finish this thing up. This meeting. Okay, dope. Bye-bye.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "5b84856139632807be5c300fa2b61e27_8551_8609"
+        },
+        {
+          "start_time": 863240,
+          "end_time": 869880,
+          "content": "Ah, what's going on? I got my wife at the at the service center getting her suburban worked on, and it needs brakes. I was talking to her about that.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "5b84856139632807be5c300fa2b61e27_8632_8698"
+        },
+        {
+          "start_time": 871420,
+          "end_time": 887820,
+          "content": "She that's yeah that that's fun. I I got to talk with Kathleen. She's got some sensors in her car that she wants to get replaced, and I don't think she really needs the sensor to be honest with you. But uh, I it's how she wants. So anyway,",
+          "speaker": "Speaker 2",
+          "original_speaker": "Speaker 2",
+          "segment_uid": "5b84856139632807be5c300fa2b61e27_8714_8878"
+        },
+        {
+          "start_time": 888380,
+          "end_time": 894940,
+          "content": "Um, but do you have any questions on this data here? I want to make sure you understand this because this is really cool.",
+          "speaker": "Speaker 2",
+          "original_speaker": "Speaker 2",
+          "segment_uid": "5b84856139632807be5c300fa2b61e27_8883_8949"
+        },
+        {
+          "start_time": 894940,
+          "end_time": 900780,
+          "content": "Yeah, the phone call thing is kind of goofy and underreported, but I understand the effort. But um.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "5b84856139632807be5c300fa2b61e27_8949_9007"
+        },
+        {
+          "start_time": 902360,
+          "end_time": 903240,
+          "content": "You know, because there's,",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "5b84856139632807be5c300fa2b61e27_9023_9032"
+        },
+        {
+          "start_time": 904840,
+          "end_time": 910040,
+          "content": "I promise you, most a lot of calls we get that are just through the website or,",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "5b84856139632807be5c300fa2b61e27_9048_9100"
+        },
+        {
+          "start_time": 910680,
+          "end_time": 917800,
+          "content": "You know, through Google or wherever are not getting to y'all's stuff, even if it is related to y'all's stuff.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "5b84856139632807be5c300fa2b61e27_9106_9178"
+        },
+        {
+          "start_time": 917800,
+          "end_time": 924040,
+          "content": "You know what I mean? Yeah, and this is just an effort to try and because the biggest thing I get asked on, I guess,",
+          "speaker": "Speaker 2",
+          "original_speaker": "Speaker 2",
+          "segment_uid": "5b84856139632807be5c300fa2b61e27_9178_9240"
+        },
+        {
+          "start_time": 924920,
+          "end_time": 925560,
+          "content": "Um, what'd you say?",
+          "speaker": "Speaker 2",
+          "original_speaker": "Speaker 2",
+          "segment_uid": "5b84856139632807be5c300fa2b61e27_9249_9255"
+        },
+        {
+          "start_time": 925960,
+          "end_time": 929720,
+          "content": "I mean, it's trying to do a little bit of attribution, but yeah, just not catching all of it.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "5b84856139632807be5c300fa2b61e27_9259_9297"
+        },
+        {
+          "start_time": 930670,
+          "end_time": 932510,
+          "content": "There's and there's no way, like,",
+          "speaker": "Speaker 2",
+          "original_speaker": "Speaker 2",
+          "segment_uid": "5b84856139632807be5c300fa2b61e27_9306_9325"
+        },
+        {
+          "start_time": 933390,
+          "end_time": 966570,
+          "content": "Unless we like, I'm not going to try and throw our call tracking provider under the bus because this one is a lot better than our previous one that I'd say we used around the time you guys started. But this this the best way for me to answer the question that I get from a lot of dealers on how do I know this working? Because otherwise, I'm just reporting on and what I have been, you know, total recorded phone calls, total lead form visits, things like that, and. You know, I'd love to be able to say that, hey man, we drove 100 phone calls and 150 scheduled service clicks,",
+          "speaker": "Speaker 2",
+          "original_speaker": "Speaker 2",
+          "segment_uid": "5b84856139632807be5c300fa2b61e27_9333_9665"
+        },
+        {
+          "start_time": 967530,
+          "end_time": 980650,
+          "content": "And based on averages from other dealerships, that should equal 45 repair orders. The average BMW repair order is 400 bucks, or it's probably way more than that. It's like 600 bucks, but you get what I'm saying.",
+          "speaker": "Speaker 2",
+          "original_speaker": "Speaker 2",
+          "segment_uid": "5b84856139632807be5c300fa2b61e27_9675_9806"
+        },
+        {
+          "start_time": 981210,
+          "end_time": 992680,
+          "content": "And then I can use a similar logic for sales, but like people don't care about logic; they want truth. And I would rather give. An underreported truth, and make that clear than an overreported truth,",
+          "speaker": "Speaker 2",
+          "original_speaker": "Speaker 2",
+          "segment_uid": "5b84856139632807be5c300fa2b61e27_9812_9926"
+        },
+        {
+          "start_time": 993480,
+          "end_time": 1006920,
+          "content": "Because there's other ways we could look to do this and like overreport. But then, you know, I I can't sit here and say confidently that like, hey, you guys had what? It was like 58, I think, new car sales last month.",
+          "speaker": "Speaker 2",
+          "original_speaker": "Speaker 2",
+          "segment_uid": "5b84856139632807be5c300fa2b61e27_9934_10069"
+        },
+        {
+          "start_time": 1007640,
+          "end_time": 1027490,
+          "content": "I can't sit here and say that if I found an attribution method that made me responsible for 30 of them, like that that would that would raise some red flags. Like, I don't think I'm gonna be responsible for 30. I think I'm responsible for more than the three that I called out, but it's a continued work in progress. But it is a start, is what I'll say.",
+          "speaker": "Speaker 2",
+          "original_speaker": "Speaker 2",
+          "segment_uid": "5b84856139632807be5c300fa2b61e27_10076_10274"
+        },
+        {
+          "start_time": 1028290,
+          "end_time": 1030450,
+          "content": "Yeah, and I think, you know,",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "5b84856139632807be5c300fa2b61e27_10282_10304"
+        },
+        {
+          "start_time": 1033730,
+          "end_time": 1038930,
+          "content": "You've seen what I've built, like with my GM Weeklies that just track the entire sales funnel.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "5b84856139632807be5c300fa2b61e27_10337_10389"
+        },
+        {
+          "start_time": 1039730,
+          "end_time": 1045170,
+          "content": "You know, and so if I go pull up Brian Harris BMW right now and I go look at just traffic, which is.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "5b84856139632807be5c300fa2b61e27_10397_10451"
+        },
+        {
+          "start_time": 1045950,
+          "end_time": 1050590,
+          "content": "You know, I can really quickly see Google paid twenty six thousand visits.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "5b84856139632807be5c300fa2b61e27_10459_10505"
+        },
+        {
+          "start_time": 1051550,
+          "end_time": 1053950,
+          "content": "Yeah, I don't know if that lines up with what you report.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "5b84856139632807be5c300fa2b61e27_10515_10539"
+        },
+        {
+          "start_time": 1055070,
+          "end_time": 1061390,
+          "content": "Now you're looking at it across sales and service, so I'm going to look at visits as compared to like clicks. Yep.",
+          "speaker": "Speaker 2",
+          "original_speaker": "Speaker 2",
+          "segment_uid": "5b84856139632807be5c300fa2b61e27_10550_10613"
+        },
+        {
+          "start_time": 1062510,
+          "end_time": 1072590,
+          "content": "Some of these clicks, it could be people coming back multiple times. So I have a view now that combines sales and service data. Are you looking at October, I guess, or a shorter period of time?",
+          "speaker": "Speaker 2",
+          "original_speaker": "Speaker 2",
+          "segment_uid": "5b84856139632807be5c300fa2b61e27_10625_10725"
+        },
+        {
+          "start_time": 1072670,
+          "end_time": 1086820,
+          "content": "This here thirty. So rolling thirty is rolling thirty. It would be like right now, my report was last updated on November eighth. So it gets reported weekly. So it's like October tenth through November eighth. So it's a rolling thirty from those dates.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "5b84856139632807be5c300fa2b61e27_10726_10868"
+        },
+        {
+          "start_time": 1087380,
+          "end_time": 1092980,
+          "content": "Yeah. You know, like I'm reporting twenty thousand people.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "5b84856139632807be5c300fa2b61e27_10873_10929"
+        },
+        {
+          "start_time": 1093780,
+          "end_time": 1095620,
+          "content": "And so.",
+          "speaker": "Speaker 2",
+          "original_speaker": "Speaker 2",
+          "segment_uid": "5b84856139632807be5c300fa2b61e27_10937_10956"
+        },
+        {
+          "start_time": 1096810,
+          "end_time": 1122970,
+          "content": "Yeah, and yours is using GA four data. Mine's using Google Ads data. I'm sure you know, like it's never going to mirror perfectly. I'm looking at fourteen thousand clicks over the last thirty days. It's a little bit different time frame than what you're looking at, but some of those people could be coming back multiple times. Where I will get one click, you might see two visitors on that, for example, depending on parameters and things like that. So, it's within margin of error.",
+          "speaker": "Speaker 2",
+          "original_speaker": "Speaker 2",
+          "segment_uid": "5b84856139632807be5c300fa2b61e27_10968_11229"
+        },
+        {
+          "start_time": 1123620,
+          "end_time": 1155850,
+          "content": "Is what I'll say when it comes to looking at GA4 compared to Google Ads data. But at the end of the day, man, I'm just trying to be able to stand on firm ground when I can sit here and say that this working. When dealers, not like you, but other dealers that come in hot and bothered, that this isn't working. How do I know this isn't working? So more so, something if Brett ever says like he wants to cancel, I can easily point to some sales and service data and be like, hey, this underreported. And I'm already generating significant ROI. Yeah.",
+          "speaker": "Speaker 2",
+          "original_speaker": "Speaker 2",
+          "segment_uid": "5b84856139632807be5c300fa2b61e27_11236_11558"
+        },
+        {
+          "start_time": 1157850,
+          "end_time": 1161850,
+          "content": "Because to be honest, with the budget you guys are spending on both sales and service,",
+          "speaker": "Speaker 2",
+          "original_speaker": "Speaker 2",
+          "segment_uid": "5b84856139632807be5c300fa2b61e27_11578_11618"
+        },
+        {
+          "start_time": 1163530,
+          "end_time": 1167210,
+          "content": "One vehicle sale pays for all of the marketing and some. Right.",
+          "speaker": "Speaker 2",
+          "original_speaker": "Speaker 2",
+          "segment_uid": "5b84856139632807be5c300fa2b61e27_11635_11672"
+        },
+        {
+          "start_time": 1168650,
+          "end_time": 1189900,
+          "content": "Obviously, I want to do more than one vehicle sale, but on top of that, everything we're doing on the service end, generating it was like 190,000 in revenue. Like I feel good about that sales. Three vehicle sales is good. Now that I have this data, I can be able to make better optimizations as well because I can see which phone calls are turning into sales and where those phone calls originated from.",
+          "speaker": "Speaker 2",
+          "original_speaker": "Speaker 2",
+          "segment_uid": "5b84856139632807be5c300fa2b61e27_11686_11899"
+        },
+        {
+          "start_time": 1191980,
+          "end_time": 1197980,
+          "content": "Yeah, and your eleven thousand number\u2014that's like this clicks total package, eleven thousand. Yeah,",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "5b84856139632807be5c300fa2b61e27_11919_11979"
+        },
+        {
+          "start_time": 1198780,
+          "end_time": 1202220,
+          "content": "That's just clicks from an ad into our system. Yep, yep.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "5b84856139632807be5c300fa2b61e27_11987_12022"
+        },
+        {
+          "start_time": 1202700,
+          "end_time": 1210030,
+          "content": "From From all of our sales stuff, and then this twenty six hundred from service combat, is from any of our service marketing.",
+          "speaker": "Speaker 2",
+          "original_speaker": "Speaker 2",
+          "segment_uid": "5b84856139632807be5c300fa2b61e27_12027_12100"
+        },
+        {
+          "start_time": 1211230,
+          "end_time": 1221470,
+          "content": "Yeah, you know, here's a you know, I'm reporting right now website leads is around one hundred and fifty two for that same. And then,",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "5b84856139632807be5c300fa2b61e27_12112_12214"
+        },
+        {
+          "start_time": 1221470,
+          "end_time": 1225870,
+          "content": "And that's like lead, that's the lead form completions as well, which is something I'm not able to track.",
+          "speaker": "Speaker 2",
+          "original_speaker": "Speaker 2",
+          "segment_uid": "5b84856139632807be5c300fa2b61e27_12214_12258"
+        },
+        {
+          "start_time": 1225870,
+          "end_time": 1233330,
+          "content": "Yep, and so yeah. And look, and even that's not perfect, but that's like the GA four estimate based on whatever tags that we have, you know.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "5b84856139632807be5c300fa2b61e27_12258_12333"
+        },
+        {
+          "start_time": 1234130,
+          "end_time": 1239970,
+          "content": "And then, and then on for it's funny though because OEM same time period is only around twenty three leads,",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "5b84856139632807be5c300fa2b61e27_12341_12399"
+        },
+        {
+          "start_time": 1241250,
+          "end_time": 1245010,
+          "content": "You know. And so you consider the amount of money that that I know that they spend.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "5b84856139632807be5c300fa2b61e27_12412_12450"
+        },
+        {
+          "start_time": 1245890,
+          "end_time": 1255970,
+          "content": "And look, a lot of their stuff that's just their own website stuff. So you know, your own BMW USA test drive, get a quote from BMW USA like.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "5b84856139632807be5c300fa2b61e27_12458_12559"
+        },
+        {
+          "start_time": 1256720,
+          "end_time": 1264480,
+          "content": "That's specific to them. So yeah, like Auto Trader generates more traffic than the OEM leads, than those KPI OEM leads.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "5b84856139632807be5c300fa2b61e27_12567_12644"
+        },
+        {
+          "start_time": 1265440,
+          "end_time": 1268720,
+          "content": "How how do we perform compared to like Auto Trader? Just my curiosity.",
+          "speaker": "Speaker 2",
+          "original_speaker": "Speaker 2",
+          "segment_uid": "5b84856139632807be5c300fa2b61e27_12654_12687"
+        },
+        {
+          "start_time": 1269760,
+          "end_time": 1273200,
+          "content": "Ah, you know, I well, let's see.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "5b84856139632807be5c300fa2b61e27_12697_12732"
+        },
+        {
+          "start_time": 1273360,
+          "end_time": 1276080,
+          "content": "Not trying to say you need to give me more money and take it away from Auto Trader.",
+          "speaker": "Speaker 2",
+          "original_speaker": "Speaker 2",
+          "segment_uid": "5b84856139632807be5c300fa2b61e27_12733_12760"
+        },
+        {
+          "start_time": 1276080,
+          "end_time": 1279440,
+          "content": "That's just fifty four actual leads,",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "5b84856139632807be5c300fa2b61e27_12760_12794"
+        },
+        {
+          "start_time": 1280160,
+          "end_time": 1284880,
+          "content": "But that doesn't count traffic from Auto Trader. So I have also have.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "5b84856139632807be5c300fa2b61e27_12801_12848"
+        },
+        {
+          "start_time": 1286000,
+          "end_time": 1293360,
+          "content": "You know, a kind of a crazy amount of traffic that just gets sent to us from so Auto Trader is six hundred and seventy nine visits,",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "5b84856139632807be5c300fa2b61e27_12860_12933"
+        },
+        {
+          "start_time": 1294400,
+          "end_time": 1298560,
+          "content": "And that's just Auto Trader, not KMB. And yeah, you know,",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "5b84856139632807be5c300fa2b61e27_12944_12985"
+        },
+        {
+          "start_time": 1299920,
+          "end_time": 1305200,
+          "content": "Low, you know, pretty low funnel. What that is is they were on a VDP probably and clicked our website and popped.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "5b84856139632807be5c300fa2b61e27_12999_13052"
+        },
+        {
+          "start_time": 1305200,
+          "end_time": 1310320,
+          "content": "Yeah, they were on the Auto Trader VDP, clicked to go to the dealer website on there, but Auto Trader and.",
+          "speaker": "Speaker 2",
+          "original_speaker": "Speaker 2",
+          "segment_uid": "5b84856139632807be5c300fa2b61e27_13052_13103"
+        },
+        {
+          "start_time": 1310870,
+          "end_time": 1318470,
+          "content": "This is just my understanding of Auto Trader from how I've used it and somewhat how other dealers use it. That's mostly focused on used inventory, though, correct?",
+          "speaker": "Speaker 2",
+          "original_speaker": "Speaker 2",
+          "segment_uid": "5b84856139632807be5c300fa2b61e27_13108_13184"
+        },
+        {
+          "start_time": 1319350,
+          "end_time": 1329750,
+          "content": "No, I mean it's it's definitely new used diagnostic. I mean it's new inventory. Oh, cool. I mean it's all of our inventory, and what it is the reason you so yeah you have to be on there for used,",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "5b84856139632807be5c300fa2b61e27_13193_13297"
+        },
+        {
+          "start_time": 1330390,
+          "end_time": 1335830,
+          "content": "But you're on there for new because it helps move cars that don't move as quickly in your direct market.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "5b84856139632807be5c300fa2b61e27_13303_13358"
+        },
+        {
+          "start_time": 1336790,
+          "end_time": 1343980,
+          "content": "True. You know it helps move the higher ticket shit. The weird shit, the crazy cars, like it helps move those things along a little quicker.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "5b84856139632807be5c300fa2b61e27_13367_13439"
+        },
+        {
+          "start_time": 1345100,
+          "end_time": 1346060,
+          "content": "So, but anyway,",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "5b84856139632807be5c300fa2b61e27_13451_13460"
+        },
+        {
+          "start_time": 1346300,
+          "end_time": 1356140,
+          "content": "That makes sense. I just for how most dealerships talk about like the Auto Traders and Cars dot com stuff of the world, they talk about like pulling back from like their used packages and stuff like that.",
+          "speaker": "Speaker 2",
+          "original_speaker": "Speaker 2",
+          "segment_uid": "5b84856139632807be5c300fa2b61e27_13463_13561"
+        },
+        {
+          "start_time": 1356700,
+          "end_time": 1358060,
+          "content": "Yeah, and it's usually a mistake.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "5b84856139632807be5c300fa2b61e27_13567_13580"
+        },
+        {
+          "start_time": 1359500,
+          "end_time": 1362220,
+          "content": "Like, if you start pulling your used off of Auto Trader,",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "5b84856139632807be5c300fa2b61e27_13595_13622"
+        },
+        {
+          "start_time": 1362780,
+          "end_time": 1368700,
+          "content": "I unless you're a big group that's got a really big group site that gets a lot, a lot of traffic.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "5b84856139632807be5c300fa2b61e27_13627_13687"
+        },
+        {
+          "start_time": 1370930,
+          "end_time": 1376610,
+          "content": "You get your your used department's going to get less traffic if you come off an auto trader. It's going to be meaningful. It's not going to be small.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "5b84856139632807be5c300fa2b61e27_13709_13766"
+        },
+        {
+          "start_time": 1377410,
+          "end_time": 1379490,
+          "content": "I I understand that.",
+          "speaker": "Speaker 2",
+          "original_speaker": "Speaker 2",
+          "segment_uid": "5b84856139632807be5c300fa2b61e27_13774_13794"
+        },
+        {
+          "start_time": 1379490,
+          "end_time": 1388050,
+          "content": "And I probably gripe was with y'all's. I feel like you're kind of underreporting. You know, like you said, yeah, rather underreport than report fugazi numbers. Like,",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "5b84856139632807be5c300fa2b61e27_13794_13880"
+        },
+        {
+          "start_time": 1388930,
+          "end_time": 1400550,
+          "content": "But it's almost like I wonder if someone there could figure out a way to do better. Like, y'all should maybe whoever's doing helping with all these reports should maybe. Are y'all not pulling GA4 data so that you could merge the two?",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "5b84856139632807be5c300fa2b61e27_13889_14005"
+        },
+        {
+          "start_time": 1401270,
+          "end_time": 1409590,
+          "content": "So we are pulling this data into GA4 to get some of the information over. Now,",
+          "speaker": "Speaker 2",
+          "original_speaker": "Speaker 2",
+          "segment_uid": "5b84856139632807be5c300fa2b61e27_14012_14095"
+        },
+        {
+          "start_time": 1410550,
+          "end_time": 1417510,
+          "content": "Could we get some of the GA4 data from like the lead form fills? I could absolutely see that.",
+          "speaker": "Speaker 2",
+          "original_speaker": "Speaker 2",
+          "segment_uid": "5b84856139632807be5c300fa2b61e27_14105_14175"
+        },
+        {
+          "start_time": 1418390,
+          "end_time": 1419110,
+          "content": "Problem.",
+          "speaker": "Speaker 2",
+          "original_speaker": "Speaker 2",
+          "segment_uid": "5b84856139632807be5c300fa2b61e27_14183_14191"
+        },
+        {
+          "start_time": 1420230,
+          "end_time": 1425430,
+          "content": "Problem with that on a large scale is a lot of dealers don't like us building out stuff in their GA4,",
+          "speaker": "Speaker 2",
+          "original_speaker": "Speaker 2",
+          "segment_uid": "5b84856139632807be5c300fa2b61e27_14202_14254"
+        },
+        {
+          "start_time": 1426870,
+          "end_time": 1454270,
+          "content": "Like. You'd be shocked how much pushback we got on trying to build out some of the stuff that we needed to in order to get this tracking to pull through. Yeah. Um, as well as just limitations on some dealers' websites where they don't have as much insight as you do on um lead form completions. They they count lead form completion as what shows up in their CRM, right? Not in terms of like what the source is from GA four.",
+          "speaker": "Speaker 2",
+          "original_speaker": "Speaker 2",
+          "segment_uid": "5b84856139632807be5c300fa2b61e27_14268_14542"
+        },
+        {
+          "start_time": 1454790,
+          "end_time": 1465430,
+          "content": "Yeah, I mean, I'm doing both. Like, I have my report has all of the CRM leads injected into it, and all the GA four, so it can kind of cross reference and merge the data.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "5b84856139632807be5c300fa2b61e27_14547_14654"
+        },
+        {
+          "start_time": 1465430,
+          "end_time": 1496410,
+          "content": "And from a service standpoint, what I would love to be able to do, like, say, I mean, sales is king at the end of the day. What I'd love to be able to do is understand, like, be able to get some sort of tracking on these like scheduled service forms here, because. Being being able to complete the funnel on there is what like I work with a large automotive group and they they like worked relentlessly with CDK to pass through like UTM parameters over so that they could get that into their CRM. CDK doesn't do that for for anybody else.",
+          "speaker": "Speaker 2",
+          "original_speaker": "Speaker 2",
+          "segment_uid": "5b84856139632807be5c300fa2b61e27_14654_14964"
+        },
+        {
+          "start_time": 1496810,
+          "end_time": 1520890,
+          "content": "But being able to get like if I could pass a UTM parameter like have a hidden field in this lead form that is just like UTM source. And be able to match that person back, like that would be awesome. But I'm not, I'm not the web provider. Like Motive will accommodate that very easily. Yeah. Dealer. com, Dealer. com ain't gonna accommodate that much at all.",
+          "speaker": "Speaker 2",
+          "original_speaker": "Speaker 2",
+          "segment_uid": "5b84856139632807be5c300fa2b61e27_14968_15208"
+        },
+        {
+          "start_time": 1521050,
+          "end_time": 1528170,
+          "content": "Well, it's because they compete with you. Motive is, Motive is, yeah, literally just a web provider. Like they won't even build good SEO for the dealer.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "5b84856139632807be5c300fa2b61e27_15210_15281"
+        },
+        {
+          "start_time": 1529050,
+          "end_time": 1551590,
+          "content": "Yeah. I mean, Dealer. com, like, not that. Not to talk about what other programs might have, I'm willing to bet dealer. dot com and some of those have better, like full funnel on some of this stuff. So it's somewhere where we're trying to grow in terms of what JNL can do, as well as how we make optimizations just with all of the new fun tools I have available on the back end. Is what I'll say. Yeah.",
+          "speaker": "Speaker 2",
+          "original_speaker": "Speaker 2",
+          "segment_uid": "5b84856139632807be5c300fa2b61e27_15290_15515"
+        },
+        {
+          "start_time": 1553910,
+          "end_time": 1561470,
+          "content": "Yeah, and honestly, you guys should be building more and more extra shit. Because it's really easy build shit.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "5b84856139632807be5c300fa2b61e27_15539_15614"
+        },
+        {
+          "start_time": 1562510,
+          "end_time": 1581550,
+          "content": "We, I don't think I'm allowed to show it off, but RIT team and their, they've they've worked on like some sort of like an LMM for us, just to help us red flag stuff immediately. And then my best twenty bucks a month is spent on my cloud subscription. Yeah, yeah,",
+          "speaker": "Speaker 2",
+          "original_speaker": "Speaker 2",
+          "segment_uid": "5b84856139632807be5c300fa2b61e27_15625_15815"
+        },
+        {
+          "start_time": 1583230,
+          "end_time": 1587710,
+          "content": "Yeah. That email that I just sent you was sent by Copper while we were talking.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "5b84856139632807be5c300fa2b61e27_15832_15877"
+        },
+        {
+          "start_time": 1589290,
+          "end_time": 1590810,
+          "content": "I'll check it out when I get off this.",
+          "speaker": "Speaker 2",
+          "original_speaker": "Speaker 2",
+          "segment_uid": "5b84856139632807be5c300fa2b61e27_15892_15908"
+        },
+        {
+          "start_time": 1591290,
+          "end_time": 1607050,
+          "content": "But it's the full summary of all the stuff that we talked about, but also of all the campaigns that I'm running. But then also the links to some of the assets, so y'all don't have to go fight with them in the BMW portable. I had I downloaded all the Road Home Sales event and the Drive to End Hunger assets.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "5b84856139632807be5c300fa2b61e27_15912_16070"
+        },
+        {
+          "start_time": 1608090,
+          "end_time": 1611130,
+          "content": "Yeah. So if you want to grab a couple Drive to End Hunger assets, they're in there.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "5b84856139632807be5c300fa2b61e27_16080_16111"
+        },
+        {
+          "start_time": 1612330,
+          "end_time": 1624230,
+          "content": "We just built we just built something out to help us pull disclaimers ten times easier because. The disclaimers that are on the website for like all these offers are not the disclaimers you're supposed to use on the ads. It's supposed to be like slightly different.",
+          "speaker": "Speaker 2",
+          "original_speaker": "Speaker 2",
+          "segment_uid": "5b84856139632807be5c300fa2b61e27_16123_16242"
+        },
+        {
+          "start_time": 1624310,
+          "end_time": 1625430,
+          "content": "And then, yeah,",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "5b84856139632807be5c300fa2b61e27_16243_16254"
+        },
+        {
+          "start_time": 1626230,
+          "end_time": 1635750,
+          "content": "I hate I hate incentive week, with with a passion. But those were really the big things I want to talk about. Performance looks good overall.",
+          "speaker": "Speaker 2",
+          "original_speaker": "Speaker 2",
+          "segment_uid": "5b84856139632807be5c300fa2b61e27_16262_16357"
+        },
+        {
+          "start_time": 1636310,
+          "end_time": 1662880,
+          "content": "I'm happy to report on some of the like ROI that I'm able to give back. Obviously, you're right to call out that like we're underreporting it. I'd rather underreport it than overreport it. But if we want to be able to show better value, I like what you're calling out, and I'll talk with my director when he he is on a trip right now. But I'll talk with my director about that and see if there's more that we can do. Especially since we're linked into GAFOR with you guys, how much more can we do?",
+          "speaker": "Speaker 2",
+          "original_speaker": "Speaker 2",
+          "segment_uid": "5b84856139632807be5c300fa2b61e27_16363_16628"
+        },
+        {
+          "start_time": 1663040,
+          "end_time": 1669600,
+          "content": "Yeah, that's what I was assuming. I know you're already in there, so it's like, and I I have a lot of stuff built out in there, and I can and I'm build more. It's like.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "5b84856139632807be5c300fa2b61e27_16630_16696"
+        },
+        {
+          "start_time": 1670340,
+          "end_time": 1682500,
+          "content": "You know, if I need something, I have my agents are connected through an app called Pipeboard directly into my all of my systems. And so, if I need something, I go, \"Hey, I need to know this,\" and they just go figure out how to give it to me.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "5b84856139632807be5c300fa2b61e27_16703_16825"
+        },
+        {
+          "start_time": 1683780,
+          "end_time": 1684500,
+          "content": "Sorry, not that.",
+          "speaker": "Speaker 2",
+          "original_speaker": "Speaker 2",
+          "segment_uid": "5b84856139632807be5c300fa2b61e27_16837_16845"
+        },
+        {
+          "start_time": 1685140,
+          "end_time": 1690740,
+          "content": "You don't need to like. You don't have to know how to do everything anymore. You just need to know what you want and know how to communicate.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "5b84856139632807be5c300fa2b61e27_16851_16907"
+        },
+        {
+          "start_time": 1692020,
+          "end_time": 1692660,
+          "content": "Correct.",
+          "speaker": "Speaker 2",
+          "original_speaker": "Speaker 2",
+          "segment_uid": "5b84856139632807be5c300fa2b61e27_16920_16926"
+        },
+        {
+          "start_time": 1692900,
+          "end_time": 1694820,
+          "content": "You know, and I what it's funny.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "5b84856139632807be5c300fa2b61e27_16929_16948"
+        },
+        {
+          "start_time": 1694980,
+          "end_time": 1695780,
+          "content": "Very true.",
+          "speaker": "Speaker 2",
+          "original_speaker": "Speaker 2",
+          "segment_uid": "5b84856139632807be5c300fa2b61e27_16949_16957"
+        },
+        {
+          "start_time": 1696100,
+          "end_time": 1697620,
+          "content": "Try to teach people AI.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "5b84856139632807be5c300fa2b61e27_16961_16976"
+        },
+        {
+          "start_time": 1698220,
+          "end_time": 1706700,
+          "content": "Because I've got like my brother, a good friend of mine. I've got like three people right now that I'm just trying to get on board with this specifically Grokbot, because of the ability of it.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "5b84856139632807be5c300fa2b61e27_16982_17067"
+        },
+        {
+          "start_time": 1707420,
+          "end_time": 1715340,
+          "content": "And I'm like, dude, this gives you what I had. What it cost me thousands of dollars to set up and use for months with Hermes and all these other fucking things.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "5b84856139632807be5c300fa2b61e27_17074_17153"
+        },
+        {
+          "start_time": 1716060,
+          "end_time": 1720060,
+          "content": "This gives you that by literally downloading a ten dollar a month app.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "5b84856139632807be5c300fa2b61e27_17160_17200"
+        },
+        {
+          "start_time": 1721020,
+          "end_time": 1729760,
+          "content": "Yeah, just hit talk and just start talking to it and telling it what you do and who you are. And it'll like invent ways to make shit easier for you.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "5b84856139632807be5c300fa2b61e27_17210_17297"
+        },
+        {
+          "start_time": 1730480,
+          "end_time": 1732640,
+          "content": "I mean, it's yeah, completely.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "5b84856139632807be5c300fa2b61e27_17304_17326"
+        },
+        {
+          "start_time": 1733680,
+          "end_time": 1736560,
+          "content": "It's definitely out of out of control how easy it is.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "5b84856139632807be5c300fa2b61e27_17336_17365"
+        },
+        {
+          "start_time": 1737280,
+          "end_time": 1756660,
+          "content": "I I've been using Claude to just do data analysis for me. It's just so so much of that because I I get lost in the weeds going through like each individual account, and it can build out trend lines for me just across like large groups of data, and that's what I need. I do want to show you this, just in case you start playing in GA Four and wondering what the hell this is.",
+          "speaker": "Speaker 2",
+          "original_speaker": "Speaker 2",
+          "segment_uid": "5b84856139632807be5c300fa2b61e27_17372_17566"
+        },
+        {
+          "start_time": 1757300,
+          "end_time": 1762020,
+          "content": "This call tracking stuff right here. Cool. This is the stuff J and L built out. Yep. Yeah.",
+          "speaker": "Speaker 2",
+          "original_speaker": "Speaker 2",
+          "segment_uid": "5b84856139632807be5c300fa2b61e27_17573_17620"
+        },
+        {
+          "start_time": 1763460,
+          "end_time": 1774020,
+          "content": "And then we also built out this custom metric that is the call tracking transaction amount. So as long as if you need to do anything in GA Four, I need those.",
+          "speaker": "Speaker 2",
+          "original_speaker": "Speaker 2",
+          "segment_uid": "5b84856139632807be5c300fa2b61e27_17634_17740"
+        },
+        {
+          "start_time": 1774900,
+          "end_time": 1776980,
+          "content": "Yeah, I'm not going to fool with that. And I and I.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "5b84856139632807be5c300fa2b61e27_17749_17769"
+        },
+        {
+          "start_time": 1777670,
+          "end_time": 1786150,
+          "content": "I don't mess with anything specifically other than, generally, what I the stuff I need is already kind of handled by whatever tags already have in there, and so yeah,",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "5b84856139632807be5c300fa2b61e27_17776_17861"
+        },
+        {
+          "start_time": 1786710,
+          "end_time": 1812460,
+          "content": "You know. And I do have a couple of holes like in my data. I forgot there's some form fills that don't work. Motive has some of their form fills that are just not normal, and you've experienced that, like the little pop up, like the little widgety things. Sometimes I don't think give you full attribution because of. I don't know whatever the path of of the you know whatever the workflow for the gadget is, but like the my trade widget, I don't know if that one gives you everything whenever you're trying to get it.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "5b84856139632807be5c300fa2b61e27_17867_18124"
+        },
+        {
+          "start_time": 1813420,
+          "end_time": 1821340,
+          "content": "Yeah, so like this one here, like pretty much from the moment it opens, I can't track Jack. Right, and like if somebody clicks forward,",
+          "speaker": "Speaker 2",
+          "original_speaker": "Speaker 2",
+          "segment_uid": "5b84856139632807be5c300fa2b61e27_18134_18213"
+        },
+        {
+          "start_time": 1821820,
+          "end_time": 1825260,
+          "content": "You know they open, and then you know they submitted it. Is that what you know?",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "5b84856139632807be5c300fa2b61e27_18218_18252"
+        },
+        {
+          "start_time": 1826380,
+          "end_time": 1829020,
+          "content": "That like that's the case for most of this. Like I.",
+          "speaker": "Speaker 2",
+          "original_speaker": "Speaker 2",
+          "segment_uid": "5b84856139632807be5c300fa2b61e27_18263_18290"
+        },
+        {
+          "start_time": 1829540,
+          "end_time": 1841700,
+          "content": "I can't tell too much. Like I can tell that somebody's clicking around in here, but I can't tell that they wrote Michael Dorsey and the first and last name. Now I think Google can catch that with enhanced conversions,",
+          "speaker": "Speaker 2",
+          "original_speaker": "Speaker 2",
+          "segment_uid": "5b84856139632807be5c300fa2b61e27_18295_18417"
+        },
+        {
+          "start_time": 1842580,
+          "end_time": 1881370,
+          "content": "Which is something else that we're working on trying to utilize Google because Google does know like the PII of what people actually put into these forms. And we have the Google Click ID that is tied to that person. So if we say that, hey, this Google Click ID came through, and then they're able to match it back to whatever you know, it's a whether it's a repair order or a sale. At the end of the day, like that's the next step of this evolution. But that's kind of the path forward: offline conversions and like off utilizing CRM data with your campaigns is the future of Google.",
+          "speaker": "Speaker 2",
+          "original_speaker": "Speaker 2",
+          "segment_uid": "5b84856139632807be5c300fa2b61e27_18425_18813"
+        },
+        {
+          "start_time": 1881450,
+          "end_time": 1892870,
+          "content": "It's in the future for. I'll say five years, but now Google is really, really pushing it, like using hard data to tell what's working rather than button clicks. Right.",
+          "speaker": "Speaker 2",
+          "original_speaker": "Speaker 2",
+          "segment_uid": "5b84856139632807be5c300fa2b61e27_18814_18928"
+        },
+        {
+          "start_time": 1894550,
+          "end_time": 1894870,
+          "content": "But,",
+          "speaker": "Speaker 2",
+          "original_speaker": "Speaker 2",
+          "segment_uid": "5b84856139632807be5c300fa2b61e27_18945_18948"
+        },
+        {
+          "start_time": 1895910,
+          "end_time": 1927170,
+          "content": "Like I said, man, I'm I'm excited to share the new stuff and just continue keep pushing forward on this on this with you. I will take a look at the email you sent. And did you send over the like Drive to End Hunger stuff as well? Cool. There might be a chance that it won't be in your inbox because Outlook is down and has been down for about an hour. I was wondering if that was me, but I I will take I will take a look at that when my email decides to work, Lance. But I will I'll let you know if I have any issues, man.",
+          "speaker": "Speaker 2",
+          "original_speaker": "Speaker 2",
+          "segment_uid": "5b84856139632807be5c300fa2b61e27_18959_19271"
+        },
+        {
+          "start_time": 1927570,
+          "end_time": 1929570,
+          "content": "Sounds good. Thank you guys. Y'all have a good one.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "5b84856139632807be5c300fa2b61e27_19275_19295"
+        },
+        {
+          "start_time": 1930130,
+          "end_time": 1933490,
+          "content": "You as well, man. See you later. Bye.",
+          "speaker": "Speaker 2",
+          "original_speaker": "Speaker 2",
+          "segment_uid": "5b84856139632807be5c300fa2b61e27_19301_19334"
+        }
+      ]
+    },
     {
       "id": "of_d35cb3db2919702a2fe0562a1d6a2218",
       "name": "ABR \u00b7 Chad pricing lock + Willow Grove Q7/Q9 (Nov 10)",
