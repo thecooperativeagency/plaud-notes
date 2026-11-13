@@ -1,5 +1,5 @@
 {
-  "revision": "PLAUD-NOTES-2026-11-12-1331",
+  "revision": "PLAUD-NOTES-2026-11-13-0601",
   "recordings": [
     {
       "id": "of_5a669fef1adef8cb22a48f379f895086",
@@ -100595,6 +100595,2237 @@
           "speaker": "Speaker 1",
           "original_speaker": "Speaker 1",
           "segment_uid": "adfd3f6eeec1dd8ddf85ee27bd223deb_832_844"
+        }
+      ]
+    },
+    {
+      "id": "of_7d9af3f64f61adc6bddcec88482897a8",
+      "name": "ABR \u00b7 OADD secondary site + Vania Beauchemin (Nov 12)",
+      "start_at": "2026-11-12T19:56:46.768000",
+      "created_at": "2026-11-12T20:28:52",
+      "duration_ms": 1922000,
+      "vertical": "dealers",
+      "store": "abr",
+      "routed_by": "Morning ops Nov 13 \u2014 ABR Audi OADD OEM secondary site call",
+      "status": "park",
+      "work_order": "Park. Lance owes Vania: (1) AI FAQ markdown/text for editorial accordion; (2) email for AI/MCP/AEM support case (Audi Legal gate). Ada holds site work until pack is ready.",
+      "summary_md": "### ABR \u00b7 Audi OADD secondary site \u00b7 Vania Beauchemin \u00b7 Nov 12 (~32m)\n**Who:** Lance + **Vania Beauchemin** (Audi OADD / OEM secondary site). Outlook outage day; Lance logged via direct AEM link + 2FA.\n\n**Posture**\n- OADD stays **secondary** to Motive primary. Vania keeps bills/APRs current; Lance spot-checks weekly.\n- Backend tip: **Universal Editor** (index \u2192 preview) over folder tree.\n\n**Updates walked**\n- **Quattro Season** content (+ optional carousel video)\n- **Alpha design** background = Audi USA\n- Inventory shows **more units at once**\n- Carousel **image clickability** for specials\n- Listing-page + FAQ structured data\n- **Custom form creation** coming\n- Info-request \u2192 **CRM + vehicle of interest**; event forms use distinct code\n- Analytics: **Atlas \u2192 Audi Now / Audi Intelligence**\n\n**AI / FAQ**\n- Audi AI-search FAQs \u2192 she drops into **editorial accordion** if Lance sends text/markdown\n- MCP/AEM connector: email Vania \u2192 **support case**; **Audi Legal** reviewing dealer AI. Adobe has official AEM connector; Audi must allow.\n- Primary-site ask (her director): Lance needs a **modern backend** before OADD as primary (Adobe UX rough vs Storyblok/Motive automation). She will relay.\n\n**Work:** Lance emails Vania FAQ pack + AI access request. Ada holds.",
+      "highlights": [
+        {
+          "title": "Universal Editor",
+          "content": "Prefer Universal Editor path over folder tree for OADD edits.",
+          "timestamp": 945340
+        },
+        {
+          "title": "FAQ accordion",
+          "content": "Lance sends FAQ markdown; Vania enables editorial accordion + structured data.",
+          "timestamp": 1075760
+        },
+        {
+          "title": "AI/MCP case",
+          "content": "Email Vania \u2192 support case; Audi Legal gate on dealer AI/AEM connector.",
+          "timestamp": 1397940
+        },
+        {
+          "title": "Primary bar",
+          "content": "Modern backend required to reconsider OADD as primary.",
+          "timestamp": 1455840
+        }
+      ],
+      "plaud_note_md": "- Lance logged into the backend using a direct link and two-factor authentication after Outlook disruptions. Speaker 3 demonstrated backend navigation and recommended the Universal Editor.\n- Website updates include Quattro Season content, Audi USA-aligned styling, expanded inventory display, clickable carousel images, and listing-page and FAQ changes. Audi is introducing custom form creation. Info-request forms route to the CRM with vehicle and, when applicable, event details; analytics moved from Atlas to Audi Now.\n- Speaker 3 said Audi-provided AI-search FAQs could be added using an editorial accordion; Lance agreed to send the text files.\n- Lance asked about AI/MCP access. Speaker 3 said to email them to open a support case and noted Audi Legal was reviewing dealer AI requests. Lance said a more modern backend would be needed for his group to return to OADD as its primary site, and described Adobe\u2019s backend as difficult to use. Speaker 3 said they would share his feedback with the team.\n- Lance described AI tools he uses to update website content and create newsletters, which he reviews, and said site bills and APRs were current.",
+      "transcript": [
+        {
+          "start_time": 171960,
+          "end_time": 173320,
+          "content": "Hey, throw, throw!",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "7d9af3f64f61adc6bddcec88482897a8_1719_1733"
+        },
+        {
+          "start_time": 179240,
+          "end_time": 181120,
+          "content": "Action!",
+          "speaker": "Speaker 2",
+          "original_speaker": "Speaker 2",
+          "segment_uid": "7d9af3f64f61adc6bddcec88482897a8_1792_1811"
+        },
+        {
+          "start_time": 183000,
+          "end_time": 190280,
+          "content": "We just dropped the shit off the front yard. What's up, on the?",
+          "speaker": "Speaker 2",
+          "original_speaker": "Speaker 2",
+          "segment_uid": "7d9af3f64f61adc6bddcec88482897a8_1830_1902"
+        },
+        {
+          "start_time": 289920,
+          "end_time": 291840,
+          "content": "Hey, Lance. How are you?",
+          "speaker": "Speaker 3",
+          "original_speaker": "Speaker 3",
+          "segment_uid": "7d9af3f64f61adc6bddcec88482897a8_2899_2918"
+        },
+        {
+          "start_time": 292000,
+          "end_time": 293200,
+          "content": "I'm doing well. How are you?",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "7d9af3f64f61adc6bddcec88482897a8_2920_2932"
+        },
+        {
+          "start_time": 294160,
+          "end_time": 296000,
+          "content": "Not long time, not see.",
+          "speaker": "Speaker 3",
+          "original_speaker": "Speaker 3",
+          "segment_uid": "7d9af3f64f61adc6bddcec88482897a8_2941_2960"
+        },
+        {
+          "start_time": 296400,
+          "end_time": 298080,
+          "content": "It's been too long. How's it been?",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "7d9af3f64f61adc6bddcec88482897a8_2964_2980"
+        },
+        {
+          "start_time": 298960,
+          "end_time": 301840,
+          "content": "Good. I know it's been it's been long. Good, good.",
+          "speaker": "Speaker 3",
+          "original_speaker": "Speaker 3",
+          "segment_uid": "7d9af3f64f61adc6bddcec88482897a8_2989_3018"
+        },
+        {
+          "start_time": 302640,
+          "end_time": 305280,
+          "content": "Give me a sec, cause my Audi is giving me issues.",
+          "speaker": "Speaker 3",
+          "original_speaker": "Speaker 3",
+          "segment_uid": "7d9af3f64f61adc6bddcec88482897a8_3026_3052"
+        },
+        {
+          "start_time": 306000,
+          "end_time": 306560,
+          "content": "Oh, it's all good.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "7d9af3f64f61adc6bddcec88482897a8_3060_3065"
+        },
+        {
+          "start_time": 308320,
+          "end_time": 308960,
+          "content": "I got time.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "7d9af3f64f61adc6bddcec88482897a8_3083_3089"
+        },
+        {
+          "start_time": 309680,
+          "end_time": 317920,
+          "content": "I'm between things. I'm running errands, and I was at my BMW store for a little while already. I was at Audi and Porsche already, and.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "7d9af3f64f61adc6bddcec88482897a8_3096_3179"
+        },
+        {
+          "start_time": 318730,
+          "end_time": 322730,
+          "content": "I'm driving a Audi Q nine right now for pictures for social media.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "7d9af3f64f61adc6bddcec88482897a8_3187_3227"
+        },
+        {
+          "start_time": 324490,
+          "end_time": 326970,
+          "content": "You are, yeah. So that's. Can you hear me?",
+          "speaker": "Speaker 3",
+          "original_speaker": "Speaker 3",
+          "segment_uid": "7d9af3f64f61adc6bddcec88482897a8_3244_3269"
+        },
+        {
+          "start_time": 327130,
+          "end_time": 329290,
+          "content": "Okay. For the day, yep, I can hear you. Can you hear me?",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "7d9af3f64f61adc6bddcec88482897a8_3271_3292"
+        },
+        {
+          "start_time": 330170,
+          "end_time": 338410,
+          "content": "Yes, I can. It just for whatever reason is giving me feedback. All right, let's do this one more time. Maybe this will work. There we go. Hi.",
+          "speaker": "Speaker 3",
+          "original_speaker": "Speaker 3",
+          "segment_uid": "7d9af3f64f61adc6bddcec88482897a8_3301_3384"
+        },
+        {
+          "start_time": 339530,
+          "end_time": 341530,
+          "content": "How are you? Sorry, I didn't hear the first part.",
+          "speaker": "Speaker 3",
+          "original_speaker": "Speaker 3",
+          "segment_uid": "7d9af3f64f61adc6bddcec88482897a8_3395_3415"
+        },
+        {
+          "start_time": 342730,
+          "end_time": 347050,
+          "content": "I was just saying I've been busy already and had to run and pick my wife up at the.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "7d9af3f64f61adc6bddcec88482897a8_3427_3470"
+        },
+        {
+          "start_time": 348240,
+          "end_time": 354640,
+          "content": "She's getting some like brake work done, so I picked her up and then came home for this for for a little lunch break. How you been?",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "7d9af3f64f61adc6bddcec88482897a8_3482_3546"
+        },
+        {
+          "start_time": 355440,
+          "end_time": 356560,
+          "content": "Nice, good, good.",
+          "speaker": "Speaker 3",
+          "original_speaker": "Speaker 3",
+          "segment_uid": "7d9af3f64f61adc6bddcec88482897a8_3554_3565"
+        },
+        {
+          "start_time": 357120,
+          "end_time": 362400,
+          "content": "Busy and not sure if you saw the Outlook issues.",
+          "speaker": "Speaker 3",
+          "original_speaker": "Speaker 3",
+          "segment_uid": "7d9af3f64f61adc6bddcec88482897a8_3571_3624"
+        },
+        {
+          "start_time": 363280,
+          "end_time": 367520,
+          "content": "Emails not sending, emails not receiving. Apparently, there's a yeah,",
+          "speaker": "Speaker 3",
+          "original_speaker": "Speaker 3",
+          "segment_uid": "7d9af3f64f61adc6bddcec88482897a8_3632_3675"
+        },
+        {
+          "start_time": 367520,
+          "end_time": 383410,
+          "content": "There's a lot going on. But my main so I still have a the only Outlook email I have anymore is my Brian Harris Auto Group emails. But my own, like the like Lance at the co-op, BRLA, that email is not Outlook. So my normal emails work.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "7d9af3f64f61adc6bddcec88482897a8_3675_3834"
+        },
+        {
+          "start_time": 384610,
+          "end_time": 385170,
+          "content": "Nice.",
+          "speaker": "Speaker 3",
+          "original_speaker": "Speaker 3",
+          "segment_uid": "7d9af3f64f61adc6bddcec88482897a8_3846_3851"
+        },
+        {
+          "start_time": 385650,
+          "end_time": 393970,
+          "content": "Okay. I guess I should make sure you have that other email, but I do have my emails are all set up. Anything that goes to my Outlook is set to go to my other company,",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "7d9af3f64f61adc6bddcec88482897a8_3856_3939"
+        },
+        {
+          "start_time": 394930,
+          "end_time": 396130,
+          "content": "My company emails.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "7d9af3f64f61adc6bddcec88482897a8_3949_3961"
+        },
+        {
+          "start_time": 396290,
+          "end_time": 399730,
+          "content": "So and mine on the Volkswagen here,",
+          "speaker": "Speaker 3",
+          "original_speaker": "Speaker 3",
+          "segment_uid": "7d9af3f64f61adc6bddcec88482897a8_3962_3997"
+        },
+        {
+          "start_time": 401090,
+          "end_time": 417150,
+          "content": "All of them go through a security system. Yeah. Yep. And they use Volkswagen, like SSO or something like that, that you have to even have a specific card to put on your computer, and if you take it out, doesn't work. Oh God!",
+          "speaker": "Speaker 3",
+          "original_speaker": "Speaker 3",
+          "segment_uid": "7d9af3f64f61adc6bddcec88482897a8_4010_4171"
+        },
+        {
+          "start_time": 417710,
+          "end_time": 430350,
+          "content": "So I know since I have that through the Volkswagen group, I can't literally since one theory I haven't received or been able to send any emails.",
+          "speaker": "Speaker 3",
+          "original_speaker": "Speaker 3",
+          "segment_uid": "7d9af3f64f61adc6bddcec88482897a8_4177_4303"
+        },
+        {
+          "start_time": 431230,
+          "end_time": 432110,
+          "content": "That's no fun. So.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "7d9af3f64f61adc6bddcec88482897a8_4312_4321"
+        },
+        {
+          "start_time": 432710,
+          "end_time": 436950,
+          "content": "Here we are, but my team is working as you can see. Yeah.",
+          "speaker": "Speaker 3",
+          "original_speaker": "Speaker 3",
+          "segment_uid": "7d9af3f64f61adc6bddcec88482897a8_4327_4369"
+        },
+        {
+          "start_time": 438230,
+          "end_time": 440310,
+          "content": "Um, and I'm glad we could connect.",
+          "speaker": "Speaker 3",
+          "original_speaker": "Speaker 3",
+          "segment_uid": "7d9af3f64f61adc6bddcec88482897a8_4382_4403"
+        },
+        {
+          "start_time": 441030,
+          "end_time": 460870,
+          "content": "I wanted to, well, first and foremost, see if you need anything, cause I know we haven't spoken a bit. Um, there's been a lot of updates down the road, but obviously, I'd rather answer any questions that you might have top of mind, anything that you're like, ah, I was wondering about X, Y, C.",
+          "speaker": "Speaker 3",
+          "original_speaker": "Speaker 3",
+          "segment_uid": "7d9af3f64f61adc6bddcec88482897a8_4410_4608"
+        },
+        {
+          "start_time": 461430,
+          "end_time": 468150,
+          "content": "I don't have any big questions. I think I want to like renew, like make sure I can get into the back end. Okay.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "7d9af3f64f61adc6bddcec88482897a8_4614_4681"
+        },
+        {
+          "start_time": 470230,
+          "end_time": 475430,
+          "content": "Yeah. Just so that I can let's see, let me grab my.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "7d9af3f64f61adc6bddcec88482897a8_4702_4754"
+        },
+        {
+          "start_time": 479030,
+          "end_time": 480390,
+          "content": "It's not accessibility.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "7d9af3f64f61adc6bddcec88482897a8_4790_4803"
+        },
+        {
+          "start_time": 481830,
+          "end_time": 487350,
+          "content": "In my oh wait no you could technically let's ask you does it go through that now or not.",
+          "speaker": "Speaker 3",
+          "original_speaker": "Speaker 3",
+          "segment_uid": "7d9af3f64f61adc6bddcec88482897a8_4818_4873"
+        },
+        {
+          "start_time": 488370,
+          "end_time": 498770,
+          "content": "It does. It does. But I think you can also technically access it without having to go to Accessory. Ah. So.",
+          "speaker": "Speaker 3",
+          "original_speaker": "Speaker 3",
+          "segment_uid": "7d9af3f64f61adc6bddcec88482897a8_4883_4987"
+        },
+        {
+          "start_time": 500210,
+          "end_time": 504050,
+          "content": "You might be able to access it without having to go.",
+          "speaker": "Speaker 3",
+          "original_speaker": "Speaker 3",
+          "segment_uid": "7d9af3f64f61adc6bddcec88482897a8_5002_5040"
+        },
+        {
+          "start_time": 505330,
+          "end_time": 505970,
+          "content": "Through Accessory,",
+          "speaker": "Speaker 3",
+          "original_speaker": "Speaker 3",
+          "segment_uid": "7d9af3f64f61adc6bddcec88482897a8_5053_5059"
+        },
+        {
+          "start_time": 506610,
+          "end_time": 508530,
+          "content": "And if you want to, we can troubleshoot it.",
+          "speaker": "Speaker 3",
+          "original_speaker": "Speaker 3",
+          "segment_uid": "7d9af3f64f61adc6bddcec88482897a8_5066_5085"
+        },
+        {
+          "start_time": 511730,
+          "end_time": 513330,
+          "content": "Okay. Hang on. Let's see.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "7d9af3f64f61adc6bddcec88482897a8_5117_5133"
+        },
+        {
+          "start_time": 516320,
+          "end_time": 518240,
+          "content": "AEM English Egyptians.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "7d9af3f64f61adc6bddcec88482897a8_5163_5182"
+        },
+        {
+          "start_time": 519039,
+          "end_time": 519600,
+          "content": "Oh God!",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "7d9af3f64f61adc6bddcec88482897a8_5190_5196"
+        },
+        {
+          "start_time": 529520,
+          "end_time": 530800,
+          "content": "I'm doing two FA stuff.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "7d9af3f64f61adc6bddcec88482897a8_5295_5308"
+        },
+        {
+          "start_time": 531600,
+          "end_time": 539520,
+          "content": "Let's see if I can share my.",
+          "speaker": "Speaker 2",
+          "original_speaker": "Speaker 2",
+          "segment_uid": "7d9af3f64f61adc6bddcec88482897a8_5316_5395"
+        },
+        {
+          "start_time": 540080,
+          "end_time": 543760,
+          "content": "I'll try too.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "7d9af3f64f61adc6bddcec88482897a8_5400_5437"
+        },
+        {
+          "start_time": 545650,
+          "end_time": 562770,
+          "content": "Verification code. I want to make sure I can get in. I've got a lot. Okay. I've got like a whole team of like AI agents that I've built that actually help me like admin and modify and update all of my sites for all my other stores and the in for this. Okay. Oh, but for the other website,",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "7d9af3f64f61adc6bddcec88482897a8_5456_5627"
+        },
+        {
+          "start_time": 563410,
+          "end_time": 575600,
+          "content": "So I just want to see if I can get logged in and kind of get some things set up in there for like honestly. Some things like the LLMs dot text file. Do we have that on this Audi website? Do you know what I'm talking about?",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "7d9af3f64f61adc6bddcec88482897a8_5634_5756"
+        },
+        {
+          "start_time": 576960,
+          "end_time": 592160,
+          "content": "Ah, I think so because there was other dealers that were asking about it, and they might. You might get it blocked because I know Audi has.",
+          "speaker": "Speaker 3",
+          "original_speaker": "Speaker 3",
+          "segment_uid": "7d9af3f64f61adc6bddcec88482897a8_5769_5921"
+        },
+        {
+          "start_time": 592320,
+          "end_time": 593040,
+          "content": "Oh, it did not.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "7d9af3f64f61adc6bddcec88482897a8_5923_5930"
+        },
+        {
+          "start_time": 593120,
+          "end_time": 594400,
+          "content": "Ah, not be found.",
+          "speaker": "Speaker 3",
+          "original_speaker": "Speaker 3",
+          "segment_uid": "7d9af3f64f61adc6bddcec88482897a8_5931_5944"
+        },
+        {
+          "start_time": 596210,
+          "end_time": 608850,
+          "content": "Yeah, it might be that it is being blocked because Audi has a setup where you need to allow that through. They have\u2014I'm blanking on the name.",
+          "speaker": "Speaker 3",
+          "original_speaker": "Speaker 3",
+          "segment_uid": "7d9af3f64f61adc6bddcec88482897a8_5962_6088"
+        },
+        {
+          "start_time": 609970,
+          "end_time": 614610,
+          "content": "I'm blanking on the name,",
+          "speaker": "Speaker 2",
+          "original_speaker": "Speaker 2",
+          "segment_uid": "7d9af3f64f61adc6bddcec88482897a8_6099_6146"
+        },
+        {
+          "start_time": 614690,
+          "end_time": 625120,
+          "content": "But there there is a system that Audi has, and then if you need a approval for like the AIs to run, they have to like give that like yeah, good to go. I know how to.",
+          "speaker": "Speaker 3",
+          "original_speaker": "Speaker 3",
+          "segment_uid": "7d9af3f64f61adc6bddcec88482897a8_6146_6251"
+        },
+        {
+          "start_time": 625360,
+          "end_time": 627120,
+          "content": "They have to say yes, basically.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "7d9af3f64f61adc6bddcec88482897a8_6253_6271"
+        },
+        {
+          "start_time": 627920,
+          "end_time": 633920,
+          "content": "Yeah, basically. Yeah, because I know that StoryBlock is what is the system that Porsche uses.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "7d9af3f64f61adc6bddcec88482897a8_6279_6339"
+        },
+        {
+          "start_time": 634480,
+          "end_time": 638480,
+          "content": "Uh huh. They actually have a full API, so like my AI is plugged in directly.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "7d9af3f64f61adc6bddcec88482897a8_6344_6384"
+        },
+        {
+          "start_time": 639360,
+          "end_time": 643280,
+          "content": "Okay, and I mean Porsche is technically within the same family.",
+          "speaker": "Speaker 3",
+          "original_speaker": "Speaker 3",
+          "segment_uid": "7d9af3f64f61adc6bddcec88482897a8_6393_6432"
+        },
+        {
+          "start_time": 643600,
+          "end_time": 646480,
+          "content": "Are same family? It's just a whole different platform.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "7d9af3f64f61adc6bddcec88482897a8_6436_6464"
+        },
+        {
+          "start_time": 646560,
+          "end_time": 648640,
+          "content": "Platform. Yeah, I know.",
+          "speaker": "Speaker 3",
+          "original_speaker": "Speaker 3",
+          "segment_uid": "7d9af3f64f61adc6bddcec88482897a8_6465_6486"
+        },
+        {
+          "start_time": 649120,
+          "end_time": 655020,
+          "content": "So, what is the best place to go to get logged in? Not not getting in through Audi access Audi.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "7d9af3f64f61adc6bddcec88482897a8_6491_6550"
+        },
+        {
+          "start_time": 656460,
+          "end_time": 660540,
+          "content": "Let me give you the link here. Hopefully this one works.",
+          "speaker": "Speaker 3",
+          "original_speaker": "Speaker 3",
+          "segment_uid": "7d9af3f64f61adc6bddcec88482897a8_6564_6605"
+        },
+        {
+          "start_time": 660540,
+          "end_time": 662860,
+          "content": "Yeah, it's such a strange system.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "7d9af3f64f61adc6bddcec88482897a8_6605_6628"
+        },
+        {
+          "start_time": 663740,
+          "end_time": 666140,
+          "content": "I know it's just so much different.",
+          "speaker": "Speaker 3",
+          "original_speaker": "Speaker 3",
+          "segment_uid": "7d9af3f64f61adc6bddcec88482897a8_6637_6661"
+        },
+        {
+          "start_time": 666700,
+          "end_time": 678780,
+          "content": "Give me a minute and I will send you the link. Cause the other thing that my computer have hasn't been working because of that is um my Excel files,",
+          "speaker": "Speaker 3",
+          "original_speaker": "Speaker 3",
+          "segment_uid": "7d9af3f64f61adc6bddcec88482897a8_6667_6787"
+        },
+        {
+          "start_time": 679500,
+          "end_time": 682700,
+          "content": "So. All of my documents I have is on Excel,",
+          "speaker": "Speaker 3",
+          "original_speaker": "Speaker 3",
+          "segment_uid": "7d9af3f64f61adc6bddcec88482897a8_6795_6827"
+        },
+        {
+          "start_time": 682700,
+          "end_time": 683580,
+          "content": "And it. Oh yeah.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "7d9af3f64f61adc6bddcec88482897a8_6827_6835"
+        },
+        {
+          "start_time": 684780,
+          "end_time": 685180,
+          "content": "So I'll type.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "7d9af3f64f61adc6bddcec88482897a8_6847_6851"
+        },
+        {
+          "start_time": 685260,
+          "end_time": 685980,
+          "content": "So when I log,",
+          "speaker": "Speaker 3",
+          "original_speaker": "Speaker 3",
+          "segment_uid": "7d9af3f64f61adc6bddcec88482897a8_6852_6859"
+        },
+        {
+          "start_time": 686620,
+          "end_time": 704860,
+          "content": "Yeah, I do that, and so here. Link. Yep, I am. But let me also put the actual. I think you should be able to click on that one, and it should put you straight into the login, and you should be able to log in that way,",
+          "speaker": "Speaker 3",
+          "original_speaker": "Speaker 3",
+          "segment_uid": "7d9af3f64f61adc6bddcec88482897a8_6866_7048"
+        },
+        {
+          "start_time": 705660,
+          "end_time": 706380,
+          "content": "Um, Lance.",
+          "speaker": "Speaker 3",
+          "original_speaker": "Speaker 3",
+          "segment_uid": "7d9af3f64f61adc6bddcec88482897a8_7056_7063"
+        },
+        {
+          "start_time": 706620,
+          "end_time": 707900,
+          "content": "Oh, there's no chat window.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "7d9af3f64f61adc6bddcec88482897a8_7066_7079"
+        },
+        {
+          "start_time": 709180,
+          "end_time": 709740,
+          "content": "There isn't.",
+          "speaker": "Speaker 3",
+          "original_speaker": "Speaker 3",
+          "segment_uid": "7d9af3f64f61adc6bddcec88482897a8_7091_7097"
+        },
+        {
+          "start_time": 710780,
+          "end_time": 711580,
+          "content": "Okay. There it goes.",
+          "speaker": "Speaker 3",
+          "original_speaker": "Speaker 3",
+          "segment_uid": "7d9af3f64f61adc6bddcec88482897a8_7107_7115"
+        },
+        {
+          "start_time": 711980,
+          "end_time": 712700,
+          "content": "It just loaded.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "7d9af3f64f61adc6bddcec88482897a8_7119_7127"
+        },
+        {
+          "start_time": 712700,
+          "end_time": 713740,
+          "content": "Oh, okay,",
+          "speaker": "Speaker 3",
+          "original_speaker": "Speaker 3",
+          "segment_uid": "7d9af3f64f61adc6bddcec88482897a8_7127_7137"
+        },
+        {
+          "start_time": 713740,
+          "end_time": 715180,
+          "content": "Perfect. Freaking out, look.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "7d9af3f64f61adc6bddcec88482897a8_7137_7151"
+        },
+        {
+          "start_time": 715180,
+          "end_time": 717020,
+          "content": "I was like, \"Oh man.\" Yeah.",
+          "speaker": "Speaker 3",
+          "original_speaker": "Speaker 3",
+          "segment_uid": "7d9af3f64f61adc6bddcec88482897a8_7151_7170"
+        },
+        {
+          "start_time": 718780,
+          "end_time": 719660,
+          "content": "Good old Microsoft.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "7d9af3f64f61adc6bddcec88482897a8_7187_7196"
+        },
+        {
+          "start_time": 721020,
+          "end_time": 722780,
+          "content": "Yeah, good old Microsoft.",
+          "speaker": "Speaker 3",
+          "original_speaker": "Speaker 3",
+          "segment_uid": "7d9af3f64f61adc6bddcec88482897a8_7210_7227"
+        },
+        {
+          "start_time": 723340,
+          "end_time": 724140,
+          "content": "Seriously.",
+          "speaker": "Speaker 3",
+          "original_speaker": "Speaker 3",
+          "segment_uid": "7d9af3f64f61adc6bddcec88482897a8_7233_7241"
+        },
+        {
+          "start_time": 725900,
+          "end_time": 727900,
+          "content": "Let's see. Okay.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "7d9af3f64f61adc6bddcec88482897a8_7259_7279"
+        },
+        {
+          "start_time": 733420,
+          "end_time": 736700,
+          "content": "I guess it's my lance dot faucher at brianearsbmw dot com.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "7d9af3f64f61adc6bddcec88482897a8_7334_7367"
+        },
+        {
+          "start_time": 737420,
+          "end_time": 739020,
+          "content": "Yes, I think that's the one.",
+          "speaker": "Speaker 3",
+          "original_speaker": "Speaker 3",
+          "segment_uid": "7d9af3f64f61adc6bddcec88482897a8_7374_7390"
+        },
+        {
+          "start_time": 739520,
+          "end_time": 741280,
+          "content": "And then it is.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "7d9af3f64f61adc6bddcec88482897a8_7395_7412"
+        },
+        {
+          "start_time": 742480,
+          "end_time": 744560,
+          "content": "Oh, so it wants me to go grab this.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "7d9af3f64f61adc6bddcec88482897a8_7424_7445"
+        },
+        {
+          "start_time": 747680,
+          "end_time": 748720,
+          "content": "Two FA code.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "7d9af3f64f61adc6bddcec88482897a8_7476_7487"
+        },
+        {
+          "start_time": 748720,
+          "end_time": 758640,
+          "content": "Oh my goodness gracious!",
+          "speaker": "Speaker 2",
+          "original_speaker": "Speaker 2",
+          "segment_uid": "7d9af3f64f61adc6bddcec88482897a8_7487_7586"
+        },
+        {
+          "start_time": 759520,
+          "end_time": 760000,
+          "content": "I know.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "7d9af3f64f61adc6bddcec88482897a8_7595_7600"
+        },
+        {
+          "start_time": 774310,
+          "end_time": 776070,
+          "content": "I mean, good God!",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "7d9af3f64f61adc6bddcec88482897a8_7743_7760"
+        },
+        {
+          "start_time": 777830,
+          "end_time": 778950,
+          "content": "Hang on, let's see.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "7d9af3f64f61adc6bddcec88482897a8_7778_7789"
+        },
+        {
+          "start_time": 780070,
+          "end_time": 781030,
+          "content": "Did he let you?",
+          "speaker": "Speaker 3",
+          "original_speaker": "Speaker 3",
+          "segment_uid": "7d9af3f64f61adc6bddcec88482897a8_7800_7810"
+        },
+        {
+          "start_time": 782150,
+          "end_time": 782710,
+          "content": "Not in yet.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "7d9af3f64f61adc6bddcec88482897a8_7821_7827"
+        },
+        {
+          "start_time": 783750,
+          "end_time": 788470,
+          "content": "Okay. I'm starting over. I like opening a whole new window because it just kind of cracked. It like went weird on me.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "7d9af3f64f61adc6bddcec88482897a8_7837_7884"
+        },
+        {
+          "start_time": 789590,
+          "end_time": 791590,
+          "content": "Okay. Hang on, let's see.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "7d9af3f64f61adc6bddcec88482897a8_7895_7915"
+        },
+        {
+          "start_time": 792390,
+          "end_time": 795430,
+          "content": "I know. It feels like a day of that. No systems are working.",
+          "speaker": "Speaker 3",
+          "original_speaker": "Speaker 3",
+          "segment_uid": "7d9af3f64f61adc6bddcec88482897a8_7923_7954"
+        },
+        {
+          "start_time": 798470,
+          "end_time": 808510,
+          "content": "Oh man! Even My husband, he was he he sends me a text and he's like,\"Is your email working?\" And I'm like, \"No.\" He's like, \"Yeah, mine either.",
+          "speaker": "Speaker 3",
+          "original_speaker": "Speaker 3",
+          "segment_uid": "7d9af3f64f61adc6bddcec88482897a8_7984_8085"
+        },
+        {
+          "start_time": 809310,
+          "end_time": 829790,
+          "content": "\" And he's in the plastic industries. He works at Husky in Milton, Vermont, and completely different company. But obviously, they also use Outlook. But he's like, \"Yeah, I haven't received any emails or sent any emails because I'm getting nothing. Nothing works.\" And I'm like,\"And he's like, 'What a day.'\" I'm like, \"Yeah.",
+          "speaker": "Speaker 3",
+          "original_speaker": "Speaker 3",
+          "segment_uid": "7d9af3f64f61adc6bddcec88482897a8_8093_8297"
+        },
+        {
+          "start_time": 830000,
+          "end_time": 832320,
+          "content": "\" Good old Outlook. Okay, here we go.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "7d9af3f64f61adc6bddcec88482897a8_8300_8323"
+        },
+        {
+          "start_time": 832880,
+          "end_time": 838320,
+          "content": "Let me reset my password.",
+          "speaker": "Speaker 3",
+          "original_speaker": "Speaker 3",
+          "segment_uid": "7d9af3f64f61adc6bddcec88482897a8_8328_8383"
+        },
+        {
+          "start_time": 841040,
+          "end_time": 841040,
+          "content": "There you go.",
+          "speaker": "Speaker 3",
+          "original_speaker": "Speaker 3",
+          "segment_uid": "7d9af3f64f61adc6bddcec88482897a8_8410_8410"
+        },
+        {
+          "start_time": 862520,
+          "end_time": 866600,
+          "content": "And everybody's like password requirements are just out of control.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "7d9af3f64f61adc6bddcec88482897a8_8625_8666"
+        },
+        {
+          "start_time": 867160,
+          "end_time": 869160,
+          "content": "I know. Do you know what it is?",
+          "speaker": "Speaker 3",
+          "original_speaker": "Speaker 3",
+          "segment_uid": "7d9af3f64f61adc6bddcec88482897a8_8671_8691"
+        },
+        {
+          "start_time": 869800,
+          "end_time": 879640,
+          "content": "I think it's just the scariness of how the systems have been with AI and everything that they can technically just grab.",
+          "speaker": "Speaker 3",
+          "original_speaker": "Speaker 3",
+          "segment_uid": "7d9af3f64f61adc6bddcec88482897a8_8698_8796"
+        },
+        {
+          "start_time": 879880,
+          "end_time": 895910,
+          "content": "The AIs are so good now. If you've got somebody running their own model that is, you know, completely independent and unrestricted by, you know, you can't you can't do nefarious things with an actual mainstream AI. It just won't let you.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "7d9af3f64f61adc6bddcec88482897a8_8798_8959"
+        },
+        {
+          "start_time": 896550,
+          "end_time": 901270,
+          "content": "But you can build a supercomputer and install your own, and then do whatever you want nowadays. All right,",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "7d9af3f64f61adc6bddcec88482897a8_8965_9012"
+        },
+        {
+          "start_time": 903350,
+          "end_time": 903750,
+          "content": "Perfect.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "7d9af3f64f61adc6bddcec88482897a8_9033_9037"
+        },
+        {
+          "start_time": 905030,
+          "end_time": 908950,
+          "content": "So you should be able to then see.",
+          "speaker": "Speaker 3",
+          "original_speaker": "Speaker 3",
+          "segment_uid": "7d9af3f64f61adc6bddcec88482897a8_9050_9089"
+        },
+        {
+          "start_time": 909590,
+          "end_time": 911030,
+          "content": "Let me show my screen.",
+          "speaker": "Speaker 3",
+          "original_speaker": "Speaker 3",
+          "segment_uid": "7d9af3f64f61adc6bddcec88482897a8_9095_9110"
+        },
+        {
+          "start_time": 915030,
+          "end_time": 919850,
+          "content": "Okay. You should be able to see something like this. If you can't,",
+          "speaker": "Speaker 3",
+          "original_speaker": "Speaker 3",
+          "segment_uid": "7d9af3f64f61adc6bddcec88482897a8_9150_9198"
+        },
+        {
+          "start_time": 920810,
+          "end_time": 923050,
+          "content": "Let me know. If yours looks different,",
+          "speaker": "Speaker 3",
+          "original_speaker": "Speaker 3",
+          "segment_uid": "7d9af3f64f61adc6bddcec88482897a8_9208_9230"
+        },
+        {
+          "start_time": 923850,
+          "end_time": 925690,
+          "content": "It might look like this.",
+          "speaker": "Speaker 3",
+          "original_speaker": "Speaker 3",
+          "segment_uid": "7d9af3f64f61adc6bddcec88482897a8_9238_9256"
+        },
+        {
+          "start_time": 927290,
+          "end_time": 930650,
+          "content": "Yeah, it looks like that. And I think you told me how to change that, right?",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "7d9af3f64f61adc6bddcec88482897a8_9272_9306"
+        },
+        {
+          "start_time": 931210,
+          "end_time": 938970,
+          "content": "Yep. So if you just go on the top left lens, you do content tree, or on the and in the top right, you do list view.",
+          "speaker": "Speaker 3",
+          "original_speaker": "Speaker 3",
+          "segment_uid": "7d9af3f64f61adc6bddcec88482897a8_9312_9389"
+        },
+        {
+          "start_time": 939690,
+          "end_time": 943290,
+          "content": "Then you have that folder view. Yep.",
+          "speaker": "Speaker 3",
+          "original_speaker": "Speaker 3",
+          "segment_uid": "7d9af3f64f61adc6bddcec88482897a8_9396_9432"
+        },
+        {
+          "start_time": 945340,
+          "end_time": 957660,
+          "content": "And then here you could technically add anything you need. I like to go to the index page, and then what I like to do is use the preview and the universal editor.",
+          "speaker": "Speaker 3",
+          "original_speaker": "Speaker 3",
+          "segment_uid": "7d9af3f64f61adc6bddcec88482897a8_9453_9576"
+        },
+        {
+          "start_time": 958460,
+          "end_time": 970940,
+          "content": "And those I find them in the index pages. And the reason is is because the universal editor interface is so much easier to use than going to the folders, because it's your like wizard WYSIWYG editor.",
+          "speaker": "Speaker 3",
+          "original_speaker": "Speaker 3",
+          "segment_uid": "7d9af3f64f61adc6bddcec88482897a8_9584_9709"
+        },
+        {
+          "start_time": 971900,
+          "end_time": 973340,
+          "content": "Yeah, that's what you want. You just,",
+          "speaker": "Speaker 3",
+          "original_speaker": "Speaker 3",
+          "segment_uid": "7d9af3f64f61adc6bddcec88482897a8_9719_9733"
+        },
+        {
+          "start_time": 973980,
+          "end_time": 977040,
+          "content": "Yep. And so that is here,",
+          "speaker": "Speaker 3",
+          "original_speaker": "Speaker 3",
+          "segment_uid": "7d9af3f64f61adc6bddcec88482897a8_9739_9770"
+        },
+        {
+          "start_time": 977680,
+          "end_time": 983760,
+          "content": "On there. If you scroll through, like this is what you see. You scroll through here,",
+          "speaker": "Speaker 3",
+          "original_speaker": "Speaker 3",
+          "segment_uid": "7d9af3f64f61adc6bddcec88482897a8_9776_9837"
+        },
+        {
+          "start_time": 984480,
+          "end_time": 988960,
+          "content": "And what I do, I save those links already.",
+          "speaker": "Speaker 3",
+          "original_speaker": "Speaker 3",
+          "segment_uid": "7d9af3f64f61adc6bddcec88482897a8_9844_9889"
+        },
+        {
+          "start_time": 989920,
+          "end_time": 1000560,
+          "content": "But that's your. That's what we do. For I normally just go through Universal Editor because then I can click on any section and kind of access it and make changes as needed.",
+          "speaker": "Speaker 3",
+          "original_speaker": "Speaker 3",
+          "segment_uid": "7d9af3f64f61adc6bddcec88482897a8_9899_10005"
+        },
+        {
+          "start_time": 1002580,
+          "end_time": 1010180,
+          "content": "And then to go to other pages, you just put the last piece of the URL here. But were you looking to change something in particular?",
+          "speaker": "Speaker 3",
+          "original_speaker": "Speaker 3",
+          "segment_uid": "7d9af3f64f61adc6bddcec88482897a8_10025_10101"
+        },
+        {
+          "start_time": 1010180,
+          "end_time": 1018260,
+          "content": "No, nothing in particular right now. I've just been letting be whatever you do and whatever you know. Okay, whatever the normal updates are, I kind of just let it. Yep.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "7d9af3f64f61adc6bddcec88482897a8_10101_10182"
+        },
+        {
+          "start_time": 1019780,
+          "end_time": 1023460,
+          "content": "Okay. I looked just the other day, and it looked. I mean, it looks good. It seems to all work well.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "7d9af3f64f61adc6bddcec88482897a8_10197_10234"
+        },
+        {
+          "start_time": 1024180,
+          "end_time": 1028420,
+          "content": "Yep. I'll let you kind of do your thing and tell me kind of what your like you know updates and all that kind of stuff are.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "7d9af3f64f61adc6bddcec88482897a8_10241_10284"
+        },
+        {
+          "start_time": 1029210,
+          "end_time": 1033770,
+          "content": "Yeah, definitely. So there's been a little bit of those updates already.",
+          "speaker": "Speaker 3",
+          "original_speaker": "Speaker 3",
+          "segment_uid": "7d9af3f64f61adc6bddcec88482897a8_10292_10337"
+        },
+        {
+          "start_time": 1034329,
+          "end_time": 1039130,
+          "content": "A couple of ones, the most recent ones, I'll I'll let you know. Quattro season,",
+          "speaker": "Speaker 3",
+          "original_speaker": "Speaker 3",
+          "segment_uid": "7d9af3f64f61adc6bddcec88482897a8_10343_10391"
+        },
+        {
+          "start_time": 1039849,
+          "end_time": 1043130,
+          "content": "They call it Quattro season now, so that content is added here.",
+          "speaker": "Speaker 3",
+          "original_speaker": "Speaker 3",
+          "segment_uid": "7d9af3f64f61adc6bddcec88482897a8_10398_10431"
+        },
+        {
+          "start_time": 1043690,
+          "end_time": 1056330,
+          "content": "Okay. The other update that we have too is there is FAQs that Audi sent for AI searches, so that's something else that.",
+          "speaker": "Speaker 3",
+          "original_speaker": "Speaker 3",
+          "segment_uid": "7d9af3f64f61adc6bddcec88482897a8_10436_10563"
+        },
+        {
+          "start_time": 1058080,
+          "end_time": 1072880,
+          "content": "I've been providing. I have them down here. Let me just show you. But the FAQs, um, it's something that we or Audi provided based on the searches that we receive.",
+          "speaker": "Speaker 3",
+          "original_speaker": "Speaker 3",
+          "segment_uid": "7d9af3f64f61adc6bddcec88482897a8_10580_10728"
+        },
+        {
+          "start_time": 1073520,
+          "end_time": 1074880,
+          "content": "Um, this one's here.",
+          "speaker": "Speaker 3",
+          "original_speaker": "Speaker 3",
+          "segment_uid": "7d9af3f64f61adc6bddcec88482897a8_10735_10748"
+        },
+        {
+          "start_time": 1075760,
+          "end_time": 1087760,
+          "content": "I know this is technically your secondary site, but if you wanna send any of these to me. With text, I'm more than happy to add it for you. You won't have to do it. I just need the text.",
+          "speaker": "Speaker 3",
+          "original_speaker": "Speaker 3",
+          "segment_uid": "7d9af3f64f61adc6bddcec88482897a8_10757_10877"
+        },
+        {
+          "start_time": 1088400,
+          "end_time": 1093200,
+          "content": "So you want me to just send you some, basically, some markdown files that are the things you would add.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "7d9af3f64f61adc6bddcec88482897a8_10884_10932"
+        },
+        {
+          "start_time": 1094000,
+          "end_time": 1096080,
+          "content": "Yep. For AI search. Yep.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "7d9af3f64f61adc6bddcec88482897a8_10940_10960"
+        },
+        {
+          "start_time": 1096160,
+          "end_time": 1111600,
+          "content": "You got it. And if you send me that, there's a section in the backend here that's called. It might be new because I don't think you've seen this one, but if you have, just let me know. There is called the editorial accordion. It's a content fragment that.",
+          "speaker": "Speaker 3",
+          "original_speaker": "Speaker 3",
+          "segment_uid": "7d9af3f64f61adc6bddcec88482897a8_10961_11116"
+        },
+        {
+          "start_time": 1112160,
+          "end_time": 1120320,
+          "content": "Has this portion here that you can enable? I'll just show you really quick, so that you can see. Whoops, you can see what I mean by that.",
+          "speaker": "Speaker 3",
+          "original_speaker": "Speaker 3",
+          "segment_uid": "7d9af3f64f61adc6bddcec88482897a8_11121_11203"
+        },
+        {
+          "start_time": 1121040,
+          "end_time": 1131760,
+          "content": "I'm just gonna call it FAQs. Whoops, FAQs. There we go. Okay, that portion. So that one has. I'm clicking too fast.",
+          "speaker": "Speaker 3",
+          "original_speaker": "Speaker 3",
+          "segment_uid": "7d9af3f64f61adc6bddcec88482897a8_11210_11317"
+        },
+        {
+          "start_time": 1132880,
+          "end_time": 1137600,
+          "content": "That one has a structured data. Um, that does it for you already. You don't even have to provide that.",
+          "speaker": "Speaker 3",
+          "original_speaker": "Speaker 3",
+          "segment_uid": "7d9af3f64f61adc6bddcec88482897a8_11328_11376"
+        },
+        {
+          "start_time": 1138240,
+          "end_time": 1148030,
+          "content": "So if you give me the text, I turn that on for you. It will help with AI searches, and we'll add it as an accordion for FAQs. Perfect.",
+          "speaker": "Speaker 3",
+          "original_speaker": "Speaker 3",
+          "segment_uid": "7d9af3f64f61adc6bddcec88482897a8_11382_11480"
+        },
+        {
+          "start_time": 1149310,
+          "end_time": 1161870,
+          "content": "So I'll send you that. The other thing I have to from Audi, that one I'll give you more updates. But we're gonna have custom forms, so creating custom forms if we need to.",
+          "speaker": "Speaker 3",
+          "original_speaker": "Speaker 3",
+          "segment_uid": "7d9af3f64f61adc6bddcec88482897a8_11493_11618"
+        },
+        {
+          "start_time": 1162830,
+          "end_time": 1166670,
+          "content": "That is also coming for us. Custom form creation.",
+          "speaker": "Speaker 3",
+          "original_speaker": "Speaker 3",
+          "segment_uid": "7d9af3f64f61adc6bddcec88482897a8_11628_11666"
+        },
+        {
+          "start_time": 1167660,
+          "end_time": 1177660,
+          "content": "The other one I have for you is here. Where did we go? New inventory. So, um,",
+          "speaker": "Speaker 3",
+          "original_speaker": "Speaker 3",
+          "segment_uid": "7d9af3f64f61adc6bddcec88482897a8_11676_11776"
+        },
+        {
+          "start_time": 1178220,
+          "end_time": 1196620,
+          "content": "The website updated on this section here, where they added additional vehicles. Displaying instead of having the see more. So now you see they load more vehicles. Now you see more at once. So they updated that too.",
+          "speaker": "Speaker 3",
+          "original_speaker": "Speaker 3",
+          "segment_uid": "7d9af3f64f61adc6bddcec88482897a8_11782_11966"
+        },
+        {
+          "start_time": 1197500,
+          "end_time": 1214780,
+          "content": "You probably have seen the background. It updated a little bit more. It's more within line with the Audi USA background. So it's um I forgot the name of it, but they changed it to be connected in the same way as you see Audi USA. Yeah.",
+          "speaker": "Speaker 3",
+          "original_speaker": "Speaker 3",
+          "segment_uid": "7d9af3f64f61adc6bddcec88482897a8_11975_12147"
+        },
+        {
+          "start_time": 1215900,
+          "end_time": 1227100,
+          "content": "Um, there was an update on these ones, these carousel offers, which I've been turning on for you. All that is. In which is this part?",
+          "speaker": "Speaker 3",
+          "original_speaker": "Speaker 3",
+          "segment_uid": "7d9af3f64f61adc6bddcec88482897a8_12159_12271"
+        },
+        {
+          "start_time": 1227660,
+          "end_time": 1244540,
+          "content": "They have this option now, and if we want to do it on anything else, images, images clickability for the carousel section. So this one, normally we use them for specials, but that's been also another update that we have received.",
+          "speaker": "Speaker 3",
+          "original_speaker": "Speaker 3",
+          "segment_uid": "7d9af3f64f61adc6bddcec88482897a8_12276_12445"
+        },
+        {
+          "start_time": 1245180,
+          "end_time": 1246620,
+          "content": "Yeah. Another one,",
+          "speaker": "Speaker 3",
+          "original_speaker": "Speaker 3",
+          "segment_uid": "7d9af3f64f61adc6bddcec88482897a8_12451_12466"
+        },
+        {
+          "start_time": 1247900,
+          "end_time": 1277380,
+          "content": "Q7 and Q9. I don't know if the store is having. An event, but if they are, or if they need to at least just use their forms, I know this is your secondary side, but the request for info goes straight into their CRM with the vehicle of interest attached to it. So if they do anything for that, and you guys want to use these forms, it will come and say that it's vehicle of interest Q9 specifically for these. And if you guys are having an event,",
+          "speaker": "Speaker 3",
+          "original_speaker": "Speaker 3",
+          "segment_uid": "7d9af3f64f61adc6bddcec88482897a8_12479_12773"
+        },
+        {
+          "start_time": 1278020,
+          "end_time": 1283820,
+          "content": "Instead of calling general here. The code is a little different, so that they know it's an event. Okay.",
+          "speaker": "Speaker 3",
+          "original_speaker": "Speaker 3",
+          "segment_uid": "7d9af3f64f61adc6bddcec88482897a8_12780_12838"
+        },
+        {
+          "start_time": 1284860,
+          "end_time": 1286780,
+          "content": "So that's the other one here,",
+          "speaker": "Speaker 3",
+          "original_speaker": "Speaker 3",
+          "segment_uid": "7d9af3f64f61adc6bddcec88482897a8_12848_12867"
+        },
+        {
+          "start_time": 1287420,
+          "end_time": 1293100,
+          "content": "And give me another minute. I have the other one here. Oh,",
+          "speaker": "Speaker 3",
+          "original_speaker": "Speaker 3",
+          "segment_uid": "7d9af3f64f61adc6bddcec88482897a8_12874_12931"
+        },
+        {
+          "start_time": 1294220,
+          "end_time": 1325290,
+          "content": "Analytics. Analytics change a little bit. So instead of us using Atlas, which I will normally send you that, now we're using Audi now. The Audi Intelligence. How does that one look like? It's on the lead side of things. So instead of using Atlas, we use Audi now on the Audi Intelligence, which the leads are there. Just showing you what I mean by that, but that's an update that happened pretty recently.",
+          "speaker": "Speaker 3",
+          "original_speaker": "Speaker 3",
+          "segment_uid": "7d9af3f64f61adc6bddcec88482897a8_12942_13252"
+        },
+        {
+          "start_time": 1325850,
+          "end_time": 1326970,
+          "content": "Okay, that's cool.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "7d9af3f64f61adc6bddcec88482897a8_13258_13269"
+        },
+        {
+          "start_time": 1328010,
+          "end_time": 1331050,
+          "content": "And so you can now see both stuff on here.",
+          "speaker": "Speaker 3",
+          "original_speaker": "Speaker 3",
+          "segment_uid": "7d9af3f64f61adc6bddcec88482897a8_13280_13310"
+        },
+        {
+          "start_time": 1331770,
+          "end_time": 1336330,
+          "content": "Let me change it because this is not here, but I wanted to pull it up.",
+          "speaker": "Speaker 3",
+          "original_speaker": "Speaker 3",
+          "segment_uid": "7d9af3f64f61adc6bddcec88482897a8_13317_13363"
+        },
+        {
+          "start_time": 1337740,
+          "end_time": 1345900,
+          "content": "And that's the change. So instead of Atlas, you will see all of the information on the website part section here.",
+          "speaker": "Speaker 3",
+          "original_speaker": "Speaker 3",
+          "segment_uid": "7d9af3f64f61adc6bddcec88482897a8_13377_13459"
+        },
+        {
+          "start_time": 1347100,
+          "end_time": 1350700,
+          "content": "Previously was on the Atlas side. So that's the update that we did receive.",
+          "speaker": "Speaker 3",
+          "original_speaker": "Speaker 3",
+          "segment_uid": "7d9af3f64f61adc6bddcec88482897a8_13471_13507"
+        },
+        {
+          "start_time": 1351740,
+          "end_time": 1356300,
+          "content": "I mentioned the inventory loading.",
+          "speaker": "Speaker 3",
+          "original_speaker": "Speaker 3",
+          "segment_uid": "7d9af3f64f61adc6bddcec88482897a8_13517_13563"
+        },
+        {
+          "start_time": 1357500,
+          "end_time": 1365260,
+          "content": "Alpha design. That's the name. It was bothering me. That's the Alpha design, same as Audi USA. So that's why it looks like that.",
+          "speaker": "Speaker 3",
+          "original_speaker": "Speaker 3",
+          "segment_uid": "7d9af3f64f61adc6bddcec88482897a8_13575_13652"
+        },
+        {
+          "start_time": 1367220,
+          "end_time": 1381540,
+          "content": "And then I think that was the most updates that I got for you. So Alpha Design, Quattro Season. There's also a video for Quattro Season if you guys want the updates for the carousels,",
+          "speaker": "Speaker 3",
+          "original_speaker": "Speaker 3",
+          "segment_uid": "7d9af3f64f61adc6bddcec88482897a8_13672_13815"
+        },
+        {
+          "start_time": 1382180,
+          "end_time": 1386660,
+          "content": "The updates for the listing pages, and the FAQs.",
+          "speaker": "Speaker 3",
+          "original_speaker": "Speaker 3",
+          "segment_uid": "7d9af3f64f61adc6bddcec88482897a8_13821_13866"
+        },
+        {
+          "start_time": 1387940,
+          "end_time": 1395060,
+          "content": "Perfect. So can you tell me this? Do you know if so? If I do want to get the access set up for my AI like my MCPs or or.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "7d9af3f64f61adc6bddcec88482897a8_13879_13950"
+        },
+        {
+          "start_time": 1395650,
+          "end_time": 1398770,
+          "content": "Do I just send an email to you to get permission, or how do I do it?",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "7d9af3f64f61adc6bddcec88482897a8_13956_13987"
+        },
+        {
+          "start_time": 1398850,
+          "end_time": 1410450,
+          "content": "Yep, send me an email because then I can create a case to support and have them assess if obviously we can do that. They are looking into this because other dealers are asking about AI,",
+          "speaker": "Speaker 3",
+          "original_speaker": "Speaker 3",
+          "segment_uid": "7d9af3f64f61adc6bddcec88482897a8_13988_14104"
+        },
+        {
+          "start_time": 1411410,
+          "end_time": 1421730,
+          "content": "So I know Audi Legal is already looking into it. So send me an email, and then I will go from there to like create a case and have our team to be like, hey, can we add this?",
+          "speaker": "Speaker 3",
+          "original_speaker": "Speaker 3",
+          "segment_uid": "7d9af3f64f61adc6bddcec88482897a8_14114_14217"
+        },
+        {
+          "start_time": 1422370,
+          "end_time": 1424850,
+          "content": "And that's it. So you can just tell me.",
+          "speaker": "Speaker 3",
+          "original_speaker": "Speaker 3",
+          "segment_uid": "7d9af3f64f61adc6bddcec88482897a8_14223_14248"
+        },
+        {
+          "start_time": 1425660,
+          "end_time": 1427020,
+          "content": "Perfect. And I'll I'll get it going.",
+          "speaker": "Speaker 3",
+          "original_speaker": "Speaker 3",
+          "segment_uid": "7d9af3f64f61adc6bddcec88482897a8_14256_14270"
+        },
+        {
+          "start_time": 1427900,
+          "end_time": 1433820,
+          "content": "Perfect. Yeah, I think that was it, Lance. But yeah,",
+          "speaker": "Speaker 3",
+          "original_speaker": "Speaker 3",
+          "segment_uid": "7d9af3f64f61adc6bddcec88482897a8_14279_14338"
+        },
+        {
+          "start_time": 1433820,
+          "end_time": 1437660,
+          "content": "I don't know that I have anything else or any concerns. I think it's just working.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "7d9af3f64f61adc6bddcec88482897a8_14338_14376"
+        },
+        {
+          "start_time": 1438860,
+          "end_time": 1439340,
+          "content": "Perfect.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "7d9af3f64f61adc6bddcec88482897a8_14388_14393"
+        },
+        {
+          "start_time": 1439340,
+          "end_time": 1453660,
+          "content": "Perfect. Good to hear. I did have to ask you because my director said ask Lance. He said, \"What will it?\" Or I I guess he told me,\"Ask ask Lance. What will it take for them to come back to OADD as their primary site?",
+          "speaker": "Speaker 3",
+          "original_speaker": "Speaker 3",
+          "segment_uid": "7d9af3f64f61adc6bddcec88482897a8_14393_14536"
+        },
+        {
+          "start_time": 1454230,
+          "end_time": 1455760,
+          "content": "\" So I said I will ask.",
+          "speaker": "Speaker 3",
+          "original_speaker": "Speaker 3",
+          "segment_uid": "7d9af3f64f61adc6bddcec88482897a8_14542_14557"
+        },
+        {
+          "start_time": 1455840,
+          "end_time": 1460800,
+          "content": "They have to. They have to go with a more modern backend. I mean that Adobe UX is okay.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "7d9af3f64f61adc6bddcec88482897a8_14558_14608"
+        },
+        {
+          "start_time": 1462080,
+          "end_time": 1462960,
+          "content": "Okay, that's fair.",
+          "speaker": "Speaker 3",
+          "original_speaker": "Speaker 3",
+          "segment_uid": "7d9af3f64f61adc6bddcec88482897a8_14620_14629"
+        },
+        {
+          "start_time": 1463360,
+          "end_time": 1471200,
+          "content": "It's terrible. It's odd that Porsche would choose Storyblock, which is is not the most cutting edge, but it's super modern.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "7d9af3f64f61adc6bddcec88482897a8_14633_14712"
+        },
+        {
+          "start_time": 1472080,
+          "end_time": 1490080,
+          "content": "And it's a it's a much it's a lot more close. It's a lot closer to a to a WYSIWYG. And it's like I plugged my APIs and my my AI is like directly into it. Okay. And then I can get into the backend, still do things, but man, the backend of this tool is really bad. Yeah.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "7d9af3f64f61adc6bddcec88482897a8_14720_14900"
+        },
+        {
+          "start_time": 1491280,
+          "end_time": 1507360,
+          "content": "So yeah, I mean, it's just it's an odd choice. I I don't know what else to say other than it is an odd choice. That's the with so many other platforms out there, and then also nowadays we're at we're in the AI world. You know, it's like you could kind of I don't know. There's a lot more solutions.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "7d9af3f64f61adc6bddcec88482897a8_14912_15073"
+        },
+        {
+          "start_time": 1507360,
+          "end_time": 1508000,
+          "content": "Everything automated.",
+          "speaker": "Speaker 3",
+          "original_speaker": "Speaker 3",
+          "segment_uid": "7d9af3f64f61adc6bddcec88482897a8_15073_15080"
+        },
+        {
+          "start_time": 1508480,
+          "end_time": 1513770,
+          "content": "You know, and yeah. Like my, if you go look at my motive, like my, if you just go to AudiBanners.com,",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "7d9af3f64f61adc6bddcec88482897a8_15084_15137"
+        },
+        {
+          "start_time": 1515050,
+          "end_time": 1515530,
+          "content": "Um,",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "7d9af3f64f61adc6bddcec88482897a8_15150_15155"
+        },
+        {
+          "start_time": 1516970,
+          "end_time": 1520490,
+          "content": "Like look at my actual, like my normal, my my Motive site, uh,",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "7d9af3f64f61adc6bddcec88482897a8_15169_15204"
+        },
+        {
+          "start_time": 1521130,
+          "end_time": 1522890,
+          "content": "You know, and I'll kind of as you scroll,",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "7d9af3f64f61adc6bddcec88482897a8_15211_15228"
+        },
+        {
+          "start_time": 1522890,
+          "end_time": 1523850,
+          "content": "Different one, yep.",
+          "speaker": "Speaker 3",
+          "original_speaker": "Speaker 3",
+          "segment_uid": "7d9af3f64f61adc6bddcec88482897a8_15228_15238"
+        },
+        {
+          "start_time": 1524810,
+          "end_time": 1528010,
+          "content": "You're basically my headlines at the top.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "7d9af3f64f61adc6bddcec88482897a8_15248_15280"
+        },
+        {
+          "start_time": 1528570,
+          "end_time": 1544750,
+          "content": "My, you see those panel Q3 and Q5. Like you can keep just scroll through, and I'll show you what I mean. Like if you right right here the Q3 Q5 panel. I I put that up from a prompt. I said, \"Hey, I need a Q3 Q5 panel featuring the the 1.99, \" and it was up in five minutes. You know,",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "7d9af3f64f61adc6bddcec88482897a8_15285_15447"
+        },
+        {
+          "start_time": 1545710,
+          "end_time": 1550350,
+          "content": "And then like as you scroll down, you look at all the different elements that I've added. I've got a lot of custom elements,",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "7d9af3f64f61adc6bddcec88482897a8_15457_15503"
+        },
+        {
+          "start_time": 1550990,
+          "end_time": 1554670,
+          "content": "And everything works. Everything looks Audi. Everything's pretty,",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "7d9af3f64f61adc6bddcec88482897a8_15509_15546"
+        },
+        {
+          "start_time": 1555230,
+          "end_time": 1559950,
+          "content": "And it's it's got it's been a it's been a lot of work to get it to the point where it is this easy.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "7d9af3f64f61adc6bddcec88482897a8_15552_15599"
+        },
+        {
+          "start_time": 1560670,
+          "end_time": 1565390,
+          "content": "Yeah. But it's to the point now where it's very easy.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "7d9af3f64f61adc6bddcec88482897a8_15606_15653"
+        },
+        {
+          "start_time": 1566790,
+          "end_time": 1570150,
+          "content": "Right. So it's like you give a prompt to your AI.",
+          "speaker": "Speaker 3",
+          "original_speaker": "Speaker 3",
+          "segment_uid": "7d9af3f64f61adc6bddcec88482897a8_15667_15701"
+        },
+        {
+          "start_time": 1570230,
+          "end_time": 1575910,
+          "content": "So I have a yeah, I have a yep, I have a full agentic AI system with about twenty or thirty different subagents,",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "7d9af3f64f61adc6bddcec88482897a8_15702_15759"
+        },
+        {
+          "start_time": 1576550,
+          "end_time": 1586710,
+          "content": "And so okay, and then I have a huge Google Drive and GitHub repos, and I have a lot of contents and creatives and a lot of different pieces,",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "7d9af3f64f61adc6bddcec88482897a8_15765_15867"
+        },
+        {
+          "start_time": 1587670,
+          "end_time": 1612450,
+          "content": "And it already it's fully trained on what things should look like. Right. Okay. And it operates inside of Motive also, so it's like it can go in. It can write HTML. It can inject HTML. You know, I've even it even operates inside of it where it it can drop a form in for me. The whole thing. Yeah. It's it's essentially.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "7d9af3f64f61adc6bddcec88482897a8_15876_16124"
+        },
+        {
+          "start_time": 1614370,
+          "end_time": 1617570,
+          "content": "I don't have to sit at a laptop much anymore to do this work.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "7d9af3f64f61adc6bddcec88482897a8_16143_16175"
+        },
+        {
+          "start_time": 1618610,
+          "end_time": 1621970,
+          "content": "I see. Yeah. I can automation. It's.",
+          "speaker": "Speaker 3",
+          "original_speaker": "Speaker 3",
+          "segment_uid": "7d9af3f64f61adc6bddcec88482897a8_16186_16219"
+        },
+        {
+          "start_time": 1622410,
+          "end_time": 1628810,
+          "content": "It's almost fully, and you know, I'm. It's funny because I was reading an article the other day about like what AI has done, and it is the doer.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "7d9af3f64f61adc6bddcec88482897a8_16224_16288"
+        },
+        {
+          "start_time": 1629450,
+          "end_time": 1638890,
+          "content": "It still doesn't decide, right? And so it's like you still have to have someone with some good sense, good marketing sense, you know, good sort of aesthetic sense, so you know what things should look like,",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "7d9af3f64f61adc6bddcec88482897a8_16294_16388"
+        },
+        {
+          "start_time": 1639530,
+          "end_time": 1641450,
+          "content": "And you still have to be a good decision maker.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "7d9af3f64f61adc6bddcec88482897a8_16395_16414"
+        },
+        {
+          "start_time": 1642090,
+          "end_time": 1646090,
+          "content": "But as far as the doing, like I don't have to sit and do all of the clicking anymore.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "7d9af3f64f61adc6bddcec88482897a8_16420_16460"
+        },
+        {
+          "start_time": 1646970,
+          "end_time": 1648090,
+          "content": "Yeah, I see what you mean.",
+          "speaker": "Speaker 3",
+          "original_speaker": "Speaker 3",
+          "segment_uid": "7d9af3f64f61adc6bddcec88482897a8_16469_16480"
+        },
+        {
+          "start_time": 1648090,
+          "end_time": 1661350,
+          "content": "You know, like it. I would have, for example, I used to have it write the code for me, and so then I would have a cool page. But then I would have to go and inject it and go drop it in and move it around and make sure it was in there. And but now I've got it to where it can even go and inject and build whole new pages.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "7d9af3f64f61adc6bddcec88482897a8_16480_16613"
+        },
+        {
+          "start_time": 1662390,
+          "end_time": 1666230,
+          "content": "You know, like like there's another example. If you go click about,",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "7d9af3f64f61adc6bddcec88482897a8_16623_16662"
+        },
+        {
+          "start_time": 1668150,
+          "end_time": 1668870,
+          "content": "About,",
+          "speaker": "Speaker 3",
+          "original_speaker": "Speaker 3",
+          "segment_uid": "7d9af3f64f61adc6bddcec88482897a8_16681_16688"
+        },
+        {
+          "start_time": 1669270,
+          "end_time": 1677670,
+          "content": "Yep, and then you see where it says Style News Two, O2, yes, or one, just pick one and click pick that one. So this is a luxury.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "7d9af3f64f61adc6bddcec88482897a8_16692_16776"
+        },
+        {
+          "start_time": 1678430,
+          "end_time": 1683710,
+          "content": "Lifestyle newsletter, and I write this new newsletter for each one of my stores every month,",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "7d9af3f64f61adc6bddcec88482897a8_16784_16837"
+        },
+        {
+          "start_time": 1684430,
+          "end_time": 1693710,
+          "content": "And it's got articles about the latest sporting events, whatever our offers are, the cool watch of the season, the cool restaurants to go to, the cool coffee shops in the area.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "7d9af3f64f61adc6bddcec88482897a8_16844_16937"
+        },
+        {
+          "start_time": 1693710,
+          "end_time": 1694830,
+          "content": "They love all things.",
+          "speaker": "Speaker 3",
+          "original_speaker": "Speaker 3",
+          "segment_uid": "7d9af3f64f61adc6bddcec88482897a8_16937_16948"
+        },
+        {
+          "start_time": 1694830,
+          "end_time": 1699470,
+          "content": "So it's got a, it's like a whole local newsletter, and this goes out in emails, and it also lives on my website too.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "7d9af3f64f61adc6bddcec88482897a8_16948_16994"
+        },
+        {
+          "start_time": 1701070,
+          "end_time": 1702510,
+          "content": "I see, and that's all.",
+          "speaker": "Speaker 3",
+          "original_speaker": "Speaker 3",
+          "segment_uid": "7d9af3f64f61adc6bddcec88482897a8_17010_17025"
+        },
+        {
+          "start_time": 1702590,
+          "end_time": 1707070,
+          "content": "That's also all written and designed by AI every month.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "7d9af3f64f61adc6bddcec88482897a8_17025_17070"
+        },
+        {
+          "start_time": 1708230,
+          "end_time": 1710630,
+          "content": "Wow, and then just inject it onto the website.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "7d9af3f64f61adc6bddcec88482897a8_17082_17106"
+        },
+        {
+          "start_time": 1711830,
+          "end_time": 1728230,
+          "content": "Okay, you know, and so I like have to kind of play the role of editor. Like I'll go through each issue, make sure it doesn't say anything kind of crazy, make sure it looks, you know, make sure it makes sense. Yeah, a big part of it is a lot of times you have to tell the AI's, hey, this needs to be for humans. Like, yeah,",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "7d9af3f64f61adc6bddcec88482897a8_17118_17282"
+        },
+        {
+          "start_time": 1729110,
+          "end_time": 1736390,
+          "content": "This is for humans. But as far as things being like up to date and and like honestly, like this whole new alignment with the prices matching up.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "7d9af3f64f61adc6bddcec88482897a8_17291_17363"
+        },
+        {
+          "start_time": 1737270,
+          "end_time": 1739030,
+          "content": "Right, the new the new rules for pricing.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "7d9af3f64f61adc6bddcec88482897a8_17372_17390"
+        },
+        {
+          "start_time": 1740470,
+          "end_time": 1748950,
+          "content": "I dropped all the rules for pricing into my AI, and I said, \"Hey, go check my offers page and make sure it's compliant.\" And it went in and changed everything in the offers page.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "7d9af3f64f61adc6bddcec88482897a8_17404_17489"
+        },
+        {
+          "start_time": 1750950,
+          "end_time": 1751510,
+          "content": "I see.",
+          "speaker": "Speaker 3",
+          "original_speaker": "Speaker 3",
+          "segment_uid": "7d9af3f64f61adc6bddcec88482897a8_17509_17515"
+        },
+        {
+          "start_time": 1751590,
+          "end_time": 1752470,
+          "content": "You know, done.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "7d9af3f64f61adc6bddcec88482897a8_17515_17524"
+        },
+        {
+          "start_time": 1753590,
+          "end_time": 1762950,
+          "content": "Yeah. So, that's a big piece of why I like Motive is it does give me full connectivity to my AIs, and so and and it also the platform you know it works well,",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "7d9af3f64f61adc6bddcec88482897a8_17535_17629"
+        },
+        {
+          "start_time": 1763510,
+          "end_time": 1781420,
+          "content": "But also I can update and modernize, and I stay super fresh. I don't have to worry about oh, this is out of date, or okay, now I've got to send an email to Vanya, and then she's got to do it, and she's busy, and I'm busy, and you know, it's no more of that sort of waiting to just do real basic things. It just kind of does it for me.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "7d9af3f64f61adc6bddcec88482897a8_17635_17814"
+        },
+        {
+          "start_time": 1782300,
+          "end_time": 1783420,
+          "content": "Yeah, that's fair.",
+          "speaker": "Speaker 3",
+          "original_speaker": "Speaker 3",
+          "segment_uid": "7d9af3f64f61adc6bddcec88482897a8_17823_17834"
+        },
+        {
+          "start_time": 1783820,
+          "end_time": 1792690,
+          "content": "And it's proactive. So if I get an email from Hedrick that says,\"Hey, I want to change the prices,\" my AI within about thirty minutes goes,\"Hey, Hedrick emailed you. He wants to change the prices.\"",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "7d9af3f64f61adc6bddcec88482897a8_17838_17926"
+        },
+        {
+          "start_time": 1793310,
+          "end_time": 1795870,
+          "content": "Should I go change them for you? And I said, \"Yeah, go change them.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "7d9af3f64f61adc6bddcec88482897a8_17933_17958"
+        },
+        {
+          "start_time": 1799230,
+          "end_time": 1801150,
+          "content": "\" It's spooky. It's spooky.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "7d9af3f64f61adc6bddcec88482897a8_17992_18011"
+        },
+        {
+          "start_time": 1801150,
+          "end_time": 1808190,
+          "content": "You know what? It reminds me of that commercial. Every day I'm shuffling, and you are just cooking, and then you just tell us,\"Sure, do it for me.",
+          "speaker": "Speaker 3",
+          "original_speaker": "Speaker 3",
+          "segment_uid": "7d9af3f64f61adc6bddcec88482897a8_18011_18081"
+        },
+        {
+          "start_time": 1808510,
+          "end_time": 1810750,
+          "content": "\" Yep, do that, please. Yep, do that, please.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "7d9af3f64f61adc6bddcec88482897a8_18085_18107"
+        },
+        {
+          "start_time": 1812030,
+          "end_time": 1818830,
+          "content": "Oh boy, yeah, that's fair. I'll let my director know. Thank you, Lance, for sharing. You know what's? Yeah, for sure.",
+          "speaker": "Speaker 3",
+          "original_speaker": "Speaker 3",
+          "segment_uid": "7d9af3f64f61adc6bddcec88482897a8_18120_18188"
+        },
+        {
+          "start_time": 1818830,
+          "end_time": 1823130,
+          "content": "And you know what's fun is they have the opportunity to go like full. Fully the other way,",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "7d9af3f64f61adc6bddcec88482897a8_18188_18231"
+        },
+        {
+          "start_time": 1824010,
+          "end_time": 1829850,
+          "content": "You know. Like if, because I I just asked my AI while we've been on this call, and so the good news is,",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "7d9af3f64f61adc6bddcec88482897a8_18240_18298"
+        },
+        {
+          "start_time": 1830410,
+          "end_time": 1833530,
+          "content": "Adobe runs an official AEM connector,",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "7d9af3f64f61adc6bddcec88482897a8_18304_18335"
+        },
+        {
+          "start_time": 1834330,
+          "end_time": 1842490,
+          "content": "So I could literally just plug my AI into y'all's the AEM, the Adobe Experience Manager for for Audi,",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "7d9af3f64f61adc6bddcec88482897a8_18343_18424"
+        },
+        {
+          "start_time": 1843210,
+          "end_time": 1845690,
+          "content": "And then it would it can do all of this updating for us.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "7d9af3f64f61adc6bddcec88482897a8_18432_18456"
+        },
+        {
+          "start_time": 1846250,
+          "end_time": 1851300,
+          "content": "Yeah, I know. Adobe has a lot of things because Adobe is very big in the market.",
+          "speaker": "Speaker 3",
+          "original_speaker": "Speaker 3",
+          "segment_uid": "7d9af3f64f61adc6bddcec88482897a8_18462_18513"
+        },
+        {
+          "start_time": 1851300,
+          "end_time": 1854660,
+          "content": "They are, and they're very cutting edge. But but Audi has to like allow it.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "7d9af3f64f61adc6bddcec88482897a8_18513_18546"
+        },
+        {
+          "start_time": 1855620,
+          "end_time": 1857220,
+          "content": "Yes, it's Audi's rules.",
+          "speaker": "Speaker 3",
+          "original_speaker": "Speaker 3",
+          "segment_uid": "7d9af3f64f61adc6bddcec88482897a8_18556_18572"
+        },
+        {
+          "start_time": 1858340,
+          "end_time": 1866820,
+          "content": "Yeah, you're right. It is Audi's rules. It's a lot of legal and just things that they need to change because yeah, I mean, Adobe is worldwide. It's everywhere. Yes.",
+          "speaker": "Speaker 3",
+          "original_speaker": "Speaker 3",
+          "segment_uid": "7d9af3f64f61adc6bddcec88482897a8_18583_18668"
+        },
+        {
+          "start_time": 1867700,
+          "end_time": 1872900,
+          "content": "So yeah, yeah. I'll share with my team. Um, I'll let you know what I get.",
+          "speaker": "Speaker 3",
+          "original_speaker": "Speaker 3",
+          "segment_uid": "7d9af3f64f61adc6bddcec88482897a8_18677_18729"
+        },
+        {
+          "start_time": 1873520,
+          "end_time": 1876800,
+          "content": "But thank you for for letting me know and showing me these stuff.",
+          "speaker": "Speaker 3",
+          "original_speaker": "Speaker 3",
+          "segment_uid": "7d9af3f64f61adc6bddcec88482897a8_18735_18768"
+        },
+        {
+          "start_time": 1876880,
+          "end_time": 1879680,
+          "content": "For sure, yeah, I I love working with you.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "7d9af3f64f61adc6bddcec88482897a8_18768_18796"
+        },
+        {
+          "start_time": 1880960,
+          "end_time": 1894240,
+          "content": "So thank you, Lance. Well, I'll send you the notes. Um, as you know, I keep just updating general stuff. Obviously, I'm not gonna put like things that you are like, why is this money? Why it's just all specificity.",
+          "speaker": "Speaker 3",
+          "original_speaker": "Speaker 3",
+          "segment_uid": "7d9af3f64f61adc6bddcec88482897a8_18809_18942"
+        },
+        {
+          "start_time": 1894240,
+          "end_time": 1898400,
+          "content": "I look at it every every week. I pull it up and I look through it, and you know,",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "7d9af3f64f61adc6bddcec88482897a8_18942_18984"
+        },
+        {
+          "start_time": 1898640,
+          "end_time": 1901280,
+          "content": "Bills and you know, yeah, APRs.",
+          "speaker": "Speaker 3",
+          "original_speaker": "Speaker 3",
+          "segment_uid": "7d9af3f64f61adc6bddcec88482897a8_18986_19012"
+        },
+        {
+          "start_time": 1901520,
+          "end_time": 1905340,
+          "content": "Yep. Everything's staying up to date. It looks good. I appreciate you. Awesome.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "7d9af3f64f61adc6bddcec88482897a8_19015_19053"
+        },
+        {
+          "start_time": 1905500,
+          "end_time": 1906380,
+          "content": "I'm glad to hear.",
+          "speaker": "Speaker 3",
+          "original_speaker": "Speaker 3",
+          "segment_uid": "7d9af3f64f61adc6bddcec88482897a8_19055_19063"
+        },
+        {
+          "start_time": 1907180,
+          "end_time": 1911580,
+          "content": "I'll send you then the notes. And yeah, if anything comes up, just let me know.",
+          "speaker": "Speaker 3",
+          "original_speaker": "Speaker 3",
+          "segment_uid": "7d9af3f64f61adc6bddcec88482897a8_19071_19115"
+        },
+        {
+          "start_time": 1912380,
+          "end_time": 1914860,
+          "content": "Will do. Thank you. You have a good one. Thank you.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "7d9af3f64f61adc6bddcec88482897a8_19123_19148"
+        },
+        {
+          "start_time": 1914860,
+          "end_time": 1915580,
+          "content": "You too, Lance.",
+          "speaker": "Speaker 3",
+          "original_speaker": "Speaker 3",
+          "segment_uid": "7d9af3f64f61adc6bddcec88482897a8_19148_19155"
+        },
+        {
+          "start_time": 1915660,
+          "end_time": 1916540,
+          "content": "Bye. Bye.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "7d9af3f64f61adc6bddcec88482897a8_19156_19165"
+        }
+      ]
+    },
+    {
+      "id": "of_989379e6b865d7adc209912ca1fc8111",
+      "name": "Personal \u00b7 wound-care grant training partner (Nov 12)",
+      "start_at": "2026-11-12T21:14:06",
+      "created_at": "2026-11-12T21:16:04",
+      "duration_ms": 106000,
+      "vertical": "personal",
+      "store": null,
+      "routed_by": "Morning ops Nov 13 \u2014 personal grant/training callback",
+      "status": "park",
+      "work_order": "Park. Personal/grant \u2014 no Coop action. They call Lance back on training-partner agreement.",
+      "summary_md": "### Personal \u00b7 wound-care funding / training partner \u00b7 Nov 12 (~1m46s)\nShort callback while Lance was mid-review. Other side preferred ~45m later.\n\nGrant path may want a **training partner + agreement** up front; counterpart said **funding first**, then put hires through wound-care courses already sent. They will call the partner / call Lance back.\n\nNo Cooperative Agency work.",
+      "highlights": [],
+      "plaud_note_md": "- Lance said he was reviewing materials and that either callback timing was fine; Speaker 2 suggested calling him back in 45 minutes.\n- Lance said they needed to line up a training partner and agreement, which he thought the grant required. Speaker 2 said they needed funding first, then would use the wound-care courses sent to train people they hired.\n- Speaker 3 said they would have to call someone; Lance later said, \u201cCall me back.\u201d",
+      "transcript": [
+        {
+          "start_time": 1040,
+          "end_time": 2000,
+          "content": "Hello. How are you?",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "989379e6b865d7adc209912ca1fc8111_10_20"
+        },
+        {
+          "start_time": 2720,
+          "end_time": 4080,
+          "content": "Hey. What you got?",
+          "speaker": "Speaker 2",
+          "original_speaker": "Speaker 2",
+          "segment_uid": "989379e6b865d7adc209912ca1fc8111_27_40"
+        },
+        {
+          "start_time": 4640,
+          "end_time": 7680,
+          "content": "Oh, nothing. Where Where do we stand with this?",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "989379e6b865d7adc209912ca1fc8111_46_76"
+        },
+        {
+          "start_time": 8720,
+          "end_time": 11440,
+          "content": "So I'm looking at the the thing right now.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "989379e6b865d7adc209912ca1fc8111_87_114"
+        },
+        {
+          "start_time": 13680,
+          "end_time": 15920,
+          "content": "What was your last question you had for me?",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "989379e6b865d7adc209912ca1fc8111_136_159"
+        },
+        {
+          "start_time": 18240,
+          "end_time": 20480,
+          "content": "Oh. I'm looking at it right now.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "989379e6b865d7adc209912ca1fc8111_182_204"
+        },
+        {
+          "start_time": 21600,
+          "end_time": 26160,
+          "content": "You kind of called back. You called me quicker than I than I was ready for, because I'm in the middle of reviewing all this stuff.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "989379e6b865d7adc209912ca1fc8111_216_261"
+        },
+        {
+          "start_time": 27630,
+          "end_time": 31070,
+          "content": "It would actually be better if we just call you back in like forty-five minutes.",
+          "speaker": "Speaker 2",
+          "original_speaker": "Speaker 2",
+          "segment_uid": "989379e6b865d7adc209912ca1fc8111_276_310"
+        },
+        {
+          "start_time": 31070,
+          "end_time": 33710,
+          "content": "That's up to you. I don't. Yeah, it's fine either way. I mean,",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "989379e6b865d7adc209912ca1fc8111_310_337"
+        },
+        {
+          "start_time": 34590,
+          "end_time": 38670,
+          "content": "It's it's really just like I just want to make sure we don't miss anything.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "989379e6b865d7adc209912ca1fc8111_345_386"
+        },
+        {
+          "start_time": 41790,
+          "end_time": 45070,
+          "content": "Let's see, match or split works. What else you need to do?",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "989379e6b865d7adc209912ca1fc8111_417_450"
+        },
+        {
+          "start_time": 46990,
+          "end_time": 54270,
+          "content": "Lock a training partner. So the whole training question: How does that work, and what what do you need to do to get that sort of lined up?",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "989379e6b865d7adc209912ca1fc8111_469_542"
+        },
+        {
+          "start_time": 56590,
+          "end_time": 60590,
+          "content": "I just have to get, I guess, the funding, and then I will,",
+          "speaker": "Speaker 2",
+          "original_speaker": "Speaker 2",
+          "segment_uid": "989379e6b865d7adc209912ca1fc8111_565_605"
+        },
+        {
+          "start_time": 61390,
+          "end_time": 66670,
+          "content": "The wound care courses, the ones I sent you.",
+          "speaker": "Speaker 2",
+          "original_speaker": "Speaker 2",
+          "segment_uid": "989379e6b865d7adc209912ca1fc8111_613_666"
+        },
+        {
+          "start_time": 67230,
+          "end_time": 71310,
+          "content": "Then I would the people that I hired, I'd put them through the course. So what?",
+          "speaker": "Speaker 2",
+          "original_speaker": "Speaker 2",
+          "segment_uid": "989379e6b865d7adc209912ca1fc8111_672_713"
+        },
+        {
+          "start_time": 71390,
+          "end_time": 72750,
+          "content": "Like, but what they're saying is,",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "989379e6b865d7adc209912ca1fc8111_713_727"
+        },
+        {
+          "start_time": 73310,
+          "end_time": 77950,
+          "content": "I think what the grant is saying is they want you to have a training partner lined up, like,",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "989379e6b865d7adc209912ca1fc8111_733_779"
+        },
+        {
+          "start_time": 79630,
+          "end_time": 81870,
+          "content": "And have, I guess, an agreement with them already.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "989379e6b865d7adc209912ca1fc8111_796_818"
+        },
+        {
+          "start_time": 83150,
+          "end_time": 84270,
+          "content": "No, no, okay.",
+          "speaker": "Speaker 2",
+          "original_speaker": "Speaker 2",
+          "segment_uid": "989379e6b865d7adc209912ca1fc8111_831_842"
+        },
+        {
+          "start_time": 86440,
+          "end_time": 93560,
+          "content": "Well, I'm gonna have to call him then.",
+          "speaker": "Speaker 3",
+          "original_speaker": "Speaker 3",
+          "segment_uid": "989379e6b865d7adc209912ca1fc8111_864_935"
+        },
+        {
+          "start_time": 93640,
+          "end_time": 94120,
+          "content": "Let's see.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "989379e6b865d7adc209912ca1fc8111_936_941"
+        },
+        {
+          "start_time": 97400,
+          "end_time": 100600,
+          "content": "Cause let's see, training agreement. Okay,",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "989379e6b865d7adc209912ca1fc8111_974_1006"
+        },
+        {
+          "start_time": 102280,
+          "end_time": 103320,
+          "content": "Call me back. All right. Okay, no.",
+          "speaker": "Lance",
+          "original_speaker": "Lance",
+          "segment_uid": "989379e6b865d7adc209912ca1fc8111_1022_1033"
         }
       ]
     }
